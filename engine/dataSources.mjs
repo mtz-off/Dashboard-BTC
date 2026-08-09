@@ -3,18 +3,35 @@ import { getJSON, getText } from "./net.mjs";
 
 const CG = "https://api.coingecko.com/api/v3";
 
+// Prix courant = vrai prix d'exchange (Kraken), pas un agrégateur. CoinGecko agrège des
+// centaines de marchés et peut dériver de 0.3-0.5% par rapport au prix qu'on voit sur un
+// exchange réel — Kraken colle à ce que l'utilisateur peut vérifier lui-même.
 export async function fetchSpotPrice() {
-  const j = await getJSON(
-    `${CG}/simple/price?ids=bitcoin&vs_currencies=usd,eur&include_24hr_change=true&include_24hr_vol=true&include_market_cap=true`
-  );
-  return {
-    usd: j.bitcoin.usd,
-    eur: j.bitcoin.eur,
-    change24h: j.bitcoin.usd_24h_change,
-    vol24h: j.bitcoin.usd_24h_vol,
-    marketCap: j.bitcoin.usd_market_cap,
-    fetchedAt: new Date().toISOString(),
-  };
+  try {
+    const j = await getJSON("https://api.kraken.com/0/public/Ticker?pair=XBTUSD,XBTEUR");
+    const usd = Number(j.result.XXBTZUSD.c[0]);
+    const eur = Number(j.result.XXBTZEUR.c[0]);
+    const openUsd = Number(j.result.XXBTZUSD.o);
+    return {
+      usd,
+      eur,
+      change24h: ((usd - openUsd) / openUsd) * 100,
+      source: "kraken",
+      fetchedAt: new Date().toISOString(),
+    };
+  } catch (e) {
+    // Repli sur CoinGecko si Kraken est injoignable (ex: blocage régional du runner CI).
+    const j = await getJSON(
+      `${CG}/simple/price?ids=bitcoin&vs_currencies=usd,eur&include_24hr_change=true`
+    );
+    return {
+      usd: j.bitcoin.usd,
+      eur: j.bitcoin.eur,
+      change24h: j.bitcoin.usd_24h_change,
+      source: "coingecko-fallback",
+      fetchedAt: new Date().toISOString(),
+    };
+  }
 }
 
 // Séries de clôtures ~horaires (fenêtre 10 jours -> granularité horaire chez CoinGecko).

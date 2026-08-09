@@ -15,7 +15,7 @@
   <div class="ticker" id="ticker">
     <span class="ticker-price" id="tickerPrice">…</span>
     <span class="ticker-change" id="tickerChange"></span>
-    <span class="ticker-live">LIVE · maj auto ~10s</span>
+    <span class="ticker-live" id="tickerLive">connexion…</span>
   </div>
 </header>
 
@@ -56,7 +56,7 @@
     <div class="portfolio-stats" id="portfolioStats"></div>
     <div id="stoppedBanner" class="stopped-banner hidden">⛔ Trading arrêté — solde à 0€.</div>
     <div class="equity-chart-wrap">
-      <svg id="equityChart" viewBox="0 0 600 160" preserveAspectRatio="none"></svg>
+      <svg id="equityChart" viewBox="0 0 600 180" preserveAspectRatio="none"></svg>
     </div>
   </section>
 
@@ -81,8 +81,8 @@
   <section class="panel sources-panel">
     <h2>Sources de données réelles</h2>
     <ul class="sources-list">
-      <li>Prix &amp; historique BTC/USD, BTC/EUR — CoinGecko API</li>
-      <li>Bougies OHLC (ATR) — CoinGecko API</li>
+      <li>Prix BTC/USD, BTC/EUR en direct — Kraken (repli CoinGecko)</li>
+      <li>Historique de prix &amp; bougies OHLC (indicateurs, ATR) — CoinGecko API</li>
       <li>Fear &amp; Greed Index — alternative.me</li>
       <li>Funding rate BTC perpétuel — Binance Futures API</li>
       <li>News — flux RSS CoinDesk, Cointelegraph, Decrypt</li>
