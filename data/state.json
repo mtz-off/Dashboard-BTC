@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 75,
-  "equityEUR": 100.03,
+  "equityEUR": 100.07,
   "stopped": false,
   "openPositions": [
     {
@@ -123,10 +123,10 @@
         "points": -2
       }
     ],
-    "computedAt": "2026-08-09T14:26:15.711Z",
-    "priceUSD": 65120.2,
-    "priceEUR": 56384.7,
-    "change24h": 0.3374359796120873
+    "computedAt": "2026-08-09T14:26:29.221Z",
+    "priceUSD": 65120.4,
+    "priceEUR": 56390.8,
+    "change24h": 0.3377441403240685
   },
   "history": [
     {
@@ -138,7 +138,12 @@
       "t": "2026-08-09T14:26:15.714Z",
       "equityEUR": 100.03,
       "priceEUR": 56384.7
+    },
+    {
+      "t": "2026-08-09T14:26:29.223Z",
+      "equityEUR": 100.07,
+      "priceEUR": 56390.8
     }
   ],
-  "lastRun": "2026-08-09T14:26:15.714Z"
+  "lastRun": "2026-08-09T14:26:29.223Z"
 }
