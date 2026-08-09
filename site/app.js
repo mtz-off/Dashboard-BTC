@@ -22,7 +22,9 @@ function renderSignal(state) {
   document.getElementById("signalUpdated").textContent = `màj ${fmtDate(s.computedAt)}`;
   document.getElementById("strengthFill").style.width = `${Math.round(s.strength * 100)}%`;
   document.getElementById("strengthValue").textContent = `${Math.round(s.strength * 100)}%`;
-  document.getElementById("leverageBadge").textContent = `Levier: ${state.meta.leverage}x (aucun levier)`;
+  const lev = state.meta.leverage;
+  document.getElementById("leverageBadge").textContent =
+    lev > 1 ? `Levier: x${lev} — risque amplifié` : `Levier: x${lev} (aucun levier)`;
 
   const tbody = document.querySelector("#breakdownTable tbody");
   tbody.innerHTML = "";
@@ -63,14 +65,24 @@ function renderPortfolio(state) {
   const openBody = document.querySelector("#openPositionsTable tbody");
   openBody.innerHTML = "";
   document.getElementById("openPositionsEmpty").classList.toggle("hidden", state.openPositions.length > 0);
+  const currentPrice = state.lastSignal ? state.lastSignal.priceEUR : null;
   for (const p of state.openPositions) {
     const tr = document.createElement("tr");
+    let pnlCell = "—";
+    if (currentPrice) {
+      const movePct = p.side === "LONG" ? (currentPrice - p.entryPrice) / p.entryPrice : (p.entryPrice - currentPrice) / p.entryPrice;
+      const pnl = Math.max(p.notionalEUR * movePct, -p.sizeEUR);
+      const cls = pnl >= 0 ? "pnl-pos" : "pnl-neg";
+      pnlCell = `<span class="${cls}">${pnl >= 0 ? "+" : ""}${fmtEUR(pnl)}</span>`;
+    }
     tr.innerHTML = `
       <td class="${p.side === "LONG" ? "side-long" : "side-short"}">${p.side}</td>
       <td>${fmtEUR(p.entryPrice)}</td>
       <td>${fmtEUR(p.sizeEUR)}</td>
+      <td>${fmtEUR(p.notionalEUR)} <span class="muted small">(x${p.leverage})</span></td>
       <td>${fmtEUR(p.sl)}</td>
       <td>${fmtEUR(p.tp)}</td>
+      <td>${pnlCell}</td>
       <td>${fmtDate(p.entryTime)}</td>`;
     openBody.appendChild(tr);
   }

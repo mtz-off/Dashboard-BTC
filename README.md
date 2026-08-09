@@ -28,14 +28,13 @@ fictifs) et de son **historique de trades**.
    périmètre d'une simulation). **Le prix affiché en haut du dashboard, lui, est bien mis à jour en
    direct dans le navigateur (~10 secondes).**
 3. **Le cron ne tourne que depuis la branche par défaut du dépôt.** GitHub n'exécute les workflows
-   `schedule` que sur la branche par défaut (généralement `main`). Tant que cette branche
-   (`claude/btc-trading-dashboard-9w93u1`) n'est pas mergée dans `main`, **le cycle 24/7 ne se
-   déclenche pas automatiquement** — tu peux le lancer manuellement via l'onglet Actions
-   ("Run workflow") en attendant.
+   `schedule` que sur la branche par défaut. `claude/btc-trading-dashboard-9w93u1` a été mise en
+   branche par défaut, donc le cycle 24/7 tourne bien automatiquement.
 4. **GitHub désactive les workflows planifiés après 60 jours sans activité** sur le dépôt (règle
-   GitHub, pas de contournement possible). Un simple commit/push relance le compteur.
-5. **Aucun effet de levier n'est appliqué.** Toutes les positions sont simulées "au comptant"
-   (1x). C'est un choix délibéré pour rester réaliste sur un capital de 100 €.
+   GitHub, pas de contournement possible) — sans risque ici puisque chaque cycle commit un
+   changement, ce qui relance le compteur en continu.
+5. **Levier x15 appliqué** (demande explicite pour que le portefeuille bouge visiblement) — voir
+   la section "Gestion du risque" plus bas pour le détail et l'avertissement associé.
 6. Une fois le solde du portefeuille papier à **0 €, le bot arrête définitivement d'ouvrir de
    nouvelles positions** (comportement demandé).
 
@@ -56,11 +55,22 @@ Chaque cycle calcule un score composite (facteurs réels, pondérés) :
 Score ≥ 0 → **LONG**, score < 0 → **SHORT**. Le signal est toujours affiché ; une position n'est
 réellement ouverte que si sa **force** dépasse un seuil (évite de trader sur du bruit).
 
-**Gestion du risque (portefeuille papier) :**
-- 20 % du solde courant engagé par position
+**Gestion du risque (portefeuille papier) — mode agressif demandé explicitement :**
+- **Levier x15** sur chaque position (demande explicite pour que le compte fictif bouge
+  visiblement) : la perte/le gain est calculé sur marge×15, pas sur la marge seule
+- 25 % du solde courant engagé comme **marge** par position (donc jusqu'à 250% d'exposition
+  notionnelle par trade, jusqu'à 3 positions simultanées possibles)
 - Stop-loss / take-profit dimensionnés sur l'**ATR(14)** réel (bougies 4h) — ratio risque/rendement ≈ 1:2
+- Seuil d'ouverture abaissé pour trader plus activement (force du signal ≥ 0.12 au lieu de 0.35)
+- Filet de sécurité "liquidation" : une position est clôturée de force si sa perte atteint 90%
+  de sa marge, pour ne jamais faire passer le solde sous 0 € à cause du levier
 - Maximum 3 positions ouvertes simultanément, une seule par sens (pas d'empilement Long+Long)
 - Arrêt définitif à 0 €
+
+⚠️ **Avec x15, une clôture sur stop-loss peut coûter ~10-20% de la marge engagée sur ce trade en
+un seul cycle.** C'est voulu : c'est un choix assumé pour un compte fictif, mais c'est exactement
+le comportement qui, avec du vrai argent, peut vider un compte en quelques mauvais trades. Dis-moi
+si tu veux que je redescende le levier à un moment donné.
 
 ## Architecture
 
