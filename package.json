@@ -1,0 +1,14 @@
+{
+  "name": "btc-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Dashboard BTC temps reel: signal Long/Short base sur donnees de marche + news reelles, portefeuille papier simule.",
+  "scripts": {
+    "cycle": "node engine/runCycle.mjs",
+    "serve": "node server.mjs"
+  },
+  "dependencies": {
+    "undici": "^6.19.8"
+  }
+}

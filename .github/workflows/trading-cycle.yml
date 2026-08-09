@@ -1,0 +1,70 @@
+name: BTC trading cycle (24/7)
+
+on:
+  schedule:
+    # Toutes les 15 minutes. Rappel GitHub: les workflows planifiés (schedule) ne se
+    # déclenchent QUE depuis la branche par défaut du dépôt, et GitHub Actions
+    # désactive automatiquement les workflows planifiés après 60 jours sans activité
+    # (push/commit) sur le dépôt — voir le README pour le détail de cette limite.
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - "site/**"
+      - "data/**"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "btc-trading-cycle"
+  cancel-in-progress: false
+
+jobs:
+  cycle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: npm ci
+      - name: Exécuter un cycle de trading (données réelles)
+        run: node engine/runCycle.mjs
+      - name: Committer l'état mis à jour
+        run: |
+          git config user.name "btc-dashboard-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/state.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: cycle de trading automatique $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          else
+            echo "Aucun changement d'état."
+          fi
+
+  deploy-pages:
+    needs: cycle
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - name: Préparer le dossier de publication
+        run: |
+          mkdir -p site/data
+          cp data/state.json site/data/state.json
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4

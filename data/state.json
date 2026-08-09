@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "startedAt": "2026-08-09T13:30:11.350Z",
+    "currency": "EUR",
+    "leverage": 1,
+    "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
+  },
+  "balanceEUR": 100,
+  "equityEUR": 100,
+  "stopped": false,
+  "openPositions": [],
+  "trades": [],
+  "lastSignal": {
+    "price": 65044.93256705487,
+    "direction": "LONG",
+    "score": 2.45,
+    "strength": 0.31,
+    "atr14": 326.1946441352301,
+    "indicators": {
+      "ema20": 64887.9809382178,
+      "ema50": 64838.05309913621,
+      "rsi14": 63.40083595880333,
+      "macdHist": 16.503615850030563,
+      "bbUpper": 65079.02673874822,
+      "bbMid": 64881.65885144168,
+      "bbLower": 64684.290964135136
+    },
+    "fearGreed": {
+      "value": 31,
+      "classification": "Fear",
+      "timestamp": 1786233600000
+    },
+    "fundingRate": null,
+    "newsHighlights": [
+      {
+        "title": "Brazil targets crypto fraud with up to 24-hour transfer hold",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin Red Team Says AI Is Finding Critical Exploits Across Core Projects",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "US spot Bitcoin ETFs post best week since April with $1B inflows",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
+        "title": "Brazil's central bank orders exchanges to delay large crypto transfers abroad",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Another Bitcoin infrastructure exploit hits, this time draining Lightning payment servers",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Trump Media Abandons Crypto Treasury, Prediction Market Ventures",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Treasury Sanctions Crypto Exchanges It Says Laundered Millions for Iran",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "US Treasury’s OFAC sanctions 2 Iran-linked crypto exchanges",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      }
+    ],
+    "breakdown": [
+      {
+        "factor": "Tendance EMA20/EMA50",
+        "detail": "EMA20=64888 vs EMA50=64838",
+        "points": 2
+      },
+      {
+        "factor": "RSI(14)",
+        "detail": "63.4",
+        "points": 0.5
+      },
+      {
+        "factor": "MACD histogramme",
+        "detail": "16.5",
+        "points": 1.95
+      },
+      {
+        "factor": "Bollinger(20,2)",
+        "detail": "prix 65045 vs [64684, 65079]",
+        "points": 0
+      },
+      {
+        "factor": "Fear & Greed Index",
+        "detail": "31 (Fear)",
+        "points": 0
+      },
+      {
+        "factor": "Sentiment news (RSS temps réel)",
+        "detail": "30 articles pertinents, score brut -6",
+        "points": -2
+      }
+    ],
+    "computedAt": "2026-08-09T13:34:11.267Z",
+    "priceUSD": 65075,
+    "priceEUR": 56552,
+    "change24h": 0.16916640884286185
+  },
+  "history": [
+    {
+      "t": "2026-08-09T13:30:11.350Z",
+      "equityEUR": 100,
+      "priceEUR": 56485
+    },
+    {
+      "t": "2026-08-09T13:34:11.270Z",
+      "equityEUR": 100,
+      "priceEUR": 56552
+    }
+  ],
+  "lastRun": "2026-08-09T13:34:11.270Z"
+}
