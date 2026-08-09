@@ -9,7 +9,7 @@ on:
     - cron: "*/15 * * * *"
   workflow_dispatch: {}
   push:
-    branches: [main]
+    branches: [main, claude/btc-trading-dashboard-9w93u1]
     paths:
       - "site/**"
       - "data/**"
