@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 75,
-  "equityEUR": 99.6,
+  "equityEUR": 99.52,
   "stopped": false,
   "openPositions": [
     {
@@ -29,19 +29,19 @@
   ],
   "trades": [],
   "lastSignal": {
-    "price": 65097.50929679709,
+    "price": 65000.949626596645,
     "direction": "LONG",
-    "score": 2.67,
-    "strength": 0.33,
+    "score": 2.5,
+    "strength": 0.31,
     "atr14": 311.1015154063061,
     "indicators": {
-      "ema20": 65026.45086386598,
-      "ema50": 64919.03968564274,
-      "rsi14": 59.04294626724254,
-      "macdHist": 20.66545948534357,
-      "bbUpper": 65299.627940042345,
-      "bbMid": 64952.79198834149,
-      "bbLower": 64605.95603664063
+      "ema20": 65035.24247459741,
+      "ema50": 64931.13461582786,
+      "rsi14": 49.35255782965428,
+      "macdHist": 4.595172674399102,
+      "bbUpper": 65320.157641072925,
+      "bbMid": 64981.58995527887,
+      "bbLower": 64643.02226948481
     },
     "fearGreed": {
       "value": 31,
@@ -74,32 +74,27 @@
         "title": "Another Bitcoin infrastructure exploit hits, this time draining Lightning payment servers",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Trump Media Abandons Crypto Treasury, Prediction Market Ventures",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=65026 vs EMA50=64919",
+        "detail": "EMA20=65035 vs EMA50=64931",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "59.0",
-        "points": 0.5
+        "detail": "49.4",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "20.7",
+        "detail": "4.6",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 65098 vs [64606, 65300]",
+        "detail": "prix 65001 vs [64643, 65320]",
         "points": 0
       },
       {
@@ -109,14 +104,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "26 articles pertinents, score brut -4",
-        "points": -1.33
+        "detail": "23 articles pertinents, score brut -3",
+        "points": -1
       }
     ],
-    "computedAt": "2026-08-09T21:05:19.289Z",
-    "priceUSD": 65086.8,
-    "priceEUR": 56319.7,
-    "change24h": 0.28597314071235325
+    "computedAt": "2026-08-09T22:56:25.230Z",
+    "priceUSD": 65044.8,
+    "priceEUR": 56308.2,
+    "change24h": 0.22125939119770638
   },
   "history": [
     {
@@ -153,7 +148,12 @@
       "t": "2026-08-09T21:05:19.291Z",
       "equityEUR": 99.6,
       "priceEUR": 56319.7
+    },
+    {
+      "t": "2026-08-09T22:56:25.232Z",
+      "equityEUR": 99.52,
+      "priceEUR": 56308.2
     }
   ],
-  "lastRun": "2026-08-09T21:05:19.291Z"
+  "lastRun": "2026-08-09T22:56:25.232Z"
 }
