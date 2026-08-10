@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 76.25,
-  "equityEUR": 101.67,
+  "equityEUR": 101.73,
   "stopped": false,
   "openPositions": [
     {
@@ -62,19 +62,19 @@
     }
   ],
   "lastSignal": {
-    "price": 64000.225287771165,
+    "price": 63990.42143647699,
     "direction": "SHORT",
-    "score": -3.33,
-    "strength": 0.42,
+    "score": -3.67,
+    "strength": 0.46,
     "atr14": 399.3387066653972,
     "indicators": {
-      "ema20": 64561.06699430784,
-      "ema50": 64767.94484446486,
-      "rsi14": 30.256266245150684,
-      "macdHist": -125.20038812870837,
-      "bbUpper": 65686.83033311879,
-      "bbMid": 64730.89659543817,
-      "bbLower": 63774.96285775755
+      "ema20": 64414.783399473876,
+      "ema50": 64680.853490838985,
+      "rsi14": 33.853799161246314,
+      "macdHist": -71.46137887533357,
+      "bbUpper": 65619.83367761257,
+      "bbMid": 64575.92556300601,
+      "bbLower": 63532.01744839945
     },
     "fearGreed": {
       "value": 30,
@@ -83,6 +83,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin ATMs Pulled in Australia as Regulators Signal Wider Crackdown",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin Rally Fades—Where Does Price Go Next?",
         "source": "Decrypt",
@@ -107,22 +112,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=64561 vs EMA50=64768",
+        "detail": "EMA20=64415 vs EMA50=64681",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "30.3",
+        "detail": "33.9",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-125.2",
+        "detail": "-71.5",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 64000 vs [63775, 65687]",
+        "detail": "prix 63990 vs [63532, 65620]",
         "points": 0
       },
       {
@@ -132,14 +137,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 2",
-        "points": 0.67
+        "detail": "30 articles pertinents, score brut 1",
+        "points": 0.33
       }
     ],
-    "computedAt": "2026-08-10T20:05:57.106Z",
-    "priceUSD": 64008.5,
-    "priceEUR": 55467.4,
-    "change24h": -1.312827628738822
+    "computedAt": "2026-08-10T22:19:10.087Z",
+    "priceUSD": 63998.3,
+    "priceEUR": 55459,
+    "change24h": -1.3285538082022774
   },
   "history": [
     {
@@ -211,7 +216,12 @@
       "t": "2026-08-10T20:05:57.108Z",
       "equityEUR": 101.67,
       "priceEUR": 55467.4
+    },
+    {
+      "t": "2026-08-10T22:19:10.090Z",
+      "equityEUR": 101.73,
+      "priceEUR": 55459
     }
   ],
-  "lastRun": "2026-08-10T20:05:57.108Z"
+  "lastRun": "2026-08-10T22:19:10.090Z"
 }
