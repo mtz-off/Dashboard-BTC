@@ -5,27 +5,10 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 56.25,
-  "equityEUR": 98.44,
+  "balanceEUR": 78.95664576101935,
+  "equityEUR": 98.17,
   "stopped": false,
   "openPositions": [
-    {
-      "id": "5f4a6be1-7c72-41de-a1ee-0ad7afb78691",
-      "side": "LONG",
-      "entryPrice": 56380.3,
-      "entryTime": "2026-08-09T14:25:12.141Z",
-      "sizeEUR": 25,
-      "notionalEUR": 375,
-      "leverage": 15,
-      "qtyBTC": 0.00665126,
-      "sl": 56041.57,
-      "tp": 57057.77,
-      "slPct": 0.6,
-      "tpPct": 1.2,
-      "signalScore": 1.45,
-      "signalStrength": 0.18,
-      "status": "OPEN"
-    },
     {
       "id": "c44b198d-632a-4d8f-91c0-da768855c049",
       "side": "SHORT",
@@ -44,21 +27,38 @@
       "status": "OPEN"
     }
   ],
-  "trades": [],
+  "trades": [
+    {
+      "id": "5f4a6be1-7c72-41de-a1ee-0ad7afb78691",
+      "side": "LONG",
+      "entryPrice": 56380.3,
+      "entryTime": "2026-08-09T14:25:12.141Z",
+      "exitPrice": 56035.5,
+      "exitTime": "2026-08-10T14:34:14.144Z",
+      "sizeEUR": 25,
+      "notionalEUR": 375,
+      "leverage": 15,
+      "qtyBTC": 0.00665126,
+      "pnlEUR": -2.29,
+      "pnlPct": -0.61,
+      "reason": "SL",
+      "status": "CLOSED"
+    }
+  ],
   "lastSignal": {
-    "price": 64918.61112789307,
+    "price": 64720.203272152576,
     "direction": "SHORT",
-    "score": -1.12,
-    "strength": 0.14,
-    "atr14": 344.57241740662045,
+    "score": -0.45,
+    "strength": 0.06,
+    "atr14": 345.6047012990941,
     "indicators": {
-      "ema20": 65053.31142791085,
-      "ema50": 64974.859689241144,
-      "rsi14": 44.7784653864151,
-      "macdHist": -5.374829853069656,
-      "bbUpper": 65303.373286504706,
-      "bbMid": 65088.886356157054,
-      "bbLower": 64874.3994258094
+      "ema20": 64954.772374712644,
+      "ema50": 64946.42445843245,
+      "rsi14": 41.547851631932325,
+      "macdHist": -54.278717898344425,
+      "bbUpper": 65351.690134862205,
+      "bbMid": 65003.81433019785,
+      "bbLower": 64655.93852553349
     },
     "fearGreed": {
       "value": 30,
@@ -68,45 +68,35 @@
     "fundingRate": null,
     "newsHighlights": [
       {
-        "title": "Brazil targets crypto fraud with up to 24-hour transfer hold",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin Red Team Says AI Is Finding Critical Exploits Across Core Projects",
+        "title": "Morning Minute: Bitcoin ETFs See Biggest Inflows Since May",
         "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "US spot Bitcoin ETFs post best week since April with $1B inflows",
-        "source": "Cointelegraph",
         "itemScore": 1
       },
       {
-        "title": "Brazil's central bank orders exchanges to delay large crypto transfers abroad",
-        "source": "CoinDesk",
+        "title": "Brazil targets crypto fraud with up to 24-hour transfer hold",
+        "source": "Cointelegraph",
         "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=65053 vs EMA50=64975",
+        "detail": "EMA20=64955 vs EMA50=64946",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "44.8",
+        "detail": "41.5",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-5.4",
+        "detail": "-54.3",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 64919 vs [64874, 65303]",
+        "detail": "prix 64720 vs [64656, 65352]",
         "points": 0
       },
       {
@@ -116,14 +106,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -2",
-        "points": -0.67
+        "detail": "30 articles pertinents, score brut 0",
+        "points": 0
       }
     ],
-    "computedAt": "2026-08-10T10:02:38.395Z",
-    "priceUSD": 64963.4,
-    "priceEUR": 56200,
-    "change24h": 0.15942028985507473
+    "computedAt": "2026-08-10T14:34:14.142Z",
+    "priceUSD": 64725.5,
+    "priceEUR": 56035.5,
+    "change24h": -0.20736971939562132
   },
   "history": [
     {
@@ -180,7 +170,12 @@
       "t": "2026-08-10T10:02:38.397Z",
       "equityEUR": 98.44,
       "priceEUR": 56200
+    },
+    {
+      "t": "2026-08-10T14:34:14.144Z",
+      "equityEUR": 98.17,
+      "priceEUR": 56035.5
     }
   ],
-  "lastRun": "2026-08-10T10:02:38.397Z"
+  "lastRun": "2026-08-10T14:34:14.144Z"
 }
