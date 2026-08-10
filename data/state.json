@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 56.25,
-  "equityEUR": 98.56,
+  "equityEUR": 98.44,
   "stopped": false,
   "openPositions": [
     {
@@ -46,19 +46,19 @@
   ],
   "trades": [],
   "lastSignal": {
-    "price": 65004.59161151238,
+    "price": 64918.61112789307,
     "direction": "SHORT",
-    "score": -0.5,
-    "strength": 0.06,
-    "atr14": 339.2926273710937,
+    "score": -1.12,
+    "strength": 0.14,
+    "atr14": 344.57241740662045,
     "indicators": {
-      "ema20": 65016.38707237502,
-      "ema50": 64944.02790344074,
-      "rsi14": 50.052921421636476,
-      "macdHist": -16.660467093673503,
-      "bbUpper": 65289.620227679065,
-      "bbMid": 65046.050427118644,
-      "bbLower": 64802.48062655822
+      "ema20": 65053.31142791085,
+      "ema50": 64974.859689241144,
+      "rsi14": 44.7784653864151,
+      "macdHist": -5.374829853069656,
+      "bbUpper": 65303.373286504706,
+      "bbMid": 65088.886356157054,
+      "bbLower": 64874.3994258094
     },
     "fearGreed": {
       "value": 30,
@@ -86,32 +86,27 @@
         "title": "Brazil's central bank orders exchanges to delay large crypto transfers abroad",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Another Bitcoin infrastructure exploit hits, this time draining Lightning payment servers",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=65016 vs EMA50=64944",
+        "detail": "EMA20=65053 vs EMA50=64975",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "50.1",
-        "points": 0
+        "detail": "44.8",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-16.7",
-        "points": -1.5
+        "detail": "-5.4",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 65005 vs [64802, 65290]",
+        "detail": "prix 64919 vs [64874, 65303]",
         "points": 0
       },
       {
@@ -121,14 +116,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "25 articles pertinents, score brut -3",
-        "points": -1
+        "detail": "30 articles pertinents, score brut -2",
+        "points": -0.67
       }
     ],
-    "computedAt": "2026-08-10T05:11:51.636Z",
-    "priceUSD": 64981.3,
-    "priceEUR": 56274.9,
-    "change24h": 0.18701819303114847
+    "computedAt": "2026-08-10T10:02:38.395Z",
+    "priceUSD": 64963.4,
+    "priceEUR": 56200,
+    "change24h": 0.15942028985507473
   },
   "history": [
     {
@@ -180,7 +175,12 @@
       "t": "2026-08-10T05:11:51.638Z",
       "equityEUR": 98.56,
       "priceEUR": 56274.9
+    },
+    {
+      "t": "2026-08-10T10:02:38.397Z",
+      "equityEUR": 98.44,
+      "priceEUR": 56200
     }
   ],
-  "lastRun": "2026-08-10T05:11:51.638Z"
+  "lastRun": "2026-08-10T10:02:38.397Z"
 }
