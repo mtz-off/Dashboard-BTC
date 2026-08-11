@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 76.25,
-  "equityEUR": 99.93,
+  "equityEUR": 102.19,
   "stopped": false,
   "openPositions": [
     {
@@ -62,19 +62,19 @@
     }
   ],
   "lastSignal": {
-    "price": 64291.64531887598,
+    "price": 63916.246246128605,
     "direction": "SHORT",
-    "score": -2.38,
-    "strength": 0.3,
-    "atr14": 371.5673674685874,
+    "score": -3,
+    "strength": 0.38,
+    "atr14": 370.47109050495015,
     "indicators": {
-      "ema20": 64170.147430796984,
-      "ema50": 64427.337358160934,
-      "rsi14": 52.11521099177142,
-      "macdHist": 69.0799143862688,
-      "bbUpper": 64246.72787076703,
-      "bbMid": 64004.15835655572,
-      "bbLower": 63761.58884234442
+      "ema20": 64162.65516111597,
+      "ema50": 64396.41275179659,
+      "rsi14": 38.75684512385853,
+      "macdHist": 42.8256300255249,
+      "bbUpper": 64312.18232156178,
+      "bbMid": 64050.55711986877,
+      "bbLower": 63788.93191817576
     },
     "fearGreed": {
       "value": 29,
@@ -83,6 +83,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Crypto-friendly bank Erebor in talks to raise $1.5 billion at $9.5 billion valuation: FT",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Live updates: Bitcoin holds $64,200; Anthropic to watermark Claude's AI content after EU regulations",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Coldcard hack losses: How investigators trace stolen Bitcoin",
         "source": "Cointelegraph",
@@ -102,38 +112,28 @@
         "title": "BTCPay offers $190,000 bounty after bitcoin payment servers drained in exploit",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin ATMs Pulled in Australia as Regulators Signal Wider Crackdown",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin Rally Fades—Where Does Price Go Next?",
-        "source": "Decrypt",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=64170 vs EMA50=64427",
+        "detail": "EMA20=64163 vs EMA50=64396",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "52.1",
-        "points": 0
+        "detail": "38.8",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "69.1",
-        "points": 1.95
+        "detail": "42.8",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 64292 vs [63762, 64247]",
-        "points": -1
+        "detail": "prix 63916 vs [63789, 64312]",
+        "points": 0
       },
       {
         "factor": "Fear & Greed Index",
@@ -142,14 +142,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -4",
-        "points": -1.33
+        "detail": "30 articles pertinents, score brut -6",
+        "points": -2
       }
     ],
-    "computedAt": "2026-08-11T11:30:00.115Z",
-    "priceUSD": 64279.2,
-    "priceEUR": 55720,
-    "change24h": 0.5586487302513505
+    "computedAt": "2026-08-11T14:47:50.930Z",
+    "priceUSD": 63922.1,
+    "priceEUR": 55391.9,
+    "change24h": 0
   },
   "history": [
     {
@@ -246,7 +246,12 @@
       "t": "2026-08-11T11:30:00.117Z",
       "equityEUR": 99.93,
       "priceEUR": 55720
+    },
+    {
+      "t": "2026-08-11T14:47:50.932Z",
+      "equityEUR": 102.19,
+      "priceEUR": 55391.9
     }
   ],
-  "lastRun": "2026-08-11T11:30:00.117Z"
+  "lastRun": "2026-08-11T14:47:50.932Z"
 }
