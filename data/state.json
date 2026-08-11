@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 76.25,
-  "equityEUR": 101.74,
+  "equityEUR": 101.48,
   "stopped": false,
   "openPositions": [
     {
@@ -62,19 +62,19 @@
     }
   ],
   "lastSignal": {
-    "price": 64026.00388166445,
+    "price": 64003.85092423282,
     "direction": "SHORT",
-    "score": -0.22,
-    "strength": 0.03,
-    "atr14": 378.51918158372655,
+    "score": -0.55,
+    "strength": 0.07,
+    "atr14": 371.43590563875813,
     "indicators": {
-      "ema20": 64227.08544226427,
-      "ema50": 64534.18545417952,
-      "rsi14": 37.93997698865368,
-      "macdHist": 14.545240079588211,
-      "bbUpper": 65077.15034794226,
-      "bbMid": 64240.47573641497,
-      "bbLower": 63403.80112488768
+      "ema20": 64137.89960340724,
+      "ema50": 64448.1172273438,
+      "rsi14": 39.7501325468976,
+      "macdHist": 30.937130164286202,
+      "bbUpper": 64461.09086599559,
+      "bbMid": 64037.446449280695,
+      "bbLower": 63613.8020325658
     },
     "fearGreed": {
       "value": 29,
@@ -83,6 +83,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "BTCPay offers $190,000 bounty after bitcoin payment servers drained in exploit",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin ATMs Pulled in Australia as Regulators Signal Wider Crackdown",
         "source": "Decrypt",
@@ -112,22 +117,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=64227 vs EMA50=64534",
+        "detail": "EMA20=64138 vs EMA50=64448",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "37.9",
+        "detail": "39.8",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "14.5",
+        "detail": "30.9",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 64026 vs [63404, 65077]",
+        "detail": "prix 64004 vs [63614, 64461]",
         "points": 0
       },
       {
@@ -137,14 +142,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 1",
-        "points": 0.33
+        "detail": "30 articles pertinents, score brut 0",
+        "points": 0
       }
     ],
-    "computedAt": "2026-08-11T04:52:25.929Z",
-    "priceUSD": 63985.1,
-    "priceEUR": 55457,
-    "change24h": 0.09855746291188806
+    "computedAt": "2026-08-11T08:32:10.696Z",
+    "priceUSD": 63993,
+    "priceEUR": 55495.7,
+    "change24h": 0.11091625588020647
   },
   "history": [
     {
@@ -231,7 +236,12 @@
       "t": "2026-08-11T04:52:25.932Z",
       "equityEUR": 101.74,
       "priceEUR": 55457
+    },
+    {
+      "t": "2026-08-11T08:32:10.699Z",
+      "equityEUR": 101.48,
+      "priceEUR": 55495.7
     }
   ],
-  "lastRun": "2026-08-11T04:52:25.932Z"
+  "lastRun": "2026-08-11T08:32:10.699Z"
 }
