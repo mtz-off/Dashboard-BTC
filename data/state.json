@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 76.25,
-  "equityEUR": 101.48,
+  "equityEUR": 99.93,
   "stopped": false,
   "openPositions": [
     {
@@ -62,19 +62,19 @@
     }
   ],
   "lastSignal": {
-    "price": 64003.85092423282,
+    "price": 64291.64531887598,
     "direction": "SHORT",
-    "score": -0.55,
-    "strength": 0.07,
-    "atr14": 371.43590563875813,
+    "score": -2.38,
+    "strength": 0.3,
+    "atr14": 371.5673674685874,
     "indicators": {
-      "ema20": 64137.89960340724,
-      "ema50": 64448.1172273438,
-      "rsi14": 39.7501325468976,
-      "macdHist": 30.937130164286202,
-      "bbUpper": 64461.09086599559,
-      "bbMid": 64037.446449280695,
-      "bbLower": 63613.8020325658
+      "ema20": 64170.147430796984,
+      "ema50": 64427.337358160934,
+      "rsi14": 52.11521099177142,
+      "macdHist": 69.0799143862688,
+      "bbUpper": 64246.72787076703,
+      "bbMid": 64004.15835655572,
+      "bbLower": 63761.58884234442
     },
     "fearGreed": {
       "value": 29,
@@ -83,6 +83,21 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Coldcard hack losses: How investigators trace stolen Bitcoin",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "UK lawmakers question lenders over lack of banking for the country’s crypto firms",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "UK Lawmakers Write to Bank CEOs Over Crypto Account Refusals",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
       {
         "title": "BTCPay offers $190,000 bounty after bitcoin payment servers drained in exploit",
         "source": "CoinDesk",
@@ -97,43 +112,28 @@
         "title": "Bitcoin Rally Fades—Where Does Price Go Next?",
         "source": "Decrypt",
         "itemScore": 1
-      },
-      {
-        "title": "Bitcoin price slip wipes weekend gains as oil surge hits 5% on Hormuz disappointment",
-        "source": "Cointelegraph",
-        "itemScore": 1
-      },
-      {
-        "title": "Hackers Drain $8 Million From Crypto Exchange Across Two Blockchains",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Morning Minute: Bitcoin ETFs See Biggest Inflows Since May",
-        "source": "Decrypt",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=64138 vs EMA50=64448",
+        "detail": "EMA20=64170 vs EMA50=64427",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "39.8",
-        "points": -0.5
+        "detail": "52.1",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "30.9",
+        "detail": "69.1",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 64004 vs [63614, 64461]",
-        "points": 0
+        "detail": "prix 64292 vs [63762, 64247]",
+        "points": -1
       },
       {
         "factor": "Fear & Greed Index",
@@ -142,14 +142,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 0",
-        "points": 0
+        "detail": "30 articles pertinents, score brut -4",
+        "points": -1.33
       }
     ],
-    "computedAt": "2026-08-11T08:32:10.696Z",
-    "priceUSD": 63993,
-    "priceEUR": 55495.7,
-    "change24h": 0.11091625588020647
+    "computedAt": "2026-08-11T11:30:00.115Z",
+    "priceUSD": 64279.2,
+    "priceEUR": 55720,
+    "change24h": 0.5586487302513505
   },
   "history": [
     {
@@ -241,7 +241,12 @@
       "t": "2026-08-11T08:32:10.699Z",
       "equityEUR": 101.48,
       "priceEUR": 55495.7
+    },
+    {
+      "t": "2026-08-11T11:30:00.117Z",
+      "equityEUR": 99.93,
+      "priceEUR": 55720
     }
   ],
-  "lastRun": "2026-08-11T08:32:10.699Z"
+  "lastRun": "2026-08-11T11:30:00.117Z"
 }
