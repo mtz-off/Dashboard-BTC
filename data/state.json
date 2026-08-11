@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 76.25,
-  "equityEUR": 104.48,
+  "equityEUR": 104.34,
   "stopped": false,
   "openPositions": [
     {
@@ -62,19 +62,19 @@
     }
   ],
   "lastSignal": {
-    "price": 63534.16884044669,
+    "price": 63578.10734182261,
     "direction": "SHORT",
-    "score": -5.78,
-    "strength": 0.72,
-    "atr14": 414.53392800359245,
+    "score": -4.67,
+    "strength": 0.58,
+    "atr14": 412.9380978077225,
     "indicators": {
-      "ema20": 63987.42234126559,
-      "ema50": 64293.91841352144,
-      "rsi14": 31.991851310166865,
-      "macdHist": -39.78477999791164,
-      "bbUpper": 64467.11779807465,
-      "bbMid": 63974.34176117946,
-      "bbLower": 63481.565724284264
+      "ema20": 63853.386964392055,
+      "ema50": 64200.449311972545,
+      "rsi14": 38.47177216719681,
+      "macdHist": -37.84056545548975,
+      "bbUpper": 64528.37131158678,
+      "bbMid": 63905.450317191935,
+      "bbLower": 63282.52932279709
     },
     "fearGreed": {
       "value": 29,
@@ -83,6 +83,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Strategy CEO says company will resume Bitcoin accumulation this year",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
       {
         "title": "Russia Approves Trading of Bitcoin, Ethereum and USDT—But No XRP",
         "source": "Decrypt",
@@ -107,32 +112,27 @@
         "title": "UK lawmakers question lenders over lack of banking for the country’s crypto firms",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "UK Lawmakers Write to Bank CEOs Over Crypto Account Refusals",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=63987 vs EMA50=64294",
+        "detail": "EMA20=63853 vs EMA50=64200",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "32.0",
+        "detail": "38.5",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-39.8",
-        "points": -1.95
+        "detail": "-37.8",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 63534 vs [63482, 64467]",
+        "detail": "prix 63578 vs [63283, 64528]",
         "points": 0
       },
       {
@@ -142,14 +142,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -4",
-        "points": -1.33
+        "detail": "30 articles pertinents, score brut -2",
+        "points": -0.67
       }
     ],
-    "computedAt": "2026-08-11T18:07:12.078Z",
-    "priceUSD": 63507.3,
-    "priceEUR": 55058.2,
-    "change24h": -0.6489148510452498
+    "computedAt": "2026-08-11T20:26:51.512Z",
+    "priceUSD": 63570.1,
+    "priceEUR": 55079.3,
+    "change24h": -0.5506702689680095
   },
   "history": [
     {
@@ -256,7 +256,12 @@
       "t": "2026-08-11T18:07:12.080Z",
       "equityEUR": 104.48,
       "priceEUR": 55058.2
+    },
+    {
+      "t": "2026-08-11T20:26:51.514Z",
+      "equityEUR": 104.34,
+      "priceEUR": 55079.3
     }
   ],
-  "lastRun": "2026-08-11T18:07:12.080Z"
+  "lastRun": "2026-08-11T20:26:51.514Z"
 }
