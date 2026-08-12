@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 76.25,
-  "equityEUR": 105.39,
+  "equityEUR": 104.87,
   "stopped": false,
   "openPositions": [
     {
@@ -62,19 +62,19 @@
     }
   ],
   "lastSignal": {
-    "price": 63443.11495686882,
+    "price": 63396.56508711102,
     "direction": "SHORT",
-    "score": -3.12,
-    "strength": 0.39,
-    "atr14": 393.3288195026949,
+    "score": -4.12,
+    "strength": 0.51,
+    "atr14": 439.3671571029624,
     "indicators": {
-      "ema20": 63779.99013006669,
-      "ema50": 63971.75546662254,
-      "rsi14": 40.211341191758734,
-      "macdHist": -18.48208373899837,
-      "bbUpper": 64188.30103771775,
-      "bbMid": 63753.649388673424,
-      "bbLower": 63318.9977396291
+      "ema20": 63669.37723322785,
+      "ema50": 63900.26384069132,
+      "rsi14": 39.51992196410886,
+      "macdHist": -39.74506787989752,
+      "bbUpper": 64201.30738440766,
+      "bbMid": 63705.5423889888,
+      "bbLower": 63209.77739356994
     },
     "fearGreed": {
       "value": 27,
@@ -83,6 +83,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "After Coldcard Was Hacked, $15 Billion in Bitcoin Moved to Safety",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin holds near $64,000 as U.S. inflation data looms, Harmony exploit rattles altcoins",
         "source": "CoinDesk",
@@ -117,32 +122,27 @@
         "title": "SEC to address crypto regulations in absence of CLARITY passage",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "Strategy CEO says company will resume Bitcoin accumulation this year",
-        "source": "Cointelegraph",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=63780 vs EMA50=63972",
+        "detail": "EMA20=63669 vs EMA50=63900",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "40.2",
+        "detail": "39.5",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-18.5",
+        "detail": "-39.7",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 63443 vs [63319, 64188]",
+        "detail": "prix 63397 vs [63210, 64201]",
         "points": 0
       },
       {
@@ -152,14 +152,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 4",
-        "points": 1.33
+        "detail": "30 articles pertinents, score brut 1",
+        "points": 0.33
       }
     ],
-    "computedAt": "2026-08-12T15:32:25.133Z",
-    "priceUSD": 63366.1,
-    "priceEUR": 54926.5,
-    "change24h": -0.27541229220142555
+    "computedAt": "2026-08-12T18:40:57.831Z",
+    "priceUSD": 63375.2,
+    "priceEUR": 55001.5,
+    "change24h": -0.2610908530069537
   },
   "history": [
     {
@@ -296,7 +296,12 @@
       "t": "2026-08-12T15:32:25.135Z",
       "equityEUR": 105.39,
       "priceEUR": 54926.5
+    },
+    {
+      "t": "2026-08-12T18:40:57.836Z",
+      "equityEUR": 104.87,
+      "priceEUR": 55001.5
     }
   ],
-  "lastRun": "2026-08-12T15:32:25.135Z"
+  "lastRun": "2026-08-12T18:40:57.836Z"
 }
