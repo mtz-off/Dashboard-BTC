@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 76.25,
-  "equityEUR": 103.77,
+  "equityEUR": 103.04,
   "stopped": false,
   "openPositions": [
     {
@@ -62,27 +62,32 @@
     }
   ],
   "lastSignal": {
-    "price": 63664.66214602325,
-    "direction": "SHORT",
-    "score": -3.67,
-    "strength": 0.46,
-    "atr14": 412.9380978077225,
+    "price": 63717.638495841435,
+    "direction": "LONG",
+    "score": 0.62,
+    "strength": 0.08,
+    "atr14": 397.1374727032714,
     "indicators": {
-      "ema20": 63824.504131720925,
-      "ema50": 64161.91986971761,
-      "rsi14": 41.99719671186394,
-      "macdHist": -5.947071921103145,
-      "bbUpper": 64502.123659558376,
-      "bbMid": 63874.70865258134,
-      "bbLower": 63247.29364560431
+      "ema20": 63765.07404518065,
+      "ema50": 64050.18890864699,
+      "rsi14": 45.74369163203283,
+      "macdHist": 37.353242224534824,
+      "bbUpper": 64332.326373138276,
+      "bbMid": 63756.85458186774,
+      "bbLower": 63181.3827905972
     },
     "fearGreed": {
-      "value": 29,
+      "value": 27,
       "classification": "Fear",
-      "timestamp": 1786406400000
+      "timestamp": 1786492800000
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "SEC, CFTC sue Goliath Ventures over $400M crypto Ponzi scheme",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
       {
         "title": "Bitcoin stuck as ETF inflows offset selling, but inflation data could spark a move",
         "source": "CoinDesk",
@@ -117,39 +122,39 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=63825 vs EMA50=64162",
+        "detail": "EMA20=63765 vs EMA50=64050",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "42.0",
-        "points": -0.5
+        "detail": "45.7",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-5.9",
-        "points": -1.5
+        "detail": "37.4",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 63665 vs [63247, 64502]",
+        "detail": "prix 63718 vs [63181, 64332]",
         "points": 0
       },
       {
         "factor": "Fear & Greed Index",
-        "detail": "29 (Fear)",
+        "detail": "27 (Fear)",
         "points": 0
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 1",
-        "points": 0.33
+        "detail": "30 articles pertinents, score brut 2",
+        "points": 0.67
       }
     ],
-    "computedAt": "2026-08-11T22:27:33.965Z",
-    "priceUSD": 63648.3,
-    "priceEUR": 55162.2,
-    "change24h": -0.4283338626234051
+    "computedAt": "2026-08-12T05:12:46.479Z",
+    "priceUSD": 63745.1,
+    "priceEUR": 55268.3,
+    "change24h": 0.3210520434805189
   },
   "history": [
     {
@@ -266,7 +271,12 @@
       "t": "2026-08-11T22:27:33.966Z",
       "equityEUR": 103.77,
       "priceEUR": 55162.2
+    },
+    {
+      "t": "2026-08-12T05:12:46.481Z",
+      "equityEUR": 103.04,
+      "priceEUR": 55268.3
     }
   ],
-  "lastRun": "2026-08-11T22:27:33.966Z"
+  "lastRun": "2026-08-12T05:12:46.481Z"
 }
