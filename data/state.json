@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 76.25,
-  "equityEUR": 101.7,
+  "equityEUR": 100.76,
   "stopped": false,
   "openPositions": [
     {
@@ -62,19 +62,19 @@
     }
   ],
   "lastSignal": {
-    "price": 64006.638753003885,
+    "price": 64187.979923357365,
     "direction": "LONG",
     "score": 0.12,
     "strength": 0.01,
-    "atr14": 387.786693401263,
+    "atr14": 390.6145337884092,
     "indicators": {
-      "ema20": 63783.363169418335,
-      "ema50": 64015.92410420259,
-      "rsi14": 55.79514461476342,
-      "macdHist": 52.04627161086782,
-      "bbUpper": 63956.427223621155,
-      "bbMid": 63663.86666645286,
-      "bbLower": 63371.30610928456
+      "ema20": 63850.788853809005,
+      "ema50": 64026.41342484254,
+      "rsi14": 61.313466824982434,
+      "macdHist": 79.17895040899896,
+      "bbUpper": 64122.28225226982,
+      "bbMid": 63713.831244220084,
+      "bbLower": 63305.38023617035
     },
     "fearGreed": {
       "value": 27,
@@ -83,6 +83,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin holds near $64,000 as U.S. inflation data looms, Harmony exploit rattles altcoins",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "CoreWeave surges 16% on $2.58 billion revenue quarter as AI infrastructure demand eclipses crypto",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "SEC, CFTC sue Goliath Ventures over $400M crypto Ponzi scheme",
         "source": "Cointelegraph",
@@ -112,32 +122,27 @@
         "title": "Russia Approves Trading of Bitcoin, Ethereum and USDT—But No XRP",
         "source": "Decrypt",
         "itemScore": 1
-      },
-      {
-        "title": "Crypto-friendly bank Erebor in talks to raise $1.5 billion at $9.5 billion valuation: FT",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=63783 vs EMA50=64016",
+        "detail": "EMA20=63851 vs EMA50=64026",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "55.8",
+        "detail": "61.3",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "52.0",
+        "detail": "79.2",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 64007 vs [63371, 63956]",
+        "detail": "prix 64188 vs [63305, 64122]",
         "points": -1
       },
       {
@@ -151,10 +156,10 @@
         "points": 0.67
       }
     ],
-    "computedAt": "2026-08-12T09:40:36.541Z",
-    "priceUSD": 64000,
-    "priceEUR": 55463.1,
-    "change24h": 0.7222097193784833
+    "computedAt": "2026-08-12T12:04:15.790Z",
+    "priceUSD": 64187.8,
+    "priceEUR": 55599.9,
+    "change24h": 1.0177664535237891
   },
   "history": [
     {
@@ -281,7 +286,12 @@
       "t": "2026-08-12T09:40:36.544Z",
       "equityEUR": 101.7,
       "priceEUR": 55463.1
+    },
+    {
+      "t": "2026-08-12T12:04:15.792Z",
+      "equityEUR": 100.76,
+      "priceEUR": 55599.9
     }
   ],
-  "lastRun": "2026-08-12T09:40:36.544Z"
+  "lastRun": "2026-08-12T12:04:15.792Z"
 }
