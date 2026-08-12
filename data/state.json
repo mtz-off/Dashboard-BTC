@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 76.25,
-  "equityEUR": 104.42,
+  "equityEUR": 105.19,
   "stopped": false,
   "openPositions": [
     {
@@ -62,19 +62,19 @@
     }
   ],
   "lastSignal": {
-    "price": 63511.89923230759,
+    "price": 63343.210346765765,
     "direction": "SHORT",
-    "score": -3.33,
-    "strength": 0.42,
+    "score": -4.67,
+    "strength": 0.58,
     "atr14": 422.5407354963355,
     "indicators": {
-      "ema20": 63623.28044614768,
-      "ema50": 63862.7818436734,
-      "rsi14": 44.44746184703229,
-      "macdHist": -29.323680379097226,
-      "bbUpper": 64210.62877630787,
-      "bbMid": 63685.98863650259,
-      "bbLower": 63161.348496697305
+      "ema20": 63577.93665409024,
+      "ema50": 63825.035366261196,
+      "rsi14": 40.07692061461576,
+      "macdHist": -23.25832832922066,
+      "bbUpper": 64201.3842229174,
+      "bbMid": 63646.81729009906,
+      "bbLower": 63092.250357280725
     },
     "fearGreed": {
       "value": 27,
@@ -83,6 +83,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Morgan Stanley's infrastructure partner Zerohash rebuffed in pitch to be U.S. trust bank",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Hawaii crypto ATM ban to take effect on Oct. 1",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "After Coldcard Was Hacked, $15 Billion in Bitcoin Moved to Safety",
         "source": "Decrypt",
@@ -102,42 +112,27 @@
         "title": "Live updates: AI stocks surge on Q2 beats, bitcoin falls below $64,000 as inflation hits estimates",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "SEC, CFTC sue Goliath Ventures over $400M crypto Ponzi scheme",
-        "source": "Cointelegraph",
-        "itemScore": 1
-      },
-      {
-        "title": "Bitcoin stuck as ETF inflows offset selling, but inflation data could spark a move",
-        "source": "CoinDesk",
-        "itemScore": 2
-      },
-      {
-        "title": "BTCPay Backers Offer Bitcoin Bounty After Wallet Exploit",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=63623 vs EMA50=63863",
+        "detail": "EMA20=63578 vs EMA50=63825",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "44.4",
+        "detail": "40.1",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-29.3",
+        "detail": "-23.3",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 63512 vs [63161, 64211]",
+        "detail": "prix 63343 vs [63092, 64201]",
         "points": 0
       },
       {
@@ -147,14 +142,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 2",
-        "points": 0.67
+        "detail": "30 articles pertinents, score brut -2",
+        "points": -0.67
       }
     ],
-    "computedAt": "2026-08-12T21:25:48.827Z",
-    "priceUSD": 63450.1,
-    "priceEUR": 55067.5,
-    "change24h": -0.14321439194474128
+    "computedAt": "2026-08-12T23:24:50.312Z",
+    "priceUSD": 63341.2,
+    "priceEUR": 54955,
+    "change24h": -0.3145995269203735
   },
   "history": [
     {
@@ -301,7 +296,12 @@
       "t": "2026-08-12T21:25:48.829Z",
       "equityEUR": 104.42,
       "priceEUR": 55067.5
+    },
+    {
+      "t": "2026-08-12T23:24:50.314Z",
+      "equityEUR": 105.19,
+      "priceEUR": 54955
     }
   ],
-  "lastRun": "2026-08-12T21:25:48.829Z"
+  "lastRun": "2026-08-12T23:24:50.314Z"
 }
