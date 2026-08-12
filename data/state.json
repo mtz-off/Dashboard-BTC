@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 76.25,
-  "equityEUR": 104.87,
+  "equityEUR": 104.42,
   "stopped": false,
   "openPositions": [
     {
@@ -62,19 +62,19 @@
     }
   ],
   "lastSignal": {
-    "price": 63396.56508711102,
+    "price": 63511.89923230759,
     "direction": "SHORT",
-    "score": -4.12,
-    "strength": 0.51,
-    "atr14": 439.3671571029624,
+    "score": -3.33,
+    "strength": 0.42,
+    "atr14": 422.5407354963355,
     "indicators": {
-      "ema20": 63669.37723322785,
-      "ema50": 63900.26384069132,
-      "rsi14": 39.51992196410886,
-      "macdHist": -39.74506787989752,
-      "bbUpper": 64201.30738440766,
-      "bbMid": 63705.5423889888,
-      "bbLower": 63209.77739356994
+      "ema20": 63623.28044614768,
+      "ema50": 63862.7818436734,
+      "rsi14": 44.44746184703229,
+      "macdHist": -29.323680379097226,
+      "bbUpper": 64210.62877630787,
+      "bbMid": 63685.98863650259,
+      "bbLower": 63161.348496697305
     },
     "fearGreed": {
       "value": 27,
@@ -117,32 +117,27 @@
         "title": "BTCPay Backers Offer Bitcoin Bounty After Wallet Exploit",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "SEC to address crypto regulations in absence of CLARITY passage",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=63669 vs EMA50=63900",
+        "detail": "EMA20=63623 vs EMA50=63863",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "39.5",
+        "detail": "44.4",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-39.7",
-        "points": -1.95
+        "detail": "-29.3",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 63397 vs [63210, 64201]",
+        "detail": "prix 63512 vs [63161, 64211]",
         "points": 0
       },
       {
@@ -152,14 +147,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 1",
-        "points": 0.33
+        "detail": "30 articles pertinents, score brut 2",
+        "points": 0.67
       }
     ],
-    "computedAt": "2026-08-12T18:40:57.831Z",
-    "priceUSD": 63375.2,
-    "priceEUR": 55001.5,
-    "change24h": -0.2610908530069537
+    "computedAt": "2026-08-12T21:25:48.827Z",
+    "priceUSD": 63450.1,
+    "priceEUR": 55067.5,
+    "change24h": -0.14321439194474128
   },
   "history": [
     {
@@ -301,7 +296,12 @@
       "t": "2026-08-12T18:40:57.836Z",
       "equityEUR": 104.87,
       "priceEUR": 55001.5
+    },
+    {
+      "t": "2026-08-12T21:25:48.829Z",
+      "equityEUR": 104.42,
+      "priceEUR": 55067.5
     }
   ],
-  "lastRun": "2026-08-12T18:40:57.836Z"
+  "lastRun": "2026-08-12T21:25:48.829Z"
 }
