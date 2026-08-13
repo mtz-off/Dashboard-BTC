@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 76.25,
-  "equityEUR": 103.84,
+  "equityEUR": 106.8,
   "stopped": false,
   "openPositions": [
     {
@@ -62,19 +62,19 @@
     }
   ],
   "lastSignal": {
-    "price": 63605.65365420554,
+    "price": 63082.787776260375,
     "direction": "SHORT",
-    "score": -2.17,
-    "strength": 0.27,
-    "atr14": 412.95936685098843,
+    "score": -6.45,
+    "strength": 0.81,
+    "atr14": 420.4611007961733,
     "indicators": {
-      "ema20": 63631.480358205066,
-      "ema50": 63731.42316758915,
-      "rsi14": 48.85334502797224,
-      "macdHist": 14.999402441228725,
-      "bbUpper": 63891.71400095689,
-      "bbMid": 63592.92202272753,
-      "bbLower": 63294.13004449817
+      "ema20": 63477.81948354732,
+      "ema50": 63652.81541589128,
+      "rsi14": 36.925667826354086,
+      "macdHist": -60.13750283166611,
+      "bbUpper": 64009.107903434204,
+      "bbMid": 63532.69306218562,
+      "bbLower": 63056.27822093704
     },
     "fearGreed": {
       "value": 29,
@@ -83,6 +83,26 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "CFTC to join SEC in exploring crypto regulations without CLARITY bill",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Crypto Group Warns Fed Could Use Banking Access to Squeeze Digital Asset Firms",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin Companies Want Help From AI Labs to Guard Against Hackers",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Hawaii To Ban Cash Deposits at Crypto ATMs From October",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
       {
         "title": "Swissquote cuts full-year guidance as 1H crypto income plunges, shares slide",
         "source": "CoinDesk",
@@ -102,42 +122,27 @@
         "title": "Live updates: Bitcoin stuck near $63,500 even as Fed rate hike expectations dwindle",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Morgan Stanley's infrastructure partner Zerohash rebuffed in pitch to be U.S. trust bank",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Hawaii crypto ATM ban to take effect on Oct. 1",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "After Coldcard Was Hacked, $15 Billion in Bitcoin Moved to Safety",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=63631 vs EMA50=63731",
+        "detail": "EMA20=63478 vs EMA50=63653",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "48.9",
-        "points": 0
+        "detail": "36.9",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "15.0",
-        "points": 1.5
+        "detail": "-60.1",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 63606 vs [63294, 63892]",
+        "detail": "prix 63083 vs [63056, 64009]",
         "points": 0
       },
       {
@@ -147,14 +152,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -5",
-        "points": -1.67
+        "detail": "30 articles pertinents, score brut -6",
+        "points": -2
       }
     ],
-    "computedAt": "2026-08-13T15:35:02.493Z",
-    "priceUSD": 63599,
-    "priceEUR": 55151.6,
-    "change24h": 0.29410605164596887
+    "computedAt": "2026-08-13T18:41:38.310Z",
+    "priceUSD": 63074.4,
+    "priceEUR": 54721,
+    "change24h": -0.5331756357185075
   },
   "history": [
     {
@@ -326,7 +331,12 @@
       "t": "2026-08-13T15:35:02.496Z",
       "equityEUR": 103.84,
       "priceEUR": 55151.6
+    },
+    {
+      "t": "2026-08-13T18:41:38.313Z",
+      "equityEUR": 106.8,
+      "priceEUR": 54721
     }
   ],
-  "lastRun": "2026-08-13T15:35:02.496Z"
+  "lastRun": "2026-08-13T18:41:38.313Z"
 }
