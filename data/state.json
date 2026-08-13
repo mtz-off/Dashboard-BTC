@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 76.25,
-  "equityEUR": 101.97,
+  "equityEUR": 103.66,
   "stopped": false,
   "openPositions": [
     {
@@ -62,26 +62,29 @@
     }
   ],
   "lastSignal": {
-    "price": 63857.144234378626,
+    "price": 63618.76516397005,
     "direction": "SHORT",
-    "score": -0.55,
-    "strength": 0.07,
-    "atr14": 402.4737974182901,
+    "score": -1.83,
+    "strength": 0.23,
+    "atr14": 403.6569929353363,
     "indicators": {
-      "ema20": 63575.96289847845,
-      "ema50": 63769.784978679396,
-      "rsi14": 57.936301341180865,
-      "macdHist": 41.359972512532195,
-      "bbUpper": 64166.86040822014,
-      "bbMid": 63598.293569232665,
-      "bbLower": 63029.72673024519
+      "ema20": 63632.78342674461,
+      "ema50": 63760.79469008916,
+      "rsi14": 48.93461892621738,
+      "macdHist": 39.38008639158878,
+      "bbUpper": 63854.49033149512,
+      "bbMid": 63519.17086841855,
+      "bbLower": 63183.85140534198
     },
     "fearGreed": {
       "value": 29,
       "classification": "Fear",
       "timestamp": 1786579200000
     },
-    "fundingRate": null,
+    "fundingRate": {
+      "lastFundingRate": 0.00005313,
+      "markPrice": 63659.38451449
+    },
     "newsHighlights": [
       {
         "title": "Morgan Stanley's infrastructure partner Zerohash rebuffed in pitch to be U.S. trust bank",
@@ -102,32 +105,27 @@
         "title": "Bitcoin holds near $64,000 as U.S. inflation data looms, Harmony exploit rattles altcoins",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "CoreWeave surges 16% on $2.58 billion revenue quarter as AI infrastructure demand eclipses crypto",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=63576 vs EMA50=63770",
+        "detail": "EMA20=63633 vs EMA50=63761",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "57.9",
-        "points": 0.5
+        "detail": "48.9",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "41.4",
-        "points": 1.95
+        "detail": "39.4",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 63857 vs [63030, 64167]",
+        "detail": "prix 63619 vs [63184, 63854]",
         "points": 0
       },
       {
@@ -136,15 +134,20 @@
         "points": 0
       },
       {
+        "factor": "Funding rate BTC perp",
+        "detail": "0.0053%",
+        "points": 0
+      },
+      {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -3",
-        "points": -1
+        "detail": "30 articles pertinents, score brut -4",
+        "points": -1.33
       }
     ],
-    "computedAt": "2026-08-13T05:24:00.998Z",
-    "priceUSD": 63870.7,
-    "priceEUR": 55424.2,
-    "change24h": 0.7225704711216198
+    "computedAt": "2026-08-13T09:43:27.415Z",
+    "priceUSD": 63620.4,
+    "priceEUR": 55178.1,
+    "change24h": 0.32785334121821635
   },
   "history": [
     {
@@ -301,7 +304,12 @@
       "t": "2026-08-13T05:24:01.000Z",
       "equityEUR": 101.97,
       "priceEUR": 55424.2
+    },
+    {
+      "t": "2026-08-13T09:43:27.417Z",
+      "equityEUR": 103.66,
+      "priceEUR": 55178.1
     }
   ],
-  "lastRun": "2026-08-13T05:24:01.000Z"
+  "lastRun": "2026-08-13T09:43:27.417Z"
 }
