@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 76.25,
-  "equityEUR": 106.8,
+  "equityEUR": 104.94,
   "stopped": false,
   "openPositions": [
     {
@@ -62,19 +62,19 @@
     }
   ],
   "lastSignal": {
-    "price": 63082.787776260375,
+    "price": 63387.443332839975,
     "direction": "SHORT",
-    "score": -6.45,
-    "strength": 0.81,
-    "atr14": 420.4611007961733,
+    "score": -5.83,
+    "strength": 0.73,
+    "atr14": 439.3611983550623,
     "indicators": {
-      "ema20": 63477.81948354732,
-      "ema50": 63652.81541589128,
-      "rsi14": 36.925667826354086,
-      "macdHist": -60.13750283166611,
-      "bbUpper": 64009.107903434204,
-      "bbMid": 63532.69306218562,
-      "bbLower": 63056.27822093704
+      "ema20": 63461.84653684444,
+      "ema50": 63627.059074360186,
+      "rsi14": 46.54589164759202,
+      "macdHist": -20.571655217431413,
+      "bbUpper": 64000.1844065501,
+      "bbMid": 63532.222020563066,
+      "bbLower": 63064.25963457603
     },
     "fearGreed": {
       "value": 29,
@@ -83,6 +83,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Delio CEO sentenced to 15 years in prison on crypto fraud in South Korea",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "CFTC to join SEC in exploring crypto regulations without CLARITY bill",
         "source": "Cointelegraph",
@@ -117,32 +122,27 @@
         "title": "CEO of Crypto Lender Delio Gets 15 Years Over $49M Fraud",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "Live updates: Bitcoin stuck near $63,500 even as Fed rate hike expectations dwindle",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=63478 vs EMA50=63653",
+        "detail": "EMA20=63462 vs EMA50=63627",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "36.9",
-        "points": -0.5
+        "detail": "46.5",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-60.1",
-        "points": -1.95
+        "detail": "-20.6",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 63083 vs [63056, 64009]",
+        "detail": "prix 63387 vs [63064, 64000]",
         "points": 0
       },
       {
@@ -152,14 +152,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -6",
-        "points": -2
+        "detail": "30 articles pertinents, score brut -7",
+        "points": -2.33
       }
     ],
-    "computedAt": "2026-08-13T18:41:38.310Z",
-    "priceUSD": 63074.4,
-    "priceEUR": 54721,
-    "change24h": -0.5331756357185075
+    "computedAt": "2026-08-13T21:27:35.417Z",
+    "priceUSD": 63374.7,
+    "priceEUR": 54991.7,
+    "change24h": -0.059609698403316244
   },
   "history": [
     {
@@ -336,7 +336,12 @@
       "t": "2026-08-13T18:41:38.313Z",
       "equityEUR": 106.8,
       "priceEUR": 54721
+    },
+    {
+      "t": "2026-08-13T21:27:35.420Z",
+      "equityEUR": 104.94,
+      "priceEUR": 54991.7
     }
   ],
-  "lastRun": "2026-08-13T18:41:38.313Z"
+  "lastRun": "2026-08-13T21:27:35.420Z"
 }
