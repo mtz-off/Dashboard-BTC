@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 76.25,
-  "equityEUR": 103.66,
+  "equityEUR": 104.97,
   "stopped": false,
   "openPositions": [
     {
@@ -62,30 +62,37 @@
     }
   ],
   "lastSignal": {
-    "price": 63618.76516397005,
+    "price": 63400.43900014411,
     "direction": "SHORT",
-    "score": -1.83,
-    "strength": 0.23,
+    "score": -2,
+    "strength": 0.25,
     "atr14": 403.6569929353363,
     "indicators": {
-      "ema20": 63632.78342674461,
-      "ema50": 63760.79469008916,
-      "rsi14": 48.93461892621738,
-      "macdHist": 39.38008639158878,
-      "bbUpper": 63854.49033149512,
-      "bbMid": 63519.17086841855,
-      "bbLower": 63183.85140534198
+      "ema20": 63613.28995443069,
+      "ema50": 63742.8271854463,
+      "rsi14": 41.37664684282376,
+      "macdHist": 9.888525146284394,
+      "bbUpper": 63858.60110613215,
+      "bbMid": 63536.75894594392,
+      "bbLower": 63214.91678575569
     },
     "fearGreed": {
       "value": 29,
       "classification": "Fear",
       "timestamp": 1786579200000
     },
-    "fundingRate": {
-      "lastFundingRate": 0.00005313,
-      "markPrice": 63659.38451449
-    },
+    "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin holds steady near $64,000 as monero, hyperliquid outperform",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "CEO of Crypto Lender Delio Gets 15 Years Over $49M Fraud",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
       {
         "title": "Morgan Stanley's infrastructure partner Zerohash rebuffed in pitch to be U.S. trust bank",
         "source": "CoinDesk",
@@ -100,32 +107,27 @@
         "title": "After Coldcard Was Hacked, $15 Billion in Bitcoin Moved to Safety",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin holds near $64,000 as U.S. inflation data looms, Harmony exploit rattles altcoins",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=63633 vs EMA50=63761",
+        "detail": "EMA20=63613 vs EMA50=63743",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "48.9",
-        "points": 0
+        "detail": "41.4",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "39.4",
+        "detail": "9.9",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 63619 vs [63184, 63854]",
+        "detail": "prix 63400 vs [63215, 63859]",
         "points": 0
       },
       {
@@ -134,20 +136,15 @@
         "points": 0
       },
       {
-        "factor": "Funding rate BTC perp",
-        "detail": "0.0053%",
-        "points": 0
-      },
-      {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -4",
-        "points": -1.33
+        "detail": "30 articles pertinents, score brut -3",
+        "points": -1
       }
     ],
-    "computedAt": "2026-08-13T09:43:27.415Z",
-    "priceUSD": 63620.4,
-    "priceEUR": 55178.1,
-    "change24h": 0.32785334121821635
+    "computedAt": "2026-08-13T12:06:05.033Z",
+    "priceUSD": 63407.4,
+    "priceEUR": 54987,
+    "change24h": -0.00804257835600007
   },
   "history": [
     {
@@ -309,7 +306,12 @@
       "t": "2026-08-13T09:43:27.417Z",
       "equityEUR": 103.66,
       "priceEUR": 55178.1
+    },
+    {
+      "t": "2026-08-13T12:06:05.035Z",
+      "equityEUR": 104.97,
+      "priceEUR": 54987
     }
   ],
-  "lastRun": "2026-08-13T09:43:27.417Z"
+  "lastRun": "2026-08-13T12:06:05.035Z"
 }
