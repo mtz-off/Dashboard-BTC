@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 76.25,
-  "equityEUR": 104.97,
+  "equityEUR": 103.84,
   "stopped": false,
   "openPositions": [
     {
@@ -62,19 +62,19 @@
     }
   ],
   "lastSignal": {
-    "price": 63400.43900014411,
+    "price": 63605.65365420554,
     "direction": "SHORT",
-    "score": -2,
-    "strength": 0.25,
-    "atr14": 403.6569929353363,
+    "score": -2.17,
+    "strength": 0.27,
+    "atr14": 412.95936685098843,
     "indicators": {
-      "ema20": 63613.28995443069,
-      "ema50": 63742.8271854463,
-      "rsi14": 41.37664684282376,
-      "macdHist": 9.888525146284394,
-      "bbUpper": 63858.60110613215,
-      "bbMid": 63536.75894594392,
-      "bbLower": 63214.91678575569
+      "ema20": 63631.480358205066,
+      "ema50": 63731.42316758915,
+      "rsi14": 48.85334502797224,
+      "macdHist": 14.999402441228725,
+      "bbUpper": 63891.71400095689,
+      "bbMid": 63592.92202272753,
+      "bbLower": 63294.13004449817
     },
     "fearGreed": {
       "value": 29,
@@ -84,6 +84,11 @@
     "fundingRate": null,
     "newsHighlights": [
       {
+        "title": "Swissquote cuts full-year guidance as 1H crypto income plunges, shares slide",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
         "title": "Bitcoin holds steady near $64,000 as monero, hyperliquid outperform",
         "source": "CoinDesk",
         "itemScore": 1
@@ -91,6 +96,11 @@
       {
         "title": "CEO of Crypto Lender Delio Gets 15 Years Over $49M Fraud",
         "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Live updates: Bitcoin stuck near $63,500 even as Fed rate hike expectations dwindle",
+        "source": "CoinDesk",
         "itemScore": -1
       },
       {
@@ -112,22 +122,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=63613 vs EMA50=63743",
+        "detail": "EMA20=63631 vs EMA50=63731",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "41.4",
-        "points": -0.5
+        "detail": "48.9",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "9.9",
+        "detail": "15.0",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 63400 vs [63215, 63859]",
+        "detail": "prix 63606 vs [63294, 63892]",
         "points": 0
       },
       {
@@ -137,14 +147,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -3",
-        "points": -1
+        "detail": "30 articles pertinents, score brut -5",
+        "points": -1.67
       }
     ],
-    "computedAt": "2026-08-13T12:06:05.033Z",
-    "priceUSD": 63407.4,
-    "priceEUR": 54987,
-    "change24h": -0.00804257835600007
+    "computedAt": "2026-08-13T15:35:02.493Z",
+    "priceUSD": 63599,
+    "priceEUR": 55151.6,
+    "change24h": 0.29410605164596887
   },
   "history": [
     {
@@ -311,7 +321,12 @@
       "t": "2026-08-13T12:06:05.035Z",
       "equityEUR": 104.97,
       "priceEUR": 54987
+    },
+    {
+      "t": "2026-08-13T15:35:02.496Z",
+      "equityEUR": 103.84,
+      "priceEUR": 55151.6
     }
   ],
-  "lastRun": "2026-08-13T12:06:05.035Z"
+  "lastRun": "2026-08-13T15:35:02.496Z"
 }
