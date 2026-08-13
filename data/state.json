@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 76.25,
-  "equityEUR": 105.19,
+  "equityEUR": 101.97,
   "stopped": false,
   "openPositions": [
     {
@@ -62,24 +62,24 @@
     }
   ],
   "lastSignal": {
-    "price": 63343.210346765765,
+    "price": 63857.144234378626,
     "direction": "SHORT",
-    "score": -4.67,
-    "strength": 0.58,
-    "atr14": 422.5407354963355,
+    "score": -0.55,
+    "strength": 0.07,
+    "atr14": 402.4737974182901,
     "indicators": {
-      "ema20": 63577.93665409024,
-      "ema50": 63825.035366261196,
-      "rsi14": 40.07692061461576,
-      "macdHist": -23.25832832922066,
-      "bbUpper": 64201.3842229174,
-      "bbMid": 63646.81729009906,
-      "bbLower": 63092.250357280725
+      "ema20": 63575.96289847845,
+      "ema50": 63769.784978679396,
+      "rsi14": 57.936301341180865,
+      "macdHist": 41.359972512532195,
+      "bbUpper": 64166.86040822014,
+      "bbMid": 63598.293569232665,
+      "bbLower": 63029.72673024519
     },
     "fearGreed": {
-      "value": 27,
+      "value": 29,
       "classification": "Fear",
-      "timestamp": 1786492800000
+      "timestamp": 1786579200000
     },
     "fundingRate": null,
     "newsHighlights": [
@@ -107,49 +107,44 @@
         "title": "CoreWeave surges 16% on $2.58 billion revenue quarter as AI infrastructure demand eclipses crypto",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Live updates: AI stocks surge on Q2 beats, bitcoin falls below $64,000 as inflation hits estimates",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=63578 vs EMA50=63825",
+        "detail": "EMA20=63576 vs EMA50=63770",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "40.1",
-        "points": -0.5
+        "detail": "57.9",
+        "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-23.3",
-        "points": -1.5
+        "detail": "41.4",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 63343 vs [63092, 64201]",
+        "detail": "prix 63857 vs [63030, 64167]",
         "points": 0
       },
       {
         "factor": "Fear & Greed Index",
-        "detail": "27 (Fear)",
+        "detail": "29 (Fear)",
         "points": 0
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -2",
-        "points": -0.67
+        "detail": "30 articles pertinents, score brut -3",
+        "points": -1
       }
     ],
-    "computedAt": "2026-08-12T23:24:50.312Z",
-    "priceUSD": 63341.2,
-    "priceEUR": 54955,
-    "change24h": -0.3145995269203735
+    "computedAt": "2026-08-13T05:24:00.998Z",
+    "priceUSD": 63870.7,
+    "priceEUR": 55424.2,
+    "change24h": 0.7225704711216198
   },
   "history": [
     {
@@ -301,7 +296,12 @@
       "t": "2026-08-12T23:24:50.314Z",
       "equityEUR": 105.19,
       "priceEUR": 54955
+    },
+    {
+      "t": "2026-08-13T05:24:01.000Z",
+      "equityEUR": 101.97,
+      "priceEUR": 55424.2
     }
   ],
-  "lastRun": "2026-08-12T23:24:50.314Z"
+  "lastRun": "2026-08-13T05:24:01.000Z"
 }
