@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 82.19,
-  "equityEUR": 111.32,
+  "equityEUR": 108.56,
   "stopped": false,
   "openPositions": [
     {
@@ -78,19 +78,19 @@
     }
   ],
   "lastSignal": {
-    "price": 62624.88831749998,
+    "price": 62977.894952094204,
     "direction": "SHORT",
-    "score": -6.67,
-    "strength": 0.83,
-    "atr14": 409.8574794390789,
+    "score": -2.05,
+    "strength": 0.26,
+    "atr14": 412.8329817910663,
     "indicators": {
-      "ema20": 63014.59233004583,
-      "ema50": 63320.183562754675,
-      "rsi14": 30.74340344775355,
-      "macdHist": -50.89911644689144,
-      "bbUpper": 63771.088491836425,
-      "bbMid": 63109.70572078401,
-      "bbLower": 62448.3229497316
+      "ema20": 63005.8755145116,
+      "ema50": 63281.494203816095,
+      "rsi14": 46.371856654637725,
+      "macdHist": 20.21949810698362,
+      "bbUpper": 63675.89196121405,
+      "bbMid": 63047.657843160734,
+      "bbLower": 62419.423725107416
     },
     "fearGreed": {
       "value": 29,
@@ -99,6 +99,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Israel’s Largest Bank Will Give Bitcoin Trading Another Try",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Israel’s largest bank taps Galaxy to offer Bitcoin, Ether, Solana trading",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "Israel’s largest bank to offer crypto trading with Galaxy",
         "source": "CoinDesk",
@@ -118,47 +128,27 @@
         "title": "Delio CEO sentenced to 15 years in prison on crypto fraud in South Korea",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "CFTC to join SEC in exploring crypto regulations without CLARITY bill",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Crypto Group Warns Fed Could Use Banking Access to Squeeze Digital Asset Firms",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin Companies Want Help From AI Labs to Guard Against Hackers",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Hawaii To Ban Cash Deposits at Crypto ATMs From October",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=63015 vs EMA50=63320",
+        "detail": "EMA20=63006 vs EMA50=63281",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "30.7",
-        "points": -0.5
+        "detail": "46.4",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-50.9",
-        "points": -1.5
+        "detail": "20.2",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 62625 vs [62448, 63771]",
+        "detail": "prix 62978 vs [62419, 63676]",
         "points": 0
       },
       {
@@ -168,14 +158,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -8",
-        "points": -2.67
+        "detail": "30 articles pertinents, score brut -6",
+        "points": -2
       }
     ],
-    "computedAt": "2026-08-14T15:10:34.026Z",
-    "priceUSD": 62619.2,
-    "priceEUR": 54087.9,
-    "change24h": -1.2678305922271558
+    "computedAt": "2026-08-14T18:09:57.287Z",
+    "priceUSD": 62955.5,
+    "priceEUR": 54451.5,
+    "change24h": -0.7375838217185212
   },
   "history": [
     {
@@ -382,7 +372,12 @@
       "t": "2026-08-14T15:10:34.028Z",
       "equityEUR": 111.32,
       "priceEUR": 54087.9
+    },
+    {
+      "t": "2026-08-14T18:09:57.290Z",
+      "equityEUR": 108.56,
+      "priceEUR": 54451.5
     }
   ],
-  "lastRun": "2026-08-14T15:10:34.028Z"
+  "lastRun": "2026-08-14T18:09:57.290Z"
 }
