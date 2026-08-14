@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 82.19,
-  "equityEUR": 109.59,
+  "equityEUR": 109.54,
   "stopped": false,
   "openPositions": [
     {
@@ -78,19 +78,19 @@
     }
   ],
   "lastSignal": {
-    "price": 62727.07698946747,
+    "price": 62803.31092351298,
     "direction": "SHORT",
-    "score": -3.78,
-    "strength": 0.47,
+    "score": -6.33,
+    "strength": 0.79,
     "atr14": 421.2943669180203,
     "indicators": {
-      "ema20": 63236.459625466894,
-      "ema50": 63462.8734164116,
-      "rsi14": 29.482670208530834,
-      "macdHist": -64.23542752495212,
-      "bbUpper": 63807.44820299049,
-      "bbMid": 63278.43684163913,
-      "bbLower": 62749.42548028777
+      "ema20": 63151.38686276208,
+      "ema50": 63409.033535861265,
+      "rsi14": 33.291226250458124,
+      "macdHist": -57.401503587532545,
+      "bbUpper": 63716.62716461481,
+      "bbMid": 63191.341098119716,
+      "bbLower": 62666.05503162462
     },
     "fearGreed": {
       "value": 29,
@@ -133,33 +133,28 @@
         "title": "Swissquote cuts full-year guidance as 1H crypto income plunges, shares slide",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin holds steady near $64,000 as monero, hyperliquid outperform",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=63236 vs EMA50=63463",
+        "detail": "EMA20=63151 vs EMA50=63409",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "29.5",
-        "points": 1.5
+        "detail": "33.3",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-64.2",
-        "points": -1.95
+        "detail": "-57.4",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 62727 vs [62749, 63807]",
-        "points": 1
+        "detail": "prix 62803 vs [62666, 63717]",
+        "points": 0
       },
       {
         "factor": "Fear & Greed Index",
@@ -172,10 +167,10 @@
         "points": -2.33
       }
     ],
-    "computedAt": "2026-08-14T09:35:00.108Z",
-    "priceUSD": 62737.2,
-    "priceEUR": 54315.9,
-    "change24h": -1.0817790938030754
+    "computedAt": "2026-08-14T12:00:52.348Z",
+    "priceUSD": 62804.9,
+    "priceEUR": 54322.1,
+    "change24h": -0.9750359883512864
   },
   "history": [
     {
@@ -372,7 +367,12 @@
       "t": "2026-08-14T09:35:00.110Z",
       "equityEUR": 109.59,
       "priceEUR": 54315.9
+    },
+    {
+      "t": "2026-08-14T12:00:52.350Z",
+      "equityEUR": 109.54,
+      "priceEUR": 54322.1
     }
   ],
-  "lastRun": "2026-08-14T09:35:00.110Z"
+  "lastRun": "2026-08-14T12:00:52.350Z"
 }
