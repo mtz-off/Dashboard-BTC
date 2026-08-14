@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 82.19,
-  "equityEUR": 109.35,
+  "equityEUR": 109.43,
   "stopped": false,
   "openPositions": [
     {
@@ -78,19 +78,19 @@
     }
   ],
   "lastSignal": {
-    "price": 62868.77701458072,
+    "price": 62828.80436338941,
     "direction": "SHORT",
-    "score": -2.22,
-    "strength": 0.28,
+    "score": -3.33,
+    "strength": 0.42,
     "atr14": 411.6383327413018,
     "indicators": {
-      "ema20": 62970.963536269184,
-      "ema50": 63235.01737827372,
-      "rsi14": 43.526020503411125,
-      "macdHist": 27.14174849213856,
-      "bbUpper": 63488.2990201374,
-      "bbMid": 62959.40064771795,
-      "bbLower": 62430.5022752985
+      "ema20": 62957.02409902607,
+      "ema50": 63219.07269779479,
+      "rsi14": 42.43147310630142,
+      "macdHist": 24.34393437909307,
+      "bbUpper": 63398.12324727671,
+      "bbMid": 62926.117021786245,
+      "bbLower": 62454.11079629578
     },
     "fearGreed": {
       "value": 29,
@@ -99,6 +99,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Trump-backed World Liberty wins conditional bank charter from federal regulator",
+        "source": "CoinDesk",
+        "itemScore": -2
+      },
       {
         "title": "Israel’s Largest Bank Will Give Bitcoin Trading Another Try",
         "source": "Decrypt",
@@ -128,22 +133,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=62971 vs EMA50=63235",
+        "detail": "EMA20=62957 vs EMA50=63219",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "43.5",
+        "detail": "42.4",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "27.1",
-        "points": 1.95
+        "detail": "24.3",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 62869 vs [62431, 63488]",
+        "detail": "prix 62829 vs [62454, 63398]",
         "points": 0
       },
       {
@@ -153,14 +158,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -5",
-        "points": -1.67
+        "detail": "30 articles pertinents, score brut -7",
+        "points": -2.33
       }
     ],
-    "computedAt": "2026-08-14T21:03:14.958Z",
-    "priceUSD": 62844.6,
-    "priceEUR": 54347.2,
-    "change24h": -0.9124406960848841
+    "computedAt": "2026-08-14T21:57:10.071Z",
+    "priceUSD": 62835,
+    "priceEUR": 54336.5,
+    "change24h": -0.9275770891770105
   },
   "history": [
     {
@@ -382,7 +387,12 @@
       "t": "2026-08-14T21:03:14.960Z",
       "equityEUR": 109.35,
       "priceEUR": 54347.2
+    },
+    {
+      "t": "2026-08-14T21:57:10.073Z",
+      "equityEUR": 109.43,
+      "priceEUR": 54336.5
     }
   ],
-  "lastRun": "2026-08-14T21:03:14.960Z"
+  "lastRun": "2026-08-14T21:57:10.073Z"
 }
