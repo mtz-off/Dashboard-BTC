@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 82.19,
-  "equityEUR": 108.56,
+  "equityEUR": 108.82,
   "stopped": false,
   "openPositions": [
     {
@@ -78,19 +78,19 @@
     }
   ],
   "lastSignal": {
-    "price": 62977.894952094204,
+    "price": 62909.5927187974,
     "direction": "SHORT",
-    "score": -2.05,
-    "strength": 0.26,
+    "score": -2.22,
+    "strength": 0.28,
     "atr14": 412.8329817910663,
     "indicators": {
-      "ema20": 63005.8755145116,
-      "ema50": 63281.494203816095,
-      "rsi14": 46.371856654637725,
-      "macdHist": 20.21949810698362,
-      "bbUpper": 63675.89196121405,
-      "bbMid": 63047.657843160734,
-      "bbLower": 62419.423725107416
+      "ema20": 62982.37100992073,
+      "ema50": 63250.19169361729,
+      "rsi14": 44.86968844801709,
+      "macdHist": 26.75224925278789,
+      "bbUpper": 63568.62683738133,
+      "bbMid": 62991.425690507866,
+      "bbLower": 62414.2245436344
     },
     "fearGreed": {
       "value": 29,
@@ -123,32 +123,27 @@
         "title": "SEC cancels key crypto regulatory meeting",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "Delio CEO sentenced to 15 years in prison on crypto fraud in South Korea",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=63006 vs EMA50=63281",
+        "detail": "EMA20=62982 vs EMA50=63250",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "46.4",
-        "points": 0
+        "detail": "44.9",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "20.2",
+        "detail": "26.8",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 62978 vs [62419, 63676]",
+        "detail": "prix 62910 vs [62414, 63569]",
         "points": 0
       },
       {
@@ -158,14 +153,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -6",
-        "points": -2
+        "detail": "30 articles pertinents, score brut -5",
+        "points": -1.67
       }
     ],
-    "computedAt": "2026-08-14T18:09:57.287Z",
-    "priceUSD": 62955.5,
-    "priceEUR": 54451.5,
-    "change24h": -0.7375838217185212
+    "computedAt": "2026-08-14T20:04:11.193Z",
+    "priceUSD": 62928.8,
+    "priceEUR": 54417.5,
+    "change24h": -0.7796819150059993
   },
   "history": [
     {
@@ -377,7 +372,12 @@
       "t": "2026-08-14T18:09:57.290Z",
       "equityEUR": 108.56,
       "priceEUR": 54451.5
+    },
+    {
+      "t": "2026-08-14T20:04:11.195Z",
+      "equityEUR": 108.82,
+      "priceEUR": 54417.5
     }
   ],
-  "lastRun": "2026-08-14T18:09:57.290Z"
+  "lastRun": "2026-08-14T20:04:11.195Z"
 }
