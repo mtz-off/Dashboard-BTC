@@ -5,25 +5,25 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 76.25,
-  "equityEUR": 105.93,
+  "balanceEUR": 82.19,
+  "equityEUR": 109.59,
   "stopped": false,
   "openPositions": [
     {
-      "id": "ef302fe5-e413-4609-aff1-31a3c5af754c",
+      "id": "335f78d7-0c3b-4992-ba88-fd2b6fc492d4",
       "side": "SHORT",
-      "entryPrice": 55467.4,
-      "entryTime": "2026-08-10T20:05:57.108Z",
-      "sizeEUR": 25.42,
-      "notionalEUR": 381.3,
+      "entryPrice": 54315.9,
+      "entryTime": "2026-08-14T09:35:00.110Z",
+      "sizeEUR": 27.4,
+      "notionalEUR": 411,
       "leverage": 15,
-      "qtyBTC": 0.00687431,
-      "sl": 55882.72,
-      "tp": 54636.77,
-      "slPct": 0.75,
-      "tpPct": 1.5,
-      "signalScore": -3.33,
-      "signalStrength": 0.42,
+      "qtyBTC": 0.00756685,
+      "sl": 54753.66,
+      "tp": 53440.37,
+      "slPct": 0.81,
+      "tpPct": 1.61,
+      "signalScore": -3.78,
+      "signalStrength": 0.47,
       "status": "OPEN"
     }
   ],
@@ -59,22 +59,38 @@
       "pnlPct": 1.41,
       "reason": "TP",
       "status": "CLOSED"
+    },
+    {
+      "id": "ef302fe5-e413-4609-aff1-31a3c5af754c",
+      "side": "SHORT",
+      "entryPrice": 55467.4,
+      "entryTime": "2026-08-10T20:05:57.108Z",
+      "exitPrice": 54315.9,
+      "exitTime": "2026-08-14T09:35:00.110Z",
+      "sizeEUR": 25.42,
+      "notionalEUR": 381.3,
+      "leverage": 15,
+      "qtyBTC": 0.00687431,
+      "pnlEUR": 7.92,
+      "pnlPct": 2.08,
+      "reason": "TP",
+      "status": "CLOSED"
     }
   ],
   "lastSignal": {
-    "price": 63283.870893054496,
+    "price": 62727.07698946747,
     "direction": "SHORT",
-    "score": -6.78,
-    "strength": 0.85,
-    "atr14": 413.60142635808296,
+    "score": -3.78,
+    "strength": 0.47,
+    "atr14": 421.2943669180203,
     "indicators": {
-      "ema20": 63434.98608235858,
-      "ema50": 63577.052731720985,
-      "rsi14": 43.07896995842429,
-      "macdHist": -4.199759668057872,
-      "bbUpper": 63813.12217767255,
-      "bbMid": 63439.606018471146,
-      "bbLower": 63066.08985926974
+      "ema20": 63236.459625466894,
+      "ema50": 63462.8734164116,
+      "rsi14": 29.482670208530834,
+      "macdHist": -64.23542752495212,
+      "bbUpper": 63807.44820299049,
+      "bbMid": 63278.43684163913,
+      "bbLower": 62749.42548028777
     },
     "fearGreed": {
       "value": 29,
@@ -83,6 +99,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "SEC cancels key crypto regulatory meeting",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "Delio CEO sentenced to 15 years in prison on crypto fraud in South Korea",
         "source": "Cointelegraph",
@@ -117,33 +138,28 @@
         "title": "Bitcoin holds steady near $64,000 as monero, hyperliquid outperform",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "CEO of Crypto Lender Delio Gets 15 Years Over $49M Fraud",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=63435 vs EMA50=63577",
+        "detail": "EMA20=63236 vs EMA50=63463",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "43.1",
-        "points": -0.5
+        "detail": "29.5",
+        "points": 1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-4.2",
+        "detail": "-64.2",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 63284 vs [63066, 63813]",
-        "points": 0
+        "detail": "prix 62727 vs [62749, 63807]",
+        "points": 1
       },
       {
         "factor": "Fear & Greed Index",
@@ -156,10 +172,10 @@
         "points": -2.33
       }
     ],
-    "computedAt": "2026-08-14T05:20:26.923Z",
-    "priceUSD": 63263.2,
-    "priceEUR": 54848.3,
-    "change24h": -0.2524308889635289
+    "computedAt": "2026-08-14T09:35:00.108Z",
+    "priceUSD": 62737.2,
+    "priceEUR": 54315.9,
+    "change24h": -1.0817790938030754
   },
   "history": [
     {
@@ -351,7 +367,12 @@
       "t": "2026-08-14T05:20:26.925Z",
       "equityEUR": 105.93,
       "priceEUR": 54848.3
+    },
+    {
+      "t": "2026-08-14T09:35:00.110Z",
+      "equityEUR": 109.59,
+      "priceEUR": 54315.9
     }
   ],
-  "lastRun": "2026-08-14T05:20:26.925Z"
+  "lastRun": "2026-08-14T09:35:00.110Z"
 }
