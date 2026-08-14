@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 82.19,
-  "equityEUR": 109.54,
+  "equityEUR": 111.32,
   "stopped": false,
   "openPositions": [
     {
@@ -78,19 +78,19 @@
     }
   ],
   "lastSignal": {
-    "price": 62803.31092351298,
+    "price": 62624.88831749998,
     "direction": "SHORT",
-    "score": -6.33,
-    "strength": 0.79,
-    "atr14": 421.2943669180203,
+    "score": -6.67,
+    "strength": 0.83,
+    "atr14": 409.8574794390789,
     "indicators": {
-      "ema20": 63151.38686276208,
-      "ema50": 63409.033535861265,
-      "rsi14": 33.291226250458124,
-      "macdHist": -57.401503587532545,
-      "bbUpper": 63716.62716461481,
-      "bbMid": 63191.341098119716,
-      "bbLower": 62666.05503162462
+      "ema20": 63014.59233004583,
+      "ema50": 63320.183562754675,
+      "rsi14": 30.74340344775355,
+      "macdHist": -50.89911644689144,
+      "bbUpper": 63771.088491836425,
+      "bbMid": 63109.70572078401,
+      "bbLower": 62448.3229497316
     },
     "fearGreed": {
       "value": 29,
@@ -99,6 +99,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Israel’s largest bank to offer crypto trading with Galaxy",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Fear is fading across markets, be it bitcoin, stocks, gold or bonds",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "SEC cancels key crypto regulatory meeting",
         "source": "Cointelegraph",
@@ -128,32 +138,27 @@
         "title": "Hawaii To Ban Cash Deposits at Crypto ATMs From October",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "Swissquote cuts full-year guidance as 1H crypto income plunges, shares slide",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=63151 vs EMA50=63409",
+        "detail": "EMA20=63015 vs EMA50=63320",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "33.3",
+        "detail": "30.7",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-57.4",
+        "detail": "-50.9",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 62803 vs [62666, 63717]",
+        "detail": "prix 62625 vs [62448, 63771]",
         "points": 0
       },
       {
@@ -163,14 +168,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -7",
-        "points": -2.33
+        "detail": "30 articles pertinents, score brut -8",
+        "points": -2.67
       }
     ],
-    "computedAt": "2026-08-14T12:00:52.348Z",
-    "priceUSD": 62804.9,
-    "priceEUR": 54322.1,
-    "change24h": -0.9750359883512864
+    "computedAt": "2026-08-14T15:10:34.026Z",
+    "priceUSD": 62619.2,
+    "priceEUR": 54087.9,
+    "change24h": -1.2678305922271558
   },
   "history": [
     {
@@ -372,7 +377,12 @@
       "t": "2026-08-14T12:00:52.350Z",
       "equityEUR": 109.54,
       "priceEUR": 54322.1
+    },
+    {
+      "t": "2026-08-14T15:10:34.028Z",
+      "equityEUR": 111.32,
+      "priceEUR": 54087.9
     }
   ],
-  "lastRun": "2026-08-14T12:00:52.350Z"
+  "lastRun": "2026-08-14T15:10:34.028Z"
 }
