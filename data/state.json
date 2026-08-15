@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 82.19,
-  "equityEUR": 108.59,
+  "equityEUR": 108.57,
   "stopped": false,
   "openPositions": [
     {
@@ -78,19 +78,19 @@
     }
   ],
   "lastSignal": {
-    "price": 62962.55092691557,
+    "price": 62971.01955781388,
     "direction": "SHORT",
-    "score": -2.83,
-    "strength": 0.35,
-    "atr14": 365.88440140350957,
+    "score": -2.17,
+    "strength": 0.27,
+    "atr14": 350.81504967814504,
     "indicators": {
-      "ema20": 62981.26233524062,
-      "ema50": 63121.40770122878,
-      "rsi14": 47.96313473967,
-      "macdHist": 13.639300812864356,
-      "bbUpper": 63124.480509403016,
-      "bbMid": 62968.50405718158,
-      "bbLower": 62812.52760496014
+      "ema20": 62979.4547355415,
+      "ema50": 63109.711350735335,
+      "rsi14": 48.49656100394298,
+      "macdHist": 11.333261200450323,
+      "bbUpper": 63108.47670824252,
+      "bbMid": 62963.207189013694,
+      "bbLower": 62817.93766978487
     },
     "fearGreed": {
       "value": 34,
@@ -99,6 +99,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin to $1M by 2030 is ‘mathematically impossible’ says Markus Thielen",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
       {
         "title": "Trump-backed World Liberty wins conditional bank charter from federal regulator",
         "source": "CoinDesk",
@@ -123,32 +128,27 @@
         "title": "Fear is fading across markets, be it bitcoin, stocks, gold or bonds",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "SEC cancels key crypto regulatory meeting",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=62981 vs EMA50=63121",
+        "detail": "EMA20=62979 vs EMA50=63110",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "48.0",
+        "detail": "48.5",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "13.6",
+        "detail": "11.3",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 62963 vs [62813, 63124]",
+        "detail": "prix 62971 vs [62818, 63108]",
         "points": 0
       },
       {
@@ -158,14 +158,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -7",
-        "points": -2.33
+        "detail": "30 articles pertinents, score brut -5",
+        "points": -1.67
       }
     ],
-    "computedAt": "2026-08-15T12:01:41.150Z",
-    "priceUSD": 62945.1,
-    "priceEUR": 54448.1,
-    "change24h": -0.05446225273661373
+    "computedAt": "2026-08-15T13:45:33.722Z",
+    "priceUSD": 62971.5,
+    "priceEUR": 54450.9,
+    "change24h": -0.012543784157996828
   },
   "history": [
     {
@@ -452,7 +452,12 @@
       "t": "2026-08-15T12:01:41.152Z",
       "equityEUR": 108.59,
       "priceEUR": 54448.1
+    },
+    {
+      "t": "2026-08-15T13:45:33.724Z",
+      "equityEUR": 108.57,
+      "priceEUR": 54450.9
     }
   ],
-  "lastRun": "2026-08-15T12:01:41.152Z"
+  "lastRun": "2026-08-15T13:45:33.724Z"
 }
