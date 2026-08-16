@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 82.19,
-  "equityEUR": 108.62,
+  "equityEUR": 108.76,
   "stopped": false,
   "openPositions": [
     {
@@ -78,19 +78,19 @@
     }
   ],
   "lastSignal": {
-    "price": 62953.532655699666,
+    "price": 62943.26313530388,
     "direction": "SHORT",
-    "score": -6.12,
-    "strength": 0.76,
+    "score": -5.78,
+    "strength": 0.72,
     "atr14": 278.8299741208824,
     "indicators": {
-      "ema20": 63008.95050830124,
-      "ema50": 63058.437729626276,
-      "rsi14": 43.52118210605708,
-      "macdHist": -10.253377330997937,
-      "bbUpper": 63102.27822464458,
-      "bbMid": 63026.53590385123,
-      "bbLower": 62950.793583057886
+      "ema20": 63002.46632214075,
+      "ema50": 63053.788172812616,
+      "rsi14": 42.5886627711091,
+      "macdHist": -11.498906801672321,
+      "bbUpper": 63105.381719782694,
+      "bbMid": 63021.623128881656,
+      "bbLower": 62937.86453798062
     },
     "fearGreed": {
       "value": 34,
@@ -123,32 +123,27 @@
         "title": "Israel’s largest bank to offer crypto trading with Galaxy",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Fear is fading across markets, be it bitcoin, stocks, gold or bonds",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=63009 vs EMA50=63058",
+        "detail": "EMA20=63002 vs EMA50=63054",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "43.5",
+        "detail": "42.6",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-10.3",
+        "detail": "-11.5",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 62954 vs [62951, 63102]",
+        "detail": "prix 62943 vs [62938, 63105]",
         "points": 0
       },
       {
@@ -158,14 +153,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -5",
-        "points": -1.67
+        "detail": "29 articles pertinents, score brut -4",
+        "points": -1.33
       }
     ],
-    "computedAt": "2026-08-16T10:52:33.472Z",
-    "priceUSD": 62924.9,
-    "priceEUR": 54444.2,
-    "change24h": -0.15771694409934175
+    "computedAt": "2026-08-16T11:42:41.850Z",
+    "priceUSD": 62921.5,
+    "priceEUR": 54425,
+    "change24h": -0.1631116886661223
   },
   "history": [
     {
@@ -557,7 +552,12 @@
       "t": "2026-08-16T10:52:33.474Z",
       "equityEUR": 108.62,
       "priceEUR": 54444.2
+    },
+    {
+      "t": "2026-08-16T11:42:41.852Z",
+      "equityEUR": 108.76,
+      "priceEUR": 54425
     }
   ],
-  "lastRun": "2026-08-16T10:52:33.474Z"
+  "lastRun": "2026-08-16T11:42:41.852Z"
 }
