@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 82.19,
-  "equityEUR": 108.25,
+  "equityEUR": 108.04,
   "stopped": false,
   "openPositions": [
     {
@@ -78,19 +78,19 @@
     }
   ],
   "lastSignal": {
-    "price": 63010.00903787614,
+    "price": 63044.28051951629,
     "direction": "SHORT",
-    "score": -5.5,
-    "strength": 0.69,
+    "score": -5.17,
+    "strength": 0.65,
     "atr14": 266.64450450790974,
     "indicators": {
-      "ema20": 63001.00662387178,
-      "ema50": 63049.22676566592,
-      "rsi14": 50.55548979596136,
-      "macdHist": -5.949881173478489,
-      "bbUpper": 63103.733351848176,
-      "bbMid": 63018.81454177918,
-      "bbLower": 62933.89573171019
+      "ema20": 63004.18161383779,
+      "ema50": 63048.55088672239,
+      "rsi14": 54.30677911548195,
+      "macdHist": -0.9889386340608652,
+      "bbUpper": 63107.61458006611,
+      "bbMid": 63020.29282329932,
+      "bbLower": 62932.97106653253
     },
     "fearGreed": {
       "value": 34,
@@ -128,32 +128,27 @@
         "title": "Israel’s largest bank taps Galaxy to offer Bitcoin, Ether, Solana trading",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "Israel’s largest bank to offer crypto trading with Galaxy",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=63001 vs EMA50=63049",
+        "detail": "EMA20=63004 vs EMA50=63049",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "50.6",
+        "detail": "54.3",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-5.9",
+        "detail": "-1.0",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 63010 vs [62934, 63104]",
+        "detail": "prix 63044 vs [62933, 63108]",
         "points": 0
       },
       {
@@ -163,14 +158,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "29 articles pertinents, score brut -6",
-        "points": -2
+        "detail": "25 articles pertinents, score brut -5",
+        "points": -1.67
       }
     ],
-    "computedAt": "2026-08-16T13:47:09.838Z",
-    "priceUSD": 62998.8,
-    "priceEUR": 54493,
-    "change24h": -0.04046058425083658
+    "computedAt": "2026-08-16T14:52:51.917Z",
+    "priceUSD": 63035.1,
+    "priceEUR": 54521.1,
+    "change24h": 0.017136247447406213
   },
   "history": [
     {
@@ -577,7 +572,12 @@
       "t": "2026-08-16T13:47:09.840Z",
       "equityEUR": 108.25,
       "priceEUR": 54493
+    },
+    {
+      "t": "2026-08-16T14:52:51.919Z",
+      "equityEUR": 108.04,
+      "priceEUR": 54521.1
     }
   ],
-  "lastRun": "2026-08-16T13:47:09.840Z"
+  "lastRun": "2026-08-16T14:52:51.919Z"
 }
