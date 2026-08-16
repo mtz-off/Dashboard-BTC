@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 82.19,
-  "equityEUR": 108.35,
+  "equityEUR": 109.75,
   "stopped": false,
   "openPositions": [
     {
@@ -78,19 +78,19 @@
     }
   ],
   "lastSignal": {
-    "price": 63008.191897200726,
+    "price": 62974.74228707133,
     "direction": "SHORT",
-    "score": -1.5,
-    "strength": 0.19,
+    "score": -4.78,
+    "strength": 0.6,
     "atr14": 258.57383775963973,
     "indicators": {
-      "ema20": 63040.49481900433,
-      "ema50": 63057.279169119465,
-      "rsi14": 47.41805061489895,
-      "macdHist": 3.1761117851194367,
-      "bbUpper": 63154.15836177918,
-      "bbMid": 63032.53156697568,
-      "bbLower": 62910.90477217219
+      "ema20": 63034.459922063266,
+      "ema50": 63054.11534929314,
+      "rsi14": 44.56674884683685,
+      "macdHist": -2.877174377371782,
+      "bbUpper": 63153.36068238931,
+      "bbMid": 63030.72611382728,
+      "bbLower": 62908.09154526525
     },
     "fearGreed": {
       "value": 34,
@@ -113,32 +113,27 @@
         "title": "Bitcoin to $1M by 2030 is ‘mathematically impossible’ says Markus Thielen",
         "source": "Cointelegraph",
         "itemScore": 1
-      },
-      {
-        "title": "Trump-backed World Liberty wins conditional bank charter from federal regulator",
-        "source": "CoinDesk",
-        "itemScore": -2
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=63040 vs EMA50=63057",
+        "detail": "EMA20=63034 vs EMA50=63054",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "47.4",
-        "points": 0
+        "detail": "44.6",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "3.2",
-        "points": 1.5
+        "detail": "-2.9",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 63008 vs [62911, 63154]",
+        "detail": "prix 62975 vs [62908, 63153]",
         "points": 0
       },
       {
@@ -148,14 +143,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "18 articles pertinents, score brut -3",
-        "points": -1
+        "detail": "14 articles pertinents, score brut -1",
+        "points": -0.33
       }
     ],
-    "computedAt": "2026-08-16T20:50:11.741Z",
-    "priceUSD": 62976.8,
-    "priceEUR": 54479.4,
-    "change24h": -0.07536775497704853
+    "computedAt": "2026-08-16T21:40:13.375Z",
+    "priceUSD": 62756.6,
+    "priceEUR": 54295.1,
+    "change24h": -0.42475680015486783
   },
   "history": [
     {
@@ -602,7 +597,12 @@
       "t": "2026-08-16T20:50:11.743Z",
       "equityEUR": 108.35,
       "priceEUR": 54479.4
+    },
+    {
+      "t": "2026-08-16T21:40:13.378Z",
+      "equityEUR": 109.75,
+      "priceEUR": 54295.1
     }
   ],
-  "lastRun": "2026-08-16T20:50:11.743Z"
+  "lastRun": "2026-08-16T21:40:13.378Z"
 }
