@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 82.19,
-  "equityEUR": 107.13,
+  "equityEUR": 107.45,
   "stopped": false,
   "openPositions": [
     {
@@ -78,19 +78,19 @@
     }
   ],
   "lastSignal": {
-    "price": 63184.775182107944,
+    "price": 63131.247539515,
     "direction": "SHORT",
-    "score": -1.88,
-    "strength": 0.24,
+    "score": -0.55,
+    "strength": 0.07,
     "atr14": 258.0331138919238,
     "indicators": {
-      "ema20": 63028.588009086816,
-      "ema50": 63055.37406845192,
-      "rsi14": 66.04827981056457,
-      "macdHist": 14.891663491367508,
-      "bbUpper": 63143.487151663765,
-      "bbMid": 63028.74104206733,
-      "bbLower": 62913.9949324709
+      "ema20": 63039.87304973654,
+      "ema50": 63059.018857265524,
+      "rsi14": 58.993701732337435,
+      "macdHist": 17.42111792262235,
+      "bbUpper": 63154.98042304468,
+      "bbMid": 63031.29546700099,
+      "bbLower": 62907.6105109573
     },
     "fearGreed": {
       "value": 34,
@@ -118,33 +118,28 @@
         "title": "Trump-backed World Liberty wins conditional bank charter from federal regulator",
         "source": "CoinDesk",
         "itemScore": -2
-      },
-      {
-        "title": "Israel’s Largest Bank Will Give Bitcoin Trading Another Try",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=63029 vs EMA50=63055",
+        "detail": "EMA20=63040 vs EMA50=63059",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "66.0",
+        "detail": "59.0",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "14.9",
+        "detail": "17.4",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 63185 vs [62914, 63143]",
-        "points": -1
+        "detail": "prix 63131 vs [62908, 63155]",
+        "points": 0
       },
       {
         "factor": "Fear & Greed Index",
@@ -153,14 +148,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "22 articles pertinents, score brut -4",
-        "points": -1.33
+        "detail": "20 articles pertinents, score brut -3",
+        "points": -1
       }
     ],
-    "computedAt": "2026-08-16T16:55:02.785Z",
-    "priceUSD": 63180.6,
-    "priceEUR": 54640.9,
-    "change24h": 0.24799958111394435
+    "computedAt": "2026-08-16T17:40:48.671Z",
+    "priceUSD": 63125.5,
+    "priceEUR": 54599.1,
+    "change24h": 0.16057298534057035
   },
   "history": [
     {
@@ -582,7 +577,12 @@
       "t": "2026-08-16T16:55:02.787Z",
       "equityEUR": 107.13,
       "priceEUR": 54640.9
+    },
+    {
+      "t": "2026-08-16T17:40:48.673Z",
+      "equityEUR": 107.45,
+      "priceEUR": 54599.1
     }
   ],
-  "lastRun": "2026-08-16T16:55:02.787Z"
+  "lastRun": "2026-08-16T17:40:48.673Z"
 }
