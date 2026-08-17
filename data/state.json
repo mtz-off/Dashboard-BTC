@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 79.4,
-  "equityEUR": 110,
+  "equityEUR": 109.35,
   "stopped": false,
   "openPositions": [
     {
@@ -94,19 +94,19 @@
     }
   ],
   "lastSignal": {
-    "price": 64133.7132088155,
+    "price": 64061.02045856985,
     "direction": "LONG",
-    "score": 0.45,
-    "strength": 0.06,
-    "atr14": 311.441991296833,
+    "score": 1.78,
+    "strength": 0.22,
+    "atr14": 344.1770455549491,
     "indicators": {
-      "ema20": 63454.63836171459,
-      "ema50": 63260.8321272687,
-      "rsi14": 74.09009734129886,
-      "macdHist": 62.87244116885273,
-      "bbUpper": 64025.58328232788,
-      "bbMid": 63357.782864672445,
-      "bbLower": 62689.982447017006
+      "ema20": 63513.6245894818,
+      "ema50": 63292.80933966402,
+      "rsi14": 70.55623139677526,
+      "macdHist": 69.08548738282678,
+      "bbUpper": 64127.18977479352,
+      "bbMid": 63411.205974800665,
+      "bbLower": 62695.22217480781
     },
     "fearGreed": {
       "value": 31,
@@ -134,33 +134,28 @@
         "title": "The stablecoin yield clash that won't go away has banks, crypto battling over tradition",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "The 'long bitcoin, short the bankers' era is officially over as TradFi giants embrace digital assets",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=63455 vs EMA50=63261",
+        "detail": "EMA20=63514 vs EMA50=63293",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "74.1",
+        "detail": "70.6",
         "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "62.9",
+        "detail": "69.1",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 64134 vs [62690, 64026]",
-        "points": -1
+        "detail": "prix 64061 vs [62695, 64127]",
+        "points": 0
       },
       {
         "factor": "Fear & Greed Index",
@@ -169,14 +164,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "24 articles pertinents, score brut -3",
-        "points": -1
+        "detail": "25 articles pertinents, score brut -2",
+        "points": -0.67
       }
     ],
-    "computedAt": "2026-08-17T15:54:19.965Z",
-    "priceUSD": 64164.6,
-    "priceEUR": 55377,
-    "change24h": 2.1418644966260265
+    "computedAt": "2026-08-17T17:00:11.687Z",
+    "priceUSD": 64058.7,
+    "priceEUR": 55287.3,
+    "change24h": 1.9732851951078552
   },
   "history": [
     {
@@ -693,7 +688,12 @@
       "t": "2026-08-17T15:54:19.967Z",
       "equityEUR": 110,
       "priceEUR": 55377
+    },
+    {
+      "t": "2026-08-17T17:00:11.689Z",
+      "equityEUR": 109.35,
+      "priceEUR": 55287.3
     }
   ],
-  "lastRun": "2026-08-17T15:54:19.967Z"
+  "lastRun": "2026-08-17T17:00:11.689Z"
 }
