@@ -5,10 +5,28 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 110.93101647599758,
+  "balanceEUR": 83.2,
   "equityEUR": 110.93,
   "stopped": false,
-  "openPositions": [],
+  "openPositions": [
+    {
+      "id": "b0f357a8-f5ae-487e-8a0a-ced515ce8f1a",
+      "side": "LONG",
+      "entryPrice": 55586,
+      "entryTime": "2026-08-17T19:43:40.234Z",
+      "sizeEUR": 27.73,
+      "notionalEUR": 415.95,
+      "leverage": 15,
+      "qtyBTC": 0.007483,
+      "sl": 55229.22,
+      "tp": 56299.55,
+      "slPct": 0.64,
+      "tpPct": 1.28,
+      "signalScore": 1.67,
+      "signalStrength": 0.21,
+      "status": "OPEN"
+    }
+  ],
   "trades": [
     {
       "id": "5f4a6be1-7c72-41de-a1ee-0ad7afb78691",
@@ -92,19 +110,19 @@
     }
   ],
   "lastSignal": {
-    "price": 64266.42426231391,
+    "price": 64347.76547651908,
     "direction": "LONG",
-    "score": 0.78,
-    "strength": 0.1,
+    "score": 1.67,
+    "strength": 0.21,
     "atr14": 344.1770455549491,
     "indicators": {
-      "ema20": 63583.481068848356,
-      "ema50": 63330.00196238582,
-      "rsi14": 73.46974813011582,
-      "macdHist": 80.91304714160967,
-      "bbUpper": 64229.9604748976,
-      "bbMid": 63484.00519651725,
-      "bbLower": 62738.04991813691
+      "ema20": 63725.23171198054,
+      "ema50": 63409.63949328893,
+      "rsi14": 73.97404296849936,
+      "macdHist": 86.7668846343071,
+      "bbUpper": 64429.66514030806,
+      "bbMid": 63632.25755260198,
+      "bbLower": 62834.8499648959
     },
     "fearGreed": {
       "value": 31,
@@ -127,33 +145,28 @@
         "title": "SafePal Bitcoin Wallet Data Breach Stokes Fears of Physical Attacks",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "The stablecoin yield clash that won't go away has banks, crypto battling over tradition",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=63583 vs EMA50=63330",
+        "detail": "EMA20=63725 vs EMA50=63410",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "73.5",
+        "detail": "74.0",
         "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "80.9",
-        "points": 1.95
+        "detail": "86.8",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 64266 vs [62738, 64230]",
-        "points": -1
+        "detail": "prix 64348 vs [62835, 64430]",
+        "points": 0
       },
       {
         "factor": "Fear & Greed Index",
@@ -162,14 +175,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "25 articles pertinents, score brut -2",
-        "points": -0.67
+        "detail": "26 articles pertinents, score brut -1",
+        "points": -0.33
       }
     ],
-    "computedAt": "2026-08-17T18:02:22.942Z",
-    "priceUSD": 64257.5,
-    "priceEUR": 55505.6,
-    "change24h": 2.289749455181627
+    "computedAt": "2026-08-17T19:43:40.231Z",
+    "priceUSD": 64350,
+    "priceEUR": 55586,
+    "change24h": 2.436997664722993
   },
   "history": [
     {
@@ -696,7 +709,12 @@
       "t": "2026-08-17T18:02:22.944Z",
       "equityEUR": 110.93,
       "priceEUR": 55505.6
+    },
+    {
+      "t": "2026-08-17T19:43:40.234Z",
+      "equityEUR": 110.93,
+      "priceEUR": 55586
     }
   ],
-  "lastRun": "2026-08-17T18:02:22.944Z"
+  "lastRun": "2026-08-17T19:43:40.234Z"
 }
