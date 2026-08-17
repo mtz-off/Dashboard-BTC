@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 79.4,
-  "equityEUR": 106.29,
+  "equityEUR": 106.05,
   "stopped": false,
   "openPositions": [
     {
@@ -94,19 +94,19 @@
     }
   ],
   "lastSignal": {
-    "price": 63608.02954496239,
+    "price": 63575.62812436532,
     "direction": "LONG",
-    "score": 3.45,
-    "strength": 0.43,
+    "score": 3.78,
+    "strength": 0.47,
     "atr14": 300.222940257141,
     "indicators": {
-      "ema20": 63263.89516303332,
-      "ema50": 63157.62272239776,
-      "rsi14": 64.08255125989012,
-      "macdHist": 32.585753543799086,
-      "bbUpper": 63693.306859046425,
-      "bbMid": 63206.50866818733,
-      "bbLower": 62719.71047732823
+      "ema20": 63290.81075597705,
+      "ema50": 63172.426395129994,
+      "rsi14": 63.36697810336438,
+      "macdHist": 34.28439418108425,
+      "bbUpper": 63730.409533128026,
+      "bbMid": 63228.34708068195,
+      "bbLower": 62726.28462823588
     },
     "fearGreed": {
       "value": 31,
@@ -115,6 +115,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin's biggest holders, Strategy and Metaplanet, are betting on math, not price",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "Dutch Prosecutors Sell $2.5M of Crypto From Bankrupt Platform Knaken",
         "source": "Decrypt",
@@ -144,22 +149,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=63264 vs EMA50=63158",
+        "detail": "EMA20=63291 vs EMA50=63172",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "64.1",
+        "detail": "63.4",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "32.6",
+        "detail": "34.3",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 63608 vs [62720, 63693]",
+        "detail": "prix 63576 vs [62726, 63730]",
         "points": 0
       },
       {
@@ -169,14 +174,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "22 articles pertinents, score brut -3",
-        "points": -1
+        "detail": "25 articles pertinents, score brut -2",
+        "points": -0.67
       }
     ],
-    "computedAt": "2026-08-17T11:04:13.271Z",
-    "priceUSD": 63599.9,
-    "priceEUR": 54865.1,
-    "change24h": 1.2429340757826886
+    "computedAt": "2026-08-17T11:58:31.002Z",
+    "priceUSD": 63537.4,
+    "priceEUR": 54832.5,
+    "change24h": 1.143442042308793
   },
   "history": [
     {
@@ -673,7 +678,12 @@
       "t": "2026-08-17T11:04:13.274Z",
       "equityEUR": 106.29,
       "priceEUR": 54865.1
+    },
+    {
+      "t": "2026-08-17T11:58:31.004Z",
+      "equityEUR": 106.05,
+      "priceEUR": 54832.5
     }
   ],
-  "lastRun": "2026-08-17T11:04:13.274Z"
+  "lastRun": "2026-08-17T11:58:31.004Z"
 }
