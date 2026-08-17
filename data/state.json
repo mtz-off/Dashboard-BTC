@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 83.2,
-  "equityEUR": 110.91,
+  "equityEUR": 110.68,
   "stopped": false,
   "openPositions": [
     {
@@ -110,19 +110,19 @@
     }
   ],
   "lastSignal": {
-    "price": 64336.176296308004,
+    "price": 64335.70449409002,
     "direction": "LONG",
-    "score": 1.67,
-    "strength": 0.21,
+    "score": 2,
+    "strength": 0.25,
     "atr14": 361.6477157460705,
     "indicators": {
-      "ema20": 63773.42588867806,
-      "ema50": 63441.50925242979,
-      "rsi14": 71.44253954166456,
-      "macdHist": 73.88142137934662,
-      "bbUpper": 64473.52806220507,
-      "bbMid": 63693.05068547872,
-      "bbLower": 62912.57330875238
+      "ema20": 63826.81939264954,
+      "ema50": 63476.43444269512,
+      "rsi14": 71.09208914272145,
+      "macdHist": 64.30939146013282,
+      "bbUpper": 64524.80533392043,
+      "bbMid": 63757.804741197884,
+      "bbLower": 62990.80414847534
     },
     "fearGreed": {
       "value": 31,
@@ -131,6 +131,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "OCC approves Trump family crypto company for trust charter",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
       {
         "title": "Bitcoin's biggest holders, Strategy and Metaplanet, are betting on math, not price",
         "source": "CoinDesk",
@@ -150,22 +155,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=63773 vs EMA50=63442",
+        "detail": "EMA20=63827 vs EMA50=63476",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "71.4",
+        "detail": "71.1",
         "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "73.9",
+        "detail": "64.3",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 64336 vs [62913, 64474]",
+        "detail": "prix 64336 vs [62991, 64525]",
         "points": 0
       },
       {
@@ -175,14 +180,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "26 articles pertinents, score brut -1",
-        "points": -0.33
+        "detail": "28 articles pertinents, score brut 0",
+        "points": 0
       }
     ],
-    "computedAt": "2026-08-17T20:57:20.156Z",
-    "priceUSD": 64349.4,
-    "priceEUR": 55582.8,
-    "change24h": 2.4360425412016458
+    "computedAt": "2026-08-17T21:54:37.879Z",
+    "priceUSD": 64341.8,
+    "priceEUR": 55552.3,
+    "change24h": 2.423944309931222
   },
   "history": [
     {
@@ -719,7 +724,12 @@
       "t": "2026-08-17T20:57:20.158Z",
       "equityEUR": 110.91,
       "priceEUR": 55582.8
+    },
+    {
+      "t": "2026-08-17T21:54:37.881Z",
+      "equityEUR": 110.68,
+      "priceEUR": 55552.3
     }
   ],
-  "lastRun": "2026-08-17T20:57:20.158Z"
+  "lastRun": "2026-08-17T21:54:37.881Z"
 }
