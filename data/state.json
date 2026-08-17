@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 79.4,
-  "equityEUR": 104.71,
+  "equityEUR": 104.08,
   "stopped": false,
   "openPositions": [
     {
@@ -94,19 +94,19 @@
     }
   ],
   "lastSignal": {
-    "price": 63460.985944782595,
+    "price": 63261.77639434778,
     "direction": "LONG",
-    "score": 3.67,
-    "strength": 0.46,
-    "atr14": 304.48136806088286,
+    "score": 2.83,
+    "strength": 0.35,
+    "atr14": 300.222940257141,
     "indicators": {
-      "ema20": 63211.43385044619,
-      "ema50": 63125.5067347244,
-      "rsi14": 63.10631078863379,
-      "macdHist": 58.3805997951135,
-      "bbUpper": 63604.35555612871,
-      "bbMid": 63146.844045317834,
-      "bbLower": 62689.33253450696
+      "ema20": 63228.869116954476,
+      "ema50": 63139.86412560049,
+      "rsi14": 53.24798330931373,
+      "macdHist": 23.633757369349865,
+      "bbUpper": 63636.25018005255,
+      "bbMid": 63179.85799765608,
+      "bbLower": 62723.46581525961
     },
     "fearGreed": {
       "value": 31,
@@ -115,6 +115,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "SafePal Bitcoin Wallet Data Breach Stokes Fears of Physical Attacks",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
       {
         "title": "The stablecoin yield clash that won't go away has banks, crypto battling over tradition",
         "source": "CoinDesk",
@@ -134,22 +139,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=63211 vs EMA50=63126",
+        "detail": "EMA20=63229 vs EMA50=63140",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "63.1",
-        "points": 0.5
+        "detail": "53.2",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "58.4",
+        "detail": "23.6",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 63461 vs [62689, 63604]",
+        "detail": "prix 63262 vs [62723, 63636]",
         "points": 0
       },
       {
@@ -159,14 +164,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "15 articles pertinents, score brut -1",
-        "points": -0.33
+        "detail": "19 articles pertinents, score brut -2",
+        "points": -0.67
       }
     ],
-    "computedAt": "2026-08-17T08:03:40.987Z",
-    "priceUSD": 63425.1,
-    "priceEUR": 54647.1,
-    "change24h": 0.9646747565628925
+    "computedAt": "2026-08-17T10:06:46.004Z",
+    "priceUSD": 63250.1,
+    "priceEUR": 54559.9,
+    "change24h": 0.6860970628359846
   },
   "history": [
     {
@@ -653,7 +658,12 @@
       "t": "2026-08-17T08:03:40.989Z",
       "equityEUR": 104.71,
       "priceEUR": 54647.1
+    },
+    {
+      "t": "2026-08-17T10:06:46.006Z",
+      "equityEUR": 104.08,
+      "priceEUR": 54559.9
     }
   ],
-  "lastRun": "2026-08-17T08:03:40.989Z"
+  "lastRun": "2026-08-17T10:06:46.006Z"
 }
