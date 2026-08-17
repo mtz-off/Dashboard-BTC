@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 79.4,
-  "equityEUR": 104.08,
+  "equityEUR": 106.29,
   "stopped": false,
   "openPositions": [
     {
@@ -94,19 +94,19 @@
     }
   ],
   "lastSignal": {
-    "price": 63261.77639434778,
+    "price": 63608.02954496239,
     "direction": "LONG",
-    "score": 2.83,
-    "strength": 0.35,
+    "score": 3.45,
+    "strength": 0.43,
     "atr14": 300.222940257141,
     "indicators": {
-      "ema20": 63228.869116954476,
-      "ema50": 63139.86412560049,
-      "rsi14": 53.24798330931373,
-      "macdHist": 23.633757369349865,
-      "bbUpper": 63636.25018005255,
-      "bbMid": 63179.85799765608,
-      "bbLower": 62723.46581525961
+      "ema20": 63263.89516303332,
+      "ema50": 63157.62272239776,
+      "rsi14": 64.08255125989012,
+      "macdHist": 32.585753543799086,
+      "bbUpper": 63693.306859046425,
+      "bbMid": 63206.50866818733,
+      "bbLower": 62719.71047732823
     },
     "fearGreed": {
       "value": 31,
@@ -115,6 +115,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Dutch Prosecutors Sell $2.5M of Crypto From Bankrupt Platform Knaken",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
       {
         "title": "SafePal Bitcoin Wallet Data Breach Stokes Fears of Physical Attacks",
         "source": "Decrypt",
@@ -139,22 +144,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=63229 vs EMA50=63140",
+        "detail": "EMA20=63264 vs EMA50=63158",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "53.2",
-        "points": 0
+        "detail": "64.1",
+        "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "23.6",
-        "points": 1.5
+        "detail": "32.6",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 63262 vs [62723, 63636]",
+        "detail": "prix 63608 vs [62720, 63693]",
         "points": 0
       },
       {
@@ -164,14 +169,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "19 articles pertinents, score brut -2",
-        "points": -0.67
+        "detail": "22 articles pertinents, score brut -3",
+        "points": -1
       }
     ],
-    "computedAt": "2026-08-17T10:06:46.004Z",
-    "priceUSD": 63250.1,
-    "priceEUR": 54559.9,
-    "change24h": 0.6860970628359846
+    "computedAt": "2026-08-17T11:04:13.271Z",
+    "priceUSD": 63599.9,
+    "priceEUR": 54865.1,
+    "change24h": 1.2429340757826886
   },
   "history": [
     {
@@ -663,7 +668,12 @@
       "t": "2026-08-17T10:06:46.006Z",
       "equityEUR": 104.08,
       "priceEUR": 54559.9
+    },
+    {
+      "t": "2026-08-17T11:04:13.274Z",
+      "equityEUR": 106.29,
+      "priceEUR": 54865.1
     }
   ],
-  "lastRun": "2026-08-17T10:06:46.006Z"
+  "lastRun": "2026-08-17T11:04:13.274Z"
 }
