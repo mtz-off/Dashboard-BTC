@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 83.2,
-  "equityEUR": 110.34,
+  "equityEUR": 113.64,
   "stopped": false,
   "openPositions": [
     {
@@ -110,19 +110,19 @@
     }
   ],
   "lastSignal": {
-    "price": 64280.091100683785,
+    "price": 64802.3968553452,
     "direction": "LONG",
-    "score": 0.67,
-    "strength": 0.08,
+    "score": 2.12,
+    "strength": 0.26,
     "atr14": 359.59648249100917,
     "indicators": {
-      "ema20": 64118.57679468537,
-      "ema50": 63813.466043749424,
-      "rsi14": 58.932352511909066,
-      "macdHist": -31.765127390932122,
-      "bbUpper": 64410.96373964157,
-      "bbMid": 64215.89870810942,
-      "bbLower": 64020.83367657726
+      "ema20": 64226.348794891,
+      "ema50": 63882.34825930389,
+      "rsi14": 70.19985099607216,
+      "macdHist": 21.824250140438977,
+      "bbUpper": 64639.23261141547,
+      "bbMid": 64260.68109194534,
+      "bbLower": 63882.12957247521
     },
     "fearGreed": {
       "value": 41,
@@ -132,41 +132,36 @@
     "fundingRate": null,
     "newsHighlights": [
       {
-        "title": "OCC approves Trump family crypto company for trust charter",
+        "title": "Bitcoin tags $65K as S&P 500 rebounds from 2-week lows on US-Iran rhetoric",
         "source": "Cointelegraph",
         "itemScore": 1
       },
       {
-        "title": "Dutch Prosecutors Sell $2.5M of Crypto From Bankrupt Platform Knaken",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "SafePal Bitcoin Wallet Data Breach Stokes Fears of Physical Attacks",
-        "source": "Decrypt",
-        "itemScore": -1
+        "title": "OCC approves Trump family crypto company for trust charter",
+        "source": "Cointelegraph",
+        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=64119 vs EMA50=63813",
+        "detail": "EMA20=64226 vs EMA50=63882",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "58.9",
-        "points": 0.5
-      },
-      {
-        "factor": "MACD histogramme",
-        "detail": "-31.8",
+        "detail": "70.2",
         "points": -1.5
       },
       {
+        "factor": "MACD histogramme",
+        "detail": "21.8",
+        "points": 1.95
+      },
+      {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 64280 vs [64021, 64411]",
-        "points": 0
+        "detail": "prix 64802 vs [63882, 64639]",
+        "points": -1
       },
       {
         "factor": "Fear & Greed Index",
@@ -175,14 +170,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -1",
-        "points": -0.33
+        "detail": "30 articles pertinents, score brut 2",
+        "points": 0.67
       }
     ],
-    "computedAt": "2026-08-18T14:05:48.214Z",
-    "priceUSD": 64300.5,
-    "priceEUR": 55507.3,
-    "change24h": -0.26554286609473166
+    "computedAt": "2026-08-18T15:51:17.903Z",
+    "priceUSD": 64791.7,
+    "priceEUR": 55947.7,
+    "change24h": 0.49634180578455356
   },
   "history": [
     {
@@ -774,7 +769,12 @@
       "t": "2026-08-18T14:05:48.216Z",
       "equityEUR": 110.34,
       "priceEUR": 55507.3
+    },
+    {
+      "t": "2026-08-18T15:51:17.904Z",
+      "equityEUR": 113.64,
+      "priceEUR": 55947.7
     }
   ],
-  "lastRun": "2026-08-18T14:05:48.216Z"
+  "lastRun": "2026-08-18T15:51:17.904Z"
 }
