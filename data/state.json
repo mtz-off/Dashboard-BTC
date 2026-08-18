@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 83.2,
-  "equityEUR": 113.04,
+  "equityEUR": 112.49,
   "stopped": false,
   "openPositions": [
     {
@@ -110,19 +110,19 @@
     }
   ],
   "lastSignal": {
-    "price": 64686.28998616417,
+    "price": 64582.70091457814,
     "direction": "LONG",
-    "score": 4.67,
-    "strength": 0.58,
-    "atr14": 400.45987752246964,
+    "score": 4.33,
+    "strength": 0.54,
+    "atr14": 388.2793273060693,
     "indicators": {
-      "ema20": 64389.38958069338,
-      "ema50": 64006.90606934248,
-      "rsi14": 62.96281144416925,
-      "macdHist": 23.116536466687222,
-      "bbUpper": 64867.11521328382,
-      "bbMid": 64339.945943965555,
-      "bbLower": 63812.77667464729
+      "ema20": 64401.98233136944,
+      "ema50": 64027.058515181794,
+      "rsi14": 59.066095251370484,
+      "macdHist": 6.175772043654035,
+      "bbUpper": 64882.371253411126,
+      "bbMid": 64350.98834684518,
+      "bbLower": 63819.605440279236
     },
     "fearGreed": {
       "value": 41,
@@ -135,32 +135,27 @@
         "title": "Bitcoin tags $65K as S&P 500 rebounds from 2-week lows on US-Iran rhetoric",
         "source": "Cointelegraph",
         "itemScore": 1
-      },
-      {
-        "title": "OCC approves Trump family crypto company for trust charter",
-        "source": "Cointelegraph",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=64389 vs EMA50=64007",
+        "detail": "EMA20=64402 vs EMA50=64027",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "63.0",
+        "detail": "59.1",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "23.1",
+        "detail": "6.2",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 64686 vs [63813, 64867]",
+        "detail": "prix 64583 vs [63820, 64882]",
         "points": 0
       },
       {
@@ -170,14 +165,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 2",
-        "points": 0.67
+        "detail": "30 articles pertinents, score brut 1",
+        "points": 0.33
       }
     ],
-    "computedAt": "2026-08-18T19:39:54.981Z",
-    "priceUSD": 64668.6,
-    "priceEUR": 55867.6,
-    "change24h": 0.30540531737181037
+    "computedAt": "2026-08-18T20:44:21.676Z",
+    "priceUSD": 64578.2,
+    "priceEUR": 55795.1,
+    "change24h": 0.16518875723767174
   },
   "history": [
     {
@@ -789,7 +784,12 @@
       "t": "2026-08-18T19:39:54.983Z",
       "equityEUR": 113.04,
       "priceEUR": 55867.6
+    },
+    {
+      "t": "2026-08-18T20:44:21.678Z",
+      "equityEUR": 112.49,
+      "priceEUR": 55795.1
     }
   ],
-  "lastRun": "2026-08-18T19:39:54.983Z"
+  "lastRun": "2026-08-18T20:44:21.678Z"
 }
