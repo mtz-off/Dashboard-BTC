@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 83.2,
-  "equityEUR": 110.2,
+  "equityEUR": 109.32,
   "stopped": false,
   "openPositions": [
     {
@@ -110,19 +110,19 @@
     }
   ],
   "lastSignal": {
-    "price": 64283.76821730113,
+    "price": 64178.23060203524,
     "direction": "LONG",
-    "score": 0.83,
-    "strength": 0.1,
+    "score": 0.22,
+    "strength": 0.03,
     "atr14": 380.6229633783809,
     "indicators": {
-      "ema20": 64389.23593831226,
-      "ema50": 64138.968750923596,
-      "rsi14": 47.400453869826684,
-      "macdHist": -65.17180948699209,
-      "bbUpper": 64888.206390083185,
-      "bbMid": 64470.54953696623,
-      "bbLower": 64052.89268384928
+      "ema20": 64379.18473685836,
+      "ema50": 64134.83002091317,
+      "rsi14": 43.53669731821519,
+      "macdHist": -71.90697353814579,
+      "bbUpper": 64894.73567526495,
+      "bbMid": 64465.272656202935,
+      "bbLower": 64035.80963714092
     },
     "fearGreed": {
       "value": 46,
@@ -132,6 +132,11 @@
     "fundingRate": null,
     "newsHighlights": [
       {
+        "title": "Robot maker Unitree’s IPO surges 600%, outpacing crypto traders’ premarket bets",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
         "title": "Bitcoin tags $65K as S&P 500 rebounds from 2-week lows on US-Iran rhetoric",
         "source": "Cointelegraph",
         "itemScore": 1
@@ -140,22 +145,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=64389 vs EMA50=64139",
+        "detail": "EMA20=64379 vs EMA50=64135",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "47.4",
-        "points": 0
+        "detail": "43.5",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-65.2",
-        "points": -1.5
+        "detail": "-71.9",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 64284 vs [64053, 64888]",
+        "detail": "prix 64178 vs [64036, 64895]",
         "points": 0
       },
       {
@@ -165,14 +170,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 1",
-        "points": 0.33
+        "detail": "30 articles pertinents, score brut 2",
+        "points": 0.67
       }
     ],
-    "computedAt": "2026-08-19T05:04:46.557Z",
-    "priceUSD": 64301.1,
-    "priceEUR": 55489.1,
-    "change24h": -0.5815032190632844
+    "computedAt": "2026-08-19T06:04:16.808Z",
+    "priceUSD": 64165,
+    "priceEUR": 55370.6,
+    "change24h": -0.7919328604206693
   },
   "history": [
     {
@@ -814,7 +819,12 @@
       "t": "2026-08-19T05:04:46.559Z",
       "equityEUR": 110.2,
       "priceEUR": 55489.1
+    },
+    {
+      "t": "2026-08-19T06:04:16.810Z",
+      "equityEUR": 109.32,
+      "priceEUR": 55370.6
     }
   ],
-  "lastRun": "2026-08-19T05:04:46.559Z"
+  "lastRun": "2026-08-19T06:04:16.810Z"
 }
