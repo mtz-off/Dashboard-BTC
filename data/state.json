@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 100.92,
-  "equityEUR": 131.9,
+  "equityEUR": 133,
   "stopped": false,
   "openPositions": [
     {
@@ -126,19 +126,19 @@
     }
   ],
   "lastSignal": {
-    "price": 68169.72030711685,
+    "price": 68372.04043631132,
     "direction": "LONG",
-    "score": 2.12,
-    "strength": 0.26,
+    "score": 2.78,
+    "strength": 0.35,
     "atr14": 662.5648051499375,
     "indicators": {
-      "ema20": 65578.2699612388,
-      "ema50": 64761.697910341136,
-      "rsi14": 84.67390420740885,
-      "macdHist": 452.1489229372921,
-      "bbUpper": 67956.06507328633,
-      "bbMid": 65099.858805774325,
-      "bbLower": 62243.652538262315
+      "ema20": 65845.42439231917,
+      "ema50": 64903.802402225025,
+      "rsi14": 85.50072490198845,
+      "macdHist": 453.3730623342471,
+      "bbUpper": 68469.39556253431,
+      "bbMid": 65287.57748071023,
+      "bbLower": 62105.759398886155
     },
     "fearGreed": {
       "value": 46,
@@ -147,6 +147,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Six-Bug Exploit Halts Maya Protocol After $1.4 Million in Bitcoin Stolen",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin Surges Toward $70K as $1.14 Billion in Crypto Shorts Get Rekt in an Hour",
         "source": "Decrypt",
@@ -181,33 +186,28 @@
         "title": "Maya Protocol exploit drains bitcoin and other assets as pool value drops by $11 million",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Robot maker Unitree’s IPO surges 600% , outpacing crypto traders’ premarket bets",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=65578 vs EMA50=64762",
+        "detail": "EMA20=65845 vs EMA50=64904",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "84.7",
+        "detail": "85.5",
         "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "452.1",
+        "detail": "453.4",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 68170 vs [62244, 67956]",
-        "points": -1
+        "detail": "prix 68372 vs [62106, 68469]",
+        "points": 0
       },
       {
         "factor": "Fear & Greed Index",
@@ -216,14 +216,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 2",
-        "points": 0.67
+        "detail": "30 articles pertinents, score brut 1",
+        "points": 0.33
       }
     ],
-    "computedAt": "2026-08-19T17:54:50.858Z",
-    "priceUSD": 68166.8,
-    "priceEUR": 58433.6,
-    "change24h": 5.3954098198437865
+    "computedAt": "2026-08-19T19:12:04.782Z",
+    "priceUSD": 68400,
+    "priceEUR": 58562.4,
+    "change24h": 5.755969646181349
   },
   "history": [
     {
@@ -910,7 +910,12 @@
       "t": "2026-08-19T17:54:50.860Z",
       "equityEUR": 131.9,
       "priceEUR": 58433.6
+    },
+    {
+      "t": "2026-08-19T19:12:04.784Z",
+      "equityEUR": 133,
+      "priceEUR": 58562.4
     }
   ],
-  "lastRun": "2026-08-19T17:54:50.860Z"
+  "lastRun": "2026-08-19T19:12:04.784Z"
 }
