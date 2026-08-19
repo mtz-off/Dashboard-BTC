@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 83.2,
-  "equityEUR": 109.8,
+  "equityEUR": 110.2,
   "stopped": false,
   "openPositions": [
     {
@@ -110,19 +110,19 @@
     }
   ],
   "lastSignal": {
-    "price": 64328.79778247641,
+    "price": 64375.8584434582,
     "direction": "LONG",
-    "score": 1.17,
-    "strength": 0.15,
+    "score": 0.83,
+    "strength": 0.1,
     "atr14": 370.28616864456865,
     "indicators": {
-      "ema20": 64357.93967043914,
-      "ema50": 64161.11813343299,
-      "rsi14": 49.9378106223453,
-      "macdHist": -41.66676997539248,
-      "bbUpper": 64870.64223957919,
-      "bbMid": 64484.30294488308,
-      "bbLower": 64097.96365018697
+      "ema20": 64362.35483540072,
+      "ema50": 64170.591174667956,
+      "rsi14": 51.899683358974514,
+      "macdHist": -30.74070812468225,
+      "bbUpper": 64846.18582825512,
+      "bbMid": 64469.60684029678,
+      "bbLower": 64093.02785233844
     },
     "fearGreed": {
       "value": 46,
@@ -131,6 +131,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Nexo launches regulated crypto-backed credit in Australia",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin ETFs add $189M as August net inflows approach $1B",
         "source": "Cointelegraph",
@@ -155,22 +160,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=64358 vs EMA50=64161",
+        "detail": "EMA20=64362 vs EMA50=64171",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "49.9",
+        "detail": "51.9",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-41.7",
+        "detail": "-30.7",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 64329 vs [64098, 64871]",
+        "detail": "prix 64376 vs [64093, 64846]",
         "points": 0
       },
       {
@@ -180,14 +185,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 2",
-        "points": 0.67
+        "detail": "30 articles pertinents, score brut 1",
+        "points": 0.33
       }
     ],
-    "computedAt": "2026-08-19T09:54:19.317Z",
-    "priceUSD": 64332.9,
-    "priceEUR": 55435.3,
-    "change24h": -0.5323359700172482
+    "computedAt": "2026-08-19T10:59:34.331Z",
+    "priceUSD": 64383.1,
+    "priceEUR": 55487.8,
+    "change24h": -0.4547197466804354
   },
   "history": [
     {
@@ -844,7 +849,12 @@
       "t": "2026-08-19T09:54:19.319Z",
       "equityEUR": 109.8,
       "priceEUR": 55435.3
+    },
+    {
+      "t": "2026-08-19T10:59:34.333Z",
+      "equityEUR": 110.2,
+      "priceEUR": 55487.8
     }
   ],
-  "lastRun": "2026-08-19T09:54:19.319Z"
+  "lastRun": "2026-08-19T10:59:34.333Z"
 }
