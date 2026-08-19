@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 83.2,
-  "equityEUR": 110.67,
+  "equityEUR": 113.68,
   "stopped": false,
   "openPositions": [
     {
@@ -110,19 +110,19 @@
     }
   ],
   "lastSignal": {
-    "price": 64454.05949814404,
+    "price": 65111.93158332884,
     "direction": "LONG",
-    "score": 1.67,
-    "strength": 0.21,
-    "atr14": 370.28616864456865,
+    "score": 1.78,
+    "strength": 0.22,
+    "atr14": 363.3592873295911,
     "indicators": {
-      "ema20": 64371.682011487464,
-      "ema50": 64181.78525269099,
-      "rsi14": 55.36747954039702,
-      "macdHist": -18.395255283985527,
-      "bbUpper": 64789.83277759525,
-      "bbMid": 64450.53824371543,
-      "bbLower": 64111.24370983562
+      "ema20": 64482.4160351217,
+      "ema50": 64243.159607179376,
+      "rsi14": 72.86369708384973,
+      "macdHist": 48.82787211728017,
+      "bbUpper": 64929.544161333775,
+      "bbMid": 64479.886230812466,
+      "bbLower": 64030.22830029116
     },
     "fearGreed": {
       "value": 46,
@@ -131,6 +131,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "SEC regulatory proposal marks ‘important’ step forward from ‘inapt’ crypto rules: Commissioner Peirce",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "Fed decision making comes into focus as bitcoin holds steady, bond yields surge",
         "source": "CoinDesk",
@@ -147,7 +152,7 @@
         "itemScore": 1
       },
       {
-        "title": "Maya Protocol exploit drains bitcoin and other assets as pool value drops $11 million",
+        "title": "Maya Protocol exploit drains bitcoin and other assets as pool value drops by $11 million",
         "source": "CoinDesk",
         "itemScore": -1
       },
@@ -165,23 +170,23 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=64372 vs EMA50=64182",
+        "detail": "EMA20=64482 vs EMA50=64243",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "55.4",
-        "points": 0.5
-      },
-      {
-        "factor": "MACD histogramme",
-        "detail": "-18.4",
+        "detail": "72.9",
         "points": -1.5
       },
       {
+        "factor": "MACD histogramme",
+        "detail": "48.8",
+        "points": 1.95
+      },
+      {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 64454 vs [64111, 64790]",
-        "points": 0
+        "detail": "prix 65112 vs [64030, 64930]",
+        "points": -1
       },
       {
         "factor": "Fear & Greed Index",
@@ -190,14 +195,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 2",
-        "points": 0.67
+        "detail": "30 articles pertinents, score brut 1",
+        "points": 0.33
       }
     ],
-    "computedAt": "2026-08-19T11:56:51.210Z",
-    "priceUSD": 64453,
-    "priceEUR": 55551.3,
-    "change24h": -0.34664456717358993
+    "computedAt": "2026-08-19T14:06:55.516Z",
+    "priceUSD": 65198.1,
+    "priceEUR": 55952.9,
+    "change24h": 0.8053842776125149
   },
   "history": [
     {
@@ -864,7 +869,12 @@
       "t": "2026-08-19T11:56:51.212Z",
       "equityEUR": 110.67,
       "priceEUR": 55551.3
+    },
+    {
+      "t": "2026-08-19T14:06:55.518Z",
+      "equityEUR": 113.68,
+      "priceEUR": 55952.9
     }
   ],
-  "lastRun": "2026-08-19T11:56:51.212Z"
+  "lastRun": "2026-08-19T14:06:55.518Z"
 }
