@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 100.92,
-  "equityEUR": 134.56,
+  "equityEUR": 134.05,
   "stopped": false,
   "openPositions": [
     {
@@ -126,19 +126,19 @@
     }
   ],
   "lastSignal": {
-    "price": 68439.50723747454,
+    "price": 68484.51059826609,
     "direction": "LONG",
-    "score": 1.78,
-    "strength": 0.22,
-    "atr14": 363.3592873295911,
+    "score": 2.12,
+    "strength": 0.26,
+    "atr14": 662.5648051499375,
     "indicators": {
-      "ema20": 64970.88139195057,
-      "ema50": 64465.26288400829,
-      "rsi14": 91.78572087408806,
-      "macdHist": 315.3367776397879,
-      "bbUpper": 66582.27006260603,
-      "bbMid": 64723.82310321729,
-      "bbLower": 62865.37614382856
+      "ema20": 65312.65709377491,
+      "ema50": 64625.936419174934,
+      "rsi14": 91.02182398051616,
+      "macdHist": 429.91366406219606,
+      "bbUpper": 67424.48664204367,
+      "bbMid": 64923.800148196926,
+      "bbLower": 62423.11365435018
     },
     "fearGreed": {
       "value": 46,
@@ -147,6 +147,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin Surges Toward $70K as $1.14 Billion in Crypto Shorts Get Rekt in an Hour",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
       {
         "title": "Bitcoin nears key technical breakout that could propel prices to $76,000",
         "source": "CoinDesk",
@@ -186,22 +191,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=64971 vs EMA50=64465",
+        "detail": "EMA20=65313 vs EMA50=64626",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "91.8",
+        "detail": "91.0",
         "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "315.3",
+        "detail": "429.9",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 68440 vs [62865, 66582]",
+        "detail": "prix 68485 vs [62423, 67424]",
         "points": -1
       },
       {
@@ -211,14 +216,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 1",
-        "points": 0.33
+        "detail": "30 articles pertinents, score brut 2",
+        "points": 0.67
       }
     ],
-    "computedAt": "2026-08-19T15:50:45.153Z",
-    "priceUSD": 68521.9,
-    "priceEUR": 58743.7,
-    "change24h": 5.944444100857795
+    "computedAt": "2026-08-19T17:00:08.095Z",
+    "priceUSD": 68499.7,
+    "priceEUR": 58684.2,
+    "change24h": 5.9101197949200035
   },
   "history": [
     {
@@ -895,7 +900,12 @@
       "t": "2026-08-19T15:50:45.155Z",
       "equityEUR": 134.56,
       "priceEUR": 58743.7
+    },
+    {
+      "t": "2026-08-19T17:00:08.097Z",
+      "equityEUR": 134.05,
+      "priceEUR": 58684.2
     }
   ],
-  "lastRun": "2026-08-19T15:50:45.155Z"
+  "lastRun": "2026-08-19T17:00:08.097Z"
 }
