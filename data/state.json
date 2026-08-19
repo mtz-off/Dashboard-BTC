@@ -5,25 +5,25 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 83.2,
-  "equityEUR": 113.68,
+  "balanceEUR": 100.92,
+  "equityEUR": 134.56,
   "stopped": false,
   "openPositions": [
     {
-      "id": "b0f357a8-f5ae-487e-8a0a-ced515ce8f1a",
+      "id": "d2020e0c-9fd9-45a1-97c2-04e44a1cffc8",
       "side": "LONG",
-      "entryPrice": 55586,
-      "entryTime": "2026-08-17T19:43:40.234Z",
-      "sizeEUR": 27.73,
-      "notionalEUR": 415.95,
+      "entryPrice": 58743.7,
+      "entryTime": "2026-08-19T15:50:45.155Z",
+      "sizeEUR": 33.64,
+      "notionalEUR": 504.6,
       "leverage": 15,
-      "qtyBTC": 0.007483,
-      "sl": 55229.22,
-      "tp": 56299.55,
+      "qtyBTC": 0.00858986,
+      "sl": 58369.44,
+      "tp": 59492.22,
       "slPct": 0.64,
-      "tpPct": 1.28,
-      "signalScore": 1.67,
-      "signalStrength": 0.21,
+      "tpPct": 1.27,
+      "signalScore": 1.78,
+      "signalStrength": 0.22,
       "status": "OPEN"
     }
   ],
@@ -107,22 +107,38 @@
       "pnlPct": 1.27,
       "reason": "TP",
       "status": "CLOSED"
+    },
+    {
+      "id": "b0f357a8-f5ae-487e-8a0a-ced515ce8f1a",
+      "side": "LONG",
+      "entryPrice": 55586,
+      "entryTime": "2026-08-17T19:43:40.234Z",
+      "exitPrice": 58743.7,
+      "exitTime": "2026-08-19T15:50:45.155Z",
+      "sizeEUR": 27.73,
+      "notionalEUR": 415.95,
+      "leverage": 15,
+      "qtyBTC": 0.007483,
+      "pnlEUR": 23.63,
+      "pnlPct": 5.68,
+      "reason": "TP",
+      "status": "CLOSED"
     }
   ],
   "lastSignal": {
-    "price": 65111.93158332884,
+    "price": 68439.50723747454,
     "direction": "LONG",
     "score": 1.78,
     "strength": 0.22,
     "atr14": 363.3592873295911,
     "indicators": {
-      "ema20": 64482.4160351217,
-      "ema50": 64243.159607179376,
-      "rsi14": 72.86369708384973,
-      "macdHist": 48.82787211728017,
-      "bbUpper": 64929.544161333775,
-      "bbMid": 64479.886230812466,
-      "bbLower": 64030.22830029116
+      "ema20": 64970.88139195057,
+      "ema50": 64465.26288400829,
+      "rsi14": 91.78572087408806,
+      "macdHist": 315.3367776397879,
+      "bbUpper": 66582.27006260603,
+      "bbMid": 64723.82310321729,
+      "bbLower": 62865.37614382856
     },
     "fearGreed": {
       "value": 46,
@@ -131,6 +147,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin nears key technical breakout that could propel prices to $76,000",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "SEC regulatory proposal marks ‘important’ step forward from ‘inapt’ crypto rules: Commissioner Peirce",
         "source": "Cointelegraph",
@@ -160,32 +181,27 @@
         "title": "Robot maker Unitree’s IPO surges 600% , outpacing crypto traders’ premarket bets",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Bitcoin tags $65K as S&P 500 rebounds from 2-week lows on US-Iran rhetoric",
-        "source": "Cointelegraph",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=64482 vs EMA50=64243",
+        "detail": "EMA20=64971 vs EMA50=64465",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "72.9",
+        "detail": "91.8",
         "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "48.8",
+        "detail": "315.3",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 65112 vs [64030, 64930]",
+        "detail": "prix 68440 vs [62865, 66582]",
         "points": -1
       },
       {
@@ -199,10 +215,10 @@
         "points": 0.33
       }
     ],
-    "computedAt": "2026-08-19T14:06:55.516Z",
-    "priceUSD": 65198.1,
-    "priceEUR": 55952.9,
-    "change24h": 0.8053842776125149
+    "computedAt": "2026-08-19T15:50:45.153Z",
+    "priceUSD": 68521.9,
+    "priceEUR": 58743.7,
+    "change24h": 5.944444100857795
   },
   "history": [
     {
@@ -874,7 +890,12 @@
       "t": "2026-08-19T14:06:55.518Z",
       "equityEUR": 113.68,
       "priceEUR": 55952.9
+    },
+    {
+      "t": "2026-08-19T15:50:45.155Z",
+      "equityEUR": 134.56,
+      "priceEUR": 58743.7
     }
   ],
-  "lastRun": "2026-08-19T14:06:55.518Z"
+  "lastRun": "2026-08-19T15:50:45.155Z"
 }
