@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 106.9,
-  "equityEUR": 142.53,
+  "equityEUR": 138.3,
   "stopped": false,
   "openPositions": [
     {
@@ -142,19 +142,19 @@
     }
   ],
   "lastSignal": {
-    "price": 69740.92825331881,
+    "price": 69104.88901928414,
     "direction": "LONG",
-    "score": 2.45,
-    "strength": 0.31,
+    "score": 2.33,
+    "strength": 0.29,
     "atr14": 689.8581508357092,
     "indicators": {
-      "ema20": 66693.36321284011,
-      "ema50": 65377.38991215611,
-      "rsi14": 88.43242898414547,
-      "macdHist": 437.65013613522615,
-      "bbUpper": 70048.76534984216,
-      "bbMid": 65978.80073751212,
-      "bbLower": 61908.83612518209
+      "ema20": 66921.82922294375,
+      "ema50": 65523.213503026556,
+      "rsi14": 78.15808161480498,
+      "macdHist": 373.7601989820698,
+      "bbUpper": 70426.27699857841,
+      "bbMid": 66218.47456851066,
+      "bbLower": 62010.672138442904
     },
     "fearGreed": {
       "value": 46,
@@ -187,32 +187,27 @@
         "title": "Fed decision making comes into focus as bitcoin holds steady, bond yields surge",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Nexo launches regulated crypto-backed credit in Australia",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=66693 vs EMA50=65377",
+        "detail": "EMA20=66922 vs EMA50=65523",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "88.4",
+        "detail": "78.2",
         "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "437.7",
-        "points": 1.95
+        "detail": "373.8",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 69741 vs [61909, 70049]",
+        "detail": "prix 69105 vs [62011, 70426]",
         "points": 0
       },
       {
@@ -222,14 +217,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 0",
-        "points": 0
+        "detail": "30 articles pertinents, score brut 1",
+        "points": 0.33
       }
     ],
-    "computedAt": "2026-08-19T21:56:18.827Z",
-    "priceUSD": 69740.1,
-    "priceEUR": 59672,
-    "change24h": 7.827951735696674
+    "computedAt": "2026-08-19T22:55:36.587Z",
+    "priceUSD": 69156.5,
+    "priceEUR": 59200,
+    "change24h": 6.925624485908485
   },
   "history": [
     {
@@ -936,7 +931,12 @@
       "t": "2026-08-19T21:56:18.830Z",
       "equityEUR": 142.53,
       "priceEUR": 59672
+    },
+    {
+      "t": "2026-08-19T22:55:36.589Z",
+      "equityEUR": 138.3,
+      "priceEUR": 59200
     }
   ],
-  "lastRun": "2026-08-19T21:56:18.830Z"
+  "lastRun": "2026-08-19T22:55:36.589Z"
 }
