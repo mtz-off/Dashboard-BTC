@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 100.92,
-  "equityEUR": 133.3,
+  "equityEUR": 138.02,
   "stopped": false,
   "openPositions": [
     {
@@ -126,19 +126,19 @@
     }
   ],
   "lastSignal": {
-    "price": 68415.61621172536,
+    "price": 69105.72875906952,
     "direction": "LONG",
     "score": 2,
     "strength": 0.25,
-    "atr14": 662.5648051499375,
+    "atr14": 689.8581508357092,
     "indicators": {
-      "ema20": 66090.98815203959,
-      "ema50": 65042.040997612756,
-      "rsi14": 85.65313211302657,
-      "macdHist": 427.75051448395845,
-      "bbUpper": 68919.46195213152,
-      "bbMid": 65476.02086567106,
-      "bbLower": 62032.5797792106
+      "ema20": 66383.86925875304,
+      "ema50": 65204.62314973844,
+      "rsi14": 86.60341528521222,
+      "macdHist": 427.0742254858917,
+      "bbUpper": 69478.74394831972,
+      "bbMid": 65716.07106226087,
+      "bbLower": 61953.398176202034
     },
     "fearGreed": {
       "value": 46,
@@ -176,37 +176,27 @@
         "title": "Nexo launches regulated crypto-backed credit in Australia",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin ETFs add $189M as August net inflows approach $1B",
-        "source": "Cointelegraph",
-        "itemScore": 1
-      },
-      {
-        "title": "Maya Protocol exploit drains bitcoin and other assets as pool value drops by $11 million",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=66091 vs EMA50=65042",
+        "detail": "EMA20=66384 vs EMA50=65205",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "85.7",
+        "detail": "86.6",
         "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "427.8",
+        "detail": "427.1",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 68416 vs [62033, 68919]",
+        "detail": "prix 69106 vs [61953, 69479]",
         "points": 0
       },
       {
@@ -220,10 +210,10 @@
         "points": 0
       }
     ],
-    "computedAt": "2026-08-19T19:58:38.278Z",
-    "priceUSD": 68445.4,
-    "priceEUR": 58597.1,
-    "change24h": 5.826164397964038
+    "computedAt": "2026-08-19T20:59:25.235Z",
+    "priceUSD": 69052.3,
+    "priceEUR": 59146.2,
+    "change24h": 6.764516707587845
   },
   "history": [
     {
@@ -920,7 +910,12 @@
       "t": "2026-08-19T19:58:38.280Z",
       "equityEUR": 133.3,
       "priceEUR": 58597.1
+    },
+    {
+      "t": "2026-08-19T20:59:25.237Z",
+      "equityEUR": 138.02,
+      "priceEUR": 59146.2
     }
   ],
-  "lastRun": "2026-08-19T19:58:38.280Z"
+  "lastRun": "2026-08-19T20:59:25.237Z"
 }
