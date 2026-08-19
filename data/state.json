@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 83.2,
-  "equityEUR": 109.59,
+  "equityEUR": 109.8,
   "stopped": false,
   "openPositions": [
     {
@@ -110,19 +110,19 @@
     }
   ],
   "lastSignal": {
-    "price": 64249.2125496047,
+    "price": 64328.79778247641,
     "direction": "LONG",
-    "score": 0.83,
-    "strength": 0.1,
+    "score": 1.17,
+    "strength": 0.15,
     "atr14": 370.28616864456865,
     "indicators": {
-      "ema20": 64359.57681045245,
-      "ema50": 64145.220140440724,
-      "rsi14": 46.6496281373605,
-      "macdHist": -61.030851016514035,
-      "bbUpper": 64890.12442321864,
-      "bbMid": 64468.103188669775,
-      "bbLower": 64046.08195412091
+      "ema20": 64357.93967043914,
+      "ema50": 64161.11813343299,
+      "rsi14": 49.9378106223453,
+      "macdHist": -41.66676997539248,
+      "bbUpper": 64870.64223957919,
+      "bbMid": 64484.30294488308,
+      "bbLower": 64097.96365018697
     },
     "fearGreed": {
       "value": 46,
@@ -131,6 +131,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin ETFs add $189M as August net inflows approach $1B",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
       {
         "title": "Maya Protocol exploit drains bitcoin and other assets as pool value drops $11 million",
         "source": "CoinDesk",
@@ -150,22 +155,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=64360 vs EMA50=64145",
+        "detail": "EMA20=64358 vs EMA50=64161",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "46.6",
+        "detail": "49.9",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-61.0",
+        "detail": "-41.7",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 64249 vs [64046, 64890]",
+        "detail": "prix 64329 vs [64098, 64871]",
         "points": 0
       },
       {
@@ -175,14 +180,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 1",
-        "points": 0.33
+        "detail": "30 articles pertinents, score brut 2",
+        "points": 0.67
       }
     ],
-    "computedAt": "2026-08-19T08:04:41.072Z",
-    "priceUSD": 64249.7,
-    "priceEUR": 55407.1,
-    "change24h": -0.6609748102886335
+    "computedAt": "2026-08-19T09:54:19.317Z",
+    "priceUSD": 64332.9,
+    "priceEUR": 55435.3,
+    "change24h": -0.5323359700172482
   },
   "history": [
     {
@@ -834,7 +839,12 @@
       "t": "2026-08-19T08:04:41.074Z",
       "equityEUR": 109.59,
       "priceEUR": 55407.1
+    },
+    {
+      "t": "2026-08-19T09:54:19.319Z",
+      "equityEUR": 109.8,
+      "priceEUR": 55435.3
     }
   ],
-  "lastRun": "2026-08-19T08:04:41.074Z"
+  "lastRun": "2026-08-19T09:54:19.319Z"
 }
