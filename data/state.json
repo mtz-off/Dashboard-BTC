@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 81.07,
-  "equityEUR": 152.89,
+  "equityEUR": 153.02,
   "stopped": false,
   "openPositions": [
     {
@@ -191,19 +191,19 @@
     }
   ],
   "lastSignal": {
-    "price": 72613.82603896613,
+    "price": 72739.0853272347,
     "direction": "SHORT",
     "score": -1.12,
     "strength": 0.14,
     "atr14": 902.3486153431633,
     "indicators": {
-      "ema20": 71270.13074963272,
-      "ema50": 68963.45185546904,
-      "rsi14": 76.84701366443761,
-      "macdHist": -61.999386967489045,
-      "bbUpper": 73925.89939593237,
-      "bbMid": 71250.05073978528,
-      "bbLower": 68574.20208363819
+      "ema20": 71413.62791172748,
+      "ema50": 69113.21984002912,
+      "rsi14": 77.77377082721938,
+      "macdHist": -80.75217223372147,
+      "bbUpper": 74065.1370753947,
+      "bbMid": 71401.42614632165,
+      "bbLower": 68737.71521724861
     },
     "fearGreed": {
       "value": 62,
@@ -212,6 +212,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "CFTC chair says agency will move forward on crypto regulation if CLARITY fails",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "What&#39;s Next for Bitcoin After Historic Rally? Experts Weigh In",
         "source": "Decrypt",
@@ -246,32 +251,27 @@
         "title": "Crypto generated about 1% of Webull’s record $198M Q2 revenue",
         "source": "Cointelegraph",
         "itemScore": 1
-      },
-      {
-        "title": "Bitcoin rally sparks debate whether Clarity Act is already priced in",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=71270 vs EMA50=68963",
+        "detail": "EMA20=71414 vs EMA50=69113",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "76.8",
+        "detail": "77.8",
         "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-62.0",
+        "detail": "-80.8",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 72614 vs [68574, 73926]",
+        "detail": "prix 72739 vs [68738, 74065]",
         "points": 0
       },
       {
@@ -285,10 +285,10 @@
         "points": 0.33
       }
     ],
-    "computedAt": "2026-08-20T21:00:06.511Z",
-    "priceUSD": 72655.9,
-    "priceEUR": 62217,
-    "change24h": 4.86526665223352
+    "computedAt": "2026-08-20T21:58:54.242Z",
+    "priceUSD": 72711,
+    "priceEUR": 62272,
+    "change24h": 4.944793245291189
   },
   "history": [
     {
@@ -1065,7 +1065,12 @@
       "t": "2026-08-20T21:00:06.514Z",
       "equityEUR": 152.89,
       "priceEUR": 62217
+    },
+    {
+      "t": "2026-08-20T21:58:54.244Z",
+      "equityEUR": 153.02,
+      "priceEUR": 62272
     }
   ],
-  "lastRun": "2026-08-20T21:00:06.514Z"
+  "lastRun": "2026-08-20T21:58:54.244Z"
 }
