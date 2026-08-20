@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 108.09,
-  "equityEUR": 144.12,
+  "equityEUR": 147.07,
   "stopped": false,
   "openPositions": [
     {
@@ -174,19 +174,19 @@
     }
   ],
   "lastSignal": {
-    "price": 71644.62062807381,
+    "price": 72018.1836891822,
     "direction": "LONG",
-    "score": 2.12,
-    "strength": 0.26,
+    "score": 2.45,
+    "strength": 0.31,
     "atr14": 759.1897303503374,
     "indicators": {
-      "ema20": 69028.59591242552,
-      "ema50": 67098.7712783695,
-      "rsi14": 83.40465259342491,
-      "macdHist": 108.40954336583809,
-      "bbUpper": 71542.35218697554,
-      "bbMid": 69215.25825866418,
-      "bbLower": 66888.16433035283
+      "ema20": 69319.72935046523,
+      "ema50": 67294.41639200089,
+      "rsi14": 84.4983132051909,
+      "macdHist": 150.06125880085438,
+      "bbUpper": 71646.54830999994,
+      "bbMid": 69524.02267245724,
+      "bbLower": 67401.49703491454
     },
     "fearGreed": {
       "value": 62,
@@ -196,12 +196,22 @@
     "fundingRate": null,
     "newsHighlights": [
       {
-        "title": "Bitcoin approaches $72,000 as Strategy and Coinbase continue rally",
+        "title": "Bitcoin rally sparks debate whether Clarity Act is already priced in",
         "source": "CoinDesk",
         "itemScore": 1
       },
       {
-        "title": "Live updates: Bitcoin jumps above $71,000, ETFs draw $700 million in biggest inflows in months",
+        "title": "Crypto short liquidations pass $3B mark as Bitcoin price nears $72K",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin hits $72,000 as Strategy and Coinbase continue rally",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Live updates: Bitcoin jumps above $72,000, ETFs draw $700 million in biggest inflows in months",
         "source": "CoinDesk",
         "itemScore": 1
       },
@@ -224,37 +234,27 @@
         "title": "Bitcoin Surges Toward $70K as $1.14 Billion in Crypto Shorts Get Rekt in an Hour",
         "source": "Decrypt",
         "itemScore": 1
-      },
-      {
-        "title": "Bitcoin nears key technical breakout that could propel prices to $76,000",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "SEC regulatory proposal marks ‘important’ step forward from ‘inapt’ crypto rules: Commissioner Peirce",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=69029 vs EMA50=67099",
+        "detail": "EMA20=69320 vs EMA50=67294",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "83.4",
+        "detail": "84.5",
         "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "108.4",
+        "detail": "150.1",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 71645 vs [66888, 71542]",
+        "detail": "prix 72018 vs [67401, 71647]",
         "points": -1
       },
       {
@@ -264,14 +264,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 2",
-        "points": 0.67
+        "detail": "30 articles pertinents, score brut 3",
+        "points": 1
       }
     ],
-    "computedAt": "2026-08-20T09:59:14.882Z",
-    "priceUSD": 71724.1,
-    "priceEUR": 61271,
-    "change24h": 3.5203868081114322
+    "computedAt": "2026-08-20T11:03:33.340Z",
+    "priceUSD": 72057.6,
+    "priceEUR": 61605.9,
+    "change24h": 4.0017319766183235
   },
   "history": [
     {
@@ -1013,7 +1013,12 @@
       "t": "2026-08-20T09:59:14.884Z",
       "equityEUR": 144.12,
       "priceEUR": 61271
+    },
+    {
+      "t": "2026-08-20T11:03:33.342Z",
+      "equityEUR": 147.07,
+      "priceEUR": 61605.9
     }
   ],
-  "lastRun": "2026-08-20T09:59:14.884Z"
+  "lastRun": "2026-08-20T11:03:33.342Z"
 }
