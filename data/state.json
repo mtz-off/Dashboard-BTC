@@ -5,8 +5,8 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 106.9,
-  "equityEUR": 140.79,
+  "balanceEUR": 80.17,
+  "equityEUR": 139.96,
   "stopped": false,
   "openPositions": [
     {
@@ -24,6 +24,23 @@
       "tpPct": 2.37,
       "signalScore": 2.45,
       "signalStrength": 0.31,
+      "status": "OPEN"
+    },
+    {
+      "id": "8e69ce15-0d20-4e50-bfec-f49dec6c8e05",
+      "side": "SHORT",
+      "entryPrice": 59385,
+      "entryTime": "2026-08-20T06:03:57.751Z",
+      "sizeEUR": 26.73,
+      "notionalEUR": 400.95,
+      "leverage": 15,
+      "qtyBTC": 0.0067517,
+      "sl": 60165.81,
+      "tp": 57823.38,
+      "slPct": 1.31,
+      "tpPct": 2.63,
+      "signalScore": -1.12,
+      "signalStrength": 0.14,
       "status": "OPEN"
     }
   ],
@@ -142,19 +159,19 @@
     }
   ],
   "lastSignal": {
-    "price": 69447.2281445549,
-    "direction": "LONG",
-    "score": 2.67,
-    "strength": 0.33,
+    "price": 69349.39247940075,
+    "direction": "SHORT",
+    "score": -1.12,
+    "strength": 0.14,
     "atr14": 759.8526709631076,
     "indicators": {
-      "ema20": 68031.82287756327,
-      "ema50": 66347.22955099281,
-      "rsi14": 74.82471227824567,
-      "macdHist": 39.555619271422074,
-      "bbUpper": 71728.93359560936,
-      "bbMid": 67752.6214616562,
-      "bbLower": 63776.30932770306
+      "ema20": 68162.23869211008,
+      "ema50": 66467.6911517166,
+      "rsi14": 73.35690478399474,
+      "macdHist": -6.407661350701346,
+      "bbUpper": 71723.33124016902,
+      "bbMid": 68006.46228038,
+      "bbLower": 64289.59332059098
     },
     "fearGreed": {
       "value": 62,
@@ -187,32 +204,27 @@
         "title": "SEC regulatory proposal marks ‘important’ step forward from ‘inapt’ crypto rules: Commissioner Peirce",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "Fed decision making comes into focus as bitcoin holds steady, bond yields surge",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=68032 vs EMA50=66347",
+        "detail": "EMA20=68162 vs EMA50=66468",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "74.8",
+        "detail": "73.4",
         "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "39.6",
-        "points": 1.5
+        "detail": "-6.4",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 69447 vs [63776, 71729]",
+        "detail": "prix 69349 vs [64290, 71723]",
         "points": 0
       },
       {
@@ -222,14 +234,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 2",
-        "points": 0.67
+        "detail": "30 articles pertinents, score brut 1",
+        "points": 0.33
       }
     ],
-    "computedAt": "2026-08-20T05:06:10.097Z",
-    "priceUSD": 69445.4,
-    "priceEUR": 59477.9,
-    "change24h": 0.23150754131485052
+    "computedAt": "2026-08-20T06:03:57.748Z",
+    "priceUSD": 69335,
+    "priceEUR": 59385,
+    "change24h": 0.07216569242981886
   },
   "history": [
     {
@@ -956,7 +968,12 @@
       "t": "2026-08-20T05:06:10.099Z",
       "equityEUR": 140.79,
       "priceEUR": 59477.9
+    },
+    {
+      "t": "2026-08-20T06:03:57.751Z",
+      "equityEUR": 139.96,
+      "priceEUR": 59385
     }
   ],
-  "lastRun": "2026-08-20T05:06:10.099Z"
+  "lastRun": "2026-08-20T06:03:57.751Z"
 }
