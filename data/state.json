@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 80.17,
-  "equityEUR": 139.96,
+  "equityEUR": 141.31,
   "stopped": false,
   "openPositions": [
     {
@@ -159,27 +159,35 @@
     }
   ],
   "lastSignal": {
-    "price": 69349.39247940075,
+    "price": 69797.47933606304,
     "direction": "SHORT",
-    "score": -1.12,
-    "strength": 0.14,
+    "score": -0.78,
+    "strength": 0.1,
     "atr14": 759.8526709631076,
     "indicators": {
-      "ema20": 68162.23869211008,
-      "ema50": 66467.6911517166,
-      "rsi14": 73.35690478399474,
-      "macdHist": -6.407661350701346,
-      "bbUpper": 71723.33124016902,
-      "bbMid": 68006.46228038,
-      "bbLower": 64289.59332059098
+      "ema20": 68584.95320658824,
+      "ema50": 66843.87357360759,
+      "rsi14": 75.25718943896723,
+      "macdHist": -54.20602698424,
+      "bbUpper": 71255.3181348956,
+      "bbMid": 68794.30585632965,
+      "bbLower": 66333.2935777637
     },
     "fearGreed": {
       "value": 62,
       "classification": "Greed",
       "timestamp": 1787184000000
     },
-    "fundingRate": null,
+    "fundingRate": {
+      "lastFundingRate": 0.0001,
+      "markPrice": 70207.78556972
+    },
     "newsHighlights": [
+      {
+        "title": "Live updates: Bitcoin ETFs draw $517 million, ether pulls $189 million in biggest inflows in months",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "Ether jumps 18% to $2,250 as bitcoin tops $69,000 in broad crypto rally",
         "source": "CoinDesk",
@@ -209,22 +217,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=68162 vs EMA50=66468",
+        "detail": "EMA20=68585 vs EMA50=66844",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "73.4",
+        "detail": "75.3",
         "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-6.4",
+        "detail": "-54.2",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 69349 vs [64290, 71723]",
+        "detail": "prix 69797 vs [66333, 71255]",
         "points": 0
       },
       {
@@ -233,15 +241,20 @@
         "points": 0
       },
       {
+        "factor": "Funding rate BTC perp",
+        "detail": "0.0100%",
+        "points": 0
+      },
+      {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 1",
-        "points": 0.33
+        "detail": "30 articles pertinents, score brut 2",
+        "points": 0.67
       }
     ],
-    "computedAt": "2026-08-20T06:03:57.748Z",
-    "priceUSD": 69335,
-    "priceEUR": 59385,
-    "change24h": 0.07216569242981886
+    "computedAt": "2026-08-20T08:07:32.685Z",
+    "priceUSD": 70145.4,
+    "priceEUR": 59995.9,
+    "change24h": 1.2418272353323145
   },
   "history": [
     {
@@ -973,7 +986,12 @@
       "t": "2026-08-20T06:03:57.751Z",
       "equityEUR": 139.96,
       "priceEUR": 59385
+    },
+    {
+      "t": "2026-08-20T08:07:32.687Z",
+      "equityEUR": 141.31,
+      "priceEUR": 59995.9
     }
   ],
-  "lastRun": "2026-08-20T06:03:57.751Z"
+  "lastRun": "2026-08-20T08:07:32.687Z"
 }
