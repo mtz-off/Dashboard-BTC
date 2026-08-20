@@ -5,8 +5,8 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 108.09,
-  "equityEUR": 153.64,
+  "balanceEUR": 81.07,
+  "equityEUR": 153.05,
   "stopped": false,
   "openPositions": [
     {
@@ -24,6 +24,23 @@
       "tpPct": 2.54,
       "signalScore": 2.12,
       "signalStrength": 0.26,
+      "status": "OPEN"
+    },
+    {
+      "id": "46561a35-73d3-44bb-a0f8-defa0e92c4da",
+      "side": "SHORT",
+      "entryPrice": 62283.1,
+      "entryTime": "2026-08-20T19:44:59.458Z",
+      "sizeEUR": 27.02,
+      "notionalEUR": 405.3,
+      "leverage": 15,
+      "qtyBTC": 0.00650738,
+      "sl": 63230.81,
+      "tp": 60387.68,
+      "slPct": 1.52,
+      "tpPct": 3.04,
+      "signalScore": -1.12,
+      "signalStrength": 0.14,
       "status": "OPEN"
     }
   ],
@@ -174,19 +191,19 @@
     }
   ],
   "lastSignal": {
-    "price": 72730.84824152925,
-    "direction": "LONG",
-    "score": 2.67,
-    "strength": 0.33,
+    "price": 72739.44175393519,
+    "direction": "SHORT",
+    "score": -1.12,
+    "strength": 0.14,
     "atr14": 922.3486260497209,
     "indicators": {
-      "ema20": 70791.30359449351,
-      "ema50": 68492.11881383113,
-      "rsi14": 81.5358138023208,
-      "macdHist": 37.12909438554266,
-      "bbUpper": 73432.98685827435,
-      "bbMid": 70753.06956241469,
-      "bbLower": 68073.15226655503
+      "ema20": 71137.81403633562,
+      "ema50": 68818.20760271906,
+      "rsi14": 77.91551148402137,
+      "macdHist": -26.57174238980133,
+      "bbUpper": 73815.99090284752,
+      "bbMid": 71096.94811866013,
+      "bbLower": 68377.90533447274
     },
     "fearGreed": {
       "value": 62,
@@ -195,6 +212,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "U.S. CFTC chief puts staff on notice to create crypto regulations if Clarity Act fails",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Iranian Hackers Tied to $6 Million Bitcoin Extortion Charged in Massive Cyber Campaign",
         "source": "Decrypt",
@@ -229,32 +251,27 @@
         "title": "Crypto short liquidations pass $3B mark as Bitcoin price nears $72K",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin hits $72,000 as Strategy and Coinbase continue rally",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=70791 vs EMA50=68492",
+        "detail": "EMA20=71138 vs EMA50=68818",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "81.5",
+        "detail": "77.9",
         "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "37.1",
-        "points": 1.5
+        "detail": "-26.6",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 72731 vs [68073, 73433]",
+        "detail": "prix 72739 vs [68378, 73816]",
         "points": 0
       },
       {
@@ -264,14 +281,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 2",
-        "points": 0.67
+        "detail": "30 articles pertinents, score brut 1",
+        "points": 0.33
       }
     ],
-    "computedAt": "2026-08-20T17:50:40.628Z",
-    "priceUSD": 72777.1,
-    "priceEUR": 62350,
-    "change24h": 5.040196290683417
+    "computedAt": "2026-08-20T19:44:59.456Z",
+    "priceUSD": 72701,
+    "priceEUR": 62283.1,
+    "change24h": 4.9303601068052245
   },
   "history": [
     {
@@ -1038,7 +1055,12 @@
       "t": "2026-08-20T17:50:40.630Z",
       "equityEUR": 153.64,
       "priceEUR": 62350
+    },
+    {
+      "t": "2026-08-20T19:44:59.458Z",
+      "equityEUR": 153.05,
+      "priceEUR": 62283.1
     }
   ],
-  "lastRun": "2026-08-20T17:50:40.630Z"
+  "lastRun": "2026-08-20T19:44:59.458Z"
 }
