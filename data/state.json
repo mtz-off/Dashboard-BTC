@@ -5,42 +5,25 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 80.17,
-  "equityEUR": 141.31,
+  "balanceEUR": 108.09,
+  "equityEUR": 144.12,
   "stopped": false,
   "openPositions": [
     {
-      "id": "ec166fd4-d3a8-4666-ab4d-6178f496f341",
+      "id": "dd822047-d8aa-4224-88d6-56a96eaf107f",
       "side": "LONG",
-      "entryPrice": 59672,
-      "entryTime": "2026-08-19T21:56:18.830Z",
-      "sizeEUR": 35.63,
-      "notionalEUR": 534.45,
+      "entryPrice": 61271,
+      "entryTime": "2026-08-20T09:59:14.884Z",
+      "sizeEUR": 36.03,
+      "notionalEUR": 540.45,
       "leverage": 15,
-      "qtyBTC": 0.00895646,
-      "sl": 58963.69,
-      "tp": 61088.62,
-      "slPct": 1.19,
-      "tpPct": 2.37,
-      "signalScore": 2.45,
-      "signalStrength": 0.31,
-      "status": "OPEN"
-    },
-    {
-      "id": "8e69ce15-0d20-4e50-bfec-f49dec6c8e05",
-      "side": "SHORT",
-      "entryPrice": 59385,
-      "entryTime": "2026-08-20T06:03:57.751Z",
-      "sizeEUR": 26.73,
-      "notionalEUR": 400.95,
-      "leverage": 15,
-      "qtyBTC": 0.0067517,
-      "sl": 60165.81,
-      "tp": 57823.38,
-      "slPct": 1.31,
-      "tpPct": 2.63,
-      "signalScore": -1.12,
-      "signalStrength": 0.14,
+      "qtyBTC": 0.00882065,
+      "sl": 60491.88,
+      "tp": 62829.23,
+      "slPct": 1.27,
+      "tpPct": 2.54,
+      "signalScore": 2.12,
+      "signalStrength": 0.26,
       "status": "OPEN"
     }
   ],
@@ -156,37 +139,76 @@
       "pnlPct": 1.58,
       "reason": "TP",
       "status": "CLOSED"
+    },
+    {
+      "id": "ec166fd4-d3a8-4666-ab4d-6178f496f341",
+      "side": "LONG",
+      "entryPrice": 59672,
+      "entryTime": "2026-08-19T21:56:18.830Z",
+      "exitPrice": 61271,
+      "exitTime": "2026-08-20T09:59:14.884Z",
+      "sizeEUR": 35.63,
+      "notionalEUR": 534.45,
+      "leverage": 15,
+      "qtyBTC": 0.00895646,
+      "pnlEUR": 14.32,
+      "pnlPct": 2.68,
+      "reason": "TP",
+      "status": "CLOSED"
+    },
+    {
+      "id": "8e69ce15-0d20-4e50-bfec-f49dec6c8e05",
+      "side": "SHORT",
+      "entryPrice": 59385,
+      "entryTime": "2026-08-20T06:03:57.751Z",
+      "exitPrice": 61271,
+      "exitTime": "2026-08-20T09:59:14.884Z",
+      "sizeEUR": 26.73,
+      "notionalEUR": 400.95,
+      "leverage": 15,
+      "qtyBTC": 0.0067517,
+      "pnlEUR": -12.73,
+      "pnlPct": -3.18,
+      "reason": "SL",
+      "status": "CLOSED"
     }
   ],
   "lastSignal": {
-    "price": 69797.47933606304,
-    "direction": "SHORT",
-    "score": -0.78,
-    "strength": 0.1,
-    "atr14": 759.8526709631076,
+    "price": 71644.62062807381,
+    "direction": "LONG",
+    "score": 2.12,
+    "strength": 0.26,
+    "atr14": 759.1897303503374,
     "indicators": {
-      "ema20": 68584.95320658824,
-      "ema50": 66843.87357360759,
-      "rsi14": 75.25718943896723,
-      "macdHist": -54.20602698424,
-      "bbUpper": 71255.3181348956,
-      "bbMid": 68794.30585632965,
-      "bbLower": 66333.2935777637
+      "ema20": 69028.59591242552,
+      "ema50": 67098.7712783695,
+      "rsi14": 83.40465259342491,
+      "macdHist": 108.40954336583809,
+      "bbUpper": 71542.35218697554,
+      "bbMid": 69215.25825866418,
+      "bbLower": 66888.16433035283
     },
     "fearGreed": {
       "value": 62,
       "classification": "Greed",
       "timestamp": 1787184000000
     },
-    "fundingRate": {
-      "lastFundingRate": 0.0001,
-      "markPrice": 70207.78556972
-    },
+    "fundingRate": null,
     "newsHighlights": [
       {
-        "title": "Live updates: Bitcoin ETFs draw $517 million, ether pulls $189 million in biggest inflows in months",
+        "title": "Bitcoin approaches $72,000 as Strategy and Coinbase continue rally",
         "source": "CoinDesk",
         "itemScore": 1
+      },
+      {
+        "title": "Live updates: Bitcoin jumps above $71,000, ETFs draw $700 million in biggest inflows in months",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Bearish crypto bets lose record $3 billion as bitcoin tops $71,000",
+        "source": "CoinDesk",
+        "itemScore": -1
       },
       {
         "title": "Ether jumps 18% to $2,250 as bitcoin tops $69,000 in broad crypto rally",
@@ -217,32 +239,27 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=68585 vs EMA50=66844",
+        "detail": "EMA20=69029 vs EMA50=67099",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "75.3",
+        "detail": "83.4",
         "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-54.2",
-        "points": -1.95
+        "detail": "108.4",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 69797 vs [66333, 71255]",
-        "points": 0
+        "detail": "prix 71645 vs [66888, 71542]",
+        "points": -1
       },
       {
         "factor": "Fear & Greed Index",
         "detail": "62 (Greed)",
-        "points": 0
-      },
-      {
-        "factor": "Funding rate BTC perp",
-        "detail": "0.0100%",
         "points": 0
       },
       {
@@ -251,10 +268,10 @@
         "points": 0.67
       }
     ],
-    "computedAt": "2026-08-20T08:07:32.685Z",
-    "priceUSD": 70145.4,
-    "priceEUR": 59995.9,
-    "change24h": 1.2418272353323145
+    "computedAt": "2026-08-20T09:59:14.882Z",
+    "priceUSD": 71724.1,
+    "priceEUR": 61271,
+    "change24h": 3.5203868081114322
   },
   "history": [
     {
@@ -991,7 +1008,12 @@
       "t": "2026-08-20T08:07:32.687Z",
       "equityEUR": 141.31,
       "priceEUR": 59995.9
+    },
+    {
+      "t": "2026-08-20T09:59:14.884Z",
+      "equityEUR": 144.12,
+      "priceEUR": 61271
     }
   ],
-  "lastRun": "2026-08-20T08:07:32.687Z"
+  "lastRun": "2026-08-20T09:59:14.884Z"
 }
