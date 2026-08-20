@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 108.09,
-  "equityEUR": 146.79,
+  "equityEUR": 144.66,
   "stopped": false,
   "openPositions": [
     {
@@ -174,19 +174,19 @@
     }
   ],
   "lastSignal": {
-    "price": 71895.37583360577,
+    "price": 71647.39141562043,
     "direction": "LONG",
-    "score": 4,
-    "strength": 0.5,
-    "atr14": 890.6480505456728,
+    "score": 3,
+    "strength": 0.38,
+    "atr14": 889.8623362599585,
     "indicators": {
-      "ema20": 69554.73211886315,
-      "ema50": 67470.06349529917,
-      "rsi14": 84.11627209835122,
-      "macdHist": 142.7373590553982,
-      "bbUpper": 71977.80230855777,
-      "bbMid": 69680.57628020397,
-      "bbLower": 67383.35025185016
+      "ema20": 69954.93801261131,
+      "ema50": 67800.44570578614,
+      "rsi14": 79.20083052295392,
+      "macdHist": 74.57285069065529,
+      "bbUpper": 72420.85413468206,
+      "bbMid": 70030.05981991717,
+      "bbLower": 67639.26550515227
     },
     "fearGreed": {
       "value": 62,
@@ -221,11 +221,6 @@
         "itemScore": 1
       },
       {
-        "title": "Live updates: Bitcoin jumps above $72,000, ETF inflows of $700 million were largest in months",
-        "source": "CoinDesk",
-        "itemScore": 2
-      },
-      {
         "title": "Bearish crypto bets lose record $3 billion as bitcoin tops $71,000",
         "source": "CoinDesk",
         "itemScore": -1
@@ -234,27 +229,32 @@
         "title": "Ether jumps 18% to $2,250 as bitcoin tops $69,000 in broad crypto rally",
         "source": "CoinDesk",
         "itemScore": 1
+      },
+      {
+        "title": "Six-Bug Exploit Halts Maya Protocol After $1.4 Million in Bitcoin Stolen",
+        "source": "Decrypt",
+        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=69555 vs EMA50=67470",
+        "detail": "EMA20=69955 vs EMA50=67800",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "84.1",
+        "detail": "79.2",
         "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "142.7",
+        "detail": "74.6",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 71895 vs [67383, 71978]",
+        "detail": "prix 71647 vs [67639, 72421]",
         "points": 0
       },
       {
@@ -264,14 +264,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 6",
-        "points": 2
+        "detail": "30 articles pertinents, score brut 3",
+        "points": 1
       }
     ],
-    "computedAt": "2026-08-20T12:02:48.532Z",
-    "priceUSD": 71916.9,
-    "priceEUR": 61573.4,
-    "change24h": 3.7986577181207974
+    "computedAt": "2026-08-20T14:20:42.232Z",
+    "priceUSD": 71527.3,
+    "priceEUR": 61332,
+    "change24h": 3.236342642707661
   },
   "history": [
     {
@@ -1023,7 +1023,12 @@
       "t": "2026-08-20T12:02:48.535Z",
       "equityEUR": 146.79,
       "priceEUR": 61573.4
+    },
+    {
+      "t": "2026-08-20T14:20:42.233Z",
+      "equityEUR": 144.66,
+      "priceEUR": 61332
     }
   ],
-  "lastRun": "2026-08-20T12:02:48.535Z"
+  "lastRun": "2026-08-20T14:20:42.233Z"
 }
