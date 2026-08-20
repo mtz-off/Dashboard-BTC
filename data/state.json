@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 106.9,
-  "equityEUR": 136.27,
+  "equityEUR": 140.79,
   "stopped": false,
   "openPositions": [
     {
@@ -142,19 +142,19 @@
     }
   ],
   "lastSignal": {
-    "price": 68973.97188346107,
+    "price": 69447.2281445549,
     "direction": "LONG",
-    "score": 2.33,
-    "strength": 0.29,
-    "atr14": 747.456582372749,
+    "score": 2.67,
+    "strength": 0.33,
+    "atr14": 759.8526709631076,
     "indicators": {
-      "ema20": 67713.89835315217,
-      "ema50": 66085.74937414526,
-      "rsi14": 70.7599757503653,
-      "macdHist": 135.1844905489561,
-      "bbUpper": 71507.02473966885,
-      "bbMid": 67234.1956118391,
-      "bbLower": 62961.36648400934
+      "ema20": 68031.82287756327,
+      "ema50": 66347.22955099281,
+      "rsi14": 74.82471227824567,
+      "macdHist": 39.555619271422074,
+      "bbUpper": 71728.93359560936,
+      "bbMid": 67752.6214616562,
+      "bbLower": 63776.30932770306
     },
     "fearGreed": {
       "value": 62,
@@ -163,6 +163,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Ether jumps 18% to $2,250 as bitcoin tops $69,000 in broad crypto rally",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "Six-Bug Exploit Halts Maya Protocol After $1.4 Million in Bitcoin Stolen",
         "source": "Decrypt",
@@ -192,22 +197,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=67714 vs EMA50=66086",
+        "detail": "EMA20=68032 vs EMA50=66347",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "70.8",
+        "detail": "74.8",
         "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "135.2",
+        "detail": "39.6",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 68974 vs [62961, 71507]",
+        "detail": "prix 69447 vs [63776, 71729]",
         "points": 0
       },
       {
@@ -217,14 +222,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 1",
-        "points": 0.33
+        "detail": "30 articles pertinents, score brut 2",
+        "points": 0.67
       }
     ],
-    "computedAt": "2026-08-20T03:12:43.457Z",
-    "priceUSD": 68858.4,
-    "priceEUR": 58972.8,
-    "change24h": -0.6157176878112229
+    "computedAt": "2026-08-20T05:06:10.097Z",
+    "priceUSD": 69445.4,
+    "priceEUR": 59477.9,
+    "change24h": 0.23150754131485052
   },
   "history": [
     {
@@ -946,7 +951,12 @@
       "t": "2026-08-20T03:12:43.459Z",
       "equityEUR": 136.27,
       "priceEUR": 58972.8
+    },
+    {
+      "t": "2026-08-20T05:06:10.099Z",
+      "equityEUR": 140.79,
+      "priceEUR": 59477.9
     }
   ],
-  "lastRun": "2026-08-20T03:12:43.459Z"
+  "lastRun": "2026-08-20T05:06:10.099Z"
 }
