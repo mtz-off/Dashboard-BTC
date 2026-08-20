@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 108.09,
-  "equityEUR": 147.07,
+  "equityEUR": 146.79,
   "stopped": false,
   "openPositions": [
     {
@@ -174,19 +174,19 @@
     }
   ],
   "lastSignal": {
-    "price": 72018.1836891822,
+    "price": 71895.37583360577,
     "direction": "LONG",
-    "score": 2.45,
-    "strength": 0.31,
-    "atr14": 759.1897303503374,
+    "score": 4,
+    "strength": 0.5,
+    "atr14": 890.6480505456728,
     "indicators": {
-      "ema20": 69319.72935046523,
-      "ema50": 67294.41639200089,
-      "rsi14": 84.4983132051909,
-      "macdHist": 150.06125880085438,
-      "bbUpper": 71646.54830999994,
-      "bbMid": 69524.02267245724,
-      "bbLower": 67401.49703491454
+      "ema20": 69554.73211886315,
+      "ema50": 67470.06349529917,
+      "rsi14": 84.11627209835122,
+      "macdHist": 142.7373590553982,
+      "bbUpper": 71977.80230855777,
+      "bbMid": 69680.57628020397,
+      "bbLower": 67383.35025185016
     },
     "fearGreed": {
       "value": 62,
@@ -195,6 +195,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin ETFs draw $517M in largest one-day inflow since early May",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
+        "title": "Crypto generated about 1% of Webull’s record $198M Q2 revenue",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
       {
         "title": "Bitcoin rally sparks debate whether Clarity Act is already priced in",
         "source": "CoinDesk",
@@ -211,9 +221,9 @@
         "itemScore": 1
       },
       {
-        "title": "Live updates: Bitcoin jumps above $72,000, ETFs draw $700 million in biggest inflows in months",
+        "title": "Live updates: Bitcoin jumps above $72,000, ETF inflows of $700 million were largest in months",
         "source": "CoinDesk",
-        "itemScore": 1
+        "itemScore": 2
       },
       {
         "title": "Bearish crypto bets lose record $3 billion as bitcoin tops $71,000",
@@ -224,38 +234,28 @@
         "title": "Ether jumps 18% to $2,250 as bitcoin tops $69,000 in broad crypto rally",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Six-Bug Exploit Halts Maya Protocol After $1.4 Million in Bitcoin Stolen",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin Surges Toward $70K as $1.14 Billion in Crypto Shorts Get Rekt in an Hour",
-        "source": "Decrypt",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=69320 vs EMA50=67294",
+        "detail": "EMA20=69555 vs EMA50=67470",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "84.5",
+        "detail": "84.1",
         "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "150.1",
-        "points": 1.95
+        "detail": "142.7",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 72018 vs [67401, 71647]",
-        "points": -1
+        "detail": "prix 71895 vs [67383, 71978]",
+        "points": 0
       },
       {
         "factor": "Fear & Greed Index",
@@ -264,14 +264,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 3",
-        "points": 1
+        "detail": "30 articles pertinents, score brut 6",
+        "points": 2
       }
     ],
-    "computedAt": "2026-08-20T11:03:33.340Z",
-    "priceUSD": 72057.6,
-    "priceEUR": 61605.9,
-    "change24h": 4.0017319766183235
+    "computedAt": "2026-08-20T12:02:48.532Z",
+    "priceUSD": 71916.9,
+    "priceEUR": 61573.4,
+    "change24h": 3.7986577181207974
   },
   "history": [
     {
@@ -1018,7 +1018,12 @@
       "t": "2026-08-20T11:03:33.342Z",
       "equityEUR": 147.07,
       "priceEUR": 61605.9
+    },
+    {
+      "t": "2026-08-20T12:02:48.535Z",
+      "equityEUR": 146.79,
+      "priceEUR": 61573.4
     }
   ],
-  "lastRun": "2026-08-20T11:03:33.342Z"
+  "lastRun": "2026-08-20T12:02:48.535Z"
 }
