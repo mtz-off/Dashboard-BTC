@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 108.09,
-  "equityEUR": 150.01,
+  "equityEUR": 153.64,
   "stopped": false,
   "openPositions": [
     {
@@ -174,19 +174,19 @@
     }
   ],
   "lastSignal": {
-    "price": 72428.54536632106,
+    "price": 72730.84824152925,
     "direction": "LONG",
-    "score": 3.45,
-    "strength": 0.43,
-    "atr14": 889.8623362599585,
+    "score": 2.67,
+    "strength": 0.33,
+    "atr14": 922.3486260497209,
     "indicators": {
-      "ema20": 70352.65304308763,
-      "ema50": 68135.19960535594,
-      "rsi14": 81.13873529571978,
-      "macdHist": 38.195303258459035,
-      "bbUpper": 72839.77485924665,
-      "bbMid": 70407.94533860637,
-      "bbLower": 67976.11581796609
+      "ema20": 70791.30359449351,
+      "ema50": 68492.11881383113,
+      "rsi14": 81.5358138023208,
+      "macdHist": 37.12909438554266,
+      "bbUpper": 73432.98685827435,
+      "bbMid": 70753.06956241469,
+      "bbLower": 68073.15226655503
     },
     "fearGreed": {
       "value": 62,
@@ -195,6 +195,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Iranian Hackers Tied to $6 Million Bitcoin Extortion Charged in Massive Cyber Campaign",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin Hits Highest Price Since June as $3 Billion in Shorts Liquidated",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin's jump above $71,000 sets up bullish golden cross pattern",
         "source": "CoinDesk",
@@ -224,37 +234,27 @@
         "title": "Bitcoin hits $72,000 as Strategy and Coinbase continue rally",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Bearish crypto bets lose record $3 billion as bitcoin tops $71,000",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Ether jumps 18% to $2,250 as bitcoin tops $69,000 in broad crypto rally",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=70353 vs EMA50=68135",
+        "detail": "EMA20=70791 vs EMA50=68492",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "81.1",
+        "detail": "81.5",
         "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "38.2",
-        "points": 1.95
+        "detail": "37.1",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 72429 vs [67976, 72840]",
+        "detail": "prix 72731 vs [68073, 73433]",
         "points": 0
       },
       {
@@ -264,14 +264,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 3",
-        "points": 1
+        "detail": "30 articles pertinents, score brut 2",
+        "points": 0.67
       }
     ],
-    "computedAt": "2026-08-20T16:01:25.562Z",
-    "priceUSD": 72333.4,
-    "priceEUR": 61939,
-    "change24h": 4.399797936061188
+    "computedAt": "2026-08-20T17:50:40.628Z",
+    "priceUSD": 72777.1,
+    "priceEUR": 62350,
+    "change24h": 5.040196290683417
   },
   "history": [
     {
@@ -1033,7 +1033,12 @@
       "t": "2026-08-20T16:01:25.564Z",
       "equityEUR": 150.01,
       "priceEUR": 61939
+    },
+    {
+      "t": "2026-08-20T17:50:40.630Z",
+      "equityEUR": 153.64,
+      "priceEUR": 62350
     }
   ],
-  "lastRun": "2026-08-20T16:01:25.564Z"
+  "lastRun": "2026-08-20T17:50:40.630Z"
 }
