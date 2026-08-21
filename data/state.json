@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 127.75,
-  "equityEUR": 175.29,
+  "equityEUR": 177.66,
   "stopped": false,
   "openPositions": [
     {
@@ -238,19 +238,19 @@
     }
   ],
   "lastSignal": {
-    "price": 76969.84146662163,
+    "price": 77400.76018366133,
     "direction": "LONG",
-    "score": 2.22,
-    "strength": 0.28,
+    "score": 0.22,
+    "strength": 0.03,
     "atr14": 1232.115682835423,
     "indicators": {
-      "ema20": 75493.3939675769,
-      "ema50": 72528.48410704435,
-      "rsi14": 69.4335617314055,
-      "macdHist": -32.229208388474945,
-      "bbUpper": 79084.33878010638,
-      "bbMid": 75295.21118769051,
-      "bbLower": 71506.08359527464
+      "ema20": 75698.4546004698,
+      "ema50": 72728.75959819634,
+      "rsi14": 73.46271424999034,
+      "macdHist": -45.76994434232438,
+      "bbUpper": 79249.92628866973,
+      "bbMid": 75543.44843144293,
+      "bbLower": 71836.97057421613
     },
     "fearGreed": {
       "value": 72,
@@ -259,6 +259,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin Climbs Higher as $1.2 Billion in Shorts Liquidated",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
       {
         "title": "Laser Digital gets Japan’s first crypto exchange approval in 4 years",
         "source": "Cointelegraph",
@@ -293,32 +298,27 @@
         "title": "CFTC chair says agency will move forward on crypto regulation if CLARITY fails",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "What&#39;s Next for Bitcoin After Historic Rally? Experts Weigh In",
-        "source": "Decrypt",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=75493 vs EMA50=72528",
+        "detail": "EMA20=75698 vs EMA50=72729",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "69.4",
-        "points": 0.5
+        "detail": "73.5",
+        "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-32.2",
+        "detail": "-45.8",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 76970 vs [71506, 79084]",
+        "detail": "prix 77401 vs [71837, 79250]",
         "points": 0
       },
       {
@@ -332,10 +332,10 @@
         "points": 1.67
       }
     ],
-    "computedAt": "2026-08-21T14:09:20.615Z",
-    "priceUSD": 76997.2,
-    "priceEUR": 65952.3,
-    "change24h": 5.473882621107599
+    "computedAt": "2026-08-21T15:53:54.854Z",
+    "priceUSD": 77312,
+    "priceEUR": 66195,
+    "change24h": 5.905108409176839
   },
   "history": [
     {
@@ -1162,7 +1162,12 @@
       "t": "2026-08-21T14:09:20.618Z",
       "equityEUR": 175.29,
       "priceEUR": 65952.3
+    },
+    {
+      "t": "2026-08-21T15:53:54.856Z",
+      "equityEUR": 177.66,
+      "priceEUR": 66195
     }
   ],
-  "lastRun": "2026-08-21T14:09:20.618Z"
+  "lastRun": "2026-08-21T15:53:54.856Z"
 }
