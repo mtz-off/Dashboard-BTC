@@ -5,42 +5,25 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 81.07,
-  "equityEUR": 153.52,
+  "balanceEUR": 117.41,
+  "equityEUR": 156.55,
   "stopped": false,
   "openPositions": [
     {
-      "id": "dd822047-d8aa-4224-88d6-56a96eaf107f",
+      "id": "cbd6edf3-b485-4953-b235-6b7637af147c",
       "side": "LONG",
-      "entryPrice": 61271,
-      "entryTime": "2026-08-20T09:59:14.884Z",
-      "sizeEUR": 36.03,
-      "notionalEUR": 540.45,
+      "entryPrice": 63796.4,
+      "entryTime": "2026-08-21T03:31:46.114Z",
+      "sizeEUR": 39.14,
+      "notionalEUR": 587.1,
       "leverage": 15,
-      "qtyBTC": 0.00882065,
-      "sl": 60491.88,
-      "tp": 62829.23,
-      "slPct": 1.27,
-      "tpPct": 2.54,
-      "signalScore": 2.12,
-      "signalStrength": 0.26,
-      "status": "OPEN"
-    },
-    {
-      "id": "46561a35-73d3-44bb-a0f8-defa0e92c4da",
-      "side": "SHORT",
-      "entryPrice": 62283.1,
-      "entryTime": "2026-08-20T19:44:59.458Z",
-      "sizeEUR": 27.02,
-      "notionalEUR": 405.3,
-      "leverage": 15,
-      "qtyBTC": 0.00650738,
-      "sl": 63230.81,
-      "tp": 60387.68,
-      "slPct": 1.52,
-      "tpPct": 3.04,
-      "signalScore": -1.12,
-      "signalStrength": 0.14,
+      "qtyBTC": 0.00920271,
+      "sl": 62875.88,
+      "tp": 65637.44,
+      "slPct": 1.44,
+      "tpPct": 2.89,
+      "signalScore": 3.12,
+      "signalStrength": 0.39,
       "status": "OPEN"
     }
   ],
@@ -188,30 +171,67 @@
       "pnlPct": -3.18,
       "reason": "SL",
       "status": "CLOSED"
+    },
+    {
+      "id": "dd822047-d8aa-4224-88d6-56a96eaf107f",
+      "side": "LONG",
+      "entryPrice": 61271,
+      "entryTime": "2026-08-20T09:59:14.884Z",
+      "exitPrice": 63796.4,
+      "exitTime": "2026-08-21T03:31:46.114Z",
+      "sizeEUR": 36.03,
+      "notionalEUR": 540.45,
+      "leverage": 15,
+      "qtyBTC": 0.00882065,
+      "pnlEUR": 22.28,
+      "pnlPct": 4.12,
+      "reason": "TP",
+      "status": "CLOSED"
+    },
+    {
+      "id": "46561a35-73d3-44bb-a0f8-defa0e92c4da",
+      "side": "SHORT",
+      "entryPrice": 62283.1,
+      "entryTime": "2026-08-20T19:44:59.458Z",
+      "exitPrice": 63796.4,
+      "exitTime": "2026-08-21T03:31:46.114Z",
+      "sizeEUR": 27.02,
+      "notionalEUR": 405.3,
+      "leverage": 15,
+      "qtyBTC": 0.00650738,
+      "pnlEUR": -9.85,
+      "pnlPct": -2.43,
+      "reason": "SL",
+      "status": "CLOSED"
     }
   ],
   "lastSignal": {
-    "price": 73010.63674753964,
-    "direction": "SHORT",
-    "score": -0.67,
-    "strength": 0.08,
-    "atr14": 902.3486153431633,
+    "price": 74560.66661248561,
+    "direction": "LONG",
+    "score": 3.12,
+    "strength": 0.39,
+    "atr14": 896.5296215165092,
     "indicators": {
-      "ema20": 71663.0755251599,
-      "ema50": 69394.00909612427,
-      "rsi14": 78.36293561256603,
-      "macdHist": -105.3961436423997,
-      "bbUpper": 74068.9438014526,
-      "bbMid": 71759.10040862489,
-      "bbLower": 69449.25701579718
+      "ema20": 72579.95082371807,
+      "ema50": 70137.82857644338,
+      "rsi14": 76.85631606033613,
+      "macdHist": 47.08889900451459,
+      "bbUpper": 74656.36352640628,
+      "bbMid": 72722.14521316385,
+      "bbLower": 70787.92689992143
     },
     "fearGreed": {
-      "value": 62,
+      "value": 72,
       "classification": "Greed",
-      "timestamp": 1787184000000
+      "timestamp": 1787270400000
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin pushes past $75,000 as rally continues.",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "CFTC chair says agency will move forward on crypto regulation if CLARITY fails",
         "source": "Cointelegraph",
@@ -246,49 +266,44 @@
         "title": "Bitcoin ETFs draw $517M in largest one-day inflow since early May",
         "source": "Cointelegraph",
         "itemScore": 1
-      },
-      {
-        "title": "Crypto generated about 1% of Webull’s record $198M Q2 revenue",
-        "source": "Cointelegraph",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=71663 vs EMA50=69394",
+        "detail": "EMA20=72580 vs EMA50=70138",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "78.4",
+        "detail": "76.9",
         "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-105.4",
-        "points": -1.5
+        "detail": "47.1",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 73011 vs [69449, 74069]",
+        "detail": "prix 74561 vs [70788, 74656]",
         "points": 0
       },
       {
         "factor": "Fear & Greed Index",
-        "detail": "62 (Greed)",
+        "detail": "72 (Greed)",
         "points": 0
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 1",
-        "points": 0.33
+        "detail": "30 articles pertinents, score brut 2",
+        "points": 0.67
       }
     ],
-    "computedAt": "2026-08-20T23:58:21.979Z",
-    "priceUSD": 72995.7,
-    "priceEUR": 62485.4,
-    "change24h": 5.355704697986573
+    "computedAt": "2026-08-21T03:31:46.112Z",
+    "priceUSD": 74600,
+    "priceEUR": 63796.4,
+    "change24h": 2.1901009846413526
   },
   "history": [
     {
@@ -1080,7 +1095,12 @@
       "t": "2026-08-20T23:58:21.981Z",
       "equityEUR": 153.52,
       "priceEUR": 62485.4
+    },
+    {
+      "t": "2026-08-21T03:31:46.114Z",
+      "equityEUR": 156.55,
+      "priceEUR": 63796.4
     }
   ],
-  "lastRun": "2026-08-20T23:58:21.981Z"
+  "lastRun": "2026-08-21T03:31:46.114Z"
 }
