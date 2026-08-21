@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 127.75,
-  "equityEUR": 176.18,
+  "equityEUR": 179.36,
   "stopped": false,
   "openPositions": [
     {
@@ -238,19 +238,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77130.26303260053,
+    "price": 77473.21682802022,
     "direction": "LONG",
-    "score": 3.22,
-    "strength": 0.4,
-    "atr14": 1243.0489824496897,
+    "score": 3.67,
+    "strength": 0.46,
+    "atr14": 1221.650963625027,
     "indicators": {
-      "ema20": 76171.09235204499,
-      "ema50": 73376.07013369966,
-      "rsi14": 66.22584607577916,
-      "macdHist": -191.27928931209613,
-      "bbUpper": 78945.82571848409,
-      "bbMid": 76409.53950733267,
-      "bbLower": 73873.25329618124
+      "ema20": 76283.6597764744,
+      "ema50": 73531.51443360983,
+      "rsi14": 67.91482383363616,
+      "macdHist": -196.17532947006316,
+      "bbUpper": 78848.57681533898,
+      "bbMid": 76586.79050817585,
+      "bbLower": 74325.00420101272
     },
     "fearGreed": {
       "value": 72,
@@ -259,6 +259,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Wall Street and Washington Fuel Bitcoin Rally: Here&#39;s What&#39;s Going On",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
       {
         "title": "Bitcoin rally sends crypto stocks soaring as miners, treasury companies jump",
         "source": "Cointelegraph",
@@ -293,32 +298,27 @@
         "title": "Bitcoin ETFs draw $608M as Ether ETFs see largest inflow since October",
         "source": "Cointelegraph",
         "itemScore": 1
-      },
-      {
-        "title": "Bitcoin pushes past $75,000 as rally continues.",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=76171 vs EMA50=73376",
+        "detail": "EMA20=76284 vs EMA50=73532",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "66.2",
+        "detail": "67.9",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-191.3",
-        "points": -1.95
+        "detail": "-196.2",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77130 vs [73873, 78946]",
+        "detail": "prix 77473 vs [74325, 78849]",
         "points": 0
       },
       {
@@ -332,10 +332,10 @@
         "points": 2.67
       }
     ],
-    "computedAt": "2026-08-21T19:53:01.430Z",
-    "priceUSD": 77146.7,
-    "priceEUR": 66043.7,
-    "change24h": 5.678673775225613
+    "computedAt": "2026-08-21T20:54:13.588Z",
+    "priceUSD": 77499.9,
+    "priceEUR": 66369.5,
+    "change24h": 6.162501438332517
   },
   "history": [
     {
@@ -1182,7 +1182,12 @@
       "t": "2026-08-21T19:53:01.432Z",
       "equityEUR": 176.18,
       "priceEUR": 66043.7
+    },
+    {
+      "t": "2026-08-21T20:54:13.591Z",
+      "equityEUR": 179.36,
+      "priceEUR": 66369.5
     }
   ],
-  "lastRun": "2026-08-21T19:53:01.432Z"
+  "lastRun": "2026-08-21T20:54:13.591Z"
 }
