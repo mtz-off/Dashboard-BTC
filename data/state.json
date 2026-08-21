@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 137.41,
-  "equityEUR": 183.22,
+  "equityEUR": 180.04,
   "stopped": false,
   "openPositions": [
     {
@@ -222,19 +222,19 @@
     }
   ],
   "lastSignal": {
-    "price": 78051.03967263995,
+    "price": 77754.79246626685,
     "direction": "LONG",
-    "score": 2.12,
-    "strength": 0.26,
+    "score": 3,
+    "strength": 0.38,
     "atr14": 1092.0718640097743,
     "indicators": {
-      "ema20": 74495.42070409344,
-      "ema50": 71535.63461445295,
-      "rsi14": 78.35753953009248,
-      "macdHist": 321.82343113374554,
-      "bbUpper": 78048.91077694923,
-      "bbMid": 74158.40903468849,
-      "bbLower": 70267.90729242776
+      "ema20": 74786.38713366711,
+      "ema50": 71770.61896711242,
+      "rsi14": 75.6046437554027,
+      "macdHist": 274.48985332968596,
+      "bbUpper": 78457.12583737574,
+      "bbMid": 74432.93681868297,
+      "bbLower": 70408.74779999019
     },
     "fearGreed": {
       "value": 72,
@@ -243,6 +243,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Nomura-backed Laser Digital wins Japan's first crypto approval in four years",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "Strategy sits on $1.4 billion profit on bitcoin holdings as price surges",
         "source": "CoinDesk",
@@ -277,33 +282,28 @@
         "title": "U.S. CFTC chief puts staff on notice to create crypto regulations if Clarity Act fails",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Iranian Hackers Tied to $6 Million Bitcoin Extortion Charged in Massive Cyber Campaign",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=74495 vs EMA50=71536",
+        "detail": "EMA20=74786 vs EMA50=71771",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "78.4",
+        "detail": "75.6",
         "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "321.8",
-        "points": 1.95
+        "detail": "274.5",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78051 vs [70268, 78049]",
-        "points": -1
+        "detail": "prix 77755 vs [70409, 78457]",
+        "points": 0
       },
       {
         "factor": "Fear & Greed Index",
@@ -312,14 +312,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 2",
-        "points": 0.67
+        "detail": "30 articles pertinents, score brut 3",
+        "points": 1
       }
     ],
-    "computedAt": "2026-08-21T09:55:42.345Z",
-    "priceUSD": 78034.8,
-    "priceEUR": 66695,
-    "change24h": 6.895229119521332
+    "computedAt": "2026-08-21T11:02:29.990Z",
+    "priceUSD": 77647,
+    "priceEUR": 66386.2,
+    "change24h": 6.364004975260684
   },
   "history": [
     {
@@ -1131,7 +1131,12 @@
       "t": "2026-08-21T09:55:42.347Z",
       "equityEUR": 183.22,
       "priceEUR": 66695
+    },
+    {
+      "t": "2026-08-21T11:02:29.992Z",
+      "equityEUR": 180.04,
+      "priceEUR": 66386.2
     }
   ],
-  "lastRun": "2026-08-21T09:55:42.347Z"
+  "lastRun": "2026-08-21T11:02:29.992Z"
 }
