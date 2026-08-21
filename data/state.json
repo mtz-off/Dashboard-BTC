@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 127.75,
-  "equityEUR": 170.33,
+  "equityEUR": 175.29,
   "stopped": false,
   "openPositions": [
     {
@@ -238,19 +238,19 @@
     }
   ],
   "lastSignal": {
-    "price": 76665.18118449222,
+    "price": 76969.84146662163,
     "direction": "LONG",
-    "score": 5,
-    "strength": 0.63,
-    "atr14": 1092.0718640097743,
+    "score": 2.22,
+    "strength": 0.28,
+    "atr14": 1232.115682835423,
     "indicators": {
-      "ema20": 74977.20237895452,
-      "ema50": 71968.75410924759,
-      "rsi14": 65.91025979601243,
-      "macdHist": 153.36998898542652,
-      "bbUpper": 78693.32457242324,
-      "bbMid": 74654.19938849841,
-      "bbLower": 70615.07420457358
+      "ema20": 75493.3939675769,
+      "ema50": 72528.48410704435,
+      "rsi14": 69.4335617314055,
+      "macdHist": -32.229208388474945,
+      "bbUpper": 79084.33878010638,
+      "bbMid": 75295.21118769051,
+      "bbLower": 71506.08359527464
     },
     "fearGreed": {
       "value": 72,
@@ -259,6 +259,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Laser Digital gets Japan’s first crypto exchange approval in 4 years",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
       {
         "title": "Analysts split on whether Bitcoin's surge past key levels signals a new bull run",
         "source": "CoinDesk",
@@ -293,32 +298,27 @@
         "title": "What&#39;s Next for Bitcoin After Historic Rally? Experts Weigh In",
         "source": "Decrypt",
         "itemScore": 1
-      },
-      {
-        "title": "U.S. CFTC chief puts staff on notice to create crypto regulations if Clarity Act fails",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=74977 vs EMA50=71969",
+        "detail": "EMA20=75493 vs EMA50=72528",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "65.9",
+        "detail": "69.4",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "153.4",
-        "points": 1.5
+        "detail": "-32.2",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 76665 vs [70615, 78693]",
+        "detail": "prix 76970 vs [71506, 79084]",
         "points": 0
       },
       {
@@ -328,14 +328,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 3",
-        "points": 1
+        "detail": "30 articles pertinents, score brut 5",
+        "points": 1.67
       }
     ],
-    "computedAt": "2026-08-21T12:02:48.752Z",
-    "priceUSD": 76575.6,
-    "priceEUR": 65443.8,
-    "change24h": 4.896357868089852
+    "computedAt": "2026-08-21T14:09:20.615Z",
+    "priceUSD": 76997.2,
+    "priceEUR": 65952.3,
+    "change24h": 5.473882621107599
   },
   "history": [
     {
@@ -1157,7 +1157,12 @@
       "t": "2026-08-21T12:02:48.755Z",
       "equityEUR": 170.33,
       "priceEUR": 65443.8
+    },
+    {
+      "t": "2026-08-21T14:09:20.618Z",
+      "equityEUR": 175.29,
+      "priceEUR": 65952.3
     }
   ],
-  "lastRun": "2026-08-21T12:02:48.755Z"
+  "lastRun": "2026-08-21T14:09:20.618Z"
 }
