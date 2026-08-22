@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 127.75,
-  "equityEUR": 184.72,
+  "equityEUR": 187.49,
   "stopped": false,
   "openPositions": [
     {
@@ -238,26 +238,29 @@
     }
   ],
   "lastSignal": {
-    "price": 78262.30047583352,
+    "price": 78630.24696110643,
     "direction": "LONG",
     "score": 3.33,
     "strength": 0.42,
-    "atr14": 1221.650963625027,
+    "atr14": 1256.4708424687487,
     "indicators": {
-      "ema20": 76834.47419346764,
-      "ema50": 74084.30164793234,
-      "rsi14": 69.83035993586547,
-      "macdHist": -102.89647652754184,
-      "bbUpper": 79041.86992388857,
-      "bbMid": 77154.41962107843,
-      "bbLower": 75266.96931826828
+      "ema20": 77177.45729343664,
+      "ema50": 74542.80060626745,
+      "rsi14": 69.85035819204089,
+      "macdHist": -128.33846486480024,
+      "bbUpper": 78803.0416782275,
+      "bbMid": 77569.244538287,
+      "bbLower": 76335.44739834651
     },
     "fearGreed": {
-      "value": 72,
+      "value": 71,
       "classification": "Greed",
-      "timestamp": 1787270400000
+      "timestamp": 1787356800000
     },
-    "fundingRate": null,
+    "fundingRate": {
+      "lastFundingRate": 0.0001,
+      "markPrice": 78591.6
+    },
     "newsHighlights": [
       {
         "title": "Coldcard Adds New Security Measures After $130 Million Bitcoin Exploit",
@@ -303,27 +306,32 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=76834 vs EMA50=74084",
+        "detail": "EMA20=77177 vs EMA50=74543",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "69.8",
+        "detail": "69.9",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-102.9",
+        "detail": "-128.3",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78262 vs [75267, 79042]",
+        "detail": "prix 78630 vs [76335, 78803]",
         "points": 0
       },
       {
         "factor": "Fear & Greed Index",
-        "detail": "72 (Greed)",
+        "detail": "71 (Greed)",
+        "points": 0
+      },
+      {
+        "factor": "Funding rate BTC perp",
+        "detail": "0.0100%",
         "points": 0
       },
       {
@@ -332,10 +340,10 @@
         "points": 2.33
       }
     ],
-    "computedAt": "2026-08-21T23:52:04.049Z",
-    "priceUSD": 78252.2,
-    "priceEUR": 66918,
-    "change24h": 7.193032443302302
+    "computedAt": "2026-08-22T03:08:24.605Z",
+    "priceUSD": 78597.9,
+    "priceEUR": 67202,
+    "change24h": 0.34496097804480036
   },
   "history": [
     {
@@ -1202,7 +1210,12 @@
       "t": "2026-08-21T23:52:04.052Z",
       "equityEUR": 184.72,
       "priceEUR": 66918
+    },
+    {
+      "t": "2026-08-22T03:08:24.608Z",
+      "equityEUR": 187.49,
+      "priceEUR": 67202
     }
   ],
-  "lastRun": "2026-08-21T23:52:04.052Z"
+  "lastRun": "2026-08-22T03:08:24.608Z"
 }
