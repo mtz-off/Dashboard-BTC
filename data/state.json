@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 127.75,
-  "equityEUR": 187.49,
+  "equityEUR": 186.98,
   "stopped": false,
   "openPositions": [
     {
@@ -238,29 +238,26 @@
     }
   ],
   "lastSignal": {
-    "price": 78630.24696110643,
+    "price": 78502.78949935532,
     "direction": "LONG",
     "score": 3.33,
     "strength": 0.42,
-    "atr14": 1256.4708424687487,
+    "atr14": 1240.6571107062357,
     "indicators": {
-      "ema20": 77177.45729343664,
-      "ema50": 74542.80060626745,
-      "rsi14": 69.85035819204089,
-      "macdHist": -128.33846486480024,
-      "bbUpper": 78803.0416782275,
-      "bbMid": 77569.244538287,
-      "bbLower": 76335.44739834651
+      "ema20": 77400.57595941325,
+      "ema50": 74839.76898189206,
+      "rsi14": 68.99818739260353,
+      "macdHist": -131.72155683857864,
+      "bbUpper": 78857.6488683217,
+      "bbMid": 77672.02195445605,
+      "bbLower": 76486.3950405904
     },
     "fearGreed": {
       "value": 71,
       "classification": "Greed",
       "timestamp": 1787356800000
     },
-    "fundingRate": {
-      "lastFundingRate": 0.0001,
-      "markPrice": 78591.6
-    },
+    "fundingRate": null,
     "newsHighlights": [
       {
         "title": "Coldcard Adds New Security Measures After $130 Million Bitcoin Exploit",
@@ -306,22 +303,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77177 vs EMA50=74543",
+        "detail": "EMA20=77401 vs EMA50=74840",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "69.9",
+        "detail": "69.0",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-128.3",
+        "detail": "-131.7",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78630 vs [76335, 78803]",
+        "detail": "prix 78503 vs [76486, 78858]",
         "points": 0
       },
       {
@@ -330,20 +327,15 @@
         "points": 0
       },
       {
-        "factor": "Funding rate BTC perp",
-        "detail": "0.0100%",
-        "points": 0
-      },
-      {
         "factor": "Sentiment news (RSS temps réel)",
         "detail": "30 articles pertinents, score brut 7",
         "points": 2.33
       }
     ],
-    "computedAt": "2026-08-22T03:08:24.605Z",
-    "priceUSD": 78597.9,
-    "priceEUR": 67202,
-    "change24h": 0.34496097804480036
+    "computedAt": "2026-08-22T04:57:05.517Z",
+    "priceUSD": 78503.5,
+    "priceEUR": 67150.3,
+    "change24h": 0.2244416726139066
   },
   "history": [
     {
@@ -1215,7 +1207,12 @@
       "t": "2026-08-22T03:08:24.608Z",
       "equityEUR": 187.49,
       "priceEUR": 67202
+    },
+    {
+      "t": "2026-08-22T04:57:05.519Z",
+      "equityEUR": 186.98,
+      "priceEUR": 67150.3
     }
   ],
-  "lastRun": "2026-08-22T03:08:24.608Z"
+  "lastRun": "2026-08-22T04:57:05.519Z"
 }
