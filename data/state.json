@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 127.75,
-  "equityEUR": 174.78,
+  "equityEUR": 174.94,
   "stopped": false,
   "openPositions": [
     {
@@ -238,19 +238,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77089.88139658775,
+    "price": 77217.73726656109,
     "direction": "LONG",
-    "score": 4.17,
-    "strength": 0.52,
+    "score": 4.5,
+    "strength": 0.56,
     "atr14": 1096.0126976566628,
     "indicators": {
-      "ema20": 76932.87377212099,
-      "ema50": 76409.01153616922,
-      "rsi14": 52.82762007414172,
-      "macdHist": 73.35740338071277,
-      "bbUpper": 77739.89665301693,
-      "bbMid": 76874.96384129657,
-      "bbLower": 76010.03102957622
+      "ema20": 76966.94632916548,
+      "ema50": 76443.8165956071,
+      "rsi14": 54.83232607440086,
+      "macdHist": 77.7113343197828,
+      "bbUpper": 77724.90785407819,
+      "bbMid": 76871.27140673055,
+      "bbLower": 76017.6349593829
     },
     "fearGreed": {
       "value": 66,
@@ -278,32 +278,27 @@
         "title": "Bitcoin rally sends crypto stocks soaring as miners, treasury companies jump",
         "source": "Cointelegraph",
         "itemScore": 2
-      },
-      {
-        "title": "Bitcoin Climbs Higher as $1.2 Billion in Shorts Liquidated",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=76933 vs EMA50=76409",
+        "detail": "EMA20=76967 vs EMA50=76444",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "52.8",
+        "detail": "54.8",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "73.4",
+        "detail": "77.7",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77090 vs [76010, 77740]",
+        "detail": "prix 77218 vs [76018, 77725]",
         "points": 0
       },
       {
@@ -313,14 +308,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "19 articles pertinents, score brut 2",
-        "points": 0.67
+        "detail": "21 articles pertinents, score brut 3",
+        "points": 1
       }
     ],
-    "computedAt": "2026-08-23T14:49:31.663Z",
-    "priceUSD": 77161.8,
-    "priceEUR": 65899.9,
-    "change24h": 0.10261705934017079
+    "computedAt": "2026-08-23T15:48:55.635Z",
+    "priceUSD": 77207.6,
+    "priceEUR": 65916.6,
+    "change24h": 0.16203376373688094
   },
   "history": [
     {
@@ -1342,7 +1337,12 @@
       "t": "2026-08-23T14:49:31.664Z",
       "equityEUR": 174.78,
       "priceEUR": 65899.9
+    },
+    {
+      "t": "2026-08-23T15:48:55.638Z",
+      "equityEUR": 174.94,
+      "priceEUR": 65916.6
     }
   ],
-  "lastRun": "2026-08-23T14:49:31.664Z"
+  "lastRun": "2026-08-23T15:48:55.638Z"
 }
