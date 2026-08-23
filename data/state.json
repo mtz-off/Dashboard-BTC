@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 127.75,
-  "equityEUR": 178.05,
+  "equityEUR": 179.87,
   "stopped": false,
   "openPositions": [
     {
@@ -238,19 +238,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77407.1384149272,
+    "price": 77643.51801631325,
     "direction": "LONG",
-    "score": 3.67,
-    "strength": 0.46,
+    "score": 4.45,
+    "strength": 0.56,
     "atr14": 1013.052756800439,
     "indicators": {
-      "ema20": 77115.81766692562,
-      "ema50": 76607.2439040933,
-      "rsi14": 56.907285069735046,
-      "macdHist": 59.99255464791638,
-      "bbUpper": 77886.40027220637,
-      "bbMid": 76941.25524339406,
-      "bbLower": 75996.11021458174
+      "ema20": 77159.55615172783,
+      "ema50": 76644.38595672119,
+      "rsi14": 61.35371497371472,
+      "macdHist": 70.24411296674313,
+      "bbUpper": 77939.96608792973,
+      "bbMid": 76959.41490820426,
+      "bbLower": 75978.86372847878
     },
     "fearGreed": {
       "value": 66,
@@ -268,32 +268,27 @@
         "title": "How a Treasury buyback tweak helped bitcoin surge 25% to nearly $80,000 in days",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Coldcard Adds New Security Measures After $130 Million Bitcoin Exploit",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77116 vs EMA50=76607",
+        "detail": "EMA20=77160 vs EMA50=76644",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "56.9",
+        "detail": "61.4",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "60.0",
-        "points": 1.5
+        "detail": "70.2",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77407 vs [75996, 77886]",
+        "detail": "prix 77644 vs [75979, 77940]",
         "points": 0
       },
       {
@@ -303,14 +298,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "11 articles pertinents, score brut -1",
-        "points": -0.33
+        "detail": "10 articles pertinents, score brut 0",
+        "points": 0
       }
     ],
-    "computedAt": "2026-08-23T20:52:01.597Z",
-    "priceUSD": 77416.5,
-    "priceEUR": 66235.3,
-    "change24h": 0.43304139579958006
+    "computedAt": "2026-08-23T21:44:01.841Z",
+    "priceUSD": 77584.8,
+    "priceEUR": 66421.2,
+    "change24h": 0.6513783248381361
   },
   "history": [
     {
@@ -1362,7 +1357,12 @@
       "t": "2026-08-23T20:52:01.599Z",
       "equityEUR": 178.05,
       "priceEUR": 66235.3
+    },
+    {
+      "t": "2026-08-23T21:44:01.843Z",
+      "equityEUR": 179.87,
+      "priceEUR": 66421.2
     }
   ],
-  "lastRun": "2026-08-23T20:52:01.599Z"
+  "lastRun": "2026-08-23T21:44:01.843Z"
 }
