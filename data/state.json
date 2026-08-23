@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 127.75,
-  "equityEUR": 177.7,
+  "equityEUR": 178.05,
   "stopped": false,
   "openPositions": [
     {
@@ -238,19 +238,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77403.34652917739,
+    "price": 77407.1384149272,
     "direction": "LONG",
-    "score": 4,
-    "strength": 0.5,
-    "atr14": 1066.9029032881235,
+    "score": 3.67,
+    "strength": 0.46,
+    "atr14": 1013.052756800439,
     "indicators": {
-      "ema20": 77089.59553262495,
-      "ema50": 76576.14082343347,
-      "rsi14": 56.6853558551672,
-      "macdHist": 67.52362625533408,
-      "bbUpper": 77870.24900219114,
-      "bbMid": 76934.39864208028,
-      "bbLower": 75998.54828196943
+      "ema20": 77115.81766692562,
+      "ema50": 76607.2439040933,
+      "rsi14": 56.907285069735046,
+      "macdHist": 59.99255464791638,
+      "bbUpper": 77886.40027220637,
+      "bbMid": 76941.25524339406,
+      "bbLower": 75996.11021458174
     },
     "fearGreed": {
       "value": 66,
@@ -273,32 +273,27 @@
         "title": "Coldcard Adds New Security Measures After $130 Million Bitcoin Exploit",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "Wall Street and Washington Fuel Bitcoin Rally: Here&#39;s What&#39;s Going On",
-        "source": "Decrypt",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77090 vs EMA50=76576",
+        "detail": "EMA20=77116 vs EMA50=76607",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "56.7",
+        "detail": "56.9",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "67.5",
+        "detail": "60.0",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77403 vs [75999, 77870]",
+        "detail": "prix 77407 vs [75996, 77886]",
         "points": 0
       },
       {
@@ -308,14 +303,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "15 articles pertinents, score brut 0",
-        "points": 0
+        "detail": "11 articles pertinents, score brut -1",
+        "points": -0.33
       }
     ],
-    "computedAt": "2026-08-23T19:50:29.846Z",
-    "priceUSD": 77400.1,
-    "priceEUR": 66199.1,
-    "change24h": 0.4117655453169242
+    "computedAt": "2026-08-23T20:52:01.597Z",
+    "priceUSD": 77416.5,
+    "priceEUR": 66235.3,
+    "change24h": 0.43304139579958006
   },
   "history": [
     {
@@ -1362,7 +1357,12 @@
       "t": "2026-08-23T19:50:29.848Z",
       "equityEUR": 177.7,
       "priceEUR": 66199.1
+    },
+    {
+      "t": "2026-08-23T20:52:01.599Z",
+      "equityEUR": 178.05,
+      "priceEUR": 66235.3
     }
   ],
-  "lastRun": "2026-08-23T19:50:29.848Z"
+  "lastRun": "2026-08-23T20:52:01.599Z"
 }
