@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 127.75,
-  "equityEUR": 169.94,
+  "equityEUR": 171.54,
   "stopped": false,
   "openPositions": [
     {
@@ -238,19 +238,19 @@
     }
   ],
   "lastSignal": {
-    "price": 76573.44720772545,
+    "price": 76807.91283806288,
     "direction": "LONG",
-    "score": 2.5,
-    "strength": 0.31,
+    "score": 2.17,
+    "strength": 0.27,
     "atr14": 1074.6053179907008,
     "indicators": {
-      "ema20": 76763.13029095808,
-      "ema50": 76236.34704179413,
-      "rsi14": 46.11128810194104,
-      "macdHist": -95.1507955768252,
-      "bbUpper": 77722.29770656444,
-      "bbMid": 76871.38724626016,
-      "bbLower": 76020.47678595588
+      "ema20": 76763.34558268536,
+      "ema50": 76256.79888535313,
+      "rsi14": 50.324235064343156,
+      "macdHist": -52.812049673198544,
+      "bbUpper": 77712.91317980377,
+      "bbMid": 76857.59318747258,
+      "bbLower": 76002.27319514139
     },
     "fearGreed": {
       "value": 66,
@@ -293,32 +293,27 @@
         "title": "Analysts split on whether Bitcoin's surge past key levels signals a new bull run",
         "source": "CoinDesk",
         "itemScore": 2
-      },
-      {
-        "title": "Nomura-backed Laser Digital wins Japan's first crypto approval in four years",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=76763 vs EMA50=76236",
+        "detail": "EMA20=76763 vs EMA50=76257",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "46.1",
+        "detail": "50.3",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-95.2",
+        "detail": "-52.8",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 76573 vs [76020, 77722]",
+        "detail": "prix 76808 vs [76002, 77713]",
         "points": 0
       },
       {
@@ -328,14 +323,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "29 articles pertinents, score brut 6",
-        "points": 2
+        "detail": "27 articles pertinents, score brut 5",
+        "points": 1.67
       }
     ],
-    "computedAt": "2026-08-23T09:59:04.181Z",
-    "priceUSD": 76573.1,
-    "priceEUR": 65403.7,
-    "change24h": -0.6611081345100668
+    "computedAt": "2026-08-23T10:55:34.615Z",
+    "priceUSD": 76819.2,
+    "priceEUR": 65567.9,
+    "change24h": -0.3418406464745008
   },
   "history": [
     {
@@ -1337,7 +1332,12 @@
       "t": "2026-08-23T09:59:04.183Z",
       "equityEUR": 169.94,
       "priceEUR": 65403.7
+    },
+    {
+      "t": "2026-08-23T10:55:34.617Z",
+      "equityEUR": 171.54,
+      "priceEUR": 65567.9
     }
   ],
-  "lastRun": "2026-08-23T09:59:04.183Z"
+  "lastRun": "2026-08-23T10:55:34.617Z"
 }
