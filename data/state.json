@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 127.75,
-  "equityEUR": 175.54,
+  "equityEUR": 177.61,
   "stopped": false,
   "openPositions": [
     {
@@ -238,19 +238,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77283.2610425516,
+    "price": 77500.93889845209,
     "direction": "LONG",
-    "score": 5.45,
-    "strength": 0.68,
-    "atr14": 1074.6053179907008,
+    "score": 5.12,
+    "strength": 0.64,
+    "atr14": 1096.0126976566628,
     "indicators": {
-      "ema20": 76808.4242607496,
-      "ema50": 76294.89912774254,
-      "rsi14": 57.547302057313935,
-      "macdHist": 8.056585704454207,
-      "bbUpper": 77749.38789713453,
-      "bbMid": 76869.36800340246,
-      "bbLower": 75989.34810967039
+      "ema20": 76916.22802358128,
+      "ema50": 76380.7935135999,
+      "rsi14": 59.89721435643622,
+      "macdHist": 80.73409690654265,
+      "bbUpper": 77767.97747655112,
+      "bbMid": 76882.6736040705,
+      "bbLower": 75997.36973158988
     },
     "fearGreed": {
       "value": 66,
@@ -283,32 +283,27 @@
         "title": "Bitcoin Climbs Higher as $1.2 Billion in Shorts Liquidated",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "Laser Digital gets Japan’s first crypto exchange approval in 4 years",
-        "source": "Cointelegraph",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=76808 vs EMA50=76295",
+        "detail": "EMA20=76916 vs EMA50=76381",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "57.5",
+        "detail": "59.9",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "8.1",
+        "detail": "80.7",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77283 vs [75989, 77749]",
+        "detail": "prix 77501 vs [75997, 77768]",
         "points": 0
       },
       {
@@ -318,14 +313,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "23 articles pertinents, score brut 3",
-        "points": 1
+        "detail": "20 articles pertinents, score brut 2",
+        "points": 0.67
       }
     ],
-    "computedAt": "2026-08-23T11:45:24.783Z",
-    "priceUSD": 77265.1,
-    "priceEUR": 65977.8,
-    "change24h": 0.23662897122182894
+    "computedAt": "2026-08-23T13:45:06.932Z",
+    "priceUSD": 77516.9,
+    "priceEUR": 66190.1,
+    "change24h": 0.563291114608073
   },
   "history": [
     {
@@ -1337,7 +1332,12 @@
       "t": "2026-08-23T11:45:24.784Z",
       "equityEUR": 175.54,
       "priceEUR": 65977.8
+    },
+    {
+      "t": "2026-08-23T13:45:06.935Z",
+      "equityEUR": 177.61,
+      "priceEUR": 66190.1
     }
   ],
-  "lastRun": "2026-08-23T11:45:24.784Z"
+  "lastRun": "2026-08-23T13:45:06.935Z"
 }
