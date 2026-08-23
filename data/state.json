@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 127.75,
-  "equityEUR": 176.02,
+  "equityEUR": 176.5,
   "stopped": false,
   "openPositions": [
     {
@@ -238,19 +238,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77239.91637102254,
+    "price": 77322.73788562005,
     "direction": "LONG",
-    "score": 3.83,
-    "strength": 0.48,
+    "score": 4,
+    "strength": 0.5,
     "atr14": 1066.9029032881235,
     "indicators": {
-      "ema20": 77024.25985746598,
-      "ema50": 76507.87374415566,
-      "rsi14": 54.64057110500482,
-      "macdHist": 75.80917216991361,
-      "bbUpper": 77784.27898510559,
-      "bbMid": 76899.81974056129,
-      "bbLower": 76015.36049601699
+      "ema20": 77054.47063365809,
+      "ema50": 76541.31739816017,
+      "rsi14": 55.47699560990344,
+      "macdHist": 68.6190991861321,
+      "bbUpper": 77831.16782125534,
+      "bbMid": 76918.12921836255,
+      "bbLower": 76005.09061546976
     },
     "fearGreed": {
       "value": 66,
@@ -259,6 +259,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Regulation Crypto is here: State of Crypto",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "How a Treasury buyback tweak helped bitcoin surge 25% to nearly $80,000 in days",
         "source": "CoinDesk",
@@ -278,22 +283,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77024 vs EMA50=76508",
+        "detail": "EMA20=77054 vs EMA50=76541",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "54.6",
-        "points": 0
+        "detail": "55.5",
+        "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "75.8",
+        "detail": "68.6",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77240 vs [76015, 77784]",
+        "detail": "prix 77323 vs [76005, 77831]",
         "points": 0
       },
       {
@@ -303,14 +308,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "17 articles pertinents, score brut 1",
-        "points": 0.33
+        "detail": "17 articles pertinents, score brut 0",
+        "points": 0
       }
     ],
-    "computedAt": "2026-08-23T17:46:17.201Z",
-    "priceUSD": 77308,
-    "priceEUR": 66026.7,
-    "change24h": 0.2922834825453739
+    "computedAt": "2026-08-23T19:01:49.257Z",
+    "priceUSD": 77338.4,
+    "priceEUR": 66075.6,
+    "change24h": 0.33172164441566926
   },
   "history": [
     {
@@ -1347,7 +1352,12 @@
       "t": "2026-08-23T17:46:17.203Z",
       "equityEUR": 176.02,
       "priceEUR": 66026.7
+    },
+    {
+      "t": "2026-08-23T19:01:49.259Z",
+      "equityEUR": 176.5,
+      "priceEUR": 66075.6
     }
   ],
-  "lastRun": "2026-08-23T17:46:17.203Z"
+  "lastRun": "2026-08-23T19:01:49.259Z"
 }
