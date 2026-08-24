@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 127.75,
-  "equityEUR": 175.89,
+  "equityEUR": 175.12,
   "stopped": false,
   "openPositions": [
     {
@@ -238,19 +238,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77032.55846631764,
+    "price": 76974.9410027517,
     "direction": "LONG",
-    "score": 0.72,
-    "strength": 0.09,
-    "atr14": 984.7319123073072,
+    "score": 0.38,
+    "strength": 0.05,
+    "atr14": 988.9053748121922,
     "indicators": {
-      "ema20": 77188.67285954925,
-      "ema50": 76810.03152131126,
-      "rsi14": 47.975070079584555,
-      "macdHist": -59.97887510744397,
-      "bbUpper": 77808.61929797212,
-      "bbMid": 77279.61006179293,
-      "bbLower": 76750.60082561374
+      "ema20": 77203.18735208808,
+      "ema50": 76859.96977759889,
+      "rsi14": 46.8502498843721,
+      "macdHist": -39.00635549882972,
+      "bbUpper": 77791.88690057094,
+      "bbMid": 77306.73240007812,
+      "bbLower": 76821.5778995853
     },
     "fearGreed": {
       "value": 73,
@@ -259,6 +259,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Live updates: Bitcoin holds $77,000 as XRP, Zcash pull back after a big weekly rally",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Banks, regulators join quantum-resistant crypto transfer pilot",
+        "source": "Cointelegraph",
+        "itemScore": -2
+      },
       {
         "title": "Bessent's $4 billion bond buyback wanted lower yields. It got a bitcoin surge instead.",
         "source": "CoinDesk",
@@ -283,22 +293,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77189 vs EMA50=76810",
+        "detail": "EMA20=77203 vs EMA50=76860",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "48.0",
+        "detail": "46.9",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-60.0",
+        "detail": "-39.0",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77033 vs [76751, 77809]",
+        "detail": "prix 76975 vs [76822, 77792]",
         "points": 0
       },
       {
@@ -308,14 +318,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "12 articles pertinents, score brut 2",
-        "points": 0.67
+        "detail": "17 articles pertinents, score brut 1",
+        "points": 0.33
       }
     ],
-    "computedAt": "2026-08-24T05:55:26.609Z",
-    "priceUSD": 77134.6,
-    "priceEUR": 66013.8,
-    "change24h": -0.7753034900877662
+    "computedAt": "2026-08-24T08:26:51.281Z",
+    "priceUSD": 76924.2,
+    "priceEUR": 65934.2,
+    "change24h": -1.0459586324711636
   },
   "history": [
     {
@@ -1397,7 +1407,12 @@
       "t": "2026-08-24T05:55:26.611Z",
       "equityEUR": 175.89,
       "priceEUR": 66013.8
+    },
+    {
+      "t": "2026-08-24T08:26:51.283Z",
+      "equityEUR": 175.12,
+      "priceEUR": 65934.2
     }
   ],
-  "lastRun": "2026-08-24T05:55:26.611Z"
+  "lastRun": "2026-08-24T08:26:51.283Z"
 }
