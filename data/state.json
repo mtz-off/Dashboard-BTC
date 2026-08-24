@@ -5,25 +5,25 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 127.75,
-  "equityEUR": 186.31,
+  "balanceEUR": 144.79,
+  "equityEUR": 193.05,
   "stopped": false,
   "openPositions": [
     {
-      "id": "28337471-ad65-4a9f-88cc-ec25a9462174",
+      "id": "1ae48e5c-f9a5-46fd-924e-26c5ae6452bb",
       "side": "LONG",
-      "entryPrice": 65443.8,
-      "entryTime": "2026-08-21T12:02:48.755Z",
-      "sizeEUR": 42.58,
-      "notionalEUR": 638.7,
+      "entryPrice": 67771.7,
+      "entryTime": "2026-08-24T14:25:54.133Z",
+      "sizeEUR": 48.26,
+      "notionalEUR": 723.9,
       "leverage": 15,
-      "qtyBTC": 0.00975952,
-      "sl": 64325.13,
-      "tp": 67681.14,
-      "slPct": 1.71,
-      "tpPct": 3.42,
-      "signalScore": 5,
-      "signalStrength": 0.63,
+      "qtyBTC": 0.01068145,
+      "sl": 66705.49,
+      "tp": 69904.11,
+      "slPct": 1.57,
+      "tpPct": 3.15,
+      "signalScore": 4.78,
+      "signalStrength": 0.6,
       "status": "OPEN"
     }
   ],
@@ -235,22 +235,38 @@
       "pnlPct": -1.88,
       "reason": "SL",
       "status": "CLOSED"
+    },
+    {
+      "id": "28337471-ad65-4a9f-88cc-ec25a9462174",
+      "side": "LONG",
+      "entryPrice": 65443.8,
+      "entryTime": "2026-08-21T12:02:48.755Z",
+      "exitPrice": 67771.7,
+      "exitTime": "2026-08-24T14:25:54.133Z",
+      "sizeEUR": 42.58,
+      "notionalEUR": 638.7,
+      "leverage": 15,
+      "qtyBTC": 0.00975952,
+      "pnlEUR": 22.72,
+      "pnlPct": 3.56,
+      "reason": "TP",
+      "status": "CLOSED"
     }
   ],
   "lastSignal": {
-    "price": 78339.43285540976,
+    "price": 79231.62753923173,
     "direction": "LONG",
-    "score": 4.12,
-    "strength": 0.51,
-    "atr14": 988.9053748121922,
+    "score": 4.78,
+    "strength": 0.6,
+    "atr14": 1038.749087645705,
     "indicators": {
-      "ema20": 77375.92596536427,
-      "ema50": 76972.90324352159,
-      "rsi14": 64.10503053113919,
-      "macdHist": 66.93127119702865,
-      "bbUpper": 78032.55841446223,
-      "bbMid": 77386.47945530059,
-      "bbLower": 76740.40049613896
+      "ema20": 77798.21524657431,
+      "ema50": 77203.09860796291,
+      "rsi14": 67.30963011373893,
+      "macdHist": 193.12116770455822,
+      "bbUpper": 78951.65184183186,
+      "bbMid": 77645.65889226677,
+      "bbLower": 76339.66594270169
     },
     "fearGreed": {
       "value": 73,
@@ -259,6 +275,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitget CEO isn’t buying the Bitcoin rally — She’s waiting for $50K",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
+        "title": "Morning Minute: Saylor’s Strategy Back in Green As BTC Soars to $78k",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
       {
         "title": "First bear-market trend line reclaim since 2025: Five things to know in Bitcoin this week",
         "source": "Cointelegraph",
@@ -288,37 +314,27 @@
         "title": "Crypto holds big weekly rally as Warsh’s Jackson Hole debut comes into focus",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "We are so back! Bitcoin’s 23% rally on US debt policy: Hodler’s Digest",
-        "source": "Cointelegraph",
-        "itemScore": 1
-      },
-      {
-        "title": "Regulation Crypto is here: State of Crypto",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77376 vs EMA50=76973",
+        "detail": "EMA20=77798 vs EMA50=77203",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "64.1",
+        "detail": "67.3",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "66.9",
+        "detail": "193.1",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78339 vs [76740, 78033]",
+        "detail": "prix 79232 vs [76340, 78952]",
         "points": -1
       },
       {
@@ -328,14 +344,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "25 articles pertinents, score brut 2",
-        "points": 0.67
+        "detail": "30 articles pertinents, score brut 4",
+        "points": 1.33
       }
     ],
-    "computedAt": "2026-08-24T11:48:50.968Z",
-    "priceUSD": 78267.7,
-    "priceEUR": 67080.9,
-    "change24h": 0.6822979444873879
+    "computedAt": "2026-08-24T14:25:54.131Z",
+    "priceUSD": 79114.2,
+    "priceEUR": 67771.7,
+    "change24h": 1.7712217944281499
   },
   "history": [
     {
@@ -1432,7 +1448,12 @@
       "t": "2026-08-24T11:48:50.971Z",
       "equityEUR": 186.31,
       "priceEUR": 67080.9
+    },
+    {
+      "t": "2026-08-24T14:25:54.133Z",
+      "equityEUR": 193.05,
+      "priceEUR": 67771.7
     }
   ],
-  "lastRun": "2026-08-24T11:48:50.971Z"
+  "lastRun": "2026-08-24T14:25:54.133Z"
 }
