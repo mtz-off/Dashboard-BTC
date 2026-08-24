@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 127.75,
-  "equityEUR": 175.12,
+  "equityEUR": 182.49,
   "stopped": false,
   "openPositions": [
     {
@@ -238,19 +238,19 @@
     }
   ],
   "lastSignal": {
-    "price": 76974.9410027517,
+    "price": 77798.96509679776,
     "direction": "LONG",
-    "score": 0.38,
-    "strength": 0.05,
+    "score": 5.45,
+    "strength": 0.68,
     "atr14": 988.9053748121922,
     "indicators": {
-      "ema20": 77203.18735208808,
-      "ema50": 76859.96977759889,
-      "rsi14": 46.8502498843721,
-      "macdHist": -39.00635549882972,
-      "bbUpper": 77791.88690057094,
-      "bbMid": 77306.73240007812,
-      "bbLower": 76821.5778995853
+      "ema20": 77266.39311315317,
+      "ema50": 76899.99517537991,
+      "rsi14": 57.96249475545785,
+      "macdHist": 5.414896150246861,
+      "bbUpper": 77828.08049012495,
+      "bbMid": 77322.84899929246,
+      "bbLower": 76817.61750845997
     },
     "fearGreed": {
       "value": 73,
@@ -259,6 +259,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin ETF inflows hit $1.9B in strongest week since October 2025",
+        "source": "Cointelegraph",
+        "itemScore": 2
+      },
       {
         "title": "Live updates: Bitcoin holds $77,000 as XRP, Zcash pull back after a big weekly rally",
         "source": "CoinDesk",
@@ -293,22 +298,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77203 vs EMA50=76860",
+        "detail": "EMA20=77266 vs EMA50=76900",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "46.9",
-        "points": 0
+        "detail": "58.0",
+        "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-39.0",
-        "points": -1.95
+        "detail": "5.4",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 76975 vs [76822, 77792]",
+        "detail": "prix 77799 vs [76818, 77828]",
         "points": 0
       },
       {
@@ -318,14 +323,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "17 articles pertinents, score brut 1",
-        "points": 0.33
+        "detail": "20 articles pertinents, score brut 3",
+        "points": 1
       }
     ],
-    "computedAt": "2026-08-24T08:26:51.281Z",
-    "priceUSD": 76924.2,
-    "priceEUR": 65934.2,
-    "change24h": -1.0459586324711636
+    "computedAt": "2026-08-24T10:23:34.474Z",
+    "priceUSD": 77814.6,
+    "priceEUR": 66690.1,
+    "change24h": 0.09943746438325347
   },
   "history": [
     {
@@ -1412,7 +1417,12 @@
       "t": "2026-08-24T08:26:51.283Z",
       "equityEUR": 175.12,
       "priceEUR": 65934.2
+    },
+    {
+      "t": "2026-08-24T10:23:34.476Z",
+      "equityEUR": 182.49,
+      "priceEUR": 66690.1
     }
   ],
-  "lastRun": "2026-08-24T08:26:51.283Z"
+  "lastRun": "2026-08-24T10:23:34.476Z"
 }
