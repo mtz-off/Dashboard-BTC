@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 144.79,
-  "equityEUR": 193.05,
+  "equityEUR": 196.32,
   "stopped": false,
   "openPositions": [
     {
@@ -254,19 +254,19 @@
     }
   ],
   "lastSignal": {
-    "price": 79231.62753923173,
+    "price": 79279.36947676852,
     "direction": "LONG",
-    "score": 4.78,
-    "strength": 0.6,
-    "atr14": 1038.749087645705,
+    "score": 5.78,
+    "strength": 0.72,
+    "atr14": 1088.5010532711308,
     "indicators": {
-      "ema20": 77798.21524657431,
-      "ema50": 77203.09860796291,
-      "rsi14": 67.30963011373893,
-      "macdHist": 193.12116770455822,
-      "bbUpper": 78951.65184183186,
-      "bbMid": 77645.65889226677,
-      "bbLower": 76339.66594270169
+      "ema20": 77952.9486286677,
+      "ema50": 77289.80728916239,
+      "rsi14": 65.9148981286906,
+      "macdHist": 216.34306819584992,
+      "bbUpper": 79276.824750157,
+      "bbMid": 77751.97770152148,
+      "bbLower": 76227.13065288596
     },
     "fearGreed": {
       "value": 73,
@@ -275,6 +275,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitmine Buys Another $81M in Ethereum as ETH Outperforms Bitcoin",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
       {
         "title": "Bitget CEO isn’t buying the Bitcoin rally — She’s waiting for $50K",
         "source": "Cointelegraph",
@@ -301,40 +306,35 @@
         "itemScore": 2
       },
       {
+        "title": "Live updates: Bitcoin moves closer to $80,000, but rally could need a breather",
+        "source": "CoinDesk",
+        "itemScore": 2
+      },
+      {
         "title": "Banks, regulators join quantum-resistant crypto transfer pilot",
         "source": "Cointelegraph",
         "itemScore": -2
-      },
-      {
-        "title": "Bessent's $4 billion bond buyback wanted lower yields. It got a bitcoin surge instead.",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "Crypto holds big weekly rally as Warsh’s Jackson Hole debut comes into focus",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77798 vs EMA50=77203",
+        "detail": "EMA20=77953 vs EMA50=77290",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "67.3",
+        "detail": "65.9",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "193.1",
+        "detail": "216.3",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 79232 vs [76340, 78952]",
+        "detail": "prix 79279 vs [76227, 79277]",
         "points": -1
       },
       {
@@ -344,14 +344,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 4",
-        "points": 1.33
+        "detail": "30 articles pertinents, score brut 7",
+        "points": 2.33
       }
     ],
-    "computedAt": "2026-08-24T14:25:54.131Z",
-    "priceUSD": 79114.2,
-    "priceEUR": 67771.7,
-    "change24h": 1.7712217944281499
+    "computedAt": "2026-08-24T16:06:56.709Z",
+    "priceUSD": 79433.5,
+    "priceEUR": 68078.2,
+    "change24h": 2.1819641279025603
   },
   "history": [
     {
@@ -1453,7 +1453,12 @@
       "t": "2026-08-24T14:25:54.133Z",
       "equityEUR": 193.05,
       "priceEUR": 67771.7
+    },
+    {
+      "t": "2026-08-24T16:06:56.712Z",
+      "equityEUR": 196.32,
+      "priceEUR": 68078.2
     }
   ],
-  "lastRun": "2026-08-24T14:25:54.133Z"
+  "lastRun": "2026-08-24T16:06:56.712Z"
 }
