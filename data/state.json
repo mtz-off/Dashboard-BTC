@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 127.75,
-  "equityEUR": 182.49,
+  "equityEUR": 186.31,
   "stopped": false,
   "openPositions": [
     {
@@ -238,19 +238,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77798.96509679776,
+    "price": 78339.43285540976,
     "direction": "LONG",
-    "score": 5.45,
-    "strength": 0.68,
+    "score": 4.12,
+    "strength": 0.51,
     "atr14": 988.9053748121922,
     "indicators": {
-      "ema20": 77266.39311315317,
-      "ema50": 76899.99517537991,
-      "rsi14": 57.96249475545785,
-      "macdHist": 5.414896150246861,
-      "bbUpper": 77828.08049012495,
-      "bbMid": 77322.84899929246,
-      "bbLower": 76817.61750845997
+      "ema20": 77375.92596536427,
+      "ema50": 76972.90324352159,
+      "rsi14": 64.10503053113919,
+      "macdHist": 66.93127119702865,
+      "bbUpper": 78032.55841446223,
+      "bbMid": 77386.47945530059,
+      "bbLower": 76740.40049613896
     },
     "fearGreed": {
       "value": 73,
@@ -260,14 +260,19 @@
     "fundingRate": null,
     "newsHighlights": [
       {
+        "title": "First bear-market trend line reclaim since 2025: Five things to know in Bitcoin this week",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Financial repression: The new buzzword for bitcoin bulls",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
         "title": "Bitcoin ETF inflows hit $1.9B in strongest week since October 2025",
         "source": "Cointelegraph",
         "itemScore": 2
-      },
-      {
-        "title": "Live updates: Bitcoin holds $77,000 as XRP, Zcash pull back after a big weekly rally",
-        "source": "CoinDesk",
-        "itemScore": 1
       },
       {
         "title": "Banks, regulators join quantum-resistant crypto transfer pilot",
@@ -298,23 +303,23 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77266 vs EMA50=76900",
+        "detail": "EMA20=77376 vs EMA50=76973",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "58.0",
+        "detail": "64.1",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "5.4",
+        "detail": "66.9",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77799 vs [76818, 77828]",
-        "points": 0
+        "detail": "prix 78339 vs [76740, 78033]",
+        "points": -1
       },
       {
         "factor": "Fear & Greed Index",
@@ -323,14 +328,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "20 articles pertinents, score brut 3",
-        "points": 1
+        "detail": "25 articles pertinents, score brut 2",
+        "points": 0.67
       }
     ],
-    "computedAt": "2026-08-24T10:23:34.474Z",
-    "priceUSD": 77814.6,
-    "priceEUR": 66690.1,
-    "change24h": 0.09943746438325347
+    "computedAt": "2026-08-24T11:48:50.968Z",
+    "priceUSD": 78267.7,
+    "priceEUR": 67080.9,
+    "change24h": 0.6822979444873879
   },
   "history": [
     {
@@ -1422,7 +1427,12 @@
       "t": "2026-08-24T10:23:34.476Z",
       "equityEUR": 182.49,
       "priceEUR": 66690.1
+    },
+    {
+      "t": "2026-08-24T11:48:50.971Z",
+      "equityEUR": 186.31,
+      "priceEUR": 67080.9
     }
   ],
-  "lastRun": "2026-08-24T10:23:34.476Z"
+  "lastRun": "2026-08-24T11:48:50.971Z"
 }
