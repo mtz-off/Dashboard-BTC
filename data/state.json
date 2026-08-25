@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 144.79,
-  "equityEUR": 199.5,
+  "equityEUR": 194.07,
   "stopped": false,
   "openPositions": [
     {
@@ -254,19 +254,19 @@
     }
   ],
   "lastSignal": {
-    "price": 79717.99567054372,
+    "price": 79087.80390471,
     "direction": "LONG",
-    "score": 7,
-    "strength": 0.88,
-    "atr14": 1166.8491542931554,
+    "score": 2.38,
+    "strength": 0.3,
+    "atr14": 1179.4232517919042,
     "indicators": {
-      "ema20": 79447.68923815523,
-      "ema50": 78411.88982821566,
-      "rsi14": 56.12366088834411,
-      "macdHist": 38.37832549507311,
-      "bbUpper": 80902.05129035952,
-      "bbMid": 79462.94790775626,
-      "bbLower": 78023.84452515299
+      "ema20": 79461.14920069058,
+      "ema50": 78499.39231022174,
+      "rsi14": 48.78338768167136,
+      "macdHist": -91.76821284334324,
+      "bbUpper": 80960.53806678002,
+      "bbMid": 79527.92010827835,
+      "bbLower": 78095.30214977669
     },
     "fearGreed": {
       "value": 74,
@@ -276,7 +276,12 @@
     "fundingRate": null,
     "newsHighlights": [
       {
-        "title": "Live updates: Bitcoin ETFs draw a seventh straight day of inflows as the rally holds above $80,000",
+        "title": "Galaxy puts Coldcard hack losses at 1,789 BTC, with 87% unmoved",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Live updates: Bitcoin ETFs draw a sixth straight day of inflows as the rally holds above $80,000",
         "source": "CoinDesk",
         "itemScore": 2
       },
@@ -309,32 +314,27 @@
         "title": "Why the Bitcoin Rally Looks Like a Vote Against the Dollar",
         "source": "Decrypt",
         "itemScore": 1
-      },
-      {
-        "title": "Bitcoin price hits $80K as 24-hour crypto short liquidations pass $220M",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=79448 vs EMA50=78412",
+        "detail": "EMA20=79461 vs EMA50=78499",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "56.1",
-        "points": 0.5
+        "detail": "48.8",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "38.4",
-        "points": 1.5
+        "detail": "-91.8",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 79718 vs [78024, 80902]",
+        "detail": "prix 79088 vs [78095, 80961]",
         "points": 0
       },
       {
@@ -344,14 +344,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 9",
-        "points": 3
+        "detail": "30 articles pertinents, score brut 7",
+        "points": 2.33
       }
     ],
-    "computedAt": "2026-08-25T08:00:52.109Z",
-    "priceUSD": 79716,
-    "priceEUR": 68376,
-    "change24h": 0.9496480135146526
+    "computedAt": "2026-08-25T09:59:54.154Z",
+    "priceUSD": 79160.1,
+    "priceEUR": 67867.4,
+    "change24h": 0.24567504283483668
   },
   "history": [
     {
@@ -1503,7 +1503,12 @@
       "t": "2026-08-25T08:00:52.111Z",
       "equityEUR": 199.5,
       "priceEUR": 68376
+    },
+    {
+      "t": "2026-08-25T09:59:54.158Z",
+      "equityEUR": 194.07,
+      "priceEUR": 67867.4
     }
   ],
-  "lastRun": "2026-08-25T08:00:52.111Z"
+  "lastRun": "2026-08-25T09:59:54.158Z"
 }
