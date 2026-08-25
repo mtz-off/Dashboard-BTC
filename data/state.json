@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 144.79,
-  "equityEUR": 193.82,
+  "equityEUR": 193.69,
   "stopped": false,
   "openPositions": [
     {
@@ -254,19 +254,19 @@
     }
   ],
   "lastSignal": {
-    "price": 79159.78462999099,
+    "price": 79176.23205282728,
     "direction": "LONG",
     "score": 0.83,
     "strength": 0.1,
     "atr14": 1187.646418457356,
     "indicators": {
-      "ema20": 79292.40543079574,
-      "ema50": 78650.44937407199,
-      "rsi14": 49.86695384009563,
-      "macdHist": -152.43378489932417,
-      "bbUpper": 80937.86664067565,
-      "bbMid": 79578.60283150297,
-      "bbLower": 78219.33902233028
+      "ema20": 79282.59560395409,
+      "ema50": 78671.95495346267,
+      "rsi14": 50.034267544702935,
+      "macdHist": -140.94170529336114,
+      "bbUpper": 80929.560446461,
+      "bbMid": 79592.03300154852,
+      "bbLower": 78254.50555663605
     },
     "fearGreed": {
       "value": 74,
@@ -275,6 +275,21 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin Rally Is Outrunning the Rest of the Market: Here’s Why",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
+      {
+        "title": "Crypto Group Warns Regulators Against Expanding Stablecoin KYC",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "LayerZero unveils trading infrastructure for crypto and tokenized markets, ZRO surges",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "Crypto Fund Founder Convicted of Fraud Over Fake Trading Bot",
         "source": "Decrypt",
@@ -291,7 +306,7 @@
         "itemScore": -1
       },
       {
-        "title": "Bitcoin RSI bullish divergence draws 2022 comparisons as analysis weighs new price trend",
+        "title": "BTC RSI bullish divergence draws 2022 comparisons as analysis weighs new price trend",
         "source": "Cointelegraph",
         "itemScore": 1
       },
@@ -299,42 +314,27 @@
         "title": "Solana ETFs extend growth streak to 5 days after year's biggest inflows",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "US Can Now Sanction Anyone Operating in Iran&#39;s Crypto Sector",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Galaxy puts Coldcard hack losses at 1,789 BTC, with 87% unmoved",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin ETFs add $338M as six-day inflow streak hits $2.26B",
-        "source": "Cointelegraph",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=79292 vs EMA50=78650",
+        "detail": "EMA20=79283 vs EMA50=78672",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "49.9",
+        "detail": "50.0",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-152.4",
+        "detail": "-140.9",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 79160 vs [78219, 80938]",
+        "detail": "prix 79176 vs [78255, 80930]",
         "points": 0
       },
       {
@@ -348,10 +348,10 @@
         "points": 0.33
       }
     ],
-    "computedAt": "2026-08-25T16:17:49.873Z",
-    "priceUSD": 79165.3,
-    "priceEUR": 67843.8,
-    "change24h": 0.25226014707576677
+    "computedAt": "2026-08-25T17:55:10.608Z",
+    "priceUSD": 79178.9,
+    "priceEUR": 67831.8,
+    "change24h": 0.2694827273981979
   },
   "history": [
     {
@@ -1523,7 +1523,12 @@
       "t": "2026-08-25T16:17:49.876Z",
       "equityEUR": 193.82,
       "priceEUR": 67843.8
+    },
+    {
+      "t": "2026-08-25T17:55:10.610Z",
+      "equityEUR": 193.69,
+      "priceEUR": 67831.8
     }
   ],
-  "lastRun": "2026-08-25T16:17:49.876Z"
+  "lastRun": "2026-08-25T17:55:10.610Z"
 }
