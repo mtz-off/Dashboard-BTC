@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 144.79,
-  "equityEUR": 206.85,
+  "equityEUR": 199.5,
   "stopped": false,
   "openPositions": [
     {
@@ -254,19 +254,19 @@
     }
   ],
   "lastSignal": {
-    "price": 80508.81801430068,
+    "price": 79717.99567054372,
     "direction": "LONG",
-    "score": 6.33,
-    "strength": 0.79,
+    "score": 7,
+    "strength": 0.88,
     "atr14": 1166.8491542931554,
     "indicators": {
-      "ema20": 79279.92808360222,
-      "ema50": 78260.22112180568,
-      "rsi14": 68.12341414686304,
-      "macdHist": 123.94773713660709,
-      "bbUpper": 80828.32780724025,
-      "bbMid": 79225.4425477879,
-      "bbLower": 77622.55728833555
+      "ema20": 79447.68923815523,
+      "ema50": 78411.88982821566,
+      "rsi14": 56.12366088834411,
+      "macdHist": 38.37832549507311,
+      "bbUpper": 80902.05129035952,
+      "bbMid": 79462.94790775626,
+      "bbLower": 78023.84452515299
     },
     "fearGreed": {
       "value": 74,
@@ -275,6 +275,26 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Live updates: Bitcoin ETFs draw a seventh straight day of inflows as the rally holds above $80,000",
+        "source": "CoinDesk",
+        "itemScore": 2
+      },
+      {
+        "title": "Bitcoin ETFs add $338M as six-day inflow streak hits $2.26B",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
+        "title": "Crypto rally spills into dog and cat memecoins as smaller tokens double in a week",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Bitcoin tops $80,000, solana jumps 8% but rally now runs into overbought warning",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "Korean bank taps Ripple for payments, Pakistan opens crypto licensing: Asia Express",
         "source": "Cointelegraph",
@@ -294,47 +314,27 @@
         "title": "Bitcoin price hits $80K as 24-hour crypto short liquidations pass $220M",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "Strive buys 1,110 Bitcoin for $81.5M, holdings top 21K BTC; ASST shares surge 11%",
-        "source": "Cointelegraph",
-        "itemScore": 1
-      },
-      {
-        "title": "Bitmine Buys Another $81M in Ethereum as ETH Outperforms Bitcoin",
-        "source": "Decrypt",
-        "itemScore": 1
-      },
-      {
-        "title": "Bitget CEO isn’t buying the Bitcoin rally — She’s waiting for $50K",
-        "source": "Cointelegraph",
-        "itemScore": 1
-      },
-      {
-        "title": "Morning Minute: Saylor’s Strategy Back in Green As BTC Soars to $78k",
-        "source": "Decrypt",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=79280 vs EMA50=78260",
+        "detail": "EMA20=79448 vs EMA50=78412",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "68.1",
+        "detail": "56.1",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "123.9",
+        "detail": "38.4",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 80509 vs [77623, 80828]",
+        "detail": "prix 79718 vs [78024, 80902]",
         "points": 0
       },
       {
@@ -344,14 +344,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 7",
-        "points": 2.33
+        "detail": "30 articles pertinents, score brut 9",
+        "points": 3
       }
     ],
-    "computedAt": "2026-08-25T05:17:33.028Z",
-    "priceUSD": 80489.6,
-    "priceEUR": 69064,
-    "change24h": 1.9293089059735757
+    "computedAt": "2026-08-25T08:00:52.109Z",
+    "priceUSD": 79716,
+    "priceEUR": 68376,
+    "change24h": 0.9496480135146526
   },
   "history": [
     {
@@ -1498,7 +1498,12 @@
       "t": "2026-08-25T05:17:33.030Z",
       "equityEUR": 206.85,
       "priceEUR": 69064
+    },
+    {
+      "t": "2026-08-25T08:00:52.111Z",
+      "equityEUR": 199.5,
+      "priceEUR": 68376
     }
   ],
-  "lastRun": "2026-08-25T05:17:33.030Z"
+  "lastRun": "2026-08-25T08:00:52.111Z"
 }
