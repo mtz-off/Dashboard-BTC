@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 144.79,
-  "equityEUR": 193.69,
+  "equityEUR": 190.02,
   "stopped": false,
   "openPositions": [
     {
@@ -254,19 +254,19 @@
     }
   ],
   "lastSignal": {
-    "price": 79176.23205282728,
+    "price": 78799.71587810639,
     "direction": "LONG",
-    "score": 0.83,
-    "strength": 0.1,
+    "score": 0.05,
+    "strength": 0.01,
     "atr14": 1187.646418457356,
     "indicators": {
-      "ema20": 79282.59560395409,
-      "ema50": 78671.95495346267,
-      "rsi14": 50.034267544702935,
-      "macdHist": -140.94170529336114,
-      "bbUpper": 80929.560446461,
-      "bbMid": 79592.03300154852,
-      "bbLower": 78254.50555663605
+      "ema20": 79225.69783726273,
+      "ema50": 78695.17241578612,
+      "rsi14": 45.74552054436931,
+      "macdHist": -139.64094992550483,
+      "bbUpper": 80907.58122915229,
+      "bbMid": 79610.28025886486,
+      "bbLower": 78312.97928857744
     },
     "fearGreed": {
       "value": 74,
@@ -275,6 +275,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Crypto Market Flips From Fear to &#39;Extreme Greed&#39; for First Time Since 2024",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin enters ‘initial phase’ of new bull market, but $83K remains key: CryptoQuant",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
       {
         "title": "Bitcoin Rally Is Outrunning the Rest of the Market: Here’s Why",
         "source": "Decrypt",
@@ -304,37 +314,27 @@
         "title": "A bitcoin short squeeze for the ages as futures open interest collapses",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "BTC RSI bullish divergence draws 2022 comparisons as analysis weighs new price trend",
-        "source": "Cointelegraph",
-        "itemScore": 1
-      },
-      {
-        "title": "Solana ETFs extend growth streak to 5 days after year's biggest inflows",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=79283 vs EMA50=78672",
+        "detail": "EMA20=79226 vs EMA50=78695",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "50.0",
+        "detail": "45.7",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-140.9",
-        "points": -1.5
+        "detail": "-139.6",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 79176 vs [78255, 80930]",
+        "detail": "prix 78800 vs [78313, 80908]",
         "points": 0
       },
       {
@@ -344,14 +344,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 1",
-        "points": 0.33
+        "detail": "30 articles pertinents, score brut 0",
+        "points": 0
       }
     ],
-    "computedAt": "2026-08-25T17:55:10.608Z",
-    "priceUSD": 79178.9,
-    "priceEUR": 67831.8,
-    "change24h": 0.2694827273981979
+    "computedAt": "2026-08-25T19:45:15.016Z",
+    "priceUSD": 78751.2,
+    "priceEUR": 67488.1,
+    "change24h": -0.2721420964186008
   },
   "history": [
     {
@@ -1528,7 +1528,12 @@
       "t": "2026-08-25T17:55:10.610Z",
       "equityEUR": 193.69,
       "priceEUR": 67831.8
+    },
+    {
+      "t": "2026-08-25T19:45:15.018Z",
+      "equityEUR": 190.02,
+      "priceEUR": 67488.1
     }
   ],
-  "lastRun": "2026-08-25T17:55:10.610Z"
+  "lastRun": "2026-08-25T19:45:15.018Z"
 }
