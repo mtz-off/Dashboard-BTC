@@ -5,8 +5,8 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 144.79,
-  "equityEUR": 191.07,
+  "balanceEUR": 108.59,
+  "equityEUR": 186.39,
   "stopped": false,
   "openPositions": [
     {
@@ -24,6 +24,23 @@
       "tpPct": 3.15,
       "signalScore": 4.78,
       "signalStrength": 0.6,
+      "status": "OPEN"
+    },
+    {
+      "id": "ed5921ec-be74-49d4-b77c-3ab73c8e8121",
+      "side": "SHORT",
+      "entryPrice": 67148.1,
+      "entryTime": "2026-08-26T10:08:30.412Z",
+      "sizeEUR": 36.2,
+      "notionalEUR": 543,
+      "leverage": 15,
+      "qtyBTC": 0.0080866,
+      "sl": 68268.95,
+      "tp": 64906.39,
+      "slPct": 1.67,
+      "tpPct": 3.34,
+      "signalScore": -1.45,
+      "signalStrength": 0.18,
       "status": "OPEN"
     }
   ],
@@ -254,19 +271,19 @@
     }
   ],
   "lastSignal": {
-    "price": 78905.59466984418,
-    "direction": "LONG",
-    "score": 2.62,
-    "strength": 0.33,
-    "atr14": 1134.3302384763772,
+    "price": 78334.91795800111,
+    "direction": "SHORT",
+    "score": -1.45,
+    "strength": 0.18,
+    "atr14": 1089.6548891577534,
     "indicators": {
-      "ema20": 78964.86991908083,
-      "ema50": 78744.30568934845,
-      "rsi14": 49.093110032299506,
-      "macdHist": 0.7342591673883518,
-      "bbUpper": 79494.70414595961,
-      "bbMid": 78909.34713435451,
-      "bbLower": 78323.99012274941
+      "ema20": 78880.52950569101,
+      "ema50": 78725.93328397223,
+      "rsi14": 41.58558437796687,
+      "macdHist": -41.589818655081544,
+      "bbUpper": 79511.350543335,
+      "bbMid": 78881.55151985117,
+      "bbLower": 78251.75249636735
     },
     "fearGreed": {
       "value": 65,
@@ -275,6 +292,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Live updates: Zcash pulls back 8% as its Grayscale ETF goes live, capping a 60% rally",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "Bitcoin ETFs tear through 2026 outflows in 7-day hot streak",
         "source": "Cointelegraph",
@@ -309,32 +331,27 @@
         "title": "Crypto Group Warns Regulators Against Expanding Stablecoin KYC",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "LayerZero unveils trading infrastructure for crypto and tokenized markets, ZRO surges",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78965 vs EMA50=78744",
+        "detail": "EMA20=78881 vs EMA50=78726",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "49.1",
-        "points": 0
+        "detail": "41.6",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "0.7",
-        "points": 1.95
+        "detail": "-41.6",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78906 vs [78324, 79495]",
+        "detail": "prix 78335 vs [78252, 79511]",
         "points": 0
       },
       {
@@ -344,14 +361,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -4",
-        "points": -1.33
+        "detail": "30 articles pertinents, score brut -3",
+        "points": -1
       }
     ],
-    "computedAt": "2026-08-26T08:03:35.270Z",
-    "priceUSD": 78871.5,
-    "priceEUR": 67586.6,
-    "change24h": 0.46109069603041664
+    "computedAt": "2026-08-26T10:08:30.410Z",
+    "priceUSD": 78358.1,
+    "priceEUR": 67148.1,
+    "change24h": -0.1928429043618851
   },
   "history": [
     {
@@ -1568,7 +1585,12 @@
       "t": "2026-08-26T08:03:35.273Z",
       "equityEUR": 191.07,
       "priceEUR": 67586.6
+    },
+    {
+      "t": "2026-08-26T10:08:30.412Z",
+      "equityEUR": 186.39,
+      "priceEUR": 67148.1
     }
   ],
-  "lastRun": "2026-08-26T08:03:35.273Z"
+  "lastRun": "2026-08-26T10:08:30.412Z"
 }
