@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 108.59,
-  "equityEUR": 186.39,
+  "equityEUR": 186.57,
   "stopped": false,
   "openPositions": [
     {
@@ -271,19 +271,19 @@
     }
   ],
   "lastSignal": {
-    "price": 78334.91795800111,
+    "price": 78403.16190589964,
     "direction": "SHORT",
     "score": -1.45,
     "strength": 0.18,
     "atr14": 1089.6548891577534,
     "indicators": {
-      "ema20": 78880.52950569101,
-      "ema50": 78725.93328397223,
-      "rsi14": 41.58558437796687,
-      "macdHist": -41.589818655081544,
-      "bbUpper": 79511.350543335,
-      "bbMid": 78881.55151985117,
-      "bbLower": 78251.75249636735
+      "ema20": 78827.47333976069,
+      "ema50": 78715.9692337212,
+      "rsi14": 43.23619165930431,
+      "macdHist": -43.62446403688426,
+      "bbUpper": 79360.4123570987,
+      "bbMid": 78805.64808001534,
+      "bbLower": 78250.88380293197
     },
     "fearGreed": {
       "value": 65,
@@ -292,6 +292,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Dallas Fed warns tokenized deposits could strip $700 billion from U.S. banks' lending capacity",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin takes a breather after adding 23% in 7 days as ETF demand holds steady",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "Live updates: Zcash pulls back 8% as its Grayscale ETF goes live, capping a 60% rally",
         "source": "CoinDesk",
@@ -321,37 +331,27 @@
         "title": "Bitcoin enters ‘initial phase’ of new bull market, but $83K remains key: CryptoQuant",
         "source": "Cointelegraph",
         "itemScore": 1
-      },
-      {
-        "title": "Bitcoin Rally Is Outrunning the Rest of the Market: Here’s Why",
-        "source": "Decrypt",
-        "itemScore": 1
-      },
-      {
-        "title": "Crypto Group Warns Regulators Against Expanding Stablecoin KYC",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78881 vs EMA50=78726",
+        "detail": "EMA20=78827 vs EMA50=78716",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "41.6",
+        "detail": "43.2",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-41.6",
+        "detail": "-43.6",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78335 vs [78252, 79511]",
+        "detail": "prix 78403 vs [78251, 79360]",
         "points": 0
       },
       {
@@ -365,10 +365,10 @@
         "points": -1
       }
     ],
-    "computedAt": "2026-08-26T10:08:30.410Z",
-    "priceUSD": 78358.1,
-    "priceEUR": 67148.1,
-    "change24h": -0.1928429043618851
+    "computedAt": "2026-08-26T11:50:52.949Z",
+    "priceUSD": 78415,
+    "priceEUR": 67216.2,
+    "change24h": -0.12036759882561981
   },
   "history": [
     {
@@ -1590,7 +1590,12 @@
       "t": "2026-08-26T10:08:30.412Z",
       "equityEUR": 186.39,
       "priceEUR": 67148.1
+    },
+    {
+      "t": "2026-08-26T11:50:52.951Z",
+      "equityEUR": 186.57,
+      "priceEUR": 67216.2
     }
   ],
-  "lastRun": "2026-08-26T10:08:30.412Z"
+  "lastRun": "2026-08-26T11:50:52.951Z"
 }
