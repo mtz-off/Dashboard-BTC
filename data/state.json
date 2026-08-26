@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 108.59,
-  "equityEUR": 186.57,
+  "equityEUR": 186.67,
   "stopped": false,
   "openPositions": [
     {
@@ -271,19 +271,19 @@
     }
   ],
   "lastSignal": {
-    "price": 78403.16190589964,
+    "price": 78495.39998137113,
     "direction": "SHORT",
-    "score": -1.45,
-    "strength": 0.18,
-    "atr14": 1089.6548891577534,
+    "score": -0.5,
+    "strength": 0.06,
+    "atr14": 1068.5950307272515,
     "indicators": {
-      "ema20": 78827.47333976069,
-      "ema50": 78715.9692337212,
-      "rsi14": 43.23619165930431,
-      "macdHist": -43.62446403688426,
-      "bbUpper": 79360.4123570987,
-      "bbMid": 78805.64808001534,
-      "bbLower": 78250.88380293197
+      "ema20": 78727.84299302312,
+      "ema50": 78685.02925590597,
+      "rsi14": 45.18599005977326,
+      "macdHist": -40.02950724050535,
+      "bbUpper": 79211.27366485962,
+      "bbMid": 78697.1492285472,
+      "bbLower": 78183.02479223479
     },
     "fearGreed": {
       "value": 65,
@@ -299,11 +299,6 @@
       },
       {
         "title": "Bitcoin takes a breather after adding 23% in 7 days as ETF demand holds steady",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "Live updates: Zcash pulls back 8% as its Grayscale ETF goes live, capping a 60% rally",
         "source": "CoinDesk",
         "itemScore": 1
       },
@@ -331,27 +326,32 @@
         "title": "Bitcoin enters ‘initial phase’ of new bull market, but $83K remains key: CryptoQuant",
         "source": "Cointelegraph",
         "itemScore": 1
+      },
+      {
+        "title": "Bitcoin Rally Is Outrunning the Rest of the Market: Here’s Why",
+        "source": "Decrypt",
+        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78827 vs EMA50=78716",
+        "detail": "EMA20=78728 vs EMA50=78685",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "43.2",
-        "points": -0.5
+        "detail": "45.2",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-43.6",
-        "points": -1.95
+        "detail": "-40.0",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78403 vs [78251, 79360]",
+        "detail": "prix 78495 vs [78183, 79211]",
         "points": 0
       },
       {
@@ -365,10 +365,10 @@
         "points": -1
       }
     ],
-    "computedAt": "2026-08-26T11:50:52.949Z",
-    "priceUSD": 78415,
-    "priceEUR": 67216.2,
-    "change24h": -0.12036759882561981
+    "computedAt": "2026-08-26T14:26:10.193Z",
+    "priceUSD": 78326.4,
+    "priceEUR": 67256.9,
+    "change24h": -0.233220183544674
   },
   "history": [
     {
@@ -1595,7 +1595,12 @@
       "t": "2026-08-26T11:50:52.951Z",
       "equityEUR": 186.57,
       "priceEUR": 67216.2
+    },
+    {
+      "t": "2026-08-26T14:26:10.196Z",
+      "equityEUR": 186.67,
+      "priceEUR": 67256.9
     }
   ],
-  "lastRun": "2026-08-26T11:50:52.951Z"
+  "lastRun": "2026-08-26T14:26:10.196Z"
 }
