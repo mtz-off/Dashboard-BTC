@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 144.79,
-  "equityEUR": 192.37,
+  "equityEUR": 191.11,
   "stopped": false,
   "openPositions": [
     {
@@ -254,19 +254,19 @@
     }
   ],
   "lastSignal": {
-    "price": 78978.6935267763,
-    "direction": "LONG",
-    "score": 0.17,
-    "strength": 0.02,
-    "atr14": 1151.9377884839582,
+    "price": 78866.08772025666,
+    "direction": "SHORT",
+    "score": -0.83,
+    "strength": 0.1,
+    "atr14": 1134.3302384763772,
     "indicators": {
-      "ema20": 78973.71039500649,
-      "ema50": 78708.77639742188,
-      "rsi14": 50.09050867996695,
-      "macdHist": -31.7126367964836,
-      "bbUpper": 79737.64381657445,
-      "bbMid": 78993.18375577708,
-      "bbLower": 78248.72369497971
+      "ema20": 78956.88279350009,
+      "ema50": 78722.23701361059,
+      "rsi14": 48.666836979829604,
+      "macdHist": -17.21694635035321,
+      "bbUpper": 79541.50910660674,
+      "bbMid": 78928.58544782542,
+      "bbLower": 78315.6617890441
     },
     "fearGreed": {
       "value": 65,
@@ -275,6 +275,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin holds $79,000, ether, solana slip as traders bank a week of gains",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin Open Interest Collapses to 12%. Is the Short Squeeze Over?",
         "source": "Decrypt",
@@ -309,32 +314,27 @@
         "title": "Crypto Fund Founder Convicted of Fraud Over Fake Trading Bot",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin's surging price faces 1 key level that could signal if the bear market is really over",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78974 vs EMA50=78709",
+        "detail": "EMA20=78957 vs EMA50=78722",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "50.1",
+        "detail": "48.7",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-31.7",
+        "detail": "-17.2",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78979 vs [78249, 79738]",
+        "detail": "prix 78866 vs [78316, 79542]",
         "points": 0
       },
       {
@@ -344,14 +344,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -1",
-        "points": -0.33
+        "detail": "30 articles pertinents, score brut -4",
+        "points": -1.33
       }
     ],
-    "computedAt": "2026-08-26T03:35:30.613Z",
-    "priceUSD": 78987.8,
-    "priceEUR": 67707.6,
-    "change24h": 0.6092256351142256
+    "computedAt": "2026-08-26T05:18:32.285Z",
+    "priceUSD": 78827.6,
+    "priceEUR": 67589.9,
+    "change24h": 0.4051738961527023
   },
   "history": [
     {
@@ -1558,7 +1558,12 @@
       "t": "2026-08-26T03:35:30.615Z",
       "equityEUR": 192.37,
       "priceEUR": 67707.6
+    },
+    {
+      "t": "2026-08-26T05:18:32.286Z",
+      "equityEUR": 191.11,
+      "priceEUR": 67589.9
     }
   ],
-  "lastRun": "2026-08-26T03:35:30.615Z"
+  "lastRun": "2026-08-26T05:18:32.286Z"
 }
