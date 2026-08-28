@@ -5,8 +5,8 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 128.39198724908087,
-  "equityEUR": 191.65,
+  "balanceEUR": 96.29,
+  "equityEUR": 166.03,
   "stopped": false,
   "openPositions": [
     {
@@ -24,6 +24,23 @@
       "tpPct": 3.15,
       "signalScore": 4.78,
       "signalStrength": 0.6,
+      "status": "OPEN"
+    },
+    {
+      "id": "883dd863-6af5-4cd6-b46f-b13654f1c0df",
+      "side": "SHORT",
+      "entryPrice": 66777.1,
+      "entryTime": "2026-08-28T21:52:07.827Z",
+      "sizeEUR": 32.1,
+      "notionalEUR": 481.5,
+      "leverage": 15,
+      "qtyBTC": 0.00721056,
+      "sl": 67842.14,
+      "tp": 64647.02,
+      "slPct": 1.59,
+      "tpPct": 3.19,
+      "signalScore": -1,
+      "signalStrength": 0.13,
       "status": "OPEN"
     }
   ],
@@ -270,19 +287,19 @@
     }
   ],
   "lastSignal": {
-    "price": 80464.09998937215,
-    "direction": "LONG",
-    "score": 6.45,
-    "strength": 0.81,
-    "atr14": 995.9789385040962,
+    "price": 77381.98108179303,
+    "direction": "SHORT",
+    "score": -1,
+    "strength": 0.13,
+    "atr14": 1028.4811916668527,
     "indicators": {
-      "ema20": 79872.33968341039,
-      "ema50": 79357.7814602203,
-      "rsi14": 65.0744107956659,
-      "macdHist": 17.276149269592622,
-      "bbUpper": 80881.90264380664,
-      "bbMid": 79850.54199087244,
-      "bbLower": 78819.18133793825
+      "ema20": 78654.20300354178,
+      "ema50": 79045.34560678025,
+      "rsi14": 25.324137799309113,
+      "macdHist": -236.0039660850797,
+      "bbUpper": 80848.97950599338,
+      "bbMid": 78950.96166348425,
+      "bbLower": 77052.94382097512
     },
     "fearGreed": {
       "value": 73,
@@ -292,45 +309,45 @@
     "fundingRate": null,
     "newsHighlights": [
       {
-        "title": "Bitcoin Could Overtake Gold in the Next Bull Run: Binance Founder CZ",
+        "title": "Bitcoin Rally Stalls, But Long-Term Sentiment Remains Bullish",
         "source": "Decrypt",
-        "itemScore": 1
+        "itemScore": 2
       },
       {
-        "title": "Bitcoin’s 23% rally sends beaten-down miners soaring past AI stocks",
+        "title": "Solana validators approve proposal to accelerate SOL disinflation",
         "source": "Cointelegraph",
-        "itemScore": 2
+        "itemScore": 1
       },
       {
-        "title": "Bitcoin steadies above $79,000 as ETF inflows hit longest streak since April",
-        "source": "CoinDesk",
-        "itemScore": 2
-      },
-      {
-        "title": "Nvidia shares surge 8% on earnings beat, lifting technology stocks and bitcoin",
+        "title": "Bitcoin is outperforming stocks and correlating with gold just when it matters most",
         "source": "CoinDesk",
         "itemScore": 1
+      },
+      {
+        "title": "Kraken users briefly locked out after a flood of sanctioned crypto transactions",
+        "source": "CoinDesk",
+        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=79872 vs EMA50=79358",
-        "points": 2
+        "detail": "EMA20=78654 vs EMA50=79045",
+        "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "65.1",
-        "points": 0.5
+        "detail": "25.3",
+        "points": 1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "17.3",
-        "points": 1.95
+        "detail": "-236.0",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 80464 vs [78819, 80882]",
+        "detail": "prix 77382 vs [77053, 80849]",
         "points": 0
       },
       {
@@ -340,14 +357,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 6",
-        "points": 2
+        "detail": "30 articles pertinents, score brut 3",
+        "points": 1
       }
     ],
-    "computedAt": "2026-08-28T00:57:09.356Z",
-    "priceUSD": 80566.4,
-    "priceEUR": 69175.9,
-    "change24h": 0.374380652306895
+    "computedAt": "2026-08-28T21:52:07.825Z",
+    "priceUSD": 77391,
+    "priceEUR": 66777.1,
+    "change24h": -3.5817202572948093
   },
   "history": [
     {
@@ -1584,7 +1601,12 @@
       "t": "2026-08-28T00:57:09.358Z",
       "equityEUR": 191.65,
       "priceEUR": 69175.9
+    },
+    {
+      "t": "2026-08-28T21:52:07.827Z",
+      "equityEUR": 166.03,
+      "priceEUR": 66777.1
     }
   ],
-  "lastRun": "2026-08-28T00:57:09.358Z"
+  "lastRun": "2026-08-28T21:52:07.827Z"
 }
