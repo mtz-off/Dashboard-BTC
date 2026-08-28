@@ -5,8 +5,8 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 108.59,
-  "equityEUR": 186.67,
+  "balanceEUR": 128.39198724908087,
+  "equityEUR": 191.65,
   "stopped": false,
   "openPositions": [
     {
@@ -24,23 +24,6 @@
       "tpPct": 3.15,
       "signalScore": 4.78,
       "signalStrength": 0.6,
-      "status": "OPEN"
-    },
-    {
-      "id": "ed5921ec-be74-49d4-b77c-3ab73c8e8121",
-      "side": "SHORT",
-      "entryPrice": 67148.1,
-      "entryTime": "2026-08-26T10:08:30.412Z",
-      "sizeEUR": 36.2,
-      "notionalEUR": 543,
-      "leverage": 15,
-      "qtyBTC": 0.0080866,
-      "sl": 68268.95,
-      "tp": 64906.39,
-      "slPct": 1.67,
-      "tpPct": 3.34,
-      "signalScore": -1.45,
-      "signalStrength": 0.18,
       "status": "OPEN"
     }
   ],
@@ -268,107 +251,103 @@
       "pnlPct": 3.56,
       "reason": "TP",
       "status": "CLOSED"
+    },
+    {
+      "id": "ed5921ec-be74-49d4-b77c-3ab73c8e8121",
+      "side": "SHORT",
+      "entryPrice": 67148.1,
+      "entryTime": "2026-08-26T10:08:30.412Z",
+      "exitPrice": 69175.9,
+      "exitTime": "2026-08-28T00:57:09.358Z",
+      "sizeEUR": 36.2,
+      "notionalEUR": 543,
+      "leverage": 15,
+      "qtyBTC": 0.0080866,
+      "pnlEUR": -16.4,
+      "pnlPct": -3.02,
+      "reason": "SL",
+      "status": "CLOSED"
     }
   ],
   "lastSignal": {
-    "price": 78495.39998137113,
-    "direction": "SHORT",
-    "score": -0.5,
-    "strength": 0.06,
-    "atr14": 1068.5950307272515,
+    "price": 80464.09998937215,
+    "direction": "LONG",
+    "score": 6.45,
+    "strength": 0.81,
+    "atr14": 995.9789385040962,
     "indicators": {
-      "ema20": 78727.84299302312,
-      "ema50": 78685.02925590597,
-      "rsi14": 45.18599005977326,
-      "macdHist": -40.02950724050535,
-      "bbUpper": 79211.27366485962,
-      "bbMid": 78697.1492285472,
-      "bbLower": 78183.02479223479
+      "ema20": 79872.33968341039,
+      "ema50": 79357.7814602203,
+      "rsi14": 65.0744107956659,
+      "macdHist": 17.276149269592622,
+      "bbUpper": 80881.90264380664,
+      "bbMid": 79850.54199087244,
+      "bbLower": 78819.18133793825
     },
     "fearGreed": {
-      "value": 65,
+      "value": 73,
       "classification": "Greed",
-      "timestamp": 1787702400000
+      "timestamp": 1787875200000
     },
     "fundingRate": null,
     "newsHighlights": [
       {
-        "title": "Dallas Fed warns tokenized deposits could strip $700 billion from U.S. banks' lending capacity",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin takes a breather after adding 23% in 7 days as ETF demand holds steady",
-        "source": "CoinDesk",
+        "title": "Bitcoin Could Overtake Gold in the Next Bull Run: Binance Founder CZ",
+        "source": "Decrypt",
         "itemScore": 1
       },
       {
-        "title": "Bitcoin ETFs tear through 2026 outflows in 7-day hot streak",
+        "title": "Bitcoin’s 23% rally sends beaten-down miners soaring past AI stocks",
         "source": "Cointelegraph",
-        "itemScore": -1
+        "itemScore": 2
       },
       {
-        "title": "Bitcoin holds $79,000, ether, solana slip as traders bank a week of gains",
+        "title": "Bitcoin steadies above $79,000 as ETF inflows hit longest streak since April",
         "source": "CoinDesk",
-        "itemScore": -1
+        "itemScore": 2
       },
       {
-        "title": "Bitcoin Open Interest Collapses to 12%. Is the Short Squeeze Over?",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Crypto Market Flips From Fear to &#39;Extreme Greed&#39; for First Time Since 2024",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin enters ‘initial phase’ of new bull market, but $83K remains key: CryptoQuant",
-        "source": "Cointelegraph",
-        "itemScore": 1
-      },
-      {
-        "title": "Bitcoin Rally Is Outrunning the Rest of the Market: Here’s Why",
-        "source": "Decrypt",
+        "title": "Nvidia shares surge 8% on earnings beat, lifting technology stocks and bitcoin",
+        "source": "CoinDesk",
         "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78728 vs EMA50=78685",
+        "detail": "EMA20=79872 vs EMA50=79358",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "45.2",
-        "points": 0
+        "detail": "65.1",
+        "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-40.0",
-        "points": -1.5
+        "detail": "17.3",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78495 vs [78183, 79211]",
+        "detail": "prix 80464 vs [78819, 80882]",
         "points": 0
       },
       {
         "factor": "Fear & Greed Index",
-        "detail": "65 (Greed)",
+        "detail": "73 (Greed)",
         "points": 0
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -3",
-        "points": -1
+        "detail": "30 articles pertinents, score brut 6",
+        "points": 2
       }
     ],
-    "computedAt": "2026-08-26T14:26:10.193Z",
-    "priceUSD": 78326.4,
-    "priceEUR": 67256.9,
-    "change24h": -0.233220183544674
+    "computedAt": "2026-08-28T00:57:09.356Z",
+    "priceUSD": 80566.4,
+    "priceEUR": 69175.9,
+    "change24h": 0.374380652306895
   },
   "history": [
     {
@@ -1600,7 +1579,12 @@
       "t": "2026-08-26T14:26:10.196Z",
       "equityEUR": 186.67,
       "priceEUR": 67256.9
+    },
+    {
+      "t": "2026-08-28T00:57:09.358Z",
+      "equityEUR": 191.65,
+      "priceEUR": 69175.9
     }
   ],
-  "lastRun": "2026-08-26T14:26:10.196Z"
+  "lastRun": "2026-08-28T00:57:09.358Z"
 }
