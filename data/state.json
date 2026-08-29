@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 96.29,
-  "equityEUR": 167.21,
+  "equityEUR": 167.04,
   "stopped": false,
   "openPositions": [
     {
@@ -287,26 +287,29 @@
     }
   ],
   "lastSignal": {
-    "price": 77769.69972272203,
+    "price": 77696.3016706164,
     "direction": "SHORT",
     "score": -3,
     "strength": 0.38,
     "atr14": 991.8598607909051,
     "indicators": {
-      "ema20": 78424.24747221656,
-      "ema50": 78900.59985407579,
-      "rsi14": 34.78424664059473,
-      "macdHist": -95.97482243322207,
-      "bbUpper": 80553.30204067589,
-      "bbMid": 78645.57900193153,
-      "bbLower": 76737.85596318718
+      "ema20": 78351.26614982045,
+      "ema50": 78851.76811969838,
+      "rsi14": 33.94368428117811,
+      "macdHist": -68.01482920851959,
+      "bbUpper": 80433.49507083,
+      "bbMid": 78543.45209020257,
+      "bbLower": 76653.40910957514
     },
     "fearGreed": {
       "value": 68,
       "classification": "Greed",
       "timestamp": 1787961600000
     },
-    "fundingRate": null,
+    "fundingRate": {
+      "lastFundingRate": 0.00009195,
+      "markPrice": 77665.79417391
+    },
     "newsHighlights": [
       {
         "title": "Bitcoin Rally Stalls, But Long-Term Sentiment Remains Bullish",
@@ -332,22 +335,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78424 vs EMA50=78901",
+        "detail": "EMA20=78351 vs EMA50=78852",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "34.8",
+        "detail": "33.9",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-96.0",
+        "detail": "-68.0",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77770 vs [76738, 80553]",
+        "detail": "prix 77696 vs [76653, 80433]",
         "points": 0
       },
       {
@@ -356,15 +359,20 @@
         "points": 0
       },
       {
+        "factor": "Funding rate BTC perp",
+        "detail": "0.0092%",
+        "points": 0
+      },
+      {
         "factor": "Sentiment news (RSS temps réel)",
         "detail": "30 articles pertinents, score brut 3",
         "points": 1
       }
     ],
-    "computedAt": "2026-08-29T00:49:37.998Z",
-    "priceUSD": 77759.9,
-    "priceEUR": 67117.4,
-    "change24h": -0.10521339434597958
+    "computedAt": "2026-08-29T01:05:01.819Z",
+    "priceUSD": 77698,
+    "priceEUR": 67070.1,
+    "change24h": -0.1847336520995184
   },
   "history": [
     {
@@ -1666,7 +1674,12 @@
       "t": "2026-08-29T00:49:38.000Z",
       "equityEUR": 167.21,
       "priceEUR": 67117.4
+    },
+    {
+      "t": "2026-08-29T01:05:01.821Z",
+      "equityEUR": 167.04,
+      "priceEUR": 67070.1
     }
   ],
-  "lastRun": "2026-08-29T00:49:38.000Z"
+  "lastRun": "2026-08-29T01:05:01.821Z"
 }
