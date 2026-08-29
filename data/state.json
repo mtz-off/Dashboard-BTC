@@ -287,19 +287,19 @@
     }
   ],
   "lastSignal": {
-    "price": 78142.94540990981,
+    "price": 78134.2472224181,
     "direction": "LONG",
     "score": 0.83,
     "strength": 0.1,
     "atr14": 811.0376210486482,
     "indicators": {
-      "ema20": 77961.50617247792,
-      "ema50": 78306.11675499332,
-      "rsi14": 53.44496009891551,
-      "macdHist": 121.09539054902493,
-      "bbUpper": 78232.10314538385,
-      "bbMid": 77779.14332653678,
-      "bbLower": 77326.18350768971
+      "ema20": 77960.67777366919,
+      "ema50": 78305.77564960148,
+      "rsi14": 53.16852567384929,
+      "macdHist": 120.54029254386191,
+      "bbUpper": 78230.28477294937,
+      "bbMid": 77778.7084171622,
+      "bbLower": 77327.13206137503
     },
     "fearGreed": {
       "value": 68,
@@ -337,22 +337,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77962 vs EMA50=78306",
+        "detail": "EMA20=77961 vs EMA50=78306",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "53.4",
+        "detail": "53.2",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "121.1",
+        "detail": "120.5",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78143 vs [77326, 78232]",
+        "detail": "prix 78134 vs [77327, 78230]",
         "points": 0
       },
       {
@@ -366,10 +366,10 @@
         "points": 1.33
       }
     ],
-    "computedAt": "2026-08-29T20:34:22.198Z",
-    "priceUSD": 78125.1,
-    "priceEUR": 67504.1,
-    "change24h": 0.3639432798316623
+    "computedAt": "2026-08-29T20:49:19.631Z",
+    "priceUSD": 78136.6,
+    "priceEUR": 67503.9,
+    "change24h": 0.378716833372305
   },
   "history": [
     {
@@ -2066,7 +2066,12 @@
       "t": "2026-08-29T20:34:22.202Z",
       "equityEUR": 168.55,
       "priceEUR": 67504.1
+    },
+    {
+      "t": "2026-08-29T20:49:19.633Z",
+      "equityEUR": 168.55,
+      "priceEUR": 67503.9
     }
   ],
-  "lastRun": "2026-08-29T20:34:22.202Z"
+  "lastRun": "2026-08-29T20:49:19.633Z"
 }
