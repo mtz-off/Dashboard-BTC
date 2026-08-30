@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 96.29,
-  "equityEUR": 168.37,
+  "equityEUR": 168.42,
   "stopped": false,
   "openPositions": [
     {
@@ -287,19 +287,19 @@
     }
   ],
   "lastSignal": {
-    "price": 78075.98883972708,
-    "direction": "SHORT",
-    "score": -0.17,
+    "price": 78084.45209901403,
+    "direction": "LONG",
+    "score": 0.17,
     "strength": 0.02,
     "atr14": 703.368732772886,
     "indicators": {
-      "ema20": 78087.93569935372,
-      "ema50": 78245.1764523419,
-      "rsi14": 48.982795413184036,
-      "macdHist": 17.700518247951543,
-      "bbUpper": 78348.49703493353,
-      "bbMid": 78096.06107058797,
-      "bbLower": 77843.6251062424
+      "ema20": 78088.74172404772,
+      "ema50": 78245.50834486296,
+      "rsi14": 49.318885924887205,
+      "macdHist": 18.24062368392551,
+      "bbUpper": 78348.8125406868,
+      "bbMid": 78096.48423355231,
+      "bbLower": 77844.15592641782
     },
     "fearGreed": {
       "value": 69,
@@ -332,32 +332,27 @@
         "title": "Bitcoin is outperforming stocks and correlating with gold just when it matters most",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Kraken users briefly locked out after a flood of sanctioned crypto transactions",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78088 vs EMA50=78245",
+        "detail": "EMA20=78089 vs EMA50=78246",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "49.0",
+        "detail": "49.3",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "17.7",
+        "detail": "18.2",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78076 vs [77844, 78348]",
+        "detail": "prix 78084 vs [77844, 78349]",
         "points": 0
       },
       {
@@ -367,14 +362,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 1",
-        "points": 0.33
+        "detail": "28 articles pertinents, score brut 2",
+        "points": 0.67
       }
     ],
-    "computedAt": "2026-08-30T09:04:35.566Z",
-    "priceUSD": 78078.4,
-    "priceEUR": 67452.2,
-    "change24h": -0.19098069995578135
+    "computedAt": "2026-08-30T09:19:19.906Z",
+    "priceUSD": 78067.1,
+    "priceEUR": 67466.2,
+    "change24h": -0.20542569265657104
   },
   "history": [
     {
@@ -2321,7 +2316,12 @@
       "t": "2026-08-30T09:04:35.569Z",
       "equityEUR": 168.37,
       "priceEUR": 67452.2
+    },
+    {
+      "t": "2026-08-30T09:19:19.909Z",
+      "equityEUR": 168.42,
+      "priceEUR": 67466.2
     }
   ],
-  "lastRun": "2026-08-30T09:04:35.569Z"
+  "lastRun": "2026-08-30T09:19:19.909Z"
 }
