@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 90.37,
-  "equityEUR": 171.33,
+  "equityEUR": 171.83,
   "stopped": false,
   "openPositions": [
     {
@@ -303,19 +303,19 @@
     }
   ],
   "lastSignal": {
-    "price": 78392.46767971729,
+    "price": 78553.33356685816,
     "direction": "LONG",
-    "score": 3.83,
-    "strength": 0.48,
+    "score": 3.17,
+    "strength": 0.4,
     "atr14": 674.1626648534819,
     "indicators": {
-      "ema20": 78540.9060552525,
-      "ema50": 78418.97076040879,
-      "rsi14": 48.307622869257195,
-      "macdHist": 20.17164689014288,
-      "bbUpper": 79263.55737033821,
-      "bbMid": 78452.38364195614,
-      "bbLower": 77641.20991357407
+      "ema20": 78556.22661593258,
+      "ema50": 78425.27922657118,
+      "rsi14": 51.864175467453435,
+      "macdHist": 30.43773199542747,
+      "bbUpper": 79272.25464724831,
+      "bbMid": 78460.42693631319,
+      "bbLower": 77648.59922537807
     },
     "fearGreed": {
       "value": 69,
@@ -338,32 +338,27 @@
         "title": "Bitcoin ETFs end 9-day inflow streak as BTC dips below $78K",
         "source": "Cointelegraph",
         "itemScore": 1
-      },
-      {
-        "title": "Bitcoin Rally Stalls, But Long-Term Sentiment Remains Bullish",
-        "source": "Decrypt",
-        "itemScore": 2
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78541 vs EMA50=78419",
+        "detail": "EMA20=78556 vs EMA50=78425",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "48.3",
+        "detail": "51.9",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "20.2",
+        "detail": "30.4",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78392 vs [77641, 79264]",
+        "detail": "prix 78553 vs [77649, 79272]",
         "points": 0
       },
       {
@@ -373,14 +368,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "10 articles pertinents, score brut 1",
-        "points": 0.33
+        "detail": "9 articles pertinents, score brut -1",
+        "points": -0.33
       }
     ],
-    "computedAt": "2026-08-30T21:04:36.856Z",
-    "priceUSD": 78471.8,
-    "priceEUR": 67730.6,
-    "change24h": 0.31190957690232884
+    "computedAt": "2026-08-30T21:19:25.972Z",
+    "priceUSD": 78544.5,
+    "priceEUR": 67855.3,
+    "change24h": 0.4048432910039616
   },
   "history": [
     {
@@ -2567,7 +2562,12 @@
       "t": "2026-08-30T21:04:36.859Z",
       "equityEUR": 171.33,
       "priceEUR": 67730.6
+    },
+    {
+      "t": "2026-08-30T21:19:25.974Z",
+      "equityEUR": 171.83,
+      "priceEUR": 67855.3
     }
   ],
-  "lastRun": "2026-08-30T21:04:36.859Z"
+  "lastRun": "2026-08-30T21:19:25.974Z"
 }
