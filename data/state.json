@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 90.37,
-  "equityEUR": 172.62,
+  "equityEUR": 172.9,
   "stopped": false,
   "openPositions": [
     {
@@ -303,19 +303,19 @@
     }
   ],
   "lastSignal": {
-    "price": 78793.1442415366,
+    "price": 78876.57852268917,
     "direction": "LONG",
-    "score": 4.67,
-    "strength": 0.58,
+    "score": 4.33,
+    "strength": 0.54,
     "atr14": 680.4027068446358,
     "indicators": {
-      "ema20": 78551.45896772006,
-      "ema50": 78417.92594023,
-      "rsi14": 58.37237127912624,
-      "macdHist": 66.3477890348739,
-      "bbUpper": 79253.65449263742,
-      "bbMid": 78439.3014676985,
-      "bbLower": 77624.94844275959
+      "ema20": 78559.40508973459,
+      "ema50": 78421.19787282421,
+      "rsi14": 60.798664961844715,
+      "macdHist": 71.67236994033232,
+      "bbUpper": 79265.84933612785,
+      "bbMid": 78443.47318175613,
+      "bbLower": 77621.0970273844
     },
     "fearGreed": {
       "value": 69,
@@ -343,32 +343,27 @@
         "title": "Bitcoin Rally Stalls, But Long-Term Sentiment Remains Bullish",
         "source": "Decrypt",
         "itemScore": 2
-      },
-      {
-        "title": "Solana validators approve proposal to accelerate SOL disinflation",
-        "source": "Cointelegraph",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78551 vs EMA50=78418",
+        "detail": "EMA20=78559 vs EMA50=78421",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "58.4",
+        "detail": "60.8",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "66.3",
+        "detail": "71.7",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78793 vs [77625, 79254]",
+        "detail": "prix 78877 vs [77621, 79266]",
         "points": 0
       },
       {
@@ -378,14 +373,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "11 articles pertinents, score brut 2",
-        "points": 0.67
+        "detail": "10 articles pertinents, score brut 1",
+        "points": 0.33
       }
     ],
-    "computedAt": "2026-08-30T19:49:28.563Z",
-    "priceUSD": 78769.9,
-    "priceEUR": 68050.1,
-    "change24h": 0.6929761542571711
+    "computedAt": "2026-08-30T20:04:32.734Z",
+    "priceUSD": 78870.6,
+    "priceEUR": 68117.9,
+    "change24h": 0.8217027706263027
   },
   "history": [
     {
@@ -2547,7 +2542,12 @@
       "t": "2026-08-30T19:49:28.565Z",
       "equityEUR": 172.62,
       "priceEUR": 68050.1
+    },
+    {
+      "t": "2026-08-30T20:04:32.736Z",
+      "equityEUR": 172.9,
+      "priceEUR": 68117.9
     }
   ],
-  "lastRun": "2026-08-30T19:49:28.565Z"
+  "lastRun": "2026-08-30T20:04:32.736Z"
 }
