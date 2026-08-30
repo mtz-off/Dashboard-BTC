@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 96.29,
-  "equityEUR": 168.64,
+  "equityEUR": 168.98,
   "stopped": false,
   "openPositions": [
     {
@@ -287,19 +287,19 @@
     }
   ],
   "lastSignal": {
-    "price": 78169.13709011581,
+    "price": 78183.76830165493,
     "direction": "LONG",
-    "score": 0.28,
-    "strength": 0.04,
+    "score": 0.62,
+    "strength": 0.08,
     "atr14": 703.368732772886,
     "indicators": {
-      "ema20": 78092.38877429554,
-      "ema50": 78228.98000335731,
-      "rsi14": 53.05268555378562,
-      "macdHist": 8.685008971130577,
-      "bbUpper": 78263.76866136241,
-      "bbMid": 78132.58791108783,
-      "bbLower": 78001.40716081325
+      "ema20": 78093.78222301355,
+      "ema50": 78229.55377635885,
+      "rsi14": 53.611454270588915,
+      "macdHist": 9.618738710384918,
+      "bbUpper": 78265.46698960321,
+      "bbMid": 78133.31947166478,
+      "bbLower": 78001.17195372636
     },
     "fearGreed": {
       "value": 69,
@@ -308,6 +308,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Crypto market makers are cashing in on bitcoin's rally - without betting on direction",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "A $1.1 million crypto card hack crashed a neobank's token 49%",
         "source": "CoinDesk",
@@ -332,22 +337,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78092 vs EMA50=78229",
+        "detail": "EMA20=78094 vs EMA50=78230",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "53.1",
+        "detail": "53.6",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "8.7",
+        "detail": "9.6",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78169 vs [78001, 78264]",
+        "detail": "prix 78184 vs [78001, 78265]",
         "points": 0
       },
       {
@@ -357,14 +362,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "21 articles pertinents, score brut 1",
-        "points": 0.33
+        "detail": "22 articles pertinents, score brut 2",
+        "points": 0.67
       }
     ],
-    "computedAt": "2026-08-30T11:49:35.341Z",
-    "priceUSD": 78169.3,
-    "priceEUR": 67530.2,
-    "change24h": -0.07478159938027146
+    "computedAt": "2026-08-30T12:04:54.544Z",
+    "priceUSD": 78292,
+    "priceEUR": 67627.2,
+    "change24h": 0.08206801162757624
   },
   "history": [
     {
@@ -2366,7 +2371,12 @@
       "t": "2026-08-30T11:49:35.344Z",
       "equityEUR": 168.64,
       "priceEUR": 67530.2
+    },
+    {
+      "t": "2026-08-30T12:04:54.547Z",
+      "equityEUR": 168.98,
+      "priceEUR": 67627.2
     }
   ],
-  "lastRun": "2026-08-30T11:49:35.344Z"
+  "lastRun": "2026-08-30T12:04:54.547Z"
 }
