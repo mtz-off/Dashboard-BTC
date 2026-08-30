@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 96.29,
-  "equityEUR": 168.98,
+  "equityEUR": 168.76,
   "stopped": false,
   "openPositions": [
     {
@@ -287,27 +287,32 @@
     }
   ],
   "lastSignal": {
-    "price": 78257.30490514959,
+    "price": 78224.23478424588,
     "direction": "LONG",
-    "score": 1.33,
-    "strength": 0.17,
+    "score": 0.33,
+    "strength": 0.04,
     "atr14": 811.0376210486482,
     "indicators": {
-      "ema20": 78026.03902078283,
-      "ema50": 78294.98319958945,
-      "rsi14": 56.80983143350978,
-      "macdHist": 101.99971260660004,
-      "bbUpper": 78383.25544678279,
-      "bbMid": 77861.35916784829,
-      "bbLower": 77339.4628889138
+      "ema20": 78022.88948545886,
+      "ema50": 78293.69692804822,
+      "rsi14": 55.82097238628329,
+      "macdHist": 99.88925296508272,
+      "bbUpper": 78376.76071385703,
+      "bbMid": 77859.7056618031,
+      "bbLower": 77342.65060974918
     },
     "fearGreed": {
-      "value": 68,
+      "value": 69,
       "classification": "Greed",
-      "timestamp": 1787961600000
+      "timestamp": 1788048000000
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "A $1.1 million crypto card hack crashed a neobank's token 49%",
+        "source": "CoinDesk",
+        "itemScore": -3
+      },
       {
         "title": "Bitcoin ETFs end 9-day inflow streak as BTC dips below $78K",
         "source": "Cointelegraph",
@@ -337,39 +342,39 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78026 vs EMA50=78295",
+        "detail": "EMA20=78023 vs EMA50=78294",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "56.8",
+        "detail": "55.8",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "102.0",
+        "detail": "99.9",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78257 vs [77339, 78383]",
+        "detail": "prix 78224 vs [77343, 78377]",
         "points": 0
       },
       {
         "factor": "Fear & Greed Index",
-        "detail": "68 (Greed)",
+        "detail": "69 (Greed)",
         "points": 0
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 4",
-        "points": 1.33
+        "detail": "30 articles pertinents, score brut 1",
+        "points": 0.33
       }
     ],
-    "computedAt": "2026-08-29T23:49:30.906Z",
-    "priceUSD": 78269.9,
-    "priceEUR": 67629,
-    "change24h": 0.5499615887607832
+    "computedAt": "2026-08-30T00:05:41.895Z",
+    "priceUSD": 78205,
+    "priceEUR": 67565.6,
+    "change24h": -0.029145648989237726
   },
   "history": [
     {
@@ -2131,7 +2136,12 @@
       "t": "2026-08-29T23:49:30.909Z",
       "equityEUR": 168.98,
       "priceEUR": 67629
+    },
+    {
+      "t": "2026-08-30T00:05:41.897Z",
+      "equityEUR": 168.76,
+      "priceEUR": 67565.6
     }
   ],
-  "lastRun": "2026-08-29T23:49:30.909Z"
+  "lastRun": "2026-08-30T00:05:41.897Z"
 }
