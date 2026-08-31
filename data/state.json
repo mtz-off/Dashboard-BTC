@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 93.04,
-  "equityEUR": 170.77,
+  "equityEUR": 170.47,
   "stopped": false,
   "openPositions": [
     {
@@ -335,19 +335,19 @@
     }
   ],
   "lastSignal": {
-    "price": 78666.82184428333,
+    "price": 78557.36120515909,
     "direction": "SHORT",
-    "score": -0.55,
-    "strength": 0.07,
+    "score": -0.88,
+    "strength": 0.11,
     "atr14": 768.527769630119,
     "indicators": {
-      "ema20": 78289.14880043287,
-      "ema50": 78291.31813492035,
-      "rsi14": 56.74060207690018,
-      "macdHist": 57.85832391704999,
-      "bbUpper": 78933.14191933989,
-      "bbMid": 78138.8368908522,
-      "bbLower": 77344.5318623645
+      "ema20": 78278.72397765913,
+      "ema50": 78287.02556083705,
+      "rsi14": 55.161096564676505,
+      "macdHist": 50.872801648151196,
+      "bbUpper": 78914.43975795379,
+      "bbMid": 78133.36385889599,
+      "bbLower": 77352.28795983818
     },
     "fearGreed": {
       "value": 62,
@@ -390,32 +390,27 @@
         "title": "Bitcoin ETFs Snap Nine-Day Inflow Streak as Ethereum Funds Extend Their Run",
         "source": "Decrypt",
         "itemScore": 1
-      },
-      {
-        "title": "Crypto market makers are cashing in on bitcoin's rally - without betting on direction",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78289 vs EMA50=78291",
+        "detail": "EMA20=78279 vs EMA50=78287",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "56.7",
+        "detail": "55.2",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "57.9",
+        "detail": "50.9",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78667 vs [77345, 78933]",
+        "detail": "prix 78557 vs [77352, 78914]",
         "points": 0
       },
       {
@@ -425,14 +420,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -3",
-        "points": -1
+        "detail": "30 articles pertinents, score brut -4",
+        "points": -1.33
       }
     ],
-    "computedAt": "2026-08-31T17:04:38.446Z",
-    "priceUSD": 78661.2,
-    "priceEUR": 67734.9,
-    "change24h": 1.2610450866099452
+    "computedAt": "2026-08-31T17:19:32.751Z",
+    "priceUSD": 78588.7,
+    "priceEUR": 67655.3,
+    "change24h": 1.167715392061944
   },
   "history": [
     {
@@ -3019,7 +3014,12 @@
       "t": "2026-08-31T17:04:38.449Z",
       "equityEUR": 170.77,
       "priceEUR": 67734.9
+    },
+    {
+      "t": "2026-08-31T17:19:32.753Z",
+      "equityEUR": 170.47,
+      "priceEUR": 67655.3
     }
   ],
-  "lastRun": "2026-08-31T17:04:38.449Z"
+  "lastRun": "2026-08-31T17:19:32.753Z"
 }
