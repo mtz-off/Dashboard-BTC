@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 93.04,
-  "equityEUR": 171.26,
+  "equityEUR": 171.27,
   "stopped": false,
   "openPositions": [
     {
@@ -335,19 +335,19 @@
     }
   ],
   "lastSignal": {
-    "price": 78886.6796094179,
+    "price": 78809.24118070533,
     "direction": "LONG",
-    "score": 2.67,
-    "strength": 0.33,
+    "score": 3,
+    "strength": 0.38,
     "atr14": 766.511347587092,
     "indicators": {
-      "ema20": 78494.59369272446,
-      "ema50": 78382.99014886566,
-      "rsi14": 58.75178589100003,
-      "macdHist": 87.23837471851138,
-      "bbUpper": 79239.49990051953,
-      "bbMid": 78289.74628080108,
-      "bbLower": 77339.99266108262
+      "ema20": 78487.21860427565,
+      "ema50": 78379.95334773968,
+      "rsi14": 57.14015680211269,
+      "macdHist": 82.29643510836166,
+      "bbUpper": 79226.44922693766,
+      "bbMid": 78285.87435936545,
+      "bbLower": 77345.29949179324
     },
     "fearGreed": {
       "value": 62,
@@ -356,6 +356,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "North Korean hackers are moving tens of millions on Hyperliquid as Trump pushes to onshore the crypto platform",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "XRP ETFs Extend Inflow Streak to 9 Days, Pulling In $1.6 Billion Since Launch",
         "source": "Decrypt",
@@ -390,32 +395,27 @@
         "title": "Markets pivot to September Fed rate hike: Five things to know in Bitcoin this week",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "Crypto.com&#39;s Cronos Halts Entire Blockchain After $75M Tectonic Exploit",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78495 vs EMA50=78383",
+        "detail": "EMA20=78487 vs EMA50=78380",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "58.8",
+        "detail": "57.1",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "87.2",
+        "detail": "82.3",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78887 vs [77340, 79239]",
+        "detail": "prix 78809 vs [77345, 79226]",
         "points": 0
       },
       {
@@ -425,14 +425,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -4",
-        "points": -1.33
+        "detail": "30 articles pertinents, score brut -3",
+        "points": -1
       }
     ],
-    "computedAt": "2026-08-31T20:49:24.593Z",
-    "priceUSD": 78826.6,
-    "priceEUR": 67864.8,
-    "change24h": 1.4739655207925684
+    "computedAt": "2026-08-31T21:04:35.268Z",
+    "priceUSD": 78836.9,
+    "priceEUR": 67867.3,
+    "change24h": 1.487224773949028
   },
   "history": [
     {
@@ -3094,7 +3094,12 @@
       "t": "2026-08-31T20:49:24.596Z",
       "equityEUR": 171.26,
       "priceEUR": 67864.8
+    },
+    {
+      "t": "2026-08-31T21:04:35.270Z",
+      "equityEUR": 171.27,
+      "priceEUR": 67867.3
     }
   ],
-  "lastRun": "2026-08-31T20:49:24.596Z"
+  "lastRun": "2026-08-31T21:04:35.270Z"
 }
