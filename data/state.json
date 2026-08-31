@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 93.04,
-  "equityEUR": 172.14,
+  "equityEUR": 172.06,
   "stopped": false,
   "openPositions": [
     {
@@ -335,19 +335,19 @@
     }
   ],
   "lastSignal": {
-    "price": 79109.5194044847,
+    "price": 79036.13223475222,
     "direction": "LONG",
     "score": 3.12,
     "strength": 0.39,
     "atr14": 768.527769630119,
     "indicators": {
-      "ema20": 78473.35401439878,
-      "ema50": 78370.6830561792,
-      "rsi14": 62.808841248779856,
-      "macdHist": 107.84635260453408,
-      "bbUpper": 79207.38306158532,
-      "bbMid": 78251.44345925844,
-      "bbLower": 77295.50385693157
+      "ema20": 78466.36476013855,
+      "ema50": 78367.8051279544,
+      "rsi14": 61.84114982598531,
+      "macdHist": 103.16295487801736,
+      "bbUpper": 79190.9893974311,
+      "bbMid": 78247.77410077181,
+      "bbLower": 77304.55880411253
     },
     "fearGreed": {
       "value": 62,
@@ -356,6 +356,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "XRP ETFs Extend Inflow Streak to 9 Days, Pulling In $1.6 Billion Since Launch",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
       {
         "title": "Russia&#39;s Sberbank Sees $46 Billion in Crypto Trading, Plans Ethereum and USDT-Backed Loans",
         "source": "Decrypt",
@@ -390,32 +395,27 @@
         "title": "Crypto.com&#39;s Cronos Halts Entire Blockchain After $75M Tectonic Exploit",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "September Fed rate hike fears look overblown as the probability stands at just 58%, not 90%",
-        "source": "CoinDesk",
-        "itemScore": -2
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78473 vs EMA50=78371",
+        "detail": "EMA20=78466 vs EMA50=78368",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "62.8",
+        "detail": "61.8",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "107.8",
+        "detail": "103.2",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 79110 vs [77296, 79207]",
+        "detail": "prix 79036 vs [77305, 79191]",
         "points": 0
       },
       {
@@ -429,10 +429,10 @@
         "points": -1.33
       }
     ],
-    "computedAt": "2026-08-31T19:19:30.925Z",
-    "priceUSD": 79062.4,
-    "priceEUR": 68096.7,
-    "change24h": 1.7775123066466039
+    "computedAt": "2026-08-31T19:34:37.956Z",
+    "priceUSD": 79087.1,
+    "priceEUR": 68075.4,
+    "change24h": 1.8093087680995241
   },
   "history": [
     {
@@ -3064,7 +3064,12 @@
       "t": "2026-08-31T19:19:30.927Z",
       "equityEUR": 172.14,
       "priceEUR": 68096.7
+    },
+    {
+      "t": "2026-08-31T19:34:37.958Z",
+      "equityEUR": 172.06,
+      "priceEUR": 68075.4
     }
   ],
-  "lastRun": "2026-08-31T19:19:30.927Z"
+  "lastRun": "2026-08-31T19:34:37.958Z"
 }
