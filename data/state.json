@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 97.66,
-  "equityEUR": 171.21,
+  "equityEUR": 171.56,
   "stopped": false,
   "openPositions": [
     {
@@ -319,19 +319,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77978.4606326121,
+    "price": 78079.21089279705,
     "direction": "SHORT",
-    "score": -3.5,
-    "strength": 0.44,
+    "score": -4.5,
+    "strength": 0.56,
     "atr14": 748.2420995593957,
     "indicators": {
-      "ema20": 78119.11496642316,
-      "ema50": 78247.95046452459,
-      "rsi14": 46.49992973023336,
-      "macdHist": -78.59964208862424,
-      "bbUpper": 79472.69742603708,
-      "bbMid": 78356.29578339701,
-      "bbLower": 77239.89414075695
+      "ema20": 78128.71022929791,
+      "ema50": 78251.90145512007,
+      "rsi14": 48.33524845959279,
+      "macdHist": -72.16999585460783,
+      "bbUpper": 79471.76314499023,
+      "bbMid": 78361.33329640627,
+      "bbLower": 77250.90344782232
     },
     "fearGreed": {
       "value": 62,
@@ -340,6 +340,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "September Fed rate hike fears look overblown as the probability stands at just 58%, not 90%",
+        "source": "CoinDesk",
+        "itemScore": -2
+      },
       {
         "title": "Bitcoin ETFs Snap Nine-Day Inflow Streak as Ethereum Funds Extend Their Run",
         "source": "Decrypt",
@@ -354,32 +359,27 @@
         "title": "A $1.1 million crypto card hack crashed a neobank's token 49%",
         "source": "CoinDesk",
         "itemScore": -3
-      },
-      {
-        "title": "Bitcoin ETFs end 9-day inflow streak as BTC dips below $78K",
-        "source": "Cointelegraph",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78119 vs EMA50=78248",
+        "detail": "EMA20=78129 vs EMA50=78252",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "46.5",
+        "detail": "48.3",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-78.6",
+        "detail": "-72.2",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77978 vs [77240, 79473]",
+        "detail": "prix 78079 vs [77251, 79472]",
         "points": 0
       },
       {
@@ -389,14 +389,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "11 articles pertinents, score brut 0",
-        "points": 0
+        "detail": "11 articles pertinents, score brut -3",
+        "points": -1
       }
     ],
-    "computedAt": "2026-08-31T06:34:36.744Z",
-    "priceUSD": 77972.5,
-    "priceEUR": 67300.1,
-    "change24h": 0.3744773537105237
+    "computedAt": "2026-08-31T06:49:24.950Z",
+    "priceUSD": 78080.1,
+    "priceEUR": 67400.5,
+    "change24h": 0.5129914934810818
   },
   "history": [
     {
@@ -2773,7 +2773,12 @@
       "t": "2026-08-31T06:34:36.746Z",
       "equityEUR": 171.21,
       "priceEUR": 67300.1
+    },
+    {
+      "t": "2026-08-31T06:49:24.952Z",
+      "equityEUR": 171.56,
+      "priceEUR": 67400.5
     }
   ],
-  "lastRun": "2026-08-31T06:34:36.746Z"
+  "lastRun": "2026-08-31T06:49:24.952Z"
 }
