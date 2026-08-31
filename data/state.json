@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 124.05183411497437,
-  "equityEUR": 172.9,
+  "equityEUR": 172.91,
   "stopped": false,
   "openPositions": [
     {
@@ -318,19 +318,19 @@
     }
   ],
   "lastSignal": {
-    "price": 78652.68122841592,
+    "price": 78699.46022946964,
     "direction": "SHORT",
-    "score": -0.55,
-    "strength": 0.07,
+    "score": -0.88,
+    "strength": 0.11,
     "atr14": 753.0796289416268,
     "indicators": {
-      "ema20": 78211.81584903205,
-      "ema50": 78273.17060489609,
-      "rsi14": 58.093347169534944,
-      "macdHist": 40.33246814687527,
-      "bbUpper": 79420.98432851765,
-      "bbMid": 78339.01597821247,
-      "bbLower": 77257.04762790729
+      "ema20": 78216.27099198954,
+      "ema50": 78275.00507552565,
+      "rsi14": 58.769155740583706,
+      "macdHist": 43.31779470983683,
+      "bbUpper": 79426.22379689792,
+      "bbMid": 78341.35492826515,
+      "bbLower": 77256.48605963239
     },
     "fearGreed": {
       "value": 62,
@@ -339,6 +339,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Crypto.com&#39;s Cronos Halts Entire Blockchain After $75M Tectonic Exploit",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
       {
         "title": "September Fed rate hike fears look overblown as the probability stands at just 58%, not 90%",
         "source": "CoinDesk",
@@ -363,22 +368,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78212 vs EMA50=78273",
+        "detail": "EMA20=78216 vs EMA50=78275",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "58.1",
+        "detail": "58.8",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "40.3",
+        "detail": "43.3",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78653 vs [77257, 79421]",
+        "detail": "prix 78699 vs [77256, 79426]",
         "points": 0
       },
       {
@@ -388,14 +393,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "14 articles pertinents, score brut -3",
-        "points": -1
+        "detail": "15 articles pertinents, score brut -4",
+        "points": -1.33
       }
     ],
-    "computedAt": "2026-08-31T09:34:23.961Z",
-    "priceUSD": 78656.3,
-    "priceEUR": 67826.9,
-    "change24h": 1.2547372865646396
+    "computedAt": "2026-08-31T09:49:42.387Z",
+    "priceUSD": 78657.6,
+    "priceEUR": 67827.5,
+    "change24h": 1.2564107845358488
   },
   "history": [
     {
@@ -2832,7 +2837,12 @@
       "t": "2026-08-31T09:34:23.963Z",
       "equityEUR": 172.9,
       "priceEUR": 67826.9
+    },
+    {
+      "t": "2026-08-31T09:49:42.390Z",
+      "equityEUR": 172.91,
+      "priceEUR": 67827.5
     }
   ],
-  "lastRun": "2026-08-31T09:34:23.963Z"
+  "lastRun": "2026-08-31T09:49:42.390Z"
 }
