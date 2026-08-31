@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 93.04,
-  "equityEUR": 170.64,
+  "equityEUR": 171.33,
   "stopped": false,
   "openPositions": [
     {
@@ -335,19 +335,19 @@
     }
   ],
   "lastSignal": {
-    "price": 78531.42982731854,
+    "price": 78859.54079858646,
     "direction": "LONG",
-    "score": 2.17,
-    "strength": 0.27,
+    "score": 3.45,
+    "strength": 0.43,
     "atr14": 768.527769630119,
     "indicators": {
-      "ema20": 78308.48794040662,
-      "ema50": 78299.10100349782,
-      "rsi14": 54.36967300046967,
-      "macdHist": 54.810900834604034,
-      "bbUpper": 78907.4292938049,
-      "bbMid": 78131.23470109879,
-      "bbLower": 77355.04010839267
+      "ema20": 78339.7366043369,
+      "ema50": 78311.96810041029,
+      "rsi14": 59.48978703388446,
+      "macdHist": 75.7501764938639,
+      "bbUpper": 78969.5016760408,
+      "bbMid": 78147.64024966219,
+      "bbLower": 77325.77882328357
     },
     "fearGreed": {
       "value": 62,
@@ -356,6 +356,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Webull expands crypto trading into Canada through Coinbase collaboration",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
       {
         "title": "Russian crypto trading to bring $46B to regulated exchanges in first year after legalization: Report",
         "source": "Cointelegraph",
@@ -395,22 +400,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78308 vs EMA50=78299",
+        "detail": "EMA20=78340 vs EMA50=78312",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "54.4",
-        "points": 0
+        "detail": "59.5",
+        "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "54.8",
-        "points": 1.5
+        "detail": "75.8",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78531 vs [77355, 78907]",
+        "detail": "prix 78860 vs [77326, 78970]",
         "points": 0
       },
       {
@@ -420,14 +425,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -4",
-        "points": -1.33
+        "detail": "30 articles pertinents, score brut -3",
+        "points": -1
       }
     ],
-    "computedAt": "2026-08-31T17:34:37.865Z",
-    "priceUSD": 78613.1,
-    "priceEUR": 67702.2,
-    "change24h": 1.1991256616753516
+    "computedAt": "2026-08-31T17:49:34.239Z",
+    "priceUSD": 78835.6,
+    "priceEUR": 67883.5,
+    "change24h": 1.4855512759778378
   },
   "history": [
     {
@@ -3024,7 +3029,12 @@
       "t": "2026-08-31T17:34:37.867Z",
       "equityEUR": 170.64,
       "priceEUR": 67702.2
+    },
+    {
+      "t": "2026-08-31T17:49:34.242Z",
+      "equityEUR": 171.33,
+      "priceEUR": 67883.5
     }
   ],
-  "lastRun": "2026-08-31T17:34:37.867Z"
+  "lastRun": "2026-08-31T17:49:34.242Z"
 }
