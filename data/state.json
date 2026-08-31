@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 93.04,
-  "equityEUR": 170.81,
+  "equityEUR": 170.27,
   "stopped": false,
   "openPositions": [
     {
@@ -335,19 +335,19 @@
     }
   ],
   "lastSignal": {
-    "price": 78570.16984126178,
+    "price": 78447.90195331436,
     "direction": "SHORT",
-    "score": -0.88,
-    "strength": 0.11,
+    "score": -1.38,
+    "strength": 0.17,
     "atr14": 753.0796289416268,
     "indicators": {
-      "ema20": 78232.93441481254,
-      "ema50": 78279.11796632937,
-      "rsi14": 56.927575689019704,
-      "macdHist": 52.136735444971876,
-      "bbUpper": 79382.95412219175,
-      "bbMid": 78321.15447957405,
-      "bbLower": 77259.35483695635
+      "ema20": 78261.99974123962,
+      "ema50": 78289.49399197343,
+      "rsi14": 53.734728302985985,
+      "macdHist": 59.18569363250783,
+      "bbUpper": 79354.23023891328,
+      "bbMid": 78308.1097194811,
+      "bbLower": 77261.98920004892
     },
     "fearGreed": {
       "value": 62,
@@ -356,6 +356,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Sberbank plans to add ether and USDT as collateral for crypto-backed loans: Report",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Here's 1 metric on U.S. debt that makes bitcoin's bull case look stronger than ever",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "Markets pivot to September Fed rate hike: Five things to know in Bitcoin this week",
         "source": "Cointelegraph",
@@ -385,32 +395,27 @@
         "title": "Crypto market makers are cashing in on bitcoin's rally - without betting on direction",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "A $1.1 million crypto card hack crashed a neobank's token 49%",
-        "source": "CoinDesk",
-        "itemScore": -3
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78233 vs EMA50=78279",
+        "detail": "EMA20=78262 vs EMA50=78289",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "56.9",
-        "points": 0.5
+        "detail": "53.7",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "52.1",
+        "detail": "59.2",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78570 vs [77259, 79383]",
+        "detail": "prix 78448 vs [77262, 79354]",
         "points": 0
       },
       {
@@ -420,14 +425,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "18 articles pertinents, score brut -4",
+        "detail": "21 articles pertinents, score brut -4",
         "points": -1.33
       }
     ],
-    "computedAt": "2026-08-31T11:19:44.462Z",
-    "priceUSD": 78600,
-    "priceEUR": 67746.7,
-    "change24h": 1.1822619513501191
+    "computedAt": "2026-08-31T11:34:38.874Z",
+    "priceUSD": 78416.4,
+    "priceEUR": 67603.4,
+    "change24h": 0.945912545570622
   },
   "history": [
     {
@@ -2899,7 +2904,12 @@
       "t": "2026-08-31T11:19:44.464Z",
       "equityEUR": 170.81,
       "priceEUR": 67746.7
+    },
+    {
+      "t": "2026-08-31T11:34:38.876Z",
+      "equityEUR": 170.27,
+      "priceEUR": 67603.4
     }
   ],
-  "lastRun": "2026-08-31T11:19:44.464Z"
+  "lastRun": "2026-08-31T11:34:38.876Z"
 }
