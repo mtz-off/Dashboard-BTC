@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 93.04,
-  "equityEUR": 170.66,
+  "equityEUR": 170.86,
   "stopped": false,
   "openPositions": [
     {
@@ -335,19 +335,19 @@
     }
   ],
   "lastSignal": {
-    "price": 78516.79842883532,
+    "price": 78615.65549932185,
     "direction": "SHORT",
     "score": -0.88,
     "strength": 0.11,
     "atr14": 753.0796289416268,
     "indicators": {
-      "ema20": 78227.8514231518,
-      "ema50": 78277.02976625186,
-      "rsi14": 56.01715052382263,
-      "macdHist": 48.73069656777703,
-      "bbUpper": 79378.0346699315,
-      "bbMid": 78318.48590895273,
-      "bbLower": 77258.93714797396
+      "ema20": 78237.26638224683,
+      "ema50": 78280.90171762585,
+      "rsi14": 57.67424916211771,
+      "macdHist": 55.039523879568605,
+      "bbUpper": 79387.54446655598,
+      "bbMid": 78323.42876247705,
+      "bbLower": 77259.31305839813
     },
     "fearGreed": {
       "value": 62,
@@ -357,9 +357,19 @@
     "fundingRate": null,
     "newsHighlights": [
       {
+        "title": "Markets pivot to September Fed rate hike: Five things to know in Bitcoin this week",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
         "title": "Crypto.com&#39;s Cronos Halts Entire Blockchain After $75M Tectonic Exploit",
         "source": "Decrypt",
         "itemScore": -1
+      },
+      {
+        "title": "Live updates: Bitcoin holds $78,000, ether forms bullish golden cross",
+        "source": "CoinDesk",
+        "itemScore": 1
       },
       {
         "title": "September Fed rate hike fears look overblown as the probability stands at just 58%, not 90%",
@@ -385,22 +395,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78228 vs EMA50=78277",
+        "detail": "EMA20=78237 vs EMA50=78281",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "56.0",
+        "detail": "57.7",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "48.7",
+        "detail": "55.0",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78517 vs [77259, 79378]",
+        "detail": "prix 78616 vs [77259, 79388]",
         "points": 0
       },
       {
@@ -410,14 +420,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "16 articles pertinents, score brut -4",
+        "detail": "17 articles pertinents, score brut -4",
         "points": -1.33
       }
     ],
-    "computedAt": "2026-08-31T10:49:30.551Z",
-    "priceUSD": 78514.9,
-    "priceEUR": 67706.3,
-    "change24h": 1.0727121995427338
+    "computedAt": "2026-08-31T11:04:32.459Z",
+    "priceUSD": 78588.4,
+    "priceEUR": 67760,
+    "change24h": 1.1673292002224314
   },
   "history": [
     {
@@ -2879,7 +2889,12 @@
       "t": "2026-08-31T10:49:30.553Z",
       "equityEUR": 170.66,
       "priceEUR": 67706.3
+    },
+    {
+      "t": "2026-08-31T11:04:32.461Z",
+      "equityEUR": 170.86,
+      "priceEUR": 67760
     }
   ],
-  "lastRun": "2026-08-31T10:49:30.553Z"
+  "lastRun": "2026-08-31T11:04:32.461Z"
 }
