@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 93.04,
-  "equityEUR": 168.96,
+  "equityEUR": 169.47,
   "stopped": false,
   "openPositions": [
     {
@@ -335,19 +335,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77983.84941565718,
+    "price": 78147.54383398338,
     "direction": "SHORT",
-    "score": -0.78,
-    "strength": 0.1,
+    "score": -0.33,
+    "strength": 0.04,
     "atr14": 753.9558704112181,
     "indicators": {
-      "ema20": 78434.07349719432,
-      "ema50": 78419.14412391998,
-      "rsi14": 41.91188378201537,
-      "macdHist": -101.4486940010754,
-      "bbUpper": 79280.86032997983,
-      "bbMid": 78593.1369685706,
-      "bbLower": 77905.41360716138
+      "ema20": 78449.66344179682,
+      "ema50": 78425.56351287395,
+      "rsi14": 44.890659340730096,
+      "macdHist": -91.0020986435074,
+      "bbUpper": 79263.25812683818,
+      "bbMid": 78601.32168948691,
+      "bbLower": 77939.38525213565
     },
     "fearGreed": {
       "value": 69,
@@ -356,6 +356,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin consolidates near $78,000 as Arbitrum surges 30% on Robinhood Chain revenue",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Live updates: Bitcoin trades around $78,000 as global bond sell-off deepens",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "BlackRock drives $217M Bitcoin ETF rebound as altcoin funds continue streaks",
         "source": "Cointelegraph",
@@ -385,37 +395,27 @@
         "title": "Webull expands crypto trading into Canada through Coinbase collaboration",
         "source": "Cointelegraph",
         "itemScore": 1
-      },
-      {
-        "title": "Russian crypto trading to bring $46B to regulated exchanges in first year after legalization: Report",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Sberbank plans to add ether and USDT as collateral for crypto-backed loans: Report",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78434 vs EMA50=78419",
+        "detail": "EMA20=78450 vs EMA50=78426",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "41.9",
+        "detail": "44.9",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-101.4",
-        "points": -1.95
+        "detail": "-91.0",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77984 vs [77905, 79281]",
+        "detail": "prix 78148 vs [77939, 79263]",
         "points": 0
       },
       {
@@ -429,10 +429,10 @@
         "points": -0.33
       }
     ],
-    "computedAt": "2026-09-01T10:28:51.288Z",
-    "priceUSD": 77967.2,
-    "priceEUR": 67258.5,
-    "change24h": -0.7583722617517189
+    "computedAt": "2026-09-01T10:44:22.340Z",
+    "priceUSD": 78105.9,
+    "priceEUR": 67393.8,
+    "change24h": -0.5818260504308719
   },
   "history": [
     {
@@ -3354,7 +3354,12 @@
       "t": "2026-09-01T10:28:51.290Z",
       "equityEUR": 168.96,
       "priceEUR": 67258.5
+    },
+    {
+      "t": "2026-09-01T10:44:22.343Z",
+      "equityEUR": 169.47,
+      "priceEUR": 67393.8
     }
   ],
-  "lastRun": "2026-09-01T10:28:51.290Z"
+  "lastRun": "2026-09-01T10:44:22.343Z"
 }
