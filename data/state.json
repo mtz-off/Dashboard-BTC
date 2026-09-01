@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 93.04,
-  "equityEUR": 169.43,
+  "equityEUR": 168.52,
   "stopped": false,
   "openPositions": [
     {
@@ -335,19 +335,19 @@
     }
   ],
   "lastSignal": {
-    "price": 78092.22663941214,
+    "price": 77958.08776755174,
     "direction": "SHORT",
-    "score": -4.67,
-    "strength": 0.58,
+    "score": -4,
+    "strength": 0.5,
     "atr14": 761.9251907509504,
     "indicators": {
-      "ema20": 78403.85263593457,
-      "ema50": 78407.32874604083,
-      "rsi14": 44.03036223615382,
-      "macdHist": -94.68154704744487,
-      "bbUpper": 79288.67688732859,
-      "bbMid": 78571.39666032413,
-      "bbLower": 77854.11643331966
+      "ema20": 78359.27130301535,
+      "ema50": 78388.76927269319,
+      "rsi14": 41.848356570134975,
+      "macdHist": -96.17109380087851,
+      "bbUpper": 79304.5323236784,
+      "bbMid": 78536.89284997548,
+      "bbLower": 77769.25337627257
     },
     "fearGreed": {
       "value": 69,
@@ -360,11 +360,6 @@
         "title": "Bitcoin consolidates near $78,000 as Arbitrum surges 30% on Robinhood Chain revenue",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Live updates: Bitcoin trades around $78,000 as global bond sell-off deepens",
-        "source": "CoinDesk",
-        "itemScore": -1
       },
       {
         "title": "BlackRock drives $217M Bitcoin ETF rebound as altcoin funds continue streaks",
@@ -395,27 +390,32 @@
         "title": "Webull expands crypto trading into Canada through Coinbase collaboration",
         "source": "Cointelegraph",
         "itemScore": 1
+      },
+      {
+        "title": "Russian crypto trading to bring $46B to regulated exchanges in first year after legalization: Report",
+        "source": "Cointelegraph",
+        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78404 vs EMA50=78407",
+        "detail": "EMA20=78359 vs EMA50=78389",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "44.0",
+        "detail": "41.8",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-94.7",
+        "detail": "-96.2",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78092 vs [77854, 79289]",
+        "detail": "prix 77958 vs [77769, 79305]",
         "points": 0
       },
       {
@@ -425,14 +425,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -2",
-        "points": -0.67
+        "detail": "30 articles pertinents, score brut 0",
+        "points": 0
       }
     ],
-    "computedAt": "2026-09-01T12:11:22.150Z",
-    "priceUSD": 78104.1,
-    "priceEUR": 67381.6,
-    "change24h": -0.5841172053001975
+    "computedAt": "2026-09-01T12:32:06.124Z",
+    "priceUSD": 77849,
+    "priceEUR": 67142.2,
+    "change24h": -0.9088247648384099
   },
   "history": [
     {
@@ -3389,7 +3389,12 @@
       "t": "2026-09-01T12:11:22.152Z",
       "equityEUR": 169.43,
       "priceEUR": 67381.6
+    },
+    {
+      "t": "2026-09-01T12:32:06.126Z",
+      "equityEUR": 168.52,
+      "priceEUR": 67142.2
     }
   ],
-  "lastRun": "2026-09-01T12:11:22.152Z"
+  "lastRun": "2026-09-01T12:32:06.126Z"
 }
