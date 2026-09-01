@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 93.04,
-  "equityEUR": 168.45,
+  "equityEUR": 167.53,
   "stopped": false,
   "openPositions": [
     {
@@ -335,19 +335,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77757.43594833979,
+    "price": 77604.9217762088,
     "direction": "SHORT",
-    "score": -4.45,
-    "strength": 0.56,
+    "score": -3.12,
+    "strength": 0.39,
     "atr14": 761.9251907509504,
     "indicators": {
-      "ema20": 78340.16160594906,
-      "ema50": 78380.87831946553,
-      "rsi14": 39.04683539702186,
-      "macdHist": -108.97622481532308,
-      "bbUpper": 79328.9670459672,
-      "bbMid": 78526.8602590149,
-      "bbLower": 77724.75347206258
+      "ema20": 78289.48236228681,
+      "ema50": 78358.90685125443,
+      "rsi14": 36.817199208910836,
+      "macdHist": -112.66907242464484,
+      "bbUpper": 79323.18023559163,
+      "bbMid": 78474.77238312448,
+      "bbLower": 77626.36453065733
     },
     "fearGreed": {
       "value": 69,
@@ -356,6 +356,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Does the Bitcoin rally mean we haven’t wasted our lives in crypto?",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
       {
         "title": "Bitcoin consolidates near $78,000 as Arbitrum surges 30% on Robinhood Chain revenue",
         "source": "CoinDesk",
@@ -390,33 +395,28 @@
         "title": "Webull expands crypto trading into Canada through Coinbase collaboration",
         "source": "Cointelegraph",
         "itemScore": 1
-      },
-      {
-        "title": "Russian crypto trading to bring $46B to regulated exchanges in first year after legalization: Report",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78340 vs EMA50=78381",
+        "detail": "EMA20=78289 vs EMA50=78359",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "39.0",
+        "detail": "36.8",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-109.0",
+        "detail": "-112.7",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77757 vs [77725, 79329]",
-        "points": 0
+        "detail": "prix 77605 vs [77626, 79323]",
+        "points": 1
       },
       {
         "factor": "Fear & Greed Index",
@@ -425,14 +425,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 0",
-        "points": 0
+        "detail": "30 articles pertinents, score brut 1",
+        "points": 0.33
       }
     ],
-    "computedAt": "2026-09-01T13:26:05.002Z",
-    "priceUSD": 77770.6,
-    "priceEUR": 67123.4,
-    "change24h": -1.0086172880363458
+    "computedAt": "2026-09-01T13:40:13.041Z",
+    "priceUSD": 77576.2,
+    "priceEUR": 66883.3,
+    "change24h": -1.256062013925134
   },
   "history": [
     {
@@ -3409,7 +3409,12 @@
       "t": "2026-09-01T13:26:05.004Z",
       "equityEUR": 168.45,
       "priceEUR": 67123.4
+    },
+    {
+      "t": "2026-09-01T13:40:13.044Z",
+      "equityEUR": 167.53,
+      "priceEUR": 66883.3
     }
   ],
-  "lastRun": "2026-09-01T13:26:05.004Z"
+  "lastRun": "2026-09-01T13:40:13.044Z"
 }
