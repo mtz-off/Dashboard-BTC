@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 128.57518905383807,
-  "equityEUR": 166.38,
+  "equityEUR": 168.54,
   "stopped": false,
   "openPositions": [
     {
@@ -334,19 +334,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77191.68759801013,
+    "price": 77059.25375254657,
     "direction": "SHORT",
-    "score": -1.78,
-    "strength": 0.22,
+    "score": -1.45,
+    "strength": 0.18,
     "atr14": 768.9359651060287,
     "indicators": {
-      "ema20": 78110.24919308293,
-      "ema50": 78273.8976748761,
-      "rsi14": 31.760497819181083,
-      "macdHist": -115.17935865589108,
-      "bbUpper": 79152.08446779147,
-      "bbMid": 78250.34846598182,
-      "bbLower": 77348.61246417217
+      "ema20": 78014.84555458199,
+      "ema50": 78228.3048294048,
+      "rsi14": 30.24277077621737,
+      "macdHist": -133.25467873186545,
+      "bbUpper": 79195.31999536877,
+      "bbMid": 78178.14337445059,
+      "bbLower": 77160.96675353241
     },
     "fearGreed": {
       "value": 69,
@@ -355,6 +355,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin&#39;s Next Move: Bullish Bets Run Up Against a Historical Wall",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
       {
         "title": "Cathie Wood’s Ark Invest Buys $37 Million in Bitcoin and Payments Firm Block",
         "source": "Decrypt",
@@ -389,32 +394,27 @@
         "title": "Live updates: Bitcoin slumps as oil surges to three-month high on new Iran strikes",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "BlackRock drives $217M Bitcoin ETF rebound as altcoin funds continue streaks",
-        "source": "Cointelegraph",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78110 vs EMA50=78274",
+        "detail": "EMA20=78015 vs EMA50=78228",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "31.8",
+        "detail": "30.2",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-115.2",
+        "detail": "-133.3",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77192 vs [77349, 79152]",
+        "detail": "prix 77059 vs [77161, 79195]",
         "points": 1
       },
       {
@@ -424,14 +424,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 5",
-        "points": 1.67
+        "detail": "30 articles pertinents, score brut 6",
+        "points": 2
       }
     ],
-    "computedAt": "2026-09-01T18:10:19.088Z",
-    "priceUSD": 77146.2,
-    "priceEUR": 66580.4,
-    "change24h": -1.8033934549342605
+    "computedAt": "2026-09-01T18:29:06.027Z",
+    "priceUSD": 76811.2,
+    "priceEUR": 66266.7,
+    "change24h": -2.2298028333948587
   },
   "history": [
     {
@@ -3478,7 +3478,12 @@
       "t": "2026-09-01T18:10:19.090Z",
       "equityEUR": 166.38,
       "priceEUR": 66580.4
+    },
+    {
+      "t": "2026-09-01T18:29:06.030Z",
+      "equityEUR": 168.54,
+      "priceEUR": 66266.7
     }
   ],
-  "lastRun": "2026-09-01T18:10:19.090Z"
+  "lastRun": "2026-09-01T18:29:06.030Z"
 }
