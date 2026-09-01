@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 93.04,
-  "equityEUR": 168.85,
+  "equityEUR": 167.83,
   "stopped": false,
   "openPositions": [
     {
@@ -335,19 +335,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77897.96392428619,
+    "price": 77586.85913539183,
     "direction": "SHORT",
-    "score": -3.45,
-    "strength": 0.43,
-    "atr14": 761.9251907509504,
+    "score": -3.12,
+    "strength": 0.39,
+    "atr14": 768.9359651060287,
     "indicators": {
-      "ema20": 78273.4826197438,
-      "ema50": 78348.42455029236,
-      "rsi14": 41.43804489227028,
-      "macdHist": -68.3747077354738,
-      "bbUpper": 79161.13164120736,
-      "bbMid": 78402.18341125677,
-      "bbLower": 77643.23518130618
+      "ema20": 78243.85359222353,
+      "ema50": 78336.2145720696,
+      "rsi14": 37.01021829593624,
+      "macdHist": -88.22868883182247,
+      "bbUpper": 79197.26855484462,
+      "bbMid": 78386.62817181206,
+      "bbLower": 77575.9877887795
     },
     "fearGreed": {
       "value": 69,
@@ -356,6 +356,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Cathie Wood’s Ark Invest Buys $37 Million in Bitcoin and Payments Firm Block",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
       {
         "title": "Bitcoin stays flat as global bond bear market rages on, pushing JGB to high",
         "source": "Cointelegraph",
@@ -390,32 +395,27 @@
         "title": "Thailand SEC proposes retail access to regulated overseas crypto derivatives",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "North Korean hackers are moving tens of millions on Hyperliquid as Trump pushes to onshore the crypto platform",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78273 vs EMA50=78348",
+        "detail": "EMA20=78244 vs EMA50=78336",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "41.4",
+        "detail": "37.0",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-68.4",
+        "detail": "-88.2",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77898 vs [77643, 79161]",
+        "detail": "prix 77587 vs [77576, 79197]",
         "points": 0
       },
       {
@@ -425,14 +425,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 3",
-        "points": 1
+        "detail": "30 articles pertinents, score brut 4",
+        "points": 1.33
       }
     ],
-    "computedAt": "2026-09-01T15:44:29.798Z",
-    "priceUSD": 77893.8,
-    "priceEUR": 67229.7,
-    "change24h": -0.8518004658681531
+    "computedAt": "2026-09-01T16:29:47.761Z",
+    "priceUSD": 77591.3,
+    "priceEUR": 66961.7,
+    "change24h": -1.236841770298992
   },
   "history": [
     {
@@ -3444,7 +3444,12 @@
       "t": "2026-09-01T15:44:29.800Z",
       "equityEUR": 168.85,
       "priceEUR": 67229.7
+    },
+    {
+      "t": "2026-09-01T16:29:47.763Z",
+      "equityEUR": 167.83,
+      "priceEUR": 66961.7
     }
   ],
-  "lastRun": "2026-09-01T15:44:29.800Z"
+  "lastRun": "2026-09-01T16:29:47.763Z"
 }
