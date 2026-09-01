@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 93.04,
-  "equityEUR": 169.32,
+  "equityEUR": 169.69,
   "stopped": false,
   "openPositions": [
     {
@@ -335,19 +335,19 @@
     }
   ],
   "lastSignal": {
-    "price": 78081.21255272748,
+    "price": 78207.9821694338,
     "direction": "SHORT",
-    "score": -3.67,
-    "strength": 0.46,
+    "score": -2.83,
+    "strength": 0.35,
     "atr14": 761.9251907509504,
     "indicators": {
-      "ema20": 78334.84338862193,
-      "ema50": 78377.58492092183,
-      "rsi14": 44.35396322368133,
-      "macdHist": -82.27330776932766,
-      "bbUpper": 79271.35933828015,
-      "bbMid": 78498.58692195042,
-      "bbLower": 77725.8145056207
+      "ema20": 78346.91668545111,
+      "ema50": 78382.55627843973,
+      "rsi14": 46.87261359696813,
+      "macdHist": -74.1831669880671,
+      "bbUpper": 79265.88956337616,
+      "bbMid": 78504.92540278574,
+      "bbLower": 77743.96124219532
     },
     "fearGreed": {
       "value": 69,
@@ -356,6 +356,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin enters ‘Rektember’ as rate-hike risk combines with seasonality to threaten rally",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "Does the Bitcoin rally mean we haven’t wasted our lives in crypto?",
         "source": "Cointelegraph",
@@ -390,32 +395,27 @@
         "title": "Russia&#39;s Sberbank Sees $46 Billion in Crypto Trading, Plans Ethereum and USDT-Backed Loans",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "Webull expands crypto trading into Canada through Coinbase collaboration",
-        "source": "Cointelegraph",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78335 vs EMA50=78378",
+        "detail": "EMA20=78347 vs EMA50=78383",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "44.4",
-        "points": -0.5
+        "detail": "46.9",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-82.3",
+        "detail": "-74.2",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78081 vs [77726, 79271]",
+        "detail": "prix 78208 vs [77744, 79266]",
         "points": 0
       },
       {
@@ -425,14 +425,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 1",
-        "points": 0.33
+        "detail": "30 articles pertinents, score brut 2",
+        "points": 0.67
       }
     ],
-    "computedAt": "2026-09-01T13:51:55.086Z",
-    "priceUSD": 78135.3,
-    "priceEUR": 67353.3,
-    "change24h": -0.5444038542316321
+    "computedAt": "2026-09-01T14:08:57.413Z",
+    "priceUSD": 78266.7,
+    "priceEUR": 67451.2,
+    "change24h": -0.3771495487697808
   },
   "history": [
     {
@@ -3419,7 +3419,12 @@
       "t": "2026-09-01T13:51:55.089Z",
       "equityEUR": 169.32,
       "priceEUR": 67353.3
+    },
+    {
+      "t": "2026-09-01T14:08:57.416Z",
+      "equityEUR": 169.69,
+      "priceEUR": 67451.2
     }
   ],
-  "lastRun": "2026-09-01T13:51:55.089Z"
+  "lastRun": "2026-09-01T14:08:57.416Z"
 }
