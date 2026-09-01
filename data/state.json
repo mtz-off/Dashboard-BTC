@@ -335,19 +335,19 @@
     }
   ],
   "lastSignal": {
-    "price": 78054.46184649444,
+    "price": 78078.47798602814,
     "direction": "SHORT",
     "score": -4.67,
     "strength": 0.58,
     "atr14": 753.9558704112181,
     "indicators": {
-      "ema20": 78400.25598899003,
-      "ema50": 78405.84777376955,
-      "rsi14": 43.29665231956404,
-      "macdHist": -97.09160790602002,
-      "bbUpper": 79292.00423438057,
-      "bbMid": 78569.50842067823,
-      "bbLower": 77847.0126069759
+      "ema20": 78402.5432403742,
+      "ema50": 78406.78958316303,
+      "rsi14": 43.76545615909052,
+      "macdHist": -95.55895398706454,
+      "bbUpper": 79289.84900259625,
+      "bbMid": 78570.70922765494,
+      "bbLower": 77851.56945271362
     },
     "fearGreed": {
       "value": 69,
@@ -400,22 +400,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78400 vs EMA50=78406",
+        "detail": "EMA20=78403 vs EMA50=78407",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "43.3",
+        "detail": "43.8",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-97.1",
+        "detail": "-95.6",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78054 vs [77847, 79292]",
+        "detail": "prix 78078 vs [77852, 79290]",
         "points": 0
       },
       {
@@ -429,10 +429,10 @@
         "points": -0.67
       }
     ],
-    "computedAt": "2026-09-01T11:38:03.090Z",
-    "priceUSD": 78100.2,
-    "priceEUR": 67359.8,
-    "change24h": -0.5890813741837798
+    "computedAt": "2026-09-01T11:50:46.017Z",
+    "priceUSD": 78114.3,
+    "priceEUR": 67358.7,
+    "change24h": -0.5711339943739382
   },
   "history": [
     {
@@ -3379,7 +3379,12 @@
       "t": "2026-09-01T11:38:03.093Z",
       "equityEUR": 169.34,
       "priceEUR": 67359.8
+    },
+    {
+      "t": "2026-09-01T11:50:46.020Z",
+      "equityEUR": 169.34,
+      "priceEUR": 67358.7
     }
   ],
-  "lastRun": "2026-09-01T11:38:03.093Z"
+  "lastRun": "2026-09-01T11:50:46.020Z"
 }
