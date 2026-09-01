@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 93.04,
-  "equityEUR": 168.42,
+  "equityEUR": 168.85,
   "stopped": false,
   "openPositions": [
     {
@@ -335,19 +335,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77817.05043654627,
+    "price": 77897.96392428619,
     "direction": "SHORT",
-    "score": -3.78,
-    "strength": 0.47,
+    "score": -3.45,
+    "strength": 0.43,
     "atr14": 761.9251907509504,
     "indicators": {
-      "ema20": 78282.46437413181,
-      "ema50": 78354.24637619303,
-      "rsi14": 39.88258046335313,
-      "macdHist": -88.10132234943674,
-      "bbUpper": 79226.40996260878,
-      "bbMid": 78436.20718255037,
-      "bbLower": 77646.00440249195
+      "ema20": 78273.4826197438,
+      "ema50": 78348.42455029236,
+      "rsi14": 41.43804489227028,
+      "macdHist": -68.3747077354738,
+      "bbUpper": 79161.13164120736,
+      "bbMid": 78402.18341125677,
+      "bbLower": 77643.23518130618
     },
     "fearGreed": {
       "value": 69,
@@ -356,6 +356,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin stays flat as global bond bear market rages on, pushing JGB to high",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Robinhood's new crypto network is printing cash, and it's sending Arbitrum's token soaring",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "Bitcoin enters ‘Rektember’ as rate-hike risk combines with seasonality to threaten rally",
         "source": "CoinDesk",
@@ -385,37 +395,27 @@
         "title": "North Korean hackers are moving tens of millions on Hyperliquid as Trump pushes to onshore the crypto platform",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "XRP ETFs Extend Inflow Streak to 9 Days, Pulling In $1.6 Billion Since Launch",
-        "source": "Decrypt",
-        "itemScore": 1
-      },
-      {
-        "title": "Russia&#39;s Sberbank Sees $46 Billion in Crypto Trading, Plans Ethereum and USDT-Backed Loans",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78282 vs EMA50=78354",
+        "detail": "EMA20=78273 vs EMA50=78348",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "39.9",
+        "detail": "41.4",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-88.1",
+        "detail": "-68.4",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77817 vs [77646, 79226]",
+        "detail": "prix 77898 vs [77643, 79161]",
         "points": 0
       },
       {
@@ -425,14 +425,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 2",
-        "points": 0.67
+        "detail": "30 articles pertinents, score brut 3",
+        "points": 1
       }
     ],
-    "computedAt": "2026-09-01T15:07:32.430Z",
-    "priceUSD": 77814.6,
-    "priceEUR": 67115.9,
-    "change24h": -0.9526112801191327
+    "computedAt": "2026-09-01T15:44:29.798Z",
+    "priceUSD": 77893.8,
+    "priceEUR": 67229.7,
+    "change24h": -0.8518004658681531
   },
   "history": [
     {
@@ -3439,7 +3439,12 @@
       "t": "2026-09-01T15:07:32.432Z",
       "equityEUR": 168.42,
       "priceEUR": 67115.9
+    },
+    {
+      "t": "2026-09-01T15:44:29.800Z",
+      "equityEUR": 168.85,
+      "priceEUR": 67229.7
     }
   ],
-  "lastRun": "2026-09-01T15:07:32.432Z"
+  "lastRun": "2026-09-01T15:44:29.800Z"
 }
