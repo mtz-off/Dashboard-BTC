@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 128.57518905383807,
-  "equityEUR": 165.87,
+  "equityEUR": 164.9,
   "stopped": false,
   "openPositions": [
     {
@@ -334,19 +334,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77264.27478945487,
+    "price": 77407.33822968547,
     "direction": "SHORT",
     "score": -2,
     "strength": 0.25,
     "atr14": 819.7903248566902,
     "indicators": {
-      "ema20": 77724.07716663678,
-      "ema50": 78056.34501210967,
-      "rsi14": 37.13699053617939,
-      "macdHist": -64.34583931674274,
-      "bbUpper": 79017.1885890207,
-      "bbMid": 77868.08387008501,
-      "bbLower": 76718.97915114932
+      "ema20": 77737.70225618256,
+      "ema50": 78061.9553430991,
+      "rsi14": 40.60505626569853,
+      "macdHist": -55.2158647835094,
+      "bbUpper": 79010.92062983573,
+      "bbMid": 77875.23704209655,
+      "bbLower": 76739.55345435736
     },
     "fearGreed": {
       "value": 69,
@@ -399,22 +399,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77724 vs EMA50=78056",
+        "detail": "EMA20=77738 vs EMA50=78062",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "37.1",
+        "detail": "40.6",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-64.3",
+        "detail": "-55.2",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77264 vs [76719, 79017]",
+        "detail": "prix 77407 vs [76740, 79011]",
         "points": 0
       },
       {
@@ -428,10 +428,10 @@
         "points": 2
       }
     ],
-    "computedAt": "2026-09-01T23:21:01.890Z",
-    "priceUSD": 77280.7,
-    "priceEUR": 66654.5,
-    "change24h": -1.6321932716418706
+    "computedAt": "2026-09-01T23:35:05.644Z",
+    "priceUSD": 77418.5,
+    "priceEUR": 66796.4,
+    "change24h": -1.4567926377556863
   },
   "history": [
     {
@@ -3583,7 +3583,12 @@
       "t": "2026-09-01T23:21:01.892Z",
       "equityEUR": 165.87,
       "priceEUR": 66654.5
+    },
+    {
+      "t": "2026-09-01T23:35:05.646Z",
+      "equityEUR": 164.9,
+      "priceEUR": 66796.4
     }
   ],
-  "lastRun": "2026-09-01T23:21:01.892Z"
+  "lastRun": "2026-09-01T23:35:05.646Z"
 }
