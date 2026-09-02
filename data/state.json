@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 96.44,
-  "equityEUR": 163.74,
+  "equityEUR": 163.7,
   "stopped": false,
   "openPositions": [
     {
@@ -351,19 +351,19 @@
     }
   ],
   "lastSignal": {
-    "price": 76628.79537564547,
+    "price": 76521.11957460058,
     "direction": "SHORT",
-    "score": -2.12,
-    "strength": 0.26,
+    "score": -1.78,
+    "strength": 0.22,
     "atr14": 790.8566607688257,
     "indicators": {
-      "ema20": 77343.57874871003,
-      "ema50": 77749.7675797149,
-      "rsi14": 32.76310791402854,
-      "macdHist": -38.15067724791564,
-      "bbUpper": 77908.76536087066,
-      "bbMid": 77280.20274805867,
-      "bbLower": 76651.64013524668
+      "ema20": 77333.32391051528,
+      "ema50": 77745.54499928176,
+      "rsi14": 31.476649475865713,
+      "macdHist": -45.022295320289885,
+      "bbUpper": 77927.00770163997,
+      "bbMid": 77274.81895800642,
+      "bbLower": 76622.63021437287
     },
     "fearGreed": {
       "value": 63,
@@ -372,11 +372,6 @@
     },
     "fundingRate": null,
     "newsHighlights": [
-      {
-        "title": "Live updates: BlackRock's IBIT drives $236 million bitcoin ETF outflow",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
       {
         "title": "Bitcoin&#39;s Next Move: Bullish Bets Run Up Against a Historical Wall",
         "source": "Decrypt",
@@ -416,22 +411,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77344 vs EMA50=77750",
+        "detail": "EMA20=77333 vs EMA50=77746",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "32.8",
+        "detail": "31.5",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-38.2",
+        "detail": "-45.0",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 76629 vs [76652, 77909]",
+        "detail": "prix 76521 vs [76623, 77927]",
         "points": 1
       },
       {
@@ -441,14 +436,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 4",
-        "points": 1.33
+        "detail": "30 articles pertinents, score brut 5",
+        "points": 1.67
       }
     ],
-    "computedAt": "2026-09-02T10:26:58.497Z",
-    "priceUSD": 76617,
-    "priceEUR": 66215.2,
-    "change24h": -1.00919790020686
+    "computedAt": "2026-09-02T10:40:35.724Z",
+    "priceUSD": 76473.5,
+    "priceEUR": 66105.6,
+    "change24h": -1.1946029682899266
   },
   "history": [
     {
@@ -3800,7 +3795,12 @@
       "t": "2026-09-02T10:26:58.500Z",
       "equityEUR": 163.74,
       "priceEUR": 66215.2
+    },
+    {
+      "t": "2026-09-02T10:40:35.726Z",
+      "equityEUR": 163.7,
+      "priceEUR": 66105.6
     }
   ],
-  "lastRun": "2026-09-02T10:26:58.500Z"
+  "lastRun": "2026-09-02T10:40:35.726Z"
 }
