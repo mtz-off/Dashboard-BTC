@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 122.74,
-  "equityEUR": 161.23,
+  "equityEUR": 160.29,
   "stopped": false,
   "openPositions": [
     {
@@ -366,19 +366,19 @@
     }
   ],
   "lastSignal": {
-    "price": 76729.94311093526,
+    "price": 76633.92672424507,
     "direction": "SHORT",
     "score": -4,
     "strength": 0.5,
     "atr14": 820.6452481352383,
     "indicators": {
-      "ema20": 77176.1006738349,
-      "ema50": 77630.92038331757,
-      "rsi14": 37.507322577584425,
-      "macdHist": -37.095817882237384,
-      "bbUpper": 77810.9072672926,
-      "bbMid": 77149.14495160876,
-      "bbLower": 76487.38263592492
+      "ema20": 77166.95625605488,
+      "ema50": 77627.15503481991,
+      "rsi14": 35.046264038224635,
+      "macdHist": -43.22335936901658,
+      "bbUpper": 77819.45975104695,
+      "bbMid": 77144.34413227424,
+      "bbLower": 76469.22851350154
     },
     "fearGreed": {
       "value": 63,
@@ -388,7 +388,7 @@
     "fundingRate": null,
     "newsHighlights": [
       {
-        "title": "Bart Simpson pattern feared for bitcoin and XRP as prices pull back",
+        "title": "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back",
         "source": "CoinDesk",
         "itemScore": -1
       },
@@ -421,22 +421,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77176 vs EMA50=77631",
+        "detail": "EMA20=77167 vs EMA50=77627",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "37.5",
+        "detail": "35.0",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-37.1",
+        "detail": "-43.2",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 76730 vs [76487, 77811]",
+        "detail": "prix 76634 vs [76469, 77819]",
         "points": 0
       },
       {
@@ -450,10 +450,10 @@
         "points": 0
       }
     ],
-    "computedAt": "2026-09-02T13:27:00.526Z",
-    "priceUSD": 76797,
-    "priceEUR": 66199.7,
-    "change24h": -0.7766340517402957
+    "computedAt": "2026-09-02T13:41:43.521Z",
+    "priceUSD": 76832.4,
+    "priceEUR": 66301,
+    "change24h": -0.7308964948752121
   },
   "history": [
     {
@@ -3860,7 +3860,12 @@
       "t": "2026-09-02T13:27:00.529Z",
       "equityEUR": 161.23,
       "priceEUR": 66199.7
+    },
+    {
+      "t": "2026-09-02T13:41:43.523Z",
+      "equityEUR": 160.29,
+      "priceEUR": 66301
     }
   ],
-  "lastRun": "2026-09-02T13:27:00.529Z"
+  "lastRun": "2026-09-02T13:41:43.523Z"
 }
