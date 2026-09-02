@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 122.74,
-  "equityEUR": 161.86,
+  "equityEUR": 163.24,
   "stopped": false,
   "openPositions": [
     {
@@ -366,19 +366,19 @@
     }
   ],
   "lastSignal": {
-    "price": 76510.29432510815,
+    "price": 76424.86818539102,
     "direction": "SHORT",
-    "score": -1.78,
-    "strength": 0.22,
+    "score": -2.12,
+    "strength": 0.26,
     "atr14": 790.8566607688257,
     "indicators": {
-      "ema20": 77332.29293437314,
-      "ema50": 77745.12047969383,
-      "rsi14": 31.3528816012429,
-      "macdHist": -45.713137453153934,
-      "bbUpper": 77928.98069400854,
-      "bbMid": 77274.27769553181,
-      "bbLower": 76619.57469705508
+      "ema20": 77256.41192028525,
+      "ema50": 77697.96421643237,
+      "rsi14": 30.23905505317714,
+      "macdHist": -60.71193903701362,
+      "bbUpper": 77871.090728433,
+      "bbMid": 77206.57312688384,
+      "bbLower": 76542.05552533468
     },
     "fearGreed": {
       "value": 63,
@@ -416,32 +416,27 @@
         "title": "Does the Bitcoin rally mean we haven’t wasted our lives in crypto?",
         "source": "Cointelegraph",
         "itemScore": 1
-      },
-      {
-        "title": "Bitcoin consolidates near $78,000 as Arbitrum surges 30% on Robinhood Chain revenue",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77332 vs EMA50=77745",
+        "detail": "EMA20=77256 vs EMA50=77698",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "31.4",
+        "detail": "30.2",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-45.7",
+        "detail": "-60.7",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 76510 vs [76620, 77929]",
+        "detail": "prix 76425 vs [76542, 77871]",
         "points": 1
       },
       {
@@ -451,14 +446,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 5",
-        "points": 1.67
+        "detail": "30 articles pertinents, score brut 4",
+        "points": 1.33
       }
     ],
-    "computedAt": "2026-09-02T11:08:32.205Z",
-    "priceUSD": 76521.3,
-    "priceEUR": 66132.7,
-    "change24h": -1.1328443463082463
+    "computedAt": "2026-09-02T11:25:07.318Z",
+    "priceUSD": 76382.8,
+    "priceEUR": 65984.2,
+    "change24h": -1.311789307489464
   },
   "history": [
     {
@@ -3825,7 +3820,12 @@
       "t": "2026-09-02T11:08:32.207Z",
       "equityEUR": 161.86,
       "priceEUR": 66132.7
+    },
+    {
+      "t": "2026-09-02T11:25:07.320Z",
+      "equityEUR": 163.24,
+      "priceEUR": 65984.2
     }
   ],
-  "lastRun": "2026-09-02T11:08:32.207Z"
+  "lastRun": "2026-09-02T11:25:07.320Z"
 }
