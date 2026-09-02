@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 122.74,
-  "equityEUR": 160.14,
+  "equityEUR": 159.33,
   "stopped": false,
   "openPositions": [
     {
@@ -366,19 +366,19 @@
     }
   ],
   "lastSignal": {
-    "price": 76724.73303718537,
+    "price": 76938.78660036222,
     "direction": "SHORT",
-    "score": -3.45,
-    "strength": 0.43,
+    "score": -3.67,
+    "strength": 0.46,
     "atr14": 820.6452481352383,
     "indicators": {
-      "ema20": 77284.970477599,
-      "ema50": 77709.72362238509,
-      "rsi14": 35.252226750122716,
-      "macdHist": -41.57526473446501,
-      "bbUpper": 77825.6407893694,
-      "bbMid": 77221.56636947356,
-      "bbLower": 76617.49194957771
+      "ema20": 77256.14414847762,
+      "ema50": 77681.31136260933,
+      "rsi14": 40.569853848835436,
+      "macdHist": -23.9084492046444,
+      "bbUpper": 77778.7113496167,
+      "bbMid": 77192.32103474086,
+      "bbLower": 76605.93071986502
     },
     "fearGreed": {
       "value": 63,
@@ -387,6 +387,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bart Simpson pattern feared for bitcoin and XRP as prices pull back",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Japan’s Remixpoint dumps altcoins, leaves 1,506 BTC as sole crypto bet",
         "source": "Cointelegraph",
@@ -416,32 +421,27 @@
         "title": "Bitcoin enters ‘Rektember’ as rate-hike risk combines with seasonality to threaten rally",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Does the Bitcoin rally mean we haven’t wasted our lives in crypto?",
-        "source": "Cointelegraph",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77285 vs EMA50=77710",
+        "detail": "EMA20=77256 vs EMA50=77681",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "35.3",
+        "detail": "40.6",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-41.6",
-        "points": -1.95
+        "detail": "-23.9",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 76725 vs [76617, 77826]",
+        "detail": "prix 76939 vs [76606, 77779]",
         "points": 0
       },
       {
@@ -451,14 +451,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 3",
-        "points": 1
+        "detail": "30 articles pertinents, score brut 1",
+        "points": 0.33
       }
     ],
-    "computedAt": "2026-09-02T12:11:26.987Z",
-    "priceUSD": 76773.1,
-    "priceEUR": 66317.2,
-    "change24h": -0.8075133627311264
+    "computedAt": "2026-09-02T12:33:00.927Z",
+    "priceUSD": 76895.9,
+    "priceEUR": 66403.6,
+    "change24h": -0.6488531372217298
   },
   "history": [
     {
@@ -3845,7 +3845,12 @@
       "t": "2026-09-02T12:11:26.989Z",
       "equityEUR": 160.14,
       "priceEUR": 66317.2
+    },
+    {
+      "t": "2026-09-02T12:33:00.930Z",
+      "equityEUR": 159.33,
+      "priceEUR": 66403.6
     }
   ],
-  "lastRun": "2026-09-02T12:11:26.989Z"
+  "lastRun": "2026-09-02T12:33:00.930Z"
 }
