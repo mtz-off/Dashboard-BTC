@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 116.04,
-  "equityEUR": 156.06,
+  "equityEUR": 156.04,
   "stopped": false,
   "openPositions": [
     {
@@ -382,19 +382,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77128.69637487456,
+    "price": 77131.93766613996,
     "direction": "SHORT",
     "score": -2.5,
     "strength": 0.31,
     "atr14": 800.2026186584022,
     "indicators": {
-      "ema20": 77210.64276529668,
-      "ema50": 77502.86279675097,
-      "rsi14": 46.55042055737892,
-      "macdHist": 43.87671408291149,
-      "bbUpper": 77757.79408916054,
-      "bbMid": 77146.03131223161,
-      "bbLower": 76534.26853530269
+      "ema20": 77210.95145970292,
+      "ema50": 77502.98990621236,
+      "rsi14": 46.626237495842965,
+      "macdHist": 44.08356571922718,
+      "bbUpper": 77757.93941588097,
+      "bbMid": 77146.1933767949,
+      "bbLower": 76534.44733770881
     },
     "fearGreed": {
       "value": 63,
@@ -447,12 +447,12 @@
       },
       {
         "factor": "MACD histogramme",
-        "detail": "43.9",
+        "detail": "44.1",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77129 vs [76534, 77758]",
+        "detail": "prix 77132 vs [76534, 77758]",
         "points": 0
       },
       {
@@ -466,10 +466,10 @@
         "points": -2
       }
     ],
-    "computedAt": "2026-09-02T23:22:45.364Z",
-    "priceUSD": 77127.5,
-    "priceEUR": 66568,
-    "change24h": -0.349620985528076
+    "computedAt": "2026-09-02T23:36:14.621Z",
+    "priceUSD": 77114.6,
+    "priceEUR": 66570.1,
+    "change24h": -0.36628806133483893
   },
   "history": [
     {
@@ -4071,7 +4071,12 @@
       "t": "2026-09-02T23:22:45.367Z",
       "equityEUR": 156.06,
       "priceEUR": 66568
+    },
+    {
+      "t": "2026-09-02T23:36:14.624Z",
+      "equityEUR": 156.04,
+      "priceEUR": 66570.1
     }
   ],
-  "lastRun": "2026-09-02T23:22:45.367Z"
+  "lastRun": "2026-09-02T23:36:14.624Z"
 }
