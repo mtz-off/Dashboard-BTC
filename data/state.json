@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 96.44,
-  "equityEUR": 163.83,
+  "equityEUR": 163.77,
   "stopped": false,
   "openPositions": [
     {
@@ -351,26 +351,29 @@
     }
   ],
   "lastSignal": {
-    "price": 77063.45226366157,
+    "price": 76799.11927220243,
     "direction": "LONG",
     "score": 0.67,
     "strength": 0.08,
     "atr14": 790.8566607688257,
     "indicators": {
-      "ema20": 77517.0750521942,
-      "ema50": 77849.53762952845,
-      "rsi14": 38.50638913020599,
-      "macdHist": 32.17225767543991,
-      "bbUpper": 78051.18804855112,
-      "bbMid": 77434.82918084892,
-      "bbLower": 76818.47031314671
+      "ema20": 77491.90048157904,
+      "ema50": 77839.17162986338,
+      "rsi14": 34.95255031235257,
+      "macdHist": 15.303143690584562,
+      "bbUpper": 78079.21483446365,
+      "bbMid": 77421.61253127595,
+      "bbLower": 76764.01022808826
     },
     "fearGreed": {
       "value": 63,
       "classification": "Greed",
       "timestamp": 1788307200000
     },
-    "fundingRate": null,
+    "fundingRate": {
+      "lastFundingRate": 0.00007882,
+      "markPrice": 76767.5
+    },
     "newsHighlights": [
       {
         "title": "Live updates: BlackRock's IBIT drives $236 million bitcoin ETF outflow",
@@ -416,22 +419,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77517 vs EMA50=77850",
+        "detail": "EMA20=77492 vs EMA50=77839",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "38.5",
+        "detail": "35.0",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "32.2",
+        "detail": "15.3",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77063 vs [76818, 78051]",
+        "detail": "prix 76799 vs [76764, 78079]",
         "points": 0
       },
       {
@@ -440,15 +443,20 @@
         "points": 0
       },
       {
+        "factor": "Funding rate BTC perp",
+        "detail": "0.0079%",
+        "points": 0
+      },
+      {
         "factor": "Sentiment news (RSS temps réel)",
         "detail": "30 articles pertinents, score brut 5",
         "points": 1.67
       }
     ],
-    "computedAt": "2026-09-02T08:41:43.271Z",
-    "priceUSD": 77025.1,
-    "priceEUR": 66514,
-    "change24h": -0.48192397487793626
+    "computedAt": "2026-09-02T08:53:15.498Z",
+    "priceUSD": 76749,
+    "priceEUR": 66307.9,
+    "change24h": -0.8386510779980462
   },
   "history": [
     {
@@ -3765,7 +3773,12 @@
       "t": "2026-09-02T08:41:43.274Z",
       "equityEUR": 163.83,
       "priceEUR": 66514
+    },
+    {
+      "t": "2026-09-02T08:53:15.500Z",
+      "equityEUR": 163.77,
+      "priceEUR": 66307.9
     }
   ],
-  "lastRun": "2026-09-02T08:41:43.274Z"
+  "lastRun": "2026-09-02T08:53:15.500Z"
 }
