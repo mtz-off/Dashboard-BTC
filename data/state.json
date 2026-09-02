@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 116.04,
-  "equityEUR": 155.19,
+  "equityEUR": 155.15,
   "stopped": false,
   "openPositions": [
     {
@@ -382,19 +382,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77250.0382180824,
+    "price": 77248.02270896593,
     "direction": "SHORT",
-    "score": -2.17,
-    "strength": 0.27,
+    "score": -2.5,
+    "strength": 0.31,
     "atr14": 800.2026186584022,
     "indicators": {
-      "ema20": 77241.07463459799,
-      "ema50": 77538.74605827231,
-      "rsi14": 48.62495464462749,
-      "macdHist": 75.07444228042507,
-      "bbUpper": 77809.25057869914,
-      "bbMid": 77178.89131649057,
-      "bbLower": 76548.532054282
+      "ema20": 77240.8826813488,
+      "ema50": 77538.66701869911,
+      "rsi14": 48.58120000200777,
+      "macdHist": 74.94581719721091,
+      "bbUpper": 77809.10491687688,
+      "bbMid": 77178.79054103474,
+      "bbLower": 76548.47616519261
     },
     "fearGreed": {
       "value": 63,
@@ -403,6 +403,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Japan’s Remixpoint Dumps Ethereum, XRP in Shift to Bitcoin-Only Treasury",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
       {
         "title": "Coinbase launches regulated crypto derivatives in Canada",
         "source": "Cointelegraph",
@@ -442,12 +447,12 @@
       },
       {
         "factor": "MACD histogramme",
-        "detail": "75.1",
+        "detail": "74.9",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77250 vs [76549, 77809]",
+        "detail": "prix 77248 vs [76548, 77809]",
         "points": 0
       },
       {
@@ -457,14 +462,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -5",
-        "points": -1.67
+        "detail": "30 articles pertinents, score brut -6",
+        "points": -2
       }
     ],
-    "computedAt": "2026-09-02T21:24:00.100Z",
-    "priceUSD": 77263.6,
-    "priceEUR": 66668.3,
-    "change24h": -0.1737768756597384
+    "computedAt": "2026-09-02T21:37:47.272Z",
+    "priceUSD": 77260.8,
+    "priceEUR": 66672.8,
+    "change24h": -0.1773945355247776
   },
   "history": [
     {
@@ -4026,7 +4031,12 @@
       "t": "2026-09-02T21:24:00.102Z",
       "equityEUR": 155.19,
       "priceEUR": 66668.3
+    },
+    {
+      "t": "2026-09-02T21:37:47.277Z",
+      "equityEUR": 155.15,
+      "priceEUR": 66672.8
     }
   ],
-  "lastRun": "2026-09-02T21:24:00.102Z"
+  "lastRun": "2026-09-02T21:37:47.277Z"
 }
