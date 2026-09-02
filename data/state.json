@@ -364,19 +364,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77158.99939162115,
+    "price": 77298.36108857505,
     "direction": "SHORT",
-    "score": -0.38,
-    "strength": 0.05,
+    "score": -0.72,
+    "strength": 0.09,
     "atr14": 817.5454250865943,
     "indicators": {
-      "ema20": 77188.65075626905,
-      "ema50": 77570.61595394934,
-      "rsi14": 47.08137765786475,
-      "macdHist": 54.03581243292689,
-      "bbUpper": 77772.93746197778,
-      "bbMid": 77146.66598628515,
-      "bbLower": 76520.39451059252
+      "ema20": 77201.92329883609,
+      "ema50": 77576.08111853576,
+      "rsi14": 49.92117908205146,
+      "macdHist": 62.92955035819003,
+      "bbUpper": 77783.39085170353,
+      "bbMid": 77153.63407113284,
+      "bbLower": 76523.87729056214
     },
     "fearGreed": {
       "value": 63,
@@ -404,32 +404,27 @@
         "title": "Bitcoin&#39;s Next Move: Bullish Bets Run Up Against a Historical Wall",
         "source": "Decrypt",
         "itemScore": 1
-      },
-      {
-        "title": "Cathie Wood’s Ark Invest Buys $37 Million in Bitcoin and Payments Firm Block",
-        "source": "Decrypt",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77189 vs EMA50=77571",
+        "detail": "EMA20=77202 vs EMA50=77576",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "47.1",
+        "detail": "49.9",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "54.0",
+        "detail": "62.9",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77159 vs [76520, 77773]",
+        "detail": "prix 77298 vs [76524, 77783]",
         "points": 0
       },
       {
@@ -439,14 +434,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -1",
-        "points": -0.33
+        "detail": "30 articles pertinents, score brut -2",
+        "points": -0.67
       }
     ],
-    "computedAt": "2026-09-02T17:36:51.503Z",
-    "priceUSD": 77148.8,
-    "priceEUR": 66579.3,
-    "change24h": -0.32210093012619545
+    "computedAt": "2026-09-02T17:49:42.407Z",
+    "priceUSD": 77363.9,
+    "priceEUR": 66760.2,
+    "change24h": -0.04418713120866228
   },
   "history": [
     {
@@ -3933,7 +3928,12 @@
       "t": "2026-09-02T17:36:51.505Z",
       "equityEUR": 154.72,
       "priceEUR": 66579.3
+    },
+    {
+      "t": "2026-09-02T17:49:42.409Z",
+      "equityEUR": 154.72,
+      "priceEUR": 66760.2
     }
   ],
-  "lastRun": "2026-09-02T17:36:51.505Z"
+  "lastRun": "2026-09-02T17:49:42.409Z"
 }
