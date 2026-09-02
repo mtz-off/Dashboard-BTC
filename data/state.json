@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 122.74,
-  "equityEUR": 161.11,
+  "equityEUR": 158.26,
   "stopped": false,
   "openPositions": [
     {
@@ -366,19 +366,19 @@
     }
   ],
   "lastSignal": {
-    "price": 76775.1019955947,
+    "price": 77006.13776376362,
     "direction": "SHORT",
-    "score": -4.33,
-    "strength": 0.54,
+    "score": -1.22,
+    "strength": 0.15,
     "atr14": 820.6452481352383,
     "indicators": {
-      "ema20": 77167.2714356036,
-      "ema50": 77610.19738943902,
-      "rsi14": 40.43686277034525,
-      "macdHist": -11.648109760625005,
-      "bbUpper": 77806.3547703956,
-      "bbMid": 77149.29019054776,
-      "bbLower": 76492.22561069993
+      "ema20": 77172.96353769088,
+      "ema50": 77595.71496134106,
+      "rsi14": 43.837703956034794,
+      "macdHist": 17.47122362135724,
+      "bbUpper": 77787.29039346226,
+      "bbMid": 77148.30913823495,
+      "bbLower": 76509.32788300765
     },
     "fearGreed": {
       "value": 63,
@@ -416,32 +416,27 @@
         "title": "Bitcoin stays flat as global bond bear market rages on, pushing JGB to high",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "Robinhood's new crypto network is printing cash, and it's sending Arbitrum's token soaring",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77167 vs EMA50=77610",
+        "detail": "EMA20=77173 vs EMA50=77596",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "40.4",
+        "detail": "43.8",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-11.6",
-        "points": -1.5
+        "detail": "17.5",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 76775 vs [76492, 77806]",
+        "detail": "prix 77006 vs [76509, 77787]",
         "points": 0
       },
       {
@@ -451,14 +446,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -1",
-        "points": -0.33
+        "detail": "30 articles pertinents, score brut -2",
+        "points": -0.67
       }
     ],
-    "computedAt": "2026-09-02T15:13:41.834Z",
-    "priceUSD": 76735.5,
-    "priceEUR": 66213.2,
-    "change24h": -0.8560933666330385
+    "computedAt": "2026-09-02T15:32:50.262Z",
+    "priceUSD": 77164.6,
+    "priceEUR": 66519,
+    "change24h": -0.3016869923163488
   },
   "history": [
     {
@@ -3900,7 +3895,12 @@
       "t": "2026-09-02T15:13:41.836Z",
       "equityEUR": 161.11,
       "priceEUR": 66213.2
+    },
+    {
+      "t": "2026-09-02T15:32:50.264Z",
+      "equityEUR": 158.26,
+      "priceEUR": 66519
     }
   ],
-  "lastRun": "2026-09-02T15:13:41.836Z"
+  "lastRun": "2026-09-02T15:32:50.264Z"
 }
