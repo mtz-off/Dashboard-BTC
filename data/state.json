@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 96.44,
-  "equityEUR": 163.91,
+  "equityEUR": 163.83,
   "stopped": false,
   "openPositions": [
     {
@@ -351,19 +351,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77272.91306809406,
+    "price": 77063.45226366157,
     "direction": "LONG",
-    "score": 1.33,
-    "strength": 0.17,
+    "score": 0.67,
+    "strength": 0.08,
     "atr14": 790.8566607688257,
     "indicators": {
-      "ema20": 77548.13435580311,
-      "ema50": 77874.75020266524,
-      "rsi14": 42.10117397854526,
-      "macdHist": 47.75476756689875,
-      "bbUpper": 78113.75387659119,
-      "bbMid": 77471.99024852444,
-      "bbLower": 76830.22662045769
+      "ema20": 77517.0750521942,
+      "ema50": 77849.53762952845,
+      "rsi14": 38.50638913020599,
+      "macdHist": 32.17225767543991,
+      "bbUpper": 78051.18804855112,
+      "bbMid": 77434.82918084892,
+      "bbLower": 76818.47031314671
     },
     "fearGreed": {
       "value": 63,
@@ -372,6 +372,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Live updates: BlackRock's IBIT drives $236 million bitcoin ETF outflow",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin&#39;s Next Move: Bullish Bets Run Up Against a Historical Wall",
         "source": "Decrypt",
@@ -406,32 +411,27 @@
         "title": "Bitcoin consolidates near $78,000 as Arbitrum surges 30% on Robinhood Chain revenue",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Live updates: Bitcoin slumps as oil surges to three-month high on new Iran strikes",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77548 vs EMA50=77875",
+        "detail": "EMA20=77517 vs EMA50=77850",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "42.1",
+        "detail": "38.5",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "47.8",
+        "detail": "32.2",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77273 vs [76830, 78114]",
+        "detail": "prix 77063 vs [76818, 78051]",
         "points": 0
       },
       {
@@ -441,14 +441,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 7",
-        "points": 2.33
+        "detail": "30 articles pertinents, score brut 5",
+        "points": 1.67
       }
     ],
-    "computedAt": "2026-09-02T08:27:35.507Z",
-    "priceUSD": 77280.1,
-    "priceEUR": 66746.7,
-    "change24h": -0.15245852288363668
+    "computedAt": "2026-09-02T08:41:43.271Z",
+    "priceUSD": 77025.1,
+    "priceEUR": 66514,
+    "change24h": -0.48192397487793626
   },
   "history": [
     {
@@ -3760,7 +3760,12 @@
       "t": "2026-09-02T08:27:35.509Z",
       "equityEUR": 163.91,
       "priceEUR": 66746.7
+    },
+    {
+      "t": "2026-09-02T08:41:43.274Z",
+      "equityEUR": 163.83,
+      "priceEUR": 66514
     }
   ],
-  "lastRun": "2026-09-02T08:27:35.509Z"
+  "lastRun": "2026-09-02T08:41:43.274Z"
 }
