@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 122.74,
-  "equityEUR": 157.4,
+  "equityEUR": 158.33,
   "stopped": false,
   "openPositions": [
     {
@@ -366,19 +366,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77107.74483562041,
+    "price": 77144.06465827391,
     "direction": "SHORT",
-    "score": -0.05,
-    "strength": 0.01,
+    "score": -0.38,
+    "strength": 0.05,
     "atr14": 820.6452481352383,
     "indicators": {
-      "ema20": 77198.95170608224,
-      "ema50": 77623.24220669494,
-      "rsi14": 45.668497896377225,
-      "macdHist": 9.580379175475628,
-      "bbUpper": 77800.72087677798,
-      "bbMid": 77165.92233254905,
-      "bbLower": 76531.12378832011
+      "ema20": 77202.41073681114,
+      "ema50": 77624.66651346565,
+      "rsi14": 46.38792378460196,
+      "macdHist": 11.898225407499638,
+      "bbUpper": 77802.06838588529,
+      "bbMid": 77167.73832368173,
+      "bbLower": 76533.40826147817
     },
     "fearGreed": {
       "value": 63,
@@ -395,6 +395,11 @@
       {
         "title": "Japan’s Remixpoint dumps altcoins, leaves 1,506 BTC as sole crypto bet",
         "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Live updates: Bitcoin trades near $77,000, with central bank policy rate decisions taking center stage",
+        "source": "CoinDesk",
         "itemScore": -1
       },
       {
@@ -421,22 +426,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77199 vs EMA50=77623",
+        "detail": "EMA20=77202 vs EMA50=77625",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "45.7",
+        "detail": "46.4",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "9.6",
+        "detail": "11.9",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77108 vs [76531, 77801]",
+        "detail": "prix 77144 vs [76533, 77802]",
         "points": 0
       },
       {
@@ -446,14 +451,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 0",
-        "points": 0
+        "detail": "30 articles pertinents, score brut -1",
+        "points": -0.33
       }
     ],
-    "computedAt": "2026-09-02T14:41:01.305Z",
-    "priceUSD": 77197.2,
-    "priceEUR": 66611.4,
-    "change24h": -0.25956709531630456
+    "computedAt": "2026-09-02T14:54:25.838Z",
+    "priceUSD": 77070.4,
+    "priceEUR": 66511.2,
+    "change24h": -0.42339540634719924
   },
   "history": [
     {
@@ -3885,7 +3890,12 @@
       "t": "2026-09-02T14:41:01.308Z",
       "equityEUR": 157.4,
       "priceEUR": 66611.4
+    },
+    {
+      "t": "2026-09-02T14:54:25.841Z",
+      "equityEUR": 158.33,
+      "priceEUR": 66511.2
     }
   ],
-  "lastRun": "2026-09-02T14:41:01.308Z"
+  "lastRun": "2026-09-02T14:54:25.841Z"
 }
