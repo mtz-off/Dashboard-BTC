@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 122.74,
-  "equityEUR": 160.24,
+  "equityEUR": 161.23,
   "stopped": false,
   "openPositions": [
     {
@@ -366,19 +366,19 @@
     }
   ],
   "lastSignal": {
-    "price": 76828.53350642372,
+    "price": 76729.94311093526,
     "direction": "SHORT",
-    "score": -3.67,
-    "strength": 0.46,
+    "score": -4,
+    "strength": 0.5,
     "atr14": 820.6452481352383,
     "indicators": {
-      "ema20": 77245.64385381681,
-      "ema50": 77676.98771186665,
-      "rsi14": 37.90005867929837,
-      "macdHist": -30.944544088473776,
-      "bbUpper": 77784.59126303876,
-      "bbMid": 77186.80838004392,
-      "bbLower": 76589.02549704908
+      "ema20": 77176.1006738349,
+      "ema50": 77630.92038331757,
+      "rsi14": 37.507322577584425,
+      "macdHist": -37.095817882237384,
+      "bbUpper": 77810.9072672926,
+      "bbMid": 77149.14495160876,
+      "bbLower": 76487.38263592492
     },
     "fearGreed": {
       "value": 63,
@@ -416,32 +416,27 @@
         "title": "Robinhood's new crypto network is printing cash, and it's sending Arbitrum's token soaring",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Bitcoin enters ‘Rektember’ as rate-hike risk combines with seasonality to threaten rally",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77246 vs EMA50=77677",
+        "detail": "EMA20=77176 vs EMA50=77631",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "37.9",
+        "detail": "37.5",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-30.9",
+        "detail": "-37.1",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 76829 vs [76589, 77785]",
+        "detail": "prix 76730 vs [76487, 77811]",
         "points": 0
       },
       {
@@ -451,14 +446,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 1",
-        "points": 0.33
+        "detail": "30 articles pertinents, score brut 0",
+        "points": 0
       }
     ],
-    "computedAt": "2026-09-02T13:08:32.219Z",
-    "priceUSD": 76762.1,
-    "priceEUR": 66306.3,
-    "change24h": -0.8217255979151943
+    "computedAt": "2026-09-02T13:27:00.526Z",
+    "priceUSD": 76797,
+    "priceEUR": 66199.7,
+    "change24h": -0.7766340517402957
   },
   "history": [
     {
@@ -3860,7 +3855,12 @@
       "t": "2026-09-02T13:08:32.222Z",
       "equityEUR": 160.24,
       "priceEUR": 66306.3
+    },
+    {
+      "t": "2026-09-02T13:27:00.529Z",
+      "equityEUR": 161.23,
+      "priceEUR": 66199.7
     }
   ],
-  "lastRun": "2026-09-02T13:08:32.222Z"
+  "lastRun": "2026-09-02T13:27:00.529Z"
 }
