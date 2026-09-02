@@ -5,10 +5,28 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 154.71697712614053,
+  "balanceEUR": 116.04,
   "equityEUR": 154.72,
   "stopped": false,
-  "openPositions": [],
+  "openPositions": [
+    {
+      "id": "b62f9457-d26e-4513-b92e-3f85193ae540",
+      "side": "SHORT",
+      "entryPrice": 66722.4,
+      "entryTime": "2026-09-02T18:44:01.526Z",
+      "sizeEUR": 38.68,
+      "notionalEUR": 580.2,
+      "leverage": 15,
+      "qtyBTC": 0.00869573,
+      "sl": 67569.23,
+      "tp": 65028.75,
+      "slPct": 1.27,
+      "tpPct": 2.54,
+      "signalScore": -1.38,
+      "signalStrength": 0.17,
+      "status": "OPEN"
+    }
+  ],
   "trades": [
     {
       "id": "5f4a6be1-7c72-41de-a1ee-0ad7afb78691",
@@ -364,19 +382,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77437.06185613445,
+    "price": 77298.48841363285,
     "direction": "SHORT",
-    "score": -0.72,
-    "strength": 0.09,
+    "score": -1.38,
+    "strength": 0.17,
     "atr14": 817.5454250865943,
     "indicators": {
-      "ema20": 77227.99945039426,
-      "ema50": 77572.2502967967,
-      "rsi14": 52.58817646658909,
-      "macdHist": 83.01375052398998,
-      "bbUpper": 77808.55169754398,
-      "bbMid": 77165.58361578648,
-      "bbLower": 76522.61553402898
+      "ema20": 77214.80197967982,
+      "ema50": 77566.81604414957,
+      "rsi14": 49.86513552853183,
+      "macdHist": 74.1703171563544,
+      "bbUpper": 77792.69640778727,
+      "bbMid": 77158.6549436614,
+      "bbLower": 76524.61347953553
     },
     "fearGreed": {
       "value": 63,
@@ -385,6 +403,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Is Bitcoin About to Flash Crash? What a &#39;Bart Simpson&#39; Pattern Would Actually Take",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
       {
         "title": "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back",
         "source": "CoinDesk",
@@ -399,32 +422,27 @@
         "title": "Live updates: Bitcoin trades near $77,000, with central bank policy rate decisions taking center stage",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin&#39;s Next Move: Bullish Bets Run Up Against a Historical Wall",
-        "source": "Decrypt",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77228 vs EMA50=77572",
+        "detail": "EMA20=77215 vs EMA50=77567",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "52.6",
+        "detail": "49.9",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "83.0",
+        "detail": "74.2",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77437 vs [76523, 77809]",
+        "detail": "prix 77298 vs [76525, 77793]",
         "points": 0
       },
       {
@@ -434,14 +452,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -2",
-        "points": -0.67
+        "detail": "30 articles pertinents, score brut -4",
+        "points": -1.33
       }
     ],
-    "computedAt": "2026-09-02T18:29:04.967Z",
-    "priceUSD": 77420.2,
-    "priceEUR": 66823.7,
-    "change24h": 0.028553672506161348
+    "computedAt": "2026-09-02T18:44:01.523Z",
+    "priceUSD": 77298.5,
+    "priceEUR": 66722.4,
+    "change24h": -0.12868532948483982
   },
   "history": [
     {
@@ -3943,7 +3961,12 @@
       "t": "2026-09-02T18:29:04.970Z",
       "equityEUR": 154.72,
       "priceEUR": 66823.7
+    },
+    {
+      "t": "2026-09-02T18:44:01.526Z",
+      "equityEUR": 154.72,
+      "priceEUR": 66722.4
     }
   ],
-  "lastRun": "2026-09-02T18:29:04.970Z"
+  "lastRun": "2026-09-02T18:44:01.526Z"
 }
