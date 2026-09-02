@@ -5,42 +5,25 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 96.44,
-  "equityEUR": 163.7,
+  "balanceEUR": 122.74,
+  "equityEUR": 163.65,
   "stopped": false,
   "openPositions": [
     {
-      "id": "03d61126-5605-47a2-baed-d7f148717415",
+      "id": "3213eb4e-4868-4fa9-b2d3-2a3311649a69",
       "side": "SHORT",
-      "entryPrice": 67567.9,
-      "entryTime": "2026-08-31T10:04:34.858Z",
-      "sizeEUR": 31.01,
-      "notionalEUR": 465.15,
+      "entryPrice": 65939.9,
+      "entryTime": "2026-09-02T10:51:36.361Z",
+      "sizeEUR": 40.91,
+      "notionalEUR": 613.65,
       "leverage": 15,
-      "qtyBTC": 0.00688419,
-      "sl": 68346.29,
-      "tp": 66011.12,
-      "slPct": 1.15,
-      "tpPct": 2.3,
-      "signalScore": -1.38,
-      "signalStrength": 0.17,
-      "status": "OPEN"
-    },
-    {
-      "id": "10397175-515e-4bdc-9174-198395a354dc",
-      "side": "LONG",
-      "entryPrice": 66932.1,
-      "entryTime": "2026-09-02T03:24:52.641Z",
-      "sizeEUR": 32.14,
-      "notionalEUR": 482.1,
-      "leverage": 15,
-      "qtyBTC": 0.00720282,
-      "sl": 66097.45,
-      "tp": 68601.41,
-      "slPct": 1.25,
-      "tpPct": 2.49,
-      "signalScore": 1.62,
-      "signalStrength": 0.2,
+      "qtyBTC": 0.0093062,
+      "sl": 66758.71,
+      "tp": 64302.28,
+      "slPct": 1.24,
+      "tpPct": 2.48,
+      "signalScore": -1.78,
+      "signalStrength": 0.22,
       "status": "OPEN"
     }
   ],
@@ -348,22 +331,54 @@
       "pnlPct": -1.76,
       "reason": "SL",
       "status": "CLOSED"
+    },
+    {
+      "id": "03d61126-5605-47a2-baed-d7f148717415",
+      "side": "SHORT",
+      "entryPrice": 67567.9,
+      "entryTime": "2026-08-31T10:04:34.858Z",
+      "exitPrice": 65939.9,
+      "exitTime": "2026-09-02T10:51:36.361Z",
+      "sizeEUR": 31.01,
+      "notionalEUR": 465.15,
+      "leverage": 15,
+      "qtyBTC": 0.00688419,
+      "pnlEUR": 11.21,
+      "pnlPct": 2.41,
+      "reason": "TP",
+      "status": "CLOSED"
+    },
+    {
+      "id": "10397175-515e-4bdc-9174-198395a354dc",
+      "side": "LONG",
+      "entryPrice": 66932.1,
+      "entryTime": "2026-09-02T03:24:52.641Z",
+      "exitPrice": 65939.9,
+      "exitTime": "2026-09-02T10:51:36.361Z",
+      "sizeEUR": 32.14,
+      "notionalEUR": 482.1,
+      "leverage": 15,
+      "qtyBTC": 0.00720282,
+      "pnlEUR": -7.15,
+      "pnlPct": -1.48,
+      "reason": "SL",
+      "status": "CLOSED"
     }
   ],
   "lastSignal": {
-    "price": 76521.11957460058,
+    "price": 76426.48542182453,
     "direction": "SHORT",
     "score": -1.78,
     "strength": 0.22,
     "atr14": 790.8566607688257,
     "indicators": {
-      "ema20": 77333.32391051528,
-      "ema50": 77745.54499928176,
-      "rsi14": 31.476649475865713,
-      "macdHist": -45.022295320289885,
-      "bbUpper": 77927.00770163997,
-      "bbMid": 77274.81895800642,
-      "bbLower": 76622.63021437287
+      "ema20": 77324.31113406042,
+      "ema50": 77741.83385603564,
+      "rsi14": 30.426637119824775,
+      "macdHist": -51.061625867837336,
+      "bbUpper": 77945.05540273224,
+      "bbMid": 77270.08725036762,
+      "bbLower": 76595.11909800301
     },
     "fearGreed": {
       "value": 63,
@@ -411,22 +426,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77333 vs EMA50=77746",
+        "detail": "EMA20=77324 vs EMA50=77742",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "31.5",
+        "detail": "30.4",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-45.0",
+        "detail": "-51.1",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 76521 vs [76623, 77927]",
+        "detail": "prix 76426 vs [76595, 77945]",
         "points": 1
       },
       {
@@ -440,10 +455,10 @@
         "points": 1.67
       }
     ],
-    "computedAt": "2026-09-02T10:40:35.724Z",
-    "priceUSD": 76473.5,
-    "priceEUR": 66105.6,
-    "change24h": -1.1946029682899266
+    "computedAt": "2026-09-02T10:51:36.358Z",
+    "priceUSD": 76267,
+    "priceEUR": 65939.9,
+    "change24h": -1.4614053833362908
   },
   "history": [
     {
@@ -3800,7 +3815,12 @@
       "t": "2026-09-02T10:40:35.726Z",
       "equityEUR": 163.7,
       "priceEUR": 66105.6
+    },
+    {
+      "t": "2026-09-02T10:51:36.361Z",
+      "equityEUR": 163.65,
+      "priceEUR": 65939.9
     }
   ],
-  "lastRun": "2026-09-02T10:40:35.726Z"
+  "lastRun": "2026-09-02T10:51:36.361Z"
 }
