@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 117.03,
-  "equityEUR": 156.34,
+  "equityEUR": 157.25,
   "stopped": false,
   "openPositions": [
     {
@@ -414,19 +414,19 @@
     }
   ],
   "lastSignal": {
-    "price": 81015.98584351467,
+    "price": 81139.12769550107,
     "direction": "LONG",
-    "score": 1.67,
-    "strength": 0.21,
+    "score": 0.78,
+    "strength": 0.1,
     "atr14": 969.1322541397207,
     "indicators": {
-      "ema20": 78818.49227689044,
-      "ema50": 78145.18085764507,
-      "rsi14": 79.09410847036334,
-      "macdHist": 386.83996171671566,
-      "bbUpper": 81089.13133048607,
-      "bbMid": 78364.79649052105,
-      "bbLower": 75640.46165055604
+      "ema20": 78830.22007231772,
+      "ema50": 78150.00994987984,
+      "rsi14": 79.63782160817964,
+      "macdHist": 394.69858702865565,
+      "bbUpper": 81119.67517887903,
+      "bbMid": 78370.95358312038,
+      "bbLower": 75622.23198736174
     },
     "fearGreed": {
       "value": 65,
@@ -435,6 +435,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "CFTC Asks Judge to Dismiss CME Lawsuit Over Crypto Perpetual Futures",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
       {
         "title": "Recovery specialists crack $1B crypto wallet... but find just $10",
         "source": "Cointelegraph",
@@ -469,33 +474,28 @@
         "title": "Ether, XRP ETF inflow streaks end as Bitcoin funds rebound",
         "source": "Cointelegraph",
         "itemScore": 3
-      },
-      {
-        "title": "Japan’s Remixpoint Dumps Ethereum, XRP in Shift to Bitcoin-Only Treasury",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78818 vs EMA50=78145",
+        "detail": "EMA20=78830 vs EMA50=78150",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "79.1",
+        "detail": "79.6",
         "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "386.8",
-        "points": 1.5
+        "detail": "394.7",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 81016 vs [75640, 81089]",
-        "points": 0
+        "detail": "prix 81139 vs [75622, 81120]",
+        "points": -1
       },
       {
         "factor": "Fear & Greed Index",
@@ -504,14 +504,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -1",
-        "points": -0.33
+        "detail": "30 articles pertinents, score brut -2",
+        "points": -0.67
       }
     ],
-    "computedAt": "2026-09-03T17:25:00.870Z",
-    "priceUSD": 80996.8,
-    "priceEUR": 69605.8,
-    "change24h": 4.775764537564901
+    "computedAt": "2026-09-03T17:39:08.836Z",
+    "priceUSD": 81125.4,
+    "priceEUR": 69713.8,
+    "change24h": 4.942118804888177
   },
   "history": [
     {
@@ -4398,7 +4398,12 @@
       "t": "2026-09-03T17:25:00.873Z",
       "equityEUR": 156.34,
       "priceEUR": 69605.8
+    },
+    {
+      "t": "2026-09-03T17:39:08.838Z",
+      "equityEUR": 157.25,
+      "priceEUR": 69713.8
     }
   ],
-  "lastRun": "2026-09-03T17:25:00.873Z"
+  "lastRun": "2026-09-03T17:39:08.838Z"
 }
