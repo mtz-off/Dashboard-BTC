@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 116.04,
-  "equityEUR": 152.06,
+  "equityEUR": 150.94,
   "stopped": false,
   "openPositions": [
     {
@@ -382,29 +382,26 @@
     }
   ],
   "lastSignal": {
-    "price": 77755.69491875546,
+    "price": 77994.43013996977,
     "direction": "SHORT",
-    "score": -2,
-    "strength": 0.25,
+    "score": -2.55,
+    "strength": 0.32,
     "atr14": 781.757720804995,
     "indicators": {
-      "ema20": 77427.59012104505,
-      "ema50": 77532.17980964803,
-      "rsi14": 57.747501715308005,
-      "macdHist": 90.94240976531084,
-      "bbUpper": 77940.6956131666,
-      "bbMid": 77292.98968516165,
-      "bbLower": 76645.2837571567
+      "ema20": 77450.32680877975,
+      "ema50": 77541.54197518586,
+      "rsi14": 61.865956834243235,
+      "macdHist": 106.1779338542002,
+      "bbUpper": 77993.79329823625,
+      "bbMid": 77304.92644622237,
+      "bbLower": 76616.05959420848
     },
     "fearGreed": {
       "value": 65,
       "classification": "Greed",
       "timestamp": 1788393600000
     },
-    "fundingRate": {
-      "lastFundingRate": 0.00006646,
-      "markPrice": 77780.95936282
-    },
+    "fundingRate": null,
     "newsHighlights": [
       {
         "title": "Japan’s Remixpoint Dumps Ethereum, XRP in Shift to Bitcoin-Only Treasury",
@@ -440,32 +437,27 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77428 vs EMA50=77532",
+        "detail": "EMA20=77450 vs EMA50=77542",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "57.7",
+        "detail": "61.9",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "90.9",
-        "points": 1.5
+        "detail": "106.2",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77756 vs [76645, 77941]",
-        "points": 0
+        "detail": "prix 77994 vs [76616, 77994]",
+        "points": -1
       },
       {
         "factor": "Fear & Greed Index",
         "detail": "65 (Greed)",
-        "points": 0
-      },
-      {
-        "factor": "Funding rate BTC perp",
-        "detail": "0.0066%",
         "points": 0
       },
       {
@@ -474,10 +466,10 @@
         "points": -2
       }
     ],
-    "computedAt": "2026-09-03T06:56:17.959Z",
-    "priceUSD": 77786,
-    "priceEUR": 67027.9,
-    "change24h": 0.6223408865414817
+    "computedAt": "2026-09-03T07:11:25.020Z",
+    "priceUSD": 77991.4,
+    "priceEUR": 67156.8,
+    "change24h": 0.8880420257965538
   },
   "history": [
     {
@@ -4159,7 +4151,12 @@
       "t": "2026-09-03T06:56:17.961Z",
       "equityEUR": 152.06,
       "priceEUR": 67027.9
+    },
+    {
+      "t": "2026-09-03T07:11:25.022Z",
+      "equityEUR": 150.94,
+      "priceEUR": 67156.8
     }
   ],
-  "lastRun": "2026-09-03T06:56:17.961Z"
+  "lastRun": "2026-09-03T07:11:25.022Z"
 }
