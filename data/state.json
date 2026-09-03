@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 116.37948131362181,
-  "equityEUR": 152.45,
+  "equityEUR": 153.2,
   "stopped": false,
   "openPositions": [
     {
@@ -398,19 +398,19 @@
     }
   ],
   "lastSignal": {
-    "price": 79406.400391868,
+    "price": 79741.48679672476,
     "direction": "LONG",
-    "score": 1.12,
-    "strength": 0.14,
+    "score": 0.78,
+    "strength": 0.1,
     "atr14": 777.2033916691511,
     "indicators": {
-      "ema20": 77918.88084075454,
-      "ema50": 77726.00118174065,
-      "rsi14": 76.18849737152969,
-      "macdHist": 179.67805385949714,
-      "bbUpper": 78898.93788381336,
-      "bbMid": 77741.57952651361,
-      "bbLower": 76584.22116921387
+      "ema20": 77950.79383169329,
+      "ema50": 77739.14182506836,
+      "rsi14": 78.38995840081733,
+      "macdHist": 201.06248539451434,
+      "bbUpper": 79016.88684658172,
+      "bbMid": 77758.33384675646,
+      "bbLower": 76499.7808469312
     },
     "fearGreed": {
       "value": 65,
@@ -428,11 +428,6 @@
         "title": "SoFi, Kraken tie up as crypto and banking push into each other's turf",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Live updates: Bitcoin jumps above $79,000 as crypto stocks surge and dollar weakens",
-        "source": "CoinDesk",
-        "itemScore": 1
       },
       {
         "title": "Bitcoin recovers toward $78,000 as pons and arbitrum extend Robinhood Chain rally",
@@ -458,27 +453,32 @@
         "title": "Ether, XRP ETF inflow streaks end as Bitcoin funds rebound",
         "source": "Cointelegraph",
         "itemScore": 3
+      },
+      {
+        "title": "Japan’s Remixpoint Dumps Ethereum, XRP in Shift to Bitcoin-Only Treasury",
+        "source": "Decrypt",
+        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77919 vs EMA50=77726",
+        "detail": "EMA20=77951 vs EMA50=77739",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "76.2",
+        "detail": "78.4",
         "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "179.7",
+        "detail": "201.1",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 79406 vs [76584, 78899]",
+        "detail": "prix 79741 vs [76500, 79017]",
         "points": -1
       },
       {
@@ -488,14 +488,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -1",
-        "points": -0.33
+        "detail": "30 articles pertinents, score brut -2",
+        "points": -0.67
       }
     ],
-    "computedAt": "2026-09-03T14:27:41.221Z",
-    "priceUSD": 79555,
-    "priceEUR": 68464.6,
-    "change24h": 2.9106822465328928
+    "computedAt": "2026-09-03T14:41:12.862Z",
+    "priceUSD": 79647.4,
+    "priceEUR": 68580.2,
+    "change24h": 3.0302089518258226
   },
   "history": [
     {
@@ -4322,7 +4322,12 @@
       "t": "2026-09-03T14:27:41.223Z",
       "equityEUR": 152.45,
       "priceEUR": 68464.6
+    },
+    {
+      "t": "2026-09-03T14:41:12.865Z",
+      "equityEUR": 153.2,
+      "priceEUR": 68580.2
     }
   ],
-  "lastRun": "2026-09-03T14:27:41.223Z"
+  "lastRun": "2026-09-03T14:41:12.865Z"
 }
