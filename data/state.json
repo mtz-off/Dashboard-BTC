@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 116.04,
-  "equityEUR": 151.55,
+  "equityEUR": 151.75,
   "stopped": false,
   "openPositions": [
     {
@@ -382,19 +382,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77837.12888638025,
+    "price": 77801.2246828359,
     "direction": "SHORT",
-    "score": -0.67,
-    "strength": 0.08,
+    "score": -1,
+    "strength": 0.13,
     "atr14": 794.370686216244,
     "indicators": {
-      "ema20": 77518.31156825926,
-      "ema50": 77559.66814707863,
-      "rsi14": 58.50930176503675,
-      "macdHist": 68.73746663352983,
-      "bbUpper": 78000.31671502857,
-      "bbMid": 77437.18672759159,
-      "bbLower": 76874.0567401546
+      "ema20": 77514.89212030267,
+      "ema50": 77558.2601390965,
+      "rsi14": 57.75116256690992,
+      "macdHist": 66.44614424208456,
+      "bbUpper": 77993.61770107907,
+      "bbMid": 77435.39151741438,
+      "bbLower": 76877.16533374968
     },
     "fearGreed": {
       "value": 65,
@@ -403,6 +403,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "CFTC asks judge to dismiss CME lawsuit over crypto perpetual futures",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Ether, XRP ETF inflow streaks end as Bitcoin funds rebound",
         "source": "Cointelegraph",
@@ -437,22 +442,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77518 vs EMA50=77560",
+        "detail": "EMA20=77515 vs EMA50=77558",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "58.5",
+        "detail": "57.8",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "68.7",
+        "detail": "66.4",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77837 vs [76874, 78000]",
+        "detail": "prix 77801 vs [76877, 77994]",
         "points": 0
       },
       {
@@ -462,14 +467,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -2",
-        "points": -0.67
+        "detail": "30 articles pertinents, score brut -3",
+        "points": -1
       }
     ],
-    "computedAt": "2026-09-03T09:10:52.819Z",
-    "priceUSD": 77845.9,
-    "priceEUR": 67087.3,
-    "change24h": 0.6998262723320257
+    "computedAt": "2026-09-03T09:27:29.483Z",
+    "priceUSD": 77789.1,
+    "priceEUR": 67064.1,
+    "change24h": 0.6263509816324859
   },
   "history": [
     {
@@ -4196,7 +4201,12 @@
       "t": "2026-09-03T09:10:52.821Z",
       "equityEUR": 151.55,
       "priceEUR": 67087.3
+    },
+    {
+      "t": "2026-09-03T09:27:29.485Z",
+      "equityEUR": 151.75,
+      "priceEUR": 67064.1
     }
   ],
-  "lastRun": "2026-09-03T09:10:52.821Z"
+  "lastRun": "2026-09-03T09:27:29.485Z"
 }
