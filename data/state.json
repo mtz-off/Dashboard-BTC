@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 116.04,
-  "equityEUR": 153.3,
+  "equityEUR": 153.74,
   "stopped": false,
   "openPositions": [
     {
@@ -382,19 +382,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77636.78816132162,
+    "price": 77483.66164454227,
     "direction": "SHORT",
-    "score": -2.17,
-    "strength": 0.27,
+    "score": -1.83,
+    "strength": 0.23,
     "atr14": 794.370686216244,
     "indicators": {
-      "ema20": 77507.85154193112,
-      "ema50": 77553.205425406,
-      "rsi14": 53.60737922845978,
-      "macdHist": 39.75255294262993,
-      "bbUpper": 77966.50720100595,
-      "bbMid": 77455.44640461725,
-      "bbLower": 76944.38560822855
+      "ema20": 77493.2680641426,
+      "ema50": 77547.20046396367,
+      "rsi14": 50.23073803805945,
+      "macdHist": 29.980376373232374,
+      "bbUpper": 77952.30064726216,
+      "bbMid": 77447.79007877829,
+      "bbLower": 76943.27951029441
     },
     "fearGreed": {
       "value": 65,
@@ -403,6 +403,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin recovers toward $78,000 as pons and arbitrum extend Robinhood Chain rally",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "Australia is cracking down on crypto businesses as its strict new regulatory deadline nears",
         "source": "CoinDesk",
@@ -437,32 +442,27 @@
         "title": "Is Bitcoin About to Flash Crash? What a &#39;Bart Simpson&#39; Pattern Would Actually Take",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77508 vs EMA50=77553",
+        "detail": "EMA20=77493 vs EMA50=77547",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "53.6",
+        "detail": "50.2",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "39.8",
+        "detail": "30.0",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77637 vs [76944, 77967]",
+        "detail": "prix 77484 vs [76943, 77952]",
         "points": 0
       },
       {
@@ -472,14 +472,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -5",
-        "points": -1.67
+        "detail": "30 articles pertinents, score brut -4",
+        "points": -1.33
       }
     ],
-    "computedAt": "2026-09-03T10:26:33.455Z",
-    "priceUSD": 77588.9,
-    "priceEUR": 66885.9,
-    "change24h": 0.36737645349777315
+    "computedAt": "2026-09-03T10:39:48.267Z",
+    "priceUSD": 77510.3,
+    "priceEUR": 66835,
+    "change24h": 0.26570113925509087
   },
   "history": [
     {
@@ -4231,7 +4231,12 @@
       "t": "2026-09-03T10:26:33.458Z",
       "equityEUR": 153.3,
       "priceEUR": 66885.9
+    },
+    {
+      "t": "2026-09-03T10:39:48.270Z",
+      "equityEUR": 153.74,
+      "priceEUR": 66835
     }
   ],
-  "lastRun": "2026-09-03T10:26:33.458Z"
+  "lastRun": "2026-09-03T10:39:48.270Z"
 }
