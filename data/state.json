@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 116.04,
-  "equityEUR": 152.38,
+  "equityEUR": 152.06,
   "stopped": false,
   "openPositions": [
     {
@@ -382,26 +382,29 @@
     }
   ],
   "lastSignal": {
-    "price": 77736.47534456974,
+    "price": 77755.69491875546,
     "direction": "SHORT",
     "score": -2,
     "strength": 0.25,
     "atr14": 781.757720804995,
     "indicators": {
-      "ema20": 77425.75968540831,
-      "ema50": 77531.42610085644,
-      "rsi14": 57.27573116169292,
-      "macdHist": 89.71586144120458,
-      "bbUpper": 77937.03719836043,
-      "bbMid": 77292.02870645236,
-      "bbLower": 76647.02021454429
+      "ema20": 77427.59012104505,
+      "ema50": 77532.17980964803,
+      "rsi14": 57.747501715308005,
+      "macdHist": 90.94240976531084,
+      "bbUpper": 77940.6956131666,
+      "bbMid": 77292.98968516165,
+      "bbLower": 76645.2837571567
     },
     "fearGreed": {
       "value": 65,
       "classification": "Greed",
       "timestamp": 1788393600000
     },
-    "fundingRate": null,
+    "fundingRate": {
+      "lastFundingRate": 0.00006646,
+      "markPrice": 77780.95936282
+    },
     "newsHighlights": [
       {
         "title": "Japan’s Remixpoint Dumps Ethereum, XRP in Shift to Bitcoin-Only Treasury",
@@ -437,22 +440,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77426 vs EMA50=77531",
+        "detail": "EMA20=77428 vs EMA50=77532",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "57.3",
+        "detail": "57.7",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "89.7",
+        "detail": "90.9",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77736 vs [76647, 77937]",
+        "detail": "prix 77756 vs [76645, 77941]",
         "points": 0
       },
       {
@@ -461,15 +464,20 @@
         "points": 0
       },
       {
+        "factor": "Funding rate BTC perp",
+        "detail": "0.0066%",
+        "points": 0
+      },
+      {
         "factor": "Sentiment news (RSS temps réel)",
         "detail": "30 articles pertinents, score brut -6",
         "points": -2
       }
     ],
-    "computedAt": "2026-09-03T06:42:14.738Z",
-    "priceUSD": 77745.6,
-    "priceEUR": 66991.2,
-    "change24h": 0.5700802924523694
+    "computedAt": "2026-09-03T06:56:17.959Z",
+    "priceUSD": 77786,
+    "priceEUR": 67027.9,
+    "change24h": 0.6223408865414817
   },
   "history": [
     {
@@ -4146,7 +4154,12 @@
       "t": "2026-09-03T06:42:14.741Z",
       "equityEUR": 152.38,
       "priceEUR": 66991.2
+    },
+    {
+      "t": "2026-09-03T06:56:17.961Z",
+      "equityEUR": 152.06,
+      "priceEUR": 67027.9
     }
   ],
-  "lastRun": "2026-09-03T06:42:14.741Z"
+  "lastRun": "2026-09-03T06:56:17.961Z"
 }
