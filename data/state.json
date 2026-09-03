@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 116.04,
-  "equityEUR": 151.75,
+  "equityEUR": 152.74,
   "stopped": false,
   "openPositions": [
     {
@@ -382,19 +382,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77801.2246828359,
+    "price": 77719.40287014,
     "direction": "SHORT",
-    "score": -1,
-    "strength": 0.13,
+    "score": -1.33,
+    "strength": 0.17,
     "atr14": 794.370686216244,
     "indicators": {
-      "ema20": 77514.89212030267,
-      "ema50": 77558.2601390965,
-      "rsi14": 57.75116256690992,
-      "macdHist": 66.44614424208456,
-      "bbUpper": 77993.61770107907,
-      "bbMid": 77435.39151741438,
-      "bbLower": 76877.16533374968
+      "ema20": 77507.09956671258,
+      "ema50": 77555.0514405594,
+      "rsi14": 55.655554236820436,
+      "macdHist": 61.22446730651471,
+      "bbUpper": 77979.85783740261,
+      "bbMid": 77431.30042677958,
+      "bbLower": 76882.74301615654
     },
     "fearGreed": {
       "value": 65,
@@ -403,6 +403,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Coldcard hacker swaps stolen Bitcoin for ETH via THORChain",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "CFTC asks judge to dismiss CME lawsuit over crypto perpetual futures",
         "source": "CoinDesk",
@@ -442,22 +447,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77515 vs EMA50=77558",
+        "detail": "EMA20=77507 vs EMA50=77555",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "57.8",
+        "detail": "55.7",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "66.4",
+        "detail": "61.2",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77801 vs [76877, 77994]",
+        "detail": "prix 77719 vs [76883, 77980]",
         "points": 0
       },
       {
@@ -467,14 +472,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -3",
-        "points": -1
+        "detail": "30 articles pertinents, score brut -4",
+        "points": -1.33
       }
     ],
-    "computedAt": "2026-09-03T09:27:29.483Z",
-    "priceUSD": 77789.1,
-    "priceEUR": 67064.1,
-    "change24h": 0.6263509816324859
+    "computedAt": "2026-09-03T09:41:40.696Z",
+    "priceUSD": 77659.6,
+    "priceEUR": 66950,
+    "change24h": 0.45883249315374797
   },
   "history": [
     {
@@ -4206,7 +4211,12 @@
       "t": "2026-09-03T09:27:29.485Z",
       "equityEUR": 151.75,
       "priceEUR": 67064.1
+    },
+    {
+      "t": "2026-09-03T09:41:40.699Z",
+      "equityEUR": 152.74,
+      "priceEUR": 66950
     }
   ],
-  "lastRun": "2026-09-03T09:27:29.485Z"
+  "lastRun": "2026-09-03T09:41:40.699Z"
 }
