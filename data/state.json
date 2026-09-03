@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 117.03,
-  "equityEUR": 158.41,
+  "equityEUR": 158.14,
   "stopped": false,
   "openPositions": [
     {
@@ -414,26 +414,29 @@
     }
   ],
   "lastSignal": {
-    "price": 81226.63852364055,
+    "price": 81154.51728146485,
     "direction": "LONG",
     "score": 2,
     "strength": 0.25,
     "atr14": 979.397871194819,
     "indicators": {
-      "ema20": 79978.86642240256,
-      "ema50": 78839.59499104708,
-      "rsi14": 70.91562940293122,
-      "macdHist": 145.30929871863646,
-      "bbUpper": 82947.26095692505,
-      "bbMid": 79579.89967535375,
-      "bbLower": 76212.53839378245
+      "ema20": 79971.99773267155,
+      "ema50": 78836.76670704018,
+      "rsi14": 70.4201872960252,
+      "macdHist": 140.70668953135328,
+      "bbUpper": 82936.7406579242,
+      "bbMid": 79576.29361324497,
+      "bbLower": 76215.84656856574
     },
     "fearGreed": {
       "value": 65,
       "classification": "Greed",
       "timestamp": 1788393600000
     },
-    "fundingRate": null,
+    "fundingRate": {
+      "lastFundingRate": 0.00008189,
+      "markPrice": 81160.63553623
+    },
     "newsHighlights": [
       {
         "title": "CFTC files to dismiss CME lawsuit over crypto perpetual futures",
@@ -479,22 +482,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=79979 vs EMA50=78840",
+        "detail": "EMA20=79972 vs EMA50=78837",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "70.9",
+        "detail": "70.4",
         "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "145.3",
+        "detail": "140.7",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 81227 vs [76213, 82947]",
+        "detail": "prix 81155 vs [76216, 82937]",
         "points": 0
       },
       {
@@ -503,15 +506,20 @@
         "points": 0
       },
       {
+        "factor": "Funding rate BTC perp",
+        "detail": "0.0082%",
+        "points": 0
+      },
+      {
         "factor": "Sentiment news (RSS temps réel)",
         "detail": "30 articles pertinents, score brut 0",
         "points": 0
       }
     ],
-    "computedAt": "2026-09-03T23:21:43.915Z",
-    "priceUSD": 81217.1,
-    "priceEUR": 69852.1,
-    "change24h": 5.060740004838001
+    "computedAt": "2026-09-03T23:35:25.148Z",
+    "priceUSD": 81188.9,
+    "priceEUR": 69819.3,
+    "change24h": 5.024261075300531
   },
   "history": [
     {
@@ -4513,7 +4521,12 @@
       "t": "2026-09-03T23:21:43.918Z",
       "equityEUR": 158.41,
       "priceEUR": 69852.1
+    },
+    {
+      "t": "2026-09-03T23:35:25.150Z",
+      "equityEUR": 158.14,
+      "priceEUR": 69819.3
     }
   ],
-  "lastRun": "2026-09-03T23:21:43.918Z"
+  "lastRun": "2026-09-03T23:35:25.150Z"
 }
