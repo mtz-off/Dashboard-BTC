@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 117.03,
-  "equityEUR": 156.16,
+  "equityEUR": 157.68,
   "stopped": false,
   "openPositions": [
     {
@@ -414,19 +414,19 @@
     }
   ],
   "lastSignal": {
-    "price": 80840.25251872354,
+    "price": 81088.39245190048,
     "direction": "LONG",
-    "score": 0.88,
-    "strength": 0.11,
+    "score": 2,
+    "strength": 0.25,
     "atr14": 950.8047523767017,
     "indicators": {
-      "ema20": 80606.3303766151,
-      "ema50": 79580.08792895987,
-      "rsi14": 58.50303979133047,
-      "macdHist": -147.734375261202,
-      "bbUpper": 81637.71878793795,
-      "bbMid": 81093.14798232561,
-      "bbLower": 80548.57717671327
+      "ema20": 80629.96275120338,
+      "ema50": 79589.81890673151,
+      "rsi14": 62.8980455261272,
+      "macdHist": -131.89866442597804,
+      "bbUpper": 81637.67801736254,
+      "bbMid": 81105.55497898447,
+      "bbLower": 80573.43194060639
     },
     "fearGreed": {
       "value": 74,
@@ -435,6 +435,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin clears $81,000 as privacy coins lead a broad crypto rally",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "Bitcoin ETF inflows hit $731M, highest since January as BTC reclaims $80K",
         "source": "Cointelegraph",
@@ -469,32 +474,27 @@
         "title": "Recovery specialists crack $1B crypto wallet... but find just $10",
         "source": "Cointelegraph",
         "itemScore": 1
-      },
-      {
-        "title": "SoFi, Kraken tie up as crypto and banking push into each other's turf",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=80606 vs EMA50=79580",
+        "detail": "EMA20=80630 vs EMA50=79590",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "58.5",
+        "detail": "62.9",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-147.7",
-        "points": -1.95
+        "detail": "-131.9",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 80840 vs [80549, 81638]",
+        "detail": "prix 81088 vs [80573, 81638]",
         "points": 0
       },
       {
@@ -504,14 +504,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 1",
-        "points": 0.33
+        "detail": "30 articles pertinents, score brut 3",
+        "points": 1
       }
     ],
-    "computedAt": "2026-09-04T10:26:49.515Z",
-    "priceUSD": 80847.5,
-    "priceEUR": 69584.9,
-    "change24h": -0.5273382950215448
+    "computedAt": "2026-09-04T10:42:15.114Z",
+    "priceUSD": 81055.5,
+    "priceEUR": 69765.2,
+    "change24h": -0.27142050369051396
   },
   "history": [
     {
@@ -4723,7 +4723,12 @@
       "t": "2026-09-04T10:26:49.518Z",
       "equityEUR": 156.16,
       "priceEUR": 69584.9
+    },
+    {
+      "t": "2026-09-04T10:42:15.117Z",
+      "equityEUR": 157.68,
+      "priceEUR": 69765.2
     }
   ],
-  "lastRun": "2026-09-04T10:26:49.518Z"
+  "lastRun": "2026-09-04T10:42:15.117Z"
 }
