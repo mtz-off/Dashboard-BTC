@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 117.03,
-  "equityEUR": 154.9,
+  "equityEUR": 154.93,
   "stopped": false,
   "openPositions": [
     {
@@ -414,19 +414,19 @@
     }
   ],
   "lastSignal": {
-    "price": 80753.31185538246,
-    "direction": "SHORT",
-    "score": -0.45,
-    "strength": 0.06,
+    "price": 80707.07849374041,
+    "direction": "LONG",
+    "score": 0.55,
+    "strength": 0.07,
     "atr14": 974.1718886296019,
     "indicators": {
-      "ema20": 80480.54842095179,
-      "ema50": 79403.25435118671,
-      "rsi14": 60.24199773755759,
-      "macdHist": -154.89860609498635,
-      "bbUpper": 82381.28808663001,
-      "bbMid": 80843.92661726185,
-      "bbLower": 79306.56514789369
+      "ema20": 80476.14524365256,
+      "ema50": 79401.44127818114,
+      "rsi14": 59.372289486498104,
+      "macdHist": -157.84911122541007,
+      "bbUpper": 82379.65337101085,
+      "bbMid": 80841.61494917974,
+      "bbLower": 79303.57652734863
     },
     "fearGreed": {
       "value": 74,
@@ -435,6 +435,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin ETF inflows hit $731M, highest since January as BTC reclaims $80K",
+        "source": "Cointelegraph",
+        "itemScore": 2
+      },
       {
         "title": "El Salvador’s post-review Bitcoin accumulation used no public funds: IMF",
         "source": "Cointelegraph",
@@ -469,32 +474,27 @@
         "title": "SoFi, Kraken tie up as crypto and banking push into each other's turf",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin recovers toward $78,000 as pons and arbitrum extend Robinhood Chain rally",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=80481 vs EMA50=79403",
+        "detail": "EMA20=80476 vs EMA50=79401",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "60.2",
+        "detail": "59.4",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-154.9",
+        "detail": "-157.8",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 80753 vs [79307, 82381]",
+        "detail": "prix 80707 vs [79304, 82380]",
         "points": 0
       },
       {
@@ -504,14 +504,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -3",
-        "points": -1
+        "detail": "30 articles pertinents, score brut 0",
+        "points": 0
       }
     ],
-    "computedAt": "2026-09-04T07:46:11.782Z",
-    "priceUSD": 80734.4,
-    "priceEUR": 69434.9,
-    "change24h": -0.6664935940578001
+    "computedAt": "2026-09-04T07:53:31.400Z",
+    "priceUSD": 80712.2,
+    "priceEUR": 69437.6,
+    "change24h": -0.6938078967863968
   },
   "history": [
     {
@@ -4668,7 +4668,12 @@
       "t": "2026-09-04T07:46:11.784Z",
       "equityEUR": 154.9,
       "priceEUR": 69434.9
+    },
+    {
+      "t": "2026-09-04T07:53:31.403Z",
+      "equityEUR": 154.93,
+      "priceEUR": 69437.6
     }
   ],
-  "lastRun": "2026-09-04T07:46:11.784Z"
+  "lastRun": "2026-09-04T07:53:31.403Z"
 }
