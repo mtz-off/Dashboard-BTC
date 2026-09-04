@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 109.07,
-  "equityEUR": 148.66,
+  "equityEUR": 149.02,
   "stopped": false,
   "openPositions": [
     {
@@ -430,19 +430,19 @@
     }
   ],
   "lastSignal": {
-    "price": 79750.39383349045,
+    "price": 79822.29171587444,
     "direction": "LONG",
-    "score": 1.5,
-    "strength": 0.19,
+    "score": 1.83,
+    "strength": 0.23,
     "atr14": 1016.3960490706329,
     "indicators": {
-      "ema20": 80012.29515272331,
-      "ema50": 79615.20210670448,
-      "rsi14": 46.91165162305902,
-      "macdHist": -160.53933464249064,
-      "bbUpper": 81830.17761224101,
-      "bbMid": 80308.74883621991,
-      "bbLower": 78787.3200601988
+      "ema20": 79990.39615003014,
+      "ema50": 79621.65605115965,
+      "rsi14": 48.00671629542506,
+      "macdHist": -127.98989490097156,
+      "bbUpper": 81756.02939679401,
+      "bbMid": 80249.1564505649,
+      "bbLower": 78742.28350433579
     },
     "fearGreed": {
       "value": 74,
@@ -485,32 +485,27 @@
         "title": "Bitcoin ETFs Rebound as Ethereum and XRP ETFs End Winning Streaks",
         "source": "Decrypt",
         "itemScore": 1
-      },
-      {
-        "title": "CFTC Asks Judge to Dismiss CME Lawsuit Over Crypto Perpetual Futures",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=80012 vs EMA50=79615",
+        "detail": "EMA20=79990 vs EMA50=79622",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "46.9",
+        "detail": "48.0",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-160.5",
+        "detail": "-128.0",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 79750 vs [78787, 81830]",
+        "detail": "prix 79822 vs [78742, 81756]",
         "points": 0
       },
       {
@@ -520,14 +515,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 3",
-        "points": 1
+        "detail": "30 articles pertinents, score brut 4",
+        "points": 1.33
       }
     ],
-    "computedAt": "2026-09-04T21:07:50.834Z",
-    "priceUSD": 79781.8,
-    "priceEUR": 68712.6,
-    "change24h": -1.8385478633940393
+    "computedAt": "2026-09-04T21:23:55.110Z",
+    "priceUSD": 79824.6,
+    "priceEUR": 68758.3,
+    "change24h": -1.7858878563316891
   },
   "history": [
     {
@@ -4949,7 +4944,12 @@
       "t": "2026-09-04T21:07:50.836Z",
       "equityEUR": 148.66,
       "priceEUR": 68712.6
+    },
+    {
+      "t": "2026-09-04T21:23:55.113Z",
+      "equityEUR": 149.02,
+      "priceEUR": 68758.3
     }
   ],
-  "lastRun": "2026-09-04T21:07:50.836Z"
+  "lastRun": "2026-09-04T21:23:55.113Z"
 }
