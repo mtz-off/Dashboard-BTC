@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 109.07,
-  "equityEUR": 145.42,
+  "equityEUR": 146.56,
   "stopped": false,
   "openPositions": [
     {
@@ -430,19 +430,19 @@
     }
   ],
   "lastSignal": {
-    "price": 79423.67943152589,
+    "price": 79419.8461748564,
     "direction": "LONG",
     "score": 1.55,
     "strength": 0.19,
     "atr14": 939.9208125069008,
     "indicators": {
-      "ema20": 80464.13885901088,
-      "ema50": 79639.40224918604,
-      "rsi14": 39.449872986481935,
-      "macdHist": -282.8428763601562,
-      "bbUpper": 82085.4764197559,
-      "bbMid": 80947.82646190174,
-      "bbLower": 79810.17650404759
+      "ema20": 80463.77378694713,
+      "ema50": 79639.25192539509,
+      "rsi14": 39.41480601415684,
+      "macdHist": -283.08750584561903,
+      "bbUpper": 82086.31262758083,
+      "bbMid": 80947.63479906826,
+      "bbLower": 79808.95697055568
     },
     "fearGreed": {
       "value": 74,
@@ -505,12 +505,12 @@
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-282.8",
+        "detail": "-283.1",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 79424 vs [79810, 82085]",
+        "detail": "prix 79420 vs [79809, 82086]",
         "points": 1
       },
       {
@@ -524,10 +524,10 @@
         "points": 1
       }
     ],
-    "computedAt": "2026-09-04T13:08:09.589Z",
-    "priceUSD": 79241.2,
-    "priceEUR": 68307.2,
-    "change24h": -2.50368804605537
+    "computedAt": "2026-09-04T13:26:09.680Z",
+    "priceUSD": 79440.6,
+    "priceEUR": 68450,
+    "change24h": -2.258351471096669
   },
   "history": [
     {
@@ -4789,7 +4789,12 @@
       "t": "2026-09-04T13:08:09.592Z",
       "equityEUR": 145.42,
       "priceEUR": 68307.2
+    },
+    {
+      "t": "2026-09-04T13:26:09.682Z",
+      "equityEUR": 146.56,
+      "priceEUR": 68450
     }
   ],
-  "lastRun": "2026-09-04T13:08:09.592Z"
+  "lastRun": "2026-09-04T13:26:09.682Z"
 }
