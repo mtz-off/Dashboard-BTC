@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 117.03,
-  "equityEUR": 156.49,
+  "equityEUR": 154.86,
   "stopped": false,
   "openPositions": [
     {
@@ -414,19 +414,19 @@
     }
   ],
   "lastSignal": {
-    "price": 81026.4000097048,
-    "direction": "LONG",
-    "score": 0.22,
-    "strength": 0.03,
+    "price": 80720.93077356662,
+    "direction": "SHORT",
+    "score": -0.45,
+    "strength": 0.06,
     "atr14": 974.1718886296019,
     "indicators": {
-      "ema20": 80475.69285662367,
-      "ema50": 79357.99836989566,
-      "rsi14": 65.11754365378977,
-      "macdHist": -120.7348806035908,
-      "bbUpper": 82719.0395474196,
-      "bbMid": 80714.44266917478,
-      "bbLower": 78709.84579092996
+      "ema20": 80446.60054842004,
+      "ema50": 79346.01918416476,
+      "rsi14": 59.70375053302355,
+      "macdHist": -140.22921362209297,
+      "bbUpper": 82698.67426421675,
+      "bbMid": 80699.16920736789,
+      "bbLower": 78699.66415051902
     },
     "fearGreed": {
       "value": 74,
@@ -435,6 +435,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "El Salvador’s post-review Bitcoin accumulation used no public funds: IMF",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
       {
         "title": "U.S. banking agency gives blockchain bank OpenReserve initial OK to operate",
         "source": "CoinDesk",
@@ -469,32 +474,27 @@
         "title": "Bitcoin recovers toward $78,000 as pons and arbitrum extend Robinhood Chain rally",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Australia is cracking down on crypto businesses as its strict new regulatory deadline nears",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=80476 vs EMA50=79358",
+        "detail": "EMA20=80447 vs EMA50=79346",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "65.1",
+        "detail": "59.7",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-120.7",
+        "detail": "-140.2",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 81026 vs [78710, 82719]",
+        "detail": "prix 80721 vs [78700, 82699]",
         "points": 0
       },
       {
@@ -504,14 +504,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -1",
-        "points": -0.33
+        "detail": "30 articles pertinents, score brut -3",
+        "points": -1
       }
     ],
-    "computedAt": "2026-09-04T06:18:02.558Z",
-    "priceUSD": 80978.6,
-    "priceEUR": 69623.5,
-    "change24h": -0.3660362640431812
+    "computedAt": "2026-09-04T06:33:18.641Z",
+    "priceUSD": 80741,
+    "priceEUR": 69429.8,
+    "change24h": -0.6583731256790197
   },
   "history": [
     {
@@ -4643,7 +4643,12 @@
       "t": "2026-09-04T06:18:02.561Z",
       "equityEUR": 156.49,
       "priceEUR": 69623.5
+    },
+    {
+      "t": "2026-09-04T06:33:18.645Z",
+      "equityEUR": 154.86,
+      "priceEUR": 69429.8
     }
   ],
-  "lastRun": "2026-09-04T06:18:02.561Z"
+  "lastRun": "2026-09-04T06:33:18.645Z"
 }
