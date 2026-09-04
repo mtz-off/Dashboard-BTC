@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 109.07,
-  "equityEUR": 148.75,
+  "equityEUR": 148.64,
   "stopped": false,
   "openPositions": [
     {
@@ -430,29 +430,26 @@
     }
   ],
   "lastSignal": {
-    "price": 79753.43029547771,
+    "price": 79734.9748021692,
     "direction": "LONG",
     "score": 1.5,
     "strength": 0.19,
     "atr14": 1016.3960490706329,
     "indicators": {
-      "ema20": 80012.58433957923,
-      "ema50": 79615.32118364517,
-      "rsi14": 46.94730628870332,
-      "macdHist": -160.3455547321814,
-      "bbUpper": 81830.1071222387,
-      "bbMid": 80308.90065931926,
-      "bbLower": 78787.69419639983
+      "ema20": 80010.82667354985,
+      "ema50": 79614.59743880953,
+      "rsi14": 46.73143119644776,
+      "macdHist": -161.52334119974336,
+      "bbUpper": 81830.55281208939,
+      "bbMid": 80307.97788465384,
+      "bbLower": 78785.40295721829
     },
     "fearGreed": {
       "value": 74,
       "classification": "Greed",
       "timestamp": 1788480000000
     },
-    "fundingRate": {
-      "lastFundingRate": 0.00005246,
-      "markPrice": 79731.7
-    },
+    "fundingRate": null,
     "newsHighlights": [
       {
         "title": "Morning Minute: Crypto Stages Major Rally on Rate Hopes",
@@ -498,22 +495,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=80013 vs EMA50=79615",
+        "detail": "EMA20=80011 vs EMA50=79615",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "46.9",
+        "detail": "46.7",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-160.3",
+        "detail": "-161.5",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 79753 vs [78788, 81830]",
+        "detail": "prix 79735 vs [78785, 81831]",
         "points": 0
       },
       {
@@ -522,20 +519,15 @@
         "points": 0
       },
       {
-        "factor": "Funding rate BTC perp",
-        "detail": "0.0052%",
-        "points": 0
-      },
-      {
         "factor": "Sentiment news (RSS temps réel)",
         "detail": "30 articles pertinents, score brut 3",
         "points": 1
       }
     ],
-    "computedAt": "2026-09-04T20:38:16.442Z",
-    "priceUSD": 79782.5,
-    "priceEUR": 68724.7,
-    "change24h": -1.837686601596294
+    "computedAt": "2026-09-04T20:49:35.849Z",
+    "priceUSD": 79772.2,
+    "priceEUR": 68710,
+    "change24h": -1.8503594537631711
   },
   "history": [
     {
@@ -4947,7 +4939,12 @@
       "t": "2026-09-04T20:38:16.444Z",
       "equityEUR": 148.75,
       "priceEUR": 68724.7
+    },
+    {
+      "t": "2026-09-04T20:49:35.852Z",
+      "equityEUR": 148.64,
+      "priceEUR": 68710
     }
   ],
-  "lastRun": "2026-09-04T20:38:16.444Z"
+  "lastRun": "2026-09-04T20:49:35.852Z"
 }
