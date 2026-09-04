@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 117.03,
-  "equityEUR": 155.58,
+  "equityEUR": 155.6,
   "stopped": false,
   "openPositions": [
     {
@@ -414,27 +414,35 @@
     }
   ],
   "lastSignal": {
-    "price": 80918.9931677016,
+    "price": 80821.74361256423,
     "direction": "LONG",
-    "score": 0.55,
-    "strength": 0.07,
+    "score": 0.22,
+    "strength": 0.03,
     "atr14": 992.0673997113964,
     "indicators": {
-      "ema20": 80290.86896607962,
-      "ema50": 79148.44730046677,
-      "rsi14": 64.66379935295643,
-      "macdHist": -73.06064999187743,
-      "bbUpper": 83125.50355404636,
-      "bbMid": 80219.14901964308,
-      "bbLower": 77312.7944852398
+      "ema20": 80281.60710368559,
+      "ema50": 79144.63359242216,
+      "rsi14": 63.715097633034325,
+      "macdHist": -79.26688940806002,
+      "bbUpper": 83116.2634176135,
+      "bbMid": 80214.2865418862,
+      "bbLower": 77312.30966615891
     },
     "fearGreed": {
       "value": 74,
       "classification": "Greed",
       "timestamp": 1788480000000
     },
-    "fundingRate": null,
+    "fundingRate": {
+      "lastFundingRate": 0.00008681,
+      "markPrice": 80781.97145427
+    },
     "newsHighlights": [
+      {
+        "title": "U.S. banking agency gives blockchain bank OpenReserve initial OK to operate",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "CFTC files to dismiss CME lawsuit over crypto perpetual futures",
         "source": "Cointelegraph",
@@ -469,32 +477,27 @@
         "title": "Australia is cracking down on crypto businesses as its strict new regulatory deadline nears",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Coldcard hacker swaps stolen Bitcoin for ETH via THORChain",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=80291 vs EMA50=79148",
+        "detail": "EMA20=80282 vs EMA50=79145",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "64.7",
+        "detail": "63.7",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-73.1",
+        "detail": "-79.3",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 80919 vs [77313, 83126]",
+        "detail": "prix 80822 vs [77312, 83116]",
         "points": 0
       },
       {
@@ -503,15 +506,20 @@
         "points": 0
       },
       {
-        "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 0",
+        "factor": "Funding rate BTC perp",
+        "detail": "0.0087%",
         "points": 0
+      },
+      {
+        "factor": "Sentiment news (RSS temps réel)",
+        "detail": "30 articles pertinents, score brut -1",
+        "points": -0.33
       }
     ],
-    "computedAt": "2026-09-04T03:26:27.249Z",
-    "priceUSD": 80843.3,
-    "priceEUR": 69515.7,
-    "change24h": -0.5325058658080332
+    "computedAt": "2026-09-04T03:42:53.860Z",
+    "priceUSD": 80819.5,
+    "priceEUR": 69518,
+    "change24h": -0.5617887669314913
   },
   "history": [
     {
@@ -4588,7 +4596,12 @@
       "t": "2026-09-04T03:26:27.252Z",
       "equityEUR": 155.58,
       "priceEUR": 69515.7
+    },
+    {
+      "t": "2026-09-04T03:42:53.862Z",
+      "equityEUR": 155.6,
+      "priceEUR": 69518
     }
   ],
-  "lastRun": "2026-09-04T03:26:27.252Z"
+  "lastRun": "2026-09-04T03:42:53.862Z"
 }
