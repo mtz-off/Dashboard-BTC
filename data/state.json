@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 117.03,
-  "equityEUR": 150.72,
+  "equityEUR": 148.12,
   "stopped": false,
   "openPositions": [
     {
@@ -414,19 +414,19 @@
     }
   ],
   "lastSignal": {
-    "price": 80440.07618839772,
+    "price": 79547.11391932983,
     "direction": "LONG",
-    "score": 1.72,
-    "strength": 0.21,
+    "score": 1.55,
+    "strength": 0.19,
     "atr14": 939.9208125069008,
     "indicators": {
-      "ema20": 80669.07675521988,
-      "ema50": 79687.51066066267,
-      "rsi14": 50.53102746126991,
-      "macdHist": -157.5432931623684,
-      "bbUpper": 81677.43752398812,
-      "bbMid": 81078.59607091812,
-      "bbLower": 80479.75461784813
+      "ema20": 80584.03272959437,
+      "ema50": 79652.49253246393,
+      "rsi14": 40.53805238983335,
+      "macdHist": -214.53005905159807,
+      "bbUpper": 81893.12387532272,
+      "bbMid": 81033.94795746473,
+      "bbLower": 80174.77203960673
     },
     "fearGreed": {
       "value": 74,
@@ -435,6 +435,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Morning Minute: Crypto Stages Major Rally on Rate Hopes",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
       {
         "title": "Bitcoin clears $81,000 as privacy coins lead a broad crypto rally",
         "source": "CoinDesk",
@@ -469,32 +474,27 @@
         "title": "CFTC Asks Judge to Dismiss CME Lawsuit Over Crypto Perpetual Futures",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "Recovery specialists crack $1B crypto wallet... but find just $10",
-        "source": "Cointelegraph",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=80669 vs EMA50=79688",
+        "detail": "EMA20=80584 vs EMA50=79652",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "50.5",
-        "points": 0
+        "detail": "40.5",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-157.5",
+        "detail": "-214.5",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 80440 vs [80480, 81677]",
+        "detail": "prix 79547 vs [80175, 81893]",
         "points": 1
       },
       {
@@ -504,14 +504,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 2",
-        "points": 0.67
+        "detail": "30 articles pertinents, score brut 3",
+        "points": 1
       }
     ],
-    "computedAt": "2026-09-04T12:32:28.272Z",
-    "priceUSD": 79931,
-    "priceEUR": 68938.1,
-    "change24h": -1.6549760630738997
+    "computedAt": "2026-09-04T12:54:49.358Z",
+    "priceUSD": 79629.2,
+    "priceEUR": 68628.4,
+    "change24h": -2.0263029353032547
   },
   "history": [
     {
@@ -4763,7 +4763,12 @@
       "t": "2026-09-04T12:32:28.274Z",
       "equityEUR": 150.72,
       "priceEUR": 68938.1
+    },
+    {
+      "t": "2026-09-04T12:54:49.362Z",
+      "equityEUR": 148.12,
+      "priceEUR": 68628.4
     }
   ],
-  "lastRun": "2026-09-04T12:32:28.274Z"
+  "lastRun": "2026-09-04T12:54:49.362Z"
 }
