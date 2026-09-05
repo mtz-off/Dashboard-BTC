@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 109.07,
-  "equityEUR": 148.86,
+  "equityEUR": 148.8,
   "stopped": false,
   "openPositions": [
     {
@@ -430,19 +430,19 @@
     }
   ],
   "lastSignal": {
-    "price": 79743.38963921707,
+    "price": 79744.05536941517,
     "direction": "LONG",
     "score": 6.28,
     "strength": 0.79,
     "atr14": 816.142377495819,
     "indicators": {
-      "ema20": 79705.95997199469,
-      "ema50": 79628.62362240124,
-      "rsi14": 50.52311020838083,
-      "macdHist": 28.697582375626936,
-      "bbUpper": 79759.4740896771,
-      "bbMid": 79638.79624370536,
-      "bbLower": 79518.11839773363
+      "ema20": 79706.0233748707,
+      "ema50": 79628.64972946784,
+      "rsi14": 50.54445598161753,
+      "macdHist": 28.740067721608483,
+      "bbUpper": 79759.62306939893,
+      "bbMid": 79638.82953021527,
+      "bbLower": 79518.0359910316
     },
     "fearGreed": {
       "value": 73,
@@ -505,7 +505,7 @@
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 79743 vs [79518, 79759]",
+        "detail": "prix 79744 vs [79518, 79760]",
         "points": 0
       },
       {
@@ -519,10 +519,10 @@
         "points": 2.33
       }
     ],
-    "computedAt": "2026-09-05T15:07:48.148Z",
-    "priceUSD": 79750.9,
-    "priceEUR": 68738.7,
-    "change24h": 0.09337759565241217
+    "computedAt": "2026-09-05T15:24:03.669Z",
+    "priceUSD": 79750.8,
+    "priceEUR": 68730.8,
+    "change24h": 0.09325208813138491
   },
   "history": [
     {
@@ -5299,7 +5299,12 @@
       "t": "2026-09-05T15:07:48.151Z",
       "equityEUR": 148.86,
       "priceEUR": 68738.7
+    },
+    {
+      "t": "2026-09-05T15:24:03.672Z",
+      "equityEUR": 148.8,
+      "priceEUR": 68730.8
     }
   ],
-  "lastRun": "2026-09-05T15:07:48.151Z"
+  "lastRun": "2026-09-05T15:24:03.672Z"
 }
