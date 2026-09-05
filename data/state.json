@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 109.07,
-  "equityEUR": 147.53,
+  "equityEUR": 148.07,
   "stopped": false,
   "openPositions": [
     {
@@ -430,19 +430,19 @@
     }
   ],
   "lastSignal": {
-    "price": 79600.84287553368,
+    "price": 79648.24779118766,
     "direction": "LONG",
-    "score": 5.95,
-    "strength": 0.74,
+    "score": 6.28,
+    "strength": 0.79,
     "atr14": 867.1096880402267,
     "indicators": {
-      "ema20": 79714.23742116611,
-      "ema50": 79614.80806320469,
-      "rsi14": 45.80818763219189,
-      "macdHist": 10.388123747730305,
-      "bbUpper": 79792.43030792025,
-      "bbMid": 79618.8253322733,
-      "bbLower": 79445.22035662636
+      "ema20": 79718.75217503791,
+      "ema50": 79616.66707950484,
+      "rsi14": 47.08316713969314,
+      "macdHist": 13.413394718245272,
+      "bbUpper": 79795.04803785088,
+      "bbMid": 79621.19557805601,
+      "bbLower": 79447.34311826114
     },
     "fearGreed": {
       "value": 73,
@@ -485,32 +485,27 @@
         "title": "U.S. banking agency gives blockchain bank OpenReserve initial OK to operate",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "CFTC files to dismiss CME lawsuit over crypto perpetual futures",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=79714 vs EMA50=79615",
+        "detail": "EMA20=79719 vs EMA50=79617",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "45.8",
+        "detail": "47.1",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "10.4",
+        "detail": "13.4",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 79601 vs [79445, 79792]",
+        "detail": "prix 79648 vs [79447, 79795]",
         "points": 0
       },
       {
@@ -520,14 +515,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 6",
-        "points": 2
+        "detail": "30 articles pertinents, score brut 7",
+        "points": 2.33
       }
     ],
-    "computedAt": "2026-09-05T10:49:43.564Z",
-    "priceUSD": 79606.8,
-    "priceEUR": 68572,
-    "change24h": -0.0874787421636205
+    "computedAt": "2026-09-05T11:07:02.651Z",
+    "priceUSD": 79674.3,
+    "priceEUR": 68639.5,
+    "change24h": -0.0027611654628367076
   },
   "history": [
     {
@@ -5219,7 +5214,12 @@
       "t": "2026-09-05T10:49:43.567Z",
       "equityEUR": 147.53,
       "priceEUR": 68572
+    },
+    {
+      "t": "2026-09-05T11:07:02.654Z",
+      "equityEUR": 148.07,
+      "priceEUR": 68639.5
     }
   ],
-  "lastRun": "2026-09-05T10:49:43.567Z"
+  "lastRun": "2026-09-05T11:07:02.654Z"
 }
