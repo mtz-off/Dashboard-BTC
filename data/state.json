@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 109.07,
-  "equityEUR": 150.84,
+  "equityEUR": 150.87,
   "stopped": false,
   "openPositions": [
     {
@@ -430,19 +430,19 @@
     }
   ],
   "lastSignal": {
-    "price": 80068.39945337364,
+    "price": 80059.01803874817,
     "direction": "LONG",
-    "score": 5.78,
-    "strength": 0.72,
+    "score": 6.12,
+    "strength": 0.76,
     "atr14": 773.7623462511513,
     "indicators": {
-      "ema20": 79775.112570878,
-      "ema50": 79664.11075559433,
-      "rsi14": 59.601641901853306,
-      "macdHist": 63.807456778277825,
-      "bbUpper": 79965.33450068899,
-      "bbMid": 79680.08940604149,
-      "bbLower": 79394.84431139399
+      "ema20": 79774.21910281843,
+      "ema50": 79663.74285698157,
+      "rsi14": 59.3676127234306,
+      "macdHist": 63.208756813590135,
+      "bbUpper": 79962.32924404183,
+      "bbMid": 79679.6203353102,
+      "bbLower": 79396.91142657858
     },
     "fearGreed": {
       "value": 73,
@@ -480,32 +480,27 @@
         "title": "El Salvador’s post-review Bitcoin accumulation used no public funds: IMF",
         "source": "Cointelegraph",
         "itemScore": 1
-      },
-      {
-        "title": "U.S. banking agency gives blockchain bank OpenReserve initial OK to operate",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=79775 vs EMA50=79664",
+        "detail": "EMA20=79774 vs EMA50=79664",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "59.6",
+        "detail": "59.4",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "63.8",
+        "detail": "63.2",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 80068 vs [79395, 79965]",
+        "detail": "prix 80059 vs [79397, 79962]",
         "points": -1
       },
       {
@@ -515,14 +510,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 7",
-        "points": 2.33
+        "detail": "30 articles pertinents, score brut 8",
+        "points": 2.67
       }
     ],
-    "computedAt": "2026-09-05T17:49:23.142Z",
-    "priceUSD": 80043.7,
-    "priceEUR": 68985.6,
-    "change24h": 0.4608636172522602
+    "computedAt": "2026-09-05T18:08:57.326Z",
+    "priceUSD": 80032.3,
+    "priceEUR": 68989.6,
+    "change24h": 0.4465557598539129
   },
   "history": [
     {
@@ -5354,7 +5349,12 @@
       "t": "2026-09-05T17:49:23.144Z",
       "equityEUR": 150.84,
       "priceEUR": 68985.6
+    },
+    {
+      "t": "2026-09-05T18:08:57.329Z",
+      "equityEUR": 150.87,
+      "priceEUR": 68989.6
     }
   ],
-  "lastRun": "2026-09-05T17:49:23.144Z"
+  "lastRun": "2026-09-05T18:08:57.329Z"
 }
