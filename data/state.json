@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 109.07,
-  "equityEUR": 149.87,
+  "equityEUR": 149.11,
   "stopped": false,
   "openPositions": [
     {
@@ -430,19 +430,19 @@
     }
   ],
   "lastSignal": {
-    "price": 79942.32506266986,
+    "price": 79841.62412561574,
     "direction": "LONG",
-    "score": 6.17,
-    "strength": 0.77,
+    "score": 5.83,
+    "strength": 0.73,
     "atr14": 682.699531466041,
     "indicators": {
-      "ema20": 79868.78871085487,
-      "ema50": 79757.47124450679,
-      "rsi14": 53.35381749558793,
-      "macdHist": 13.587891882131014,
-      "bbUpper": 80118.14297381065,
-      "bbMid": 79856.76411881801,
-      "bbLower": 79595.38526382537
+      "ema20": 79859.19814542115,
+      "ema50": 79753.52218815172,
+      "rsi14": 49.84721777476649,
+      "macdHist": 7.161393335074322,
+      "bbUpper": 80110.18449927589,
+      "bbMid": 79851.7290719653,
+      "bbLower": 79593.2736446547
     },
     "fearGreed": {
       "value": 73,
@@ -475,32 +475,27 @@
         "title": "Bitcoin ETF inflows hit $731M, highest since January as BTC reclaims $80K",
         "source": "Cointelegraph",
         "itemScore": 2
-      },
-      {
-        "title": "El Salvador’s post-review Bitcoin accumulation used no public funds: IMF",
-        "source": "Cointelegraph",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=79869 vs EMA50=79757",
+        "detail": "EMA20=79859 vs EMA50=79754",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "53.4",
+        "detail": "49.8",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "13.6",
+        "detail": "7.2",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 79942 vs [79595, 80118]",
+        "detail": "prix 79842 vs [79593, 80110]",
         "points": 0
       },
       {
@@ -510,14 +505,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "27 articles pertinents, score brut 8",
-        "points": 2.67
+        "detail": "26 articles pertinents, score brut 7",
+        "points": 2.33
       }
     ],
-    "computedAt": "2026-09-06T06:10:35.361Z",
-    "priceUSD": 79940.2,
-    "priceEUR": 68864.2,
-    "change24h": 0.1400504081254327
+    "computedAt": "2026-09-06T06:29:35.561Z",
+    "priceUSD": 79834.1,
+    "priceEUR": 68769.2,
+    "change24h": 0.007140315977786906
   },
   "history": [
     {
@@ -5589,7 +5584,12 @@
       "t": "2026-09-06T06:10:35.364Z",
       "equityEUR": 149.87,
       "priceEUR": 68864.2
+    },
+    {
+      "t": "2026-09-06T06:29:35.563Z",
+      "equityEUR": 149.11,
+      "priceEUR": 68769.2
     }
   ],
-  "lastRun": "2026-09-06T06:10:35.364Z"
+  "lastRun": "2026-09-06T06:29:35.563Z"
 }
