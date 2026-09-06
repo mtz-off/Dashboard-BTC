@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 109.07,
-  "equityEUR": 149.17,
+  "equityEUR": 148.81,
   "stopped": false,
   "openPositions": [
     {
@@ -430,19 +430,19 @@
     }
   ],
   "lastSignal": {
-    "price": 79820.56639601383,
+    "price": 79815.78763249867,
     "direction": "LONG",
-    "score": 2.38,
-    "strength": 0.3,
+    "score": 1.72,
+    "strength": 0.21,
     "atr14": 682.699531466041,
     "indicators": {
-      "ema20": 79849.5899742512,
-      "ema50": 79753.57504618638,
-      "rsi14": 49.33229631129007,
-      "macdHist": -3.021710730829497,
-      "bbUpper": 80097.2086256053,
-      "bbMid": 79858.48059716489,
-      "bbLower": 79619.75256872448
+      "ema20": 79849.13485391642,
+      "ema50": 79753.38764369559,
+      "rsi14": 49.17400187687149,
+      "macdHist": -3.3266802542924303,
+      "bbUpper": 80097.13051120676,
+      "bbMid": 79858.24165898914,
+      "bbLower": 79619.35280677151
     },
     "fearGreed": {
       "value": 73,
@@ -470,32 +470,27 @@
         "title": "Bitcoin clears $81,000 as privacy coins lead a broad crypto rally",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Bitcoin ETF inflows hit $731M, highest since January as BTC reclaims $80K",
-        "source": "Cointelegraph",
-        "itemScore": 2
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=79850 vs EMA50=79754",
+        "detail": "EMA20=79849 vs EMA50=79753",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "49.3",
+        "detail": "49.2",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-3.0",
+        "detail": "-3.3",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 79821 vs [79620, 80097]",
+        "detail": "prix 79816 vs [79619, 80097]",
         "points": 0
       },
       {
@@ -505,14 +500,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "26 articles pertinents, score brut 7",
-        "points": 2.33
+        "detail": "24 articles pertinents, score brut 5",
+        "points": 1.67
       }
     ],
-    "computedAt": "2026-09-06T07:23:38.088Z",
-    "priceUSD": 79850.5,
-    "priceEUR": 68777,
-    "change24h": 0.027684383001545593
+    "computedAt": "2026-09-06T07:37:24.175Z",
+    "priceUSD": 79799.4,
+    "priceEUR": 68731.8,
+    "change24h": -0.03632792339568375
   },
   "history": [
     {
@@ -5604,7 +5599,12 @@
       "t": "2026-09-06T07:23:38.091Z",
       "equityEUR": 149.17,
       "priceEUR": 68777
+    },
+    {
+      "t": "2026-09-06T07:37:24.180Z",
+      "equityEUR": 148.81,
+      "priceEUR": 68731.8
     }
   ],
-  "lastRun": "2026-09-06T07:23:38.091Z"
+  "lastRun": "2026-09-06T07:37:24.180Z"
 }
