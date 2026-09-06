@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 109.07,
-  "equityEUR": 149.27,
+  "equityEUR": 149.71,
   "stopped": false,
   "openPositions": [
     {
@@ -430,19 +430,19 @@
     }
   ],
   "lastSignal": {
-    "price": 79852.84245948544,
+    "price": 79932.22972367251,
     "direction": "LONG",
-    "score": 1.72,
-    "strength": 0.21,
+    "score": 1.83,
+    "strength": 0.23,
     "atr14": 665.7872354191816,
     "indicators": {
-      "ema20": 79847.94619230895,
-      "ema50": 79760.23122645986,
-      "rsi14": 50.522931766045545,
-      "macdHist": -6.525697422983384,
-      "bbUpper": 80076.42509306333,
-      "bbMid": 79875.89106419955,
-      "bbLower": 79675.35703533576
+      "ema20": 79855.5068841363,
+      "ema50": 79763.34445250641,
+      "rsi14": 53.26154959858007,
+      "macdHist": -1.459387685697319,
+      "bbUpper": 80081.55186160872,
+      "bbMid": 79879.86042740892,
+      "bbLower": 79678.16899320911
     },
     "fearGreed": {
       "value": 73,
@@ -465,32 +465,27 @@
         "title": "Morning Minute: Crypto Stages Major Rally on Rate Hopes",
         "source": "Decrypt",
         "itemScore": 1
-      },
-      {
-        "title": "Bitcoin clears $81,000 as privacy coins lead a broad crypto rally",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=79848 vs EMA50=79760",
+        "detail": "EMA20=79856 vs EMA50=79763",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "50.5",
+        "detail": "53.3",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-6.5",
-        "points": -1.95
+        "detail": "-1.5",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 79853 vs [79675, 80076]",
+        "detail": "prix 79932 vs [79678, 80082]",
         "points": 0
       },
       {
@@ -500,14 +495,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "23 articles pertinents, score brut 5",
-        "points": 1.67
+        "detail": "22 articles pertinents, score brut 4",
+        "points": 1.33
       }
     ],
-    "computedAt": "2026-09-06T09:50:07.039Z",
-    "priceUSD": 79865.2,
-    "priceEUR": 68788.9,
-    "change24h": 0.04609888210211267
+    "computedAt": "2026-09-06T10:08:26.753Z",
+    "priceUSD": 79922.8,
+    "priceEUR": 68845,
+    "change24h": 0.11825365408802975
   },
   "history": [
     {
@@ -5649,7 +5644,12 @@
       "t": "2026-09-06T09:50:07.041Z",
       "equityEUR": 149.27,
       "priceEUR": 68788.9
+    },
+    {
+      "t": "2026-09-06T10:08:26.756Z",
+      "equityEUR": 149.71,
+      "priceEUR": 68845
     }
   ],
-  "lastRun": "2026-09-06T09:50:07.041Z"
+  "lastRun": "2026-09-06T10:08:26.756Z"
 }
