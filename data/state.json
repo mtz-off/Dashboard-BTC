@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 109.07,
-  "equityEUR": 150.18,
+  "equityEUR": 149.96,
   "stopped": false,
   "openPositions": [
     {
@@ -430,19 +430,19 @@
     }
   ],
   "lastSignal": {
-    "price": 79993.04604393397,
+    "price": 79969.48479064037,
     "direction": "LONG",
-    "score": 5.28,
-    "strength": 0.66,
+    "score": 4.95,
+    "strength": 0.62,
     "atr14": 636.2966315764912,
     "indicators": {
-      "ema20": 79881.0957852312,
-      "ema50": 79784.73598990845,
-      "rsi14": 54.93447562848636,
-      "macdHist": 7.399786719038676,
-      "bbUpper": 80076.22472416835,
-      "bbMid": 79893.12862056683,
-      "bbLower": 79710.03251696531
+      "ema20": 79878.8518563461,
+      "ema50": 79783.81201919106,
+      "rsi14": 54.14972758442061,
+      "macdHist": 5.896162577228679,
+      "bbUpper": 80072.74875056648,
+      "bbMid": 79891.95055790215,
+      "bbLower": 79711.15236523782
     },
     "fearGreed": {
       "value": 73,
@@ -460,32 +460,27 @@
         "title": "Southeast Asia’s crypto funding rebounds to $680 million as investors focus on mature firms",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Morning Minute: Crypto Stages Major Rally on Rate Hopes",
-        "source": "Decrypt",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=79881 vs EMA50=79785",
+        "detail": "EMA20=79879 vs EMA50=79784",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "54.9",
+        "detail": "54.1",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "7.4",
+        "detail": "5.9",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 79993 vs [79710, 80076]",
+        "detail": "prix 79969 vs [79711, 80073]",
         "points": 0
       },
       {
@@ -495,14 +490,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "19 articles pertinents, score brut 4",
-        "points": 1.33
+        "detail": "18 articles pertinents, score brut 3",
+        "points": 1
       }
     ],
-    "computedAt": "2026-09-06T12:29:20.530Z",
-    "priceUSD": 79975.3,
-    "priceEUR": 68903.2,
-    "change24h": 0.18401972230435376
+    "computedAt": "2026-09-06T12:45:41.811Z",
+    "priceUSD": 79958.3,
+    "priceEUR": 68875.4,
+    "change24h": 0.16272404307240124
   },
   "history": [
     {
@@ -5694,7 +5689,12 @@
       "t": "2026-09-06T12:29:20.532Z",
       "equityEUR": 150.18,
       "priceEUR": 68903.2
+    },
+    {
+      "t": "2026-09-06T12:45:41.813Z",
+      "equityEUR": 149.96,
+      "priceEUR": 68875.4
     }
   ],
-  "lastRun": "2026-09-06T12:29:20.532Z"
+  "lastRun": "2026-09-06T12:45:41.813Z"
 }
