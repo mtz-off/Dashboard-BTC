@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 109.07,
-  "equityEUR": 147.61,
+  "equityEUR": 147.87,
   "stopped": false,
   "openPositions": [
     {
@@ -430,26 +430,29 @@
     }
   ],
   "lastSignal": {
-    "price": 79539.2593218675,
+    "price": 79580.7619119382,
     "direction": "LONG",
     "score": 1.55,
     "strength": 0.19,
     "atr14": 636.2966315764912,
     "indicators": {
-      "ema20": 79836.345395166,
-      "ema50": 79773.25725733567,
-      "rsi14": 39.344967996159845,
-      "macdHist": -27.056732351800857,
-      "bbUpper": 80069.48223074937,
-      "bbMid": 79855.06584589607,
-      "bbLower": 79640.64946104276
+      "ema20": 79840.29802279179,
+      "ema50": 79774.88480988746,
+      "rsi14": 40.46903313271054,
+      "macdHist": -24.40813401110001,
+      "bbUpper": 80059.77102982612,
+      "bbMid": 79857.14097539961,
+      "bbLower": 79654.5109209731
     },
     "fearGreed": {
       "value": 73,
       "classification": "Greed",
       "timestamp": 1788652800000
     },
-    "fundingRate": null,
+    "fundingRate": {
+      "lastFundingRate": 0.00003067,
+      "markPrice": 79611.9
+    },
     "newsHighlights": [
       {
         "title": "Bitcoin ETF inflows hit $3.8B in strongest three-week stretch of 2026",
@@ -465,22 +468,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=79836 vs EMA50=79773",
+        "detail": "EMA20=79840 vs EMA50=79775",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "39.3",
+        "detail": "40.5",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-27.1",
+        "detail": "-24.4",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 79539 vs [79641, 80069]",
+        "detail": "prix 79581 vs [79655, 80060]",
         "points": 1
       },
       {
@@ -489,15 +492,20 @@
         "points": 0
       },
       {
+        "factor": "Funding rate BTC perp",
+        "detail": "0.0031%",
+        "points": 0
+      },
+      {
         "factor": "Sentiment news (RSS temps réel)",
         "detail": "18 articles pertinents, score brut 3",
         "points": 1
       }
     ],
-    "computedAt": "2026-09-06T14:37:09.049Z",
-    "priceUSD": 79606.4,
-    "priceEUR": 68581.5,
-    "change24h": -0.2780965170290273
+    "computedAt": "2026-09-06T14:49:44.133Z",
+    "priceUSD": 79649.5,
+    "priceEUR": 68613.9,
+    "change24h": -0.2241057067409521
   },
   "history": [
     {
@@ -5729,7 +5737,12 @@
       "t": "2026-09-06T14:37:09.053Z",
       "equityEUR": 147.61,
       "priceEUR": 68581.5
+    },
+    {
+      "t": "2026-09-06T14:49:44.135Z",
+      "equityEUR": 147.87,
+      "priceEUR": 68613.9
     }
   ],
-  "lastRun": "2026-09-06T14:37:09.053Z"
+  "lastRun": "2026-09-06T14:49:44.135Z"
 }
