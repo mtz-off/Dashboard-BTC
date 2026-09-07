@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 81.8,
-  "equityEUR": 145.19,
+  "equityEUR": 145.21,
   "stopped": false,
   "openPositions": [
     {
@@ -447,19 +447,19 @@
     }
   ],
   "lastSignal": {
-    "price": 79189.96411473153,
+    "price": 79208.23436208256,
     "direction": "SHORT",
-    "score": -5.33,
-    "strength": 0.67,
+    "score": -6,
+    "strength": 0.75,
     "atr14": 641.4549744950579,
     "indicators": {
-      "ema20": 79387.65390700531,
-      "ema50": 79579.25879537498,
-      "rsi14": 42.1760445739232,
-      "macdHist": -23.938538204201677,
-      "bbUpper": 80076.77878414244,
-      "bbMid": 79448.04415046431,
-      "bbLower": 78819.30951678618
+      "ema20": 79384.38032570561,
+      "ema50": 79570.74913822743,
+      "rsi14": 43.463373790540295,
+      "macdHist": -6.238276277537011,
+      "bbUpper": 79959.86701713112,
+      "bbMid": 79410.82558866324,
+      "bbLower": 78861.78416019536
     },
     "fearGreed": {
       "value": 71,
@@ -468,6 +468,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Brazilian Banks Expand Crypto Offerings as Regulation Takes Hold",
+        "source": "Decrypt",
+        "itemScore": -2
+      },
       {
         "title": "Liquid Hackers Return $270M in Bitcoin After Swiping $320 Million",
         "source": "Decrypt",
@@ -502,32 +507,27 @@
         "title": "No, Friday's jobs report hasn't materially boosted Fed rate hike odds",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin network used by exchanges hit by $320 million exploit. Hackers claim they're the 'good guys'",
-        "source": "CoinDesk",
-        "itemScore": -2
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=79388 vs EMA50=79579",
+        "detail": "EMA20=79384 vs EMA50=79571",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "42.2",
+        "detail": "43.5",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-23.9",
+        "detail": "-6.2",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 79190 vs [78819, 80077]",
+        "detail": "prix 79208 vs [78862, 79960]",
         "points": 0
       },
       {
@@ -537,14 +537,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -4",
-        "points": -1.33
+        "detail": "30 articles pertinents, score brut -6",
+        "points": -2
       }
     ],
-    "computedAt": "2026-09-07T20:25:51.752Z",
-    "priceUSD": 79196,
-    "priceEUR": 68156.3,
-    "change24h": -1.4170766197295233
+    "computedAt": "2026-09-07T20:39:53.169Z",
+    "priceUSD": 79206.7,
+    "priceEUR": 68167.8,
+    "change24h": -1.4037572945089491
   },
   "history": [
     {
@@ -6341,7 +6341,12 @@
       "t": "2026-09-07T20:25:51.755Z",
       "equityEUR": 145.19,
       "priceEUR": 68156.3
+    },
+    {
+      "t": "2026-09-07T20:39:53.172Z",
+      "equityEUR": 145.21,
+      "priceEUR": 68167.8
     }
   ],
-  "lastRun": "2026-09-07T20:25:51.755Z"
+  "lastRun": "2026-09-07T20:39:53.172Z"
 }
