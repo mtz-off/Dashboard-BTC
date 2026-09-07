@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 109.07,
-  "equityEUR": 149.4,
+  "equityEUR": 149.2,
   "stopped": false,
   "openPositions": [
     {
@@ -430,29 +430,26 @@
     }
   ],
   "lastSignal": {
-    "price": 79827.6300308292,
+    "price": 79843.10262421839,
     "direction": "LONG",
-    "score": 0.38,
-    "strength": 0.05,
+    "score": 0.83,
+    "strength": 0.1,
     "atr14": 642.6693168441624,
     "indicators": {
-      "ema20": 79876.38718547225,
-      "ema50": 79822.1966418178,
-      "rsi14": 48.85728987299058,
-      "macdHist": -17.351251417383565,
-      "bbUpper": 80225.08338266262,
-      "bbMid": 79870.72584460248,
-      "bbLower": 79516.36830654234
+      "ema20": 79862.72507952087,
+      "ema50": 79818.4286775419,
+      "rsi14": 49.512180675377145,
+      "macdHist": -21.01297031026074,
+      "bbUpper": 80224.13661324533,
+      "bbMid": 79862.85372398872,
+      "bbLower": 79501.57083473212
     },
     "fearGreed": {
       "value": 71,
       "classification": "Greed",
       "timestamp": 1788739200000
     },
-    "fundingRate": {
-      "lastFundingRate": 0.00006014,
-      "markPrice": 79861.6
-    },
+    "fundingRate": null,
     "newsHighlights": [
       {
         "title": "Bitcoin network used by exchanges hit by $320 million exploit. Hackers claim they're the 'good guys'",
@@ -473,22 +470,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=79876 vs EMA50=79822",
+        "detail": "EMA20=79863 vs EMA50=79818",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "48.9",
+        "detail": "49.5",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-17.4",
-        "points": -1.95
+        "detail": "-21.0",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 79828 vs [79516, 80225]",
+        "detail": "prix 79843 vs [79502, 80224]",
         "points": 0
       },
       {
@@ -497,20 +494,15 @@
         "points": 0
       },
       {
-        "factor": "Funding rate BTC perp",
-        "detail": "0.0060%",
-        "points": 0
-      },
-      {
         "factor": "Sentiment news (RSS temps réel)",
         "detail": "14 articles pertinents, score brut 1",
         "points": 0.33
       }
     ],
-    "computedAt": "2026-09-07T05:25:20.907Z",
-    "priceUSD": 79878.4,
-    "priceEUR": 68805.3,
-    "change24h": -0.5676273178115478
+    "computedAt": "2026-09-07T05:39:38.716Z",
+    "priceUSD": 79853.1,
+    "priceEUR": 68780.6,
+    "change24h": -0.5991206755760775
   },
   "history": [
     {
@@ -6032,7 +6024,12 @@
       "t": "2026-09-07T05:25:20.910Z",
       "equityEUR": 149.4,
       "priceEUR": 68805.3
+    },
+    {
+      "t": "2026-09-07T05:39:38.718Z",
+      "equityEUR": 149.2,
+      "priceEUR": 68780.6
     }
   ],
-  "lastRun": "2026-09-07T05:25:20.910Z"
+  "lastRun": "2026-09-07T05:39:38.718Z"
 }
