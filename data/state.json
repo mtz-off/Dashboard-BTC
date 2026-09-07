@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 81.8,
-  "equityEUR": 145.48,
+  "equityEUR": 145.54,
   "stopped": false,
   "openPositions": [
     {
@@ -447,19 +447,19 @@
     }
   ],
   "lastSignal": {
-    "price": 79348.78600425679,
+    "price": 79390.90620537692,
     "direction": "SHORT",
-    "score": -5.78,
-    "strength": 0.72,
+    "score": -5.45,
+    "strength": 0.68,
     "atr14": 654.7522701392683,
     "indicators": {
-      "ema20": 79718.16288913236,
-      "ema50": 79760.58619289471,
-      "rsi14": 37.753292777023326,
-      "macdHist": -64.66343017804108,
-      "bbUpper": 80252.30561166049,
-      "bbMid": 79766.84037427513,
-      "bbLower": 79281.37513688976
+      "ema20": 79722.17433685808,
+      "ema50": 79762.23796548766,
+      "rsi14": 38.67962078407776,
+      "macdHist": -61.97541734301856,
+      "bbUpper": 80247.4546540684,
+      "bbMid": 79768.94638433112,
+      "bbLower": 79290.43811459385
     },
     "fearGreed": {
       "value": 71,
@@ -468,6 +468,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Weekend altcoin rally runs out of road as bitcoin slips",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "&#39;Purported White-Hat Hackers&#39; Withdraw $320M in Bitcoin From Liquid",
         "source": "Decrypt",
@@ -497,22 +502,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=79718 vs EMA50=79761",
+        "detail": "EMA20=79722 vs EMA50=79762",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "37.8",
+        "detail": "38.7",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-64.7",
+        "detail": "-62.0",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 79349 vs [79281, 80252]",
+        "detail": "prix 79391 vs [79290, 80247]",
         "points": 0
       },
       {
@@ -522,14 +527,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "21 articles pertinents, score brut -4",
-        "points": -1.33
+        "detail": "22 articles pertinents, score brut -3",
+        "points": -1
       }
     ],
-    "computedAt": "2026-09-07T10:11:40.050Z",
-    "priceUSD": 79372,
-    "priceEUR": 68300,
-    "change24h": -1.1979923918022595
+    "computedAt": "2026-09-07T10:28:07.288Z",
+    "priceUSD": 79415.7,
+    "priceEUR": 68333.7,
+    "change24h": -1.143594773845323
   },
   "history": [
     {
@@ -6131,7 +6136,12 @@
       "t": "2026-09-07T10:11:40.052Z",
       "equityEUR": 145.48,
       "priceEUR": 68300
+    },
+    {
+      "t": "2026-09-07T10:28:07.292Z",
+      "equityEUR": 145.54,
+      "priceEUR": 68333.7
     }
   ],
-  "lastRun": "2026-09-07T10:11:40.052Z"
+  "lastRun": "2026-09-07T10:28:07.292Z"
 }
