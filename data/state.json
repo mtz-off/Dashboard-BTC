@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 81.8,
-  "equityEUR": 145,
+  "equityEUR": 145.01,
   "stopped": false,
   "openPositions": [
     {
@@ -447,19 +447,19 @@
     }
   ],
   "lastSignal": {
-    "price": 79119.49932551234,
+    "price": 79091.11789608149,
     "direction": "SHORT",
-    "score": -5.33,
-    "strength": 0.67,
+    "score": -5,
+    "strength": 0.63,
     "atr14": 646.1309088988995,
     "indicators": {
-      "ema20": 79424.87085553101,
-      "ema50": 79608.97801327196,
-      "rsi14": 40.23792072502043,
-      "macdHist": -56.00725900409668,
-      "bbUpper": 80297.1814721891,
-      "bbMid": 79544.38748812983,
-      "bbLower": 78791.59350407055
+      "ema20": 79422.16786225188,
+      "ema50": 79607.86501603939,
+      "rsi14": 39.42120302880038,
+      "macdHist": -57.81849552617567,
+      "bbUpper": 80299.06060802723,
+      "bbMid": 79542.96841665827,
+      "bbLower": 78786.87622528932
     },
     "fearGreed": {
       "value": 71,
@@ -468,6 +468,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin fund flows show investors trading Fed rate path, not exiting market: CoinShares",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
       {
         "title": "Coldcard Hacker Moves $7.7M, Nearly Half of Third-Wave Bitcoin Haul",
         "source": "Decrypt",
@@ -507,22 +512,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=79425 vs EMA50=79609",
+        "detail": "EMA20=79422 vs EMA50=79608",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "40.2",
+        "detail": "39.4",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-56.0",
+        "detail": "-57.8",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 79119 vs [78792, 80297]",
+        "detail": "prix 79091 vs [78787, 80299]",
         "points": 0
       },
       {
@@ -532,14 +537,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "27 articles pertinents, score brut -4",
-        "points": -1.33
+        "detail": "28 articles pertinents, score brut -3",
+        "points": -1
       }
     ],
-    "computedAt": "2026-09-07T17:24:53.164Z",
-    "priceUSD": 79103,
-    "priceEUR": 68064.3,
-    "change24h": -1.532842717441089
+    "computedAt": "2026-09-07T17:38:41.381Z",
+    "priceUSD": 79122.3,
+    "priceEUR": 68064.5,
+    "change24h": -1.5088181401740615
   },
   "history": [
     {
@@ -6281,7 +6286,12 @@
       "t": "2026-09-07T17:24:53.166Z",
       "equityEUR": 145,
       "priceEUR": 68064.3
+    },
+    {
+      "t": "2026-09-07T17:38:41.384Z",
+      "equityEUR": 145.01,
+      "priceEUR": 68064.5
     }
   ],
-  "lastRun": "2026-09-07T17:24:53.166Z"
+  "lastRun": "2026-09-07T17:38:41.384Z"
 }
