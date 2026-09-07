@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 81.8,
-  "equityEUR": 145.51,
+  "equityEUR": 145.61,
   "stopped": false,
   "openPositions": [
     {
@@ -447,19 +447,19 @@
     }
   ],
   "lastSignal": {
-    "price": 79343.09928347735,
+    "price": 79446.20640213687,
     "direction": "SHORT",
-    "score": -3.12,
-    "strength": 0.39,
-    "atr14": 642.6693168441624,
+    "score": -0.78,
+    "strength": 0.1,
+    "atr14": 654.7522701392683,
     "indicators": {
-      "ema20": 79787.4601456951,
-      "ema50": 79789.96143614888,
-      "rsi14": 37.271305453046324,
-      "macdHist": -55.1415426637503,
-      "bbUpper": 80238.23178912242,
-      "bbMid": 79812.06309573867,
-      "bbLower": 79385.89440235493
+      "ema20": 79797.27987128173,
+      "ema50": 79794.0048525669,
+      "rsi14": 39.354992279118036,
+      "macdHist": -48.56148722793355,
+      "bbUpper": 80222.5556656673,
+      "bbMid": 79817.21845167167,
+      "bbLower": 79411.88123767603
     },
     "fearGreed": {
       "value": 71,
@@ -477,33 +477,28 @@
         "title": "‘White hats’ take 4000 BTC from Liquid, ETFs see best inflows of 2026: Hodler’s Digest",
         "source": "Cointelegraph",
         "itemScore": 1
-      },
-      {
-        "title": "Bitcoin ETF inflows hit $3.8B in strongest three-week stretch of 2026",
-        "source": "Cointelegraph",
-        "itemScore": 2
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=79787 vs EMA50=79790",
-        "points": -2
+        "detail": "EMA20=79797 vs EMA50=79794",
+        "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "37.3",
+        "detail": "39.4",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-55.1",
+        "detail": "-48.6",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 79343 vs [79386, 80238]",
-        "points": 1
+        "detail": "prix 79446 vs [79412, 80223]",
+        "points": 0
       },
       {
         "factor": "Fear & Greed Index",
@@ -512,14 +507,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "15 articles pertinents, score brut 1",
-        "points": 0.33
+        "detail": "15 articles pertinents, score brut -1",
+        "points": -0.33
       }
     ],
-    "computedAt": "2026-09-07T07:53:40.468Z",
-    "priceUSD": 79365.5,
-    "priceEUR": 68318.8,
-    "change24h": -1.206083570674573
+    "computedAt": "2026-09-07T08:10:01.285Z",
+    "priceUSD": 79493.3,
+    "priceEUR": 68368.1,
+    "change24h": -1.0469985460773858
   },
   "history": [
     {
@@ -6081,7 +6076,12 @@
       "t": "2026-09-07T07:53:40.471Z",
       "equityEUR": 145.51,
       "priceEUR": 68318.8
+    },
+    {
+      "t": "2026-09-07T08:10:01.288Z",
+      "equityEUR": 145.61,
+      "priceEUR": 68368.1
     }
   ],
-  "lastRun": "2026-09-07T07:53:40.471Z"
+  "lastRun": "2026-09-07T08:10:01.288Z"
 }
