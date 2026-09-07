@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 109.07,
-  "equityEUR": 147.93,
+  "equityEUR": 148.24,
   "stopped": false,
   "openPositions": [
     {
@@ -430,19 +430,19 @@
     }
   ],
   "lastSignal": {
-    "price": 79684.86546881008,
+    "price": 79752.60291774155,
     "direction": "LONG",
-    "score": 0.22,
-    "strength": 0.03,
+    "score": 0.38,
+    "strength": 0.05,
     "atr14": 642.6693168441624,
     "indicators": {
-      "ema20": 79862.79056051795,
-      "ema50": 79816.6126647569,
-      "rsi14": 44.94008485068778,
-      "macdHist": -26.46215198327953,
-      "bbUpper": 80226.77188598926,
-      "bbMid": 79863.58761650152,
-      "bbLower": 79500.40334701378
+      "ema20": 79869.24174613057,
+      "ema50": 79819.25440208887,
+      "rsi14": 46.870868743736985,
+      "macdHist": -22.139306497628812,
+      "bbUpper": 80224.65050078023,
+      "bbMid": 79866.9744889481,
+      "bbLower": 79509.29847711595
     },
     "fearGreed": {
       "value": 71,
@@ -465,32 +465,27 @@
         "title": "Bitcoin ETF inflows hit $3.8B in strongest three-week stretch of 2026",
         "source": "Cointelegraph",
         "itemScore": 2
-      },
-      {
-        "title": "Southeast Asia’s crypto funding rebounds to $680 million as investors focus on mature firms",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=79863 vs EMA50=79817",
+        "detail": "EMA20=79869 vs EMA50=79819",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "44.9",
-        "points": -0.5
+        "detail": "46.9",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-26.5",
+        "detail": "-22.1",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 79685 vs [79500, 80227]",
+        "detail": "prix 79753 vs [79509, 80225]",
         "points": 0
       },
       {
@@ -500,14 +495,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "15 articles pertinents, score brut 2",
-        "points": 0.67
+        "detail": "14 articles pertinents, score brut 1",
+        "points": 0.33
       }
     ],
-    "computedAt": "2026-09-07T04:53:46.744Z",
-    "priceUSD": 79664.8,
-    "priceEUR": 68621.3,
-    "change24h": -0.8335159035232619
+    "computedAt": "2026-09-07T05:08:14.773Z",
+    "priceUSD": 79705.5,
+    "priceEUR": 68660.3,
+    "change24h": -0.7828526758150857
   },
   "history": [
     {
@@ -6019,7 +6014,12 @@
       "t": "2026-09-07T04:53:46.746Z",
       "equityEUR": 147.93,
       "priceEUR": 68621.3
+    },
+    {
+      "t": "2026-09-07T05:08:14.776Z",
+      "equityEUR": 148.24,
+      "priceEUR": 68660.3
     }
   ],
-  "lastRun": "2026-09-07T04:53:46.746Z"
+  "lastRun": "2026-09-07T05:08:14.776Z"
 }
