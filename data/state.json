@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 109.07,
-  "equityEUR": 147.45,
+  "equityEUR": 147.58,
   "stopped": false,
   "openPositions": [
     {
@@ -430,19 +430,19 @@
     }
   ],
   "lastSignal": {
-    "price": 79667.79472775948,
+    "price": 79620.09869494673,
     "direction": "LONG",
-    "score": 0.88,
-    "strength": 0.11,
+    "score": 0.22,
+    "strength": 0.03,
     "atr14": 630.0250535588372,
     "indicators": {
-      "ema20": 79889.03660114002,
-      "ema50": 79825.09960686398,
-      "rsi14": 43.76459016343587,
-      "macdHist": -10.896052426767312,
-      "bbUpper": 80218.15531115577,
-      "bbMid": 79875.04576247359,
-      "bbLower": 79531.9362137914
+      "ema20": 79884.49412182452,
+      "ema50": 79823.22917420467,
+      "rsi14": 42.649934120549304,
+      "macdHist": -13.939901814241207,
+      "bbUpper": 80222.10396970784,
+      "bbMid": 79872.66096083296,
+      "bbLower": 79523.21795195808
     },
     "fearGreed": {
       "value": 71,
@@ -451,6 +451,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin network used by exchanges hit by $320 million exploit. Hackers claim they're the 'good guys'",
+        "source": "CoinDesk",
+        "itemScore": -2
+      },
       {
         "title": "‘White hats’ take 4000 BTC from Liquid, ETFs see best inflows of 2026: Hodler’s Digest",
         "source": "Cointelegraph",
@@ -470,22 +475,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=79889 vs EMA50=79825",
+        "detail": "EMA20=79884 vs EMA50=79823",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "43.8",
+        "detail": "42.6",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-10.9",
+        "detail": "-13.9",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 79668 vs [79532, 80218]",
+        "detail": "prix 79620 vs [79523, 80222]",
         "points": 0
       },
       {
@@ -495,14 +500,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "13 articles pertinents, score brut 4",
-        "points": 1.33
+        "detail": "14 articles pertinents, score brut 2",
+        "points": 0.67
       }
     ],
-    "computedAt": "2026-09-07T03:42:27.653Z",
-    "priceUSD": 79632,
-    "priceEUR": 68561.4,
-    "change24h": -0.8743452369097102
+    "computedAt": "2026-09-07T03:54:29.798Z",
+    "priceUSD": 79606.5,
+    "priceEUR": 68577.7,
+    "change24h": -0.9060875540241717
   },
   "history": [
     {
@@ -5989,7 +5994,12 @@
       "t": "2026-09-07T03:42:27.656Z",
       "equityEUR": 147.45,
       "priceEUR": 68561.4
+    },
+    {
+      "t": "2026-09-07T03:54:29.801Z",
+      "equityEUR": 147.58,
+      "priceEUR": 68577.7
     }
   ],
-  "lastRun": "2026-09-07T03:42:27.656Z"
+  "lastRun": "2026-09-07T03:54:29.801Z"
 }
