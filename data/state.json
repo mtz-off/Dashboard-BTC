@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 81.8,
-  "equityEUR": 145.66,
+  "equityEUR": 145.49,
   "stopped": false,
   "openPositions": [
     {
@@ -447,19 +447,19 @@
     }
   ],
   "lastSignal": {
-    "price": 79436.36617738083,
+    "price": 79369.82397149285,
     "direction": "SHORT",
-    "score": -5.12,
-    "strength": 0.64,
+    "score": -5.45,
+    "strength": 0.68,
     "atr14": 654.7522701392683,
     "indicators": {
-      "ema20": 79726.5038580083,
-      "ema50": 79764.03370694396,
-      "rsi14": 39.83067860799764,
-      "macdHist": -59.074267197544955,
-      "bbUpper": 80242.90629344156,
-      "bbMid": 79771.21938293133,
-      "bbLower": 79299.53247242111
+      "ema20": 79720.1665050666,
+      "ema50": 79761.42420867384,
+      "rsi14": 38.21035739284424,
+      "macdHist": -63.32083532258895,
+      "bbUpper": 80249.80780912265,
+      "bbMid": 79767.89227263693,
+      "bbLower": 79285.97673615122
     },
     "fearGreed": {
       "value": 71,
@@ -468,6 +468,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Coldcard hacker moves $7.7 million in BTC, 45% of bitcoin stolen in third attack wave",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "No, Friday's jobs report hasn't materially boosted Fed rate hike odds",
         "source": "CoinDesk",
@@ -487,22 +492,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=79727 vs EMA50=79764",
+        "detail": "EMA20=79720 vs EMA50=79761",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "39.8",
+        "detail": "38.2",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-59.1",
+        "detail": "-63.3",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 79436 vs [79300, 80243]",
+        "detail": "prix 79370 vs [79286, 80250]",
         "points": 0
       },
       {
@@ -512,14 +517,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "17 articles pertinents, score brut -2",
-        "points": -0.67
+        "detail": "18 articles pertinents, score brut -3",
+        "points": -1
       }
     ],
-    "computedAt": "2026-09-07T09:28:24.069Z",
-    "priceUSD": 79489.7,
-    "priceEUR": 68394.3,
-    "change24h": -1.0514798143759052
+    "computedAt": "2026-09-07T09:44:41.801Z",
+    "priceUSD": 79379.4,
+    "priceEUR": 68309.9,
+    "change24h": -1.1887808958553248
   },
   "history": [
     {
@@ -6106,7 +6111,12 @@
       "t": "2026-09-07T09:28:24.072Z",
       "equityEUR": 145.66,
       "priceEUR": 68394.3
+    },
+    {
+      "t": "2026-09-07T09:44:41.804Z",
+      "equityEUR": 145.49,
+      "priceEUR": 68309.9
     }
   ],
-  "lastRun": "2026-09-07T09:28:24.072Z"
+  "lastRun": "2026-09-07T09:44:41.804Z"
 }
