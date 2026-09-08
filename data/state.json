@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 110.30577311030171,
-  "equityEUR": 142.15,
+  "equityEUR": 142.38,
   "stopped": false,
   "openPositions": [
     {
@@ -446,19 +446,19 @@
     }
   ],
   "lastSignal": {
-    "price": 78440.32273560959,
+    "price": 78443.51165402033,
     "direction": "SHORT",
-    "score": -5,
-    "strength": 0.63,
+    "score": -5.33,
+    "strength": 0.67,
     "atr14": 643.7075605152146,
     "indicators": {
-      "ema20": 78864.75537341075,
-      "ema50": 79221.81773889372,
-      "rsi14": 38.133646404472614,
-      "macdHist": -33.042646356545475,
-      "bbUpper": 79571.77138682973,
-      "bbMid": 78898.46312924227,
-      "bbLower": 78225.15487165481
+      "ema20": 78834.79302063963,
+      "ema50": 79195.73679636129,
+      "rsi14": 38.04630678043694,
+      "macdHist": -22.553414803614146,
+      "bbUpper": 79574.34927070576,
+      "bbMid": 78886.0906372032,
+      "bbLower": 78197.83200370065
     },
     "fearGreed": {
       "value": 69,
@@ -501,32 +501,27 @@
         "title": "Coldcard Hacker Moves $7.7M, Nearly Half of Third-Wave Bitcoin Haul",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "Weekend altcoin rally runs out of road as bitcoin slips",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78865 vs EMA50=79222",
+        "detail": "EMA20=78835 vs EMA50=79196",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "38.1",
+        "detail": "38.0",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-33.0",
+        "detail": "-22.6",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78440 vs [78225, 79572]",
+        "detail": "prix 78444 vs [78198, 79574]",
         "points": 0
       },
       {
@@ -536,14 +531,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -3",
-        "points": -1
+        "detail": "30 articles pertinents, score brut -4",
+        "points": -1.33
       }
     ],
-    "computedAt": "2026-09-08T11:25:46.753Z",
-    "priceUSD": 78446.6,
-    "priceEUR": 67555.5,
-    "change24h": -0.8140052395739412
+    "computedAt": "2026-09-08T11:40:02.074Z",
+    "priceUSD": 78427.1,
+    "priceEUR": 67516.8,
+    "change24h": -0.8386605706887161
   },
   "history": [
     {
@@ -6625,7 +6620,12 @@
       "t": "2026-09-08T11:25:46.756Z",
       "equityEUR": 142.15,
       "priceEUR": 67555.5
+    },
+    {
+      "t": "2026-09-08T11:40:02.077Z",
+      "equityEUR": 142.38,
+      "priceEUR": 67516.8
     }
   ],
-  "lastRun": "2026-09-08T11:25:46.756Z"
+  "lastRun": "2026-09-08T11:40:02.077Z"
 }
