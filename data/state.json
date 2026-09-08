@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 110.30577311030171,
-  "equityEUR": 142.67,
+  "equityEUR": 142.06,
   "stopped": false,
   "openPositions": [
     {
@@ -446,26 +446,29 @@
     }
   ],
   "lastSignal": {
-    "price": 78342.07929526795,
+    "price": 78455.45677017953,
     "direction": "SHORT",
-    "score": -6.45,
-    "strength": 0.81,
-    "atr14": 638.1361319437859,
+    "score": -6,
+    "strength": 0.75,
+    "atr14": 643.7075605152146,
     "indicators": {
-      "ema20": 78924.53408044968,
-      "ema50": 79273.51092170744,
-      "rsi14": 32.76345412163046,
-      "macdHist": -67.40202866055265,
-      "bbUpper": 79635.76625454621,
-      "bbMid": 78963.71335462632,
-      "bbLower": 78291.66045470643
+      "ema20": 78935.33193520317,
+      "ema50": 79277.95709719416,
+      "rsi14": 35.252581462876975,
+      "macdHist": -60.166543082142795,
+      "bbUpper": 79621.99675943014,
+      "bbMid": 78969.38222837189,
+      "bbLower": 78316.76769731364
     },
     "fearGreed": {
       "value": 69,
       "classification": "Greed",
       "timestamp": 1788825600000
     },
-    "fundingRate": null,
+    "fundingRate": {
+      "lastFundingRate": 0.00008471,
+      "markPrice": 78441.92523188
+    },
     "newsHighlights": [
       {
         "title": "Liquid Network gets back 3,400 bitcoin from whitehat hackers; talks underway for the rest",
@@ -511,22 +514,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78925 vs EMA50=79274",
+        "detail": "EMA20=78935 vs EMA50=79278",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "32.8",
+        "detail": "35.3",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-67.4",
-        "points": -1.95
+        "detail": "-60.2",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78342 vs [78292, 79636]",
+        "detail": "prix 78455 vs [78317, 79622]",
         "points": 0
       },
       {
@@ -535,15 +538,20 @@
         "points": 0
       },
       {
+        "factor": "Funding rate BTC perp",
+        "detail": "0.0085%",
+        "points": 0
+      },
+      {
         "factor": "Sentiment news (RSS temps réel)",
         "detail": "30 articles pertinents, score brut -6",
         "points": -2
       }
     ],
-    "computedAt": "2026-09-08T08:12:11.765Z",
-    "priceUSD": 78330.1,
-    "priceEUR": 67467.4,
-    "change24h": -0.9613050382852893
+    "computedAt": "2026-09-08T08:30:08.892Z",
+    "priceUSD": 78445,
+    "priceEUR": 67570.5,
+    "change24h": -0.8160282411013147
   },
   "history": [
     {
@@ -6565,7 +6573,12 @@
       "t": "2026-09-08T08:12:11.768Z",
       "equityEUR": 142.67,
       "priceEUR": 67467.4
+    },
+    {
+      "t": "2026-09-08T08:30:08.894Z",
+      "equityEUR": 142.06,
+      "priceEUR": 67570.5
     }
   ],
-  "lastRun": "2026-09-08T08:12:11.768Z"
+  "lastRun": "2026-09-08T08:30:08.894Z"
 }
