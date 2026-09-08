@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 110.30577311030171,
-  "equityEUR": 142.06,
+  "equityEUR": 141.66,
   "stopped": false,
   "openPositions": [
     {
@@ -446,30 +446,32 @@
     }
   ],
   "lastSignal": {
-    "price": 78455.45677017953,
+    "price": 78507.9746472057,
     "direction": "SHORT",
-    "score": -6,
-    "strength": 0.75,
+    "score": -5.67,
+    "strength": 0.71,
     "atr14": 643.7075605152146,
     "indicators": {
-      "ema20": 78935.33193520317,
-      "ema50": 79277.95709719416,
-      "rsi14": 35.252581462876975,
-      "macdHist": -60.166543082142795,
-      "bbUpper": 79621.99675943014,
-      "bbMid": 78969.38222837189,
-      "bbLower": 78316.76769731364
+      "ema20": 78940.33363777709,
+      "ema50": 79280.01662178342,
+      "rsi14": 36.78108910573488,
+      "macdHist": -56.8149748616685,
+      "bbUpper": 79616.70468708934,
+      "bbMid": 78972.00812222321,
+      "bbLower": 78327.31155735708
     },
     "fearGreed": {
       "value": 69,
       "classification": "Greed",
       "timestamp": 1788825600000
     },
-    "fundingRate": {
-      "lastFundingRate": 0.00008471,
-      "markPrice": 78441.92523188
-    },
+    "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Live updates: Yen rally and rising bond yields pressure bitcoin and risk assets",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "Liquid Network gets back 3,400 bitcoin from whitehat hackers; talks underway for the rest",
         "source": "CoinDesk",
@@ -504,32 +506,27 @@
         "title": "&#39;Purported White-Hat Hackers&#39; Withdraw $320M in Bitcoin From Liquid",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "Coldcard hacker moves $7.7 million in BTC, 45% of bitcoin stolen in third attack wave",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78935 vs EMA50=79278",
+        "detail": "EMA20=78940 vs EMA50=79280",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "35.3",
+        "detail": "36.8",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-60.2",
+        "detail": "-56.8",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78455 vs [78317, 79622]",
+        "detail": "prix 78508 vs [78327, 79617]",
         "points": 0
       },
       {
@@ -538,20 +535,15 @@
         "points": 0
       },
       {
-        "factor": "Funding rate BTC perp",
-        "detail": "0.0085%",
-        "points": 0
-      },
-      {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -6",
-        "points": -2
+        "detail": "30 articles pertinents, score brut -5",
+        "points": -1.67
       }
     ],
-    "computedAt": "2026-09-08T08:30:08.892Z",
-    "priceUSD": 78445,
-    "priceEUR": 67570.5,
-    "change24h": -0.8160282411013147
+    "computedAt": "2026-09-08T08:46:38.528Z",
+    "priceUSD": 78520.5,
+    "priceEUR": 67636.1,
+    "change24h": -0.7205678565287243
   },
   "history": [
     {
@@ -6578,7 +6570,12 @@
       "t": "2026-09-08T08:30:08.894Z",
       "equityEUR": 142.06,
       "priceEUR": 67570.5
+    },
+    {
+      "t": "2026-09-08T08:46:38.531Z",
+      "equityEUR": 141.66,
+      "priceEUR": 67636.1
     }
   ],
-  "lastRun": "2026-09-08T08:30:08.894Z"
+  "lastRun": "2026-09-08T08:46:38.531Z"
 }
