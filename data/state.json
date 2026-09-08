@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 105.51,
-  "equityEUR": 140.51,
+  "equityEUR": 141.11,
   "stopped": false,
   "openPositions": [
     {
@@ -478,19 +478,19 @@
     }
   ],
   "lastSignal": {
-    "price": 78538.04376710398,
+    "price": 78467.60060752736,
     "direction": "SHORT",
-    "score": -1.38,
-    "strength": 0.17,
+    "score": -2.33,
+    "strength": 0.29,
     "atr14": 680.2743950469925,
     "indicators": {
-      "ema20": 78618.96178178382,
-      "ema50": 78961.86550120318,
-      "rsi14": 46.105332484396605,
-      "macdHist": 35.78248634212298,
-      "bbUpper": 78972.68583051882,
-      "bbMid": 78534.44023547728,
-      "bbLower": 78096.19464043573
+      "ema20": 78593.99935630258,
+      "ema50": 78924.8282522892,
+      "rsi14": 44.73291763631192,
+      "macdHist": 35.3209936971713,
+      "bbUpper": 78852.96335983471,
+      "bbMid": 78491.66157687601,
+      "bbLower": 78130.3597939173
     },
     "fearGreed": {
       "value": 69,
@@ -499,6 +499,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "New York town weighs crypto mining and AI data center ban",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin rally has more room as volatility shorts unwind, Two Prime CEO says",
         "source": "CoinDesk",
@@ -518,32 +523,27 @@
         "title": "Brazilian Banks Expand Crypto Offerings as Regulation Takes Hold",
         "source": "Decrypt",
         "itemScore": -2
-      },
-      {
-        "title": "Liquid Hackers Return $270M in Bitcoin After Swiping $320 Million",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78619 vs EMA50=78962",
+        "detail": "EMA20=78594 vs EMA50=78925",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "46.1",
-        "points": 0
+        "detail": "44.7",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "35.8",
-        "points": 1.95
+        "detail": "35.3",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78538 vs [78096, 78973]",
+        "detail": "prix 78468 vs [78130, 78853]",
         "points": 0
       },
       {
@@ -557,10 +557,10 @@
         "points": -1.33
       }
     ],
-    "computedAt": "2026-09-08T21:25:31.445Z",
-    "priceUSD": 78525.5,
-    "priceEUR": 67566.7,
-    "change24h": -0.7142459767557051
+    "computedAt": "2026-09-08T23:31:16.803Z",
+    "priceUSD": 78448.1,
+    "priceEUR": 67490.1,
+    "change24h": -0.8121086756420355
   },
   "history": [
     {
@@ -6712,7 +6712,12 @@
       "t": "2026-09-08T21:25:31.448Z",
       "equityEUR": 140.51,
       "priceEUR": 67566.7
+    },
+    {
+      "t": "2026-09-08T23:31:16.806Z",
+      "equityEUR": 141.11,
+      "priceEUR": 67490.1
     }
   ],
-  "lastRun": "2026-09-08T21:25:31.448Z"
+  "lastRun": "2026-09-08T23:31:16.806Z"
 }
