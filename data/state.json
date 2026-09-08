@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 110.30577311030171,
-  "equityEUR": 142.48,
+  "equityEUR": 142.65,
   "stopped": false,
   "openPositions": [
     {
@@ -446,19 +446,19 @@
     }
   ],
   "lastSignal": {
-    "price": 78377.41045200851,
+    "price": 78380.04052203435,
     "direction": "SHORT",
-    "score": -5.33,
-    "strength": 0.67,
+    "score": -5,
+    "strength": 0.63,
     "atr14": 644.2717622866363,
     "indicators": {
-      "ema20": 78786.28866454179,
-      "ema50": 79161.49309536131,
-      "rsi14": 36.96537962198624,
-      "macdHist": -23.65335212404051,
-      "bbUpper": 79578.43967259483,
-      "bbMid": 78851.54501987316,
-      "bbLower": 78124.65036715148
+      "ema20": 78786.53914740139,
+      "ema50": 79161.59623536232,
+      "rsi14": 37.00998208875826,
+      "macdHist": -23.485507199313986,
+      "bbUpper": 79578.22889422618,
+      "bbMid": 78851.67652337444,
+      "bbLower": 78125.1241525227
     },
     "fearGreed": {
       "value": 69,
@@ -473,7 +473,7 @@
         "itemScore": -1
       },
       {
-        "title": "Live updates: Yen rally and rising bond yields pressure bitcoin and risk assets",
+        "title": "Live updates: Bitcoin below Friday's post-jobs report low as oil and copper surge higher",
         "source": "CoinDesk",
         "itemScore": 1
       },
@@ -496,17 +496,12 @@
         "title": "Bitcoin fund flows show investors trading Fed rate path, not exiting market: CoinShares",
         "source": "Cointelegraph",
         "itemScore": 1
-      },
-      {
-        "title": "Coldcard Hacker Moves $7.7M, Nearly Half of Third-Wave Bitcoin Haul",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78786 vs EMA50=79161",
+        "detail": "EMA20=78787 vs EMA50=79162",
         "points": -2
       },
       {
@@ -516,12 +511,12 @@
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-23.7",
+        "detail": "-23.5",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78377 vs [78125, 79578]",
+        "detail": "prix 78380 vs [78125, 79578]",
         "points": 0
       },
       {
@@ -531,14 +526,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -4",
-        "points": -1.33
+        "detail": "30 articles pertinents, score brut -3",
+        "points": -1
       }
     ],
-    "computedAt": "2026-09-08T12:33:55.525Z",
-    "priceUSD": 78404.5,
-    "priceEUR": 67499.6,
-    "change24h": -0.8672354672627706
+    "computedAt": "2026-09-08T12:56:19.826Z",
+    "priceUSD": 78377.8,
+    "priceEUR": 67471.9,
+    "change24h": -0.9009943052506895
   },
   "history": [
     {
@@ -6640,7 +6635,12 @@
       "t": "2026-09-08T12:33:55.528Z",
       "equityEUR": 142.48,
       "priceEUR": 67499.6
+    },
+    {
+      "t": "2026-09-08T12:56:19.829Z",
+      "equityEUR": 142.65,
+      "priceEUR": 67471.9
     }
   ],
-  "lastRun": "2026-09-08T12:33:55.528Z"
+  "lastRun": "2026-09-08T12:56:19.829Z"
 }
