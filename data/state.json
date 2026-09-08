@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 110.30577311030171,
-  "equityEUR": 140.16,
+  "equityEUR": 140.86,
   "stopped": false,
   "openPositions": [
     {
@@ -446,19 +446,19 @@
     }
   ],
   "lastSignal": {
-    "price": 78866.5968370558,
+    "price": 78693.6716457554,
     "direction": "SHORT",
-    "score": -4.5,
-    "strength": 0.56,
+    "score": -5,
+    "strength": 0.63,
     "atr14": 643.7075605152146,
     "indicators": {
-      "ema20": 78905.35290688,
-      "ema50": 79238.52587816617,
-      "rsi14": 46.617652678875075,
-      "macdHist": -5.838828737647162,
-      "bbUpper": 79559.89516845273,
-      "bbMid": 78919.7768343146,
-      "bbLower": 78279.65850017648
+      "ema20": 78888.88384104187,
+      "ema50": 79231.74449811518,
+      "rsi14": 42.52479065643833,
+      "macdHist": -16.874510461671633,
+      "bbUpper": 79558.51881940567,
+      "bbMid": 78911.13057474958,
+      "bbLower": 78263.74233009349
     },
     "fearGreed": {
       "value": 69,
@@ -467,6 +467,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin slips to $78,800 as BNB and DeFi tokens buck the selloff",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Live updates: Yen rally and rising bond yields pressure bitcoin and risk assets",
         "source": "CoinDesk",
@@ -501,32 +506,27 @@
         "title": "Weekend altcoin rally runs out of road as bitcoin slips",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "&#39;Purported White-Hat Hackers&#39; Withdraw $320M in Bitcoin From Liquid",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78905 vs EMA50=79239",
+        "detail": "EMA20=78889 vs EMA50=79232",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "46.6",
-        "points": 0
+        "detail": "42.5",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-5.8",
+        "detail": "-16.9",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78867 vs [78280, 79560]",
+        "detail": "prix 78694 vs [78264, 79559]",
         "points": 0
       },
       {
@@ -540,10 +540,10 @@
         "points": -1
       }
     ],
-    "computedAt": "2026-09-08T10:27:09.256Z",
-    "priceUSD": 78809,
-    "priceEUR": 67886.5,
-    "change24h": -0.3557953936255148
+    "computedAt": "2026-09-08T10:42:05.978Z",
+    "priceUSD": 78663.5,
+    "priceEUR": 67770.9,
+    "change24h": -0.5397620950203744
   },
   "history": [
     {
@@ -6605,7 +6605,12 @@
       "t": "2026-09-08T10:27:09.259Z",
       "equityEUR": 140.16,
       "priceEUR": 67886.5
+    },
+    {
+      "t": "2026-09-08T10:42:05.982Z",
+      "equityEUR": 140.86,
+      "priceEUR": 67770.9
     }
   ],
-  "lastRun": "2026-09-08T10:27:09.259Z"
+  "lastRun": "2026-09-08T10:42:05.982Z"
 }
