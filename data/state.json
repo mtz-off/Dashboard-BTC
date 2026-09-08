@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 105.51,
-  "equityEUR": 140.68,
+  "equityEUR": 140.25,
   "stopped": false,
   "openPositions": [
     {
@@ -478,19 +478,19 @@
     }
   ],
   "lastSignal": {
-    "price": 78505.46653484978,
+    "price": 78640.90436039885,
     "direction": "SHORT",
-    "score": -4.67,
-    "strength": 0.58,
-    "atr14": 644.2717622866363,
+    "score": -1.38,
+    "strength": 0.17,
+    "atr14": 685.036436694236,
     "indicators": {
-      "ema20": 78690.67044188095,
-      "ema50": 79091.58712831388,
-      "rsi14": 44.1537193416488,
-      "macdHist": -18.734154453410895,
-      "bbUpper": 79548.0062685382,
-      "bbMid": 78757.38618205056,
-      "bbLower": 77966.76609556291
+      "ema20": 78686.413686731,
+      "ema50": 79031.42276425163,
+      "rsi14": 47.33631849165192,
+      "macdHist": 47.06897454154489,
+      "bbUpper": 79335.06687205243,
+      "bbMid": 78662.5407310845,
+      "bbLower": 77990.01459011658
     },
     "fearGreed": {
       "value": 69,
@@ -510,11 +510,6 @@
         "itemScore": -1
       },
       {
-        "title": "Live updates: Bitcoin below Friday's post-jobs report low as oil and copper surge higher",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
         "title": "Liquid Network gets back 3,400 bitcoin from whitehat hackers; talks underway for the rest",
         "source": "CoinDesk",
         "itemScore": -1
@@ -528,32 +523,27 @@
         "title": "Liquid Hackers Return $270M in Bitcoin After Swiping $320 Million",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin fund flows show investors trading Fed rate path, not exiting market: CoinShares",
-        "source": "Cointelegraph",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78691 vs EMA50=79092",
+        "detail": "EMA20=78686 vs EMA50=79031",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "44.2",
-        "points": -0.5
+        "detail": "47.3",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-18.7",
-        "points": -1.5
+        "detail": "47.1",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78505 vs [77967, 79548]",
+        "detail": "prix 78641 vs [77990, 79335]",
         "points": 0
       },
       {
@@ -563,14 +553,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -2",
-        "points": -0.67
+        "detail": "30 articles pertinents, score brut -4",
+        "points": -1.33
       }
     ],
-    "computedAt": "2026-09-08T15:09:35.589Z",
-    "priceUSD": 78551.3,
-    "priceEUR": 67545.2,
-    "change24h": -0.6816250771269222
+    "computedAt": "2026-09-08T18:39:21.282Z",
+    "priceUSD": 78587.9,
+    "priceEUR": 67600.5,
+    "change24h": -0.6353489171884324
   },
   "history": [
     {
@@ -6712,7 +6702,12 @@
       "t": "2026-09-08T15:09:35.592Z",
       "equityEUR": 140.68,
       "priceEUR": 67545.2
+    },
+    {
+      "t": "2026-09-08T18:39:21.285Z",
+      "equityEUR": 140.25,
+      "priceEUR": 67600.5
     }
   ],
-  "lastRun": "2026-09-08T15:09:35.592Z"
+  "lastRun": "2026-09-08T18:39:21.285Z"
 }
