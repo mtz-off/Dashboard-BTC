@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 105.51,
-  "equityEUR": 140.3,
+  "equityEUR": 141.23,
   "stopped": false,
   "openPositions": [
     {
@@ -478,19 +478,19 @@
     }
   ],
   "lastSignal": {
-    "price": 78577.08070510077,
+    "price": 78412.676075825,
     "direction": "SHORT",
     "score": -7.12,
     "strength": 0.89,
-    "atr14": 657.7892745304292,
+    "atr14": 718.7903337765732,
     "indicators": {
-      "ema20": 78964.66061119178,
-      "ema50": 78983.67854647961,
-      "rsi14": 44.509263083725756,
-      "macdHist": -18.621968086579642,
-      "bbUpper": 79624.84454883865,
-      "bbMid": 78927.72572641012,
-      "bbLower": 78230.60690398159
+      "ema20": 78881.00805330448,
+      "ema50": 78945.94276582138,
+      "rsi14": 42.51240025433078,
+      "macdHist": -70.9573378455199,
+      "bbUpper": 79611.86866279037,
+      "bbMid": 78950.18614673676,
+      "bbLower": 78288.50363068315
     },
     "fearGreed": {
       "value": 66,
@@ -499,6 +499,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Crypto, Banks Take Clarity Act Lobbying Fight to Senators&#39; Home States",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
       {
         "title": "Italy’s central bank orders sanctions screening for crypto transfers",
         "source": "Cointelegraph",
@@ -528,32 +533,27 @@
         "title": "Jack Dorsey’s Block seeks US trust bank charter for Bitcoin, stablecoin",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "New York town weighs crypto mining and AI data center ban",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78965 vs EMA50=78984",
+        "detail": "EMA20=78881 vs EMA50=78946",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "44.5",
+        "detail": "42.5",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-18.6",
+        "detail": "-71.0",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78577 vs [78231, 79625]",
+        "detail": "prix 78413 vs [78289, 79612]",
         "points": 0
       },
       {
@@ -567,10 +567,10 @@
         "points": -2.67
       }
     ],
-    "computedAt": "2026-09-09T15:53:06.707Z",
-    "priceUSD": 78580.7,
-    "priceEUR": 67594.1,
-    "change24h": 0.16711366278475767
+    "computedAt": "2026-09-09T19:02:46.119Z",
+    "priceUSD": 78454.1,
+    "priceEUR": 67474.2,
+    "change24h": 0.005736166914808998
   },
   "history": [
     {
@@ -6747,7 +6747,12 @@
       "t": "2026-09-09T15:53:06.709Z",
       "equityEUR": 140.3,
       "priceEUR": 67594.1
+    },
+    {
+      "t": "2026-09-09T19:02:46.123Z",
+      "equityEUR": 141.23,
+      "priceEUR": 67474.2
     }
   ],
-  "lastRun": "2026-09-09T15:53:06.709Z"
+  "lastRun": "2026-09-09T19:02:46.123Z"
 }
