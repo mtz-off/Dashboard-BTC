@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 105.51,
-  "equityEUR": 143.06,
+  "equityEUR": 143.4,
   "stopped": false,
   "openPositions": [
     {
@@ -478,19 +478,19 @@
     }
   ],
   "lastSignal": {
-    "price": 78201.53116373143,
+    "price": 78116.00845952654,
     "direction": "SHORT",
-    "score": -7.12,
-    "strength": 0.89,
+    "score": -7,
+    "strength": 0.88,
     "atr14": 715.9624323303309,
     "indicators": {
-      "ema20": 78712.65237083279,
-      "ema50": 78865.26759275048,
-      "rsi14": 40.1521218871664,
-      "macdHist": -109.28219831048222,
-      "bbUpper": 79699.45055041349,
-      "bbMid": 78880.49093911181,
-      "bbLower": 78061.53132781014
+      "ema20": 78582.73481657793,
+      "ema50": 78798.03429789007,
+      "rsi14": 40.562510190875514,
+      "macdHist": -114.59035466283252,
+      "bbUpper": 79787.62577303285,
+      "bbMid": 78811.84941435482,
+      "bbLower": 77836.07305567678
     },
     "fearGreed": {
       "value": 66,
@@ -499,6 +499,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin Wallet Maker Trezor Says Hackers Breached Its Email Provider",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
       {
         "title": "Crypto, Banks Take Clarity Act Lobbying Fight to Senators&#39; Home States",
         "source": "Decrypt",
@@ -538,22 +543,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78713 vs EMA50=78865",
+        "detail": "EMA20=78583 vs EMA50=78798",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "40.2",
+        "detail": "40.6",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-109.3",
-        "points": -1.95
+        "detail": "-114.6",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78202 vs [78062, 79699]",
+        "detail": "prix 78116 vs [77836, 79788]",
         "points": 0
       },
       {
@@ -563,14 +568,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -8",
-        "points": -2.67
+        "detail": "30 articles pertinents, score brut -9",
+        "points": -3
       }
     ],
-    "computedAt": "2026-09-09T21:41:12.553Z",
-    "priceUSD": 78216.8,
-    "priceEUR": 67241,
-    "change24h": -0.2967510350594559
+    "computedAt": "2026-09-09T23:30:15.873Z",
+    "priceUSD": 78166.7,
+    "priceEUR": 67197.1,
+    "change24h": -0.36061369337767013
   },
   "history": [
     {
@@ -6757,7 +6762,12 @@
       "t": "2026-09-09T21:41:12.556Z",
       "equityEUR": 143.06,
       "priceEUR": 67241
+    },
+    {
+      "t": "2026-09-09T23:30:15.876Z",
+      "equityEUR": 143.4,
+      "priceEUR": 67197.1
     }
   ],
-  "lastRun": "2026-09-09T21:41:12.556Z"
+  "lastRun": "2026-09-09T23:30:15.876Z"
 }
