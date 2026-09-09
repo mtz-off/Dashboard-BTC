@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 105.51,
-  "equityEUR": 139.36,
+  "equityEUR": 136.85,
   "stopped": false,
   "openPositions": [
     {
@@ -478,19 +478,19 @@
     }
   ],
   "lastSignal": {
-    "price": 78731.82795806478,
+    "price": 79190.86356470705,
     "direction": "SHORT",
-    "score": -1.38,
-    "strength": 0.17,
-    "atr14": 645.3652501900164,
+    "score": -1.22,
+    "strength": 0.15,
+    "atr14": 632.0423893374648,
     "indicators": {
-      "ema20": 78620.57136116803,
-      "ema50": 78910.64136660032,
-      "rsi14": 51.10190593352883,
-      "macdHist": 60.185078458861426,
-      "bbUpper": 78889.67563786464,
-      "bbMid": 78503.70269090234,
-      "bbLower": 78117.72974394004
+      "ema20": 78756.68793339147,
+      "ema50": 78918.87699829324,
+      "rsi14": 58.29522863043577,
+      "macdHist": 94.51195331077818,
+      "bbUpper": 79180.89429580228,
+      "bbMid": 78621.64761177367,
+      "bbLower": 78062.40092774507
     },
     "fearGreed": {
       "value": 66,
@@ -518,33 +518,28 @@
         "title": "Liquid Network gets back 3,400 bitcoin from whitehat hackers; talks underway for the rest",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Brazilian Banks Expand Crypto Offerings as Regulation Takes Hold",
-        "source": "Decrypt",
-        "itemScore": -2
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78621 vs EMA50=78911",
+        "detail": "EMA20=78757 vs EMA50=78919",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "51.1",
-        "points": 0
+        "detail": "58.3",
+        "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "60.2",
+        "detail": "94.5",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78732 vs [78118, 78890]",
-        "points": 0
+        "detail": "prix 79191 vs [78062, 79181]",
+        "points": -1
       },
       {
         "factor": "Fear & Greed Index",
@@ -553,14 +548,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -4",
-        "points": -1.33
+        "detail": "30 articles pertinents, score brut -2",
+        "points": -0.67
       }
     ],
-    "computedAt": "2026-09-09T01:32:18.184Z",
-    "priceUSD": 78720.3,
-    "priceEUR": 67714.2,
-    "change24h": 0.34506230751972866
+    "computedAt": "2026-09-09T06:41:29.891Z",
+    "priceUSD": 79165,
+    "priceEUR": 68035.4,
+    "change24h": 0.9119230690787387
   },
   "history": [
     {
@@ -6722,7 +6717,12 @@
       "t": "2026-09-09T01:32:18.187Z",
       "equityEUR": 139.36,
       "priceEUR": 67714.2
+    },
+    {
+      "t": "2026-09-09T06:41:29.893Z",
+      "equityEUR": 136.85,
+      "priceEUR": 68035.4
     }
   ],
-  "lastRun": "2026-09-09T01:32:18.187Z"
+  "lastRun": "2026-09-09T06:41:29.893Z"
 }
