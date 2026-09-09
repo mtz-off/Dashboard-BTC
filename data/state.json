@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 105.51,
-  "equityEUR": 136.85,
+  "equityEUR": 136.36,
   "stopped": false,
   "openPositions": [
     {
@@ -478,19 +478,19 @@
     }
   ],
   "lastSignal": {
-    "price": 79190.86356470705,
+    "price": 79264.23702402,
     "direction": "SHORT",
-    "score": -1.22,
-    "strength": 0.15,
-    "atr14": 632.0423893374648,
+    "score": -1.67,
+    "strength": 0.21,
+    "atr14": 636.2541356036542,
     "indicators": {
-      "ema20": 78756.68793339147,
-      "ema50": 78918.87699829324,
-      "rsi14": 58.29522863043577,
-      "macdHist": 94.51195331077818,
-      "bbUpper": 79180.89429580228,
-      "bbMid": 78621.64761177367,
-      "bbLower": 78062.40092774507
+      "ema20": 78927.31622018828,
+      "ema50": 78969.22018288117,
+      "rsi14": 56.09418142616459,
+      "macdHist": 62.7517590503485,
+      "bbUpper": 79484.10515264283,
+      "bbMid": 78814.79074447793,
+      "bbLower": 78145.47633631302
     },
     "fearGreed": {
       "value": 66,
@@ -500,6 +500,31 @@
     "fundingRate": null,
     "newsHighlights": [
       {
+        "title": "Bitcoin SOPR metric sees longest profit run of 2026 as new analysis challenges bear market",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Singaporean 22-year old pleads guilty to being the ringleader in $245 million crypto fraud case",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Jack Dorsey&#39;s Block Applies for Bank Charter to Custody Bitcoin",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Iran eases currency rules to bypass US sanctions with crypto: Report",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Jack Dorsey’s Block seeks US trust bank charter for Bitcoin, stablecoin",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
         "title": "New York town weighs crypto mining and AI data center ban",
         "source": "Cointelegraph",
         "itemScore": -1
@@ -508,38 +533,28 @@
         "title": "Bitcoin rally has more room as volatility shorts unwind, Two Prime CEO says",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Bitcoin slips to $78,800 as BNB and DeFi tokens buck the selloff",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Liquid Network gets back 3,400 bitcoin from whitehat hackers; talks underway for the rest",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78757 vs EMA50=78919",
+        "detail": "EMA20=78927 vs EMA50=78969",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "58.3",
+        "detail": "56.1",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "94.5",
-        "points": 1.95
+        "detail": "62.8",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 79191 vs [78062, 79181]",
-        "points": -1
+        "detail": "prix 79264 vs [78145, 79484]",
+        "points": 0
       },
       {
         "factor": "Fear & Greed Index",
@@ -548,14 +563,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -2",
-        "points": -0.67
+        "detail": "30 articles pertinents, score brut -5",
+        "points": -1.67
       }
     ],
-    "computedAt": "2026-09-09T06:41:29.891Z",
-    "priceUSD": 79165,
-    "priceEUR": 68035.4,
-    "change24h": 0.9119230690787387
+    "computedAt": "2026-09-09T11:52:58.442Z",
+    "priceUSD": 79297.6,
+    "priceEUR": 68098.6,
+    "change24h": 1.0809487875017845
   },
   "history": [
     {
@@ -6722,7 +6737,12 @@
       "t": "2026-09-09T06:41:29.893Z",
       "equityEUR": 136.85,
       "priceEUR": 68035.4
+    },
+    {
+      "t": "2026-09-09T11:52:58.444Z",
+      "equityEUR": 136.36,
+      "priceEUR": 68098.6
     }
   ],
-  "lastRun": "2026-09-09T06:41:29.893Z"
+  "lastRun": "2026-09-09T11:52:58.444Z"
 }
