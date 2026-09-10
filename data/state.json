@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 105.51,
-  "equityEUR": 144.06,
+  "equityEUR": 148.75,
   "stopped": false,
   "openPositions": [
     {
@@ -478,19 +478,19 @@
     }
   ],
   "lastSignal": {
-    "price": 78000.73350648877,
+    "price": 77333.3990742318,
     "direction": "SHORT",
-    "score": -5.67,
-    "strength": 0.71,
-    "atr14": 676.6949226986043,
+    "score": -4.67,
+    "strength": 0.58,
+    "atr14": 661.0645748153049,
     "indicators": {
-      "ema20": 78274.0354619119,
-      "ema50": 78558.31974726879,
-      "rsi14": 41.93182636352356,
-      "macdHist": -22.994184336913463,
-      "bbUpper": 78734.73154998667,
-      "bbMid": 78243.37024218953,
-      "bbLower": 77752.00893439239
+      "ema20": 77908.81565802018,
+      "ema50": 78350.06301170278,
+      "rsi14": 36.71653830642046,
+      "macdHist": -83.05439733599104,
+      "bbUpper": 78836.00071694644,
+      "bbMid": 77962.13364406998,
+      "bbLower": 77088.26657119353
     },
     "fearGreed": {
       "value": 69,
@@ -525,16 +525,6 @@
         "itemScore": -1
       },
       {
-        "title": "Italy’s central bank orders sanctions screening for crypto transfers",
-        "source": "Cointelegraph",
-        "itemScore": -2
-      },
-      {
-        "title": "Bitcoin SOPR metric sees longest profit run of 2026 as new analysis challenges bear market",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
         "title": "Jack Dorsey&#39;s Block Applies for Bank Charter to Custody Bitcoin",
         "source": "Decrypt",
         "itemScore": -1
@@ -543,22 +533,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78274 vs EMA50=78558",
+        "detail": "EMA20=77909 vs EMA50=78350",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "41.9",
+        "detail": "36.7",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-23.0",
+        "detail": "-83.1",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78001 vs [77752, 78735]",
+        "detail": "prix 77333 vs [77088, 78836]",
         "points": 0
       },
       {
@@ -568,14 +558,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -5",
-        "points": -1.67
+        "detail": "30 articles pertinents, score brut -2",
+        "points": -0.67
       }
     ],
-    "computedAt": "2026-09-10T11:42:41.510Z",
-    "priceUSD": 77996.3,
-    "priceEUR": 67113,
-    "change24h": -0.37336214978937277
+    "computedAt": "2026-09-10T15:11:51.656Z",
+    "priceUSD": 77327.6,
+    "priceEUR": 66512.1,
+    "change24h": -1.227509496912705
   },
   "history": [
     {
@@ -6782,7 +6772,12 @@
       "t": "2026-09-10T11:42:41.514Z",
       "equityEUR": 144.06,
       "priceEUR": 67113
+    },
+    {
+      "t": "2026-09-10T15:11:51.659Z",
+      "equityEUR": 148.75,
+      "priceEUR": 66512.1
     }
   ],
-  "lastRun": "2026-09-10T11:42:41.514Z"
+  "lastRun": "2026-09-10T15:11:51.659Z"
 }
