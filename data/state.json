@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 105.51,
-  "equityEUR": 148.75,
+  "equityEUR": 149.9,
   "stopped": false,
   "openPositions": [
     {
@@ -478,19 +478,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77333.3990742318,
+    "price": 77071.5549160533,
     "direction": "SHORT",
     "score": -4.67,
     "strength": 0.58,
-    "atr14": 661.0645748153049,
+    "atr14": 692.1953289823554,
     "indicators": {
-      "ema20": 77908.81565802018,
-      "ema50": 78350.06301170278,
-      "rsi14": 36.71653830642046,
-      "macdHist": -83.05439733599104,
-      "bbUpper": 78836.00071694644,
-      "bbMid": 77962.13364406998,
-      "bbLower": 77088.26657119353
+      "ema20": 77709.90628299696,
+      "ema50": 78213.12414463096,
+      "rsi14": 34.98807093397751,
+      "macdHist": -58.24157382330765,
+      "bbUpper": 78845.99628691253,
+      "bbMid": 77815.94409207322,
+      "bbLower": 76785.8918972339
     },
     "fearGreed": {
       "value": 69,
@@ -500,6 +500,11 @@
     "fundingRate": null,
     "newsHighlights": [
       {
+        "title": "Bitcoin Bancorp snaps up thousands of defunct Bitcoin Depot ATMs for $620,000",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
         "title": "Bitcoin traders dial down bullish plays ahead of U.S. inflation data",
         "source": "CoinDesk",
         "itemScore": 1
@@ -507,6 +512,11 @@
       {
         "title": "Bitcoin ETFs shed $167M after strongest three-week inflow run of 2026",
         "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
+        "title": "Live updates: Bitcoin slumps as oil and bond yields surge to new highs",
+        "source": "CoinDesk",
         "itemScore": 1
       },
       {
@@ -533,22 +543,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77909 vs EMA50=78350",
+        "detail": "EMA20=77710 vs EMA50=78213",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "36.7",
+        "detail": "35.0",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-83.1",
+        "detail": "-58.2",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77333 vs [77088, 78836]",
+        "detail": "prix 77072 vs [76786, 78846]",
         "points": 0
       },
       {
@@ -558,14 +568,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -2",
+        "detail": "28 articles pertinents, score brut -2",
         "points": -0.67
       }
     ],
-    "computedAt": "2026-09-10T15:11:51.656Z",
-    "priceUSD": 77327.6,
-    "priceEUR": 66512.1,
-    "change24h": -1.227509496912705
+    "computedAt": "2026-09-10T18:29:09.608Z",
+    "priceUSD": 77062.8,
+    "priceEUR": 66364.9,
+    "change24h": -1.5657452042826197
   },
   "history": [
     {
@@ -6777,7 +6787,12 @@
       "t": "2026-09-10T15:11:51.659Z",
       "equityEUR": 148.75,
       "priceEUR": 66512.1
+    },
+    {
+      "t": "2026-09-10T18:29:09.612Z",
+      "equityEUR": 149.9,
+      "priceEUR": 66364.9
     }
   ],
-  "lastRun": "2026-09-10T15:11:51.659Z"
+  "lastRun": "2026-09-10T18:29:09.612Z"
 }
