@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 105.51,
-  "equityEUR": 143.17,
+  "equityEUR": 143.35,
   "stopped": false,
   "openPositions": [
     {
@@ -478,19 +478,19 @@
     }
   ],
   "lastSignal": {
-    "price": 78202.48898131271,
+    "price": 78194.47806062899,
     "direction": "SHORT",
-    "score": -7,
-    "strength": 0.88,
-    "atr14": 698.9736651689801,
+    "score": -4,
+    "strength": 0.5,
+    "atr14": 683.6593590523023,
     "indicators": {
-      "ema20": 78560.91543195014,
-      "ema50": 78780.99885210584,
-      "rsi14": 42.51169581270509,
-      "macdHist": -89.03168506376483,
-      "bbUpper": 79750.54587501362,
-      "bbMid": 78772.70754236386,
-      "bbLower": 77794.8692097141
+      "ema20": 78439.07099965918,
+      "ema50": 78675.04835487276,
+      "rsi14": 43.935556429297954,
+      "macdHist": 1.0316792567779203,
+      "bbUpper": 79387.6901532683,
+      "bbMid": 78514.2689801189,
+      "bbLower": 77640.8478069695
     },
     "fearGreed": {
       "value": 69,
@@ -499,6 +499,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "US sanctions Xinbi scam marketplace, restrains $52M in crypto",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin Wallet Maker Trezor Says Hackers Breached Its Email Provider",
         "source": "Decrypt",
@@ -533,32 +538,27 @@
         "title": "Iran eases currency rules to bypass US sanctions with crypto: Report",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "Jack Dorsey’s Block seeks US trust bank charter for Bitcoin, stablecoin",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78561 vs EMA50=78781",
+        "detail": "EMA20=78439 vs EMA50=78675",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "42.5",
+        "detail": "43.9",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-89.0",
-        "points": -1.5
+        "detail": "1.0",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78202 vs [77795, 79751]",
+        "detail": "prix 78194 vs [77641, 79388]",
         "points": 0
       },
       {
@@ -568,14 +568,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -9",
+        "detail": "30 articles pertinents, score brut -10",
         "points": -3
       }
     ],
-    "computedAt": "2026-09-10T01:27:50.563Z",
-    "priceUSD": 78200.9,
-    "priceEUR": 67227,
-    "change24h": -0.11202141818861448
+    "computedAt": "2026-09-10T06:28:29.841Z",
+    "priceUSD": 78186.9,
+    "priceEUR": 67203.1,
+    "change24h": -0.12990397069306595
   },
   "history": [
     {
@@ -6772,7 +6772,12 @@
       "t": "2026-09-10T01:27:50.566Z",
       "equityEUR": 143.17,
       "priceEUR": 67227
+    },
+    {
+      "t": "2026-09-10T06:28:29.844Z",
+      "equityEUR": 143.35,
+      "priceEUR": 67203.1
     }
   ],
-  "lastRun": "2026-09-10T01:27:50.566Z"
+  "lastRun": "2026-09-10T06:28:29.844Z"
 }
