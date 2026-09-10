@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 105.51,
-  "equityEUR": 143.35,
+  "equityEUR": 144.06,
   "stopped": false,
   "openPositions": [
     {
@@ -478,19 +478,19 @@
     }
   ],
   "lastSignal": {
-    "price": 78194.47806062899,
+    "price": 78000.73350648877,
     "direction": "SHORT",
-    "score": -4,
-    "strength": 0.5,
-    "atr14": 683.6593590523023,
+    "score": -5.67,
+    "strength": 0.71,
+    "atr14": 676.6949226986043,
     "indicators": {
-      "ema20": 78439.07099965918,
-      "ema50": 78675.04835487276,
-      "rsi14": 43.935556429297954,
-      "macdHist": 1.0316792567779203,
-      "bbUpper": 79387.6901532683,
-      "bbMid": 78514.2689801189,
-      "bbLower": 77640.8478069695
+      "ema20": 78274.0354619119,
+      "ema50": 78558.31974726879,
+      "rsi14": 41.93182636352356,
+      "macdHist": -22.994184336913463,
+      "bbUpper": 78734.73154998667,
+      "bbMid": 78243.37024218953,
+      "bbLower": 77752.00893439239
     },
     "fearGreed": {
       "value": 69,
@@ -499,6 +499,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin traders dial down bullish plays ahead of U.S. inflation data",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Bitcoin ETFs shed $167M after strongest three-week inflow run of 2026",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
       {
         "title": "US sanctions Xinbi scam marketplace, restrains $52M in crypto",
         "source": "Cointelegraph",
@@ -525,40 +535,30 @@
         "itemScore": -1
       },
       {
-        "title": "Singaporean 22-year old pleads guilty to being the ringleader in $245 million crypto fraud case",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
         "title": "Jack Dorsey&#39;s Block Applies for Bank Charter to Custody Bitcoin",
         "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Iran eases currency rules to bypass US sanctions with crypto: Report",
-        "source": "Cointelegraph",
         "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78439 vs EMA50=78675",
+        "detail": "EMA20=78274 vs EMA50=78558",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "43.9",
+        "detail": "41.9",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "1.0",
-        "points": 1.5
+        "detail": "-23.0",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78194 vs [77641, 79388]",
+        "detail": "prix 78001 vs [77752, 78735]",
         "points": 0
       },
       {
@@ -568,14 +568,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -10",
-        "points": -3
+        "detail": "30 articles pertinents, score brut -5",
+        "points": -1.67
       }
     ],
-    "computedAt": "2026-09-10T06:28:29.841Z",
-    "priceUSD": 78186.9,
-    "priceEUR": 67203.1,
-    "change24h": -0.12990397069306595
+    "computedAt": "2026-09-10T11:42:41.510Z",
+    "priceUSD": 77996.3,
+    "priceEUR": 67113,
+    "change24h": -0.37336214978937277
   },
   "history": [
     {
@@ -6777,7 +6777,12 @@
       "t": "2026-09-10T06:28:29.844Z",
       "equityEUR": 143.35,
       "priceEUR": 67203.1
+    },
+    {
+      "t": "2026-09-10T11:42:41.514Z",
+      "equityEUR": 144.06,
+      "priceEUR": 67113
     }
   ],
-  "lastRun": "2026-09-10T06:28:29.844Z"
+  "lastRun": "2026-09-10T11:42:41.514Z"
 }
