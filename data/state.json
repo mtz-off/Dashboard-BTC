@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 105.51,
-  "equityEUR": 149.9,
+  "equityEUR": 148.46,
   "stopped": false,
   "openPositions": [
     {
@@ -478,19 +478,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77071.5549160533,
+    "price": 77213.87299090877,
     "direction": "SHORT",
-    "score": -4.67,
-    "strength": 0.58,
-    "atr14": 692.1953289823554,
+    "score": -4,
+    "strength": 0.5,
+    "atr14": 690.1310615481163,
     "indicators": {
-      "ema20": 77709.90628299696,
-      "ema50": 78213.12414463096,
-      "rsi14": 34.98807093397751,
-      "macdHist": -58.24157382330765,
-      "bbUpper": 78845.99628691253,
-      "bbMid": 77815.94409207322,
-      "bbLower": 76785.8918972339
+      "ema20": 77624.39806879211,
+      "ema50": 78138.52741951664,
+      "rsi14": 37.7061446654841,
+      "macdHist": -24.618809827353743,
+      "bbUpper": 78760.02599453073,
+      "bbMid": 77718.96194523653,
+      "bbLower": 76677.89789594233
     },
     "fearGreed": {
       "value": 69,
@@ -499,6 +499,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin Rally Cools, But a Golden Cross Is Coming",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
       {
         "title": "Bitcoin Bancorp snaps up thousands of defunct Bitcoin Depot ATMs for $620,000",
         "source": "CoinDesk",
@@ -533,32 +538,27 @@
         "title": "Crypto, Banks Take Clarity Act Lobbying Fight to Senators&#39; Home States",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "Jack Dorsey&#39;s Block Applies for Bank Charter to Custody Bitcoin",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77710 vs EMA50=78213",
+        "detail": "EMA20=77624 vs EMA50=78139",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "35.0",
+        "detail": "37.7",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-58.2",
+        "detail": "-24.6",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77072 vs [76786, 78846]",
+        "detail": "prix 77214 vs [76678, 78760]",
         "points": 0
       },
       {
@@ -568,14 +568,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "28 articles pertinents, score brut -2",
-        "points": -0.67
+        "detail": "30 articles pertinents, score brut 0",
+        "points": 0
       }
     ],
-    "computedAt": "2026-09-10T18:29:09.608Z",
-    "priceUSD": 77062.8,
-    "priceEUR": 66364.9,
-    "change24h": -1.5657452042826197
+    "computedAt": "2026-09-10T21:07:03.051Z",
+    "priceUSD": 77239.3,
+    "priceEUR": 66548.9,
+    "change24h": -1.340297310208642
   },
   "history": [
     {
@@ -6792,7 +6792,12 @@
       "t": "2026-09-10T18:29:09.612Z",
       "equityEUR": 149.9,
       "priceEUR": 66364.9
+    },
+    {
+      "t": "2026-09-10T21:07:03.055Z",
+      "equityEUR": 148.46,
+      "priceEUR": 66548.9
     }
   ],
-  "lastRun": "2026-09-10T18:29:09.612Z"
+  "lastRun": "2026-09-10T21:07:03.055Z"
 }
