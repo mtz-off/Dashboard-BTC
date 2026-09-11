@@ -5,25 +5,25 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 114.07,
-  "equityEUR": 148.93,
+  "balanceEUR": 103.54,
+  "equityEUR": 138.06,
   "stopped": false,
   "openPositions": [
     {
-      "id": "4f72ac24-80b1-4164-a002-0fcb2372d1f2",
+      "id": "c543f8ed-0ac0-4920-8baa-6304c7ee328d",
       "side": "SHORT",
-      "entryPrice": 66082.9,
-      "entryTime": "2026-09-10T23:09:49.572Z",
-      "sizeEUR": 38.03,
-      "notionalEUR": 570.45,
+      "entryPrice": 67709,
+      "entryTime": "2026-09-11T14:49:35.869Z",
+      "sizeEUR": 34.52,
+      "notionalEUR": 517.8,
       "leverage": 15,
-      "qtyBTC": 0.00863234,
-      "sl": 66795.8,
-      "tp": 64657.09,
-      "slPct": 1.08,
-      "tpPct": 2.16,
-      "signalScore": -4.45,
-      "signalStrength": 0.56,
+      "qtyBTC": 0.00764743,
+      "sl": 68396.76,
+      "tp": 66333.47,
+      "slPct": 1.02,
+      "tpPct": 2.03,
+      "signalScore": -3.22,
+      "signalStrength": 0.4,
       "status": "OPEN"
     }
   ],
@@ -491,22 +491,38 @@
       "pnlPct": 2.16,
       "reason": "TP",
       "status": "CLOSED"
+    },
+    {
+      "id": "4f72ac24-80b1-4164-a002-0fcb2372d1f2",
+      "side": "SHORT",
+      "entryPrice": 66082.9,
+      "entryTime": "2026-09-10T23:09:49.572Z",
+      "exitPrice": 67709,
+      "exitTime": "2026-09-11T14:49:35.869Z",
+      "sizeEUR": 38.03,
+      "notionalEUR": 570.45,
+      "leverage": 15,
+      "qtyBTC": 0.00863234,
+      "pnlEUR": -14.04,
+      "pnlPct": -2.46,
+      "reason": "SL",
+      "status": "CLOSED"
     }
   ],
   "lastSignal": {
-    "price": 76981.31280828078,
+    "price": 78711.96769624297,
     "direction": "SHORT",
-    "score": -2,
-    "strength": 0.25,
-    "atr14": 663.378898132204,
+    "score": -3.22,
+    "strength": 0.4,
+    "atr14": 666.2725522316452,
     "indicators": {
-      "ema20": 77192.68648622175,
-      "ema50": 77662.19321077158,
-      "rsi14": 42.17947001876392,
-      "macdHist": 63.55879146219229,
-      "bbUpper": 77464.1069507225,
-      "bbMid": 77069.45344876993,
-      "bbLower": 76674.79994681735
+      "ema20": 77551.861634897,
+      "ema50": 77746.80187355592,
+      "rsi14": 65.3717468372979,
+      "macdHist": 246.15465215041434,
+      "bbUpper": 78511.63862257401,
+      "bbMid": 77265.80455880647,
+      "bbLower": 76019.97049503893
     },
     "fearGreed": {
       "value": 56,
@@ -515,6 +531,26 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Blockstream Refuses Ransom for Return of $47M in Bitcoin from Liquid Hack: &#39;It Is Theft&#39;",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin ETF outflows accelerate as investors pull $449M in three days",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Core CPI rose a faster-than-forecast 0.3% in August, setting up possible Fed rate hike",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Live updates: Bitcoin heads higher as investors look past looming Fed rate hike",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Albuquerque Bans Bitcoin ATMs, Giving Operators 45 Days to Remove Them",
         "source": "Decrypt",
@@ -534,48 +570,28 @@
         "title": "Bitcoin Rally Cools, But a Golden Cross Is Coming",
         "source": "Decrypt",
         "itemScore": 1
-      },
-      {
-        "title": "Bitcoin Bancorp snaps up thousands of defunct Bitcoin Depot ATMs for $620,000",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin traders dial down bullish plays ahead of U.S. inflation data",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "Bitcoin ETFs shed $167M after strongest three-week inflow run of 2026",
-        "source": "Cointelegraph",
-        "itemScore": 1
-      },
-      {
-        "title": "Bitcoin Wallet Maker Trezor Says Hackers Breached Its Email Provider",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77193 vs EMA50=77662",
+        "detail": "EMA20=77552 vs EMA50=77747",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "42.2",
-        "points": -0.5
+        "detail": "65.4",
+        "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "63.6",
-        "points": 1.5
+        "detail": "246.2",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 76981 vs [76675, 77464]",
-        "points": 0
+        "detail": "prix 78712 vs [76020, 78512]",
+        "points": -1
       },
       {
         "factor": "Fear & Greed Index",
@@ -584,14 +600,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -3",
-        "points": -1
+        "detail": "30 articles pertinents, score brut -8",
+        "points": -2.67
       }
     ],
-    "computedAt": "2026-09-11T10:52:03.072Z",
-    "priceUSD": 76997.1,
-    "priceEUR": 66450,
-    "change24h": 0.5945755271615659
+    "computedAt": "2026-09-11T14:49:35.866Z",
+    "priceUSD": 78600.1,
+    "priceEUR": 67709,
+    "change24h": 2.6888505657024977
   },
   "history": [
     {
@@ -6833,7 +6849,12 @@
       "t": "2026-09-11T10:52:03.076Z",
       "equityEUR": 148.93,
       "priceEUR": 66450
+    },
+    {
+      "t": "2026-09-11T14:49:35.869Z",
+      "equityEUR": 138.06,
+      "priceEUR": 67709
     }
   ],
-  "lastRun": "2026-09-11T10:52:03.076Z"
+  "lastRun": "2026-09-11T14:49:35.869Z"
 }
