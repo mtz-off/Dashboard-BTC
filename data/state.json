@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 114.07,
-  "equityEUR": 148.44,
+  "equityEUR": 148.93,
   "stopped": false,
   "openPositions": [
     {
@@ -494,19 +494,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77162.62128803816,
+    "price": 76981.31280828078,
     "direction": "SHORT",
-    "score": -0.38,
-    "strength": 0.05,
-    "atr14": 675.2740985350158,
+    "score": -2,
+    "strength": 0.25,
+    "atr14": 663.378898132204,
     "indicators": {
-      "ema20": 77218.60045424779,
-      "ema50": 77772.66972001916,
-      "rsi14": 45.35392020462998,
-      "macdHist": 51.8970011847382,
-      "bbUpper": 77743.60845767768,
-      "bbMid": 77130.29017178407,
-      "bbLower": 76516.97188589047
+      "ema20": 77192.68648622175,
+      "ema50": 77662.19321077158,
+      "rsi14": 42.17947001876392,
+      "macdHist": 63.55879146219229,
+      "bbUpper": 77464.1069507225,
+      "bbMid": 77069.45344876993,
+      "bbLower": 76674.79994681735
     },
     "fearGreed": {
       "value": 56,
@@ -515,6 +515,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Albuquerque Bans Bitcoin ATMs, Giving Operators 45 Days to Remove Them",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Blockstream rejects ransom as Liquid hackers hold nearly 600 BTC",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin below $77,000, Zcash leads losses as traders bet on a Fed rate hike",
         "source": "CoinDesk",
@@ -541,16 +551,6 @@
         "itemScore": 1
       },
       {
-        "title": "Live updates: Bitcoin slumps as oil and bond yields surge to new highs",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "US sanctions Xinbi scam marketplace, restrains $52M in crypto",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
         "title": "Bitcoin Wallet Maker Trezor Says Hackers Breached Its Email Provider",
         "source": "Decrypt",
         "itemScore": -1
@@ -559,22 +559,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77219 vs EMA50=77773",
+        "detail": "EMA20=77193 vs EMA50=77662",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "45.4",
-        "points": 0
+        "detail": "42.2",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "51.9",
-        "points": 1.95
+        "detail": "63.6",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77163 vs [76517, 77744]",
+        "detail": "prix 76981 vs [76675, 77464]",
         "points": 0
       },
       {
@@ -584,14 +584,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "29 articles pertinents, score brut -1",
-        "points": -0.33
+        "detail": "30 articles pertinents, score brut -3",
+        "points": -1
       }
     ],
-    "computedAt": "2026-09-11T05:57:34.007Z",
-    "priceUSD": 77199.4,
-    "priceEUR": 66507,
-    "change24h": 0.8588748660865854
+    "computedAt": "2026-09-11T10:52:03.072Z",
+    "priceUSD": 76997.1,
+    "priceEUR": 66450,
+    "change24h": 0.5945755271615659
   },
   "history": [
     {
@@ -6828,7 +6828,12 @@
       "t": "2026-09-11T05:57:34.010Z",
       "equityEUR": 148.44,
       "priceEUR": 66507
+    },
+    {
+      "t": "2026-09-11T10:52:03.076Z",
+      "equityEUR": 148.93,
+      "priceEUR": 66450
     }
   ],
-  "lastRun": "2026-09-11T05:57:34.010Z"
+  "lastRun": "2026-09-11T10:52:03.076Z"
 }
