@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 103.54,
-  "equityEUR": 138.06,
+  "equityEUR": 147.14,
   "stopped": false,
   "openPositions": [
     {
@@ -510,19 +510,19 @@
     }
   ],
   "lastSignal": {
-    "price": 78711.96769624297,
+    "price": 77089.5604643718,
     "direction": "SHORT",
-    "score": -3.22,
+    "score": -3.17,
     "strength": 0.4,
-    "atr14": 666.2725522316452,
+    "atr14": 847.9290891770148,
     "indicators": {
-      "ema20": 77551.861634897,
-      "ema50": 77746.80187355592,
-      "rsi14": 65.3717468372979,
-      "macdHist": 246.15465215041434,
-      "bbUpper": 78511.63862257401,
-      "bbMid": 77265.80455880647,
-      "bbLower": 76019.97049503893
+      "ema20": 77555.47306322929,
+      "ema50": 77727.94096943902,
+      "rsi14": 45.165957883274956,
+      "macdHist": 74.31721198551679,
+      "bbUpper": 78632.68764121359,
+      "bbMid": 77329.50206272668,
+      "bbLower": 76026.31648423977
     },
     "fearGreed": {
       "value": 56,
@@ -531,6 +531,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "With Fed rate hike all but assured, here's how markets might react",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Blockstream Refuses Ransom for Return of $47M in Bitcoin from Liquid Hack: &#39;It Is Theft&#39;",
         "source": "Decrypt",
@@ -547,7 +552,7 @@
         "itemScore": -1
       },
       {
-        "title": "Live updates: Bitcoin heads higher as investors look past looming Fed rate hike",
+        "title": "Live updates: Bitcoin gives up early gains as markets fully price in Fed rate hike",
         "source": "CoinDesk",
         "itemScore": -1
       },
@@ -565,33 +570,28 @@
         "title": "Bitcoin below $77,000, Zcash leads losses as traders bet on a Fed rate hike",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin Rally Cools, But a Golden Cross Is Coming",
-        "source": "Decrypt",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77552 vs EMA50=77747",
+        "detail": "EMA20=77555 vs EMA50=77728",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "65.4",
-        "points": 0.5
+        "detail": "45.2",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "246.2",
-        "points": 1.95
+        "detail": "74.3",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78712 vs [76020, 78512]",
-        "points": -1
+        "detail": "prix 77090 vs [76026, 78633]",
+        "points": 0
       },
       {
         "factor": "Fear & Greed Index",
@@ -604,10 +604,10 @@
         "points": -2.67
       }
     ],
-    "computedAt": "2026-09-11T14:49:35.866Z",
-    "priceUSD": 78600.1,
-    "priceEUR": 67709,
-    "change24h": 2.6888505657024977
+    "computedAt": "2026-09-11T18:08:58.416Z",
+    "priceUSD": 77130.1,
+    "priceEUR": 66522.1,
+    "change24h": 0.7683363382195472
   },
   "history": [
     {
@@ -6854,7 +6854,12 @@
       "t": "2026-09-11T14:49:35.869Z",
       "equityEUR": 138.06,
       "priceEUR": 67709
+    },
+    {
+      "t": "2026-09-11T18:08:58.419Z",
+      "equityEUR": 147.14,
+      "priceEUR": 66522.1
     }
   ],
-  "lastRun": "2026-09-11T14:49:35.869Z"
+  "lastRun": "2026-09-11T18:08:58.419Z"
 }
