@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 114.07,
-  "equityEUR": 150.45,
+  "equityEUR": 148.44,
   "stopped": false,
   "openPositions": [
     {
@@ -494,19 +494,19 @@
     }
   ],
   "lastSignal": {
-    "price": 76916.01713749366,
+    "price": 77162.62128803816,
     "direction": "SHORT",
-    "score": -4,
-    "strength": 0.5,
-    "atr14": 695.74302877493,
+    "score": -0.38,
+    "strength": 0.05,
+    "atr14": 675.2740985350158,
     "indicators": {
-      "ema20": 77368.0118085132,
-      "ema50": 77948.55796239183,
-      "rsi14": 38.115688553778924,
-      "macdHist": -28.60972479400266,
-      "bbUpper": 78512.26845699639,
-      "bbMid": 77438.71374606356,
-      "bbLower": 76365.15903513072
+      "ema20": 77218.60045424779,
+      "ema50": 77772.66972001916,
+      "rsi14": 45.35392020462998,
+      "macdHist": 51.8970011847382,
+      "bbUpper": 77743.60845767768,
+      "bbMid": 77130.29017178407,
+      "bbLower": 76516.97188589047
     },
     "fearGreed": {
       "value": 56,
@@ -515,6 +515,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin below $77,000, Zcash leads losses as traders bet on a Fed rate hike",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin Rally Cools, But a Golden Cross Is Coming",
         "source": "Decrypt",
@@ -549,32 +554,27 @@
         "title": "Bitcoin Wallet Maker Trezor Says Hackers Breached Its Email Provider",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "Crypto, Banks Take Clarity Act Lobbying Fight to Senators&#39; Home States",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77368 vs EMA50=77949",
+        "detail": "EMA20=77219 vs EMA50=77773",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "38.1",
-        "points": -0.5
+        "detail": "45.4",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-28.6",
-        "points": -1.5
+        "detail": "51.9",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 76916 vs [76365, 78512]",
+        "detail": "prix 77163 vs [76517, 77744]",
         "points": 0
       },
       {
@@ -584,14 +584,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "29 articles pertinents, score brut 0",
-        "points": 0
+        "detail": "29 articles pertinents, score brut -1",
+        "points": -0.33
       }
     ],
-    "computedAt": "2026-09-11T01:03:53.241Z",
-    "priceUSD": 76963.3,
-    "priceEUR": 66273.9,
-    "change24h": 0.5504167646520902
+    "computedAt": "2026-09-11T05:57:34.007Z",
+    "priceUSD": 77199.4,
+    "priceEUR": 66507,
+    "change24h": 0.8588748660865854
   },
   "history": [
     {
@@ -6823,7 +6823,12 @@
       "t": "2026-09-11T01:03:53.244Z",
       "equityEUR": 150.45,
       "priceEUR": 66273.9
+    },
+    {
+      "t": "2026-09-11T05:57:34.010Z",
+      "equityEUR": 148.44,
+      "priceEUR": 66507
     }
   ],
-  "lastRun": "2026-09-11T01:03:53.244Z"
+  "lastRun": "2026-09-11T05:57:34.010Z"
 }
