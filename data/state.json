@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 103.54,
-  "equityEUR": 145.3,
+  "equityEUR": 146.77,
   "stopped": false,
   "openPositions": [
     {
@@ -510,19 +510,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77362.83487255099,
+    "price": 77125.6852180249,
     "direction": "SHORT",
-    "score": -3.17,
-    "strength": 0.4,
+    "score": -5.78,
+    "strength": 0.72,
     "atr14": 663.9277524111404,
     "indicators": {
-      "ema20": 77339.47837408424,
-      "ema50": 77474.80046214865,
-      "rsi14": 50.301078540387834,
-      "macdHist": 20.81557319986554,
-      "bbUpper": 77439.6504388423,
-      "bbMid": 77276.96242155423,
-      "bbLower": 77114.27440426615
+      "ema20": 77307.53442390684,
+      "ema50": 77446.11785011273,
+      "rsi14": 42.8066952349167,
+      "macdHist": -6.352305116458567,
+      "bbUpper": 77429.74236855432,
+      "bbMid": 77284.23632900824,
+      "bbLower": 77138.73028946217
     },
     "fearGreed": {
       "value": 63,
@@ -565,33 +565,28 @@
         "title": "Blockstream rejects ransom as Liquid hackers hold nearly 600 BTC",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin below $77,000, Zcash leads losses as traders bet on a Fed rate hike",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77339 vs EMA50=77475",
+        "detail": "EMA20=77308 vs EMA50=77446",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "50.3",
-        "points": 0
+        "detail": "42.8",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "20.8",
-        "points": 1.5
+        "detail": "-6.4",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77363 vs [77114, 77440]",
-        "points": 0
+        "detail": "prix 77126 vs [77139, 77430]",
+        "points": 1
       },
       {
         "factor": "Fear & Greed Index",
@@ -600,14 +595,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -8",
-        "points": -2.67
+        "detail": "30 articles pertinents, score brut -7",
+        "points": -2.33
       }
     ],
-    "computedAt": "2026-09-12T16:29:17.943Z",
-    "priceUSD": 77366.9,
-    "priceEUR": 66762.1,
-    "change24h": 0.20204401192059673
+    "computedAt": "2026-09-12T18:38:32.284Z",
+    "priceUSD": 77153.2,
+    "priceEUR": 66570,
+    "change24h": -0.07473038133216565
   },
   "history": [
     {
@@ -6894,7 +6889,12 @@
       "t": "2026-09-12T16:29:17.945Z",
       "equityEUR": 145.3,
       "priceEUR": 66762.1
+    },
+    {
+      "t": "2026-09-12T18:38:32.288Z",
+      "equityEUR": 146.77,
+      "priceEUR": 66570
     }
   ],
-  "lastRun": "2026-09-12T16:29:17.945Z"
+  "lastRun": "2026-09-12T18:38:32.288Z"
 }
