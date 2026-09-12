@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 103.54,
-  "equityEUR": 146.99,
+  "equityEUR": 146.19,
   "stopped": false,
   "openPositions": [
     {
@@ -510,24 +510,24 @@
     }
   ],
   "lastSignal": {
-    "price": 77128.66953731132,
+    "price": 77261.69157023875,
     "direction": "SHORT",
-    "score": -6.28,
-    "strength": 0.79,
-    "atr14": 862.3865830988387,
+    "score": -5.83,
+    "strength": 0.73,
+    "atr14": 833.8650116201453,
     "indicators": {
-      "ema20": 77427.62188508922,
-      "ema50": 77640.17598048001,
-      "rsi14": 45.72602645851336,
-      "macdHist": -52.33930036218512,
-      "bbUpper": 78620.16652430505,
-      "bbMid": 77441.83841319395,
-      "bbLower": 76263.51030208285
+      "ema20": 77392.50987639175,
+      "ema50": 77608.83525122105,
+      "rsi14": 47.60802333794973,
+      "macdHist": -44.56633555961871,
+      "bbUpper": 78613.24958455432,
+      "bbMid": 77467.02942594928,
+      "bbLower": 76320.80926734424
     },
     "fearGreed": {
-      "value": 56,
+      "value": 63,
       "classification": "Greed",
-      "timestamp": 1789084800000
+      "timestamp": 1789171200000
     },
     "fundingRate": null,
     "newsHighlights": [
@@ -575,27 +575,27 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77428 vs EMA50=77640",
+        "detail": "EMA20=77393 vs EMA50=77609",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "45.7",
+        "detail": "47.6",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-52.3",
-        "points": -1.95
+        "detail": "-44.6",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77129 vs [76264, 78620]",
+        "detail": "prix 77262 vs [76321, 78613]",
         "points": 0
       },
       {
         "factor": "Fear & Greed Index",
-        "detail": "56 (Greed)",
+        "detail": "63 (Greed)",
         "points": 0
       },
       {
@@ -604,10 +604,10 @@
         "points": -2.33
       }
     ],
-    "computedAt": "2026-09-11T23:02:25.941Z",
-    "priceUSD": 77145.2,
-    "priceEUR": 66540.9,
-    "change24h": 0.7880640693998029
+    "computedAt": "2026-09-12T01:05:49.580Z",
+    "priceUSD": 77300.8,
+    "priceEUR": 66646.3,
+    "change24h": 0.116434337638868
   },
   "history": [
     {
@@ -6869,7 +6869,12 @@
       "t": "2026-09-11T23:02:25.943Z",
       "equityEUR": 146.99,
       "priceEUR": 66540.9
+    },
+    {
+      "t": "2026-09-12T01:05:49.585Z",
+      "equityEUR": 146.19,
+      "priceEUR": 66646.3
     }
   ],
-  "lastRun": "2026-09-11T23:02:25.943Z"
+  "lastRun": "2026-09-12T01:05:49.585Z"
 }
