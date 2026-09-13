@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 112.25,
-  "equityEUR": 149.67,
+  "equityEUR": 146.91,
   "stopped": false,
   "openPositions": [
     {
@@ -526,19 +526,19 @@
     }
   ],
   "lastSignal": {
-    "price": 76721.52604748444,
+    "price": 77071.11162094981,
     "direction": "SHORT",
-    "score": -5.12,
-    "strength": 0.64,
-    "atr14": 551.5981307752205,
+    "score": -3.83,
+    "strength": 0.48,
+    "atr14": 557.7004217394718,
     "indicators": {
-      "ema20": 77108.30935774698,
-      "ema50": 77282.49934886409,
-      "rsi14": 30.814952502801958,
-      "macdHist": -51.968328042807784,
-      "bbUpper": 77511.52159306056,
-      "bbMid": 77150.82576550727,
-      "bbLower": 76790.12993795397
+      "ema20": 77020.79656027652,
+      "ema50": 77216.00062548016,
+      "rsi14": 49.957628404114054,
+      "macdHist": -13.751218333955109,
+      "bbUpper": 77496.68317525383,
+      "bbMid": 77064.19180614463,
+      "bbLower": 76631.70043703544
     },
     "fearGreed": {
       "value": 61,
@@ -548,27 +548,17 @@
     "fundingRate": null,
     "newsHighlights": [
       {
+        "title": "Fed rate hike is about Wall Street, not inflation, says economist",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Crypto's Clarity Act is a Schrödinger's cat in life-death limbo as U.S. Senate returns",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
         "title": "With Fed rate hike all but assured, here's how markets might react",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Blockstream Refuses Ransom for Return of $47M in Bitcoin from Liquid Hack: &#39;It Is Theft&#39;",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin ETF outflows accelerate as investors pull $449M in three days",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Core CPI rose a faster-than-forecast 0.3% in August, setting up possible Fed rate hike",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Live updates: Bitcoin gives up early gains, with markets moving to price in multiple rate hikes",
         "source": "CoinDesk",
         "itemScore": -1
       }
@@ -576,23 +566,23 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77108 vs EMA50=77282",
+        "detail": "EMA20=77021 vs EMA50=77216",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "30.8",
-        "points": -0.5
+        "detail": "50.0",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-52.0",
-        "points": -1.95
+        "detail": "-13.8",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 76722 vs [76790, 77512]",
-        "points": 1
+        "detail": "prix 77071 vs [76632, 77497]",
+        "points": 0
       },
       {
         "factor": "Fear & Greed Index",
@@ -601,14 +591,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "27 articles pertinents, score brut -5",
-        "points": -1.67
+        "detail": "19 articles pertinents, score brut -1",
+        "points": -0.33
       }
     ],
-    "computedAt": "2026-09-13T10:28:03.104Z",
-    "priceUSD": 76714.9,
-    "priceEUR": 66191.2,
-    "change24h": -0.7109372775489852
+    "computedAt": "2026-09-13T14:35:48.153Z",
+    "priceUSD": 77092.5,
+    "priceEUR": 66516.6,
+    "change24h": -0.22222452312972515
   },
   "history": [
     {
@@ -6925,7 +6915,12 @@
       "t": "2026-09-13T10:28:03.106Z",
       "equityEUR": 149.67,
       "priceEUR": 66191.2
+    },
+    {
+      "t": "2026-09-13T14:35:48.156Z",
+      "equityEUR": 146.91,
+      "priceEUR": 66516.6
     }
   ],
-  "lastRun": "2026-09-13T10:28:03.106Z"
+  "lastRun": "2026-09-13T14:35:48.156Z"
 }
