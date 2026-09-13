@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 112.25,
-  "equityEUR": 146.91,
+  "equityEUR": 145.81,
   "stopped": false,
   "openPositions": [
     {
@@ -526,19 +526,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77071.11162094981,
-    "direction": "SHORT",
-    "score": -3.83,
-    "strength": 0.48,
-    "atr14": 557.7004217394718,
+    "price": 77255.68131404888,
+    "direction": "LONG",
+    "score": 0.45,
+    "strength": 0.06,
+    "atr14": 564.545636448435,
     "indicators": {
-      "ema20": 77020.79656027652,
-      "ema50": 77216.00062548016,
-      "rsi14": 49.957628404114054,
-      "macdHist": -13.751218333955109,
-      "bbUpper": 77496.68317525383,
-      "bbMid": 77064.19180614463,
-      "bbLower": 76631.70043703544
+      "ema20": 77079.15026350661,
+      "ema50": 77219.50472767348,
+      "rsi14": 55.61458221021504,
+      "macdHist": 43.845496629616704,
+      "bbUpper": 77519.02584491926,
+      "bbMid": 77075.83265522105,
+      "bbLower": 76632.63946552284
     },
     "fearGreed": {
       "value": 61,
@@ -556,32 +556,27 @@
         "title": "Crypto's Clarity Act is a Schrödinger's cat in life-death limbo as U.S. Senate returns",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "With Fed rate hike all but assured, here's how markets might react",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77021 vs EMA50=77216",
+        "detail": "EMA20=77079 vs EMA50=77220",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "50.0",
-        "points": 0
+        "detail": "55.6",
+        "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-13.8",
-        "points": -1.5
+        "detail": "43.8",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77071 vs [76632, 77497]",
+        "detail": "prix 77256 vs [76633, 77519]",
         "points": 0
       },
       {
@@ -591,14 +586,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "19 articles pertinents, score brut -1",
-        "points": -0.33
+        "detail": "14 articles pertinents, score brut 0",
+        "points": 0
       }
     ],
-    "computedAt": "2026-09-13T14:35:48.153Z",
-    "priceUSD": 77092.5,
-    "priceEUR": 66516.6,
-    "change24h": -0.22222452312972515
+    "computedAt": "2026-09-13T17:40:08.719Z",
+    "priceUSD": 77251.6,
+    "priceEUR": 66646.6,
+    "change24h": -0.016307681953597226
   },
   "history": [
     {
@@ -6920,7 +6915,12 @@
       "t": "2026-09-13T14:35:48.156Z",
       "equityEUR": 146.91,
       "priceEUR": 66516.6
+    },
+    {
+      "t": "2026-09-13T17:40:08.722Z",
+      "equityEUR": 145.81,
+      "priceEUR": 66646.6
     }
   ],
-  "lastRun": "2026-09-13T14:35:48.156Z"
+  "lastRun": "2026-09-13T17:40:08.722Z"
 }
