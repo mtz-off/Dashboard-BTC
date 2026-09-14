@@ -5,28 +5,10 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 112.25,
-  "equityEUR": 148.43,
+  "balanceEUR": 141.8107552665611,
+  "equityEUR": 141.81,
   "stopped": false,
-  "openPositions": [
-    {
-      "id": "f9bddda9-6492-4fea-b46a-daded9bd4cd9",
-      "side": "SHORT",
-      "entryPrice": 66191.2,
-      "entryTime": "2026-09-13T10:28:03.106Z",
-      "sizeEUR": 37.42,
-      "notionalEUR": 561.3,
-      "leverage": 15,
-      "qtyBTC": 0.00847998,
-      "sl": 66762.27,
-      "tp": 65049.07,
-      "slPct": 0.86,
-      "tpPct": 1.73,
-      "signalScore": -5.12,
-      "signalStrength": 0.64,
-      "status": "OPEN"
-    }
-  ],
+  "openPositions": [],
   "trades": [
     {
       "id": "5f4a6be1-7c72-41de-a1ee-0ad7afb78691",
@@ -523,22 +505,38 @@
       "pnlPct": 2.24,
       "reason": "TP",
       "status": "CLOSED"
+    },
+    {
+      "id": "f9bddda9-6492-4fea-b46a-daded9bd4cd9",
+      "side": "SHORT",
+      "entryPrice": 66191.2,
+      "entryTime": "2026-09-13T10:28:03.106Z",
+      "exitPrice": 67118,
+      "exitTime": "2026-09-14T04:56:03.458Z",
+      "sizeEUR": 37.42,
+      "notionalEUR": 561.3,
+      "leverage": 15,
+      "qtyBTC": 0.00847998,
+      "pnlEUR": -7.86,
+      "pnlPct": -1.4,
+      "reason": "SL",
+      "status": "CLOSED"
     }
   ],
   "lastSignal": {
-    "price": 76946.97960629305,
-    "direction": "SHORT",
-    "score": -3.95,
-    "strength": 0.49,
-    "atr14": 543.0480293732306,
+    "price": 77625.03286548499,
+    "direction": "LONG",
+    "score": 0.12,
+    "strength": 0.01,
+    "atr14": 618.5609872905317,
     "indicators": {
-      "ema20": 77091.76345910788,
-      "ema50": 77199.72035802815,
-      "rsi14": 45.391582264798735,
-      "macdHist": -2.5900039292421724,
-      "bbUpper": 77523.17462620036,
-      "bbMid": 77043.26706600099,
-      "bbLower": 76563.35950580162
+      "ema20": 77189.88660239386,
+      "ema50": 77219.9740356201,
+      "rsi14": 61.86045517866999,
+      "macdHist": 67.76068195026949,
+      "bbUpper": 77714.77706090023,
+      "bbMid": 77091.97803727545,
+      "bbLower": 76469.17901365066
     },
     "fearGreed": {
       "value": 57,
@@ -547,6 +545,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Crypto’s biggest week ever? Swarm fears prompt AI slowdown: Hodler’s Digest",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "Fed rate hike is about Wall Street, not inflation, says economist",
         "source": "CoinDesk",
@@ -561,22 +564,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77092 vs EMA50=77200",
+        "detail": "EMA20=77190 vs EMA50=77220",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "45.4",
-        "points": 0
+        "detail": "61.9",
+        "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-2.6",
-        "points": -1.95
+        "detail": "67.8",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 76947 vs [76563, 77523]",
+        "detail": "prix 77625 vs [76469, 77715]",
         "points": 0
       },
       {
@@ -586,14 +589,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "13 articles pertinents, score brut 0",
-        "points": 0
+        "detail": "14 articles pertinents, score brut -1",
+        "points": -0.33
       }
     ],
-    "computedAt": "2026-09-14T00:11:08.986Z",
-    "priceUSD": 76871,
-    "priceEUR": 66337,
-    "change24h": 0.0921872599290144
+    "computedAt": "2026-09-14T04:56:03.455Z",
+    "priceUSD": 77621.3,
+    "priceEUR": 67118,
+    "change24h": 1.0691378407868806
   },
   "history": [
     {
@@ -6935,7 +6938,12 @@
       "t": "2026-09-14T00:11:08.989Z",
       "equityEUR": 148.43,
       "priceEUR": 66337
+    },
+    {
+      "t": "2026-09-14T04:56:03.458Z",
+      "equityEUR": 141.81,
+      "priceEUR": 67118
     }
   ],
-  "lastRun": "2026-09-14T00:11:08.989Z"
+  "lastRun": "2026-09-14T04:56:03.458Z"
 }
