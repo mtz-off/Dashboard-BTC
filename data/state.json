@@ -5,10 +5,28 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 141.8107552665611,
+  "balanceEUR": 106.36,
   "equityEUR": 141.81,
   "stopped": false,
-  "openPositions": [],
+  "openPositions": [
+    {
+      "id": "8284c7a3-f263-42c0-9045-2b6ddb1f05e4",
+      "side": "LONG",
+      "entryPrice": 67566.8,
+      "entryTime": "2026-09-14T10:20:11.873Z",
+      "sizeEUR": 35.45,
+      "notionalEUR": 531.75,
+      "leverage": 15,
+      "qtyBTC": 0.00786999,
+      "sl": 66935.65,
+      "tp": 68829.09,
+      "slPct": 0.93,
+      "tpPct": 1.87,
+      "signalScore": 2.33,
+      "signalStrength": 0.29,
+      "status": "OPEN"
+    }
+  ],
   "trades": [
     {
       "id": "5f4a6be1-7c72-41de-a1ee-0ad7afb78691",
@@ -524,19 +542,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77625.03286548499,
+    "price": 77991.59688506227,
     "direction": "LONG",
-    "score": 0.12,
-    "strength": 0.01,
-    "atr14": 618.5609872905317,
+    "score": 2.33,
+    "strength": 0.29,
+    "atr14": 607.103374110646,
     "indicators": {
-      "ema20": 77189.88660239386,
-      "ema50": 77219.9740356201,
-      "rsi14": 61.86045517866999,
-      "macdHist": 67.76068195026949,
-      "bbUpper": 77714.77706090023,
-      "bbMid": 77091.97803727545,
-      "bbLower": 76469.17901365066
+      "ema20": 77479.4530226075,
+      "ema50": 77346.74281811928,
+      "rsi14": 63.89059908149361,
+      "macdHist": 90.84893662796586,
+      "bbUpper": 78141.53776851042,
+      "bbMid": 77387.26344310824,
+      "bbLower": 76632.98911770606
     },
     "fearGreed": {
       "value": 57,
@@ -545,6 +563,26 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin climbs to $78,000 as crypto sits out the AI selloff",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "CLARITY Act vote meets Fed rate hike: Five things to know in Bitcoin this week",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Symbiosis says recovered 15 BTC from bridge hack, offers 20% bounty",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin bucks tech selloff as AI safety concerns weigh on stocks",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Crypto’s biggest week ever? Swarm fears prompt AI slowdown: Hodler’s Digest",
         "source": "Cointelegraph",
@@ -564,22 +602,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77190 vs EMA50=77220",
-        "points": -2
+        "detail": "EMA20=77479 vs EMA50=77347",
+        "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "61.9",
+        "detail": "63.9",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "67.8",
-        "points": 1.95
+        "detail": "90.8",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77625 vs [76469, 77715]",
+        "detail": "prix 77992 vs [76633, 78142]",
         "points": 0
       },
       {
@@ -589,14 +627,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "14 articles pertinents, score brut -1",
-        "points": -0.33
+        "detail": "20 articles pertinents, score brut -5",
+        "points": -1.67
       }
     ],
-    "computedAt": "2026-09-14T04:56:03.455Z",
-    "priceUSD": 77621.3,
-    "priceEUR": 67118,
-    "change24h": 1.0691378407868806
+    "computedAt": "2026-09-14T10:20:11.869Z",
+    "priceUSD": 77955.6,
+    "priceEUR": 67566.8,
+    "change24h": 1.5044231655646845
   },
   "history": [
     {
@@ -6943,7 +6981,12 @@
       "t": "2026-09-14T04:56:03.458Z",
       "equityEUR": 141.81,
       "priceEUR": 67118
+    },
+    {
+      "t": "2026-09-14T10:20:11.873Z",
+      "equityEUR": 141.81,
+      "priceEUR": 67566.8
     }
   ],
-  "lastRun": "2026-09-14T04:56:03.458Z"
+  "lastRun": "2026-09-14T10:20:11.873Z"
 }
