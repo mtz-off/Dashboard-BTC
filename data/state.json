@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 106.36,
-  "equityEUR": 141.81,
+  "equityEUR": 146.38,
   "stopped": false,
   "openPositions": [
     {
@@ -542,19 +542,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77991.59688506227,
+    "price": 78826.0712180355,
     "direction": "LONG",
-    "score": 2.33,
-    "strength": 0.29,
-    "atr14": 607.103374110646,
+    "score": 0.12,
+    "strength": 0.01,
+    "atr14": 652.5090424025306,
     "indicators": {
-      "ema20": 77479.4530226075,
-      "ema50": 77346.74281811928,
-      "rsi14": 63.89059908149361,
-      "macdHist": 90.84893662796586,
-      "bbUpper": 78141.53776851042,
-      "bbMid": 77387.26344310824,
-      "bbLower": 76632.98911770606
+      "ema20": 77846.60961647278,
+      "ema50": 77538.89767313545,
+      "rsi14": 72.0100724518317,
+      "macdHist": 115.20401101803498,
+      "bbUpper": 78803.89156167062,
+      "bbMid": 77673.26278286436,
+      "bbLower": 76542.6340040581
     },
     "fearGreed": {
       "value": 57,
@@ -563,6 +563,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Clarity Act odds surge on prediction markets, but crypto bill still faces long road",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Crypto market outperforms as call for slower AI development weighs on tech stocks",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "Bitcoin climbs to $78,000 as crypto sits out the AI selloff",
         "source": "CoinDesk",
@@ -592,33 +602,28 @@
         "title": "Fed rate hike is about Wall Street, not inflation, says economist",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Crypto's Clarity Act is a Schrödinger's cat in life-death limbo as U.S. Senate returns",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77479 vs EMA50=77347",
+        "detail": "EMA20=77847 vs EMA50=77539",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "63.9",
-        "points": 0.5
+        "detail": "72.0",
+        "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "90.8",
-        "points": 1.5
+        "detail": "115.2",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77992 vs [76633, 78142]",
-        "points": 0
+        "detail": "prix 78826 vs [76543, 78804]",
+        "points": -1
       },
       {
         "factor": "Fear & Greed Index",
@@ -627,14 +632,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "20 articles pertinents, score brut -5",
-        "points": -1.67
+        "detail": "26 articles pertinents, score brut -4",
+        "points": -1.33
       }
     ],
-    "computedAt": "2026-09-14T10:20:11.869Z",
-    "priceUSD": 77955.6,
-    "priceEUR": 67566.8,
-    "change24h": 1.5044231655646845
+    "computedAt": "2026-09-14T16:26:43.133Z",
+    "priceUSD": 78662.3,
+    "priceEUR": 68147.8,
+    "change24h": 2.4246030609295364
   },
   "history": [
     {
@@ -6986,7 +6991,12 @@
       "t": "2026-09-14T10:20:11.873Z",
       "equityEUR": 141.81,
       "priceEUR": 67566.8
+    },
+    {
+      "t": "2026-09-14T16:26:43.136Z",
+      "equityEUR": 146.38,
+      "priceEUR": 68147.8
     }
   ],
-  "lastRun": "2026-09-14T10:20:11.873Z"
+  "lastRun": "2026-09-14T16:26:43.136Z"
 }
