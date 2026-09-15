@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 113.84,
-  "equityEUR": 155.21,
+  "equityEUR": 159.36,
   "stopped": false,
   "openPositions": [
     {
@@ -558,19 +558,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77427.52476166197,
+    "price": 76850.99154173653,
     "direction": "SHORT",
-    "score": -1.12,
-    "strength": 0.14,
-    "atr14": 709.820522456485,
+    "score": -4,
+    "strength": 0.5,
+    "atr14": 700.4559612917385,
     "indicators": {
-      "ema20": 77987.08978564291,
-      "ema50": 77807.43559855269,
-      "rsi14": 38.49095201057904,
-      "macdHist": -172.50163377599546,
-      "bbUpper": 79372.81733329615,
-      "bbMid": 78251.09289899419,
-      "bbLower": 77129.36846469223
+      "ema20": 77562.1728367291,
+      "ema50": 77643.48388899116,
+      "rsi14": 32.270373188199414,
+      "macdHist": -164.46830669822472,
+      "bbUpper": 79537.6892596668,
+      "bbMid": 77946.64666491977,
+      "bbLower": 76355.60407017273
     },
     "fearGreed": {
       "value": 69,
@@ -580,6 +580,16 @@
     "fundingRate": null,
     "newsHighlights": [
       {
+        "title": "How a simple coding mistake let a hacker drain $7.8 million from a crypto wallet",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin short-term holders hit 30-day profit streak as bull-market odds improve: CryptoQuant",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
         "title": "Clarity Act odds surge on prediction markets, but crypto bill still faces long road",
         "source": "CoinDesk",
         "itemScore": 1
@@ -588,37 +598,27 @@
         "title": "CLARITY Act vote meets Fed rate hike: Five things to know in Bitcoin this week",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "Symbiosis says recovered 15 BTC from bridge hack, offers 20% bounty",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Crypto’s biggest week ever? Swarm fears prompt AI slowdown: Hodler’s Digest",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77987 vs EMA50=77807",
-        "points": 2
+        "detail": "EMA20=77562 vs EMA50=77643",
+        "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "38.5",
+        "detail": "32.3",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-172.5",
-        "points": -1.95
+        "detail": "-164.5",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77428 vs [77129, 79373]",
+        "detail": "prix 76851 vs [76356, 79538]",
         "points": 0
       },
       {
@@ -628,14 +628,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -2",
-        "points": -0.67
+        "detail": "30 articles pertinents, score brut 0",
+        "points": 0
       }
     ],
-    "computedAt": "2026-09-15T06:44:09.252Z",
-    "priceUSD": 77410.3,
-    "priceEUR": 67142.5,
-    "change24h": -0.9898419373735284
+    "computedAt": "2026-09-15T12:11:52.492Z",
+    "priceUSD": 76884.1,
+    "priceEUR": 66650.3,
+    "change24h": -1.6628679451858446
   },
   "history": [
     {
@@ -7012,7 +7012,12 @@
       "t": "2026-09-15T06:44:09.255Z",
       "equityEUR": 155.21,
       "priceEUR": 67142.5
+    },
+    {
+      "t": "2026-09-15T12:11:52.494Z",
+      "equityEUR": 159.36,
+      "priceEUR": 66650.3
     }
   ],
-  "lastRun": "2026-09-15T06:44:09.255Z"
+  "lastRun": "2026-09-15T12:11:52.494Z"
 }
