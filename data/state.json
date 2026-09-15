@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 113.84,
-  "equityEUR": 159.36,
+  "equityEUR": 163.17,
   "stopped": false,
   "openPositions": [
     {
@@ -558,19 +558,19 @@
     }
   ],
   "lastSignal": {
-    "price": 76850.99154173653,
+    "price": 76393.53704279127,
     "direction": "SHORT",
     "score": -4,
     "strength": 0.5,
-    "atr14": 700.4559612917385,
+    "atr14": 759.1826448485474,
     "indicators": {
-      "ema20": 77562.1728367291,
-      "ema50": 77643.48388899116,
-      "rsi14": 32.270373188199414,
-      "macdHist": -164.46830669822472,
-      "bbUpper": 79537.6892596668,
-      "bbMid": 77946.64666491977,
-      "bbLower": 76355.60407017273
+      "ema20": 77120.4605336133,
+      "ema50": 77427.88472126568,
+      "rsi14": 34.93487556204849,
+      "macdHist": -127.36036326920538,
+      "bbUpper": 78770.06323389568,
+      "bbMid": 77313.69791032813,
+      "bbLower": 75857.33258676059
     },
     "fearGreed": {
       "value": 69,
@@ -580,6 +580,16 @@
     "fundingRate": null,
     "newsHighlights": [
       {
+        "title": "Standard Chartered says Arbitrum could outperform Bitcoin, Ether through 2030",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
+        "title": "A hacker turned 25 cents of bitcoin into 46 billion fake BTC tokens on a DeFi bridge",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
         "title": "How a simple coding mistake let a hacker drain $7.8 million from a crypto wallet",
         "source": "CoinDesk",
         "itemScore": -1
@@ -588,37 +598,27 @@
         "title": "Bitcoin short-term holders hit 30-day profit streak as bull-market odds improve: CryptoQuant",
         "source": "Cointelegraph",
         "itemScore": 1
-      },
-      {
-        "title": "Clarity Act odds surge on prediction markets, but crypto bill still faces long road",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "CLARITY Act vote meets Fed rate hike: Five things to know in Bitcoin this week",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77562 vs EMA50=77643",
+        "detail": "EMA20=77120 vs EMA50=77428",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "32.3",
+        "detail": "34.9",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-164.5",
+        "detail": "-127.4",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 76851 vs [76356, 79538]",
+        "detail": "prix 76394 vs [75857, 78770]",
         "points": 0
       },
       {
@@ -632,10 +632,10 @@
         "points": 0
       }
     ],
-    "computedAt": "2026-09-15T12:11:52.492Z",
-    "priceUSD": 76884.1,
-    "priceEUR": 66650.3,
-    "change24h": -1.6628679451858446
+    "computedAt": "2026-09-15T16:59:35.560Z",
+    "priceUSD": 76369.8,
+    "priceEUR": 66198.3,
+    "change24h": -2.3206734864588934
   },
   "history": [
     {
@@ -7017,7 +7017,12 @@
       "t": "2026-09-15T12:11:52.494Z",
       "equityEUR": 159.36,
       "priceEUR": 66650.3
+    },
+    {
+      "t": "2026-09-15T16:59:35.564Z",
+      "equityEUR": 163.17,
+      "priceEUR": 66198.3
     }
   ],
-  "lastRun": "2026-09-15T12:11:52.494Z"
+  "lastRun": "2026-09-15T16:59:35.564Z"
 }
