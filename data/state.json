@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 113.84,
-  "equityEUR": 151.79,
+  "equityEUR": 155.21,
   "stopped": false,
   "openPositions": [
     {
@@ -558,19 +558,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77967.10897070961,
+    "price": 77427.52476166197,
     "direction": "SHORT",
-    "score": -0.95,
-    "strength": 0.12,
-    "atr14": 720.0545320733081,
+    "score": -1.12,
+    "strength": 0.14,
+    "atr14": 709.820522456485,
     "indicators": {
-      "ema20": 78238.77506719097,
-      "ema50": 77851.32991612816,
-      "rsi14": 47.12820121674815,
-      "macdHist": -107.25068905038665,
-      "bbUpper": 79326.34593947786,
-      "bbMid": 78302.210875474,
-      "bbLower": 77278.07581147015
+      "ema20": 77987.08978564291,
+      "ema50": 77807.43559855269,
+      "rsi14": 38.49095201057904,
+      "macdHist": -172.50163377599546,
+      "bbUpper": 79372.81733329615,
+      "bbMid": 78251.09289899419,
+      "bbLower": 77129.36846469223
     },
     "fearGreed": {
       "value": 69,
@@ -585,16 +585,6 @@
         "itemScore": 1
       },
       {
-        "title": "Crypto market outperforms as call for slower AI development weighs on tech stocks",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "Bitcoin climbs to $78,000 as crypto sits out the AI selloff",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
         "title": "CLARITY Act vote meets Fed rate hike: Five things to know in Bitcoin this week",
         "source": "Cointelegraph",
         "itemScore": -1
@@ -602,11 +592,6 @@
       {
         "title": "Symbiosis says recovered 15 BTC from bridge hack, offers 20% bounty",
         "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin bucks tech selloff as AI safety concerns weigh on stocks",
-        "source": "CoinDesk",
         "itemScore": -1
       },
       {
@@ -618,22 +603,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78239 vs EMA50=77851",
+        "detail": "EMA20=77987 vs EMA50=77807",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "47.1",
-        "points": 0
+        "detail": "38.5",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-107.3",
+        "detail": "-172.5",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77967 vs [77278, 79326]",
+        "detail": "prix 77428 vs [77129, 79373]",
         "points": 0
       },
       {
@@ -643,14 +628,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -3",
-        "points": -1
+        "detail": "30 articles pertinents, score brut -2",
+        "points": -0.67
       }
     ],
-    "computedAt": "2026-09-15T01:41:23.107Z",
-    "priceUSD": 77960.3,
-    "priceEUR": 67548.7,
-    "change24h": -0.28637499648265785
+    "computedAt": "2026-09-15T06:44:09.252Z",
+    "priceUSD": 77410.3,
+    "priceEUR": 67142.5,
+    "change24h": -0.9898419373735284
   },
   "history": [
     {
@@ -7022,7 +7007,12 @@
       "t": "2026-09-15T01:41:23.111Z",
       "equityEUR": 151.79,
       "priceEUR": 67548.7
+    },
+    {
+      "t": "2026-09-15T06:44:09.255Z",
+      "equityEUR": 155.21,
+      "priceEUR": 67142.5
     }
   ],
-  "lastRun": "2026-09-15T01:41:23.111Z"
+  "lastRun": "2026-09-15T06:44:09.255Z"
 }
