@@ -5,25 +5,25 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 113.84,
-  "equityEUR": 163.17,
+  "balanceEUR": 124.82,
+  "equityEUR": 166.42,
   "stopped": false,
   "openPositions": [
     {
-      "id": "641b2d54-9aaa-4db6-9b6f-7f1bf9a37fa7",
+      "id": "edf97640-a5ae-453a-ab43-46e3b86f93e2",
       "side": "SHORT",
-      "entryPrice": 67548.7,
-      "entryTime": "2026-09-15T01:41:23.111Z",
-      "sizeEUR": 37.95,
-      "notionalEUR": 569.25,
+      "entryPrice": 65813,
+      "entryTime": "2026-09-15T20:07:28.145Z",
+      "sizeEUR": 41.6,
+      "notionalEUR": 624,
       "leverage": 15,
-      "qtyBTC": 0.00842725,
-      "sl": 68297.3,
-      "tp": 66051.49,
-      "slPct": 1.11,
-      "tpPct": 2.22,
-      "signalScore": -0.95,
-      "signalStrength": 0.12,
+      "qtyBTC": 0.00948141,
+      "sl": 66701.59,
+      "tp": 64035.81,
+      "slPct": 1.35,
+      "tpPct": 2.7,
+      "signalScore": -4.33,
+      "signalStrength": 0.54,
       "status": "OPEN"
     }
   ],
@@ -555,22 +555,38 @@
       "pnlPct": 1.88,
       "reason": "TP",
       "status": "CLOSED"
+    },
+    {
+      "id": "641b2d54-9aaa-4db6-9b6f-7f1bf9a37fa7",
+      "side": "SHORT",
+      "entryPrice": 67548.7,
+      "entryTime": "2026-09-15T01:41:23.111Z",
+      "exitPrice": 65813,
+      "exitTime": "2026-09-15T20:07:28.145Z",
+      "sizeEUR": 37.95,
+      "notionalEUR": 569.25,
+      "leverage": 15,
+      "qtyBTC": 0.00842725,
+      "pnlEUR": 14.63,
+      "pnlPct": 2.57,
+      "reason": "TP",
+      "status": "CLOSED"
     }
   ],
   "lastSignal": {
-    "price": 76393.53704279127,
+    "price": 76021.39994861631,
     "direction": "SHORT",
-    "score": -4,
-    "strength": 0.5,
-    "atr14": 759.1826448485474,
+    "score": -4.33,
+    "strength": 0.54,
+    "atr14": 855.354356564125,
     "indicators": {
-      "ema20": 77120.4605336133,
-      "ema50": 77427.88472126568,
-      "rsi14": 34.93487556204849,
-      "macdHist": -127.36036326920538,
-      "bbUpper": 78770.06323389568,
-      "bbMid": 77313.69791032813,
-      "bbLower": 75857.33258676059
+      "ema20": 76896.85962048302,
+      "ema50": 77297.4002639915,
+      "rsi14": 35.774912036386496,
+      "macdHist": -90.9028663400394,
+      "bbUpper": 78235.40026998537,
+      "bbMid": 76983.11708785301,
+      "bbLower": 75730.83390572065
     },
     "fearGreed": {
       "value": 69,
@@ -579,6 +595,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Robinhood Engineers Charged With Fraud Over Alleged Crypto Listing Trades",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
       {
         "title": "Standard Chartered says Arbitrum could outperform Bitcoin, Ether through 2030",
         "source": "Cointelegraph",
@@ -603,22 +624,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77120 vs EMA50=77428",
+        "detail": "EMA20=76897 vs EMA50=77297",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "34.9",
+        "detail": "35.8",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-127.4",
+        "detail": "-90.9",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 76394 vs [75857, 78770]",
+        "detail": "prix 76021 vs [75731, 78235]",
         "points": 0
       },
       {
@@ -628,14 +649,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 0",
-        "points": 0
+        "detail": "30 articles pertinents, score brut -1",
+        "points": -0.33
       }
     ],
-    "computedAt": "2026-09-15T16:59:35.560Z",
-    "priceUSD": 76369.8,
-    "priceEUR": 66198.3,
-    "change24h": -2.3206734864588934
+    "computedAt": "2026-09-15T20:07:28.142Z",
+    "priceUSD": 75927.5,
+    "priceEUR": 65813,
+    "change24h": -2.886388810015319
   },
   "history": [
     {
@@ -7022,7 +7043,12 @@
       "t": "2026-09-15T16:59:35.564Z",
       "equityEUR": 163.17,
       "priceEUR": 66198.3
+    },
+    {
+      "t": "2026-09-15T20:07:28.145Z",
+      "equityEUR": 166.42,
+      "priceEUR": 65813
     }
   ],
-  "lastRun": "2026-09-15T16:59:35.564Z"
+  "lastRun": "2026-09-15T20:07:28.145Z"
 }
