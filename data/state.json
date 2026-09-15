@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 124.82,
-  "equityEUR": 166.42,
+  "equityEUR": 168.55,
   "stopped": false,
   "openPositions": [
     {
@@ -574,19 +574,19 @@
     }
   ],
   "lastSignal": {
-    "price": 76021.39994861631,
+    "price": 75667.2249865328,
     "direction": "SHORT",
-    "score": -4.33,
-    "strength": 0.54,
+    "score": -4.67,
+    "strength": 0.58,
     "atr14": 855.354356564125,
     "indicators": {
-      "ema20": 76896.85962048302,
-      "ema50": 77297.4002639915,
-      "rsi14": 35.774912036386496,
-      "macdHist": -90.9028663400394,
-      "bbUpper": 78235.40026998537,
-      "bbMid": 76983.11708785301,
-      "bbLower": 75730.83390572065
+      "ema20": 76577.03784953931,
+      "ema50": 77113.48183589104,
+      "rsi14": 35.589975702361,
+      "macdHist": -102.35071083515572,
+      "bbUpper": 77935.21848528113,
+      "bbMid": 76647.14890535196,
+      "bbLower": 75359.07932542279
     },
     "fearGreed": {
       "value": 69,
@@ -595,6 +595,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Wall Street Bets on Fed Rate Hike: Here&#39;s What It Means for Bitcoin, Bonds and Trump",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
       {
         "title": "Robinhood Engineers Charged With Fraud Over Alleged Crypto Listing Trades",
         "source": "Decrypt",
@@ -624,22 +629,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=76897 vs EMA50=77297",
+        "detail": "EMA20=76577 vs EMA50=77113",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "35.8",
+        "detail": "35.6",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-90.9",
+        "detail": "-102.4",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 76021 vs [75731, 78235]",
+        "detail": "prix 75667 vs [75359, 77935]",
         "points": 0
       },
       {
@@ -649,14 +654,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -1",
-        "points": -0.33
+        "detail": "30 articles pertinents, score brut -2",
+        "points": -0.67
       }
     ],
-    "computedAt": "2026-09-15T20:07:28.142Z",
-    "priceUSD": 75927.5,
-    "priceEUR": 65813,
-    "change24h": -2.886388810015319
+    "computedAt": "2026-09-15T22:53:41.198Z",
+    "priceUSD": 75670.8,
+    "priceEUR": 65588,
+    "change24h": -3.214716016791109
   },
   "history": [
     {
@@ -7048,7 +7053,12 @@
       "t": "2026-09-15T20:07:28.145Z",
       "equityEUR": 166.42,
       "priceEUR": 65813
+    },
+    {
+      "t": "2026-09-15T22:53:41.201Z",
+      "equityEUR": 168.55,
+      "priceEUR": 65588
     }
   ],
-  "lastRun": "2026-09-15T20:07:28.145Z"
+  "lastRun": "2026-09-15T22:53:41.201Z"
 }
