@@ -5,10 +5,28 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 151.786785566284,
+  "balanceEUR": 113.84,
   "equityEUR": 151.79,
   "stopped": false,
-  "openPositions": [],
+  "openPositions": [
+    {
+      "id": "641b2d54-9aaa-4db6-9b6f-7f1bf9a37fa7",
+      "side": "SHORT",
+      "entryPrice": 67548.7,
+      "entryTime": "2026-09-15T01:41:23.111Z",
+      "sizeEUR": 37.95,
+      "notionalEUR": 569.25,
+      "leverage": 15,
+      "qtyBTC": 0.00842725,
+      "sl": 68297.3,
+      "tp": 66051.49,
+      "slPct": 1.11,
+      "tpPct": 2.22,
+      "signalScore": -0.95,
+      "signalStrength": 0.12,
+      "status": "OPEN"
+    }
+  ],
   "trades": [
     {
       "id": "5f4a6be1-7c72-41de-a1ee-0ad7afb78691",
@@ -540,24 +558,24 @@
     }
   ],
   "lastSignal": {
-    "price": 78423.14982201734,
+    "price": 77967.10897070961,
     "direction": "SHORT",
-    "score": -0.78,
-    "strength": 0.1,
-    "atr14": 668.4936568415318,
+    "score": -0.95,
+    "strength": 0.12,
+    "atr14": 720.0545320733081,
     "indicators": {
-      "ema20": 78324.80577961549,
-      "ema50": 77852.26961087581,
-      "rsi14": 55.180013362165724,
-      "macdHist": -8.493374015310962,
-      "bbUpper": 79370.44674041517,
-      "bbMid": 78280.50636820532,
-      "bbLower": 77190.56599599546
+      "ema20": 78238.77506719097,
+      "ema50": 77851.32991612816,
+      "rsi14": 47.12820121674815,
+      "macdHist": -107.25068905038665,
+      "bbUpper": 79326.34593947786,
+      "bbMid": 78302.210875474,
+      "bbLower": 77278.07581147015
     },
     "fearGreed": {
-      "value": 57,
+      "value": 69,
       "classification": "Greed",
-      "timestamp": 1789344000000
+      "timestamp": 1789430400000
     },
     "fundingRate": null,
     "newsHighlights": [
@@ -595,49 +613,44 @@
         "title": "Crypto’s biggest week ever? Swarm fears prompt AI slowdown: Hodler’s Digest",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "Fed rate hike is about Wall Street, not inflation, says economist",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78325 vs EMA50=77852",
+        "detail": "EMA20=78239 vs EMA50=77851",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "55.2",
-        "points": 0.5
+        "detail": "47.1",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-8.5",
+        "detail": "-107.3",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78423 vs [77191, 79370]",
+        "detail": "prix 77967 vs [77278, 79326]",
         "points": 0
       },
       {
         "factor": "Fear & Greed Index",
-        "detail": "57 (Greed)",
+        "detail": "69 (Greed)",
         "points": 0
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "29 articles pertinents, score brut -4",
-        "points": -1.33
+        "detail": "30 articles pertinents, score brut -3",
+        "points": -1
       }
     ],
-    "computedAt": "2026-09-14T23:17:10.454Z",
-    "priceUSD": 78415.2,
-    "priceEUR": 67880.6,
-    "change24h": 2.1028591071377423
+    "computedAt": "2026-09-15T01:41:23.107Z",
+    "priceUSD": 77960.3,
+    "priceEUR": 67548.7,
+    "change24h": -0.28637499648265785
   },
   "history": [
     {
@@ -7004,7 +7017,12 @@
       "t": "2026-09-14T23:17:10.457Z",
       "equityEUR": 151.79,
       "priceEUR": 67880.6
+    },
+    {
+      "t": "2026-09-15T01:41:23.111Z",
+      "equityEUR": 151.79,
+      "priceEUR": 67548.7
     }
   ],
-  "lastRun": "2026-09-14T23:17:10.457Z"
+  "lastRun": "2026-09-15T01:41:23.111Z"
 }
