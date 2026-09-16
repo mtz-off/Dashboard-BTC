@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 124.82,
-  "equityEUR": 168.71,
+  "equityEUR": 163.28,
   "stopped": false,
   "openPositions": [
     {
@@ -574,19 +574,19 @@
     }
   ],
   "lastSignal": {
-    "price": 75698.65354896351,
+    "price": 75557.38857162614,
     "direction": "SHORT",
-    "score": -3,
-    "strength": 0.38,
-    "atr14": 818.1341059601162,
+    "score": -2,
+    "strength": 0.25,
+    "atr14": 818.741340725047,
     "indicators": {
-      "ema20": 75933.06887023915,
-      "ema50": 76458.74976015801,
-      "rsi14": 42.69851827596868,
-      "macdHist": 52.79149474150381,
-      "bbUpper": 76129.46439085407,
-      "bbMid": 75760.09011277973,
-      "bbLower": 75390.71583470538
+      "ema20": 75864.34751520882,
+      "ema50": 76369.89566276161,
+      "rsi14": 40.3632535109417,
+      "macdHist": 37.77311896455484,
+      "bbUpper": 76098.32288717583,
+      "bbMid": 75765.76121127335,
+      "bbLower": 75433.19953537086
     },
     "fearGreed": {
       "value": 51,
@@ -596,12 +596,12 @@
     "fundingRate": null,
     "newsHighlights": [
       {
-        "title": "Deutsche Bank close to debuting crypto custody for institutions",
-        "source": "CoinDesk",
+        "title": "Hackers Hijack HBO Max’s Reddit Account to Spread Crypto-Stealing Malware",
+        "source": "Decrypt",
         "itemScore": -1
       },
       {
-        "title": "Live updates: Bitcoin holds near $76,000 as traders brace for first Fed rate hike in three years",
+        "title": "Deutsche Bank close to debuting crypto custody for institutions",
         "source": "CoinDesk",
         "itemScore": -1
       },
@@ -614,42 +614,27 @@
         "title": "Zcash holders overwhelmingly back faster transactions and bitcoin-style halvings",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Bitcoin ETFs shed $450M in biggest outflow since June",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Crypto industry turns to US regulators after CLARITY setback",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Wall Street Bets on Fed Rate Hike: Here&#39;s What It Means for Bitcoin, Bonds and Trump",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=75933 vs EMA50=76459",
+        "detail": "EMA20=75864 vs EMA50=76370",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "42.7",
+        "detail": "40.4",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "52.8",
+        "detail": "37.8",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 75699 vs [75391, 76129]",
+        "detail": "prix 75557 vs [75433, 76098]",
         "points": 0
       },
       {
@@ -659,14 +644,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -6",
-        "points": -2
+        "detail": "30 articles pertinents, score brut -3",
+        "points": -1
       }
     ],
-    "computedAt": "2026-09-16T15:28:47.916Z",
-    "priceUSD": 75636.2,
-    "priceEUR": 65571,
-    "change24h": 0.06760591703919326
+    "computedAt": "2026-09-16T19:01:48.666Z",
+    "priceUSD": 75950.5,
+    "priceEUR": 66143.9,
+    "change24h": 0.48342861225293626
   },
   "history": [
     {
@@ -7083,7 +7068,12 @@
       "t": "2026-09-16T15:28:47.921Z",
       "equityEUR": 168.71,
       "priceEUR": 65571
+    },
+    {
+      "t": "2026-09-16T19:01:48.669Z",
+      "equityEUR": 163.28,
+      "priceEUR": 66143.9
     }
   ],
-  "lastRun": "2026-09-16T15:28:47.921Z"
+  "lastRun": "2026-09-16T19:01:48.669Z"
 }
