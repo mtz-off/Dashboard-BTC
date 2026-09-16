@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 124.82,
-  "equityEUR": 166.57,
+  "equityEUR": 168.71,
   "stopped": false,
   "openPositions": [
     {
@@ -574,19 +574,19 @@
     }
   ],
   "lastSignal": {
-    "price": 75909.33076841538,
+    "price": 75698.65354896351,
     "direction": "SHORT",
-    "score": -2.22,
-    "strength": 0.28,
-    "atr14": 812.7093383584746,
+    "score": -3,
+    "strength": 0.38,
+    "atr14": 818.1341059601162,
     "indicators": {
-      "ema20": 76019.72083764462,
-      "ema50": 76578.20926320065,
-      "rsi14": 44.51513809221452,
-      "macdHist": 86.35877752855811,
-      "bbUpper": 76510.96282605904,
-      "bbMid": 75871.04455105987,
-      "bbLower": 75231.12627606069
+      "ema20": 75933.06887023915,
+      "ema50": 76458.74976015801,
+      "rsi14": 42.69851827596868,
+      "macdHist": 52.79149474150381,
+      "bbUpper": 76129.46439085407,
+      "bbMid": 75760.09011277973,
+      "bbLower": 75390.71583470538
     },
     "fearGreed": {
       "value": 51,
@@ -597,6 +597,11 @@
     "newsHighlights": [
       {
         "title": "Deutsche Bank close to debuting crypto custody for institutions",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Live updates: Bitcoin holds near $76,000 as traders brace for first Fed rate hike in three years",
         "source": "CoinDesk",
         "itemScore": -1
       },
@@ -629,22 +634,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=76020 vs EMA50=76578",
+        "detail": "EMA20=75933 vs EMA50=76459",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "44.5",
+        "detail": "42.7",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "86.4",
-        "points": 1.95
+        "detail": "52.8",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 75909 vs [75231, 76511]",
+        "detail": "prix 75699 vs [75391, 76129]",
         "points": 0
       },
       {
@@ -654,14 +659,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -5",
-        "points": -1.67
+        "detail": "30 articles pertinents, score brut -6",
+        "points": -2
       }
     ],
-    "computedAt": "2026-09-16T11:22:39.246Z",
-    "priceUSD": 75873.6,
-    "priceEUR": 65796.8,
-    "change24h": 0.381688983675354
+    "computedAt": "2026-09-16T15:28:47.916Z",
+    "priceUSD": 75636.2,
+    "priceEUR": 65571,
+    "change24h": 0.06760591703919326
   },
   "history": [
     {
@@ -7073,7 +7078,12 @@
       "t": "2026-09-16T11:22:39.248Z",
       "equityEUR": 166.57,
       "priceEUR": 65796.8
+    },
+    {
+      "t": "2026-09-16T15:28:47.921Z",
+      "equityEUR": 168.71,
+      "priceEUR": 65571
     }
   ],
-  "lastRun": "2026-09-16T11:22:39.248Z"
+  "lastRun": "2026-09-16T15:28:47.921Z"
 }
