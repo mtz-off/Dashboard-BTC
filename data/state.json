@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 124.82,
-  "equityEUR": 166.9,
+  "equityEUR": 166.57,
   "stopped": false,
   "openPositions": [
     {
@@ -574,19 +574,19 @@
     }
   ],
   "lastSignal": {
-    "price": 75895.48823207886,
+    "price": 75909.33076841538,
     "direction": "SHORT",
     "score": -2.22,
     "strength": 0.28,
-    "atr14": 847.2198954245316,
+    "atr14": 812.7093383584746,
     "indicators": {
-      "ema20": 76157.2138484329,
-      "ema50": 76775.7707727321,
-      "rsi14": 42.36655760911703,
-      "macdHist": 45.01676175511011,
-      "bbUpper": 77128.39685925441,
-      "bbMid": 76106.61413104899,
-      "bbLower": 75084.83140284357
+      "ema20": 76019.72083764462,
+      "ema50": 76578.20926320065,
+      "rsi14": 44.51513809221452,
+      "macdHist": 86.35877752855811,
+      "bbUpper": 76510.96282605904,
+      "bbMid": 75871.04455105987,
+      "bbLower": 75231.12627606069
     },
     "fearGreed": {
       "value": 51,
@@ -595,6 +595,21 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Deutsche Bank close to debuting crypto custody for institutions",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Deutsche Bank awaits regulatory nod to launch institutional crypto custody solutions",
+        "source": "Cointelegraph",
+        "itemScore": -2
+      },
+      {
+        "title": "Zcash holders overwhelmingly back faster transactions and bitcoin-style halvings",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "Bitcoin ETFs shed $450M in biggest outflow since June",
         "source": "Cointelegraph",
@@ -609,47 +624,27 @@
         "title": "Wall Street Bets on Fed Rate Hike: Here&#39;s What It Means for Bitcoin, Bonds and Trump",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "Robinhood Engineers Charged With Fraud Over Alleged Crypto Listing Trades",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Standard Chartered says Arbitrum could outperform Bitcoin, Ether through 2030",
-        "source": "Cointelegraph",
-        "itemScore": 1
-      },
-      {
-        "title": "A hacker turned 25 cents of bitcoin into 46 billion fake BTC tokens on a DeFi bridge",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "How a simple coding mistake let a hacker drain $7.8 million from a crypto wallet",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=76157 vs EMA50=76776",
+        "detail": "EMA20=76020 vs EMA50=76578",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "42.4",
+        "detail": "44.5",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "45.0",
+        "detail": "86.4",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 75895 vs [75085, 77128]",
+        "detail": "prix 75909 vs [75231, 76511]",
         "points": 0
       },
       {
@@ -663,10 +658,10 @@
         "points": -1.67
       }
     ],
-    "computedAt": "2026-09-16T06:00:06.166Z",
-    "priceUSD": 75905.6,
-    "priceEUR": 65762,
-    "change24h": 0.4240253700795527
+    "computedAt": "2026-09-16T11:22:39.246Z",
+    "priceUSD": 75873.6,
+    "priceEUR": 65796.8,
+    "change24h": 0.381688983675354
   },
   "history": [
     {
@@ -7073,7 +7068,12 @@
       "t": "2026-09-16T06:00:06.169Z",
       "equityEUR": 166.9,
       "priceEUR": 65762
+    },
+    {
+      "t": "2026-09-16T11:22:39.248Z",
+      "equityEUR": 166.57,
+      "priceEUR": 65796.8
     }
   ],
-  "lastRun": "2026-09-16T06:00:06.169Z"
+  "lastRun": "2026-09-16T11:22:39.248Z"
 }
