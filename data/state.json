@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 93.62,
-  "equityEUR": 158.29,
+  "equityEUR": 158.69,
   "stopped": false,
   "openPositions": [
     {
@@ -591,19 +591,19 @@
     }
   ],
   "lastSignal": {
-    "price": 76523.56269860872,
+    "price": 76373.6887782979,
     "direction": "LONG",
-    "score": 4.83,
-    "strength": 0.6,
-    "atr14": 799.1694685344579,
+    "score": 1.38,
+    "strength": 0.17,
+    "atr14": 772.8396705776751,
     "indicators": {
-      "ema20": 76424.9478613115,
-      "ema50": 76398.62217860889,
-      "rsi14": 54.18536421065119,
-      "macdHist": 12.961388922779733,
-      "bbUpper": 76748.05603925454,
-      "bbMid": 76444.26757248552,
-      "bbLower": 76140.4791057165
+      "ema20": 76434.30439915747,
+      "ema50": 76406.02699471735,
+      "rsi14": 49.346875930766366,
+      "macdHist": -20.373709818006247,
+      "bbUpper": 76732.44992786086,
+      "bbMid": 76476.33169169309,
+      "bbLower": 76220.21345552533
     },
     "fearGreed": {
       "value": 50,
@@ -612,6 +612,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "CFTC Opens Door for Crypto Apps to Offer Regulated Derivatives Access",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
       {
         "title": "SEC Clears a Path for Tokenized Stocks After Clarity Act Stumbles",
         "source": "Decrypt",
@@ -638,40 +643,35 @@
         "itemScore": 1
       },
       {
+        "title": "Live updates: Bitcoin edges higher as Nasdaq climbs 1.7% in wake of Fed rate hike",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
         "title": "U.S. diesel prices hit record high as bitcoin and gold struggle",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Goldman pivots, now forecasts Fed rate hike in October",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin absorbs Fed rate hike as officials see more tightening",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=76425 vs EMA50=76399",
+        "detail": "EMA20=76434 vs EMA50=76406",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "54.2",
+        "detail": "49.3",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "13.0",
-        "points": 1.5
+        "detail": "-20.4",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 76524 vs [76140, 76748]",
+        "detail": "prix 76374 vs [76220, 76732]",
         "points": 0
       },
       {
@@ -685,10 +685,10 @@
         "points": 1.33
       }
     ],
-    "computedAt": "2026-09-17T19:01:15.626Z",
-    "priceUSD": 76500.1,
-    "priceEUR": 66670.8,
-    "change24h": 0.46476383588413966
+    "computedAt": "2026-09-17T22:08:25.300Z",
+    "priceUSD": 76316.7,
+    "priceEUR": 66506.8,
+    "change24h": 0.223911370495179
   },
   "history": [
     {
@@ -7140,7 +7140,12 @@
       "t": "2026-09-17T19:01:15.629Z",
       "equityEUR": 158.29,
       "priceEUR": 66670.8
+    },
+    {
+      "t": "2026-09-17T22:08:25.304Z",
+      "equityEUR": 158.69,
+      "priceEUR": 66506.8
     }
   ],
-  "lastRun": "2026-09-17T19:01:15.629Z"
+  "lastRun": "2026-09-17T22:08:25.304Z"
 }
