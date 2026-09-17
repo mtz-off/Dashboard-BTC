@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 124.82,
-  "equityEUR": 159.4,
+  "equityEUR": 158.45,
   "stopped": false,
   "openPositions": [
     {
@@ -574,19 +574,19 @@
     }
   ],
   "lastSignal": {
-    "price": 76350.67746660972,
+    "price": 76375.78487799794,
     "direction": "SHORT",
-    "score": -2.55,
-    "strength": 0.32,
-    "atr14": 838.6845125282891,
+    "score": -2.67,
+    "strength": 0.33,
+    "atr14": 823.6984571137631,
     "indicators": {
-      "ema20": 75956.19786859948,
-      "ema50": 76304.74140858743,
-      "rsi14": 56.273807244238306,
-      "macdHist": 92.17124252576133,
-      "bbUpper": 76286.79719717924,
-      "bbMid": 75875.8986580366,
-      "bbLower": 75465.00011889396
+      "ema20": 76118.41819606608,
+      "ema50": 76315.30057909316,
+      "rsi14": 56.09574492187683,
+      "macdHist": 92.17702156988192,
+      "bbUpper": 76574.2552762677,
+      "bbMid": 76006.60908153592,
+      "bbLower": 75438.96288680415
     },
     "fearGreed": {
       "value": 50,
@@ -595,6 +595,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Goldman pivots, now forecasts Fed rate hike in October",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin absorbs Fed rate hike as officials see more tightening",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "Fed Chair Implies Trump Is Only Half Right on the Economy Following Rate Hike",
         "source": "Decrypt",
@@ -624,23 +634,23 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=75956 vs EMA50=76305",
+        "detail": "EMA20=76118 vs EMA50=76315",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "56.3",
+        "detail": "56.1",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
         "detail": "92.2",
-        "points": 1.95
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 76351 vs [75465, 76287]",
-        "points": -1
+        "detail": "prix 76376 vs [75439, 76574]",
+        "points": 0
       },
       {
         "factor": "Fear & Greed Index",
@@ -649,14 +659,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -6",
-        "points": -2
+        "detail": "30 articles pertinents, score brut -8",
+        "points": -2.67
       }
     ],
-    "computedAt": "2026-09-17T00:31:00.152Z",
-    "priceUSD": 76328.7,
-    "priceEUR": 66552.9,
-    "change24h": 0.23967052853589543
+    "computedAt": "2026-09-17T05:24:41.592Z",
+    "priceUSD": 76403.7,
+    "priceEUR": 66653.5,
+    "change24h": 0.33816526629037297
   },
   "history": [
     {
@@ -7088,7 +7098,12 @@
       "t": "2026-09-17T00:31:00.154Z",
       "equityEUR": 159.4,
       "priceEUR": 66552.9
+    },
+    {
+      "t": "2026-09-17T05:24:41.595Z",
+      "equityEUR": 158.45,
+      "priceEUR": 66653.5
     }
   ],
-  "lastRun": "2026-09-17T00:31:00.154Z"
+  "lastRun": "2026-09-17T05:24:41.595Z"
 }
