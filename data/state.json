@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 124.82,
-  "equityEUR": 158.45,
+  "equityEUR": 159.64,
   "stopped": false,
   "openPositions": [
     {
@@ -574,19 +574,19 @@
     }
   ],
   "lastSignal": {
-    "price": 76375.78487799794,
+    "price": 76336.37670987597,
     "direction": "SHORT",
-    "score": -2.67,
-    "strength": 0.33,
-    "atr14": 823.6984571137631,
+    "score": -1.83,
+    "strength": 0.23,
+    "atr14": 798.5808435030858,
     "indicators": {
-      "ema20": 76118.41819606608,
-      "ema50": 76315.30057909316,
-      "rsi14": 56.09574492187683,
-      "macdHist": 92.17702156988192,
-      "bbUpper": 76574.2552762677,
-      "bbMid": 76006.60908153592,
-      "bbLower": 75438.96288680415
+      "ema20": 76224.78522411133,
+      "ema50": 76328.22473540675,
+      "rsi14": 53.48560058183831,
+      "macdHist": 41.880827867706316,
+      "bbUpper": 76713.65496418858,
+      "bbMid": 76141.77314768176,
+      "bbLower": 75569.89133117493
     },
     "fearGreed": {
       "value": 50,
@@ -595,6 +595,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "U.S. diesel prices hit record high as bitcoin and gold struggle",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "Goldman pivots, now forecasts Fed rate hike in October",
         "source": "CoinDesk",
@@ -619,37 +624,27 @@
         "title": "Deutsche Bank close to debuting crypto custody for institutions",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Live updates: Bitcoin steady as stocks slide following Fed rate hike, Warsh press conference",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Deutsche Bank awaits regulatory nod to launch institutional crypto custody solutions",
-        "source": "Cointelegraph",
-        "itemScore": -2
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=76118 vs EMA50=76315",
+        "detail": "EMA20=76225 vs EMA50=76328",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "56.1",
-        "points": 0.5
+        "detail": "53.5",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "92.2",
+        "detail": "41.9",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 76376 vs [75439, 76574]",
+        "detail": "prix 76336 vs [75570, 76714]",
         "points": 0
       },
       {
@@ -659,14 +654,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -8",
-        "points": -2.67
+        "detail": "30 articles pertinents, score brut -4",
+        "points": -1.33
       }
     ],
-    "computedAt": "2026-09-17T05:24:41.592Z",
-    "priceUSD": 76403.7,
-    "priceEUR": 66653.5,
-    "change24h": 0.33816526629037297
+    "computedAt": "2026-09-17T10:14:54.523Z",
+    "priceUSD": 76334.8,
+    "priceEUR": 66528,
+    "change24h": 0.24768143387326724
   },
   "history": [
     {
@@ -7103,7 +7098,12 @@
       "t": "2026-09-17T05:24:41.595Z",
       "equityEUR": 158.45,
       "priceEUR": 66653.5
+    },
+    {
+      "t": "2026-09-17T10:14:54.526Z",
+      "equityEUR": 159.64,
+      "priceEUR": 66528
     }
   ],
-  "lastRun": "2026-09-17T05:24:41.595Z"
+  "lastRun": "2026-09-17T10:14:54.526Z"
 }
