@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 124.82,
-  "equityEUR": 159.64,
+  "equityEUR": 160.06,
   "stopped": false,
   "openPositions": [
     {
@@ -574,19 +574,19 @@
     }
   ],
   "lastSignal": {
-    "price": 76336.37670987597,
-    "direction": "SHORT",
-    "score": -1.83,
-    "strength": 0.23,
-    "atr14": 798.5808435030858,
+    "price": 76311.14999337724,
+    "direction": "LONG",
+    "score": 0.5,
+    "strength": 0.06,
+    "atr14": 780.822194551629,
     "indicators": {
-      "ema20": 76224.78522411133,
-      "ema50": 76328.22473540675,
-      "rsi14": 53.48560058183831,
-      "macdHist": 41.880827867706316,
-      "bbUpper": 76713.65496418858,
-      "bbMid": 76141.77314768176,
-      "bbLower": 75569.89133117493
+      "ema20": 76314.9833878376,
+      "ema50": 76353.71684472411,
+      "rsi14": 50.725198475612544,
+      "macdHist": 21.611826843282614,
+      "bbUpper": 76766.7437546059,
+      "bbMid": 76295.63564962566,
+      "bbLower": 75824.52754464543
     },
     "fearGreed": {
       "value": 50,
@@ -595,6 +595,31 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "SEC Clears a Path for Tokenized Stocks After Clarity Act Stumbles",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
+      {
+        "title": "Bitcoin treasury firms can outperform BTC... but is the risk worth taking?",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
+        "title": "Crypto adoption blooming in Germany, while UK is falling ‘behind,’ says CoinShares researcher",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
+        "title": "Morning Minute: Crypto Rebounds After The Fed’s First Hike Since 2023",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
+      {
+        "title": "Zcash Closes On $1,400 After Coinholders Vote to Keep Bitcoin-Style Halvings",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
       {
         "title": "U.S. diesel prices hit record high as bitcoin and gold struggle",
         "source": "CoinDesk",
@@ -609,42 +634,27 @@
         "title": "Bitcoin absorbs Fed rate hike as officials see more tightening",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "Fed Chair Implies Trump Is Only Half Right on the Economy Following Rate Hike",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Hackers Hijack HBO Max’s Reddit Account to Spread Crypto-Stealing Malware",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Deutsche Bank close to debuting crypto custody for institutions",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=76225 vs EMA50=76328",
+        "detail": "EMA20=76315 vs EMA50=76354",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "53.5",
+        "detail": "50.7",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "41.9",
+        "detail": "21.6",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 76336 vs [75570, 76714]",
+        "detail": "prix 76311 vs [75825, 76767]",
         "points": 0
       },
       {
@@ -654,14 +664,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -4",
-        "points": -1.33
+        "detail": "30 articles pertinents, score brut 3",
+        "points": 1
       }
     ],
-    "computedAt": "2026-09-17T10:14:54.523Z",
-    "priceUSD": 76334.8,
-    "priceEUR": 66528,
-    "change24h": 0.24768143387326724
+    "computedAt": "2026-09-17T15:04:04.367Z",
+    "priceUSD": 76363.5,
+    "priceEUR": 66484.3,
+    "change24h": 0.28537208685397686
   },
   "history": [
     {
@@ -7103,7 +7113,12 @@
       "t": "2026-09-17T10:14:54.526Z",
       "equityEUR": 159.64,
       "priceEUR": 66528
+    },
+    {
+      "t": "2026-09-17T15:04:04.370Z",
+      "equityEUR": 160.06,
+      "priceEUR": 66484.3
     }
   ],
-  "lastRun": "2026-09-17T10:14:54.526Z"
+  "lastRun": "2026-09-17T15:04:04.370Z"
 }
