@@ -5,25 +5,25 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 120.08103353440814,
-  "equityEUR": 160.55,
+  "balanceEUR": 129.55,
+  "equityEUR": 172.73,
   "stopped": false,
   "openPositions": [
     {
-      "id": "0dedfeca-afe6-44c5-b5d7-90c5a292c1c5",
+      "id": "7f8cdb23-ebc5-47af-9109-5baebd25fcb1",
       "side": "LONG",
-      "entryPrice": 66670.8,
-      "entryTime": "2026-09-17T19:01:15.629Z",
-      "sizeEUR": 31.2,
-      "notionalEUR": 468,
+      "entryPrice": 69726.8,
+      "entryTime": "2026-09-18T13:50:46.430Z",
+      "sizeEUR": 43.18,
+      "notionalEUR": 647.7,
       "leverage": 15,
-      "qtyBTC": 0.00701956,
-      "sl": 65835.27,
-      "tp": 68341.85,
-      "slPct": 1.25,
-      "tpPct": 2.51,
-      "signalScore": 4.83,
-      "signalStrength": 0.6,
+      "qtyBTC": 0.00928911,
+      "sl": 68919.56,
+      "tp": 71341.28,
+      "slPct": 1.16,
+      "tpPct": 2.32,
+      "signalScore": 1.12,
+      "signalStrength": 0.14,
       "status": "OPEN"
     }
   ],
@@ -587,22 +587,38 @@
       "pnlPct": -2.43,
       "reason": "SL",
       "status": "CLOSED"
+    },
+    {
+      "id": "0dedfeca-afe6-44c5-b5d7-90c5a292c1c5",
+      "side": "LONG",
+      "entryPrice": 66670.8,
+      "entryTime": "2026-09-17T19:01:15.629Z",
+      "exitPrice": 69726.8,
+      "exitTime": "2026-09-18T13:50:46.430Z",
+      "sizeEUR": 31.2,
+      "notionalEUR": 468,
+      "leverage": 15,
+      "qtyBTC": 0.00701956,
+      "pnlEUR": 21.45,
+      "pnlPct": 4.58,
+      "reason": "TP",
+      "status": "CLOSED"
     }
   ],
   "lastSignal": {
-    "price": 78096.70928002268,
+    "price": 79780.74167867817,
     "direction": "LONG",
-    "score": 2.12,
-    "strength": 0.26,
-    "atr14": 770.3353959420537,
+    "score": 1.12,
+    "strength": 0.14,
+    "atr14": 769.696249719366,
     "indicators": {
-      "ema20": 77124.32581325216,
-      "ema50": 76747.28958582785,
-      "rsi14": 77.69100093134344,
-      "macdHist": 141.67775020627045,
-      "bbUpper": 78115.6317626367,
-      "bbMid": 76948.98120273421,
-      "bbLower": 75782.33064283173
+      "ema20": 77599.02679299595,
+      "ema50": 77010.62009228951,
+      "rsi14": 85.3998501383666,
+      "macdHist": 180.76701240833694,
+      "bbUpper": 79078.85336047549,
+      "bbMid": 77327.89798653415,
+      "bbLower": 75576.94261259281
     },
     "fearGreed": {
       "value": 56,
@@ -611,6 +627,26 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Morning Minute: SEC Approves ‘Innovation Exemption’ Moving Tokenized Stocks Forward",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
+      {
+        "title": "Bitcoin adds to bull-market hopes as price metric prints fourth-ever bullish cross",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
+        "title": "Bitcoin weathers September storm as rate hikes and Clarity act setback test bulls",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Live updates: Bitcoin approaches $80,000 as rally accelerates at U.S. market open",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "Treasury Sanctions Crypto Exchange Behind Iran&#39;s Bitcoin Tolls on Hormuz Ships",
         "source": "Decrypt",
@@ -630,48 +666,28 @@
         "title": "US sanctions Iran’s BitBank, saying it processes ‘Hormuz Safe’ Bitcoin payments",
         "source": "Cointelegraph",
         "itemScore": -2
-      },
-      {
-        "title": "CFTC Opens Door for Crypto Apps to Offer Regulated Derivatives Access",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "SEC Clears a Path for Tokenized Stocks After Clarity Act Stumbles",
-        "source": "Decrypt",
-        "itemScore": 1
-      },
-      {
-        "title": "Bitcoin treasury firms can outperform BTC... but is the risk worth taking?",
-        "source": "Cointelegraph",
-        "itemScore": 1
-      },
-      {
-        "title": "Crypto adoption blooming in Germany, while UK is falling ‘behind,’ says CoinShares researcher",
-        "source": "Cointelegraph",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77124 vs EMA50=76747",
+        "detail": "EMA20=77599 vs EMA50=77011",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "77.7",
+        "detail": "85.4",
         "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "141.7",
+        "detail": "180.8",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78097 vs [75782, 78116]",
-        "points": 0
+        "detail": "prix 79781 vs [75577, 79079]",
+        "points": -1
       },
       {
         "factor": "Fear & Greed Index",
@@ -684,10 +700,10 @@
         "points": -0.33
       }
     ],
-    "computedAt": "2026-09-18T09:32:14.958Z",
-    "priceUSD": 78057.5,
-    "priceEUR": 67991.6,
-    "change24h": 2.230118119775211
+    "computedAt": "2026-09-18T13:50:46.427Z",
+    "priceUSD": 79944.7,
+    "priceEUR": 69726.8,
+    "change24h": 4.701740691797624
   },
   "history": [
     {
@@ -7159,7 +7175,12 @@
       "t": "2026-09-18T09:32:14.960Z",
       "equityEUR": 160.55,
       "priceEUR": 67991.6
+    },
+    {
+      "t": "2026-09-18T13:50:46.430Z",
+      "equityEUR": 172.73,
+      "priceEUR": 69726.8
     }
   ],
-  "lastRun": "2026-09-18T09:32:14.960Z"
+  "lastRun": "2026-09-18T13:50:46.430Z"
 }
