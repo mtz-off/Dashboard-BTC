@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 120.08103353440814,
-  "equityEUR": 156.47,
+  "equityEUR": 160.55,
   "stopped": false,
   "openPositions": [
     {
@@ -590,19 +590,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77408.17759412275,
+    "price": 78096.70928002268,
     "direction": "LONG",
-    "score": 1.12,
-    "strength": 0.14,
-    "atr14": 783.0305644385256,
+    "score": 2.12,
+    "strength": 0.26,
+    "atr14": 770.3353959420537,
     "indicators": {
-      "ema20": 76656.09131581557,
-      "ema50": 76508.80120073518,
-      "rsi14": 73.0671266281405,
-      "macdHist": 79.29096038940304,
-      "bbUpper": 77197.98760473727,
-      "bbMid": 76618.4315644677,
-      "bbLower": 76038.87552419813
+      "ema20": 77124.32581325216,
+      "ema50": 76747.28958582785,
+      "rsi14": 77.69100093134344,
+      "macdHist": 141.67775020627045,
+      "bbUpper": 78115.6317626367,
+      "bbMid": 76948.98120273421,
+      "bbLower": 75782.33064283173
     },
     "fearGreed": {
       "value": 56,
@@ -612,7 +612,12 @@
     "fundingRate": null,
     "newsHighlights": [
       {
-        "title": "Ether and XRP ETFs post outflows as bitcoin moves above $77,000",
+        "title": "Treasury Sanctions Crypto Exchange Behind Iran&#39;s Bitcoin Tolls on Hormuz Ships",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Ether and XRP ETFs post outflows as crypto majors move higher",
         "source": "CoinDesk",
         "itemScore": -1
       },
@@ -645,33 +650,28 @@
         "title": "Crypto adoption blooming in Germany, while UK is falling ‘behind,’ says CoinShares researcher",
         "source": "Cointelegraph",
         "itemScore": 1
-      },
-      {
-        "title": "Morning Minute: Crypto Rebounds After The Fed’s First Hike Since 2023",
-        "source": "Decrypt",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=76656 vs EMA50=76509",
+        "detail": "EMA20=77124 vs EMA50=76747",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "73.1",
+        "detail": "77.7",
         "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "79.3",
+        "detail": "141.7",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77408 vs [76039, 77198]",
-        "points": -1
+        "detail": "prix 78097 vs [75782, 78116]",
+        "points": 0
       },
       {
         "factor": "Fear & Greed Index",
@@ -684,10 +684,10 @@
         "points": -0.33
       }
     ],
-    "computedAt": "2026-09-18T04:58:32.319Z",
-    "priceUSD": 77435,
-    "priceEUR": 67409.7,
-    "change24h": 1.4148441418799407
+    "computedAt": "2026-09-18T09:32:14.958Z",
+    "priceUSD": 78057.5,
+    "priceEUR": 67991.6,
+    "change24h": 2.230118119775211
   },
   "history": [
     {
@@ -7154,7 +7154,12 @@
       "t": "2026-09-18T04:58:32.322Z",
       "equityEUR": 156.47,
       "priceEUR": 67409.7
+    },
+    {
+      "t": "2026-09-18T09:32:14.960Z",
+      "equityEUR": 160.55,
+      "priceEUR": 67991.6
     }
   ],
-  "lastRun": "2026-09-18T04:58:32.322Z"
+  "lastRun": "2026-09-18T09:32:14.960Z"
 }
