@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 129.55,
-  "equityEUR": 177.95,
+  "equityEUR": 182.14,
   "stopped": false,
   "openPositions": [
     {
@@ -606,19 +606,19 @@
     }
   ],
   "lastSignal": {
-    "price": 80731.05479749462,
+    "price": 81300.6810239472,
     "direction": "LONG",
-    "score": 2.12,
-    "strength": 0.26,
+    "score": 1.33,
+    "strength": 0.17,
     "atr14": 936.8004656403009,
     "indicators": {
-      "ema20": 78437.86524612978,
-      "ema50": 77444.28155396748,
-      "rsi14": 84.91095366364448,
-      "macdHist": 339.7841597187886,
-      "bbUpper": 80868.54981272385,
-      "bbMid": 77978.45479316806,
-      "bbLower": 75088.35977361226
+      "ema20": 79125.0389959,
+      "ema50": 77855.8193988041,
+      "rsi14": 86.7834024300103,
+      "macdHist": 280.1732087690816,
+      "bbUpper": 81935.3227082886,
+      "bbMid": 78686.72957839722,
+      "bbLower": 75438.13644850584
     },
     "fearGreed": {
       "value": 56,
@@ -663,30 +663,30 @@
         "itemScore": 1
       },
       {
-        "title": "Live updates: Bitcoin climbs over $80,000 as rally accelerates at U.S. market open",
-        "source": "CoinDesk",
-        "itemScore": 1
+        "title": "Treasury Sanctions Crypto Exchange Behind Iran&#39;s Bitcoin Tolls on Hormuz Ships",
+        "source": "Decrypt",
+        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78438 vs EMA50=77444",
+        "detail": "EMA20=79125 vs EMA50=77856",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "84.9",
+        "detail": "86.8",
         "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "339.8",
-        "points": 1.95
+        "detail": "280.2",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 80731 vs [75088, 80869]",
+        "detail": "prix 81301 vs [75438, 81935]",
         "points": 0
       },
       {
@@ -696,14 +696,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -1",
-        "points": -0.33
+        "detail": "30 articles pertinents, score brut -2",
+        "points": -0.67
       }
     ],
-    "computedAt": "2026-09-18T17:27:42.314Z",
-    "priceUSD": 80729.7,
-    "priceEUR": 70289,
-    "change24h": 5.729837194043065
+    "computedAt": "2026-09-18T19:53:04.902Z",
+    "priceUSD": 81283.1,
+    "priceEUR": 70740.1,
+    "change24h": 6.454612486199289
   },
   "history": [
     {
@@ -7185,7 +7185,12 @@
       "t": "2026-09-18T17:27:42.317Z",
       "equityEUR": 177.95,
       "priceEUR": 70289
+    },
+    {
+      "t": "2026-09-18T19:53:04.904Z",
+      "equityEUR": 182.14,
+      "priceEUR": 70740.1
     }
   ],
-  "lastRun": "2026-09-18T17:27:42.317Z"
+  "lastRun": "2026-09-18T19:53:04.904Z"
 }
