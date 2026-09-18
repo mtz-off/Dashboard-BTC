@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 129.55,
-  "equityEUR": 172.73,
+  "equityEUR": 177.95,
   "stopped": false,
   "openPositions": [
     {
@@ -606,19 +606,19 @@
     }
   ],
   "lastSignal": {
-    "price": 79780.74167867817,
+    "price": 80731.05479749462,
     "direction": "LONG",
-    "score": 1.12,
-    "strength": 0.14,
-    "atr14": 769.696249719366,
+    "score": 2.12,
+    "strength": 0.26,
+    "atr14": 936.8004656403009,
     "indicators": {
-      "ema20": 77599.02679299595,
-      "ema50": 77010.62009228951,
-      "rsi14": 85.3998501383666,
-      "macdHist": 180.76701240833694,
-      "bbUpper": 79078.85336047549,
-      "bbMid": 77327.89798653415,
-      "bbLower": 75576.94261259281
+      "ema20": 78437.86524612978,
+      "ema50": 77444.28155396748,
+      "rsi14": 84.91095366364448,
+      "macdHist": 339.7841597187886,
+      "bbUpper": 80868.54981272385,
+      "bbMid": 77978.45479316806,
+      "bbLower": 75088.35977361226
     },
     "fearGreed": {
       "value": 56,
@@ -627,6 +627,26 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "XRP Surges 6.9% as Bitcoin Rebound Reopens Door to Golden Cross",
+        "source": "Decrypt",
+        "itemScore": 2
+      },
+      {
+        "title": "CFTC submits crypto market regulation plan for White House review",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin hits $81K as US bond yields rebound on global oil woes",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
+        "title": "Banks double on EU MiCA crypto provider list as share hits 23%",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "Morning Minute: SEC Approves ‘Innovation Exemption’ Moving Tokenized Stocks Forward",
         "source": "Decrypt",
@@ -643,51 +663,31 @@
         "itemScore": 1
       },
       {
-        "title": "Live updates: Bitcoin approaches $80,000 as rally accelerates at U.S. market open",
+        "title": "Live updates: Bitcoin climbs over $80,000 as rally accelerates at U.S. market open",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Treasury Sanctions Crypto Exchange Behind Iran&#39;s Bitcoin Tolls on Hormuz Ships",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Ether and XRP ETFs post outflows as crypto majors move higher",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Bank of Japan raises interest rates by 25 basis points. Bitcoin tops $77,000",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "US sanctions Iran’s BitBank, saying it processes ‘Hormuz Safe’ Bitcoin payments",
-        "source": "Cointelegraph",
-        "itemScore": -2
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77599 vs EMA50=77011",
+        "detail": "EMA20=78438 vs EMA50=77444",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "85.4",
+        "detail": "84.9",
         "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "180.8",
+        "detail": "339.8",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 79781 vs [75577, 79079]",
-        "points": -1
+        "detail": "prix 80731 vs [75088, 80869]",
+        "points": 0
       },
       {
         "factor": "Fear & Greed Index",
@@ -700,10 +700,10 @@
         "points": -0.33
       }
     ],
-    "computedAt": "2026-09-18T13:50:46.427Z",
-    "priceUSD": 79944.7,
-    "priceEUR": 69726.8,
-    "change24h": 4.701740691797624
+    "computedAt": "2026-09-18T17:27:42.314Z",
+    "priceUSD": 80729.7,
+    "priceEUR": 70289,
+    "change24h": 5.729837194043065
   },
   "history": [
     {
@@ -7180,7 +7180,12 @@
       "t": "2026-09-18T13:50:46.430Z",
       "equityEUR": 172.73,
       "priceEUR": 69726.8
+    },
+    {
+      "t": "2026-09-18T17:27:42.317Z",
+      "equityEUR": 177.95,
+      "priceEUR": 70289
     }
   ],
-  "lastRun": "2026-09-18T13:50:46.430Z"
+  "lastRun": "2026-09-18T17:27:42.317Z"
 }
