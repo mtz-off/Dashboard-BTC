@@ -5,8 +5,8 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 129.55,
-  "equityEUR": 179.04,
+  "balanceEUR": 97.16,
+  "equityEUR": 182.88,
   "stopped": false,
   "openPositions": [
     {
@@ -24,6 +24,23 @@
       "tpPct": 2.32,
       "signalScore": 1.12,
       "signalStrength": 0.14,
+      "status": "OPEN"
+    },
+    {
+      "id": "aaea495a-d122-4f65-a438-fd66a20ecd72",
+      "side": "SHORT",
+      "entryPrice": 70819.5,
+      "entryTime": "2026-09-19T09:09:42.456Z",
+      "sizeEUR": 32.39,
+      "notionalEUR": 485.85,
+      "leverage": 15,
+      "qtyBTC": 0.0068604,
+      "sl": 71702.34,
+      "tp": 69053.82,
+      "slPct": 1.25,
+      "tpPct": 2.49,
+      "signalScore": -2,
+      "signalStrength": 0.25,
       "status": "OPEN"
     }
   ],
@@ -606,19 +623,19 @@
     }
   ],
   "lastSignal": {
-    "price": 80936.42808960594,
+    "price": 81338.51030714501,
     "direction": "SHORT",
-    "score": -0.12,
-    "strength": 0.01,
-    "atr14": 887.0735709096433,
+    "score": -2,
+    "strength": 0.25,
+    "atr14": 844.9733925266036,
     "indicators": {
-      "ema20": 80329.87963911463,
-      "ema50": 78853.57294883748,
-      "rsi14": 66.67039421936923,
-      "macdHist": -93.91290307282634,
-      "bbUpper": 82823.33864465254,
-      "bbMid": 80415.56423117338,
-      "bbLower": 78007.78981769423
+      "ema20": 80599.07567778927,
+      "ema50": 79191.64270029702,
+      "rsi14": 71.58506740834405,
+      "macdHist": -139.61925198574068,
+      "bbUpper": 81638.84396287194,
+      "bbMid": 81025.95125287875,
+      "bbLower": 80413.05854288556
     },
     "fearGreed": {
       "value": 71,
@@ -627,6 +644,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Hong Kong jails former banker over $1.6B false credit, cryptocurrency bribes: Report",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "XRP Surges 6.9% as Bitcoin Rebound Reopens Door to Golden Cross",
         "source": "Decrypt",
@@ -661,32 +683,27 @@
         "title": "Bitcoin weathers September storm as rate hikes and Clarity act setback test bulls",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Treasury Sanctions Crypto Exchange Behind Iran&#39;s Bitcoin Tolls on Hormuz Ships",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=80330 vs EMA50=78854",
+        "detail": "EMA20=80599 vs EMA50=79192",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "66.7",
-        "points": 0.5
+        "detail": "71.6",
+        "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-93.9",
-        "points": -1.95
+        "detail": "-139.6",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 80936 vs [78008, 82823]",
+        "detail": "prix 81339 vs [80413, 81639]",
         "points": 0
       },
       {
@@ -696,14 +713,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -2",
-        "points": -0.67
+        "detail": "30 articles pertinents, score brut -3",
+        "points": -1
       }
     ],
-    "computedAt": "2026-09-19T04:51:20.547Z",
-    "priceUSD": 80955.2,
-    "priceEUR": 70406.5,
-    "change24h": 0.09532864891731045
+    "computedAt": "2026-09-19T09:09:42.452Z",
+    "priceUSD": 81430.8,
+    "priceEUR": 70819.5,
+    "change24h": 0.6833741148716365
   },
   "history": [
     {
@@ -7205,7 +7222,12 @@
       "t": "2026-09-19T04:51:20.550Z",
       "equityEUR": 179.04,
       "priceEUR": 70406.5
+    },
+    {
+      "t": "2026-09-19T09:09:42.456Z",
+      "equityEUR": 182.88,
+      "priceEUR": 70819.5
     }
   ],
-  "lastRun": "2026-09-19T04:51:20.550Z"
+  "lastRun": "2026-09-19T09:09:42.456Z"
 }
