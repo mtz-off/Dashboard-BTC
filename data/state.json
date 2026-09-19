@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 97.16,
-  "equityEUR": 182.54,
+  "equityEUR": 183.84,
   "stopped": false,
   "openPositions": [
     {
@@ -623,19 +623,19 @@
     }
   ],
   "lastSignal": {
-    "price": 81273.4020744437,
-    "direction": "LONG",
-    "score": 0,
-    "strength": 0,
-    "atr14": 813.8163668760695,
+    "price": 81816.15598442899,
+    "direction": "SHORT",
+    "score": -3,
+    "strength": 0.38,
+    "atr14": 804.9417660900139,
     "indicators": {
-      "ema20": 80814.88706353656,
-      "ema50": 79496.19067879088,
-      "rsi14": 69.30579977975957,
-      "macdHist": -140.40887282251356,
-      "bbUpper": 81488.58002355143,
-      "bbMid": 81154.36017797902,
-      "bbLower": 80820.1403324066
+      "ema20": 81073.95573893294,
+      "ema50": 79805.69553050667,
+      "rsi14": 76.41014198765228,
+      "macdHist": -80.8967517245892,
+      "bbUpper": 81722.13516217015,
+      "bbMid": 81264.75855826301,
+      "bbLower": 80807.38195435588
     },
     "fearGreed": {
       "value": 71,
@@ -644,6 +644,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "'We have lost control': Crypto pioneer warns AI could trigger systemic banking and infrastructure shocks",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Hong Kong jails former banker over $1.6B false credit, cryptocurrency bribes: Report",
         "source": "Cointelegraph",
@@ -678,33 +683,28 @@
         "title": "Bitcoin adds to bull-market hopes as price metric prints fourth-ever bullish cross",
         "source": "Cointelegraph",
         "itemScore": 1
-      },
-      {
-        "title": "Bitcoin weathers September storm as rate hikes and Clarity act setback test bulls",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=80815 vs EMA50=79496",
+        "detail": "EMA20=81074 vs EMA50=79806",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "69.3",
-        "points": 0.5
+        "detail": "76.4",
+        "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-140.4",
+        "detail": "-80.9",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 81273 vs [80820, 81489]",
-        "points": 0
+        "detail": "prix 81816 vs [80807, 81722]",
+        "points": -1
       },
       {
         "factor": "Fear & Greed Index",
@@ -717,10 +717,10 @@
         "points": -1
       }
     ],
-    "computedAt": "2026-09-19T13:09:23.042Z",
-    "priceUSD": 81217.8,
-    "priceEUR": 70680.7,
-    "change24h": 0.4200148124152237
+    "computedAt": "2026-09-19T16:29:13.206Z",
+    "priceUSD": 81838.1,
+    "priceEUR": 71216.2,
+    "change24h": 1.1869715040289026
   },
   "history": [
     {
@@ -7232,7 +7232,12 @@
       "t": "2026-09-19T13:09:23.045Z",
       "equityEUR": 182.54,
       "priceEUR": 70680.7
+    },
+    {
+      "t": "2026-09-19T16:29:13.210Z",
+      "equityEUR": 183.84,
+      "priceEUR": 71216.2
     }
   ],
-  "lastRun": "2026-09-19T13:09:23.045Z"
+  "lastRun": "2026-09-19T16:29:13.210Z"
 }
