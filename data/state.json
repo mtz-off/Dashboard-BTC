@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 97.16,
-  "equityEUR": 180.74,
+  "equityEUR": 180.95,
   "stopped": false,
   "openPositions": [
     {
@@ -623,19 +623,19 @@
     }
   ],
   "lastSignal": {
-    "price": 80414.97076002945,
+    "price": 80426.67686868698,
     "direction": "LONG",
-    "score": 0.33,
-    "strength": 0.04,
-    "atr14": 791.8009120177996,
+    "score": 0,
+    "strength": 0,
+    "atr14": 760.0210275550942,
     "indicators": {
-      "ema20": 80863.71626903741,
-      "ema50": 80267.01868568521,
-      "rsi14": 40.49116053032506,
-      "macdHist": -174.44280047632188,
-      "bbUpper": 81984.5364959319,
-      "bbMid": 81102.49281419578,
-      "bbLower": 80220.44913245966
+      "ema20": 80650.5372392608,
+      "ema50": 80275.5126077413,
+      "rsi14": 44.21466280835668,
+      "macdHist": -92.61676010529047,
+      "bbUpper": 81823.20893342572,
+      "bbMid": 80826.34595386454,
+      "bbLower": 79829.48297430336
     },
     "fearGreed": {
       "value": 71,
@@ -650,7 +650,7 @@
         "itemScore": -1
       },
       {
-        "title": "Hong Kong jails former banker over $1.6B false credit, cryptocurrency bribes: Report",
+        "title": "Hong Kong jails ex-banker over $1.6B false credit, cryptocurrency bribes: Report",
         "source": "Cointelegraph",
         "itemScore": -1
       },
@@ -678,32 +678,27 @@
         "title": "Morning Minute: SEC Approves ‘Innovation Exemption’ Moving Tokenized Stocks Forward",
         "source": "Decrypt",
         "itemScore": 1
-      },
-      {
-        "title": "Bitcoin adds to bull-market hopes as price metric prints fourth-ever bullish cross",
-        "source": "Cointelegraph",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=80864 vs EMA50=80267",
+        "detail": "EMA20=80651 vs EMA50=80276",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "40.5",
+        "detail": "44.2",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-174.4",
+        "detail": "-92.6",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 80415 vs [80220, 81985]",
+        "detail": "prix 80427 vs [79829, 81823]",
         "points": 0
       },
       {
@@ -713,14 +708,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "27 articles pertinents, score brut 1",
-        "points": 0.33
+        "detail": "20 articles pertinents, score brut 0",
+        "points": 0
       }
     ],
-    "computedAt": "2026-09-20T06:38:41.242Z",
-    "priceUSD": 80395.6,
-    "priceEUR": 69938,
-    "change24h": -1.0331766272870262
+    "computedAt": "2026-09-20T11:48:59.400Z",
+    "priceUSD": 80451,
+    "priceEUR": 70026.3,
+    "change24h": -0.9649793376984451
   },
   "history": [
     {
@@ -7262,7 +7257,12 @@
       "t": "2026-09-20T06:38:41.245Z",
       "equityEUR": 180.74,
       "priceEUR": 69938
+    },
+    {
+      "t": "2026-09-20T11:48:59.403Z",
+      "equityEUR": 180.95,
+      "priceEUR": 70026.3
     }
   ],
-  "lastRun": "2026-09-20T06:38:41.245Z"
+  "lastRun": "2026-09-20T11:48:59.403Z"
 }
