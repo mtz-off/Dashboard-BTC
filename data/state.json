@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 97.16,
-  "equityEUR": 180.95,
+  "equityEUR": 181.56,
   "stopped": false,
   "openPositions": [
     {
@@ -623,19 +623,19 @@
     }
   ],
   "lastSignal": {
-    "price": 80426.67686868698,
+    "price": 80798.47710109071,
     "direction": "LONG",
-    "score": 0,
-    "strength": 0,
-    "atr14": 760.0210275550942,
+    "score": 0.5,
+    "strength": 0.06,
+    "atr14": 733.2525669528287,
     "indicators": {
-      "ema20": 80650.5372392608,
-      "ema50": 80275.5126077413,
-      "rsi14": 44.21466280835668,
-      "macdHist": -92.61676010529047,
-      "bbUpper": 81823.20893342572,
-      "bbMid": 80826.34595386454,
-      "bbLower": 79829.48297430336
+      "ema20": 80640.0699408772,
+      "ema50": 80312.63652245009,
+      "rsi14": 53.977204537504846,
+      "macdHist": -12.177405787299946,
+      "bbUpper": 81464.66434322787,
+      "bbMid": 80682.48118400849,
+      "bbLower": 79900.29802478911
     },
     "fearGreed": {
       "value": 71,
@@ -668,37 +668,27 @@
         "title": "Bitcoin hits $81K as US bond yields rebound on global oil woes",
         "source": "Cointelegraph",
         "itemScore": 1
-      },
-      {
-        "title": "Banks double on EU MiCA crypto provider list as share hits 23%",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Morning Minute: SEC Approves ‘Innovation Exemption’ Moving Tokenized Stocks Forward",
-        "source": "Decrypt",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=80651 vs EMA50=80276",
+        "detail": "EMA20=80640 vs EMA50=80313",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "44.2",
-        "points": -0.5
+        "detail": "54.0",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-92.6",
+        "detail": "-12.2",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 80427 vs [79829, 81823]",
+        "detail": "prix 80798 vs [79900, 81465]",
         "points": 0
       },
       {
@@ -708,14 +698,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "20 articles pertinents, score brut 0",
+        "detail": "18 articles pertinents, score brut 0",
         "points": 0
       }
     ],
-    "computedAt": "2026-09-20T11:48:59.400Z",
-    "priceUSD": 80451,
-    "priceEUR": 70026.3,
-    "change24h": -0.9649793376984451
+    "computedAt": "2026-09-20T15:22:53.423Z",
+    "priceUSD": 80749.1,
+    "priceEUR": 70275.6,
+    "change24h": -0.598018831807497
   },
   "history": [
     {
@@ -7262,7 +7252,12 @@
       "t": "2026-09-20T11:48:59.403Z",
       "equityEUR": 180.95,
       "priceEUR": 70026.3
+    },
+    {
+      "t": "2026-09-20T15:22:53.427Z",
+      "equityEUR": 181.56,
+      "priceEUR": 70275.6
     }
   ],
-  "lastRun": "2026-09-20T11:48:59.403Z"
+  "lastRun": "2026-09-20T15:22:53.427Z"
 }
