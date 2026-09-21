@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 97.16,
-  "equityEUR": 183.41,
+  "equityEUR": 183.45,
   "stopped": false,
   "openPositions": [
     {
@@ -623,19 +623,19 @@
     }
   ],
   "lastSignal": {
-    "price": 81675.55955551252,
+    "price": 81565.68390870531,
     "direction": "LONG",
-    "score": 2.78,
-    "strength": 0.35,
-    "atr14": 712.2018460955542,
+    "score": 3.78,
+    "strength": 0.47,
+    "atr14": 740.1983840945505,
     "indicators": {
-      "ema20": 80980.9253246729,
-      "ema50": 80590.39953031599,
-      "rsi14": 66.25798504865901,
-      "macdHist": 81.7072599535486,
-      "bbUpper": 81604.79421267322,
-      "bbMid": 80780.76209452975,
-      "bbLower": 79956.72997638628
+      "ema20": 81120.55332005017,
+      "ema50": 80722.39519714187,
+      "rsi14": 60.39619587289893,
+      "macdHist": 49.76411016041544,
+      "bbUpper": 81761.42357710545,
+      "bbMid": 81022.27086597333,
+      "bbLower": 80283.11815484121
     },
     "fearGreed": {
       "value": 70,
@@ -644,6 +644,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin reclaims 50-week moving average as analysts eye end of bear market",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin’s price has cleared a key hurdle that has historically preceded major bull runs",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "'We have lost control': Crypto pioneer warns AI could trigger systemic banking and infrastructure shocks",
         "source": "CoinDesk",
@@ -658,23 +668,23 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=80981 vs EMA50=80590",
+        "detail": "EMA20=81121 vs EMA50=80722",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "66.3",
+        "detail": "60.4",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "81.7",
+        "detail": "49.8",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 81676 vs [79957, 81605]",
-        "points": -1
+        "detail": "prix 81566 vs [80283, 81761]",
+        "points": 0
       },
       {
         "factor": "Fear & Greed Index",
@@ -683,14 +693,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "11 articles pertinents, score brut -2",
+        "detail": "16 articles pertinents, score brut -2",
         "points": -0.67
       }
     ],
-    "computedAt": "2026-09-21T00:52:10.655Z",
-    "priceUSD": 81719.1,
-    "priceEUR": 71039.5,
-    "change24h": 0.6839239071509607
+    "computedAt": "2026-09-21T05:51:46.061Z",
+    "priceUSD": 81535.8,
+    "priceEUR": 71054.5,
+    "change24h": 0.4580848652111809
   },
   "history": [
     {
@@ -7262,7 +7272,12 @@
       "t": "2026-09-21T00:52:10.658Z",
       "equityEUR": 183.41,
       "priceEUR": 71039.5
+    },
+    {
+      "t": "2026-09-21T05:51:46.064Z",
+      "equityEUR": 183.45,
+      "priceEUR": 71054.5
     }
   ],
-  "lastRun": "2026-09-21T00:52:10.658Z"
+  "lastRun": "2026-09-21T05:51:46.064Z"
 }
