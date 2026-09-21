@@ -5,10 +5,28 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 190.31692980148844,
+  "balanceEUR": 142.74,
   "equityEUR": 190.32,
   "stopped": false,
-  "openPositions": [],
+  "openPositions": [
+    {
+      "id": "bbbdf58a-56b1-4151-a01c-14f7a6c1d1c8",
+      "side": "LONG",
+      "entryPrice": 74839.7,
+      "entryTime": "2026-09-21T17:50:39.071Z",
+      "sizeEUR": 47.58,
+      "notionalEUR": 713.7,
+      "leverage": 15,
+      "qtyBTC": 0.00953638,
+      "sl": 73838.03,
+      "tp": 76843.04,
+      "slPct": 1.34,
+      "tpPct": 2.68,
+      "signalScore": 2.33,
+      "signalStrength": 0.29,
+      "status": "OPEN"
+    }
+  ],
   "trades": [
     {
       "id": "5f4a6be1-7c72-41de-a1ee-0ad7afb78691",
@@ -620,19 +638,19 @@
     }
   ],
   "lastSignal": {
-    "price": 84858.94947735505,
+    "price": 85846.17343569404,
     "direction": "LONG",
-    "score": 0.45,
-    "strength": 0.06,
-    "atr14": 729.910823003006,
+    "score": 2.33,
+    "strength": 0.29,
+    "atr14": 957.4845730232131,
     "indicators": {
-      "ema20": 82281.86467259658,
-      "ema50": 81330.28697926628,
-      "rsi14": 81.7871990674883,
-      "macdHist": 390.82659650156256,
-      "bbUpper": 84465.76955582501,
-      "bbMid": 81905.16956880949,
-      "bbLower": 79344.56958179397
+      "ema20": 83848.70268621315,
+      "ema50": 82269.25778511818,
+      "rsi14": 82.86896828290038,
+      "macdHist": 284.6663669413156,
+      "bbUpper": 87240.17790835403,
+      "bbMid": 83289.42780302608,
+      "bbLower": 79338.67769769812
     },
     "fearGreed": {
       "value": 70,
@@ -641,6 +659,26 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin price tags $86K as analysis sees crypto in ‘new bull market’",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
+        "title": "Bitcoin Is Rallying Again—What Happens Next?",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
+      {
+        "title": "Tom Lee&#39;s Bitmine Adds $74M in Ethereum, Declares a Crypto Bull Market &#39;Underway&#39;",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
+      {
+        "title": "Bitcoin Tops $85K as $648M in Crypto Shorts Liquidated",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin's 44% gain in third quarter teases full-blown crypto bull run",
         "source": "CoinDesk",
@@ -657,46 +695,31 @@
         "itemScore": -1
       },
       {
-        "title": "Live updates: Bitcoin hits $85,000 as short liquidations hit $300 million in an hour",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
         "title": "Bitcoin reclaims 50-week moving average as analysts eye end of bear market",
         "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin’s price has cleared a key hurdle that has historically preceded major bull runs",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "'We have lost control': Crypto pioneer warns AI could trigger systemic banking and infrastructure shocks",
-        "source": "CoinDesk",
         "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=82282 vs EMA50=81330",
+        "detail": "EMA20=83849 vs EMA50=82269",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "81.8",
+        "detail": "82.9",
         "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "390.8",
-        "points": 1.95
+        "detail": "284.7",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 84859 vs [79345, 84466]",
-        "points": -1
+        "detail": "prix 85846 vs [79339, 87240]",
+        "points": 0
       },
       {
         "factor": "Fear & Greed Index",
@@ -705,14 +728,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "25 articles pertinents, score brut -3",
-        "points": -1
+        "detail": "30 articles pertinents, score brut 1",
+        "points": 0.33
       }
     ],
-    "computedAt": "2026-09-21T11:55:20.823Z",
-    "priceUSD": 84822.5,
-    "priceEUR": 73881.5,
-    "change24h": 4.507540288797989
+    "computedAt": "2026-09-21T17:50:39.068Z",
+    "priceUSD": 85847.2,
+    "priceEUR": 74839.7,
+    "change24h": 5.770045833127984
   },
   "history": [
     {
@@ -7294,7 +7317,12 @@
       "t": "2026-09-21T11:55:20.825Z",
       "equityEUR": 190.32,
       "priceEUR": 73881.5
+    },
+    {
+      "t": "2026-09-21T17:50:39.071Z",
+      "equityEUR": 190.32,
+      "priceEUR": 74839.7
     }
   ],
-  "lastRun": "2026-09-21T11:55:20.825Z"
+  "lastRun": "2026-09-21T17:50:39.071Z"
 }
