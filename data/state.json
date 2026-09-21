@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 142.74,
-  "equityEUR": 190.32,
+  "equityEUR": 198.39,
   "stopped": false,
   "openPositions": [
     {
@@ -638,19 +638,19 @@
     }
   ],
   "lastSignal": {
-    "price": 85846.17343569404,
+    "price": 86786.33191086065,
     "direction": "LONG",
     "score": 2.33,
     "strength": 0.29,
-    "atr14": 957.4845730232131,
+    "atr14": 972.9304556534896,
     "indicators": {
-      "ema20": 83848.70268621315,
-      "ema50": 82269.25778511818,
-      "rsi14": 82.86896828290038,
-      "macdHist": 284.6663669413156,
-      "bbUpper": 87240.17790835403,
-      "bbMid": 83289.42780302608,
-      "bbLower": 79338.67769769812
+      "ema20": 84764.85727351317,
+      "ema50": 82910.80497853308,
+      "rsi14": 83.58844330280823,
+      "macdHist": 166.97393470883367,
+      "bbUpper": 88414.01018436739,
+      "bbMid": 84361.61981379196,
+      "bbLower": 80309.22944321652
     },
     "fearGreed": {
       "value": 70,
@@ -693,32 +693,27 @@
         "title": "X sues Bitcoin account operators over alleged $278K payout fraud",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin reclaims 50-week moving average as analysts eye end of bear market",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=83849 vs EMA50=82269",
+        "detail": "EMA20=84765 vs EMA50=82911",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "82.9",
+        "detail": "83.6",
         "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "284.7",
+        "detail": "167.0",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 85846 vs [79339, 87240]",
+        "detail": "prix 86786 vs [80309, 88414]",
         "points": 0
       },
       {
@@ -732,10 +727,10 @@
         "points": 0.33
       }
     ],
-    "computedAt": "2026-09-21T17:50:39.068Z",
-    "priceUSD": 85847.2,
-    "priceEUR": 74839.7,
-    "change24h": 5.770045833127984
+    "computedAt": "2026-09-21T21:40:49.912Z",
+    "priceUSD": 86773.6,
+    "priceEUR": 75686.3,
+    "change24h": 6.911438568823623
   },
   "history": [
     {
@@ -7322,7 +7317,12 @@
       "t": "2026-09-21T17:50:39.071Z",
       "equityEUR": 190.32,
       "priceEUR": 74839.7
+    },
+    {
+      "t": "2026-09-21T21:40:49.914Z",
+      "equityEUR": 198.39,
+      "priceEUR": 75686.3
     }
   ],
-  "lastRun": "2026-09-21T17:50:39.071Z"
+  "lastRun": "2026-09-21T21:40:49.914Z"
 }
