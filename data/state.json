@@ -5,45 +5,10 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 97.16,
-  "equityEUR": 183.45,
+  "balanceEUR": 190.31692980148844,
+  "equityEUR": 190.32,
   "stopped": false,
-  "openPositions": [
-    {
-      "id": "7f8cdb23-ebc5-47af-9109-5baebd25fcb1",
-      "side": "LONG",
-      "entryPrice": 69726.8,
-      "entryTime": "2026-09-18T13:50:46.430Z",
-      "sizeEUR": 43.18,
-      "notionalEUR": 647.7,
-      "leverage": 15,
-      "qtyBTC": 0.00928911,
-      "sl": 68919.56,
-      "tp": 71341.28,
-      "slPct": 1.16,
-      "tpPct": 2.32,
-      "signalScore": 1.12,
-      "signalStrength": 0.14,
-      "status": "OPEN"
-    },
-    {
-      "id": "aaea495a-d122-4f65-a438-fd66a20ecd72",
-      "side": "SHORT",
-      "entryPrice": 70819.5,
-      "entryTime": "2026-09-19T09:09:42.456Z",
-      "sizeEUR": 32.39,
-      "notionalEUR": 485.85,
-      "leverage": 15,
-      "qtyBTC": 0.0068604,
-      "sl": 71702.34,
-      "tp": 69053.82,
-      "slPct": 1.25,
-      "tpPct": 2.49,
-      "signalScore": -2,
-      "signalStrength": 0.25,
-      "status": "OPEN"
-    }
-  ],
+  "openPositions": [],
   "trades": [
     {
       "id": "5f4a6be1-7c72-41de-a1ee-0ad7afb78691",
@@ -620,22 +585,54 @@
       "pnlPct": 4.58,
       "reason": "TP",
       "status": "CLOSED"
+    },
+    {
+      "id": "7f8cdb23-ebc5-47af-9109-5baebd25fcb1",
+      "side": "LONG",
+      "entryPrice": 69726.8,
+      "entryTime": "2026-09-18T13:50:46.430Z",
+      "exitPrice": 73881.5,
+      "exitTime": "2026-09-21T11:55:20.825Z",
+      "sizeEUR": 43.18,
+      "notionalEUR": 647.7,
+      "leverage": 15,
+      "qtyBTC": 0.00928911,
+      "pnlEUR": 38.59,
+      "pnlPct": 5.96,
+      "reason": "TP",
+      "status": "CLOSED"
+    },
+    {
+      "id": "aaea495a-d122-4f65-a438-fd66a20ecd72",
+      "side": "SHORT",
+      "entryPrice": 70819.5,
+      "entryTime": "2026-09-19T09:09:42.456Z",
+      "exitPrice": 73881.5,
+      "exitTime": "2026-09-21T11:55:20.825Z",
+      "sizeEUR": 32.39,
+      "notionalEUR": 485.85,
+      "leverage": 15,
+      "qtyBTC": 0.0068604,
+      "pnlEUR": -21.01,
+      "pnlPct": -4.32,
+      "reason": "SL",
+      "status": "CLOSED"
     }
   ],
   "lastSignal": {
-    "price": 81565.68390870531,
+    "price": 84858.94947735505,
     "direction": "LONG",
-    "score": 3.78,
-    "strength": 0.47,
-    "atr14": 740.1983840945505,
+    "score": 0.45,
+    "strength": 0.06,
+    "atr14": 729.910823003006,
     "indicators": {
-      "ema20": 81120.55332005017,
-      "ema50": 80722.39519714187,
-      "rsi14": 60.39619587289893,
-      "macdHist": 49.76411016041544,
-      "bbUpper": 81761.42357710545,
-      "bbMid": 81022.27086597333,
-      "bbLower": 80283.11815484121
+      "ema20": 82281.86467259658,
+      "ema50": 81330.28697926628,
+      "rsi14": 81.7871990674883,
+      "macdHist": 390.82659650156256,
+      "bbUpper": 84465.76955582501,
+      "bbMid": 81905.16956880949,
+      "bbLower": 79344.56958179397
     },
     "fearGreed": {
       "value": 70,
@@ -644,6 +641,26 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin's 44% gain in third quarter teases full-blown crypto bull run",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Bitcoin hits $85,000 as short squeeze forces out $648 million of bearish bets",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "X sues Bitcoin account operators over alleged $278K payout fraud",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Live updates: Bitcoin hits $85,000 as short liquidations hit $300 million in an hour",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin reclaims 50-week moving average as analysts eye end of bear market",
         "source": "Cointelegraph",
@@ -658,33 +675,28 @@
         "title": "'We have lost control': Crypto pioneer warns AI could trigger systemic banking and infrastructure shocks",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Hong Kong jails ex-banker over $1.6B false credit, cryptocurrency bribes: Report",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=81121 vs EMA50=80722",
+        "detail": "EMA20=82282 vs EMA50=81330",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "60.4",
-        "points": 0.5
+        "detail": "81.8",
+        "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "49.8",
+        "detail": "390.8",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 81566 vs [80283, 81761]",
-        "points": 0
+        "detail": "prix 84859 vs [79345, 84466]",
+        "points": -1
       },
       {
         "factor": "Fear & Greed Index",
@@ -693,14 +705,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "16 articles pertinents, score brut -2",
-        "points": -0.67
+        "detail": "25 articles pertinents, score brut -3",
+        "points": -1
       }
     ],
-    "computedAt": "2026-09-21T05:51:46.061Z",
-    "priceUSD": 81535.8,
-    "priceEUR": 71054.5,
-    "change24h": 0.4580848652111809
+    "computedAt": "2026-09-21T11:55:20.823Z",
+    "priceUSD": 84822.5,
+    "priceEUR": 73881.5,
+    "change24h": 4.507540288797989
   },
   "history": [
     {
@@ -7277,7 +7289,12 @@
       "t": "2026-09-21T05:51:46.064Z",
       "equityEUR": 183.45,
       "priceEUR": 71054.5
+    },
+    {
+      "t": "2026-09-21T11:55:20.825Z",
+      "equityEUR": 190.32,
+      "priceEUR": 73881.5
     }
   ],
-  "lastRun": "2026-09-21T05:51:46.064Z"
+  "lastRun": "2026-09-21T11:55:20.825Z"
 }
