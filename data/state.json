@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 107.05,
-  "equityEUR": 195.52,
+  "equityEUR": 193.14,
   "stopped": false,
   "openPositions": [
     {
@@ -655,19 +655,19 @@
     }
   ],
   "lastSignal": {
-    "price": 86417.87411162019,
-    "direction": "SHORT",
-    "score": -2.12,
-    "strength": 0.26,
-    "atr14": 976.9956681160922,
+    "price": 85397.97139885722,
+    "direction": "LONG",
+    "score": 0.22,
+    "strength": 0.03,
+    "atr14": 997.9297926175956,
     "indicators": {
-      "ema20": 85194.9650176767,
-      "ema50": 83307.24656621984,
-      "rsi14": 74.2068687143577,
-      "macdHist": -5.085982234083531,
-      "bbUpper": 88467.78193939613,
-      "bbMid": 85119.72448701983,
-      "bbLower": 81771.66703464354
+      "ema20": 85289.09738874178,
+      "ema50": 83626.87165393653,
+      "rsi14": 57.50436669387244,
+      "macdHist": -245.88543358516336,
+      "bbUpper": 87093.13936289548,
+      "bbMid": 85781.12305253466,
+      "bbLower": 84469.10674217384
     },
     "fearGreed": {
       "value": 78,
@@ -676,6 +676,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Dogecoin leads market rebound with 15% pump, bitcoin steady above $85,000",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "Bitcoin price tags $86K as analysis sees crypto in ‘new bull market’",
         "source": "Cointelegraph",
@@ -715,22 +720,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=85195 vs EMA50=83307",
+        "detail": "EMA20=85289 vs EMA50=83627",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "74.2",
-        "points": -1.5
+        "detail": "57.5",
+        "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-5.1",
+        "detail": "-245.9",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 86418 vs [81772, 88468]",
+        "detail": "prix 85398 vs [84469, 87093]",
         "points": 0
       },
       {
@@ -740,14 +745,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 1",
-        "points": 0.33
+        "detail": "30 articles pertinents, score brut 2",
+        "points": 0.67
       }
     ],
-    "computedAt": "2026-09-22T00:17:20.211Z",
-    "priceUSD": 86445,
-    "priceEUR": 75385.5,
-    "change24h": -0.17667844522968199
+    "computedAt": "2026-09-22T05:14:03.847Z",
+    "priceUSD": 85396.6,
+    "priceEUR": 74406.5,
+    "change24h": -1.387329961430973
   },
   "history": [
     {
@@ -7344,7 +7349,12 @@
       "t": "2026-09-22T00:17:20.214Z",
       "equityEUR": 195.52,
       "priceEUR": 75385.5
+    },
+    {
+      "t": "2026-09-22T05:14:03.850Z",
+      "equityEUR": 193.14,
+      "priceEUR": 74406.5
     }
   ],
-  "lastRun": "2026-09-22T00:17:20.214Z"
+  "lastRun": "2026-09-22T05:14:03.850Z"
 }
