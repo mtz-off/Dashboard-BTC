@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 107.05,
-  "equityEUR": 195.68,
+  "equityEUR": 195.48,
   "stopped": false,
   "openPositions": [
     {
@@ -655,19 +655,19 @@
     }
   ],
   "lastSignal": {
-    "price": 86367.65056647225,
-    "direction": "LONG",
-    "score": 0.67,
-    "strength": 0.08,
-    "atr14": 978.1003667652936,
+    "price": 86262.52591678551,
+    "direction": "SHORT",
+    "score": -0.12,
+    "strength": 0.01,
+    "atr14": 948.2605917281273,
     "indicators": {
-      "ema20": 85890.48547020224,
-      "ema50": 84609.61054447768,
-      "rsi14": 64.50365347470529,
-      "macdHist": -68.04339720851067,
-      "bbUpper": 86758.17273733632,
-      "bbMid": 85966.27917097522,
-      "bbLower": 85174.38560461412
+      "ema20": 86038.05624659486,
+      "ema50": 84866.83338209576,
+      "rsi14": 59.75664172805129,
+      "macdHist": -85.00142391557898,
+      "bbUpper": 86794.32533576217,
+      "bbMid": 86011.77340164618,
+      "bbLower": 85229.22146753018
     },
     "fearGreed": {
       "value": 78,
@@ -676,6 +676,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Crypto market structure can't wait for shot at post-election Clarity Act surge: White House",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "White-Hat Hackers Route Coldcard Exploit Bitcoin Into &#39;Recovery Trust&#39;",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
       {
         "title": "Next for the U.S. SEC: Agency's chief crypto counsel illuminates path for custody",
         "source": "CoinDesk",
@@ -705,37 +715,27 @@
         "title": "Spot bitcoin ETFs attracted nearly $1 billion on Monday, the 9th largest inflow ever",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Bitcoin ETFs flirt with $1B as inflows hit 2026 high",
-        "source": "Cointelegraph",
-        "itemScore": 1
-      },
-      {
-        "title": "Dogecoin leads market rebound with 15% pump, bitcoin steady above $85,000",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=85890 vs EMA50=84610",
+        "detail": "EMA20=86038 vs EMA50=84867",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "64.5",
+        "detail": "59.8",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-68.0",
-        "points": -1.5
+        "detail": "-85.0",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 86368 vs [85174, 86758]",
+        "detail": "prix 86263 vs [85229, 86794]",
         "points": 0
       },
       {
@@ -745,14 +745,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 2",
-        "points": 0.67
+        "detail": "30 articles pertinents, score brut 1",
+        "points": 0.33
       }
     ],
-    "computedAt": "2026-09-22T18:28:39.801Z",
-    "priceUSD": 86340.8,
-    "priceEUR": 75447.2,
-    "change24h": -0.29700454975865154
+    "computedAt": "2026-09-22T21:35:52.123Z",
+    "priceUSD": 86289.4,
+    "priceEUR": 75366.8,
+    "change24h": -0.3563592692671953
   },
   "history": [
     {
@@ -7369,7 +7369,12 @@
       "t": "2026-09-22T18:28:39.805Z",
       "equityEUR": 195.68,
       "priceEUR": 75447.2
+    },
+    {
+      "t": "2026-09-22T21:35:52.126Z",
+      "equityEUR": 195.48,
+      "priceEUR": 75366.8
     }
   ],
-  "lastRun": "2026-09-22T18:28:39.805Z"
+  "lastRun": "2026-09-22T21:35:52.126Z"
 }
