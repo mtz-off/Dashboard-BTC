@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 107.05,
-  "equityEUR": 193.14,
+  "equityEUR": 195,
   "stopped": false,
   "openPositions": [
     {
@@ -655,19 +655,19 @@
     }
   ],
   "lastSignal": {
-    "price": 85397.97139885722,
+    "price": 86214.10871733126,
     "direction": "LONG",
-    "score": 0.22,
-    "strength": 0.03,
-    "atr14": 997.9297926175956,
+    "score": 1.33,
+    "strength": 0.17,
+    "atr14": 967.8567957952679,
     "indicators": {
-      "ema20": 85289.09738874178,
-      "ema50": 83626.87165393653,
-      "rsi14": 57.50436669387244,
-      "macdHist": -245.88543358516336,
-      "bbUpper": 87093.13936289548,
-      "bbMid": 85781.12305253466,
-      "bbLower": 84469.10674217384
+      "ema20": 85470.65560072596,
+      "ema50": 84006.52189504066,
+      "rsi14": 66.13373269526727,
+      "macdHist": -178.06921978603305,
+      "bbUpper": 86890.37567652622,
+      "bbMid": 85977.21008647725,
+      "bbLower": 85064.04449642828
     },
     "fearGreed": {
       "value": 78,
@@ -676,6 +676,21 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "White hats outrun Coldcard hackers in 52-Bitcoin evacuation",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Spot bitcoin ETFs attracted nearly $1 billion on Monday, the 9th largest inflow ever",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Bitcoin ETFs flirt with $1B as inflows hit 2026 high",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
       {
         "title": "Dogecoin leads market rebound with 15% pump, bitcoin steady above $85,000",
         "source": "CoinDesk",
@@ -700,42 +715,27 @@
         "title": "Bitcoin Tops $85K as $648M in Crypto Shorts Liquidated",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin's 44% gain in third quarter teases full-blown crypto bull run",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "Bitcoin hits $85,000 as short squeeze forces out $648 million of bearish bets",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "X sues Bitcoin account operators over alleged $278K payout fraud",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=85289 vs EMA50=83627",
+        "detail": "EMA20=85471 vs EMA50=84007",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "57.5",
+        "detail": "66.1",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-245.9",
-        "points": -1.95
+        "detail": "-178.1",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 85398 vs [84469, 87093]",
+        "detail": "prix 86214 vs [85064, 86890]",
         "points": 0
       },
       {
@@ -745,14 +745,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 2",
-        "points": 0.67
+        "detail": "30 articles pertinents, score brut 4",
+        "points": 1.33
       }
     ],
-    "computedAt": "2026-09-22T05:14:03.847Z",
-    "priceUSD": 85396.6,
-    "priceEUR": 74406.5,
-    "change24h": -1.387329961430973
+    "computedAt": "2026-09-22T10:01:17.852Z",
+    "priceUSD": 86203.5,
+    "priceEUR": 75171.6,
+    "change24h": -0.4555532460333957
   },
   "history": [
     {
@@ -7354,7 +7354,12 @@
       "t": "2026-09-22T05:14:03.850Z",
       "equityEUR": 193.14,
       "priceEUR": 74406.5
+    },
+    {
+      "t": "2026-09-22T10:01:17.854Z",
+      "equityEUR": 195,
+      "priceEUR": 75171.6
     }
   ],
-  "lastRun": "2026-09-22T05:14:03.850Z"
+  "lastRun": "2026-09-22T10:01:17.854Z"
 }
