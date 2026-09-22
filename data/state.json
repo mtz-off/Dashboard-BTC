@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 107.05,
-  "equityEUR": 194.96,
+  "equityEUR": 195.68,
   "stopped": false,
   "openPositions": [
     {
@@ -655,19 +655,19 @@
     }
   ],
   "lastSignal": {
-    "price": 85996.75363938167,
+    "price": 86367.65056647225,
     "direction": "LONG",
-    "score": 0.22,
-    "strength": 0.03,
-    "atr14": 971.3218143588689,
+    "score": 0.67,
+    "strength": 0.08,
+    "atr14": 978.1003667652936,
     "indicators": {
-      "ema20": 85695.39320315579,
-      "ema50": 84374.23818938195,
-      "rsi14": 59.293392189963704,
-      "macdHist": -116.89746726125145,
-      "bbUpper": 86921.68723116662,
-      "bbMid": 86001.87687028534,
-      "bbLower": 85082.06650940406
+      "ema20": 85890.48547020224,
+      "ema50": 84609.61054447768,
+      "rsi14": 64.50365347470529,
+      "macdHist": -68.04339720851067,
+      "bbUpper": 86758.17273733632,
+      "bbMid": 85966.27917097522,
+      "bbLower": 85174.38560461412
     },
     "fearGreed": {
       "value": 78,
@@ -676,6 +676,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Next for the U.S. SEC: Agency's chief crypto counsel illuminates path for custody",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "European central banks push to expand stablecoin yield ban to crypto lending and staking",
         "source": "CoinDesk",
@@ -710,32 +715,27 @@
         "title": "Dogecoin leads market rebound with 15% pump, bitcoin steady above $85,000",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Bitcoin price tags $86K as analysis sees crypto in ‘new bull market’",
-        "source": "Cointelegraph",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=85695 vs EMA50=84374",
+        "detail": "EMA20=85890 vs EMA50=84610",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "59.3",
+        "detail": "64.5",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-116.9",
-        "points": -1.95
+        "detail": "-68.0",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 85997 vs [85082, 86922]",
+        "detail": "prix 86368 vs [85174, 86758]",
         "points": 0
       },
       {
@@ -749,10 +749,10 @@
         "points": 0.67
       }
     ],
-    "computedAt": "2026-09-22T14:52:18.098Z",
-    "priceUSD": 86000.6,
-    "priceEUR": 75153.5,
-    "change24h": -0.6898542691517058
+    "computedAt": "2026-09-22T18:28:39.801Z",
+    "priceUSD": 86340.8,
+    "priceEUR": 75447.2,
+    "change24h": -0.29700454975865154
   },
   "history": [
     {
@@ -7364,7 +7364,12 @@
       "t": "2026-09-22T14:52:18.101Z",
       "equityEUR": 194.96,
       "priceEUR": 75153.5
+    },
+    {
+      "t": "2026-09-22T18:28:39.805Z",
+      "equityEUR": 195.68,
+      "priceEUR": 75447.2
     }
   ],
-  "lastRun": "2026-09-22T14:52:18.101Z"
+  "lastRun": "2026-09-22T18:28:39.805Z"
 }
