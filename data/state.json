@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 107.05,
-  "equityEUR": 195,
+  "equityEUR": 194.96,
   "stopped": false,
   "openPositions": [
     {
@@ -655,19 +655,19 @@
     }
   ],
   "lastSignal": {
-    "price": 86214.10871733126,
+    "price": 85996.75363938167,
     "direction": "LONG",
-    "score": 1.33,
-    "strength": 0.17,
-    "atr14": 967.8567957952679,
+    "score": 0.22,
+    "strength": 0.03,
+    "atr14": 971.3218143588689,
     "indicators": {
-      "ema20": 85470.65560072596,
-      "ema50": 84006.52189504066,
-      "rsi14": 66.13373269526727,
-      "macdHist": -178.06921978603305,
-      "bbUpper": 86890.37567652622,
-      "bbMid": 85977.21008647725,
-      "bbLower": 85064.04449642828
+      "ema20": 85695.39320315579,
+      "ema50": 84374.23818938195,
+      "rsi14": 59.293392189963704,
+      "macdHist": -116.89746726125145,
+      "bbUpper": 86921.68723116662,
+      "bbMid": 86001.87687028534,
+      "bbLower": 85082.06650940406
     },
     "fearGreed": {
       "value": 78,
@@ -676,6 +676,21 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "European central banks push to expand stablecoin yield ban to crypto lending and staking",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Binance probed by U.S. federal prosecutors for sanctions violations: Bloomberg",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Crypto market cap reclaims $3 trillion as Bitcoin, altcoins rally",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
       {
         "title": "White hats outrun Coldcard hackers in 52-Bitcoin evacuation",
         "source": "Cointelegraph",
@@ -700,42 +715,27 @@
         "title": "Bitcoin price tags $86K as analysis sees crypto in ‘new bull market’",
         "source": "Cointelegraph",
         "itemScore": 1
-      },
-      {
-        "title": "Bitcoin Is Rallying Again—What Happens Next?",
-        "source": "Decrypt",
-        "itemScore": 1
-      },
-      {
-        "title": "Tom Lee&#39;s Bitmine Adds $74M in Ethereum, Declares a Crypto Bull Market &#39;Underway&#39;",
-        "source": "Decrypt",
-        "itemScore": 1
-      },
-      {
-        "title": "Bitcoin Tops $85K as $648M in Crypto Shorts Liquidated",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=85471 vs EMA50=84007",
+        "detail": "EMA20=85695 vs EMA50=84374",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "66.1",
+        "detail": "59.3",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-178.1",
-        "points": -1.5
+        "detail": "-116.9",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 86214 vs [85064, 86890]",
+        "detail": "prix 85997 vs [85082, 86922]",
         "points": 0
       },
       {
@@ -745,14 +745,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 4",
-        "points": 1.33
+        "detail": "30 articles pertinents, score brut 2",
+        "points": 0.67
       }
     ],
-    "computedAt": "2026-09-22T10:01:17.852Z",
-    "priceUSD": 86203.5,
-    "priceEUR": 75171.6,
-    "change24h": -0.4555532460333957
+    "computedAt": "2026-09-22T14:52:18.098Z",
+    "priceUSD": 86000.6,
+    "priceEUR": 75153.5,
+    "change24h": -0.6898542691517058
   },
   "history": [
     {
@@ -7359,7 +7359,12 @@
       "t": "2026-09-22T10:01:17.854Z",
       "equityEUR": 195,
       "priceEUR": 75171.6
+    },
+    {
+      "t": "2026-09-22T14:52:18.101Z",
+      "equityEUR": 194.96,
+      "priceEUR": 75153.5
     }
   ],
-  "lastRun": "2026-09-22T10:01:17.854Z"
+  "lastRun": "2026-09-22T14:52:18.101Z"
 }
