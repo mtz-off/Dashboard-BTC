@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 107.05,
-  "equityEUR": 195.77,
+  "equityEUR": 194.89,
   "stopped": false,
   "openPositions": [
     {
@@ -655,19 +655,19 @@
     }
   ],
   "lastSignal": {
-    "price": 86152.8574508402,
-    "direction": "SHORT",
-    "score": -0.28,
-    "strength": 0.04,
-    "atr14": 922.1189105361117,
+    "price": 85661.55422362448,
+    "direction": "LONG",
+    "score": 0.67,
+    "strength": 0.08,
+    "atr14": 913.8073187922074,
     "indicators": {
-      "ema20": 86293.41226785666,
-      "ema50": 85420.79243499062,
-      "rsi14": 50.112947537458176,
-      "macdHist": -88.70885943761743,
-      "bbUpper": 86864.1999685433,
-      "bbMid": 86387.1035727246,
-      "bbLower": 85910.00717690591
+      "ema20": 86040.90417130072,
+      "ema50": 85463.00190712954,
+      "rsi14": 43.611369558703615,
+      "macdHist": -151.97782504823803,
+      "bbUpper": 86982.28062150613,
+      "bbMid": 86204.78848512174,
+      "bbLower": 85427.29634873735
     },
     "fearGreed": {
       "value": 71,
@@ -677,6 +677,16 @@
     "fundingRate": null,
     "newsHighlights": [
       {
+        "title": "Bitcoin consolidates near $86,000 as rally narrows and Brent slips below $100",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Bitcoin bull market ‘confirmed’ but $90K presents profit-taking risk: Analysis",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
         "title": "Crypto market structure can't wait for shot at post-election Clarity Act surge: White House",
         "source": "CoinDesk",
         "itemScore": 1
@@ -685,42 +695,27 @@
         "title": "White-Hat Hackers Route Coldcard Exploit Bitcoin Into &#39;Recovery Trust&#39;",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "Next for the U.S. SEC: Agency's chief crypto counsel illuminates path for custody",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "European central banks push to expand stablecoin yield ban to crypto lending and staking",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Binance probed by U.S. federal prosecutors for sanctions violations: Bloomberg",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=86293 vs EMA50=85421",
+        "detail": "EMA20=86041 vs EMA50=85463",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "50.1",
-        "points": 0
+        "detail": "43.6",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-88.7",
-        "points": -1.95
+        "detail": "-152.0",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 86153 vs [85910, 86864]",
+        "detail": "prix 85662 vs [85427, 86982]",
         "points": 0
       },
       {
@@ -730,14 +725,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -1",
-        "points": -0.33
+        "detail": "30 articles pertinents, score brut 2",
+        "points": 0.67
       }
     ],
-    "computedAt": "2026-09-23T08:33:46.436Z",
-    "priceUSD": 86191,
-    "priceEUR": 75485.4,
-    "change24h": -0.00974484741192419
+    "computedAt": "2026-09-23T13:51:24.435Z",
+    "priceUSD": 85604.6,
+    "priceEUR": 75124.6,
+    "change24h": -0.690028004835287
   },
   "history": [
     {
@@ -7374,7 +7369,12 @@
       "t": "2026-09-23T08:33:46.439Z",
       "equityEUR": 195.77,
       "priceEUR": 75485.4
+    },
+    {
+      "t": "2026-09-23T13:51:24.438Z",
+      "equityEUR": 194.89,
+      "priceEUR": 75124.6
     }
   ],
-  "lastRun": "2026-09-23T08:33:46.439Z"
+  "lastRun": "2026-09-23T13:51:24.438Z"
 }
