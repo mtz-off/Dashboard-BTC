@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 107.05,
-  "equityEUR": 194.89,
+  "equityEUR": 191.97,
   "stopped": false,
   "openPositions": [
     {
@@ -655,19 +655,19 @@
     }
   ],
   "lastSignal": {
-    "price": 85661.55422362448,
+    "price": 84246.57198162652,
     "direction": "LONG",
-    "score": 0.67,
-    "strength": 0.08,
-    "atr14": 913.8073187922074,
+    "score": 0.55,
+    "strength": 0.07,
+    "atr14": 984.1490794322748,
     "indicators": {
-      "ema20": 86040.90417130072,
-      "ema50": 85463.00190712954,
-      "rsi14": 43.611369558703615,
-      "macdHist": -151.97782504823803,
-      "bbUpper": 86982.28062150613,
-      "bbMid": 86204.78848512174,
-      "bbLower": 85427.29634873735
+      "ema20": 85562.79143135472,
+      "ema50": 85320.90949899278,
+      "rsi14": 33.62317663996663,
+      "macdHist": -287.1991691855499,
+      "bbUpper": 87532.41163556544,
+      "bbMid": 85889.22246772054,
+      "bbLower": 84246.03329987563
     },
     "fearGreed": {
       "value": 71,
@@ -676,6 +676,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Inside the FBI’s little-known annual crypto crime gathering",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Bitcoin long liquidations hit $280M as BTC price dips under $84K",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin consolidates near $86,000 as rally narrows and Brent slips below $100",
         "source": "CoinDesk",
@@ -687,35 +697,30 @@
         "itemScore": 1
       },
       {
-        "title": "Crypto market structure can't wait for shot at post-election Clarity Act surge: White House",
+        "title": "BlackRock says AI agents could drive stablecoin and crypto adoption",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "White-Hat Hackers Route Coldcard Exploit Bitcoin Into &#39;Recovery Trust&#39;",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=86041 vs EMA50=85463",
+        "detail": "EMA20=85563 vs EMA50=85321",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "43.6",
+        "detail": "33.6",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-152.0",
-        "points": -1.5
+        "detail": "-287.2",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 85662 vs [85427, 86982]",
+        "detail": "prix 84247 vs [84246, 87532]",
         "points": 0
       },
       {
@@ -725,14 +730,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 2",
-        "points": 0.67
+        "detail": "30 articles pertinents, score brut 3",
+        "points": 1
       }
     ],
-    "computedAt": "2026-09-23T13:51:24.435Z",
-    "priceUSD": 85604.6,
-    "priceEUR": 75124.6,
-    "change24h": -0.690028004835287
+    "computedAt": "2026-09-23T18:13:40.339Z",
+    "priceUSD": 84238,
+    "priceEUR": 73926.9,
+    "change24h": -2.2754218706858684
   },
   "history": [
     {
@@ -7374,7 +7379,12 @@
       "t": "2026-09-23T13:51:24.438Z",
       "equityEUR": 194.89,
       "priceEUR": 75124.6
+    },
+    {
+      "t": "2026-09-23T18:13:40.342Z",
+      "equityEUR": 191.97,
+      "priceEUR": 73926.9
     }
   ],
-  "lastRun": "2026-09-23T13:51:24.438Z"
+  "lastRun": "2026-09-23T18:13:40.342Z"
 }
