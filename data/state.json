@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 143.85674877103997,
-  "equityEUR": 193.04,
+  "equityEUR": 189.53,
   "stopped": false,
   "openPositions": [
     {
@@ -654,19 +654,19 @@
     }
   ],
   "lastSignal": {
-    "price": 83566.49811058505,
-    "direction": "LONG",
-    "score": 0,
-    "strength": 0,
-    "atr14": 913.131509095569,
+    "price": 84250.41970775387,
+    "direction": "SHORT",
+    "score": -0.72,
+    "strength": 0.09,
+    "atr14": 965.3668534828665,
     "indicators": {
-      "ema20": 84433.68767752341,
-      "ema50": 84784.7288163359,
-      "rsi14": 35.886012092649196,
-      "macdHist": 9.141466093000759,
-      "bbUpper": 85140.8404338791,
-      "bbMid": 84283.32215625547,
-      "bbLower": 83425.80387863184
+      "ema20": 84127.1595674503,
+      "ema50": 84575.48528616097,
+      "rsi14": 49.16261929391082,
+      "macdHist": 40.738164659400354,
+      "bbUpper": 84834.04271819892,
+      "bbMid": 84065.65800292589,
+      "bbLower": 83297.27328765286
     },
     "fearGreed": {
       "value": 71,
@@ -676,6 +676,16 @@
     "fundingRate": null,
     "newsHighlights": [
       {
+        "title": "EU banking watchdog calls for crypto lending rules under MiCA",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Traders price in 4 Fed rate hikes by June 2027 as bitcoin slides below $83,000",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
         "title": "Inside the FBI’s little-known annual crypto crime gathering",
         "source": "CoinDesk",
         "itemScore": 1
@@ -684,42 +694,27 @@
         "title": "Bitcoin long liquidations hit $280M as BTC price dips under $84K",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin consolidates near $86,000 as rally narrows and Brent slips below $100",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "Bitcoin bull market ‘confirmed’ but $90K presents profit-taking risk: Analysis",
-        "source": "Cointelegraph",
-        "itemScore": 1
-      },
-      {
-        "title": "BlackRock says AI agents could drive stablecoin and crypto adoption",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=84434 vs EMA50=84785",
+        "detail": "EMA20=84127 vs EMA50=84575",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "35.9",
-        "points": -0.5
+        "detail": "49.2",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "9.1",
-        "points": 1.5
+        "detail": "40.7",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 83566 vs [83426, 85141]",
+        "detail": "prix 84250 vs [83297, 84834]",
         "points": 0
       },
       {
@@ -729,14 +724,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 3",
-        "points": 1
+        "detail": "30 articles pertinents, score brut -2",
+        "points": -0.67
       }
     ],
-    "computedAt": "2026-09-24T09:10:04.886Z",
-    "priceUSD": 83584,
-    "priceEUR": 73485,
-    "change24h": -0.9486339315869621
+    "computedAt": "2026-09-24T14:12:11.309Z",
+    "priceUSD": 84148.5,
+    "priceEUR": 73979.1,
+    "change24h": -0.2796722146839763
   },
   "history": [
     {
@@ -7403,7 +7398,12 @@
       "t": "2026-09-24T09:10:04.889Z",
       "equityEUR": 193.04,
       "priceEUR": 73485
+    },
+    {
+      "t": "2026-09-24T14:12:11.312Z",
+      "equityEUR": 189.53,
+      "priceEUR": 73979.1
     }
   ],
-  "lastRun": "2026-09-24T09:10:04.889Z"
+  "lastRun": "2026-09-24T14:12:11.312Z"
 }
