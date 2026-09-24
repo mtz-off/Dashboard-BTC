@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 143.85674877103997,
-  "equityEUR": 189.53,
+  "equityEUR": 187.81,
   "stopped": false,
   "openPositions": [
     {
@@ -654,19 +654,19 @@
     }
   ],
   "lastSignal": {
-    "price": 84250.41970775387,
+    "price": 84346.7348143675,
     "direction": "SHORT",
     "score": -0.72,
     "strength": 0.09,
-    "atr14": 965.3668534828665,
+    "atr14": 1004.3975972992569,
     "indicators": {
-      "ema20": 84127.1595674503,
-      "ema50": 84575.48528616097,
-      "rsi14": 49.16261929391082,
-      "macdHist": 40.738164659400354,
-      "bbUpper": 84834.04271819892,
-      "bbMid": 84065.65800292589,
-      "bbLower": 83297.27328765286
+      "ema20": 84143.1035315212,
+      "ema50": 84498.6346295612,
+      "rsi14": 50.95841530247245,
+      "macdHist": 125.0925213004578,
+      "bbUpper": 84743.38879504571,
+      "bbMid": 84000.0776639574,
+      "bbLower": 83256.7665328691
     },
     "fearGreed": {
       "value": 71,
@@ -676,6 +676,16 @@
     "fundingRate": null,
     "newsHighlights": [
       {
+        "title": "Bitcoin Breakout Cools as Fed Rate-Hike Bets Climb",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
+      {
+        "title": "Crypto casino Duelbits goes offline after $7 million hot wallet hack",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
         "title": "EU banking watchdog calls for crypto lending rules under MiCA",
         "source": "Cointelegraph",
         "itemScore": -1
@@ -684,37 +694,27 @@
         "title": "Traders price in 4 Fed rate hikes by June 2027 as bitcoin slides below $83,000",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Inside the FBI’s little-known annual crypto crime gathering",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "Bitcoin long liquidations hit $280M as BTC price dips under $84K",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=84127 vs EMA50=84575",
+        "detail": "EMA20=84143 vs EMA50=84499",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "49.2",
+        "detail": "51.0",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "40.7",
+        "detail": "125.1",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 84250 vs [83297, 84834]",
+        "detail": "prix 84347 vs [83257, 84743]",
         "points": 0
       },
       {
@@ -728,10 +728,10 @@
         "points": -0.67
       }
     ],
-    "computedAt": "2026-09-24T14:12:11.309Z",
-    "priceUSD": 84148.5,
-    "priceEUR": 73979.1,
-    "change24h": -0.2796722146839763
+    "computedAt": "2026-09-24T18:25:50.971Z",
+    "priceUSD": 84394.4,
+    "priceEUR": 74221.3,
+    "change24h": 0.011732012395634482
   },
   "history": [
     {
@@ -7403,7 +7403,12 @@
       "t": "2026-09-24T14:12:11.312Z",
       "equityEUR": 189.53,
       "priceEUR": 73979.1
+    },
+    {
+      "t": "2026-09-24T18:25:50.975Z",
+      "equityEUR": 187.81,
+      "priceEUR": 74221.3
     }
   ],
-  "lastRun": "2026-09-24T14:12:11.312Z"
+  "lastRun": "2026-09-24T18:25:50.975Z"
 }
