@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 143.85674877103997,
-  "equityEUR": 187.81,
+  "equityEUR": 187.91,
   "stopped": false,
   "openPositions": [
     {
@@ -654,19 +654,19 @@
     }
   ],
   "lastSignal": {
-    "price": 84346.7348143675,
+    "price": 84421.59278089962,
     "direction": "SHORT",
-    "score": -0.72,
-    "strength": 0.09,
-    "atr14": 1004.3975972992569,
+    "score": -1.17,
+    "strength": 0.15,
+    "atr14": 999.5026787560967,
     "indicators": {
-      "ema20": 84143.1035315212,
-      "ema50": 84498.6346295612,
-      "rsi14": 50.95841530247245,
-      "macdHist": 125.0925213004578,
-      "bbUpper": 84743.38879504571,
-      "bbMid": 84000.0776639574,
-      "bbLower": 83256.7665328691
+      "ema20": 84211.99325882112,
+      "ema50": 84488.74291937429,
+      "rsi14": 51.75213141645458,
+      "macdHist": 127.68748754393292,
+      "bbUpper": 84800.69341270406,
+      "bbMid": 84023.15732248733,
+      "bbLower": 83245.6212322706
     },
     "fearGreed": {
       "value": 71,
@@ -699,22 +699,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=84143 vs EMA50=84499",
+        "detail": "EMA20=84212 vs EMA50=84489",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "51.0",
+        "detail": "51.8",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "125.1",
-        "points": 1.95
+        "detail": "127.7",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 84347 vs [83257, 84743]",
+        "detail": "prix 84422 vs [83246, 84801]",
         "points": 0
       },
       {
@@ -724,14 +724,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -2",
+        "detail": "29 articles pertinents, score brut -2",
         "points": -0.67
       }
     ],
-    "computedAt": "2026-09-24T18:25:50.971Z",
-    "priceUSD": 84394.4,
-    "priceEUR": 74221.3,
-    "change24h": 0.011732012395634482
+    "computedAt": "2026-09-24T21:41:01.775Z",
+    "priceUSD": 84424.1,
+    "priceEUR": 74208,
+    "change24h": 0.04692804958257241
   },
   "history": [
     {
@@ -7408,7 +7408,12 @@
       "t": "2026-09-24T18:25:50.975Z",
       "equityEUR": 187.81,
       "priceEUR": 74221.3
+    },
+    {
+      "t": "2026-09-24T21:41:01.777Z",
+      "equityEUR": 187.91,
+      "priceEUR": 74208
     }
   ],
-  "lastRun": "2026-09-24T18:25:50.975Z"
+  "lastRun": "2026-09-24T21:41:01.777Z"
 }
