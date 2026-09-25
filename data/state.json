@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 143.85674877103997,
-  "equityEUR": 192.33,
+  "equityEUR": 191.3,
   "stopped": false,
   "openPositions": [
     {
@@ -654,19 +654,19 @@
     }
   ],
   "lastSignal": {
-    "price": 83841.65520347387,
+    "price": 83979.75682176428,
     "direction": "SHORT",
-    "score": -2.78,
-    "strength": 0.35,
-    "atr14": 936.1258253741441,
+    "score": -2.5,
+    "strength": 0.31,
+    "atr14": 970.487131877868,
     "indicators": {
-      "ema20": 84258.36753660896,
-      "ema50": 84387.20590183105,
-      "rsi14": 41.29096962717355,
-      "macdHist": -25.3494218644888,
-      "bbUpper": 84761.33104293745,
-      "bbMid": 84303.71542926363,
-      "bbLower": 83846.0998155898
+      "ema20": 84107.72711972911,
+      "ema50": 84293.7215780896,
+      "rsi14": 45.762189701885006,
+      "macdHist": -39.308834391783364,
+      "bbUpper": 84784.59577017887,
+      "bbMid": 84188.19444979711,
+      "bbLower": 83591.79312941535
     },
     "fearGreed": {
       "value": 71,
@@ -675,6 +675,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Strategy seeks shareholder approval for daily preferred stock dividends",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
+        "title": "Bitcoin Rally Slows as $15.6 Billion Options Expiry Hits—XRP and Solana Keep Climbing",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
       {
         "title": "Circle and Tether step in to freeze hacker wallet after massive Bitget crypto heist",
         "source": "CoinDesk",
@@ -704,38 +714,28 @@
         "title": "Bitget's $352 million hack happened via spoofed transfers, not private keys, CEO Gracy Chen says",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Crypto exchange Bitget says $352 million affected in a hack, claims user funds are 'safe'",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitget Hacked as $350 Million Vanishes From Crypto Exchange Wallets",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=84258 vs EMA50=84387",
+        "detail": "EMA20=84108 vs EMA50=84294",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "41.3",
-        "points": -0.5
+        "detail": "45.8",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-25.3",
-        "points": -1.95
+        "detail": "-39.3",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 83842 vs [83846, 84761]",
-        "points": 1
+        "detail": "prix 83980 vs [83592, 84785]",
+        "points": 0
       },
       {
         "factor": "Fear & Greed Index",
@@ -744,14 +744,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 2",
-        "points": 0.67
+        "detail": "30 articles pertinents, score brut 3",
+        "points": 1
       }
     ],
-    "computedAt": "2026-09-25T15:07:54.196Z",
-    "priceUSD": 83844.7,
-    "priceEUR": 73585.5,
-    "change24h": -0.6343920360274982
+    "computedAt": "2026-09-25T19:14:41.128Z",
+    "priceUSD": 84034,
+    "priceEUR": 73730.1,
+    "change24h": -0.4100497748281583
   },
   "history": [
     {
@@ -7453,7 +7453,12 @@
       "t": "2026-09-25T15:07:54.199Z",
       "equityEUR": 192.33,
       "priceEUR": 73585.5
+    },
+    {
+      "t": "2026-09-25T19:14:41.131Z",
+      "equityEUR": 191.3,
+      "priceEUR": 73730.1
     }
   ],
-  "lastRun": "2026-09-25T15:07:54.199Z"
+  "lastRun": "2026-09-25T19:14:41.131Z"
 }
