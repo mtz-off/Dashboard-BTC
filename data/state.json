@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 143.85674877103997,
-  "equityEUR": 187.56,
+  "equityEUR": 192.33,
   "stopped": false,
   "openPositions": [
     {
@@ -654,19 +654,19 @@
     }
   ],
   "lastSignal": {
-    "price": 84594.8793976649,
+    "price": 83841.65520347387,
     "direction": "SHORT",
-    "score": -0.55,
-    "strength": 0.07,
-    "atr14": 916.8758729116017,
+    "score": -2.78,
+    "strength": 0.35,
+    "atr14": 936.1258253741441,
     "indicators": {
-      "ema20": 84265.38369514645,
-      "ema50": 84412.02966877095,
-      "rsi14": 56.108217461855276,
-      "macdHist": 38.03284844574209,
-      "bbUpper": 84738.44625832739,
-      "bbMid": 84274.57987007285,
-      "bbLower": 83810.71348181831
+      "ema20": 84258.36753660896,
+      "ema50": 84387.20590183105,
+      "rsi14": 41.29096962717355,
+      "macdHist": -25.3494218644888,
+      "bbUpper": 84761.33104293745,
+      "bbMid": 84303.71542926363,
+      "bbLower": 83846.0998155898
     },
     "fearGreed": {
       "value": 71,
@@ -676,14 +676,29 @@
     "fundingRate": null,
     "newsHighlights": [
       {
+        "title": "Circle and Tether step in to freeze hacker wallet after massive Bitget crypto heist",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Bond volatility surges while bitcoin and Wall Street stay calm",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "IBIT options price trading more calmly after Bitcoin rebound",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
+        "title": "Altcoins rally across the board as bitcoin consolidates near $84,000",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
         "title": "Bitcoin ETF inflows slow to $191M as six-day streak reaches $2.8B",
         "source": "Cointelegraph",
         "itemScore": 2
-      },
-      {
-        "title": "Live updates: Bitcoin steadies near $84,000 as the bond selloff pauses",
-        "source": "CoinDesk",
-        "itemScore": -1
       },
       {
         "title": "Bitget's $352 million hack happened via spoofed transfers, not private keys, CEO Gracy Chen says",
@@ -699,43 +714,28 @@
         "title": "Bitget Hacked as $350 Million Vanishes From Crypto Exchange Wallets",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin Breakout Cools as Fed Rate-Hike Bets Climb",
-        "source": "Decrypt",
-        "itemScore": 1
-      },
-      {
-        "title": "Crypto casino Duelbits goes offline after $7 million hot wallet hack",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "EU banking watchdog calls for crypto lending rules under MiCA",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=84265 vs EMA50=84412",
+        "detail": "EMA20=84258 vs EMA50=84387",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "56.1",
-        "points": 0.5
+        "detail": "41.3",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "38.0",
-        "points": 1.95
+        "detail": "-25.3",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 84595 vs [83811, 84738]",
-        "points": 0
+        "detail": "prix 83842 vs [83846, 84761]",
+        "points": 1
       },
       {
         "factor": "Fear & Greed Index",
@@ -744,14 +744,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -3",
-        "points": -1
+        "detail": "30 articles pertinents, score brut 2",
+        "points": 0.67
       }
     ],
-    "computedAt": "2026-09-25T09:59:48.625Z",
-    "priceUSD": 84552,
-    "priceEUR": 74257,
-    "change24h": 0.20383977245792842
+    "computedAt": "2026-09-25T15:07:54.196Z",
+    "priceUSD": 83844.7,
+    "priceEUR": 73585.5,
+    "change24h": -0.6343920360274982
   },
   "history": [
     {
@@ -7448,7 +7448,12 @@
       "t": "2026-09-25T09:59:48.628Z",
       "equityEUR": 187.56,
       "priceEUR": 74257
+    },
+    {
+      "t": "2026-09-25T15:07:54.199Z",
+      "equityEUR": 192.33,
+      "priceEUR": 73585.5
     }
   ],
-  "lastRun": "2026-09-25T09:59:48.628Z"
+  "lastRun": "2026-09-25T15:07:54.199Z"
 }
