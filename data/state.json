@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 143.85674877103997,
-  "equityEUR": 189.25,
+  "equityEUR": 187.56,
   "stopped": false,
   "openPositions": [
     {
@@ -654,19 +654,19 @@
     }
   ],
   "lastSignal": {
-    "price": 84162.21389314046,
+    "price": 84594.8793976649,
     "direction": "SHORT",
-    "score": -1.83,
-    "strength": 0.23,
-    "atr14": 948.3726534948597,
+    "score": -0.55,
+    "strength": 0.07,
+    "atr14": 916.8758729116017,
     "indicators": {
-      "ema20": 84259.70082259388,
-      "ema50": 84445.87620050578,
-      "rsi14": 47.431874613639756,
-      "macdHist": 38.26203437060032,
-      "bbUpper": 84900.04832946279,
-      "bbMid": 84109.77801158415,
-      "bbLower": 83319.5076937055
+      "ema20": 84265.38369514645,
+      "ema50": 84412.02966877095,
+      "rsi14": 56.108217461855276,
+      "macdHist": 38.03284844574209,
+      "bbUpper": 84738.44625832739,
+      "bbMid": 84274.57987007285,
+      "bbLower": 83810.71348181831
     },
     "fearGreed": {
       "value": 71,
@@ -675,6 +675,21 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin ETF inflows slow to $191M as six-day streak reaches $2.8B",
+        "source": "Cointelegraph",
+        "itemScore": 2
+      },
+      {
+        "title": "Live updates: Bitcoin steadies near $84,000 as the bond selloff pauses",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitget's $352 million hack happened via spoofed transfers, not private keys, CEO Gracy Chen says",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Crypto exchange Bitget says $352 million affected in a hack, claims user funds are 'safe'",
         "source": "CoinDesk",
@@ -699,32 +714,27 @@
         "title": "EU banking watchdog calls for crypto lending rules under MiCA",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "Traders price in 4 Fed rate hikes by June 2027 as bitcoin slides below $83,000",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=84260 vs EMA50=84446",
+        "detail": "EMA20=84265 vs EMA50=84412",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "47.4",
-        "points": 0
+        "detail": "56.1",
+        "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "38.3",
-        "points": 1.5
+        "detail": "38.0",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 84162 vs [83320, 84900]",
+        "detail": "prix 84595 vs [83811, 84738]",
         "points": 0
       },
       {
@@ -734,14 +744,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -4",
-        "points": -1.33
+        "detail": "30 articles pertinents, score brut -3",
+        "points": -1
       }
     ],
-    "computedAt": "2026-09-25T04:55:58.416Z",
-    "priceUSD": 84146.7,
-    "priceEUR": 74018.8,
-    "change24h": -0.27648731926997266
+    "computedAt": "2026-09-25T09:59:48.625Z",
+    "priceUSD": 84552,
+    "priceEUR": 74257,
+    "change24h": 0.20383977245792842
   },
   "history": [
     {
@@ -7433,7 +7443,12 @@
       "t": "2026-09-25T04:55:58.419Z",
       "equityEUR": 189.25,
       "priceEUR": 74018.8
+    },
+    {
+      "t": "2026-09-25T09:59:48.628Z",
+      "equityEUR": 187.56,
+      "priceEUR": 74257
     }
   ],
-  "lastRun": "2026-09-25T04:55:58.419Z"
+  "lastRun": "2026-09-25T09:59:48.628Z"
 }
