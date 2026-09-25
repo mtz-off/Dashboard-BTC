@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 143.85674877103997,
-  "equityEUR": 187.91,
+  "equityEUR": 188.01,
   "stopped": false,
   "openPositions": [
     {
@@ -654,27 +654,37 @@
     }
   ],
   "lastSignal": {
-    "price": 84421.59278089962,
+    "price": 84374.96183824253,
     "direction": "SHORT",
-    "score": -1.17,
-    "strength": 0.15,
+    "score": -1.83,
+    "strength": 0.23,
     "atr14": 999.5026787560967,
     "indicators": {
-      "ema20": 84211.99325882112,
-      "ema50": 84488.74291937429,
-      "rsi14": 51.75213141645458,
-      "macdHist": 127.68748754393292,
-      "bbUpper": 84800.69341270406,
-      "bbMid": 84023.15732248733,
-      "bbLower": 83245.6212322706
+      "ema20": 84222.79796027234,
+      "ema50": 84471.53747852528,
+      "rsi14": 51.29077117210012,
+      "macdHist": 101.86691550438417,
+      "bbUpper": 84811.30447249016,
+      "bbMid": 84035.70826453232,
+      "bbLower": 83260.1120565745
     },
     "fearGreed": {
       "value": 71,
       "classification": "Greed",
-      "timestamp": 1790208000000
+      "timestamp": 1790294400000
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Crypto exchange Bitget says $352 million affected in a hack, claims user funds are 'safe'",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitget Hacked as $350 Million Vanishes From Crypto Exchange Wallets",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin Breakout Cools as Fed Rate-Hike Bets Climb",
         "source": "Decrypt",
@@ -699,22 +709,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=84212 vs EMA50=84489",
+        "detail": "EMA20=84223 vs EMA50=84472",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "51.8",
+        "detail": "51.3",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "127.7",
+        "detail": "101.9",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 84422 vs [83246, 84801]",
+        "detail": "prix 84375 vs [83260, 84811]",
         "points": 0
       },
       {
@@ -724,14 +734,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "29 articles pertinents, score brut -2",
-        "points": -0.67
+        "detail": "30 articles pertinents, score brut -4",
+        "points": -1.33
       }
     ],
-    "computedAt": "2026-09-24T21:41:01.775Z",
-    "priceUSD": 84424.1,
-    "priceEUR": 74208,
-    "change24h": 0.04692804958257241
+    "computedAt": "2026-09-25T00:00:41.710Z",
+    "priceUSD": 84387.6,
+    "priceEUR": 74193.9,
+    "change24h": 0.009006873666752574
   },
   "history": [
     {
@@ -7413,7 +7423,12 @@
       "t": "2026-09-24T21:41:01.777Z",
       "equityEUR": 187.91,
       "priceEUR": 74208
+    },
+    {
+      "t": "2026-09-25T00:00:41.713Z",
+      "equityEUR": 188.01,
+      "priceEUR": 74193.9
     }
   ],
-  "lastRun": "2026-09-24T21:41:01.777Z"
+  "lastRun": "2026-09-25T00:00:41.713Z"
 }
