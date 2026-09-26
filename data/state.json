@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 107.9,
-  "equityEUR": 191.33,
+  "equityEUR": 191.35,
   "stopped": false,
   "openPositions": [
     {
@@ -671,19 +671,19 @@
     }
   ],
   "lastSignal": {
-    "price": 84006.06454174417,
+    "price": 84087.23310851993,
     "direction": "LONG",
-    "score": 1.17,
-    "strength": 0.15,
-    "atr14": 782.2803293837853,
+    "score": 0.83,
+    "strength": 0.1,
+    "atr14": 748.9683828760031,
     "indicators": {
-      "ema20": 84034.81977971146,
-      "ema50": 84143.56527310741,
-      "rsi14": 48.54638558323494,
-      "macdHist": 11.17985219681486,
-      "bbUpper": 84213.59824327916,
-      "bbMid": 84002.21694734957,
-      "bbLower": 83790.83565141998
+      "ema20": 84058.89564940114,
+      "ema50": 84138.33458513294,
+      "rsi14": 50.79518833228993,
+      "macdHist": 16.100776468510766,
+      "bbUpper": 84224.65305590437,
+      "bbMid": 84037.57380224981,
+      "bbLower": 83850.49454859525
     },
     "fearGreed": {
       "value": 74,
@@ -692,6 +692,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "How Crypto Stopped Waiting for Congress and Learned to Love the Regulators",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
       {
         "title": "Strategy seeks shareholder approval for daily preferred stock dividends",
         "source": "Cointelegraph",
@@ -726,32 +731,27 @@
         "title": "Bitcoin ETF inflows slow to $191M as six-day streak reaches $2.8B",
         "source": "Cointelegraph",
         "itemScore": 2
-      },
-      {
-        "title": "Bitget's $352 million hack happened via spoofed transfers, not private keys, CEO Gracy Chen says",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=84035 vs EMA50=84144",
+        "detail": "EMA20=84059 vs EMA50=84138",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "48.5",
+        "detail": "50.8",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "11.2",
+        "detail": "16.1",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 84006 vs [83791, 84214]",
+        "detail": "prix 84087 vs [83850, 84225]",
         "points": 0
       },
       {
@@ -761,14 +761,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 5",
-        "points": 1.67
+        "detail": "30 articles pertinents, score brut 4",
+        "points": 1.33
       }
     ],
-    "computedAt": "2026-09-26T14:52:00.065Z",
-    "priceUSD": 84038,
-    "priceEUR": 73814.4,
-    "change24h": -0.06243273615925699
+    "computedAt": "2026-09-26T18:16:47.416Z",
+    "priceUSD": 84074.6,
+    "priceEUR": 73875.9,
+    "change24h": -0.01890820009393948
   },
   "history": [
     {
@@ -7500,7 +7500,12 @@
       "t": "2026-09-26T14:52:00.068Z",
       "equityEUR": 191.33,
       "priceEUR": 73814.4
+    },
+    {
+      "t": "2026-09-26T18:16:47.420Z",
+      "equityEUR": 191.35,
+      "priceEUR": 73875.9
     }
   ],
-  "lastRun": "2026-09-26T14:52:00.068Z"
+  "lastRun": "2026-09-26T18:16:47.420Z"
 }
