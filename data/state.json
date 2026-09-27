@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 107.9,
-  "equityEUR": 191.47,
+  "equityEUR": 191.43,
   "stopped": false,
   "openPositions": [
     {
@@ -671,19 +671,19 @@
     }
   ],
   "lastSignal": {
-    "price": 84710.06079381314,
-    "direction": "LONG",
-    "score": 4,
-    "strength": 0.5,
-    "atr14": 641.2327671918794,
+    "price": 84530.0552793667,
+    "direction": "SHORT",
+    "score": -0.28,
+    "strength": 0.04,
+    "atr14": 642.8308173675514,
     "indicators": {
-      "ema20": 84508.25700215735,
-      "ema50": 84335.7812717123,
-      "rsi14": 60.198323820027156,
-      "macdHist": 39.570949700985466,
-      "bbUpper": 85017.28654865315,
-      "bbMid": 84432.14201770989,
-      "bbLower": 83846.99748676663
+      "ema20": 84533.04804946097,
+      "ema50": 84381.00067437279,
+      "rsi14": 51.58767021230689,
+      "macdHist": -39.83143639197323,
+      "bbUpper": 85010.92209550555,
+      "bbMid": 84568.21664273886,
+      "bbLower": 84125.51118997217
     },
     "fearGreed": {
       "value": 70,
@@ -696,42 +696,27 @@
         "title": "How Crypto Stopped Waiting for Congress and Learned to Love the Regulators",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "Strategy seeks shareholder approval for daily preferred stock dividends",
-        "source": "Cointelegraph",
-        "itemScore": 1
-      },
-      {
-        "title": "Bitcoin Rally Slows as $15.6 Billion Options Expiry Hits—XRP and Solana Keep Climbing",
-        "source": "Decrypt",
-        "itemScore": 1
-      },
-      {
-        "title": "Circle and Tether step in to freeze hacker wallet after massive Bitget crypto heist",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=84508 vs EMA50=84336",
+        "detail": "EMA20=84533 vs EMA50=84381",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "60.2",
-        "points": 0.5
+        "detail": "51.6",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "39.6",
-        "points": 1.5
+        "detail": "-39.8",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 84710 vs [83847, 85017]",
+        "detail": "prix 84530 vs [84126, 85011]",
         "points": 0
       },
       {
@@ -741,14 +726,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "18 articles pertinents, score brut 0",
-        "points": 0
+        "detail": "12 articles pertinents, score brut -1",
+        "points": -0.33
       }
     ],
-    "computedAt": "2026-09-27T13:18:30.152Z",
-    "priceUSD": 84723.6,
-    "priceEUR": 74439.1,
-    "change24h": 0.3515471390601123
+    "computedAt": "2026-09-27T17:53:06.969Z",
+    "priceUSD": 84534.2,
+    "priceEUR": 74280.7,
+    "change24h": 0.12721079088629936
   },
   "history": [
     {
@@ -7510,7 +7495,12 @@
       "t": "2026-09-27T13:18:30.154Z",
       "equityEUR": 191.47,
       "priceEUR": 74439.1
+    },
+    {
+      "t": "2026-09-27T17:53:06.972Z",
+      "equityEUR": 191.43,
+      "priceEUR": 74280.7
     }
   ],
-  "lastRun": "2026-09-27T13:18:30.154Z"
+  "lastRun": "2026-09-27T17:53:06.972Z"
 }
