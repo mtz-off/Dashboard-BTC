@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 107.9,
-  "equityEUR": 191.42,
+  "equityEUR": 191.47,
   "stopped": false,
   "openPositions": [
     {
@@ -671,19 +671,19 @@
     }
   ],
   "lastSignal": {
-    "price": 84506.76418691738,
+    "price": 84710.06079381314,
     "direction": "LONG",
-    "score": 5.67,
-    "strength": 0.71,
-    "atr14": 668.9738240663904,
+    "score": 4,
+    "strength": 0.5,
+    "atr14": 641.2327671918794,
     "indicators": {
-      "ema20": 84283.2703442222,
-      "ema50": 84218.71898632408,
-      "rsi14": 60.86401819693124,
-      "macdHist": 30.848303854532816,
-      "bbUpper": 84613.06883447536,
-      "bbMid": 84224.85154270423,
-      "bbLower": 83836.6342509331
+      "ema20": 84508.25700215735,
+      "ema50": 84335.7812717123,
+      "rsi14": 60.198323820027156,
+      "macdHist": 39.570949700985466,
+      "bbUpper": 85017.28654865315,
+      "bbMid": 84432.14201770989,
+      "bbLower": 83846.99748676663
     },
     "fearGreed": {
       "value": 70,
@@ -711,47 +711,27 @@
         "title": "Circle and Tether step in to freeze hacker wallet after massive Bitget crypto heist",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Bond volatility surges while bitcoin and Wall Street stay calm",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "IBIT options price trading more calmly after Bitcoin rebound",
-        "source": "Cointelegraph",
-        "itemScore": 1
-      },
-      {
-        "title": "Altcoins rally across the board as bitcoin consolidates near $84,000",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "Bitcoin ETF inflows slow to $191M as six-day streak reaches $2.8B",
-        "source": "Cointelegraph",
-        "itemScore": 2
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=84283 vs EMA50=84219",
+        "detail": "EMA20=84508 vs EMA50=84336",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "60.9",
+        "detail": "60.2",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "30.8",
+        "detail": "39.6",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 84507 vs [83837, 84613]",
+        "detail": "prix 84710 vs [83847, 85017]",
         "points": 0
       },
       {
@@ -761,14 +741,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "27 articles pertinents, score brut 5",
-        "points": 1.67
+        "detail": "18 articles pertinents, score brut 0",
+        "points": 0
       }
     ],
-    "computedAt": "2026-09-27T07:32:48.251Z",
-    "priceUSD": 84521.4,
-    "priceEUR": 74241.8,
-    "change24h": 0.11204972828532085
+    "computedAt": "2026-09-27T13:18:30.152Z",
+    "priceUSD": 84723.6,
+    "priceEUR": 74439.1,
+    "change24h": 0.3515471390601123
   },
   "history": [
     {
@@ -7525,7 +7505,12 @@
       "t": "2026-09-27T07:32:48.255Z",
       "equityEUR": 191.42,
       "priceEUR": 74241.8
+    },
+    {
+      "t": "2026-09-27T13:18:30.154Z",
+      "equityEUR": 191.47,
+      "priceEUR": 74439.1
     }
   ],
-  "lastRun": "2026-09-27T07:32:48.255Z"
+  "lastRun": "2026-09-27T13:18:30.154Z"
 }
