@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 121.11,
-  "equityEUR": 191.13,
+  "equityEUR": 190.46,
   "stopped": false,
   "openPositions": [
     {
@@ -687,19 +687,19 @@
     }
   ],
   "lastSignal": {
-    "price": 82877.18697468273,
-    "direction": "SHORT",
-    "score": -1.67,
-    "strength": 0.21,
-    "atr14": 711.7075859863687,
+    "price": 83681.67229635417,
+    "direction": "LONG",
+    "score": 1.28,
+    "strength": 0.16,
+    "atr14": 722.4475938356824,
     "indicators": {
-      "ema20": 83779.53518638852,
-      "ema50": 84084.06529272223,
-      "rsi14": 28.099635634769314,
-      "macdHist": -156.78222215375126,
-      "bbUpper": 85370.2305797705,
-      "bbMid": 84021.06509764124,
-      "bbLower": 82671.89961551198
+      "ema20": 83508.21635566812,
+      "ema50": 83857.65054547187,
+      "rsi14": 50.87718134494504,
+      "macdHist": 62.21008139931814,
+      "bbUpper": 84528.81695328852,
+      "bbMid": 83466.69444399106,
+      "bbLower": 82404.5719346936
     },
     "fearGreed": {
       "value": 74,
@@ -709,40 +709,65 @@
     "fundingRate": null,
     "newsHighlights": [
       {
-        "title": "Bitcoin ETFs draw $2.4B in biggest inflow week since October 2025",
-        "source": "Cointelegraph",
-        "itemScore": 1
+        "title": "THORChain rejects Bitget request to block hacker as $6 million moves to bitcoin",
+        "source": "CoinDesk",
+        "itemScore": -1
       },
       {
-        "title": "Solana ETFs draw record $188 million in a week as Bitwise takes two-thirds of inflows",
+        "title": "Bitget resumes Bitcoin withdrawals as hacker swaps ETH via THORChain",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin falls to $83,000 while altcoins unwind Friday's rally",
         "source": "CoinDesk",
         "itemScore": 1
       },
       {
-        "title": "How Crypto Stopped Waiting for Congress and Learned to Love the Regulators",
-        "source": "Decrypt",
+        "title": "Live updates: Bitcoin slips back to $83,000 as bond yields surge to new cycle highs",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Hong Kong regulators expand financial reporting oversight to licensed crypto firms",
+        "source": "Cointelegraph",
         "itemScore": -1
+      },
+      {
+        "title": "Eyes on key U.S. employment data as crypto bulls take a breather: Crypto Week Ahead",
+        "source": "CoinDesk",
+        "itemScore": 2
+      },
+      {
+        "title": "Bitcoin drops under $83K as liquidity hunting keeps bulls from targeting yearly open",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
+        "title": "Bitcoin ETFs draw $2.4B in biggest inflow week since October 2025",
+        "source": "Cointelegraph",
+        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=83780 vs EMA50=84084",
+        "detail": "EMA20=83508 vs EMA50=83858",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "28.1",
-        "points": 1.5
+        "detail": "50.9",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-156.8",
-        "points": -1.5
+        "detail": "62.2",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 82877 vs [82672, 85370]",
+        "detail": "prix 83682 vs [82405, 84529]",
         "points": 0
       },
       {
@@ -752,14 +777,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "13 articles pertinents, score brut 1",
-        "points": 0.33
+        "detail": "26 articles pertinents, score brut 4",
+        "points": 1.33
       }
     ],
-    "computedAt": "2026-09-28T08:34:41.776Z",
-    "priceUSD": 82890.3,
-    "priceEUR": 72866,
-    "change24h": -1.8401500635922825
+    "computedAt": "2026-09-28T17:00:56.310Z",
+    "priceUSD": 83592.4,
+    "priceEUR": 73539.7,
+    "change24h": -1.008713446275769
   },
   "history": [
     {
@@ -7546,7 +7571,12 @@
       "t": "2026-09-28T08:34:41.779Z",
       "equityEUR": 191.13,
       "priceEUR": 72866
+    },
+    {
+      "t": "2026-09-28T17:00:56.313Z",
+      "equityEUR": 190.46,
+      "priceEUR": 73539.7
     }
   ],
-  "lastRun": "2026-09-28T08:34:41.779Z"
+  "lastRun": "2026-09-28T17:00:56.313Z"
 }
