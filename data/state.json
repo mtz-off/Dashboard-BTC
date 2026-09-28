@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 121.11,
-  "equityEUR": 190.46,
+  "equityEUR": 190.8,
   "stopped": false,
   "openPositions": [
     {
@@ -687,19 +687,19 @@
     }
   ],
   "lastSignal": {
-    "price": 83681.67229635417,
-    "direction": "LONG",
-    "score": 1.28,
-    "strength": 0.16,
-    "atr14": 722.4475938356824,
+    "price": 83211.80192346493,
+    "direction": "SHORT",
+    "score": -0.33,
+    "strength": 0.04,
+    "atr14": 752.0906828571103,
     "indicators": {
-      "ema20": 83508.21635566812,
-      "ema50": 83857.65054547187,
-      "rsi14": 50.87718134494504,
-      "macdHist": 62.21008139931814,
-      "bbUpper": 84528.81695328852,
-      "bbMid": 83466.69444399106,
-      "bbLower": 82404.5719346936
+      "ema20": 83496.99149063222,
+      "ema50": 83783.5221262467,
+      "rsi14": 44.16724012701767,
+      "macdHist": 36.650268097781606,
+      "bbUpper": 83968.21793178144,
+      "bbMid": 83298.87333636309,
+      "bbLower": 82629.52874094473
     },
     "fearGreed": {
       "value": 74,
@@ -708,6 +708,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Canadian ‘crypto king’ set to represent himself at fraud trial",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "THORChain rejects Bitget request to block hacker as $6 million moves to bitcoin",
         "source": "CoinDesk",
@@ -720,11 +725,6 @@
       },
       {
         "title": "Bitcoin falls to $83,000 while altcoins unwind Friday's rally",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "Live updates: Bitcoin slips back to $83,000 as bond yields surge to new cycle highs",
         "source": "CoinDesk",
         "itemScore": 1
       },
@@ -752,22 +752,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=83508 vs EMA50=83858",
+        "detail": "EMA20=83497 vs EMA50=83784",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "50.9",
-        "points": 0
+        "detail": "44.2",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "62.2",
-        "points": 1.95
+        "detail": "36.7",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 83682 vs [82405, 84529]",
+        "detail": "prix 83212 vs [82630, 83968]",
         "points": 0
       },
       {
@@ -777,14 +777,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "26 articles pertinents, score brut 4",
-        "points": 1.33
+        "detail": "30 articles pertinents, score brut 2",
+        "points": 0.67
       }
     ],
-    "computedAt": "2026-09-28T17:00:56.310Z",
-    "priceUSD": 83592.4,
-    "priceEUR": 73539.7,
-    "change24h": -1.008713446275769
+    "computedAt": "2026-09-28T22:32:12.716Z",
+    "priceUSD": 83219,
+    "priceEUR": 73190.9,
+    "change24h": -1.4508989368127083
   },
   "history": [
     {
@@ -7576,7 +7576,12 @@
       "t": "2026-09-28T17:00:56.313Z",
       "equityEUR": 190.46,
       "priceEUR": 73539.7
+    },
+    {
+      "t": "2026-09-28T22:32:12.720Z",
+      "equityEUR": 190.8,
+      "priceEUR": 73190.9
     }
   ],
-  "lastRun": "2026-09-28T17:00:56.313Z"
+  "lastRun": "2026-09-28T22:32:12.720Z"
 }
