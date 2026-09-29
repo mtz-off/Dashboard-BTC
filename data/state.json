@@ -5,8 +5,8 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 152.85041802761236,
-  "equityEUR": 186.64,
+  "balanceEUR": 114.64,
+  "equityEUR": 188.45,
   "stopped": false,
   "openPositions": [
     {
@@ -24,6 +24,23 @@
       "tpPct": 2.46,
       "signalScore": 1.28,
       "signalStrength": 0.16,
+      "status": "OPEN"
+    },
+    {
+      "id": "d336ea9b-0a3f-420d-964e-8b42326ee783",
+      "side": "SHORT",
+      "entryPrice": 73679.6,
+      "entryTime": "2026-09-29T20:06:14.211Z",
+      "sizeEUR": 38.21,
+      "notionalEUR": 573.15,
+      "leverage": 15,
+      "qtyBTC": 0.00777895,
+      "sl": 74543.43,
+      "tp": 71951.93,
+      "slPct": 1.17,
+      "tpPct": 2.34,
+      "signalScore": -1.5,
+      "signalStrength": 0.19,
       "status": "OPEN"
     }
   ],
@@ -686,19 +703,19 @@
     }
   ],
   "lastSignal": {
-    "price": 83299.6278371117,
-    "direction": "LONG",
-    "score": 0,
-    "strength": 0,
-    "atr14": 765.8279375170256,
+    "price": 83530.64940643945,
+    "direction": "SHORT",
+    "score": -1.5,
+    "strength": 0.19,
+    "atr14": 816.1075950028641,
     "indicators": {
-      "ema20": 83732.48316874969,
-      "ema50": 83753.86104947621,
-      "rsi14": 43.59767741376811,
-      "macdHist": 9.478853394005398,
-      "bbUpper": 84518.81529785624,
-      "bbMid": 83618.47966692988,
-      "bbLower": 82718.14403600352
+      "ema20": 83590.21559812393,
+      "ema50": 83683.56529661846,
+      "rsi14": 48.84828203649859,
+      "macdHist": -48.220631225737904,
+      "bbUpper": 84546.88128275175,
+      "bbMid": 83585.89247397977,
+      "bbLower": 82624.90366520778
     },
     "fearGreed": {
       "value": 73,
@@ -708,12 +725,22 @@
     "fundingRate": null,
     "newsHighlights": [
       {
+        "title": "Crypto ETFs Surge as Bitcoin Funds Add $2.95 Billion in 30 Days",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
+      {
+        "title": "Bitwise launches first US spot NEAR ETF after token’s recent surge",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
         "title": "Bitcoin ETF inflows leave institutional demand unclear: CoinShares",
         "source": "Cointelegraph",
         "itemScore": 2
       },
       {
-        "title": "Bitcoin beats gold, surge to $100,000 in play",
+        "title": "Bitcoin surging to $100,000 may be in play, after outperforming gold",
         "source": "CoinDesk",
         "itemScore": 1
       },
@@ -728,7 +755,7 @@
         "itemScore": 2
       },
       {
-        "title": "Live updates: Bitcoin in tight range near $84,000; consumer confidence plunged this month",
+        "title": "Live updates: Bitcoin turns lower as rates rise, consumer confidence plunges",
         "source": "CoinDesk",
         "itemScore": -1
       },
@@ -736,37 +763,27 @@
         "title": "Bitcoin is on track to shatter a major decade-long streak as September gains surge",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Analysts see 10-year Treasury yield hitting 6%. Bitcoin bulls shouldn't panic",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "Canadian ‘crypto king’ set to represent himself at fraud trial",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=83732 vs EMA50=83754",
+        "detail": "EMA20=83590 vs EMA50=83684",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "43.6",
-        "points": -0.5
+        "detail": "48.8",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "9.5",
-        "points": 1.5
+        "detail": "-48.2",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 83300 vs [82718, 84519]",
+        "detail": "prix 83531 vs [82625, 84547]",
         "points": 0
       },
       {
@@ -776,14 +793,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 3",
-        "points": 1
+        "detail": "30 articles pertinents, score brut 6",
+        "points": 2
       }
     ],
-    "computedAt": "2026-09-29T15:20:37.547Z",
-    "priceUSD": 83266.3,
-    "priceEUR": 73431.7,
-    "change24h": -0.23531469746365047
+    "computedAt": "2026-09-29T20:06:14.208Z",
+    "priceUSD": 83534.4,
+    "priceEUR": 73679.6,
+    "change24h": 0.0859066385343358
   },
   "history": [
     {
@@ -7595,7 +7612,12 @@
       "t": "2026-09-29T15:20:37.552Z",
       "equityEUR": 186.64,
       "priceEUR": 73431.7
+    },
+    {
+      "t": "2026-09-29T20:06:14.211Z",
+      "equityEUR": 188.45,
+      "priceEUR": 73679.6
     }
   ],
-  "lastRun": "2026-09-29T15:20:37.552Z"
+  "lastRun": "2026-09-29T20:06:14.211Z"
 }
