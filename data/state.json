@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 152.85041802761236,
-  "equityEUR": 190.09,
+  "equityEUR": 186.64,
   "stopped": false,
   "openPositions": [
     {
@@ -686,19 +686,19 @@
     }
   ],
   "lastSignal": {
-    "price": 83826.08157792107,
+    "price": 83299.6278371117,
     "direction": "LONG",
-    "score": 1.12,
-    "strength": 0.14,
-    "atr14": 771.1022265452732,
+    "score": 0,
+    "strength": 0,
+    "atr14": 765.8279375170256,
     "indicators": {
-      "ema20": 83498.51720689268,
-      "ema50": 83675.89983094847,
-      "rsi14": 55.21230169522413,
-      "macdHist": 99.78635286427406,
-      "bbUpper": 84135.27342014559,
-      "bbMid": 83455.29383479591,
-      "bbLower": 82775.31424944624
+      "ema20": 83732.48316874969,
+      "ema50": 83753.86104947621,
+      "rsi14": 43.59767741376811,
+      "macdHist": 9.478853394005398,
+      "bbUpper": 84518.81529785624,
+      "bbMid": 83618.47966692988,
+      "bbLower": 82718.14403600352
     },
     "fearGreed": {
       "value": 73,
@@ -708,65 +708,65 @@
     "fundingRate": null,
     "newsHighlights": [
       {
-        "title": "Canadian ‘crypto king’ set to represent himself at fraud trial",
+        "title": "Bitcoin ETF inflows leave institutional demand unclear: CoinShares",
         "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "THORChain rejects Bitget request to block hacker as $6 million moves to bitcoin",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitget resumes Bitcoin withdrawals as hacker swaps ETH via THORChain",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin falls to $83,000 while altcoins unwind Friday's rally",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "Hong Kong regulators expand financial reporting oversight to licensed crypto firms",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Eyes on key U.S. employment data as crypto bulls take a breather: Crypto Week Ahead",
-        "source": "CoinDesk",
         "itemScore": 2
       },
       {
-        "title": "Bitcoin drops under $83K as liquidity hunting keeps bulls from targeting yearly open",
-        "source": "Cointelegraph",
+        "title": "Bitcoin beats gold, surge to $100,000 in play",
+        "source": "CoinDesk",
         "itemScore": 1
       },
       {
-        "title": "Bitcoin ETFs draw $2.4B in biggest inflow week since October 2025",
+        "title": "Canada&#39;s &#39;Crypto King&#39; Aiden Pleterski to Represent Himself at Fraud Trial",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "US crypto ETF inflows cool after $3.3B week but streaks hold",
         "source": "Cointelegraph",
+        "itemScore": 2
+      },
+      {
+        "title": "Live updates: Bitcoin in tight range near $84,000; consumer confidence plunged this month",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin is on track to shatter a major decade-long streak as September gains surge",
+        "source": "CoinDesk",
         "itemScore": 1
+      },
+      {
+        "title": "Analysts see 10-year Treasury yield hitting 6%. Bitcoin bulls shouldn't panic",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Canadian ‘crypto king’ set to represent himself at fraud trial",
+        "source": "Cointelegraph",
+        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=83499 vs EMA50=83676",
+        "detail": "EMA20=83732 vs EMA50=83754",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "55.2",
-        "points": 0.5
+        "detail": "43.6",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "99.8",
-        "points": 1.95
+        "detail": "9.5",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 83826 vs [82775, 84135]",
+        "detail": "prix 83300 vs [82718, 84519]",
         "points": 0
       },
       {
@@ -776,14 +776,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 2",
-        "points": 0.67
+        "detail": "30 articles pertinents, score brut 3",
+        "points": 1
       }
     ],
-    "computedAt": "2026-09-29T08:50:24.979Z",
-    "priceUSD": 83834,
-    "priceEUR": 73904.4,
-    "change24h": 0.4448693847670911
+    "computedAt": "2026-09-29T15:20:37.547Z",
+    "priceUSD": 83266.3,
+    "priceEUR": 73431.7,
+    "change24h": -0.23531469746365047
   },
   "history": [
     {
@@ -7590,7 +7590,12 @@
       "t": "2026-09-29T08:50:24.982Z",
       "equityEUR": 190.09,
       "priceEUR": 73904.4
+    },
+    {
+      "t": "2026-09-29T15:20:37.552Z",
+      "equityEUR": 186.64,
+      "priceEUR": 73431.7
     }
   ],
-  "lastRun": "2026-09-29T08:50:24.982Z"
+  "lastRun": "2026-09-29T15:20:37.552Z"
 }
