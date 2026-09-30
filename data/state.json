@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 114.64,
-  "equityEUR": 188.49,
+  "equityEUR": 188.72,
   "stopped": false,
   "openPositions": [
     {
@@ -703,19 +703,19 @@
     }
   ],
   "lastSignal": {
-    "price": 83475.93026276182,
+    "price": 83105.1677478163,
     "direction": "SHORT",
-    "score": -1.83,
-    "strength": 0.23,
-    "atr14": 789.3500135930769,
+    "score": -1.45,
+    "strength": 0.18,
+    "atr14": 750.8609183487988,
     "indicators": {
-      "ema20": 83546.99930365112,
-      "ema50": 83641.28897977997,
-      "rsi14": 48.098679677610626,
-      "macdHist": -18.68597284992279,
-      "bbUpper": 84453.07902597777,
-      "bbMid": 83679.39919070897,
-      "bbLower": 82905.71935544016
+      "ema20": 83381.66540266434,
+      "ema50": 83543.20952631357,
+      "rsi14": 43.13006028457611,
+      "macdHist": -36.23882325163666,
+      "bbUpper": 83962.08505411807,
+      "bbMid": 83399.28143465825,
+      "bbLower": 82836.47781519842
     },
     "fearGreed": {
       "value": 71,
@@ -724,6 +724,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin bulls have one price level to defend",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Bitcoin rally shows signs of cooling even as a 'bull score' gauge nears its perfect score",
+        "source": "CoinDesk",
+        "itemScore": 2
+      },
       {
         "title": "Crypto regulation at SEC, CFTC to come down to 3 commissioners following key resignation",
         "source": "Cointelegraph",
@@ -753,37 +763,27 @@
         "title": "Canada&#39;s &#39;Crypto King&#39; Aiden Pleterski to Represent Himself at Fraud Trial",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "US crypto ETF inflows cool after $3.3B week but streaks hold",
-        "source": "Cointelegraph",
-        "itemScore": 2
-      },
-      {
-        "title": "Live updates: Bitcoin turns lower as rates rise, consumer confidence plunges",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=83547 vs EMA50=83641",
+        "detail": "EMA20=83382 vs EMA50=83543",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "48.1",
-        "points": 0
+        "detail": "43.1",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-18.7",
-        "points": -1.5
+        "detail": "-36.2",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 83476 vs [82906, 84453]",
+        "detail": "prix 83105 vs [82836, 83962]",
         "points": 0
       },
       {
@@ -793,14 +793,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 5",
-        "points": 1.67
+        "detail": "30 articles pertinents, score brut 9",
+        "points": 3
       }
     ],
-    "computedAt": "2026-09-30T02:24:56.394Z",
-    "priceUSD": 83436.2,
-    "priceEUR": 73594.3,
-    "change24h": -0.23591025127491128
+    "computedAt": "2026-09-30T08:51:26.157Z",
+    "priceUSD": 82984.4,
+    "priceEUR": 73099.2,
+    "change24h": -0.7761243999115257
   },
   "history": [
     {
@@ -7627,7 +7627,12 @@
       "t": "2026-09-30T02:24:56.397Z",
       "equityEUR": 188.49,
       "priceEUR": 73594.3
+    },
+    {
+      "t": "2026-09-30T08:51:26.160Z",
+      "equityEUR": 188.72,
+      "priceEUR": 73099.2
     }
   ],
-  "lastRun": "2026-09-30T02:24:56.397Z"
+  "lastRun": "2026-09-30T08:51:26.160Z"
 }
