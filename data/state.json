@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 114.64,
-  "equityEUR": 188.72,
+  "equityEUR": 188.29,
   "stopped": false,
   "openPositions": [
     {
@@ -703,19 +703,19 @@
     }
   ],
   "lastSignal": {
-    "price": 83105.1677478163,
-    "direction": "SHORT",
-    "score": -1.45,
-    "strength": 0.18,
-    "atr14": 750.8609183487988,
+    "price": 84090.71910266095,
+    "direction": "LONG",
+    "score": 5.5,
+    "strength": 0.69,
+    "atr14": 762.7423301600568,
     "indicators": {
-      "ema20": 83381.66540266434,
-      "ema50": 83543.20952631357,
-      "rsi14": 43.13006028457611,
-      "macdHist": -36.23882325163666,
-      "bbUpper": 83962.08505411807,
-      "bbMid": 83399.28143465825,
-      "bbLower": 82836.47781519842
+      "ema20": 83776.3552758908,
+      "ema50": 83691.83116828979,
+      "rsi14": 53.947433101191244,
+      "macdHist": 98.01910858503012,
+      "bbUpper": 84680.3682967375,
+      "bbMid": 83632.09624924004,
+      "bbLower": 82583.82420174258
     },
     "fearGreed": {
       "value": 71,
@@ -724,6 +724,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Clock's ticking: UK's crypto regulatory application window opens with February deadline",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin ETFs stretch $3.1B inflow streak as Ether funds turn red",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
       {
         "title": "Bitcoin bulls have one price level to defend",
         "source": "CoinDesk",
@@ -753,37 +763,27 @@
         "title": "Bitcoin ETF inflows leave institutional demand unclear: CoinShares",
         "source": "Cointelegraph",
         "itemScore": 2
-      },
-      {
-        "title": "Bitcoin surging to $100,000 may be in play, after outperforming gold",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "Canada&#39;s &#39;Crypto King&#39; Aiden Pleterski to Represent Himself at Fraud Trial",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=83382 vs EMA50=83543",
-        "points": -2
+        "detail": "EMA20=83776 vs EMA50=83692",
+        "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "43.1",
-        "points": -0.5
+        "detail": "53.9",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-36.2",
-        "points": -1.95
+        "detail": "98.0",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 83105 vs [82836, 83962]",
+        "detail": "prix 84091 vs [82584, 84680]",
         "points": 0
       },
       {
@@ -793,14 +793,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 9",
-        "points": 3
+        "detail": "30 articles pertinents, score brut 6",
+        "points": 2
       }
     ],
-    "computedAt": "2026-09-30T08:51:26.157Z",
-    "priceUSD": 82984.4,
-    "priceEUR": 73099.2,
-    "change24h": -0.7761243999115257
+    "computedAt": "2026-09-30T15:35:02.892Z",
+    "priceUSD": 84073.3,
+    "priceEUR": 74017,
+    "change24h": 0.5258658312757483
   },
   "history": [
     {
@@ -7632,7 +7632,12 @@
       "t": "2026-09-30T08:51:26.160Z",
       "equityEUR": 188.72,
       "priceEUR": 73099.2
+    },
+    {
+      "t": "2026-09-30T15:35:02.895Z",
+      "equityEUR": 188.29,
+      "priceEUR": 74017
     }
   ],
-  "lastRun": "2026-09-30T08:51:26.160Z"
+  "lastRun": "2026-09-30T15:35:02.895Z"
 }
