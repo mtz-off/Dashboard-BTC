@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 114.64,
-  "equityEUR": 188.29,
+  "equityEUR": 188.4,
   "stopped": false,
   "openPositions": [
     {
@@ -703,19 +703,19 @@
     }
   ],
   "lastSignal": {
-    "price": 84090.71910266095,
+    "price": 83585.22020936213,
     "direction": "LONG",
-    "score": 5.5,
-    "strength": 0.69,
-    "atr14": 762.7423301600568,
+    "score": 1.72,
+    "strength": 0.21,
+    "atr14": 863.7682595616186,
     "indicators": {
-      "ema20": 83776.3552758908,
-      "ema50": 83691.83116828979,
-      "rsi14": 53.947433101191244,
-      "macdHist": 98.01910858503012,
-      "bbUpper": 84680.3682967375,
-      "bbMid": 83632.09624924004,
-      "bbLower": 82583.82420174258
+      "ema20": 83801.80068546667,
+      "ema50": 83723.01170436994,
+      "rsi14": 47.763382781583395,
+      "macdHist": -31.182889986302257,
+      "bbUpper": 84808.73218185226,
+      "bbMid": 83717.54748107026,
+      "bbLower": 82626.36278028825
     },
     "fearGreed": {
       "value": 71,
@@ -724,6 +724,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin ETFs Extend Win Streak to 9 Days, Matching August Rally",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
       {
         "title": "Clock's ticking: UK's crypto regulatory application window opens with February deadline",
         "source": "CoinDesk",
@@ -758,32 +763,27 @@
         "title": "Bitwise launches first US spot NEAR ETF after token’s recent surge",
         "source": "Cointelegraph",
         "itemScore": 1
-      },
-      {
-        "title": "Bitcoin ETF inflows leave institutional demand unclear: CoinShares",
-        "source": "Cointelegraph",
-        "itemScore": 2
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=83776 vs EMA50=83692",
+        "detail": "EMA20=83802 vs EMA50=83723",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "53.9",
+        "detail": "47.8",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "98.0",
-        "points": 1.5
+        "detail": "-31.2",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 84091 vs [82584, 84680]",
+        "detail": "prix 83585 vs [82626, 84809]",
         "points": 0
       },
       {
@@ -793,14 +793,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 6",
-        "points": 2
+        "detail": "30 articles pertinents, score brut 5",
+        "points": 1.67
       }
     ],
-    "computedAt": "2026-09-30T15:35:02.892Z",
-    "priceUSD": 84073.3,
-    "priceEUR": 74017,
-    "change24h": 0.5258658312757483
+    "computedAt": "2026-09-30T20:18:24.157Z",
+    "priceUSD": 83565.2,
+    "priceEUR": 73794.9,
+    "change24h": -0.08166583964560005
   },
   "history": [
     {
@@ -7637,7 +7637,12 @@
       "t": "2026-09-30T15:35:02.895Z",
       "equityEUR": 188.29,
       "priceEUR": 74017
+    },
+    {
+      "t": "2026-09-30T20:18:24.161Z",
+      "equityEUR": 188.4,
+      "priceEUR": 73794.9
     }
   ],
-  "lastRun": "2026-09-30T15:35:02.895Z"
+  "lastRun": "2026-09-30T20:18:24.161Z"
 }
