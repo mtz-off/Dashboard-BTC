@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 114.64,
-  "equityEUR": 188.44,
+  "equityEUR": 188.1,
   "stopped": false,
   "openPositions": [
     {
@@ -703,19 +703,19 @@
     }
   ],
   "lastSignal": {
-    "price": 83541.30290651867,
+    "price": 84201.37760452353,
     "direction": "LONG",
-    "score": 1.72,
-    "strength": 0.21,
-    "atr14": 822.2810953933338,
+    "score": 5.12,
+    "strength": 0.64,
+    "atr14": 788.3320611873233,
     "indicators": {
-      "ema20": 83761.09846613993,
-      "ema50": 83714.87634322315,
-      "rsi14": 47.12468919189986,
-      "macdHist": -57.1560211768864,
-      "bbUpper": 84813.76549659525,
-      "bbMid": 83763.60051164405,
-      "bbLower": 82713.43552669285
+      "ema20": 83767.38505245782,
+      "ema50": 83721.91740171064,
+      "rsi14": 57.69470430299969,
+      "macdHist": 19.238456257746456,
+      "bbUpper": 84775.34622502074,
+      "bbMid": 83909.34357915848,
+      "bbLower": 83043.34093329622
     },
     "fearGreed": {
       "value": 74,
@@ -724,6 +724,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Crypto hacks top $768M in September, worst month of 2026",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "Coinbase-Backed Crypto Group Reveals Midterm Endorsements After Clarity Act Collapse",
         "source": "Decrypt",
@@ -758,32 +763,27 @@
         "title": "Crypto regulation at SEC, CFTC to come down to 3 commissioners following key resignation",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "Crypto ETFs Surge as Bitcoin Funds Add $2.95 Billion in 30 Days",
-        "source": "Decrypt",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=83761 vs EMA50=83715",
+        "detail": "EMA20=83767 vs EMA50=83722",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "47.1",
-        "points": 0
+        "detail": "57.7",
+        "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-57.2",
-        "points": -1.95
+        "detail": "19.2",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 83541 vs [82713, 84814]",
+        "detail": "prix 84201 vs [83043, 84775]",
         "points": 0
       },
       {
@@ -793,14 +793,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 5",
-        "points": 1.67
+        "detail": "29 articles pertinents, score brut 2",
+        "points": 0.67
       }
     ],
-    "computedAt": "2026-10-01T00:02:06.961Z",
-    "priceUSD": 83500.2,
-    "priceEUR": 73705.4,
-    "change24h": -0.07718570161802771
+    "computedAt": "2026-10-01T05:50:31.356Z",
+    "priceUSD": 84258.6,
+    "priceEUR": 74426.5,
+    "change24h": 0.8303745481046527
   },
   "history": [
     {
@@ -7647,7 +7647,12 @@
       "t": "2026-10-01T00:02:06.964Z",
       "equityEUR": 188.44,
       "priceEUR": 73705.4
+    },
+    {
+      "t": "2026-10-01T05:50:31.360Z",
+      "equityEUR": 188.1,
+      "priceEUR": 74426.5
     }
   ],
-  "lastRun": "2026-10-01T00:02:06.964Z"
+  "lastRun": "2026-10-01T05:50:31.360Z"
 }
