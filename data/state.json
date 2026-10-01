@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 114.64,
-  "equityEUR": 188.1,
+  "equityEUR": 188.18,
   "stopped": false,
   "openPositions": [
     {
@@ -703,19 +703,19 @@
     }
   ],
   "lastSignal": {
-    "price": 84201.37760452353,
+    "price": 83918.6873655734,
     "direction": "LONG",
-    "score": 5.12,
-    "strength": 0.64,
-    "atr14": 788.3320611873233,
+    "score": 4.62,
+    "strength": 0.58,
+    "atr14": 807.3991811902077,
     "indicators": {
-      "ema20": 83767.38505245782,
-      "ema50": 83721.91740171064,
-      "rsi14": 57.69470430299969,
-      "macdHist": 19.238456257746456,
-      "bbUpper": 84775.34622502074,
-      "bbMid": 83909.34357915848,
-      "bbLower": 83043.34093329622
+      "ema20": 83779.1361745601,
+      "ema50": 83736.39666998848,
+      "rsi14": 52.66135552073162,
+      "macdHist": 7.254330598551224,
+      "bbUpper": 84298.32514149726,
+      "bbMid": 83771.90999848465,
+      "bbLower": 83245.49485547205
     },
     "fearGreed": {
       "value": 74,
@@ -724,6 +724,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Citigroup raises 12-month bitcoin target to $113,000 as ETF inflows resume",
+        "source": "CoinDesk",
+        "itemScore": 2
+      },
       {
         "title": "Crypto hacks top $768M in September, worst month of 2026",
         "source": "Cointelegraph",
@@ -750,40 +755,30 @@
         "itemScore": 1
       },
       {
-        "title": "Bitcoin bulls have one price level to defend",
-        "source": "CoinDesk",
+        "title": "Crypto ETFs Surge as Bitcoin Funds Add $2.95 Billion in 30 Days",
+        "source": "Decrypt",
         "itemScore": 1
-      },
-      {
-        "title": "Bitcoin rally shows signs of cooling even as a 'bull score' gauge nears its perfect score",
-        "source": "CoinDesk",
-        "itemScore": 2
-      },
-      {
-        "title": "Crypto regulation at SEC, CFTC to come down to 3 commissioners following key resignation",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=83767 vs EMA50=83722",
+        "detail": "EMA20=83779 vs EMA50=83736",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "57.7",
-        "points": 0.5
+        "detail": "52.7",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "19.2",
+        "detail": "7.3",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 84201 vs [83043, 84775]",
+        "detail": "prix 83919 vs [83245, 84298]",
         "points": 0
       },
       {
@@ -793,14 +788,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "29 articles pertinents, score brut 2",
+        "detail": "30 articles pertinents, score brut 2",
         "points": 0.67
       }
     ],
-    "computedAt": "2026-10-01T05:50:31.356Z",
-    "priceUSD": 84258.6,
-    "priceEUR": 74426.5,
-    "change24h": 0.8303745481046527
+    "computedAt": "2026-10-01T12:22:40.315Z",
+    "priceUSD": 83913.7,
+    "priceEUR": 74267.3,
+    "change24h": 0.4176404630184755
   },
   "history": [
     {
@@ -7652,7 +7647,12 @@
       "t": "2026-10-01T05:50:31.360Z",
       "equityEUR": 188.1,
       "priceEUR": 74426.5
+    },
+    {
+      "t": "2026-10-01T12:22:40.317Z",
+      "equityEUR": 188.18,
+      "priceEUR": 74267.3
     }
   ],
-  "lastRun": "2026-10-01T05:50:31.360Z"
+  "lastRun": "2026-10-01T12:22:40.317Z"
 }
