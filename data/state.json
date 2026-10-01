@@ -5,8 +5,8 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 114.64,
-  "equityEUR": 188.18,
+  "balanceEUR": 138.86500184582988,
+  "equityEUR": 187.62,
   "stopped": false,
   "openPositions": [
     {
@@ -24,23 +24,6 @@
       "tpPct": 2.46,
       "signalScore": 1.28,
       "signalStrength": 0.16,
-      "status": "OPEN"
-    },
-    {
-      "id": "d336ea9b-0a3f-420d-964e-8b42326ee783",
-      "side": "SHORT",
-      "entryPrice": 73679.6,
-      "entryTime": "2026-09-29T20:06:14.211Z",
-      "sizeEUR": 38.21,
-      "notionalEUR": 573.15,
-      "leverage": 15,
-      "qtyBTC": 0.00777895,
-      "sl": 74543.43,
-      "tp": 71951.93,
-      "slPct": 1.17,
-      "tpPct": 2.34,
-      "signalScore": -1.5,
-      "signalStrength": 0.19,
       "status": "OPEN"
     }
   ],
@@ -700,22 +683,38 @@
       "pnlPct": -1.43,
       "reason": "SL",
       "status": "CLOSED"
+    },
+    {
+      "id": "d336ea9b-0a3f-420d-964e-8b42326ee783",
+      "side": "SHORT",
+      "entryPrice": 73679.6,
+      "entryTime": "2026-09-29T20:06:14.211Z",
+      "exitPrice": 75477.4,
+      "exitTime": "2026-10-01T18:30:44.145Z",
+      "sizeEUR": 38.21,
+      "notionalEUR": 573.15,
+      "leverage": 15,
+      "qtyBTC": 0.00777895,
+      "pnlEUR": -13.98,
+      "pnlPct": -2.44,
+      "reason": "SL",
+      "status": "CLOSED"
     }
   ],
   "lastSignal": {
-    "price": 83918.6873655734,
+    "price": 84809.68974053561,
     "direction": "LONG",
-    "score": 4.62,
-    "strength": 0.58,
-    "atr14": 807.3991811902077,
+    "score": 1.45,
+    "strength": 0.18,
+    "atr14": 807.9258082014251,
     "indicators": {
-      "ema20": 83779.1361745601,
-      "ema50": 83736.39666998848,
-      "rsi14": 52.66135552073162,
-      "macdHist": 7.254330598551224,
-      "bbUpper": 84298.32514149726,
-      "bbMid": 83771.90999848465,
-      "bbLower": 83245.49485547205
+      "ema20": 84031.02323403212,
+      "ema50": 83857.76818034334,
+      "rsi14": 65.54838145228418,
+      "macdHist": 103.7368499528283,
+      "bbUpper": 84679.97953082714,
+      "bbMid": 83902.63068732624,
+      "bbLower": 83125.28184382533
     },
     "fearGreed": {
       "value": 74,
@@ -724,6 +723,31 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Illinois will postpone implementation of crypto tax following lawsuit",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Illinois Delays Controversial Crypto Tax Amid Industry Lawsuit",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "New York, Wyoming regulators sign pact to coordinate crypto oversight",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "NEAR Intents hit by $3.8 million exploit as crypto's rough year of hacks continues",
+        "source": "CoinDesk",
+        "itemScore": -2
+      },
+      {
+        "title": "Bitget’s $388M hack pushes Q3 crypto security losses past $1B",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "Citigroup raises 12-month bitcoin target to $113,000 as ETF inflows resume",
         "source": "CoinDesk",
@@ -738,48 +762,28 @@
         "title": "Coinbase-Backed Crypto Group Reveals Midterm Endorsements After Clarity Act Collapse",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin ETFs Extend Win Streak to 9 Days, Matching August Rally",
-        "source": "Decrypt",
-        "itemScore": 1
-      },
-      {
-        "title": "Clock's ticking: UK's crypto regulatory application window opens with February deadline",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin ETFs stretch $3.1B inflow streak as Ether funds turn red",
-        "source": "Cointelegraph",
-        "itemScore": 1
-      },
-      {
-        "title": "Crypto ETFs Surge as Bitcoin Funds Add $2.95 Billion in 30 Days",
-        "source": "Decrypt",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=83779 vs EMA50=83736",
+        "detail": "EMA20=84031 vs EMA50=83858",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "52.7",
-        "points": 0
+        "detail": "65.5",
+        "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "7.3",
+        "detail": "103.7",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 83919 vs [83245, 84298]",
-        "points": 0
+        "detail": "prix 84810 vs [83125, 84680]",
+        "points": -1
       },
       {
         "factor": "Fear & Greed Index",
@@ -788,14 +792,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 2",
-        "points": 0.67
+        "detail": "30 articles pertinents, score brut -6",
+        "points": -2
       }
     ],
-    "computedAt": "2026-10-01T12:22:40.315Z",
-    "priceUSD": 83913.7,
-    "priceEUR": 74267.3,
-    "change24h": 0.4176404630184755
+    "computedAt": "2026-10-01T18:30:44.142Z",
+    "priceUSD": 84767.5,
+    "priceEUR": 75477.4,
+    "change24h": 1.4393637504831622
   },
   "history": [
     {
@@ -7652,7 +7656,12 @@
       "t": "2026-10-01T12:22:40.317Z",
       "equityEUR": 188.18,
       "priceEUR": 74267.3
+    },
+    {
+      "t": "2026-10-01T18:30:44.145Z",
+      "equityEUR": 187.62,
+      "priceEUR": 75477.4
     }
   ],
-  "lastRun": "2026-10-01T12:22:40.317Z"
+  "lastRun": "2026-10-01T18:30:44.145Z"
 }
