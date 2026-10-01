@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 114.64,
-  "equityEUR": 188.4,
+  "equityEUR": 188.44,
   "stopped": false,
   "openPositions": [
     {
@@ -703,27 +703,32 @@
     }
   ],
   "lastSignal": {
-    "price": 83585.22020936213,
+    "price": 83541.30290651867,
     "direction": "LONG",
     "score": 1.72,
     "strength": 0.21,
-    "atr14": 863.7682595616186,
+    "atr14": 822.2810953933338,
     "indicators": {
-      "ema20": 83801.80068546667,
-      "ema50": 83723.01170436994,
-      "rsi14": 47.763382781583395,
-      "macdHist": -31.182889986302257,
-      "bbUpper": 84808.73218185226,
-      "bbMid": 83717.54748107026,
-      "bbLower": 82626.36278028825
+      "ema20": 83761.09846613993,
+      "ema50": 83714.87634322315,
+      "rsi14": 47.12468919189986,
+      "macdHist": -57.1560211768864,
+      "bbUpper": 84813.76549659525,
+      "bbMid": 83763.60051164405,
+      "bbLower": 82713.43552669285
     },
     "fearGreed": {
-      "value": 71,
+      "value": 74,
       "classification": "Greed",
-      "timestamp": 1790726400000
+      "timestamp": 1790812800000
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Coinbase-Backed Crypto Group Reveals Midterm Endorsements After Clarity Act Collapse",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin ETFs Extend Win Streak to 9 Days, Matching August Rally",
         "source": "Decrypt",
@@ -758,37 +763,32 @@
         "title": "Crypto ETFs Surge as Bitcoin Funds Add $2.95 Billion in 30 Days",
         "source": "Decrypt",
         "itemScore": 1
-      },
-      {
-        "title": "Bitwise launches first US spot NEAR ETF after token’s recent surge",
-        "source": "Cointelegraph",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=83802 vs EMA50=83723",
+        "detail": "EMA20=83761 vs EMA50=83715",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "47.8",
+        "detail": "47.1",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-31.2",
+        "detail": "-57.2",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 83585 vs [82626, 84809]",
+        "detail": "prix 83541 vs [82713, 84814]",
         "points": 0
       },
       {
         "factor": "Fear & Greed Index",
-        "detail": "71 (Greed)",
+        "detail": "74 (Greed)",
         "points": 0
       },
       {
@@ -797,10 +797,10 @@
         "points": 1.67
       }
     ],
-    "computedAt": "2026-09-30T20:18:24.157Z",
-    "priceUSD": 83565.2,
-    "priceEUR": 73794.9,
-    "change24h": -0.08166583964560005
+    "computedAt": "2026-10-01T00:02:06.961Z",
+    "priceUSD": 83500.2,
+    "priceEUR": 73705.4,
+    "change24h": -0.07718570161802771
   },
   "history": [
     {
@@ -7642,7 +7642,12 @@
       "t": "2026-09-30T20:18:24.161Z",
       "equityEUR": 188.4,
       "priceEUR": 73794.9
+    },
+    {
+      "t": "2026-10-01T00:02:06.964Z",
+      "equityEUR": 188.44,
+      "priceEUR": 73705.4
     }
   ],
-  "lastRun": "2026-09-30T20:18:24.161Z"
+  "lastRun": "2026-10-01T00:02:06.964Z"
 }
