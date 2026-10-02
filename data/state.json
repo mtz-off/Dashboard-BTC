@@ -5,8 +5,8 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 141.11,
-  "equityEUR": 194.13,
+  "balanceEUR": 105.83,
+  "equityEUR": 181.01,
   "stopped": false,
   "openPositions": [
     {
@@ -24,6 +24,23 @@
       "tpPct": 2.26,
       "signalScore": 2.33,
       "signalStrength": 0.29,
+      "status": "OPEN"
+    },
+    {
+      "id": "ae434549-c9ed-4d82-bade-af6f4d9ef223",
+      "side": "SHORT",
+      "entryPrice": 74785.1,
+      "entryTime": "2026-10-02T19:43:54.582Z",
+      "sizeEUR": 35.28,
+      "notionalEUR": 529.2,
+      "leverage": 15,
+      "qtyBTC": 0.00707628,
+      "sl": 75743.55,
+      "tp": 72868.19,
+      "slPct": 1.28,
+      "tpPct": 2.56,
+      "signalScore": -1.45,
+      "signalStrength": 0.18,
       "status": "OPEN"
     }
   ],
@@ -718,19 +735,19 @@
     }
   ],
   "lastSignal": {
-    "price": 85990.9812800044,
-    "direction": "LONG",
-    "score": 2.67,
-    "strength": 0.33,
-    "atr14": 823.6284993277477,
+    "price": 84195.35581515549,
+    "direction": "SHORT",
+    "score": -1.45,
+    "strength": 0.18,
+    "atr14": 899.2147398766125,
     "indicators": {
-      "ema20": 85726.86623304634,
-      "ema50": 84923.74082514615,
-      "rsi14": 57.89653947511662,
-      "macdHist": 11.02349145397909,
-      "bbUpper": 87186.73992977542,
-      "bbMid": 85639.59921838451,
-      "bbLower": 84092.4585069936
+      "ema20": 85296.95657148749,
+      "ema50": 84876.61665541107,
+      "rsi14": 36.06030810883665,
+      "macdHist": -298.2017873552089,
+      "bbUpper": 87199.78765984919,
+      "bbMid": 85645.91173152263,
+      "bbLower": 84092.03580319608
     },
     "fearGreed": {
       "value": 72,
@@ -739,6 +756,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "$4.2B crypto bank Anchorage Digital cuts 17% of workforce: Report",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin reaches for $87K as short liquidations top $120M",
         "source": "Cointelegraph",
@@ -755,18 +777,8 @@
         "itemScore": 1
       },
       {
-        "title": "Illinois will postpone implementation of crypto tax following lawsuit",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
         "title": "Illinois Delays Controversial Crypto Tax Amid Industry Lawsuit",
         "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "New York, Wyoming regulators sign pact to coordinate crypto oversight",
-        "source": "Cointelegraph",
         "itemScore": -1
       },
       {
@@ -778,22 +790,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=85727 vs EMA50=84924",
+        "detail": "EMA20=85297 vs EMA50=84877",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "57.9",
-        "points": 0.5
+        "detail": "36.1",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "11.0",
-        "points": 1.5
+        "detail": "-298.2",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 85991 vs [84092, 87187]",
+        "detail": "prix 84195 vs [84092, 87200]",
         "points": 0
       },
       {
@@ -803,14 +815,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -4",
-        "points": -1.33
+        "detail": "30 articles pertinents, score brut -3",
+        "points": -1
       }
     ],
-    "computedAt": "2026-10-02T14:45:46.009Z",
-    "priceUSD": 85920.4,
-    "priceEUR": 76189.6,
-    "change24h": 1.2624750734243777
+    "computedAt": "2026-10-02T19:43:54.578Z",
+    "priceUSD": 84149.2,
+    "priceEUR": 74785.1,
+    "change24h": -0.8249930464871796
   },
   "history": [
     {
@@ -7692,7 +7704,12 @@
       "t": "2026-10-02T14:45:46.013Z",
       "equityEUR": 194.13,
       "priceEUR": 76189.6
+    },
+    {
+      "t": "2026-10-02T19:43:54.582Z",
+      "equityEUR": 181.01,
+      "priceEUR": 74785.1
     }
   ],
-  "lastRun": "2026-10-02T14:45:46.013Z"
+  "lastRun": "2026-10-02T19:43:54.582Z"
 }
