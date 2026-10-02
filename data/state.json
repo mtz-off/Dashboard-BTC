@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 141.11,
-  "equityEUR": 198.22,
+  "equityEUR": 194.13,
   "stopped": false,
   "openPositions": [
     {
@@ -718,19 +718,19 @@
     }
   ],
   "lastSignal": {
-    "price": 86303.79883203638,
+    "price": 85990.9812800044,
     "direction": "LONG",
-    "score": 1.12,
-    "strength": 0.14,
-    "atr14": 849.8254128564761,
+    "score": 2.67,
+    "strength": 0.33,
+    "atr14": 823.6284993277477,
     "indicators": {
-      "ema20": 85096.8852096585,
-      "ema50": 84465.36069821549,
-      "rsi14": 70.43265597063913,
-      "macdHist": 152.02930604486795,
-      "bbUpper": 86473.17427334547,
-      "bbMid": 84891.78702725527,
-      "bbLower": 83310.39978116506
+      "ema20": 85726.86623304634,
+      "ema50": 84923.74082514615,
+      "rsi14": 57.89653947511662,
+      "macdHist": 11.02349145397909,
+      "bbUpper": 87186.73992977542,
+      "bbMid": 85639.59921838451,
+      "bbLower": 84092.4585069936
     },
     "fearGreed": {
       "value": 72,
@@ -739,6 +739,21 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin reaches for $87K as short liquidations top $120M",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin open interest jumps $2.3 billion as traders pay more for bullish positions",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Bitcoin ETFs kick off ‘Uptober’ with $103M inflow",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
       {
         "title": "Illinois will postpone implementation of crypto tax following lawsuit",
         "source": "Cointelegraph",
@@ -758,47 +773,27 @@
         "title": "NEAR Intents hit by $3.8 million exploit as crypto's rough year of hacks continues",
         "source": "CoinDesk",
         "itemScore": -2
-      },
-      {
-        "title": "Bitget’s $388M hack pushes Q3 crypto security losses past $1B",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Citigroup raises 12-month bitcoin target to $113,000 as ETF inflows resume",
-        "source": "CoinDesk",
-        "itemScore": 2
-      },
-      {
-        "title": "Coinbase-Backed Crypto Group Reveals Midterm Endorsements After Clarity Act Collapse",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin ETFs Extend Win Streak to 9 Days, Matching August Rally",
-        "source": "Decrypt",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=85097 vs EMA50=84465",
+        "detail": "EMA20=85727 vs EMA50=84924",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "70.4",
-        "points": -1.5
+        "detail": "57.9",
+        "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "152.0",
-        "points": 1.95
+        "detail": "11.0",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 86304 vs [83310, 86473]",
+        "detail": "prix 85991 vs [84092, 87187]",
         "points": 0
       },
       {
@@ -812,10 +807,10 @@
         "points": -1.33
       }
     ],
-    "computedAt": "2026-10-02T08:13:45.477Z",
-    "priceUSD": 86289.3,
-    "priceEUR": 76627.5,
-    "change24h": 1.6972464089231316
+    "computedAt": "2026-10-02T14:45:46.009Z",
+    "priceUSD": 85920.4,
+    "priceEUR": 76189.6,
+    "change24h": 1.2624750734243777
   },
   "history": [
     {
@@ -7692,7 +7687,12 @@
       "t": "2026-10-02T08:13:45.479Z",
       "equityEUR": 198.22,
       "priceEUR": 76627.5
+    },
+    {
+      "t": "2026-10-02T14:45:46.013Z",
+      "equityEUR": 194.13,
+      "priceEUR": 76189.6
     }
   ],
-  "lastRun": "2026-10-02T08:13:45.479Z"
+  "lastRun": "2026-10-02T14:45:46.013Z"
 }
