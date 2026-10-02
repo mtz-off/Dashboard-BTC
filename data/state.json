@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 105.83,
-  "equityEUR": 181.01,
+  "equityEUR": 181.79,
   "stopped": false,
   "openPositions": [
     {
@@ -735,19 +735,19 @@
     }
   ],
   "lastSignal": {
-    "price": 84195.35581515549,
+    "price": 84477.19972474108,
     "direction": "SHORT",
-    "score": -1.45,
-    "strength": 0.18,
-    "atr14": 899.2147398766125,
+    "score": -2,
+    "strength": 0.25,
+    "atr14": 947.2814434853291,
     "indicators": {
-      "ema20": 85296.95657148749,
-      "ema50": 84876.61665541107,
-      "rsi14": 36.06030810883665,
-      "macdHist": -298.2017873552089,
-      "bbUpper": 87199.78765984919,
-      "bbMid": 85645.91173152263,
-      "bbLower": 84092.03580319608
+      "ema20": 85038.02725131065,
+      "ema50": 84822.99795859614,
+      "rsi14": 40.613605776779906,
+      "macdHist": -214.65683012818002,
+      "bbUpper": 87280.66084129695,
+      "bbMid": 85534.60096766126,
+      "bbLower": 83788.54109402557
     },
     "fearGreed": {
       "value": 72,
@@ -756,6 +756,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bank group sues U.S. regulator over granting crypto trust charters",
+        "source": "CoinDesk",
+        "itemScore": -2
+      },
+      {
+        "title": "European crypto users have ‘more faith’ in regulated firms under MiCA: Bitpanda co-CEO",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "$4.2B crypto bank Anchorage Digital cuts 17% of workforce: Report",
         "source": "Cointelegraph",
@@ -790,22 +800,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=85297 vs EMA50=84877",
+        "detail": "EMA20=85038 vs EMA50=84823",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "36.1",
+        "detail": "40.6",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-298.2",
-        "points": -1.95
+        "detail": "-214.7",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 84195 vs [84092, 87200]",
+        "detail": "prix 84477 vs [83789, 87281]",
         "points": 0
       },
       {
@@ -815,14 +825,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -3",
-        "points": -1
+        "detail": "30 articles pertinents, score brut -6",
+        "points": -2
       }
     ],
-    "computedAt": "2026-10-02T19:43:54.578Z",
-    "priceUSD": 84149.2,
-    "priceEUR": 74785.1,
-    "change24h": -0.8249930464871796
+    "computedAt": "2026-10-02T23:17:00.457Z",
+    "priceUSD": 84478.3,
+    "priceEUR": 75130.2,
+    "change24h": -0.4371284584887002
   },
   "history": [
     {
@@ -7709,7 +7719,12 @@
       "t": "2026-10-02T19:43:54.582Z",
       "equityEUR": 181.01,
       "priceEUR": 74785.1
+    },
+    {
+      "t": "2026-10-02T23:17:00.460Z",
+      "equityEUR": 181.79,
+      "priceEUR": 75130.2
     }
   ],
-  "lastRun": "2026-10-02T19:43:54.582Z"
+  "lastRun": "2026-10-02T23:17:00.460Z"
 }
