@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 105.83,
-  "equityEUR": 182.01,
+  "equityEUR": 182.44,
   "stopped": false,
   "openPositions": [
     {
@@ -735,19 +735,19 @@
     }
   ],
   "lastSignal": {
-    "price": 84586.6978418273,
-    "direction": "SHORT",
-    "score": -2,
-    "strength": 0.25,
-    "atr14": 857.1212664907096,
+    "price": 84795.45158734213,
+    "direction": "LONG",
+    "score": 1.62,
+    "strength": 0.2,
+    "atr14": 761.0850510530754,
     "indicators": {
-      "ema20": 84801.30452291333,
-      "ema50": 84765.05982785446,
-      "rsi14": 43.650555446813485,
-      "macdHist": -34.849194897389935,
-      "bbUpper": 86252.1313386771,
-      "bbMid": 84886.12984607347,
-      "bbLower": 83520.12835346983
+      "ema20": 84756.65430654984,
+      "ema50": 84749.39076266527,
+      "rsi14": 50.0994463328167,
+      "macdHist": 35.01142846247376,
+      "bbUpper": 84855.62909388974,
+      "bbMid": 84576.48824812239,
+      "bbLower": 84297.34740235504
     },
     "fearGreed": {
       "value": 67,
@@ -756,6 +756,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Community banks sue OCC over trust bank charters of crypto firms",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "Bank group sues U.S. regulator over granting crypto trust charters",
         "source": "CoinDesk",
@@ -790,32 +795,27 @@
         "title": "Illinois Delays Controversial Crypto Tax Amid Industry Lawsuit",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "NEAR Intents hit by $3.8 million exploit as crypto's rough year of hacks continues",
-        "source": "CoinDesk",
-        "itemScore": -2
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=84801 vs EMA50=84765",
+        "detail": "EMA20=84757 vs EMA50=84749",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "43.7",
-        "points": -0.5
+        "detail": "50.1",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-34.8",
-        "points": -1.5
+        "detail": "35.0",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 84587 vs [83520, 86252]",
+        "detail": "prix 84795 vs [84297, 84856]",
         "points": 0
       },
       {
@@ -825,14 +825,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -6",
-        "points": -2
+        "detail": "29 articles pertinents, score brut -7",
+        "points": -2.33
       }
     ],
-    "computedAt": "2026-10-03T08:06:53.116Z",
-    "priceUSD": 84599.2,
-    "priceEUR": 75226.1,
-    "change24h": 0.11301280298969159
+    "computedAt": "2026-10-03T13:22:11.064Z",
+    "priceUSD": 84774.1,
+    "priceEUR": 75417.3,
+    "change24h": 0.3199859887791999
   },
   "history": [
     {
@@ -7734,7 +7734,12 @@
       "t": "2026-10-03T08:06:53.119Z",
       "equityEUR": 182.01,
       "priceEUR": 75226.1
+    },
+    {
+      "t": "2026-10-03T13:22:11.067Z",
+      "equityEUR": 182.44,
+      "priceEUR": 75417.3
     }
   ],
-  "lastRun": "2026-10-03T08:06:53.119Z"
+  "lastRun": "2026-10-03T13:22:11.067Z"
 }
