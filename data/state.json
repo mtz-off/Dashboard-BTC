@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 105.83,
-  "equityEUR": 182.44,
+  "equityEUR": 182.66,
   "stopped": false,
   "openPositions": [
     {
@@ -735,19 +735,19 @@
     }
   ],
   "lastSignal": {
-    "price": 84795.45158734213,
+    "price": 84897.90272122993,
     "direction": "LONG",
-    "score": 1.62,
-    "strength": 0.2,
-    "atr14": 761.0850510530754,
+    "score": 2.62,
+    "strength": 0.33,
+    "atr14": 725.7514018590717,
     "indicators": {
-      "ema20": 84756.65430654984,
-      "ema50": 84749.39076266527,
-      "rsi14": 50.0994463328167,
-      "macdHist": 35.01142846247376,
-      "bbUpper": 84855.62909388974,
-      "bbMid": 84576.48824812239,
-      "bbLower": 84297.34740235504
+      "ema20": 84794.91397438351,
+      "ema50": 84767.67221314558,
+      "rsi14": 53.32005323212804,
+      "macdHist": 48.86222479269195,
+      "bbUpper": 84932.16142479566,
+      "bbMid": 84676.91660567265,
+      "bbLower": 84421.67178654965
     },
     "fearGreed": {
       "value": 67,
@@ -790,32 +790,27 @@
         "title": "Bitcoin ETFs kick off ‘Uptober’ with $103M inflow",
         "source": "Cointelegraph",
         "itemScore": 1
-      },
-      {
-        "title": "Illinois Delays Controversial Crypto Tax Amid Industry Lawsuit",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=84757 vs EMA50=84749",
+        "detail": "EMA20=84795 vs EMA50=84768",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "50.1",
+        "detail": "53.3",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "35.0",
+        "detail": "48.9",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 84795 vs [84297, 84856]",
+        "detail": "prix 84898 vs [84422, 84932]",
         "points": 0
       },
       {
@@ -825,14 +820,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "29 articles pertinents, score brut -7",
-        "points": -2.33
+        "detail": "26 articles pertinents, score brut -4",
+        "points": -1.33
       }
     ],
-    "computedAt": "2026-10-03T13:22:11.064Z",
-    "priceUSD": 84774.1,
-    "priceEUR": 75417.3,
-    "change24h": 0.3199859887791999
+    "computedAt": "2026-10-03T17:29:40.016Z",
+    "priceUSD": 84886,
+    "priceEUR": 75516,
+    "change24h": 0.45240622599957514
   },
   "history": [
     {
@@ -7739,7 +7734,12 @@
       "t": "2026-10-03T13:22:11.067Z",
       "equityEUR": 182.44,
       "priceEUR": 75417.3
+    },
+    {
+      "t": "2026-10-03T17:29:40.018Z",
+      "equityEUR": 182.66,
+      "priceEUR": 75516
     }
   ],
-  "lastRun": "2026-10-03T13:22:11.067Z"
+  "lastRun": "2026-10-03T17:29:40.018Z"
 }
