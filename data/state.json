@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 105.83,
-  "equityEUR": 182.48,
+  "equityEUR": 183.04,
   "stopped": false,
   "openPositions": [
     {
@@ -735,19 +735,19 @@
     }
   ],
   "lastSignal": {
-    "price": 84816.42473143067,
+    "price": 85081.32960706952,
     "direction": "LONG",
-    "score": 2.62,
-    "strength": 0.33,
-    "atr14": 667.5633056971026,
+    "score": 1.78,
+    "strength": 0.22,
+    "atr14": 607.220835209533,
     "indicators": {
-      "ema20": 84792.59119083629,
-      "ema50": 84776.03397154069,
-      "rsi14": 50.67446811402693,
-      "macdHist": 10.236350021964903,
-      "bbUpper": 85001.54236753224,
-      "bbMid": 84769.17160811709,
-      "bbLower": 84536.80084870194
+      "ema20": 84872.52632114472,
+      "ema50": 84814.80909285205,
+      "rsi14": 62.13248019702115,
+      "macdHist": 39.44389023722646,
+      "bbUpper": 85078.08499242514,
+      "bbMid": 84859.00239391832,
+      "bbLower": 84639.9197954115
     },
     "fearGreed": {
       "value": 65,
@@ -785,33 +785,28 @@
         "title": "Bitcoin open interest jumps $2.3 billion as traders pay more for bullish positions",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Bitcoin ETFs kick off ‘Uptober’ with $103M inflow",
-        "source": "Cointelegraph",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=84793 vs EMA50=84776",
+        "detail": "EMA20=84873 vs EMA50=84815",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "50.7",
-        "points": 0
+        "detail": "62.1",
+        "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "10.2",
+        "detail": "39.4",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 84816 vs [84537, 85002]",
-        "points": 0
+        "detail": "prix 85081 vs [84640, 85078]",
+        "points": -1
       },
       {
         "factor": "Fear & Greed Index",
@@ -820,14 +815,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "24 articles pertinents, score brut -4",
-        "points": -1.33
+        "detail": "20 articles pertinents, score brut -5",
+        "points": -1.67
       }
     ],
-    "computedAt": "2026-10-04T02:37:43.190Z",
-    "priceUSD": 84813.6,
-    "priceEUR": 75435.5,
-    "change24h": 0.08673579568586773
+    "computedAt": "2026-10-04T08:48:11.140Z",
+    "priceUSD": 85106.3,
+    "priceEUR": 75683.9,
+    "change24h": 0.4321448759206055
   },
   "history": [
     {
@@ -7754,7 +7749,12 @@
       "t": "2026-10-04T02:37:43.192Z",
       "equityEUR": 182.48,
       "priceEUR": 75435.5
+    },
+    {
+      "t": "2026-10-04T08:48:11.143Z",
+      "equityEUR": 183.04,
+      "priceEUR": 75683.9
     }
   ],
-  "lastRun": "2026-10-04T02:37:43.192Z"
+  "lastRun": "2026-10-04T08:48:11.143Z"
 }
