@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 105.83,
-  "equityEUR": 183.04,
+  "equityEUR": 183.17,
   "stopped": false,
   "openPositions": [
     {
@@ -735,19 +735,19 @@
     }
   ],
   "lastSignal": {
-    "price": 85081.32960706952,
+    "price": 85170.47768723362,
     "direction": "LONG",
-    "score": 1.78,
-    "strength": 0.22,
-    "atr14": 607.220835209533,
+    "score": 2,
+    "strength": 0.25,
+    "atr14": 590.9063311306144,
     "indicators": {
-      "ema20": 84872.52632114472,
-      "ema50": 84814.80909285205,
-      "rsi14": 62.13248019702115,
-      "macdHist": 39.44389023722646,
-      "bbUpper": 85078.08499242514,
-      "bbMid": 84859.00239391832,
-      "bbLower": 84639.9197954115
+      "ema20": 85026.49666713107,
+      "ema50": 84900.594505045,
+      "rsi14": 59.14500577497556,
+      "macdHist": 30.223732562973154,
+      "bbUpper": 85360.74984665804,
+      "bbMid": 84958.53995362794,
+      "bbLower": 84556.33006059784
     },
     "fearGreed": {
       "value": 65,
@@ -756,6 +756,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "The Clarity Act stalled. Bankers aren’t hitting the brakes yet on crypto dealmaking",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Community banks sue OCC over trust bank charters of crypto firms",
         "source": "Cointelegraph",
@@ -775,38 +780,28 @@
         "title": "$4.2B crypto bank Anchorage Digital cuts 17% of workforce: Report",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin reaches for $87K as short liquidations top $120M",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin open interest jumps $2.3 billion as traders pay more for bullish positions",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=84873 vs EMA50=84815",
+        "detail": "EMA20=85026 vs EMA50=84901",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "62.1",
+        "detail": "59.1",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "39.4",
-        "points": 1.95
+        "detail": "30.2",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 85081 vs [84640, 85078]",
-        "points": -1
+        "detail": "prix 85170 vs [84556, 85361]",
+        "points": 0
       },
       {
         "factor": "Fear & Greed Index",
@@ -815,14 +810,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "20 articles pertinents, score brut -5",
-        "points": -1.67
+        "detail": "14 articles pertinents, score brut -6",
+        "points": -2
       }
     ],
-    "computedAt": "2026-10-04T08:48:11.140Z",
-    "priceUSD": 85106.3,
-    "priceEUR": 75683.9,
-    "change24h": 0.4321448759206055
+    "computedAt": "2026-10-04T14:35:53.308Z",
+    "priceUSD": 85169.6,
+    "priceEUR": 75739.5,
+    "change24h": 0.5068438673072134
   },
   "history": [
     {
@@ -7754,7 +7749,12 @@
       "t": "2026-10-04T08:48:11.143Z",
       "equityEUR": 183.04,
       "priceEUR": 75683.9
+    },
+    {
+      "t": "2026-10-04T14:35:53.310Z",
+      "equityEUR": 183.17,
+      "priceEUR": 75739.5
     }
   ],
-  "lastRun": "2026-10-04T08:48:11.143Z"
+  "lastRun": "2026-10-04T14:35:53.310Z"
 }
