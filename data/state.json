@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 133.6225924816575,
-  "equityEUR": 183.4,
+  "equityEUR": 188.41,
   "stopped": false,
   "openPositions": [
     {
@@ -734,19 +734,19 @@
     }
   ],
   "lastSignal": {
-    "price": 85308.26527147969,
+    "price": 85954.46276463191,
     "direction": "LONG",
-    "score": 1.67,
-    "strength": 0.21,
-    "atr14": 572.9517545924933,
+    "score": 0.45,
+    "strength": 0.06,
+    "atr14": 556.9239298555648,
     "indicators": {
-      "ema20": 85125.77171579193,
-      "ema50": 84964.08021301086,
-      "rsi14": 63.5349664077298,
-      "macdHist": 21.29973329089536,
-      "bbUpper": 85502.28548604777,
-      "bbMid": 85073.12271079238,
-      "bbLower": 84643.95993553699
+      "ema20": 85287.55677871489,
+      "ema50": 85051.7559180759,
+      "rsi14": 79.87159009242006,
+      "macdHist": 67.06897972065366,
+      "bbUpper": 85796.52293369742,
+      "bbMid": 85217.58093101045,
+      "bbLower": 84638.63892832349
     },
     "fearGreed": {
       "value": 65,
@@ -769,43 +769,28 @@
         "title": "Community banks sue OCC over trust bank charters of crypto firms",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "Bank group sues U.S. regulator over granting crypto trust charters",
-        "source": "CoinDesk",
-        "itemScore": -2
-      },
-      {
-        "title": "European crypto users have ‘more faith’ in regulated firms under MiCA: Bitpanda co-CEO",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "$4.2B crypto bank Anchorage Digital cuts 17% of workforce: Report",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=85126 vs EMA50=84964",
+        "detail": "EMA20=85288 vs EMA50=85052",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "63.5",
-        "points": 0.5
+        "detail": "79.9",
+        "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "21.3",
-        "points": 1.5
+        "detail": "67.1",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 85308 vs [84644, 85502]",
-        "points": 0
+        "detail": "prix 85954 vs [84639, 85797]",
+        "points": -1
       },
       {
         "factor": "Fear & Greed Index",
@@ -814,14 +799,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "13 articles pertinents, score brut -7",
-        "points": -2.33
+        "detail": "11 articles pertinents, score brut -3",
+        "points": -1
       }
     ],
-    "computedAt": "2026-10-04T18:21:58.217Z",
-    "priceUSD": 85307.8,
-    "priceEUR": 75843.2,
-    "change24h": 0.6699307647736987
+    "computedAt": "2026-10-04T21:44:31.174Z",
+    "priceUSD": 85958,
+    "priceEUR": 76379.7,
+    "change24h": 1.4372180349090857
   },
   "history": [
     {
@@ -7763,7 +7748,12 @@
       "t": "2026-10-04T18:21:58.219Z",
       "equityEUR": 183.4,
       "priceEUR": 75843.2
+    },
+    {
+      "t": "2026-10-04T21:44:31.177Z",
+      "equityEUR": 188.41,
+      "priceEUR": 76379.7
     }
   ],
-  "lastRun": "2026-10-04T18:21:58.219Z"
+  "lastRun": "2026-10-04T21:44:31.177Z"
 }
