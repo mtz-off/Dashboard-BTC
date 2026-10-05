@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 133.6225924816575,
-  "equityEUR": 192.33,
+  "equityEUR": 190.06,
   "stopped": false,
   "openPositions": [
     {
@@ -734,19 +734,19 @@
     }
   ],
   "lastSignal": {
-    "price": 86433.60364898585,
-    "direction": "LONG",
-    "score": 0.45,
-    "strength": 0.06,
-    "atr14": 614.1717806821931,
+    "price": 85692.87866812185,
+    "direction": "SHORT",
+    "score": -0.62,
+    "strength": 0.08,
+    "atr14": 634.5923567788728,
     "indicators": {
-      "ema20": 85484.69563584292,
-      "ema50": 85153.04377675102,
-      "rsi14": 85.53794383170252,
-      "macdHist": 119.9336896695628,
-      "bbUpper": 86223.35703234606,
-      "bbMid": 85373.16855086149,
-      "bbLower": 84522.98006937692
+      "ema20": 85767.94001800811,
+      "ema50": 85366.90738105262,
+      "rsi14": 51.17428819911175,
+      "macdHist": -34.162180006253266,
+      "bbUpper": 86767.27780112244,
+      "bbMid": 85721.68232358368,
+      "bbLower": 84676.08684604491
     },
     "fearGreed": {
       "value": 70,
@@ -755,6 +755,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Ether's bitcoin-beating Q3 rally came with a catch. Liquidity thinned.",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "Banking Group Sues to Block Crypto&#39;s &#39;Side Door&#39; Into the Banking System",
         "source": "Decrypt",
@@ -774,23 +779,23 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=85485 vs EMA50=85153",
+        "detail": "EMA20=85768 vs EMA50=85367",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "85.5",
-        "points": -1.5
+        "detail": "51.2",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "119.9",
-        "points": 1.95
+        "detail": "-34.2",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 86434 vs [84523, 86223]",
-        "points": -1
+        "detail": "prix 85693 vs [84676, 86767]",
+        "points": 0
       },
       {
         "factor": "Fear & Greed Index",
@@ -799,14 +804,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "12 articles pertinents, score brut -3",
-        "points": -1
+        "detail": "15 articles pertinents, score brut -2",
+        "points": -0.67
       }
     ],
-    "computedAt": "2026-10-05T00:12:24.294Z",
-    "priceUSD": 86369.7,
-    "priceEUR": 76799,
-    "change24h": -0.15825382109574151
+    "computedAt": "2026-10-05T05:43:03.801Z",
+    "priceUSD": 85649.9,
+    "priceEUR": 76556,
+    "change24h": -0.9903290615976257
   },
   "history": [
     {
@@ -7758,7 +7763,12 @@
       "t": "2026-10-05T00:12:24.298Z",
       "equityEUR": 192.33,
       "priceEUR": 76799
+    },
+    {
+      "t": "2026-10-05T05:43:03.803Z",
+      "equityEUR": 190.06,
+      "priceEUR": 76556
     }
   ],
-  "lastRun": "2026-10-05T00:12:24.298Z"
+  "lastRun": "2026-10-05T05:43:03.803Z"
 }
