@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 133.6225924816575,
-  "equityEUR": 190.06,
+  "equityEUR": 190.58,
   "stopped": false,
   "openPositions": [
     {
@@ -734,19 +734,19 @@
     }
   ],
   "lastSignal": {
-    "price": 85692.87866812185,
-    "direction": "SHORT",
-    "score": -0.62,
-    "strength": 0.08,
-    "atr14": 634.5923567788728,
+    "price": 85865.06418425389,
+    "direction": "LONG",
+    "score": 0.72,
+    "strength": 0.09,
+    "atr14": 658.7584409633326,
     "indicators": {
-      "ema20": 85767.94001800811,
-      "ema50": 85366.90738105262,
-      "rsi14": 51.17428819911175,
-      "macdHist": -34.162180006253266,
-      "bbUpper": 86767.27780112244,
-      "bbMid": 85721.68232358368,
-      "bbLower": 84676.08684604491
+      "ema20": 85931.42750008106,
+      "ema50": 85547.17819262114,
+      "rsi14": 50.840756872419256,
+      "macdHist": -56.351119617938934,
+      "bbUpper": 86829.7647484128,
+      "bbMid": 86022.29769049273,
+      "bbLower": 85214.83063257267
     },
     "fearGreed": {
       "value": 70,
@@ -755,6 +755,31 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Metaplanet reveals net income strategy to fuel Bitcoin accumulation",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
+        "title": "SEC approves a 3x fix for bitcoin and ether traders who miss the wild swings",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Kraken operator Payward and Singapore Gulf Bank partner for 24/7 institutional crypto settlement",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin ETFs notch third inflow week as Ether ETFs shed $138M",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
+        "title": "Bitcoin is about to get a major bullish signal it hasn't had in over a year",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "Ether's bitcoin-beating Q3 rally came with a catch. Liquidity thinned.",
         "source": "CoinDesk",
@@ -769,32 +794,27 @@
         "title": "The Clarity Act stalled. Bankers aren’t hitting the brakes yet on crypto dealmaking",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Community banks sue OCC over trust bank charters of crypto firms",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=85768 vs EMA50=85367",
+        "detail": "EMA20=85931 vs EMA50=85547",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "51.2",
+        "detail": "50.8",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-34.2",
+        "detail": "-56.4",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 85693 vs [84676, 86767]",
+        "detail": "prix 85865 vs [85215, 86830]",
         "points": 0
       },
       {
@@ -804,14 +824,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "15 articles pertinents, score brut -2",
-        "points": -0.67
+        "detail": "29 articles pertinents, score brut 2",
+        "points": 0.67
       }
     ],
-    "computedAt": "2026-10-05T05:43:03.801Z",
-    "priceUSD": 85649.9,
-    "priceEUR": 76556,
-    "change24h": -0.9903290615976257
+    "computedAt": "2026-10-05T12:40:53.107Z",
+    "priceUSD": 85863.9,
+    "priceEUR": 76611.7,
+    "change24h": -0.7429490929015955
   },
   "history": [
     {
@@ -7768,7 +7788,12 @@
       "t": "2026-10-05T05:43:03.803Z",
       "equityEUR": 190.06,
       "priceEUR": 76556
+    },
+    {
+      "t": "2026-10-05T12:40:53.110Z",
+      "equityEUR": 190.58,
+      "priceEUR": 76611.7
     }
   ],
-  "lastRun": "2026-10-05T05:43:03.803Z"
+  "lastRun": "2026-10-05T12:40:53.110Z"
 }
