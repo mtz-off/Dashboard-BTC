@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 133.6225924816575,
-  "equityEUR": 190.58,
+  "equityEUR": 189.14,
   "stopped": false,
   "openPositions": [
     {
@@ -734,19 +734,19 @@
     }
   ],
   "lastSignal": {
-    "price": 85865.06418425389,
+    "price": 85810.03829430629,
     "direction": "LONG",
-    "score": 0.72,
-    "strength": 0.09,
-    "atr14": 658.7584409633326,
+    "score": 0.5,
+    "strength": 0.06,
+    "atr14": 716.9533547065922,
     "indicators": {
-      "ema20": 85931.42750008106,
-      "ema50": 85547.17819262114,
-      "rsi14": 50.840756872419256,
-      "macdHist": -56.351119617938934,
-      "bbUpper": 86829.7647484128,
-      "bbMid": 86022.29769049273,
-      "bbLower": 85214.83063257267
+      "ema20": 85769.27231406346,
+      "ema50": 85572.8723135848,
+      "rsi14": 51.266374351573255,
+      "macdHist": -66.50421292542595,
+      "bbUpper": 86681.19439854436,
+      "bbMid": 85919.04707468582,
+      "bbLower": 85156.89975082727
     },
     "fearGreed": {
       "value": 70,
@@ -755,6 +755,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "U.S. CFTC joins SEC in proposing crypto regulations, though spot-market gap lingers",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Metaplanet reveals net income strategy to fuel Bitcoin accumulation",
         "source": "Cointelegraph",
@@ -769,52 +774,27 @@
         "title": "Kraken operator Payward and Singapore Gulf Bank partner for 24/7 institutional crypto settlement",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin ETFs notch third inflow week as Ether ETFs shed $138M",
-        "source": "Cointelegraph",
-        "itemScore": 1
-      },
-      {
-        "title": "Bitcoin is about to get a major bullish signal it hasn't had in over a year",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "Ether's bitcoin-beating Q3 rally came with a catch. Liquidity thinned.",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "Banking Group Sues to Block Crypto&#39;s &#39;Side Door&#39; Into the Banking System",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "The Clarity Act stalled. Bankers aren’t hitting the brakes yet on crypto dealmaking",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=85931 vs EMA50=85547",
+        "detail": "EMA20=85769 vs EMA50=85573",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "50.8",
+        "detail": "51.3",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-56.4",
-        "points": -1.95
+        "detail": "-66.5",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 85865 vs [85215, 86830]",
+        "detail": "prix 85810 vs [85157, 86681]",
         "points": 0
       },
       {
@@ -824,14 +804,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "29 articles pertinents, score brut 2",
-        "points": 0.67
+        "detail": "30 articles pertinents, score brut 0",
+        "points": 0
       }
     ],
-    "computedAt": "2026-10-05T12:40:53.107Z",
-    "priceUSD": 85863.9,
-    "priceEUR": 76611.7,
-    "change24h": -0.7429490929015955
+    "computedAt": "2026-10-05T20:57:15.068Z",
+    "priceUSD": 85785.6,
+    "priceEUR": 76456.9,
+    "change24h": -0.8334624178964378
   },
   "history": [
     {
@@ -7793,7 +7773,12 @@
       "t": "2026-10-05T12:40:53.110Z",
       "equityEUR": 190.58,
       "priceEUR": 76611.7
+    },
+    {
+      "t": "2026-10-05T20:57:15.071Z",
+      "equityEUR": 189.14,
+      "priceEUR": 76456.9
     }
   ],
-  "lastRun": "2026-10-05T12:40:53.110Z"
+  "lastRun": "2026-10-05T20:57:15.071Z"
 }
