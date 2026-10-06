@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 133.6225924816575,
-  "equityEUR": 189.13,
+  "equityEUR": 190.33,
   "stopped": false,
   "openPositions": [
     {
@@ -734,19 +734,19 @@
     }
   ],
   "lastSignal": {
-    "price": 85738.12601631765,
+    "price": 85698.2944549243,
     "direction": "LONG",
-    "score": 0.38,
-    "strength": 0.05,
-    "atr14": 694.5495864653603,
+    "score": 0.17,
+    "strength": 0.02,
+    "atr14": 700.2859808475415,
     "indicators": {
-      "ema20": 85798.4752014469,
-      "ema50": 85622.69784874596,
-      "rsi14": 49.2319527509544,
-      "macdHist": -14.228505482279783,
-      "bbUpper": 86471.49427934816,
-      "bbMid": 85857.97369671194,
-      "bbLower": 85244.45311407572
+      "ema20": 85667.03675933066,
+      "ema50": 85597.24381436834,
+      "rsi14": 50.43336222085768,
+      "macdHist": -31.822625041861336,
+      "bbUpper": 86193.1960317673,
+      "bbMid": 85664.33265908656,
+      "bbLower": 85135.46928640583
     },
     "fearGreed": {
       "value": 73,
@@ -755,6 +755,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Better Markets says CFTC is ‘wrong agency’ to regulate retail crypto",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Rain seeks US trust bank charter days after OCC sued over crypto charters",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "U.S. CFTC joins SEC in proposing crypto regulations, though spot-market gap lingers",
         "source": "CoinDesk",
@@ -774,22 +784,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=85798 vs EMA50=85623",
+        "detail": "EMA20=85667 vs EMA50=85597",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "49.2",
+        "detail": "50.4",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-14.2",
-        "points": -1.95
+        "detail": "-31.8",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 85738 vs [85244, 86471]",
+        "detail": "prix 85698 vs [85135, 86193]",
         "points": 0
       },
       {
@@ -799,14 +809,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 1",
-        "points": 0.33
+        "detail": "30 articles pertinents, score brut -1",
+        "points": -0.33
       }
     ],
-    "computedAt": "2026-10-06T01:38:52.524Z",
-    "priceUSD": 85802.5,
-    "priceEUR": 76456.5,
-    "change24h": 0.05947417829425724
+    "computedAt": "2026-10-06T08:08:29.828Z",
+    "priceUSD": 85987.9,
+    "priceEUR": 76584.4,
+    "change24h": 0.2756803087992562
   },
   "history": [
     {
@@ -7778,7 +7788,12 @@
       "t": "2026-10-06T01:38:52.526Z",
       "equityEUR": 189.13,
       "priceEUR": 76456.5
+    },
+    {
+      "t": "2026-10-06T08:08:29.831Z",
+      "equityEUR": 190.33,
+      "priceEUR": 76584.4
     }
   ],
-  "lastRun": "2026-10-06T01:38:52.526Z"
+  "lastRun": "2026-10-06T08:08:29.831Z"
 }
