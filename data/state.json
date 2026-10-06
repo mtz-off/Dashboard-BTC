@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 133.6225924816575,
-  "equityEUR": 193.13,
+  "equityEUR": 185.51,
   "stopped": false,
   "openPositions": [
     {
@@ -734,19 +734,19 @@
     }
   ],
   "lastSignal": {
-    "price": 86573.28815277341,
+    "price": 85642.69529020925,
     "direction": "LONG",
-    "score": 2.45,
-    "strength": 0.31,
-    "atr14": 698.5712342518102,
+    "score": 0.05,
+    "strength": 0.01,
+    "atr14": 690.5241178814057,
     "indicators": {
-      "ema20": 85947.83822959455,
-      "ema50": 85744.51927344874,
-      "rsi14": 65.24069219430224,
-      "macdHist": 93.01482783153024,
-      "bbUpper": 86487.50105911013,
-      "bbMid": 85853.22178558903,
-      "bbLower": 85218.94251206794
+      "ema20": 85826.79901582489,
+      "ema50": 85726.39477596628,
+      "rsi14": 46.71684867657562,
+      "macdHist": -47.40721840512644,
+      "bbUpper": 86473.87297459226,
+      "bbMid": 85808.49954196105,
+      "bbLower": 85143.12610932984
     },
     "fearGreed": {
       "value": 73,
@@ -756,9 +756,19 @@
     "fundingRate": null,
     "newsHighlights": [
       {
+        "title": "Bitcoin grinds toward $87K as US equities hit new record highs",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
         "title": "Morning Minute: The CFTC Reveals Plan to Regulate Crypto Exchanges",
         "source": "Decrypt",
         "itemScore": -1
+      },
+      {
+        "title": "Live updates: Bitcoin remains locked in range as stocks notch another new record high",
+        "source": "CoinDesk",
+        "itemScore": 1
       },
       {
         "title": "Binance BTC outflows hit highest since mid-2023 as whales deposit stablecoins",
@@ -784,33 +794,28 @@
         "title": "Rain seeks US trust bank charter days after OCC sued over crypto charters",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "U.S. CFTC joins SEC in proposing crypto regulations, though spot-market gap lingers",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=85948 vs EMA50=85745",
+        "detail": "EMA20=85827 vs EMA50=85726",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "65.2",
-        "points": 0.5
+        "detail": "46.7",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "93.0",
-        "points": 1.95
+        "detail": "-47.4",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 86573 vs [85219, 86488]",
-        "points": -1
+        "detail": "prix 85643 vs [85143, 86474]",
+        "points": 0
       },
       {
         "factor": "Fear & Greed Index",
@@ -819,14 +824,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -3",
-        "points": -1
+        "detail": "30 articles pertinents, score brut 0",
+        "points": 0
       }
     ],
-    "computedAt": "2026-10-06T15:10:24.306Z",
-    "priceUSD": 86559.8,
-    "priceEUR": 76884.3,
-    "change24h": 0.9426074179460451
+    "computedAt": "2026-10-06T20:18:35.899Z",
+    "priceUSD": 85636.7,
+    "priceEUR": 76068.5,
+    "change24h": -0.13387520918001775
   },
   "history": [
     {
@@ -7808,7 +7813,12 @@
       "t": "2026-10-06T15:10:24.309Z",
       "equityEUR": 193.13,
       "priceEUR": 76884.3
+    },
+    {
+      "t": "2026-10-06T20:18:35.902Z",
+      "equityEUR": 185.51,
+      "priceEUR": 76068.5
     }
   ],
-  "lastRun": "2026-10-06T15:10:24.309Z"
+  "lastRun": "2026-10-06T20:18:35.902Z"
 }
