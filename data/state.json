@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 133.6225924816575,
-  "equityEUR": 190.33,
+  "equityEUR": 193.13,
   "stopped": false,
   "openPositions": [
     {
@@ -734,19 +734,19 @@
     }
   ],
   "lastSignal": {
-    "price": 85698.2944549243,
+    "price": 86573.28815277341,
     "direction": "LONG",
-    "score": 0.17,
-    "strength": 0.02,
-    "atr14": 700.2859808475415,
+    "score": 2.45,
+    "strength": 0.31,
+    "atr14": 698.5712342518102,
     "indicators": {
-      "ema20": 85667.03675933066,
-      "ema50": 85597.24381436834,
-      "rsi14": 50.43336222085768,
-      "macdHist": -31.822625041861336,
-      "bbUpper": 86193.1960317673,
-      "bbMid": 85664.33265908656,
-      "bbLower": 85135.46928640583
+      "ema20": 85947.83822959455,
+      "ema50": 85744.51927344874,
+      "rsi14": 65.24069219430224,
+      "macdHist": 93.01482783153024,
+      "bbUpper": 86487.50105911013,
+      "bbMid": 85853.22178558903,
+      "bbLower": 85218.94251206794
     },
     "fearGreed": {
       "value": 73,
@@ -755,6 +755,26 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Morning Minute: The CFTC Reveals Plan to Regulate Crypto Exchanges",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Binance BTC outflows hit highest since mid-2023 as whales deposit stablecoins",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Why bitcoin is down 'just' 32% a year after its record high of $126,000",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Bitcoin ETFs shed $90M as BTC sits 32% below year-old ATH",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
       {
         "title": "Better Markets says CFTC is ‘wrong agency’ to regulate retail crypto",
         "source": "Cointelegraph",
@@ -769,38 +789,28 @@
         "title": "U.S. CFTC joins SEC in proposing crypto regulations, though spot-market gap lingers",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Metaplanet reveals net income strategy to fuel Bitcoin accumulation",
-        "source": "Cointelegraph",
-        "itemScore": 1
-      },
-      {
-        "title": "SEC approves a 3x fix for bitcoin and ether traders who miss the wild swings",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=85667 vs EMA50=85597",
+        "detail": "EMA20=85948 vs EMA50=85745",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "50.4",
-        "points": 0
+        "detail": "65.2",
+        "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-31.8",
-        "points": -1.5
+        "detail": "93.0",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 85698 vs [85135, 86193]",
-        "points": 0
+        "detail": "prix 86573 vs [85219, 86488]",
+        "points": -1
       },
       {
         "factor": "Fear & Greed Index",
@@ -809,14 +819,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -1",
-        "points": -0.33
+        "detail": "30 articles pertinents, score brut -3",
+        "points": -1
       }
     ],
-    "computedAt": "2026-10-06T08:08:29.828Z",
-    "priceUSD": 85987.9,
-    "priceEUR": 76584.4,
-    "change24h": 0.2756803087992562
+    "computedAt": "2026-10-06T15:10:24.306Z",
+    "priceUSD": 86559.8,
+    "priceEUR": 76884.3,
+    "change24h": 0.9426074179460451
   },
   "history": [
     {
@@ -7793,7 +7803,12 @@
       "t": "2026-10-06T08:08:29.831Z",
       "equityEUR": 190.33,
       "priceEUR": 76584.4
+    },
+    {
+      "t": "2026-10-06T15:10:24.309Z",
+      "equityEUR": 193.13,
+      "priceEUR": 76884.3
     }
   ],
-  "lastRun": "2026-10-06T08:08:29.831Z"
+  "lastRun": "2026-10-06T15:10:24.309Z"
 }
