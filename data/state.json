@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 133.6225924816575,
-  "equityEUR": 189.14,
+  "equityEUR": 189.13,
   "stopped": false,
   "openPositions": [
     {
@@ -734,24 +734,24 @@
     }
   ],
   "lastSignal": {
-    "price": 85810.03829430629,
+    "price": 85738.12601631765,
     "direction": "LONG",
-    "score": 0.5,
-    "strength": 0.06,
-    "atr14": 716.9533547065922,
+    "score": 0.38,
+    "strength": 0.05,
+    "atr14": 694.5495864653603,
     "indicators": {
-      "ema20": 85769.27231406346,
-      "ema50": 85572.8723135848,
-      "rsi14": 51.266374351573255,
-      "macdHist": -66.50421292542595,
-      "bbUpper": 86681.19439854436,
-      "bbMid": 85919.04707468582,
-      "bbLower": 85156.89975082727
+      "ema20": 85798.4752014469,
+      "ema50": 85622.69784874596,
+      "rsi14": 49.2319527509544,
+      "macdHist": -14.228505482279783,
+      "bbUpper": 86471.49427934816,
+      "bbMid": 85857.97369671194,
+      "bbLower": 85244.45311407572
     },
     "fearGreed": {
-      "value": 70,
+      "value": 73,
       "classification": "Greed",
-      "timestamp": 1791158400000
+      "timestamp": 1791244800000
     },
     "fundingRate": null,
     "newsHighlights": [
@@ -769,49 +769,44 @@
         "title": "SEC approves a 3x fix for bitcoin and ether traders who miss the wild swings",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Kraken operator Payward and Singapore Gulf Bank partner for 24/7 institutional crypto settlement",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=85769 vs EMA50=85573",
+        "detail": "EMA20=85798 vs EMA50=85623",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "51.3",
+        "detail": "49.2",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-66.5",
-        "points": -1.5
+        "detail": "-14.2",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 85810 vs [85157, 86681]",
+        "detail": "prix 85738 vs [85244, 86471]",
         "points": 0
       },
       {
         "factor": "Fear & Greed Index",
-        "detail": "70 (Greed)",
+        "detail": "73 (Greed)",
         "points": 0
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 0",
-        "points": 0
+        "detail": "30 articles pertinents, score brut 1",
+        "points": 0.33
       }
     ],
-    "computedAt": "2026-10-05T20:57:15.068Z",
-    "priceUSD": 85785.6,
-    "priceEUR": 76456.9,
-    "change24h": -0.8334624178964378
+    "computedAt": "2026-10-06T01:38:52.524Z",
+    "priceUSD": 85802.5,
+    "priceEUR": 76456.5,
+    "change24h": 0.05947417829425724
   },
   "history": [
     {
@@ -7778,7 +7773,12 @@
       "t": "2026-10-05T20:57:15.071Z",
       "equityEUR": 189.14,
       "priceEUR": 76456.9
+    },
+    {
+      "t": "2026-10-06T01:38:52.526Z",
+      "equityEUR": 189.13,
+      "priceEUR": 76456.5
     }
   ],
-  "lastRun": "2026-10-05T20:57:15.071Z"
+  "lastRun": "2026-10-06T01:38:52.526Z"
 }
