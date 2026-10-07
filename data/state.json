@@ -5,8 +5,8 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 133.6225924816575,
-  "equityEUR": 185.29,
+  "balanceEUR": 100.21,
+  "equityEUR": 174.21,
   "stopped": false,
   "openPositions": [
     {
@@ -24,6 +24,23 @@
       "tpPct": 2.26,
       "signalScore": 2.33,
       "signalStrength": 0.29,
+      "status": "OPEN"
+    },
+    {
+      "id": "6381eece-451b-4507-8545-decd6febfbf1",
+      "side": "SHORT",
+      "entryPrice": 74859.5,
+      "entryTime": "2026-10-07T04:56:21.352Z",
+      "sizeEUR": 33.41,
+      "notionalEUR": 501.15,
+      "leverage": 15,
+      "qtyBTC": 0.00669454,
+      "sl": 75663.95,
+      "tp": 73250.61,
+      "slPct": 1.07,
+      "tpPct": 2.15,
+      "signalScore": -2.12,
+      "signalStrength": 0.26,
       "status": "OPEN"
     }
   ],
@@ -734,27 +751,35 @@
     }
   ],
   "lastSignal": {
-    "price": 85576.15153115334,
-    "direction": "LONG",
-    "score": 0.5,
-    "strength": 0.06,
-    "atr14": 690.5241178814057,
+    "price": 84108.06499090615,
+    "direction": "SHORT",
+    "score": -2.12,
+    "strength": 0.26,
+    "atr14": 753.1924620698259,
     "indicators": {
-      "ema20": 85742.28608895747,
-      "ema50": 85703.42025622769,
-      "rsi14": 45.71095008190148,
-      "macdHist": -49.64096088928085,
-      "bbUpper": 86460.48185002337,
-      "bbMid": 85794.3357102536,
-      "bbLower": 85128.18957048382
+      "ema20": 85198.70573165847,
+      "ema50": 85466.51202622497,
+      "rsi14": 29.5477746771125,
+      "macdHist": -200.6765942722791,
+      "bbUpper": 86992.43540857751,
+      "bbMid": 85501.45206357296,
+      "bbLower": 84010.4687185684
     },
     "fearGreed": {
-      "value": 73,
+      "value": 71,
       "classification": "Greed",
-      "timestamp": 1791244800000
+      "timestamp": 1791331200000
     },
-    "fundingRate": null,
+    "fundingRate": {
+      "lastFundingRate": -0.00004811,
+      "markPrice": 84041.23739855
+    },
     "newsHighlights": [
+      {
+        "title": "Bitcoin.de trading remains halted as German regulator rejects MiCA application",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin grinds toward $87K as US equities hit new record highs",
         "source": "Cointelegraph",
@@ -784,54 +809,49 @@
         "title": "Bitcoin ETFs shed $90M as BTC sits 32% below year-old ATH",
         "source": "Cointelegraph",
         "itemScore": 1
-      },
-      {
-        "title": "Better Markets says CFTC is ‘wrong agency’ to regulate retail crypto",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Rain seeks US trust bank charter days after OCC sued over crypto charters",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=85742 vs EMA50=85703",
-        "points": 2
+        "detail": "EMA20=85199 vs EMA50=85467",
+        "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "45.7",
-        "points": 0
+        "detail": "29.5",
+        "points": 1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-49.6",
-        "points": -1.5
+        "detail": "-200.7",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 85576 vs [85128, 86460]",
+        "detail": "prix 84108 vs [84010, 86992]",
         "points": 0
       },
       {
         "factor": "Fear & Greed Index",
-        "detail": "73 (Greed)",
+        "detail": "71 (Greed)",
+        "points": 0
+      },
+      {
+        "factor": "Funding rate BTC perp",
+        "detail": "-0.0048%",
         "points": 0
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 0",
-        "points": 0
+        "detail": "30 articles pertinents, score brut 1",
+        "points": 0.33
       }
     ],
-    "computedAt": "2026-10-06T23:57:13.302Z",
-    "priceUSD": 85566.4,
-    "priceEUR": 76044.9,
-    "change24h": -0.21585628239739924
+    "computedAt": "2026-10-07T04:56:21.349Z",
+    "priceUSD": 84058.9,
+    "priceEUR": 74859.5,
+    "change24h": -1.7337682074302747
   },
   "history": [
     {
@@ -7823,7 +7843,12 @@
       "t": "2026-10-06T23:57:13.305Z",
       "equityEUR": 185.29,
       "priceEUR": 76044.9
+    },
+    {
+      "t": "2026-10-07T04:56:21.352Z",
+      "equityEUR": 174.21,
+      "priceEUR": 74859.5
     }
   ],
-  "lastRun": "2026-10-06T23:57:13.305Z"
+  "lastRun": "2026-10-07T04:56:21.352Z"
 }
