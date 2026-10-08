@@ -5,25 +5,25 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 135.2710965761612,
-  "equityEUR": 173.66,
+  "balanceEUR": 137.69,
+  "equityEUR": 183.59,
   "stopped": false,
   "openPositions": [
     {
-      "id": "6381eece-451b-4507-8545-decd6febfbf1",
+      "id": "a0aaf4e3-9e2c-47c9-875d-ced29940b964",
       "side": "SHORT",
-      "entryPrice": 74859.5,
-      "entryTime": "2026-10-07T04:56:21.352Z",
-      "sizeEUR": 33.41,
-      "notionalEUR": 501.15,
+      "entryPrice": 72633.1,
+      "entryTime": "2026-10-08T16:45:33.463Z",
+      "sizeEUR": 45.9,
+      "notionalEUR": 688.5,
       "leverage": 15,
-      "qtyBTC": 0.00669454,
-      "sl": 75663.95,
-      "tp": 73250.61,
-      "slPct": 1.07,
-      "tpPct": 2.15,
-      "signalScore": -2.12,
-      "signalStrength": 0.26,
+      "qtyBTC": 0.00947915,
+      "sl": 73482.65,
+      "tp": 70933.99,
+      "slPct": 1.17,
+      "tpPct": 2.34,
+      "signalScore": -3.45,
+      "signalStrength": 0.43,
       "status": "OPEN"
     }
   ],
@@ -747,22 +747,38 @@
       "pnlPct": -1.7,
       "reason": "SL",
       "status": "CLOSED"
+    },
+    {
+      "id": "6381eece-451b-4507-8545-decd6febfbf1",
+      "side": "SHORT",
+      "entryPrice": 74859.5,
+      "entryTime": "2026-10-07T04:56:21.352Z",
+      "exitPrice": 72633.1,
+      "exitTime": "2026-10-08T16:45:33.463Z",
+      "sizeEUR": 33.41,
+      "notionalEUR": 501.15,
+      "leverage": 15,
+      "qtyBTC": 0.00669454,
+      "pnlEUR": 14.9,
+      "pnlPct": 2.97,
+      "reason": "TP",
+      "status": "CLOSED"
     }
   ],
   "lastSignal": {
-    "price": 82901.16975493672,
+    "price": 81241.96813180289,
     "direction": "SHORT",
-    "score": -0.55,
-    "strength": 0.07,
-    "atr14": 717.0382590428029,
+    "score": -3.45,
+    "strength": 0.43,
+    "atr14": 791.8724957812028,
     "indicators": {
-      "ema20": 83197.15378734897,
-      "ema50": 83946.00555571567,
-      "rsi14": 37.64842890892055,
-      "macdHist": 45.02268571521262,
-      "bbUpper": 83607.41101819226,
-      "bbMid": 83099.42951090721,
-      "bbLower": 82591.44800362216
+      "ema20": 82562.38187040699,
+      "ema50": 83446.08059492076,
+      "rsi14": 30.119596100162752,
+      "macdHist": -104.52092386881475,
+      "bbUpper": 83860.44820031668,
+      "bbMid": 82656.79049606652,
+      "bbLower": 81453.13279181636
     },
     "fearGreed": {
       "value": 64,
@@ -772,66 +788,51 @@
     "fundingRate": null,
     "newsHighlights": [
       {
+        "title": "US Government Moves $1 Billion in Bitcoin Seized From Bitfinex Hacker",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "U.S. government moves $1 billion in bitcoin from Bitfinex hack wallet, no sale indicated",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "EU securities regulator gives crypto platforms 3 months to remove unauthorized stablecoins",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin monthly ‘new money’ inflows near $5B as BTC price rally stalls",
+        "source": "Cointelegraph",
+        "itemScore": 2
+      },
+      {
         "title": "NEAR enters crypto’s top 20 after 140% surge in 30 days",
         "source": "Cointelegraph",
-        "itemScore": 1
-      },
-      {
-        "title": "US Bitcoin ETFs shed $485M in biggest daily outflow since June",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Crypto must cement adoption to withstand US policy shifts: Canton CEO",
-        "source": "Cointelegraph",
-        "itemScore": 1
-      },
-      {
-        "title": "Crypto news site Cointelegraph seeks buyer after web traffic plunges",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Vitalik Buterin backs crypto ‘bunker mode’ amid rapid AI math advances",
-        "source": "Cointelegraph",
-        "itemScore": 1
-      },
-      {
-        "title": "House Finance panel chair says regulator actions on crypto ‘fall short’ of CLARITY bill",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin price drops to $82.7K October low as bond sell-off resumes on Iran nerves",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin’s recovery stalls just short of rescuing its last underwater cohort",
-        "source": "CoinDesk",
         "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=83197 vs EMA50=83946",
+        "detail": "EMA20=82562 vs EMA50=83446",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "37.6",
+        "detail": "30.1",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "45.0",
-        "points": 1.95
+        "detail": "-104.5",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 82901 vs [82591, 83607]",
-        "points": 0
+        "detail": "prix 81242 vs [81453, 83860]",
+        "points": 1
       },
       {
         "factor": "Fear & Greed Index",
@@ -844,10 +845,10 @@
         "points": 0
       }
     ],
-    "computedAt": "2026-10-08T09:21:41.079Z",
-    "priceUSD": 82923.8,
-    "priceEUR": 74116.5,
-    "change24h": -0.42305055111851164
+    "computedAt": "2026-10-08T16:45:33.459Z",
+    "priceUSD": 81272.7,
+    "priceEUR": 72633.1,
+    "change24h": -2.405732256914059
   },
   "history": [
     {
@@ -7869,7 +7870,12 @@
       "t": "2026-10-08T09:21:41.082Z",
       "equityEUR": 173.66,
       "priceEUR": 74116.5
+    },
+    {
+      "t": "2026-10-08T16:45:33.463Z",
+      "equityEUR": 183.59,
+      "priceEUR": 72633.1
     }
   ],
-  "lastRun": "2026-10-08T09:21:41.082Z"
+  "lastRun": "2026-10-08T16:45:33.463Z"
 }
