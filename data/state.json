@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 135.2710965761612,
-  "equityEUR": 172.52,
+  "equityEUR": 173.55,
   "stopped": false,
   "openPositions": [
     {
@@ -750,27 +750,37 @@
     }
   ],
   "lastSignal": {
-    "price": 83215.72769858663,
+    "price": 83131.90708417758,
     "direction": "SHORT",
-    "score": -0.55,
-    "strength": 0.07,
-    "atr14": 714.1537447956065,
+    "score": -0.22,
+    "strength": 0.03,
+    "atr14": 696.0895486406,
     "indicators": {
-      "ema20": 83759.4599547783,
-      "ema50": 84501.42982353183,
-      "rsi14": 33.45335518017781,
-      "macdHist": 36.20145372095271,
-      "bbUpper": 84424.96293377253,
-      "bbMid": 83638.73555974559,
-      "bbLower": 82852.50818571865
+      "ema20": 83532.19243299207,
+      "ema50": 84262.57355163206,
+      "rsi14": 35.624996966130084,
+      "macdHist": 56.190560133886834,
+      "bbUpper": 84004.60292906518,
+      "bbMid": 83404.90414795662,
+      "bbLower": 82805.20536684807
     },
     "fearGreed": {
-      "value": 71,
+      "value": 64,
       "classification": "Greed",
-      "timestamp": 1791331200000
+      "timestamp": 1791417600000
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Crypto news site Cointelegraph seeks buyer after web traffic plunges",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Vitalik Buterin backs crypto ‘bunker mode’ amid rapid AI math advances",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
       {
         "title": "House Finance panel chair says regulator actions on crypto ‘fall short’ of CLARITY bill",
         "source": "Cointelegraph",
@@ -800,49 +810,44 @@
         "title": "Down but not out. Bitcoin's stair-step bullish trajectory is still intact",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Bitcoin.de trading remains halted as German regulator rejects MiCA application",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=83759 vs EMA50=84501",
+        "detail": "EMA20=83532 vs EMA50=84263",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "33.5",
+        "detail": "35.6",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "36.2",
+        "detail": "56.2",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 83216 vs [82853, 84425]",
+        "detail": "prix 83132 vs [82805, 84005]",
         "points": 0
       },
       {
         "factor": "Fear & Greed Index",
-        "detail": "71 (Greed)",
+        "detail": "64 (Greed)",
         "points": 0
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 0",
-        "points": 0
+        "detail": "30 articles pertinents, score brut 1",
+        "points": 0.33
       }
     ],
-    "computedAt": "2026-10-07T22:52:44.442Z",
-    "priceUSD": 83191,
-    "priceEUR": 74286.1,
-    "change24h": -2.7483575319725984
+    "computedAt": "2026-10-08T02:27:59.032Z",
+    "priceUSD": 83076.2,
+    "priceEUR": 74132.1,
+    "change24h": -0.2400448628117896
   },
   "history": [
     {
@@ -7854,7 +7859,12 @@
       "t": "2026-10-07T22:52:44.445Z",
       "equityEUR": 172.52,
       "priceEUR": 74286.1
+    },
+    {
+      "t": "2026-10-08T02:27:59.034Z",
+      "equityEUR": 173.55,
+      "priceEUR": 74132.1
     }
   ],
-  "lastRun": "2026-10-07T22:52:44.445Z"
+  "lastRun": "2026-10-08T02:27:59.034Z"
 }
