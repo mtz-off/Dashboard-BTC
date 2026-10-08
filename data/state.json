@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 135.2710965761612,
-  "equityEUR": 173.55,
+  "equityEUR": 173.66,
   "stopped": false,
   "openPositions": [
     {
@@ -750,19 +750,19 @@
     }
   ],
   "lastSignal": {
-    "price": 83131.90708417758,
+    "price": 82901.16975493672,
     "direction": "SHORT",
-    "score": -0.22,
-    "strength": 0.03,
-    "atr14": 696.0895486406,
+    "score": -0.55,
+    "strength": 0.07,
+    "atr14": 717.0382590428029,
     "indicators": {
-      "ema20": 83532.19243299207,
-      "ema50": 84262.57355163206,
-      "rsi14": 35.624996966130084,
-      "macdHist": 56.190560133886834,
-      "bbUpper": 84004.60292906518,
-      "bbMid": 83404.90414795662,
-      "bbLower": 82805.20536684807
+      "ema20": 83197.15378734897,
+      "ema50": 83946.00555571567,
+      "rsi14": 37.64842890892055,
+      "macdHist": 45.02268571521262,
+      "bbUpper": 83607.41101819226,
+      "bbMid": 83099.42951090721,
+      "bbLower": 82591.44800362216
     },
     "fearGreed": {
       "value": 64,
@@ -771,6 +771,21 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "NEAR enters crypto’s top 20 after 140% surge in 30 days",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
+        "title": "US Bitcoin ETFs shed $485M in biggest daily outflow since June",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Crypto must cement adoption to withstand US policy shifts: Canton CEO",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
       {
         "title": "Crypto news site Cointelegraph seeks buyer after web traffic plunges",
         "source": "CoinDesk",
@@ -795,42 +810,27 @@
         "title": "Bitcoin’s recovery stalls just short of rescuing its last underwater cohort",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Crypto liquidations hit $550M as Bitcoin price dips below $84K",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin ETFs rebound with $119M inflow as Ether extends losses",
-        "source": "Cointelegraph",
-        "itemScore": 2
-      },
-      {
-        "title": "Down but not out. Bitcoin's stair-step bullish trajectory is still intact",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=83532 vs EMA50=84263",
+        "detail": "EMA20=83197 vs EMA50=83946",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "35.6",
+        "detail": "37.6",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "56.2",
+        "detail": "45.0",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 83132 vs [82805, 84005]",
+        "detail": "prix 82901 vs [82591, 83607]",
         "points": 0
       },
       {
@@ -840,14 +840,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 1",
-        "points": 0.33
+        "detail": "30 articles pertinents, score brut 0",
+        "points": 0
       }
     ],
-    "computedAt": "2026-10-08T02:27:59.032Z",
-    "priceUSD": 83076.2,
-    "priceEUR": 74132.1,
-    "change24h": -0.2400448628117896
+    "computedAt": "2026-10-08T09:21:41.079Z",
+    "priceUSD": 82923.8,
+    "priceEUR": 74116.5,
+    "change24h": -0.42305055111851164
   },
   "history": [
     {
@@ -7864,7 +7864,12 @@
       "t": "2026-10-08T02:27:59.034Z",
       "equityEUR": 173.55,
       "priceEUR": 74132.1
+    },
+    {
+      "t": "2026-10-08T09:21:41.082Z",
+      "equityEUR": 173.66,
+      "priceEUR": 74116.5
     }
   ],
-  "lastRun": "2026-10-08T02:27:59.034Z"
+  "lastRun": "2026-10-08T09:21:41.082Z"
 }
