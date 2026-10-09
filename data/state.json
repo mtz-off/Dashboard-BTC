@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 131.18,
-  "equityEUR": 174.9,
+  "equityEUR": 179.24,
   "stopped": false,
   "openPositions": [
     {
@@ -782,19 +782,19 @@
     }
   ],
   "lastSignal": {
-    "price": 82809.76578011144,
+    "price": 82284.1056177367,
     "direction": "SHORT",
-    "score": -3.5,
-    "strength": 0.44,
-    "atr14": 786.0548531250914,
+    "score": -1.83,
+    "strength": 0.23,
+    "atr14": 784.5845655821656,
     "indicators": {
-      "ema20": 82515.35184777109,
-      "ema50": 82775.27454363549,
-      "rsi14": 54.86036403536683,
-      "macdHist": 103.75508012936277,
-      "bbUpper": 83253.16757821904,
-      "bbMid": 82340.04431699228,
-      "bbLower": 81426.92105576552
+      "ema20": 82518.24065375328,
+      "ema50": 82748.0235142237,
+      "rsi14": 46.180420234404764,
+      "macdHist": 14.157398738996477,
+      "bbUpper": 83230.45585298096,
+      "bbMid": 82461.15784943255,
+      "bbLower": 81691.85984588414
     },
     "fearGreed": {
       "value": 59,
@@ -803,6 +803,21 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Blockchain.com Seeks Approval for US Prediction Markets and Crypto Derivatives",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
+      {
+        "title": "Bitcoin Rebounds After Rough Week, But Traders Are Pricing In More Downside",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
+      {
+        "title": "Bitcoin consolidates near $82.5K as crypto weathers Ledger theft reports",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
       {
         "title": "New York AG secures up to $35 million and lifetime crypto ban from Celsius’ Alex Mashinsky",
         "source": "CoinDesk",
@@ -827,42 +842,27 @@
         "title": "UK slaps sanctions on three crypto exchanges over alleged Russia links",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin speculators move 55K BTC to exchanges amid $1.1B liquidations",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "SIM-Swap Fraudster Who Spent Stolen Crypto on Gold Grills and Dubai Trips Jailed",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin, Ether ETFs’ October outflows swell toward $1B",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=82515 vs EMA50=82775",
+        "detail": "EMA20=82518 vs EMA50=82748",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "54.9",
+        "detail": "46.2",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "103.8",
+        "detail": "14.2",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 82810 vs [81427, 83253]",
+        "detail": "prix 82284 vs [81692, 83230]",
         "points": 0
       },
       {
@@ -872,14 +872,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -9",
-        "points": -3
+        "detail": "30 articles pertinents, score brut -4",
+        "points": -1.33
       }
     ],
-    "computedAt": "2026-10-09T15:17:27.413Z",
-    "priceUSD": 82848.7,
-    "priceEUR": 73997.7,
-    "change24h": 1.426108971423947
+    "computedAt": "2026-10-09T20:12:33.177Z",
+    "priceUSD": 82316.7,
+    "priceEUR": 73507.6,
+    "change24h": 0.7748170383845929
   },
   "history": [
     {
@@ -7926,7 +7926,12 @@
       "t": "2026-10-09T15:17:27.415Z",
       "equityEUR": 174.9,
       "priceEUR": 73997.7
+    },
+    {
+      "t": "2026-10-09T20:12:33.180Z",
+      "equityEUR": 179.24,
+      "priceEUR": 73507.6
     }
   ],
-  "lastRun": "2026-10-09T15:17:27.415Z"
+  "lastRun": "2026-10-09T20:12:33.180Z"
 }
