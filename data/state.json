@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 137.69,
-  "equityEUR": 182.38,
+  "equityEUR": 180.84,
   "stopped": false,
   "openPositions": [
     {
@@ -766,27 +766,32 @@
     }
   ],
   "lastSignal": {
-    "price": 81650.8683913519,
+    "price": 81807.00889753424,
     "direction": "SHORT",
-    "score": -4.67,
-    "strength": 0.58,
-    "atr14": 831.3140465034251,
+    "score": -0.88,
+    "strength": 0.11,
+    "atr14": 794.1072234157797,
     "indicators": {
-      "ema20": 82162.81083163012,
-      "ema50": 83130.98975194276,
-      "rsi14": 40.38885665576464,
-      "macdHist": -31.312264848171253,
-      "bbUpper": 83770.72291228964,
-      "bbMid": 82267.66915475702,
-      "bbLower": 80764.6153972244
+      "ema20": 82004.27580840314,
+      "ema50": 82882.30606994359,
+      "rsi14": 43.541027244648795,
+      "macdHist": 79.76756851894095,
+      "bbUpper": 83367.58294376761,
+      "bbMid": 81999.72906196312,
+      "bbLower": 80631.87518015863
     },
     "fearGreed": {
-      "value": 64,
+      "value": 59,
       "classification": "Greed",
-      "timestamp": 1791417600000
+      "timestamp": 1791504000000
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "China’s P2P stablecoin wallets surge 43x, Korea’s $450B crypto economy: Asia Express",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
       {
         "title": "Crypto crumbles as anniversary of flash crash nears",
         "source": "CoinDesk",
@@ -816,39 +821,39 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=82163 vs EMA50=83131",
+        "detail": "EMA20=82004 vs EMA50=82882",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "40.4",
+        "detail": "43.5",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-31.3",
-        "points": -1.5
+        "detail": "79.8",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 81651 vs [80765, 83771]",
+        "detail": "prix 81807 vs [80632, 83368]",
         "points": 0
       },
       {
         "factor": "Fear & Greed Index",
-        "detail": "64 (Greed)",
+        "detail": "59 (Greed)",
         "points": 0
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -2",
-        "points": -0.67
+        "detail": "30 articles pertinents, score brut -1",
+        "points": -0.33
       }
     ],
-    "computedAt": "2026-10-08T21:47:51.133Z",
-    "priceUSD": 81575.5,
-    "priceEUR": 72761.2,
-    "change24h": -2.0421225297534416
+    "computedAt": "2026-10-09T01:42:59.202Z",
+    "priceUSD": 81846.6,
+    "priceEUR": 72923.2,
+    "change24h": 0.19930512537370068
   },
   "history": [
     {
@@ -7880,7 +7885,12 @@
       "t": "2026-10-08T21:47:51.136Z",
       "equityEUR": 182.38,
       "priceEUR": 72761.2
+    },
+    {
+      "t": "2026-10-09T01:42:59.204Z",
+      "equityEUR": 180.84,
+      "priceEUR": 72923.2
     }
   ],
-  "lastRun": "2026-10-08T21:47:51.136Z"
+  "lastRun": "2026-10-09T01:42:59.204Z"
 }
