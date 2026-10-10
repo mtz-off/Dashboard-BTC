@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 131.18,
-  "equityEUR": 175.8,
+  "equityEUR": 174.95,
   "stopped": false,
   "openPositions": [
     {
@@ -782,19 +782,19 @@
     }
   ],
   "lastSignal": {
-    "price": 82716.29318488351,
+    "price": 82816.55068850676,
     "direction": "SHORT",
-    "score": -2.05,
-    "strength": 0.26,
-    "atr14": 712.2885533308979,
+    "score": -1.88,
+    "strength": 0.24,
+    "atr14": 681.2442928393439,
     "indicators": {
-      "ema20": 82550.34334271101,
-      "ema50": 82678.58942274947,
-      "rsi14": 54.87568219511089,
-      "macdHist": 4.177641576784453,
-      "bbUpper": 83036.30874685981,
-      "bbMid": 82628.64910039064,
-      "bbLower": 82220.98945392147
+      "ema20": 82651.96886356143,
+      "ema50": 82698.59473286968,
+      "rsi14": 57.02409448502482,
+      "macdHist": 18.170148765902468,
+      "bbUpper": 82898.38309750811,
+      "bbMid": 82611.88925292462,
+      "bbLower": 82325.39540834114
     },
     "fearGreed": {
       "value": 64,
@@ -847,22 +847,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=82550 vs EMA50=82679",
+        "detail": "EMA20=82652 vs EMA50=82699",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "54.9",
-        "points": 0
+        "detail": "57.0",
+        "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "4.2",
+        "detail": "18.2",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 82716 vs [82221, 83036]",
+        "detail": "prix 82817 vs [82325, 82898]",
         "points": 0
       },
       {
@@ -872,14 +872,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -6",
-        "points": -2
+        "detail": "30 articles pertinents, score brut -7",
+        "points": -2.33
       }
     ],
-    "computedAt": "2026-10-10T05:50:39.218Z",
-    "priceUSD": 82706.1,
-    "priceEUR": 73896.1,
-    "change24h": 0.18048114577668062
+    "computedAt": "2026-10-10T11:51:37.752Z",
+    "priceUSD": 82813.7,
+    "priceEUR": 73991.8,
+    "change24h": 0.3108151812502998
   },
   "history": [
     {
@@ -7941,7 +7941,12 @@
       "t": "2026-10-10T05:50:39.221Z",
       "equityEUR": 175.8,
       "priceEUR": 73896.1
+    },
+    {
+      "t": "2026-10-10T11:51:37.756Z",
+      "equityEUR": 174.95,
+      "priceEUR": 73991.8
     }
   ],
-  "lastRun": "2026-10-10T05:50:39.221Z"
+  "lastRun": "2026-10-10T11:51:37.756Z"
 }
