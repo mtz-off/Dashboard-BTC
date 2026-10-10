@@ -5,8 +5,8 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 131.18,
-  "equityEUR": 174.95,
+  "balanceEUR": 98.38,
+  "equityEUR": 173.81,
   "stopped": false,
   "openPositions": [
     {
@@ -24,6 +24,23 @@
       "tpPct": 2.28,
       "signalScore": -3.5,
       "signalStrength": 0.44,
+      "status": "OPEN"
+    },
+    {
+      "id": "7a283d84-f54f-4683-a0ca-3acb56218018",
+      "side": "LONG",
+      "entryPrice": 74120.2,
+      "entryTime": "2026-10-10T16:54:49.204Z",
+      "sizeEUR": 32.8,
+      "notionalEUR": 492,
+      "leverage": 15,
+      "qtyBTC": 0.00663787,
+      "sl": 73458.29,
+      "tp": 75444.02,
+      "slPct": 0.89,
+      "tpPct": 1.79,
+      "signalScore": 1.78,
+      "signalStrength": 0.22,
       "status": "OPEN"
     }
   ],
@@ -782,19 +799,19 @@
     }
   ],
   "lastSignal": {
-    "price": 82816.55068850676,
-    "direction": "SHORT",
-    "score": -1.88,
-    "strength": 0.24,
-    "atr14": 681.2442928393439,
+    "price": 82974.80243991534,
+    "direction": "LONG",
+    "score": 1.78,
+    "strength": 0.22,
+    "atr14": 617.486814347555,
     "indicators": {
-      "ema20": 82651.96886356143,
-      "ema50": 82698.59473286968,
-      "rsi14": 57.02409448502482,
-      "macdHist": 18.170148765902468,
-      "bbUpper": 82898.38309750811,
-      "bbMid": 82611.88925292462,
-      "bbLower": 82325.39540834114
+      "ema20": 82743.66200487125,
+      "ema50": 82730.84934994859,
+      "rsi14": 61.6017919326931,
+      "macdHist": 23.075830551210515,
+      "bbUpper": 82998.5651489882,
+      "bbMid": 82706.79075913636,
+      "bbLower": 82415.01636928452
     },
     "fearGreed": {
       "value": 64,
@@ -803,6 +820,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "One year after 10/10 flash crash, bitcoin and ether liquidity have rebuilt, but altcoins still face risks",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin's $19 billion wake-up call: One-year after flash crash, has crypto learned anything?",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin's volatility has plunged, but extreme price swings are more frequent than in 2018",
         "source": "CoinDesk",
@@ -832,37 +859,27 @@
         "title": "UK Targets Cryptomus and TokenSpot in New Russia Sanctions Package",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "Trump's Iran pledge underpins crypto gains as bitcoin bears face liquidation pressure",
-        "source": "CoinDesk",
-        "itemScore": -2
-      },
-      {
-        "title": "UK sanctions three crypto exchanges tied to Russian illicit funds",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=82652 vs EMA50=82699",
-        "points": -2
+        "detail": "EMA20=82744 vs EMA50=82731",
+        "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "57.0",
+        "detail": "61.6",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "18.2",
+        "detail": "23.1",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 82817 vs [82325, 82898]",
+        "detail": "prix 82975 vs [82415, 82999]",
         "points": 0
       },
       {
@@ -872,14 +889,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -7",
-        "points": -2.33
+        "detail": "30 articles pertinents, score brut -8",
+        "points": -2.67
       }
     ],
-    "computedAt": "2026-10-10T11:51:37.752Z",
-    "priceUSD": 82813.7,
-    "priceEUR": 73991.8,
-    "change24h": 0.3108151812502998
+    "computedAt": "2026-10-10T16:54:49.200Z",
+    "priceUSD": 82959.6,
+    "priceEUR": 74120.2,
+    "change24h": 0.48754135016855
   },
   "history": [
     {
@@ -7946,7 +7963,12 @@
       "t": "2026-10-10T11:51:37.756Z",
       "equityEUR": 174.95,
       "priceEUR": 73991.8
+    },
+    {
+      "t": "2026-10-10T16:54:49.204Z",
+      "equityEUR": 173.81,
+      "priceEUR": 74120.2
     }
   ],
-  "lastRun": "2026-10-10T11:51:37.756Z"
+  "lastRun": "2026-10-10T16:54:49.204Z"
 }
