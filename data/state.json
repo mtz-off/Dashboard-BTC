@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 131.18,
-  "equityEUR": 177.34,
+  "equityEUR": 175.8,
   "stopped": false,
   "openPositions": [
     {
@@ -782,19 +782,19 @@
     }
   ],
   "lastSignal": {
-    "price": 82541.83769784227,
+    "price": 82716.29318488351,
     "direction": "SHORT",
-    "score": -5.17,
-    "strength": 0.65,
-    "atr14": 784.5845655821656,
+    "score": -2.05,
+    "strength": 0.26,
+    "atr14": 712.2885533308979,
     "indicators": {
-      "ema20": 82507.38412154732,
-      "ema50": 82700.56033409665,
-      "rsi14": 50.82804421411275,
-      "macdHist": -14.979613822842893,
-      "bbUpper": 83056.14482766668,
-      "bbMid": 82592.72103524923,
-      "bbLower": 82129.29724283177
+      "ema20": 82550.34334271101,
+      "ema50": 82678.58942274947,
+      "rsi14": 54.87568219511089,
+      "macdHist": 4.177641576784453,
+      "bbUpper": 83036.30874685981,
+      "bbMid": 82628.64910039064,
+      "bbLower": 82220.98945392147
     },
     "fearGreed": {
       "value": 64,
@@ -803,6 +803,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin's volatility has plunged, but extreme price swings are more frequent than in 2018",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Blockchain.com Seeks Approval for US Prediction Markets and Crypto Derivatives",
         "source": "Decrypt",
@@ -837,32 +842,27 @@
         "title": "UK sanctions three crypto exchanges tied to Russian illicit funds",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "UK slaps sanctions on three crypto exchanges over alleged Russia links",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=82507 vs EMA50=82701",
+        "detail": "EMA20=82550 vs EMA50=82679",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "50.8",
+        "detail": "54.9",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-15.0",
-        "points": -1.5
+        "detail": "4.2",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 82542 vs [82129, 83056]",
+        "detail": "prix 82716 vs [82221, 83036]",
         "points": 0
       },
       {
@@ -872,14 +872,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -5",
-        "points": -1.67
+        "detail": "30 articles pertinents, score brut -6",
+        "points": -2
       }
     ],
-    "computedAt": "2026-10-10T00:03:07.519Z",
-    "priceUSD": 82533.4,
-    "priceEUR": 73722,
-    "change24h": -0.028707403724224374
+    "computedAt": "2026-10-10T05:50:39.218Z",
+    "priceUSD": 82706.1,
+    "priceEUR": 73896.1,
+    "change24h": 0.18048114577668062
   },
   "history": [
     {
@@ -7936,7 +7936,12 @@
       "t": "2026-10-10T00:03:07.521Z",
       "equityEUR": 177.34,
       "priceEUR": 73722
+    },
+    {
+      "t": "2026-10-10T05:50:39.221Z",
+      "equityEUR": 175.8,
+      "priceEUR": 73896.1
     }
   ],
-  "lastRun": "2026-10-10T00:03:07.521Z"
+  "lastRun": "2026-10-10T05:50:39.221Z"
 }
