@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 98.38,
-  "equityEUR": 173.64,
+  "equityEUR": 172.57,
   "stopped": false,
   "openPositions": [
     {
@@ -799,19 +799,19 @@
     }
   ],
   "lastSignal": {
-    "price": 83066.93189022307,
+    "price": 83672.40084687495,
     "direction": "LONG",
-    "score": 0.67,
-    "strength": 0.08,
-    "atr14": 505.2204351786416,
+    "score": 3,
+    "strength": 0.38,
+    "atr14": 530.7232297776595,
     "indicators": {
-      "ema20": 82973.83861644061,
-      "ema50": 82885.81379546189,
-      "rsi14": 56.397846920856786,
-      "macdHist": -2.5850910489081116,
-      "bbUpper": 83129.96289534222,
-      "bbMid": 82980.16639772616,
-      "bbLower": 82830.3699001101
+      "ema20": 83263.38338122782,
+      "ema50": 83032.83078390006,
+      "rsi14": 65.95868785211326,
+      "macdHist": 66.58863287446019,
+      "bbUpper": 83842.22399615878,
+      "bbMid": 83165.93562040027,
+      "bbLower": 82489.64724464176
     },
     "fearGreed": {
       "value": 61,
@@ -834,37 +834,27 @@
         "title": "Bitcoin's volatility has plunged, but extreme price swings are more frequent than in 2018",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Blockchain.com Seeks Approval for US Prediction Markets and Crypto Derivatives",
-        "source": "Decrypt",
-        "itemScore": 1
-      },
-      {
-        "title": "Bitcoin Rebounds After Rough Week, But Traders Are Pricing In More Downside",
-        "source": "Decrypt",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=82974 vs EMA50=82886",
+        "detail": "EMA20=83263 vs EMA50=83033",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "56.4",
+        "detail": "66.0",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-2.6",
-        "points": -1.5
+        "detail": "66.6",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 83067 vs [82830, 83130]",
+        "detail": "prix 83672 vs [82490, 83842]",
         "points": 0
       },
       {
@@ -874,14 +864,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "13 articles pertinents, score brut -1",
-        "points": -0.33
+        "detail": "13 articles pertinents, score brut -3",
+        "points": -1
       }
     ],
-    "computedAt": "2026-10-11T15:23:31.454Z",
-    "priceUSD": 83057.8,
-    "priceEUR": 74200.7,
-    "change24h": 0.17500334689378808
+    "computedAt": "2026-10-11T19:37:54.274Z",
+    "priceUSD": 83651.3,
+    "priceEUR": 74679.4,
+    "change24h": 0.8908164852911626
   },
   "history": [
     {
@@ -7978,7 +7968,12 @@
       "t": "2026-10-11T15:23:31.456Z",
       "equityEUR": 173.64,
       "priceEUR": 74200.7
+    },
+    {
+      "t": "2026-10-11T19:37:54.276Z",
+      "equityEUR": 172.57,
+      "priceEUR": 74679.4
     }
   ],
-  "lastRun": "2026-10-11T15:23:31.456Z"
+  "lastRun": "2026-10-11T19:37:54.276Z"
 }
