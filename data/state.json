@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 98.38,
-  "equityEUR": 173.8,
+  "equityEUR": 173.64,
   "stopped": false,
   "openPositions": [
     {
@@ -799,19 +799,19 @@
     }
   ],
   "lastSignal": {
-    "price": 82993.04126033545,
-    "direction": "SHORT",
-    "score": -2.17,
-    "strength": 0.27,
-    "atr14": 527.2974309633324,
+    "price": 83066.93189022307,
+    "direction": "LONG",
+    "score": 0.67,
+    "strength": 0.08,
+    "atr14": 505.2204351786416,
     "indicators": {
-      "ema20": 82922.37152818241,
-      "ema50": 82842.33364096086,
-      "rsi14": 54.45252055623527,
-      "macdHist": -9.537486574919043,
-      "bbUpper": 83112.020274984,
-      "bbMid": 82954.26826940374,
-      "bbLower": 82796.51626382348
+      "ema20": 82973.83861644061,
+      "ema50": 82885.81379546189,
+      "rsi14": 56.397846920856786,
+      "macdHist": -2.5850910489081116,
+      "bbUpper": 83129.96289534222,
+      "bbMid": 82980.16639772616,
+      "bbLower": 82830.3699001101
     },
     "fearGreed": {
       "value": 61,
@@ -844,42 +844,27 @@
         "title": "Bitcoin Rebounds After Rough Week, But Traders Are Pricing In More Downside",
         "source": "Decrypt",
         "itemScore": 1
-      },
-      {
-        "title": "Bitcoin consolidates near $82.5K as crypto weathers Ledger theft reports",
-        "source": "Cointelegraph",
-        "itemScore": 1
-      },
-      {
-        "title": "New York AG secures up to $35 million and lifetime crypto ban from Celsius’ Alex Mashinsky",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "UK Targets Cryptomus and TokenSpot in New Russia Sanctions Package",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=82922 vs EMA50=82842",
+        "detail": "EMA20=82974 vs EMA50=82886",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "54.5",
-        "points": 0
+        "detail": "56.4",
+        "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-9.5",
+        "detail": "-2.6",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 82993 vs [82797, 83112]",
+        "detail": "prix 83067 vs [82830, 83130]",
         "points": 0
       },
       {
@@ -889,14 +874,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -8",
-        "points": -2.67
+        "detail": "13 articles pertinents, score brut -1",
+        "points": -0.33
       }
     ],
-    "computedAt": "2026-10-11T08:57:08.814Z",
-    "priceUSD": 82987.7,
-    "priceEUR": 74127.7,
-    "change24h": 0.09045658867700605
+    "computedAt": "2026-10-11T15:23:31.454Z",
+    "priceUSD": 83057.8,
+    "priceEUR": 74200.7,
+    "change24h": 0.17500334689378808
   },
   "history": [
     {
@@ -7988,7 +7973,12 @@
       "t": "2026-10-11T08:57:08.818Z",
       "equityEUR": 173.8,
       "priceEUR": 74127.7
+    },
+    {
+      "t": "2026-10-11T15:23:31.456Z",
+      "equityEUR": 173.64,
+      "priceEUR": 74200.7
     }
   ],
-  "lastRun": "2026-10-11T08:57:08.818Z"
+  "lastRun": "2026-10-11T15:23:31.456Z"
 }
