@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 98.38,
-  "equityEUR": 172.79,
+  "equityEUR": 174.58,
   "stopped": false,
   "openPositions": [
     {
@@ -799,27 +799,40 @@
     }
   ],
   "lastSignal": {
-    "price": 83409.0185393062,
+    "price": 82290.73076987304,
     "direction": "SHORT",
-    "score": -0.95,
-    "strength": 0.12,
-    "atr14": 547.3174005779359,
+    "score": -4,
+    "strength": 0.5,
+    "atr14": 585.0025429095234,
     "indicators": {
-      "ema20": 83605.75399473852,
-      "ema50": 83324.11339300148,
-      "rsi14": 47.56245009231296,
-      "macdHist": -47.10992527038229,
-      "bbUpper": 84176.03558544867,
-      "bbMid": 83678.89253983002,
-      "bbLower": 83181.74949421137
+      "ema20": 83047.83037231454,
+      "ema50": 83140.78057017055,
+      "rsi14": 33.40423938495066,
+      "macdHist": -156.90028936850484,
+      "bbUpper": 84491.12656976108,
+      "bbMid": 83306.88326786518,
+      "bbLower": 82122.63996596928
     },
     "fearGreed": {
       "value": 69,
       "classification": "Greed",
       "timestamp": 1791763200000
     },
-    "fundingRate": null,
+    "fundingRate": {
+      "lastFundingRate": 0.00001734,
+      "markPrice": 82378.8
+    },
     "newsHighlights": [
+      {
+        "title": "South Korea just got its first traditional bank loans backed by bitcoin",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Altcoins rally on thin trading as bitcoin holds below $83,500",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "U.S. inflation, Ethereum upgrade talks: Crypto Week Ahead",
         "source": "CoinDesk",
@@ -829,42 +842,27 @@
         "title": "South Korean bank launches Bitcoin-backed business loans: Report",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin shrugs off ETF outflows to trade above $84,000 as oil falls",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "One year after 10/10 flash crash, bitcoin and ether liquidity have rebuilt, but altcoins still face risks",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin's $19 billion wake-up call: One-year after flash crash, has crypto learned anything?",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=83606 vs EMA50=83324",
-        "points": 2
+        "detail": "EMA20=83048 vs EMA50=83141",
+        "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "47.6",
-        "points": 0
+        "detail": "33.4",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-47.1",
-        "points": -1.95
+        "detail": "-156.9",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 83409 vs [83182, 84176]",
+        "detail": "prix 82291 vs [82123, 84491]",
         "points": 0
       },
       {
@@ -873,15 +871,20 @@
         "points": 0
       },
       {
+        "factor": "Funding rate BTC perp",
+        "detail": "0.0017%",
+        "points": 0
+      },
+      {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "16 articles pertinents, score brut -3",
-        "points": -1
+        "detail": "28 articles pertinents, score brut 0",
+        "points": 0
       }
     ],
-    "computedAt": "2026-10-12T09:33:31.525Z",
-    "priceUSD": 83423.8,
-    "priceEUR": 74582.1,
-    "change24h": -0.30092404476335144
+    "computedAt": "2026-10-12T19:19:45.055Z",
+    "priceUSD": 82299.9,
+    "priceEUR": 73777.1,
+    "change24h": -1.6440874042134284
   },
   "history": [
     {
@@ -7998,7 +8001,12 @@
       "t": "2026-10-12T09:33:31.529Z",
       "equityEUR": 172.79,
       "priceEUR": 74582.1
+    },
+    {
+      "t": "2026-10-12T19:19:45.059Z",
+      "equityEUR": 174.58,
+      "priceEUR": 73777.1
     }
   ],
-  "lastRun": "2026-10-12T09:33:31.529Z"
+  "lastRun": "2026-10-12T19:19:45.059Z"
 }
