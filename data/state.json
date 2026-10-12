@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 98.38,
-  "equityEUR": 172.43,
+  "equityEUR": 172.79,
   "stopped": false,
   "openPositions": [
     {
@@ -799,19 +799,19 @@
     }
   ],
   "lastSignal": {
-    "price": 83847.02199787775,
-    "direction": "LONG",
-    "score": 3.45,
-    "strength": 0.43,
-    "atr14": 526.4260662669261,
+    "price": 83409.0185393062,
+    "direction": "SHORT",
+    "score": -0.95,
+    "strength": 0.12,
+    "atr14": 547.3174005779359,
     "indicators": {
-      "ema20": 83451.42938523505,
-      "ema50": 83167.484551732,
-      "rsi14": 67.06863824578704,
-      "macdHist": 29.837283869180965,
-      "bbUpper": 84094.23469478308,
-      "bbMid": 83383.62754023215,
-      "bbLower": 82673.02038568121
+      "ema20": 83605.75399473852,
+      "ema50": 83324.11339300148,
+      "rsi14": 47.56245009231296,
+      "macdHist": -47.10992527038229,
+      "bbUpper": 84176.03558544867,
+      "bbMid": 83678.89253983002,
+      "bbLower": 83181.74949421137
     },
     "fearGreed": {
       "value": 69,
@@ -821,6 +821,21 @@
     "fundingRate": null,
     "newsHighlights": [
       {
+        "title": "U.S. inflation, Ethereum upgrade talks: Crypto Week Ahead",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "South Korean bank launches Bitcoin-backed business loans: Report",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin shrugs off ETF outflows to trade above $84,000 as oil falls",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
         "title": "One year after 10/10 flash crash, bitcoin and ether liquidity have rebuilt, but altcoins still face risks",
         "source": "CoinDesk",
         "itemScore": -1
@@ -829,32 +844,27 @@
         "title": "Bitcoin's $19 billion wake-up call: One-year after flash crash, has crypto learned anything?",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin's volatility has plunged, but extreme price swings are more frequent than in 2018",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=83451 vs EMA50=83167",
+        "detail": "EMA20=83606 vs EMA50=83324",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "67.1",
-        "points": 0.5
+        "detail": "47.6",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "29.8",
-        "points": 1.95
+        "detail": "-47.1",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 83847 vs [82673, 84094]",
+        "detail": "prix 83409 vs [83182, 84176]",
         "points": 0
       },
       {
@@ -864,14 +874,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "12 articles pertinents, score brut -3",
+        "detail": "16 articles pertinents, score brut -3",
         "points": -1
       }
     ],
-    "computedAt": "2026-10-12T02:23:12.344Z",
-    "priceUSD": 83775.4,
-    "priceEUR": 74742.3,
-    "change24h": 0.11927013370682535
+    "computedAt": "2026-10-12T09:33:31.525Z",
+    "priceUSD": 83423.8,
+    "priceEUR": 74582.1,
+    "change24h": -0.30092404476335144
   },
   "history": [
     {
@@ -7983,7 +7993,12 @@
       "t": "2026-10-12T02:23:12.348Z",
       "equityEUR": 172.43,
       "priceEUR": 74742.3
+    },
+    {
+      "t": "2026-10-12T09:33:31.529Z",
+      "equityEUR": 172.79,
+      "priceEUR": 74582.1
     }
   ],
-  "lastRun": "2026-10-12T02:23:12.348Z"
+  "lastRun": "2026-10-12T09:33:31.529Z"
 }
