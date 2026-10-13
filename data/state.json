@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 121.33,
-  "equityEUR": 161.77,
+  "equityEUR": 158.24,
   "stopped": false,
   "openPositions": [
     {
@@ -814,19 +814,19 @@
     }
   ],
   "lastSignal": {
-    "price": 83895.41851246882,
+    "price": 83390.10112373291,
     "direction": "LONG",
-    "score": 4.45,
-    "strength": 0.56,
-    "atr14": 762.399388353609,
+    "score": 2.83,
+    "strength": 0.35,
+    "atr14": 768.466096028255,
     "indicators": {
-      "ema20": 83099.58138577473,
-      "ema50": 83071.9960276322,
-      "rsi14": 61.838414112377286,
-      "macdHist": 200.84453602753285,
-      "bbUpper": 84102.32828471594,
-      "bbMid": 82789.38450394952,
-      "bbLower": 81476.4407231831
+      "ema20": 83204.53396074669,
+      "ema50": 83127.08934142166,
+      "rsi14": 53.97416363686346,
+      "macdHist": 36.41550463646989,
+      "bbUpper": 84334.43593626053,
+      "bbMid": 83035.32653494384,
+      "bbLower": 81736.21713362716
     },
     "fearGreed": {
       "value": 57,
@@ -836,55 +836,65 @@
     "fundingRate": null,
     "newsHighlights": [
       {
+        "title": "Bitcoin keeps up pressure on $84K as US stocks skirt Korea tech sell-off",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Russia clears Sberbank for crypto trading ahead of December launch",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Stacks' STX, a Bitcoin layer-2 token, has surged by 50% in four weeks",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Bitcoin, ether slip and rebound as South Korean stocks slide on AI-related concerns",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Bitcoin diverges from South Korean stocks as AI concerns deepen the Kospi selloff",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Chinese fraud victims lose key court battle over 61,000 Bitcoin",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
         "title": "Bitcoin whale that sat through the March 2020 crash moves $378 million",
         "source": "CoinDesk",
         "itemScore": -1
       },
       {
-        "title": "Bitcoin rebounds above $83,000 as it decouples from tumbling Korean stocks and Nasdaq futures",
+        "title": "Bitcoin rebounds above $83,000, decoupling from tumbling Korean stocks",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "South Korea just got its first traditional bank loans backed by bitcoin",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Altcoins rally on thin trading as bitcoin holds below $83,500",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "U.S. inflation, Ethereum upgrade talks: Crypto Week Ahead",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "South Korean bank launches Bitcoin-backed business loans: Report",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=83100 vs EMA50=83072",
+        "detail": "EMA20=83205 vs EMA50=83127",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "61.8",
-        "points": 0.5
+        "detail": "54.0",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "200.8",
-        "points": 1.95
+        "detail": "36.4",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 83895 vs [81476, 84102]",
+        "detail": "prix 83390 vs [81736, 84334]",
         "points": 0
       },
       {
@@ -894,14 +904,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 0",
-        "points": 0
+        "detail": "30 articles pertinents, score brut -2",
+        "points": -0.67
       }
     ],
-    "computedAt": "2026-10-13T08:27:00.466Z",
-    "priceUSD": 83828.9,
-    "priceEUR": 74954.2,
-    "change24h": 2.5590551181102326
+    "computedAt": "2026-10-13T16:15:51.389Z",
+    "priceUSD": 83432.5,
+    "priceEUR": 74517.5,
+    "change24h": 2.0740862177808914
   },
   "history": [
     {
@@ -8033,7 +8043,12 @@
       "t": "2026-10-13T08:27:00.468Z",
       "equityEUR": 161.77,
       "priceEUR": 74954.2
+    },
+    {
+      "t": "2026-10-13T16:15:51.391Z",
+      "equityEUR": 158.24,
+      "priceEUR": 74517.5
     }
   ],
-  "lastRun": "2026-10-13T08:27:00.468Z"
+  "lastRun": "2026-10-13T16:15:51.391Z"
 }
