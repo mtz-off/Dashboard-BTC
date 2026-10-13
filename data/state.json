@@ -5,8 +5,8 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 98.38,
-  "equityEUR": 174.58,
+  "balanceEUR": 126.52353657977177,
+  "equityEUR": 175.37,
   "stopped": false,
   "openPositions": [
     {
@@ -24,23 +24,6 @@
       "tpPct": 2.28,
       "signalScore": -3.5,
       "signalStrength": 0.44,
-      "status": "OPEN"
-    },
-    {
-      "id": "7a283d84-f54f-4683-a0ca-3acb56218018",
-      "side": "LONG",
-      "entryPrice": 74120.2,
-      "entryTime": "2026-10-10T16:54:49.204Z",
-      "sizeEUR": 32.8,
-      "notionalEUR": 492,
-      "leverage": 15,
-      "qtyBTC": 0.00663787,
-      "sl": 73458.29,
-      "tp": 75444.02,
-      "slPct": 0.89,
-      "tpPct": 1.79,
-      "signalScore": 1.78,
-      "signalStrength": 0.22,
       "status": "OPEN"
     }
   ],
@@ -796,32 +779,45 @@
       "pnlPct": -1.26,
       "reason": "SL",
       "status": "CLOSED"
+    },
+    {
+      "id": "7a283d84-f54f-4683-a0ca-3acb56218018",
+      "side": "LONG",
+      "entryPrice": 74120.2,
+      "entryTime": "2026-10-10T16:54:49.204Z",
+      "exitPrice": 73418.7,
+      "exitTime": "2026-10-13T01:31:33.613Z",
+      "sizeEUR": 32.8,
+      "notionalEUR": 492,
+      "leverage": 15,
+      "qtyBTC": 0.00663787,
+      "pnlEUR": -4.66,
+      "pnlPct": -0.95,
+      "reason": "SL",
+      "status": "CLOSED"
     }
   ],
   "lastSignal": {
-    "price": 82290.73076987304,
+    "price": 82012.99789320826,
     "direction": "SHORT",
     "score": -4,
     "strength": 0.5,
-    "atr14": 585.0025429095234,
+    "atr14": 639.9240422335378,
     "indicators": {
-      "ema20": 83047.83037231454,
-      "ema50": 83140.78057017055,
-      "rsi14": 33.40423938495066,
-      "macdHist": -156.90028936850484,
-      "bbUpper": 84491.12656976108,
-      "bbMid": 83306.88326786518,
-      "bbLower": 82122.63996596928
+      "ema20": 82595.26961643326,
+      "ema50": 82911.67812206958,
+      "rsi14": 40.24183534545719,
+      "macdHist": -115.98010060188551,
+      "bbUpper": 84144.10874069875,
+      "bbMid": 82769.86531755117,
+      "bbLower": 81395.6218944036
     },
     "fearGreed": {
-      "value": 69,
+      "value": 57,
       "classification": "Greed",
-      "timestamp": 1791763200000
+      "timestamp": 1791849600000
     },
-    "fundingRate": {
-      "lastFundingRate": 0.00001734,
-      "markPrice": 82378.8
-    },
+    "fundingRate": null,
     "newsHighlights": [
       {
         "title": "South Korea just got its first traditional bank loans backed by bitcoin",
@@ -847,44 +843,39 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=83048 vs EMA50=83141",
+        "detail": "EMA20=82595 vs EMA50=82912",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "33.4",
+        "detail": "40.2",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-156.9",
+        "detail": "-116.0",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 82291 vs [82123, 84491]",
+        "detail": "prix 82013 vs [81396, 84144]",
         "points": 0
       },
       {
         "factor": "Fear & Greed Index",
-        "detail": "69 (Greed)",
-        "points": 0
-      },
-      {
-        "factor": "Funding rate BTC perp",
-        "detail": "0.0017%",
+        "detail": "57 (Greed)",
         "points": 0
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "28 articles pertinents, score brut 0",
+        "detail": "29 articles pertinents, score brut 0",
         "points": 0
       }
     ],
-    "computedAt": "2026-10-12T19:19:45.055Z",
-    "priceUSD": 82299.9,
-    "priceEUR": 73777.1,
-    "change24h": -1.6440874042134284
+    "computedAt": "2026-10-13T01:31:33.610Z",
+    "priceUSD": 82000.5,
+    "priceEUR": 73418.7,
+    "change24h": 0.3221299481753754
   },
   "history": [
     {
@@ -8006,7 +7997,12 @@
       "t": "2026-10-12T19:19:45.059Z",
       "equityEUR": 174.58,
       "priceEUR": 73777.1
+    },
+    {
+      "t": "2026-10-13T01:31:33.613Z",
+      "equityEUR": 175.37,
+      "priceEUR": 73418.7
     }
   ],
-  "lastRun": "2026-10-12T19:19:45.059Z"
+  "lastRun": "2026-10-13T01:31:33.613Z"
 }
