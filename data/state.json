@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 120.94669128614547,
-  "equityEUR": 158.15,
+  "equityEUR": 159.96,
   "stopped": false,
   "openPositions": [
     {
@@ -830,29 +830,26 @@
     }
   ],
   "lastSignal": {
-    "price": 81695.99407576198,
+    "price": 81479.39909769315,
     "direction": "SHORT",
-    "score": -4.67,
-    "strength": 0.58,
-    "atr14": 845.839171466751,
+    "score": -4.33,
+    "strength": 0.54,
+    "atr14": 823.1912446730561,
     "indicators": {
-      "ema20": 82531.60948881654,
-      "ema50": 82889.21451769547,
-      "rsi14": 33.62414219802437,
-      "macdHist": -173.43136332385671,
-      "bbUpper": 84427.75227628839,
-      "bbMid": 82832.09149441571,
-      "bbLower": 81236.43071254304
+      "ema20": 82299.11558657477,
+      "ema50": 82748.1306705355,
+      "rsi14": 31.498709463523127,
+      "macdHist": -106.81740689959207,
+      "bbUpper": 84271.06699606348,
+      "bbMid": 82567.26782728732,
+      "bbLower": 80863.46865851115
     },
     "fearGreed": {
       "value": 62,
       "classification": "Greed",
       "timestamp": 1791936000000
     },
-    "fundingRate": {
-      "lastFundingRate": -0.00001153,
-      "markPrice": 81726.43515217
-    },
+    "fundingRate": null,
     "newsHighlights": [
       {
         "title": "OCC report finds debanking efforts tied to crypto activities",
@@ -878,32 +875,27 @@
         "title": "Proposed 31.4% French tax on regulated stablecoins could drive crypto traders offshore",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin climbs toward $84,000 after Fed’s Williams sees no rate hikes in 2027",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=82532 vs EMA50=82889",
+        "detail": "EMA20=82299 vs EMA50=82748",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "33.6",
+        "detail": "31.5",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-173.4",
+        "detail": "-106.8",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 81696 vs [81236, 84428]",
+        "detail": "prix 81479 vs [80863, 84271]",
         "points": 0
       },
       {
@@ -912,20 +904,15 @@
         "points": 0
       },
       {
-        "factor": "Funding rate BTC perp",
-        "detail": "-0.0012%",
-        "points": 0
-      },
-      {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -2",
-        "points": -0.67
+        "detail": "30 articles pertinents, score brut -1",
+        "points": -0.33
       }
     ],
-    "computedAt": "2026-10-14T19:34:08.097Z",
-    "priceUSD": 81667.5,
-    "priceEUR": 73258.6,
-    "change24h": -1.7252458448253418
+    "computedAt": "2026-10-14T22:38:21.739Z",
+    "priceUSD": 81439.2,
+    "priceEUR": 72963.5,
+    "change24h": -1.9999711195506202
   },
   "history": [
     {
@@ -8092,7 +8079,12 @@
       "t": "2026-10-14T19:34:08.100Z",
       "equityEUR": 158.15,
       "priceEUR": 73258.6
+    },
+    {
+      "t": "2026-10-14T22:38:21.740Z",
+      "equityEUR": 159.96,
+      "priceEUR": 72963.5
     }
   ],
-  "lastRun": "2026-10-14T19:34:08.100Z"
+  "lastRun": "2026-10-14T22:38:21.740Z"
 }
