@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 121.33,
-  "equityEUR": 157.42,
+  "equityEUR": 157.79,
   "stopped": false,
   "openPositions": [
     {
@@ -814,19 +814,19 @@
     }
   ],
   "lastSignal": {
-    "price": 83361.1979257066,
-    "direction": "SHORT",
-    "score": -0.5,
-    "strength": 0.06,
-    "atr14": 731.8980978954535,
+    "price": 83468.63142823857,
+    "direction": "LONG",
+    "score": 2.17,
+    "strength": 0.27,
+    "atr14": 733.7567952476031,
     "indicators": {
-      "ema20": 83248.86984115656,
-      "ema50": 83170.22527782792,
-      "rsi14": 52.857235406390146,
-      "macdHist": -6.093026289448616,
-      "bbUpper": 83772.21460752487,
-      "bbMid": 83370.93103419602,
-      "bbLower": 82969.64746086717
+      "ema20": 83373.49524951467,
+      "ema50": 83240.96691094914,
+      "rsi14": 53.01758074195336,
+      "macdHist": 23.488851309499594,
+      "bbUpper": 83725.12966765782,
+      "bbMid": 83350.19316932326,
+      "bbLower": 82975.2566709887
     },
     "fearGreed": {
       "value": 62,
@@ -835,6 +835,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin climbs toward $84,000 after Fed’s Williams sees no rate hikes in 2027",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Largest Philippines crypto exchange, Coins.ph, said to face central bank regulatory action",
+        "source": "CoinDesk",
+        "itemScore": -2
+      },
       {
         "title": "Bitcoin Whale That Sat Through Every Crash Since 2020 Just Moved $377M",
         "source": "Decrypt",
@@ -864,37 +874,27 @@
         "title": "Bitcoin, ether slip and rebound as South Korean stocks slide on AI-related concerns",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Bitcoin diverges from South Korean stocks as AI concerns deepen the Kospi selloff",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Chinese fraud victims lose key court battle over 61,000 Bitcoin",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=83249 vs EMA50=83170",
+        "detail": "EMA20=83373 vs EMA50=83241",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "52.9",
+        "detail": "53.0",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-6.1",
-        "points": -1.5
+        "detail": "23.5",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 83361 vs [82970, 83772]",
+        "detail": "prix 83469 vs [82975, 83725]",
         "points": 0
       },
       {
@@ -904,14 +904,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -3",
-        "points": -1
+        "detail": "30 articles pertinents, score brut -4",
+        "points": -1.33
       }
     ],
-    "computedAt": "2026-10-14T00:27:33.760Z",
-    "priceUSD": 83343.9,
-    "priceEUR": 74416.4,
-    "change24h": 0.2920535443531466
+    "computedAt": "2026-10-14T05:14:16.616Z",
+    "priceUSD": 83439,
+    "priceEUR": 74462.8,
+    "change24h": 0.4064923250205808
   },
   "history": [
     {
@@ -8058,7 +8058,12 @@
       "t": "2026-10-14T00:27:33.763Z",
       "equityEUR": 157.42,
       "priceEUR": 74416.4
+    },
+    {
+      "t": "2026-10-14T05:14:16.619Z",
+      "equityEUR": 157.79,
+      "priceEUR": 74462.8
     }
   ],
-  "lastRun": "2026-10-14T00:27:33.763Z"
+  "lastRun": "2026-10-14T05:14:16.619Z"
 }
