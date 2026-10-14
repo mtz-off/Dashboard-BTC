@@ -5,8 +5,8 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 121.33,
-  "equityEUR": 157.79,
+  "balanceEUR": 91,
+  "equityEUR": 157.15,
   "stopped": false,
   "openPositions": [
     {
@@ -24,6 +24,23 @@
       "tpPct": 2.18,
       "signalScore": 4.45,
       "signalStrength": 0.56,
+      "status": "OPEN"
+    },
+    {
+      "id": "05b272ac-7784-4305-b09b-8abedc5e3e68",
+      "side": "SHORT",
+      "entryPrice": 74382.8,
+      "entryTime": "2026-10-14T10:16:37.098Z",
+      "sizeEUR": 30.33,
+      "notionalEUR": 454.95,
+      "leverage": 15,
+      "qtyBTC": 0.00611633,
+      "sl": 75154.03,
+      "tp": 72840.33,
+      "slPct": 1.04,
+      "tpPct": 2.07,
+      "signalScore": -1.28,
+      "signalStrength": 0.16,
       "status": "OPEN"
     }
   ],
@@ -814,19 +831,19 @@
     }
   ],
   "lastSignal": {
-    "price": 83468.63142823857,
-    "direction": "LONG",
-    "score": 2.17,
-    "strength": 0.27,
-    "atr14": 733.7567952476031,
+    "price": 83237.87950470413,
+    "direction": "SHORT",
+    "score": -1.28,
+    "strength": 0.16,
+    "atr14": 719.2055066549046,
     "indicators": {
-      "ema20": 83373.49524951467,
-      "ema50": 83240.96691094914,
-      "rsi14": 53.01758074195336,
-      "macdHist": 23.488851309499594,
-      "bbUpper": 83725.12966765782,
-      "bbMid": 83350.19316932326,
-      "bbLower": 82975.2566709887
+      "ema20": 83368.672293299,
+      "ema50": 83258.94064244944,
+      "rsi14": 47.74381313341815,
+      "macdHist": -23.55945617224468,
+      "bbUpper": 83742.07794779191,
+      "bbMid": 83372.81004968222,
+      "bbLower": 83003.54215157252
     },
     "fearGreed": {
       "value": 62,
@@ -835,6 +852,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Proposed French tax on regulated stablecoins could drive crypto traders offshore",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin climbs toward $84,000 after Fed’s Williams sees no rate hikes in 2027",
         "source": "CoinDesk",
@@ -869,32 +891,27 @@
         "title": "Stacks' STX, a Bitcoin layer-2 token, has surged by 50% in four weeks",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Bitcoin, ether slip and rebound as South Korean stocks slide on AI-related concerns",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=83373 vs EMA50=83241",
+        "detail": "EMA20=83369 vs EMA50=83259",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "53.0",
+        "detail": "47.7",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "23.5",
-        "points": 1.5
+        "detail": "-23.6",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 83469 vs [82975, 83725]",
+        "detail": "prix 83238 vs [83004, 83742]",
         "points": 0
       },
       {
@@ -908,10 +925,10 @@
         "points": -1.33
       }
     ],
-    "computedAt": "2026-10-14T05:14:16.616Z",
-    "priceUSD": 83439,
-    "priceEUR": 74462.8,
-    "change24h": 0.4064923250205808
+    "computedAt": "2026-10-14T10:16:37.096Z",
+    "priceUSD": 83241.1,
+    "priceEUR": 74382.8,
+    "change24h": 0.16834895284305007
   },
   "history": [
     {
@@ -8063,7 +8080,12 @@
       "t": "2026-10-14T05:14:16.619Z",
       "equityEUR": 157.79,
       "priceEUR": 74462.8
+    },
+    {
+      "t": "2026-10-14T10:16:37.098Z",
+      "equityEUR": 157.15,
+      "priceEUR": 74382.8
     }
   ],
-  "lastRun": "2026-10-14T05:14:16.619Z"
+  "lastRun": "2026-10-14T10:16:37.098Z"
 }
