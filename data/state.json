@@ -5,27 +5,10 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 91,
-  "equityEUR": 157.15,
+  "balanceEUR": 120.94669128614547,
+  "equityEUR": 155.71,
   "stopped": false,
   "openPositions": [
-    {
-      "id": "1678a1fe-a403-49e8-9a45-2e238324460e",
-      "side": "LONG",
-      "entryPrice": 74954.2,
-      "entryTime": "2026-10-13T08:27:00.468Z",
-      "sizeEUR": 40.44,
-      "notionalEUR": 606.6,
-      "leverage": 15,
-      "qtyBTC": 0.00809294,
-      "sl": 74136.82,
-      "tp": 76588.95,
-      "slPct": 1.09,
-      "tpPct": 2.18,
-      "signalScore": 4.45,
-      "signalStrength": 0.56,
-      "status": "OPEN"
-    },
     {
       "id": "05b272ac-7784-4305-b09b-8abedc5e3e68",
       "side": "SHORT",
@@ -828,22 +811,38 @@
       "pnlPct": -1.29,
       "reason": "SL",
       "status": "CLOSED"
+    },
+    {
+      "id": "1678a1fe-a403-49e8-9a45-2e238324460e",
+      "side": "LONG",
+      "entryPrice": 74954.2,
+      "entryTime": "2026-10-13T08:27:00.468Z",
+      "exitPrice": 73657.6,
+      "exitTime": "2026-10-14T15:20:06.572Z",
+      "sizeEUR": 40.44,
+      "notionalEUR": 606.6,
+      "leverage": 15,
+      "qtyBTC": 0.00809294,
+      "pnlEUR": -10.49,
+      "pnlPct": -1.73,
+      "reason": "SL",
+      "status": "CLOSED"
     }
   ],
   "lastSignal": {
-    "price": 83237.87950470413,
+    "price": 81964.52909831106,
     "direction": "SHORT",
-    "score": -1.28,
-    "strength": 0.16,
-    "atr14": 719.2055066549046,
+    "score": -4.78,
+    "strength": 0.6,
+    "atr14": 740.9944387083282,
     "indicators": {
-      "ema20": 83368.672293299,
-      "ema50": 83258.94064244944,
-      "rsi14": 47.74381313341815,
-      "macdHist": -23.55945617224468,
-      "bbUpper": 83742.07794779191,
-      "bbMid": 83372.81004968222,
-      "bbLower": 83003.54215157252
+      "ema20": 82977.71273438404,
+      "ema50": 83109.89073317475,
+      "rsi14": 31.064905857645414,
+      "macdHist": -185.2267065252476,
+      "bbUpper": 84227.55876229556,
+      "bbMid": 83179.31997233836,
+      "bbLower": 82131.08118238115
     },
     "fearGreed": {
       "value": 62,
@@ -853,7 +852,22 @@
     "fundingRate": null,
     "newsHighlights": [
       {
-        "title": "Proposed French tax on regulated stablecoins could drive crypto traders offshore",
+        "title": "BlackRock's crypto ETF assets surge 63% but remain far below 2025 peak",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Kraken parent Payward to become first crypto firm to buy a EU bank as it expands into deposits, lending",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Canada crypto remittances to Asian countries surge 141% to $2.36B: Chainalysis",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
+        "title": "Proposed 31.4% French tax on regulated stablecoins could drive crypto traders offshore",
         "source": "CoinDesk",
         "itemScore": -1
       },
@@ -871,48 +885,28 @@
         "title": "Bitcoin Whale That Sat Through Every Crash Since 2020 Just Moved $377M",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin Shakes Off Spooky Season Jitters: Can Bulls Keep It Going?",
-        "source": "Decrypt",
-        "itemScore": 1
-      },
-      {
-        "title": "Bitcoin keeps up pressure on $84K as US stocks skirt Korea tech sell-off",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Russia clears Sberbank for crypto trading ahead of December launch",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Stacks' STX, a Bitcoin layer-2 token, has surged by 50% in four weeks",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=83369 vs EMA50=83259",
-        "points": 2
+        "detail": "EMA20=82978 vs EMA50=83110",
+        "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "47.7",
-        "points": 0
+        "detail": "31.1",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-23.6",
+        "detail": "-185.2",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 83238 vs [83004, 83742]",
-        "points": 0
+        "detail": "prix 81965 vs [82131, 84228]",
+        "points": 1
       },
       {
         "factor": "Fear & Greed Index",
@@ -925,10 +919,10 @@
         "points": -1.33
       }
     ],
-    "computedAt": "2026-10-14T10:16:37.096Z",
-    "priceUSD": 83241.1,
-    "priceEUR": 74382.8,
-    "change24h": 0.16834895284305007
+    "computedAt": "2026-10-14T15:20:06.568Z",
+    "priceUSD": 81881.2,
+    "priceEUR": 73657.6,
+    "change24h": -1.4680895101394444
   },
   "history": [
     {
@@ -8085,7 +8079,12 @@
       "t": "2026-10-14T10:16:37.098Z",
       "equityEUR": 157.15,
       "priceEUR": 74382.8
+    },
+    {
+      "t": "2026-10-14T15:20:06.572Z",
+      "equityEUR": 155.71,
+      "priceEUR": 73657.6
     }
   ],
-  "lastRun": "2026-10-14T10:16:37.098Z"
+  "lastRun": "2026-10-14T15:20:06.572Z"
 }
