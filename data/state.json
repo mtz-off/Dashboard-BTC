@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 120.82,
-  "equityEUR": 154.92,
+  "equityEUR": 155.43,
   "stopped": false,
   "openPositions": [
     {
@@ -846,19 +846,19 @@
     }
   ],
   "lastSignal": {
-    "price": 82425.19477707986,
+    "price": 82384.36777653225,
     "direction": "SHORT",
-    "score": -2.55,
-    "strength": 0.32,
-    "atr14": 978.2519168938961,
+    "score": -3,
+    "strength": 0.38,
+    "atr14": 951.2756239765923,
     "indicators": {
-      "ema20": 81629.72264363122,
-      "ema50": 82014.5583894499,
-      "rsi14": 57.60199970897235,
-      "macdHist": 232.70398229116674,
-      "bbUpper": 82619.74128715349,
-      "bbMid": 81362.61954532079,
-      "bbLower": 80105.49780348809
+      "ema20": 81781.29740432579,
+      "ema50": 82036.59400525916,
+      "rsi14": 56.65161045644375,
+      "macdHist": 189.0126483900885,
+      "bbUpper": 82853.78024971795,
+      "bbMid": 81456.35661670461,
+      "bbLower": 80058.93298369127
     },
     "fearGreed": {
       "value": 53,
@@ -867,6 +867,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Russia Will Soon Ban Peer-to-Peer Bitcoin Trading, Central Bank Confirms",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin Whipsaws as Crypto Liquidations Near $1 Billion",
         "source": "Decrypt",
@@ -901,32 +906,27 @@
         "title": "South Korea plans cybersecurity overhaul after attacks hit banks, crypto firms",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "Nearly $1 billion in crypto bets liquidated as bitcoin, ether and XRP slide",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=81630 vs EMA50=82015",
+        "detail": "EMA20=81781 vs EMA50=82037",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "57.6",
+        "detail": "56.7",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "232.7",
-        "points": 1.95
+        "detail": "189.0",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 82425 vs [80105, 82620]",
+        "detail": "prix 82384 vs [80059, 82854]",
         "points": 0
       },
       {
@@ -936,14 +936,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -13",
+        "detail": "30 articles pertinents, score brut -12",
         "points": -3
       }
     ],
-    "computedAt": "2026-10-15T19:07:44.175Z",
-    "priceUSD": 82403.3,
-    "priceEUR": 73520.2,
-    "change24h": 1.0135271800089523
+    "computedAt": "2026-10-15T22:15:32.074Z",
+    "priceUSD": 82374.2,
+    "priceEUR": 73458.6,
+    "change24h": 0.9778551421058724
   },
   "history": [
     {
@@ -8140,7 +8140,12 @@
       "t": "2026-10-15T19:07:44.177Z",
       "equityEUR": 154.92,
       "priceEUR": 73520.2
+    },
+    {
+      "t": "2026-10-15T22:15:32.077Z",
+      "equityEUR": 155.43,
+      "priceEUR": 73458.6
     }
   ],
-  "lastRun": "2026-10-15T19:07:44.177Z"
+  "lastRun": "2026-10-15T22:15:32.077Z"
 }
