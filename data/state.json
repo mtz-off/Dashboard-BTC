@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 120.82,
-  "equityEUR": 164.29,
+  "equityEUR": 156.87,
   "stopped": false,
   "openPositions": [
     {
@@ -846,19 +846,19 @@
     }
   ],
   "lastSignal": {
-    "price": 81043.5162606602,
+    "price": 82058.72121890944,
     "direction": "SHORT",
-    "score": -3.55,
-    "strength": 0.44,
-    "atr14": 863.9030535393133,
+    "score": -2.55,
+    "strength": 0.32,
+    "atr14": 851.2365711673241,
     "indicators": {
-      "ema20": 81528.20039148424,
-      "ema50": 82165.1874193143,
-      "rsi14": 40.573383589226395,
-      "macdHist": 27.563586595236416,
-      "bbUpper": 82124.32493896122,
-      "bbMid": 81415.6907487945,
-      "bbLower": 80707.05655862778
+      "ema20": 81327.96084272231,
+      "ema50": 81977.13125635243,
+      "rsi14": 55.160197230920126,
+      "macdHist": 66.99315377390195,
+      "bbUpper": 82242.95709112113,
+      "bbMid": 81255.09063534228,
+      "bbLower": 80267.22417956342
     },
     "fearGreed": {
       "value": 53,
@@ -868,9 +868,19 @@
     "fundingRate": null,
     "newsHighlights": [
       {
-        "title": "Live updates: Bitcoin back under $81,000 as AI selloff worsens",
+        "title": "Russia to ban direct peer-to-peer crypto trades starting July 2027",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "How Brooklyn prosecutors and the FBI took down a massive crypto fraud network targeting Russian speakers",
         "source": "CoinDesk",
         "itemScore": -1
+      },
+      {
+        "title": "Bitcoin Tests $81,000 as Rate Hike Fears Linger After Hot Inflation Data",
+        "source": "Decrypt",
+        "itemScore": -2
       },
       {
         "title": "Bitget, Liquid exploits push Q3 crypto hacks toward $1.2B",
@@ -896,37 +906,27 @@
         "title": "Bitcoin wilts as Fed rate uncertainty weighs. Kospi plunges 8%",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin miners plunge up to 13% in Wall Street’s worst selloff since July",
-        "source": "Cointelegraph",
-        "itemScore": -2
-      },
-      {
-        "title": "OCC report finds debanking efforts tied to crypto activities",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=81528 vs EMA50=82165",
+        "detail": "EMA20=81328 vs EMA50=81977",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "40.6",
-        "points": -0.5
+        "detail": "55.2",
+        "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "27.6",
+        "detail": "67.0",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 81044 vs [80707, 82124]",
+        "detail": "prix 82059 vs [80267, 82243]",
         "points": 0
       },
       {
@@ -936,14 +936,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -9",
+        "detail": "30 articles pertinents, score brut -12",
         "points": -3
       }
     ],
-    "computedAt": "2026-10-15T10:18:13.174Z",
-    "priceUSD": 81142.4,
-    "priceEUR": 72391.4,
-    "change24h": -0.5321385448015125
+    "computedAt": "2026-10-15T15:11:35.492Z",
+    "priceUSD": 82130.4,
+    "priceEUR": 73285.9,
+    "change24h": 0.6789945633852815
   },
   "history": [
     {
@@ -8130,7 +8130,12 @@
       "t": "2026-10-15T10:18:13.176Z",
       "equityEUR": 164.29,
       "priceEUR": 72391.4
+    },
+    {
+      "t": "2026-10-15T15:11:35.495Z",
+      "equityEUR": 156.87,
+      "priceEUR": 73285.9
     }
   ],
-  "lastRun": "2026-10-15T10:18:13.176Z"
+  "lastRun": "2026-10-15T15:11:35.495Z"
 }
