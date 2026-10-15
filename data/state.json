@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 120.82,
-  "equityEUR": 161.1,
+  "equityEUR": 165.57,
   "stopped": false,
   "openPositions": [
     {
@@ -846,19 +846,19 @@
     }
   ],
   "lastSignal": {
-    "price": 81382.78180195055,
+    "price": 81036.31604732008,
     "direction": "SHORT",
-    "score": -4.33,
-    "strength": 0.54,
-    "atr14": 801.7540771663392,
+    "score": -5.78,
+    "strength": 0.72,
+    "atr14": 841.6787470247473,
     "indicators": {
-      "ema20": 82159.67941792234,
-      "ema50": 82655.07398209501,
-      "rsi14": 30.486948226009943,
-      "macdHist": -72.59549503469088,
-      "bbUpper": 83964.31121771628,
-      "bbMid": 82349.60753272253,
-      "bbLower": 80734.90384772877
+      "ema20": 81818.37851343921,
+      "ema50": 82411.20747806183,
+      "rsi14": 35.13183006645801,
+      "macdHist": -30.94642920460359,
+      "bbUpper": 83122.58954300685,
+      "bbMid": 81836.27203259496,
+      "bbLower": 80549.95452218308
     },
     "fearGreed": {
       "value": 53,
@@ -867,6 +867,21 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Nearly $1 billion in crypto bets liquidated as bitcoin, ether and XRP slide",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin wilts as Fed rate uncertainty weighs. Kospi plunges 8%",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin miners plunge up to 13% in Wall Street’s worst selloff since July",
+        "source": "Cointelegraph",
+        "itemScore": -2
+      },
       {
         "title": "OCC report finds debanking efforts tied to crypto activities",
         "source": "Cointelegraph",
@@ -886,32 +901,27 @@
         "title": "Canada crypto remittances to Asian countries surge 141% to $2.36B: Chainalysis",
         "source": "Cointelegraph",
         "itemScore": 1
-      },
-      {
-        "title": "Proposed 31.4% French tax on regulated stablecoins could drive crypto traders offshore",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=82160 vs EMA50=82655",
+        "detail": "EMA20=81818 vs EMA50=82411",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "30.5",
+        "detail": "35.1",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-72.6",
-        "points": -1.5
+        "detail": "-30.9",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 81383 vs [80735, 83964]",
+        "detail": "prix 81036 vs [80550, 83123]",
         "points": 0
       },
       {
@@ -921,14 +931,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -1",
-        "points": -0.33
+        "detail": "30 articles pertinents, score brut -4",
+        "points": -1.33
       }
     ],
-    "computedAt": "2026-10-15T00:52:55.207Z",
-    "priceUSD": 81433,
-    "priceEUR": 72776.2,
-    "change24h": -0.17590850306154346
+    "computedAt": "2026-10-15T05:31:43.971Z",
+    "priceUSD": 80963.6,
+    "priceEUR": 72237.2,
+    "change24h": -0.7513193137729545
   },
   "history": [
     {
@@ -8105,7 +8115,12 @@
       "t": "2026-10-15T00:52:55.211Z",
       "equityEUR": 161.1,
       "priceEUR": 72776.2
+    },
+    {
+      "t": "2026-10-15T05:31:43.974Z",
+      "equityEUR": 165.57,
+      "priceEUR": 72237.2
     }
   ],
-  "lastRun": "2026-10-15T00:52:55.211Z"
+  "lastRun": "2026-10-15T05:31:43.974Z"
 }
