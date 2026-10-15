@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 120.82,
-  "equityEUR": 165.57,
+  "equityEUR": 164.29,
   "stopped": false,
   "openPositions": [
     {
@@ -846,19 +846,19 @@
     }
   ],
   "lastSignal": {
-    "price": 81036.31604732008,
+    "price": 81043.5162606602,
     "direction": "SHORT",
-    "score": -5.78,
-    "strength": 0.72,
-    "atr14": 841.6787470247473,
+    "score": -3.55,
+    "strength": 0.44,
+    "atr14": 863.9030535393133,
     "indicators": {
-      "ema20": 81818.37851343921,
-      "ema50": 82411.20747806183,
-      "rsi14": 35.13183006645801,
-      "macdHist": -30.94642920460359,
-      "bbUpper": 83122.58954300685,
-      "bbMid": 81836.27203259496,
-      "bbLower": 80549.95452218308
+      "ema20": 81528.20039148424,
+      "ema50": 82165.1874193143,
+      "rsi14": 40.573383589226395,
+      "macdHist": 27.563586595236416,
+      "bbUpper": 82124.32493896122,
+      "bbMid": 81415.6907487945,
+      "bbLower": 80707.05655862778
     },
     "fearGreed": {
       "value": 53,
@@ -867,6 +867,26 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Live updates: Bitcoin back under $81,000 as AI selloff worsens",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitget, Liquid exploits push Q3 crypto hacks toward $1.2B",
+        "source": "Cointelegraph",
+        "itemScore": -2
+      },
+      {
+        "title": "Bitcoin ETFs shed $261M as XRP funds buck weekly outflow trend",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "South Korea plans cybersecurity overhaul after attacks hit banks, crypto firms",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "Nearly $1 billion in crypto bets liquidated as bitcoin, ether and XRP slide",
         "source": "CoinDesk",
@@ -886,42 +906,27 @@
         "title": "OCC report finds debanking efforts tied to crypto activities",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "BlackRock's crypto ETF assets surge 63% but remain far below 2025 peak",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "Kraken parent Payward to become first crypto firm to buy a EU bank as it expands into deposits, lending",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Canada crypto remittances to Asian countries surge 141% to $2.36B: Chainalysis",
-        "source": "Cointelegraph",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=81818 vs EMA50=82411",
+        "detail": "EMA20=81528 vs EMA50=82165",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "35.1",
+        "detail": "40.6",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-30.9",
-        "points": -1.95
+        "detail": "27.6",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 81036 vs [80550, 83123]",
+        "detail": "prix 81044 vs [80707, 82124]",
         "points": 0
       },
       {
@@ -931,14 +936,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -4",
-        "points": -1.33
+        "detail": "30 articles pertinents, score brut -9",
+        "points": -3
       }
     ],
-    "computedAt": "2026-10-15T05:31:43.971Z",
-    "priceUSD": 80963.6,
-    "priceEUR": 72237.2,
-    "change24h": -0.7513193137729545
+    "computedAt": "2026-10-15T10:18:13.174Z",
+    "priceUSD": 81142.4,
+    "priceEUR": 72391.4,
+    "change24h": -0.5321385448015125
   },
   "history": [
     {
@@ -8120,7 +8125,12 @@
       "t": "2026-10-15T05:31:43.974Z",
       "equityEUR": 165.57,
       "priceEUR": 72237.2
+    },
+    {
+      "t": "2026-10-15T10:18:13.176Z",
+      "equityEUR": 164.29,
+      "priceEUR": 72391.4
     }
   ],
-  "lastRun": "2026-10-15T05:31:43.974Z"
+  "lastRun": "2026-10-15T10:18:13.176Z"
 }
