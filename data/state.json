@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 120.82,
-  "equityEUR": 164.35,
+  "equityEUR": 162.03,
   "stopped": false,
   "openPositions": [
     {
@@ -846,19 +846,19 @@
     }
   ],
   "lastSignal": {
-    "price": 81292.86891846023,
+    "price": 81673.99718518934,
     "direction": "SHORT",
-    "score": -4.67,
-    "strength": 0.58,
-    "atr14": 918.713396088884,
+    "score": -3.5,
+    "strength": 0.44,
+    "atr14": 912.5689414336457,
     "indicators": {
-      "ema20": 81783.069771236,
-      "ema50": 81951.28178374095,
-      "rsi14": 40.893728512204106,
-      "macdHist": -118.4683749351552,
-      "bbUpper": 82647.5747273396,
-      "bbMid": 81930.43017295773,
-      "bbLower": 81213.28561857586
+      "ema20": 81720.99687898316,
+      "ema50": 81903.7852558451,
+      "rsi14": 48.35670222366842,
+      "macdHist": -47.918397988068435,
+      "bbUpper": 82607.36109430752,
+      "bbMid": 81838.30384985096,
+      "bbLower": 81069.2466053944
     },
     "fearGreed": {
       "value": 63,
@@ -878,9 +878,9 @@
         "itemScore": -1
       },
       {
-        "title": "Live updates: Crypto gives up some ground as AI selloff picks up steam",
+        "title": "Live updates: Bitcoin dips to $81,000 as stocks slide, VIX soars ahead of Black Monday anniversary",
         "source": "CoinDesk",
-        "itemScore": -1
+        "itemScore": 1
       },
       {
         "title": "Bitcoin may seek 20-month trend line reclaim before new record highs: CryptoQuant",
@@ -911,22 +911,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=81783 vs EMA50=81951",
+        "detail": "EMA20=81721 vs EMA50=81904",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "40.9",
-        "points": -0.5
+        "detail": "48.4",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-118.5",
+        "detail": "-47.9",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 81293 vs [81213, 82648]",
+        "detail": "prix 81674 vs [81069, 82607]",
         "points": 0
       },
       {
@@ -936,14 +936,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -2",
-        "points": -0.67
+        "detail": "30 articles pertinents, score brut 0",
+        "points": 0
       }
     ],
-    "computedAt": "2026-10-16T18:17:27.751Z",
-    "priceUSD": 81243.2,
-    "priceEUR": 72384.6,
-    "change24h": -1.0862551348139744
+    "computedAt": "2026-10-16T21:28:59.134Z",
+    "priceUSD": 81628.4,
+    "priceEUR": 72663.9,
+    "change24h": -0.6172734289965107
   },
   "history": [
     {
@@ -8170,7 +8170,12 @@
       "t": "2026-10-16T18:17:27.756Z",
       "equityEUR": 164.35,
       "priceEUR": 72384.6
+    },
+    {
+      "t": "2026-10-16T21:28:59.137Z",
+      "equityEUR": 162.03,
+      "priceEUR": 72663.9
     }
   ],
-  "lastRun": "2026-10-16T18:17:27.756Z"
+  "lastRun": "2026-10-16T21:28:59.137Z"
 }
