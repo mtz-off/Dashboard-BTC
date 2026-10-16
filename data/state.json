@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 120.82,
-  "equityEUR": 158.42,
+  "equityEUR": 159.88,
   "stopped": false,
   "openPositions": [
     {
@@ -846,19 +846,19 @@
     }
   ],
   "lastSignal": {
-    "price": 82058.65969805358,
+    "price": 82038.74694269455,
     "direction": "SHORT",
-    "score": -3.5,
-    "strength": 0.44,
-    "atr14": 914.6057139691007,
+    "score": -2.17,
+    "strength": 0.27,
+    "atr14": 880.6773983889369,
     "indicators": {
-      "ema20": 81938.28308708078,
-      "ema50": 82053.0775605922,
-      "rsi14": 52.1711761651549,
-      "macdHist": 29.844053580969728,
-      "bbUpper": 83126.8874729372,
-      "bbMid": 81800.6641215797,
-      "bbLower": 80474.4407702222
+      "ema20": 82011.27938626743,
+      "ema50": 82066.17619680369,
+      "rsi14": 51.09266111318262,
+      "macdHist": 2.331704198552785,
+      "bbUpper": 82468.727386847,
+      "bbMid": 82148.65973266274,
+      "bbLower": 81828.59207847848
     },
     "fearGreed": {
       "value": 63,
@@ -867,6 +867,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin may seek 20-month trend line reclaim before new record highs: CryptoQuant",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
+        "title": "MSCI approves rules that could eject Strategy, Metaplanet from equity indexes",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "Bitcoin buyers snap up a brief drop below $80,000 as Asian stocks rebound",
         "source": "CoinDesk",
@@ -896,37 +906,27 @@
         "title": "Bitcoin Tests $81,000 as Rate Hike Fears Linger After Hot Inflation Data",
         "source": "Decrypt",
         "itemScore": -2
-      },
-      {
-        "title": "Bitget, Liquid exploits push Q3 crypto hacks toward $1.2B",
-        "source": "Cointelegraph",
-        "itemScore": -2
-      },
-      {
-        "title": "Bitcoin ETFs shed $261M as XRP funds buck weekly outflow trend",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=81938 vs EMA50=82053",
+        "detail": "EMA20=82011 vs EMA50=82066",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "52.2",
+        "detail": "51.1",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "29.8",
+        "detail": "2.3",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 82059 vs [80474, 83127]",
+        "detail": "prix 82039 vs [81829, 82469]",
         "points": 0
       },
       {
@@ -936,14 +936,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -9",
-        "points": -3
+        "detail": "30 articles pertinents, score brut -5",
+        "points": -1.67
       }
     ],
-    "computedAt": "2026-10-16T05:00:15.870Z",
-    "priceUSD": 82072.9,
-    "priceEUR": 73098.9,
-    "change24h": -0.07609386452126611
+    "computedAt": "2026-10-16T09:47:11.117Z",
+    "priceUSD": 82019.7,
+    "priceEUR": 72922.8,
+    "change24h": -0.1408649620017643
   },
   "history": [
     {
@@ -8155,7 +8155,12 @@
       "t": "2026-10-16T05:00:15.874Z",
       "equityEUR": 158.42,
       "priceEUR": 73098.9
+    },
+    {
+      "t": "2026-10-16T09:47:11.120Z",
+      "equityEUR": 159.88,
+      "priceEUR": 72922.8
     }
   ],
-  "lastRun": "2026-10-16T05:00:15.874Z"
+  "lastRun": "2026-10-16T09:47:11.120Z"
 }
