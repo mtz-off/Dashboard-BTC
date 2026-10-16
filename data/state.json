@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 120.82,
-  "equityEUR": 158.52,
+  "equityEUR": 164.35,
   "stopped": false,
   "openPositions": [
     {
@@ -846,19 +846,19 @@
     }
   ],
   "lastSignal": {
-    "price": 82307.92789573486,
+    "price": 81292.86891846023,
     "direction": "SHORT",
-    "score": -4.5,
-    "strength": 0.56,
-    "atr14": 890.9907723410536,
+    "score": -4.67,
+    "strength": 0.58,
+    "atr14": 918.713396088884,
     "indicators": {
-      "ema20": 82073.91991594076,
-      "ema50": 82085.04794813835,
-      "rsi14": 54.423931527686584,
-      "macdHist": -3.429989220453237,
-      "bbUpper": 82476.59231737826,
-      "bbMid": 82148.52809577243,
-      "bbLower": 81820.4638741666
+      "ema20": 81783.069771236,
+      "ema50": 81951.28178374095,
+      "rsi14": 40.893728512204106,
+      "macdHist": -118.4683749351552,
+      "bbUpper": 82647.5747273396,
+      "bbMid": 81930.43017295773,
+      "bbLower": 81213.28561857586
     },
     "fearGreed": {
       "value": 63,
@@ -874,6 +874,11 @@
       },
       {
         "title": "Scammer gets scammed in Ledger spy-chip exploit, loses almost $5 million in bitcoin",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Live updates: Crypto gives up some ground as AI selloff picks up steam",
         "source": "CoinDesk",
         "itemScore": -1
       },
@@ -901,32 +906,27 @@
         "title": "Bitcoin Whipsaws as Crypto Liquidations Near $1 Billion",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "Russia to ban direct peer-to-peer crypto trades starting July 2027",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=82074 vs EMA50=82085",
+        "detail": "EMA20=81783 vs EMA50=81951",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "54.4",
-        "points": 0
+        "detail": "40.9",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-3.4",
+        "detail": "-118.5",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 82308 vs [81820, 82477]",
+        "detail": "prix 81293 vs [81213, 82648]",
         "points": 0
       },
       {
@@ -936,14 +936,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -3",
-        "points": -1
+        "detail": "30 articles pertinents, score brut -2",
+        "points": -0.67
       }
     ],
-    "computedAt": "2026-10-16T14:29:51.862Z",
-    "priceUSD": 82243.1,
-    "priceEUR": 73087.3,
-    "change24h": 0.13112494734305993
+    "computedAt": "2026-10-16T18:17:27.751Z",
+    "priceUSD": 81243.2,
+    "priceEUR": 72384.6,
+    "change24h": -1.0862551348139744
   },
   "history": [
     {
@@ -8165,7 +8165,12 @@
       "t": "2026-10-16T14:29:51.865Z",
       "equityEUR": 158.52,
       "priceEUR": 73087.3
+    },
+    {
+      "t": "2026-10-16T18:17:27.756Z",
+      "equityEUR": 164.35,
+      "priceEUR": 72384.6
     }
   ],
-  "lastRun": "2026-10-16T14:29:51.865Z"
+  "lastRun": "2026-10-16T18:17:27.756Z"
 }
