@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 120.82,
-  "equityEUR": 159.88,
+  "equityEUR": 158.52,
   "stopped": false,
   "openPositions": [
     {
@@ -846,19 +846,19 @@
     }
   ],
   "lastSignal": {
-    "price": 82038.74694269455,
+    "price": 82307.92789573486,
     "direction": "SHORT",
-    "score": -2.17,
-    "strength": 0.27,
-    "atr14": 880.6773983889369,
+    "score": -4.5,
+    "strength": 0.56,
+    "atr14": 890.9907723410536,
     "indicators": {
-      "ema20": 82011.27938626743,
-      "ema50": 82066.17619680369,
-      "rsi14": 51.09266111318262,
-      "macdHist": 2.331704198552785,
-      "bbUpper": 82468.727386847,
-      "bbMid": 82148.65973266274,
-      "bbLower": 81828.59207847848
+      "ema20": 82073.91991594076,
+      "ema50": 82085.04794813835,
+      "rsi14": 54.423931527686584,
+      "macdHist": -3.429989220453237,
+      "bbUpper": 82476.59231737826,
+      "bbMid": 82148.52809577243,
+      "bbLower": 81820.4638741666
     },
     "fearGreed": {
       "value": 63,
@@ -867,6 +867,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Deutsche Bank prepares German crypto custody launch, eyes Asia: Report",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Scammer gets scammed in Ledger spy-chip exploit, loses almost $5 million in bitcoin",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin may seek 20-month trend line reclaim before new record highs: CryptoQuant",
         "source": "Cointelegraph",
@@ -896,37 +906,27 @@
         "title": "Russia to ban direct peer-to-peer crypto trades starting July 2027",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "How Brooklyn prosecutors and the FBI took down a massive crypto fraud network targeting Russian speakers",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin Tests $81,000 as Rate Hike Fears Linger After Hot Inflation Data",
-        "source": "Decrypt",
-        "itemScore": -2
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=82011 vs EMA50=82066",
+        "detail": "EMA20=82074 vs EMA50=82085",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "51.1",
+        "detail": "54.4",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "2.3",
-        "points": 1.5
+        "detail": "-3.4",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 82039 vs [81829, 82469]",
+        "detail": "prix 82308 vs [81820, 82477]",
         "points": 0
       },
       {
@@ -936,14 +936,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -5",
-        "points": -1.67
+        "detail": "30 articles pertinents, score brut -3",
+        "points": -1
       }
     ],
-    "computedAt": "2026-10-16T09:47:11.117Z",
-    "priceUSD": 82019.7,
-    "priceEUR": 72922.8,
-    "change24h": -0.1408649620017643
+    "computedAt": "2026-10-16T14:29:51.862Z",
+    "priceUSD": 82243.1,
+    "priceEUR": 73087.3,
+    "change24h": 0.13112494734305993
   },
   "history": [
     {
@@ -8160,7 +8160,12 @@
       "t": "2026-10-16T09:47:11.120Z",
       "equityEUR": 159.88,
       "priceEUR": 72922.8
+    },
+    {
+      "t": "2026-10-16T14:29:51.865Z",
+      "equityEUR": 158.52,
+      "priceEUR": 73087.3
     }
   ],
-  "lastRun": "2026-10-16T09:47:11.120Z"
+  "lastRun": "2026-10-16T14:29:51.865Z"
 }
