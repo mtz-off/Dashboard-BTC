@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 120.82,
-  "equityEUR": 163.33,
+  "equityEUR": 165.2,
   "stopped": false,
   "openPositions": [
     {
@@ -846,19 +846,19 @@
     }
   ],
   "lastSignal": {
-    "price": 81447.24549522296,
+    "price": 81198.00962885788,
     "direction": "SHORT",
-    "score": -0.5,
-    "strength": 0.06,
-    "atr14": 738.9254665360232,
+    "score": -3.12,
+    "strength": 0.39,
+    "atr14": 706.6376989519079,
     "indicators": {
-      "ema20": 81544.88759252611,
-      "ema50": 81714.18755139966,
-      "rsi14": 45.10951558853333,
-      "macdHist": 9.178476164830542,
-      "bbUpper": 81759.30624244889,
-      "bbMid": 81496.5531887515,
-      "bbLower": 81233.8001350541
+      "ema20": 81451.11656119287,
+      "ema50": 81647.92913958222,
+      "rsi14": 38.859187161727036,
+      "macdHist": -21.14413860922636,
+      "bbUpper": 81719.52590305504,
+      "bbMid": 81460.95700031774,
+      "bbLower": 81202.38809758043
     },
     "fearGreed": {
       "value": 55,
@@ -901,33 +901,28 @@
         "title": "Russia Will Soon Ban Peer-to-Peer Bitcoin Trading, Central Bank Confirms",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin Whipsaws as Crypto Liquidations Near $1 Billion",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=81545 vs EMA50=81714",
+        "detail": "EMA20=81451 vs EMA50=81648",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "45.1",
-        "points": 0
+        "detail": "38.9",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "9.2",
-        "points": 1.5
+        "detail": "-21.1",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 81447 vs [81234, 81759]",
-        "points": 0
+        "detail": "prix 81198 vs [81202, 81720]",
+        "points": 1
       },
       {
         "factor": "Fear & Greed Index",
@@ -936,14 +931,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 0",
-        "points": 0
+        "detail": "30 articles pertinents, score brut 1",
+        "points": 0.33
       }
     ],
-    "computedAt": "2026-10-17T14:26:43.245Z",
-    "priceUSD": 81450.2,
-    "priceEUR": 72507.1,
-    "change24h": -0.06220790199862467
+    "computedAt": "2026-10-17T17:26:15.592Z",
+    "priceUSD": 81182,
+    "priceEUR": 72282.5,
+    "change24h": -0.39128402263041784
   },
   "history": [
     {
@@ -8200,7 +8195,12 @@
       "t": "2026-10-17T14:26:43.248Z",
       "equityEUR": 163.33,
       "priceEUR": 72507.1
+    },
+    {
+      "t": "2026-10-17T17:26:15.595Z",
+      "equityEUR": 165.2,
+      "priceEUR": 72282.5
     }
   ],
-  "lastRun": "2026-10-17T14:26:43.248Z"
+  "lastRun": "2026-10-17T17:26:15.595Z"
 }
