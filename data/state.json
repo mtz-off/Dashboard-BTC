@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 115.38759967118781,
-  "equityEUR": 161.16,
+  "equityEUR": 160.53,
   "stopped": false,
   "openPositions": [
     {
@@ -862,19 +862,19 @@
     }
   ],
   "lastSignal": {
-    "price": 81061.65958028336,
+    "price": 81096.24445712619,
     "direction": "SHORT",
-    "score": -3.78,
-    "strength": 0.47,
-    "atr14": 660.8561370712171,
+    "score": -5.12,
+    "strength": 0.64,
+    "atr14": 691.6059519302482,
     "indicators": {
-      "ema20": 81619.44634928944,
-      "ema50": 81636.98666205554,
-      "rsi14": 36.89364150791578,
-      "macdHist": -39.39003324212835,
-      "bbUpper": 82160.41514699024,
-      "bbMid": 81613.90861565528,
-      "bbLower": 81067.40208432032
+      "ema20": 81471.73055096978,
+      "ema50": 81570.39763416389,
+      "rsi14": 39.507716482033516,
+      "macdHist": -89.01138368857832,
+      "bbUpper": 82210.68473440307,
+      "bbMid": 81563.01585041895,
+      "bbLower": 80915.34696643482
     },
     "fearGreed": {
       "value": 53,
@@ -884,6 +884,11 @@
     "fundingRate": null,
     "newsHighlights": [
       {
+        "title": "Wall Street freaked out Friday. VIX and bitcoin say the fear may fade Monday.",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
         "title": "Crypto audits give investors false sense of security as Q3 hacks cost $1.18 billion, Hacken says",
         "source": "CoinDesk",
         "itemScore": -1
@@ -892,23 +897,23 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=81619 vs EMA50=81637",
+        "detail": "EMA20=81472 vs EMA50=81570",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "36.9",
+        "detail": "39.5",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-39.4",
+        "detail": "-89.0",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 81062 vs [81067, 82160]",
-        "points": 1
+        "detail": "prix 81096 vs [80915, 82211]",
+        "points": 0
       },
       {
         "factor": "Fear & Greed Index",
@@ -917,14 +922,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "16 articles pertinents, score brut -1",
-        "points": -0.33
+        "detail": "14 articles pertinents, score brut -2",
+        "points": -0.67
       }
     ],
-    "computedAt": "2026-10-18T14:49:55.793Z",
-    "priceUSD": 81006.5,
-    "priceEUR": 72114.7,
-    "change24h": -0.46140424172421424
+    "computedAt": "2026-10-18T17:47:05.247Z",
+    "priceUSD": 81048.2,
+    "priceEUR": 72190.7,
+    "change24h": -0.410164409820357
   },
   "history": [
     {
@@ -8221,7 +8226,12 @@
       "t": "2026-10-18T14:49:55.797Z",
       "equityEUR": 161.16,
       "priceEUR": 72114.7
+    },
+    {
+      "t": "2026-10-18T17:47:05.250Z",
+      "equityEUR": 160.53,
+      "priceEUR": 72190.7
     }
   ],
-  "lastRun": "2026-10-18T14:49:55.797Z"
+  "lastRun": "2026-10-18T17:47:05.250Z"
 }
