@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 120.82,
-  "equityEUR": 165.05,
+  "equityEUR": 162.83,
   "stopped": false,
   "openPositions": [
     {
@@ -846,24 +846,24 @@
     }
   ],
   "lastSignal": {
-    "price": 81211.67769431119,
-    "direction": "SHORT",
-    "score": -3.78,
-    "strength": 0.47,
-    "atr14": 688.726004659974,
+    "price": 81546.99473300902,
+    "direction": "LONG",
+    "score": 0.62,
+    "strength": 0.08,
+    "atr14": 694.7340094159339,
     "indicators": {
-      "ema20": 81400.6712690778,
-      "ema50": 81585.11823982846,
-      "rsi14": 43.44800784669925,
-      "macdHist": -8.260540644577958,
-      "bbUpper": 81721.64742878971,
-      "bbMid": 81418.63884843398,
-      "bbLower": 81115.63026807825
+      "ema20": 81435.72977459828,
+      "ema50": 81586.3039363515,
+      "rsi14": 52.38434674783451,
+      "macdHist": 24.89788461921583,
+      "bbUpper": 81725.70730434963,
+      "bbMid": 81433.34666747812,
+      "bbLower": 81140.98603060661
     },
     "fearGreed": {
-      "value": 55,
-      "classification": "Greed",
-      "timestamp": 1792195200000
+      "value": 53,
+      "classification": "Neutral",
+      "timestamp": 1792281600000
     },
     "fundingRate": null,
     "newsHighlights": [
@@ -901,39 +901,39 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=81401 vs EMA50=81585",
+        "detail": "EMA20=81436 vs EMA50=81586",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "43.4",
-        "points": -0.5
+        "detail": "52.4",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-8.3",
-        "points": -1.95
+        "detail": "24.9",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 81212 vs [81116, 81722]",
+        "detail": "prix 81547 vs [81141, 81726]",
         "points": 0
       },
       {
         "factor": "Fear & Greed Index",
-        "detail": "55 (Greed)",
+        "detail": "53 (Neutral)",
         "points": 0
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "27 articles pertinents, score brut 2",
+        "detail": "25 articles pertinents, score brut 2",
         "points": 0.67
       }
     ],
-    "computedAt": "2026-10-17T23:29:18.376Z",
-    "priceUSD": 81186.9,
-    "priceEUR": 72300.2,
-    "change24h": -0.38527181908420643
+    "computedAt": "2026-10-18T01:26:57.059Z",
+    "priceUSD": 81495.8,
+    "priceEUR": 72567.9,
+    "change24h": 0.13983436140670283
   },
   "history": [
     {
@@ -8210,7 +8210,12 @@
       "t": "2026-10-17T23:29:18.379Z",
       "equityEUR": 165.05,
       "priceEUR": 72300.2
+    },
+    {
+      "t": "2026-10-18T01:26:57.061Z",
+      "equityEUR": 162.83,
+      "priceEUR": 72567.9
     }
   ],
-  "lastRun": "2026-10-17T23:29:18.379Z"
+  "lastRun": "2026-10-18T01:26:57.061Z"
 }
