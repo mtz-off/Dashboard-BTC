@@ -5,8 +5,8 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 120.82,
-  "equityEUR": 162.11,
+  "balanceEUR": 90.62,
+  "equityEUR": 159.32,
   "stopped": false,
   "openPositions": [
     {
@@ -24,6 +24,23 @@
       "tpPct": 2.36,
       "signalScore": -4.33,
       "signalStrength": 0.54,
+      "status": "OPEN"
+    },
+    {
+      "id": "803a1f07-d9fe-43c3-b9fc-aecc05b24e83",
+      "side": "LONG",
+      "entryPrice": 72990,
+      "entryTime": "2026-10-18T11:32:55.050Z",
+      "sizeEUR": 30.2,
+      "notionalEUR": 453,
+      "leverage": 15,
+      "qtyBTC": 0.00620633,
+      "sl": 72279.66,
+      "tp": 74410.68,
+      "slPct": 0.97,
+      "tpPct": 1.95,
+      "signalScore": 4.12,
+      "signalStrength": 0.51,
       "status": "OPEN"
     }
   ],
@@ -846,19 +863,19 @@
     }
   ],
   "lastSignal": {
-    "price": 81624.20170592831,
-    "direction": "SHORT",
-    "score": -0.17,
-    "strength": 0.02,
-    "atr14": 691.7402616788602,
+    "price": 82015.07442504901,
+    "direction": "LONG",
+    "score": 4.12,
+    "strength": 0.51,
+    "atr14": 665.1426923963247,
     "indicators": {
-      "ema20": 81548.24837599708,
-      "ema50": 81612.09751647817,
-      "rsi14": 52.40940578731172,
-      "macdHist": 43.03691256041644,
-      "bbUpper": 81866.13680584707,
-      "bbMid": 81474.29183980435,
-      "bbLower": 81082.44687376164
+      "ema20": 81685.95395007628,
+      "ema50": 81661.55114001017,
+      "rsi14": 61.46955107134425,
+      "macdHist": 59.210727394327364,
+      "bbUpper": 82127.63056413158,
+      "bbMid": 81590.55606494323,
+      "bbLower": 81053.48156575488
     },
     "fearGreed": {
       "value": 53,
@@ -871,47 +888,27 @@
         "title": "Deutsche Bank prepares German crypto custody launch, eyes Asia: Report",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "Scammer gets scammed in Ledger spy-chip exploit, loses almost $5 million in bitcoin",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Live updates: Bitcoin dips to $81,000 as stocks slide, VIX soars ahead of Black Monday anniversary",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "Bitcoin may seek 20-month trend line reclaim before new record highs: CryptoQuant",
-        "source": "Cointelegraph",
-        "itemScore": 1
-      },
-      {
-        "title": "MSCI approves rules that could eject Strategy, Metaplanet from equity indexes",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=81548 vs EMA50=81612",
-        "points": -2
+        "detail": "EMA20=81686 vs EMA50=81662",
+        "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "52.4",
-        "points": 0
+        "detail": "61.5",
+        "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "43.0",
-        "points": 1.5
+        "detail": "59.2",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 81624 vs [81082, 81866]",
+        "detail": "prix 82015 vs [81053, 82128]",
         "points": 0
       },
       {
@@ -921,14 +918,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "22 articles pertinents, score brut 1",
-        "points": 0.33
+        "detail": "16 articles pertinents, score brut -1",
+        "points": -0.33
       }
     ],
-    "computedAt": "2026-10-18T06:24:19.168Z",
-    "priceUSD": 81612.1,
-    "priceEUR": 72654.3,
-    "change24h": 0.2827406551817427
+    "computedAt": "2026-10-18T11:32:55.047Z",
+    "priceUSD": 81959.3,
+    "priceEUR": 72990,
+    "change24h": 0.7093706224963787
   },
   "history": [
     {
@@ -8215,7 +8212,12 @@
       "t": "2026-10-18T06:24:19.171Z",
       "equityEUR": 162.11,
       "priceEUR": 72654.3
+    },
+    {
+      "t": "2026-10-18T11:32:55.050Z",
+      "equityEUR": 159.32,
+      "priceEUR": 72990
     }
   ],
-  "lastRun": "2026-10-18T06:24:19.171Z"
+  "lastRun": "2026-10-18T11:32:55.050Z"
 }
