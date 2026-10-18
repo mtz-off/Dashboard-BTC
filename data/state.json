@@ -5,8 +5,8 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 90.62,
-  "equityEUR": 159.32,
+  "balanceEUR": 115.38759967118781,
+  "equityEUR": 161.16,
   "stopped": false,
   "openPositions": [
     {
@@ -24,23 +24,6 @@
       "tpPct": 2.36,
       "signalScore": -4.33,
       "signalStrength": 0.54,
-      "status": "OPEN"
-    },
-    {
-      "id": "803a1f07-d9fe-43c3-b9fc-aecc05b24e83",
-      "side": "LONG",
-      "entryPrice": 72990,
-      "entryTime": "2026-10-18T11:32:55.050Z",
-      "sizeEUR": 30.2,
-      "notionalEUR": 453,
-      "leverage": 15,
-      "qtyBTC": 0.00620633,
-      "sl": 72279.66,
-      "tp": 74410.68,
-      "slPct": 0.97,
-      "tpPct": 1.95,
-      "signalScore": 4.12,
-      "signalStrength": 0.51,
       "status": "OPEN"
     }
   ],
@@ -860,22 +843,38 @@
       "pnlPct": 2.16,
       "reason": "TP",
       "status": "CLOSED"
+    },
+    {
+      "id": "803a1f07-d9fe-43c3-b9fc-aecc05b24e83",
+      "side": "LONG",
+      "entryPrice": 72990,
+      "entryTime": "2026-10-18T11:32:55.050Z",
+      "exitPrice": 72114.7,
+      "exitTime": "2026-10-18T14:49:55.797Z",
+      "sizeEUR": 30.2,
+      "notionalEUR": 453,
+      "leverage": 15,
+      "qtyBTC": 0.00620633,
+      "pnlEUR": -5.43,
+      "pnlPct": -1.2,
+      "reason": "SL",
+      "status": "CLOSED"
     }
   ],
   "lastSignal": {
-    "price": 82015.07442504901,
-    "direction": "LONG",
-    "score": 4.12,
-    "strength": 0.51,
-    "atr14": 665.1426923963247,
+    "price": 81061.65958028336,
+    "direction": "SHORT",
+    "score": -3.78,
+    "strength": 0.47,
+    "atr14": 660.8561370712171,
     "indicators": {
-      "ema20": 81685.95395007628,
-      "ema50": 81661.55114001017,
-      "rsi14": 61.46955107134425,
-      "macdHist": 59.210727394327364,
-      "bbUpper": 82127.63056413158,
-      "bbMid": 81590.55606494323,
-      "bbLower": 81053.48156575488
+      "ema20": 81619.44634928944,
+      "ema50": 81636.98666205554,
+      "rsi14": 36.89364150791578,
+      "macdHist": -39.39003324212835,
+      "bbUpper": 82160.41514699024,
+      "bbMid": 81613.90861565528,
+      "bbLower": 81067.40208432032
     },
     "fearGreed": {
       "value": 53,
@@ -885,31 +884,31 @@
     "fundingRate": null,
     "newsHighlights": [
       {
-        "title": "Deutsche Bank prepares German crypto custody launch, eyes Asia: Report",
-        "source": "Cointelegraph",
+        "title": "Crypto audits give investors false sense of security as Q3 hacks cost $1.18 billion, Hacken says",
+        "source": "CoinDesk",
         "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=81686 vs EMA50=81662",
-        "points": 2
+        "detail": "EMA20=81619 vs EMA50=81637",
+        "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "61.5",
-        "points": 0.5
+        "detail": "36.9",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "59.2",
-        "points": 1.95
+        "detail": "-39.4",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 82015 vs [81053, 82128]",
-        "points": 0
+        "detail": "prix 81062 vs [81067, 82160]",
+        "points": 1
       },
       {
         "factor": "Fear & Greed Index",
@@ -922,10 +921,10 @@
         "points": -0.33
       }
     ],
-    "computedAt": "2026-10-18T11:32:55.047Z",
-    "priceUSD": 81959.3,
-    "priceEUR": 72990,
-    "change24h": 0.7093706224963787
+    "computedAt": "2026-10-18T14:49:55.793Z",
+    "priceUSD": 81006.5,
+    "priceEUR": 72114.7,
+    "change24h": -0.46140424172421424
   },
   "history": [
     {
@@ -8217,7 +8216,12 @@
       "t": "2026-10-18T11:32:55.050Z",
       "equityEUR": 159.32,
       "priceEUR": 72990
+    },
+    {
+      "t": "2026-10-18T14:49:55.797Z",
+      "equityEUR": 161.16,
+      "priceEUR": 72114.7
     }
   ],
-  "lastRun": "2026-10-18T11:32:55.050Z"
+  "lastRun": "2026-10-18T14:49:55.797Z"
 }
