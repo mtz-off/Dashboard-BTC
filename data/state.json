@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 120.82,
-  "equityEUR": 162.83,
+  "equityEUR": 162.11,
   "stopped": false,
   "openPositions": [
     {
@@ -846,19 +846,19 @@
     }
   ],
   "lastSignal": {
-    "price": 81546.99473300902,
-    "direction": "LONG",
-    "score": 0.62,
-    "strength": 0.08,
-    "atr14": 694.7340094159339,
+    "price": 81624.20170592831,
+    "direction": "SHORT",
+    "score": -0.17,
+    "strength": 0.02,
+    "atr14": 691.7402616788602,
     "indicators": {
-      "ema20": 81435.72977459828,
-      "ema50": 81586.3039363515,
-      "rsi14": 52.38434674783451,
-      "macdHist": 24.89788461921583,
-      "bbUpper": 81725.70730434963,
-      "bbMid": 81433.34666747812,
-      "bbLower": 81140.98603060661
+      "ema20": 81548.24837599708,
+      "ema50": 81612.09751647817,
+      "rsi14": 52.40940578731172,
+      "macdHist": 43.03691256041644,
+      "bbUpper": 81866.13680584707,
+      "bbMid": 81474.29183980435,
+      "bbLower": 81082.44687376164
     },
     "fearGreed": {
       "value": 53,
@@ -891,17 +891,12 @@
         "title": "MSCI approves rules that could eject Strategy, Metaplanet from equity indexes",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Bitcoin buyers snap up a brief drop below $80,000 as Asian stocks rebound",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=81436 vs EMA50=81586",
+        "detail": "EMA20=81548 vs EMA50=81612",
         "points": -2
       },
       {
@@ -911,12 +906,12 @@
       },
       {
         "factor": "MACD histogramme",
-        "detail": "24.9",
-        "points": 1.95
+        "detail": "43.0",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 81547 vs [81141, 81726]",
+        "detail": "prix 81624 vs [81082, 81866]",
         "points": 0
       },
       {
@@ -926,14 +921,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "25 articles pertinents, score brut 2",
-        "points": 0.67
+        "detail": "22 articles pertinents, score brut 1",
+        "points": 0.33
       }
     ],
-    "computedAt": "2026-10-18T01:26:57.059Z",
-    "priceUSD": 81495.8,
-    "priceEUR": 72567.9,
-    "change24h": 0.13983436140670283
+    "computedAt": "2026-10-18T06:24:19.168Z",
+    "priceUSD": 81612.1,
+    "priceEUR": 72654.3,
+    "change24h": 0.2827406551817427
   },
   "history": [
     {
@@ -8215,7 +8210,12 @@
       "t": "2026-10-18T01:26:57.061Z",
       "equityEUR": 162.83,
       "priceEUR": 72567.9
+    },
+    {
+      "t": "2026-10-18T06:24:19.171Z",
+      "equityEUR": 162.11,
+      "priceEUR": 72654.3
     }
   ],
-  "lastRun": "2026-10-18T01:26:57.061Z"
+  "lastRun": "2026-10-18T06:24:19.171Z"
 }
