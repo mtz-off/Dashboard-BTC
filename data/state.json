@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 115.38759967118781,
-  "equityEUR": 156.68,
+  "equityEUR": 153.63,
   "stopped": false,
   "openPositions": [
     {
@@ -862,29 +862,29 @@
     }
   ],
   "lastSignal": {
-    "price": 81595.51388023602,
+    "price": 81973.45139222087,
     "direction": "SHORT",
-    "score": -4.17,
-    "strength": 0.52,
-    "atr14": 673.4401070563898,
+    "score": -0.22,
+    "strength": 0.03,
+    "atr14": 726.6427711487049,
     "indicators": {
-      "ema20": 81360.00092227786,
-      "ema50": 81504.08561630196,
-      "rsi14": 53.98060722682822,
-      "macdHist": -39.607823586082205,
-      "bbUpper": 82282.4684677567,
-      "bbMid": 81498.30398076081,
-      "bbLower": 80714.13949376493
+      "ema20": 81413.33217673968,
+      "ema50": 81513.91709092804,
+      "rsi14": 60.941948117443545,
+      "macdHist": 39.288146260901385,
+      "bbUpper": 82283.20319888824,
+      "bbMid": 81478.56601062955,
+      "bbLower": 80673.92882237087
     },
     "fearGreed": {
-      "value": 53,
-      "classification": "Neutral",
-      "timestamp": 1792281600000
+      "value": 59,
+      "classification": "Greed",
+      "timestamp": 1792368000000
     },
     "fundingRate": null,
     "newsHighlights": [
       {
-        "title": "Wall Street freaked out Friday. VIX and bitcoin say the fear may fade Monday.",
+        "title": "Wall Street freaked out Friday, but VIX and bitcoin trades say the fear may fade Monday.",
         "source": "CoinDesk",
         "itemScore": -1
       },
@@ -897,39 +897,39 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=81360 vs EMA50=81504",
+        "detail": "EMA20=81413 vs EMA50=81514",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "54.0",
-        "points": 0
+        "detail": "60.9",
+        "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-39.6",
-        "points": -1.5
+        "detail": "39.3",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 81596 vs [80714, 82282]",
+        "detail": "prix 81973 vs [80674, 82283]",
         "points": 0
       },
       {
         "factor": "Fear & Greed Index",
-        "detail": "53 (Neutral)",
+        "detail": "59 (Greed)",
         "points": 0
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "14 articles pertinents, score brut -2",
+        "detail": "15 articles pertinents, score brut -2",
         "points": -0.67
       }
     ],
-    "computedAt": "2026-10-18T22:24:57.130Z",
-    "priceUSD": 81560.3,
-    "priceEUR": 72653.7,
-    "change24h": 0.2190902165097969
+    "computedAt": "2026-10-19T00:20:41.724Z",
+    "priceUSD": 81976.1,
+    "priceEUR": 73022.2,
+    "change24h": -0.031218864974739875
   },
   "history": [
     {
@@ -8241,7 +8241,12 @@
       "t": "2026-10-18T22:24:57.132Z",
       "equityEUR": 156.68,
       "priceEUR": 72653.7
+    },
+    {
+      "t": "2026-10-19T00:20:41.727Z",
+      "equityEUR": 153.63,
+      "priceEUR": 73022.2
     }
   ],
-  "lastRun": "2026-10-18T22:24:57.132Z"
+  "lastRun": "2026-10-19T00:20:41.727Z"
 }
