@@ -5,8 +5,8 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 115.38759967118781,
-  "equityEUR": 153.63,
+  "balanceEUR": 86.54,
+  "equityEUR": 149.94,
   "stopped": false,
   "openPositions": [
     {
@@ -24,6 +24,23 @@
       "tpPct": 2.36,
       "signalScore": -4.33,
       "signalStrength": 0.54,
+      "status": "OPEN"
+    },
+    {
+      "id": "4692ccbb-278a-4683-b2c7-e6a17609a7ca",
+      "side": "LONG",
+      "entryPrice": 73466.2,
+      "entryTime": "2026-10-19T05:03:10.744Z",
+      "sizeEUR": 28.85,
+      "notionalEUR": 432.75,
+      "leverage": 15,
+      "qtyBTC": 0.00589046,
+      "sl": 72690.3,
+      "tp": 75017.99,
+      "slPct": 1.06,
+      "tpPct": 2.11,
+      "signalScore": 3.78,
+      "signalStrength": 0.47,
       "status": "OPEN"
     }
   ],
@@ -862,19 +879,19 @@
     }
   ],
   "lastSignal": {
-    "price": 81973.45139222087,
-    "direction": "SHORT",
-    "score": -0.22,
-    "strength": 0.03,
-    "atr14": 726.6427711487049,
+    "price": 82610.01819363114,
+    "direction": "LONG",
+    "score": 3.78,
+    "strength": 0.47,
+    "atr14": 727.0544252346689,
     "indicators": {
-      "ema20": 81413.33217673968,
-      "ema50": 81513.91709092804,
-      "rsi14": 60.941948117443545,
-      "macdHist": 39.288146260901385,
-      "bbUpper": 82283.20319888824,
-      "bbMid": 81478.56601062955,
-      "bbLower": 80673.92882237087
+      "ema20": 81836.52635528272,
+      "ema50": 81689.15282627346,
+      "rsi14": 67.06080711973266,
+      "macdHist": 157.37892386285083,
+      "bbUpper": 82888.38288227256,
+      "bbMid": 81683.37479132005,
+      "bbLower": 80478.36670036754
     },
     "fearGreed": {
       "value": 59,
@@ -883,6 +900,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin, Korea’s Kospi and Nasdaq futures rally as China GDP beats estimates",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Deutsche Bank targets Asia crypto custody expansion in 2027 as German launch nears",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Wall Street freaked out Friday, but VIX and bitcoin trades say the fear may fade Monday.",
         "source": "CoinDesk",
@@ -897,22 +924,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=81413 vs EMA50=81514",
-        "points": -2
+        "detail": "EMA20=81837 vs EMA50=81689",
+        "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "60.9",
+        "detail": "67.1",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "39.3",
+        "detail": "157.4",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 81973 vs [80674, 82283]",
+        "detail": "prix 82610 vs [80478, 82888]",
         "points": 0
       },
       {
@@ -922,14 +949,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "15 articles pertinents, score brut -2",
+        "detail": "16 articles pertinents, score brut -2",
         "points": -0.67
       }
     ],
-    "computedAt": "2026-10-19T00:20:41.724Z",
-    "priceUSD": 81976.1,
-    "priceEUR": 73022.2,
-    "change24h": -0.031218864974739875
+    "computedAt": "2026-10-19T05:03:10.742Z",
+    "priceUSD": 82485.3,
+    "priceEUR": 73466.2,
+    "change24h": 0.5897438711636538
   },
   "history": [
     {
@@ -8246,7 +8273,12 @@
       "t": "2026-10-19T00:20:41.727Z",
       "equityEUR": 153.63,
       "priceEUR": 73022.2
+    },
+    {
+      "t": "2026-10-19T05:03:10.744Z",
+      "equityEUR": 149.94,
+      "priceEUR": 73466.2
     }
   ],
-  "lastRun": "2026-10-19T00:20:41.727Z"
+  "lastRun": "2026-10-19T05:03:10.744Z"
 }
