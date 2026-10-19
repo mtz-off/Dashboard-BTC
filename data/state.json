@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 86.54,
-  "equityEUR": 150.09,
+  "equityEUR": 150.89,
   "stopped": false,
   "openPositions": [
     {
@@ -879,19 +879,19 @@
     }
   ],
   "lastSignal": {
-    "price": 82358.99117089256,
-    "direction": "LONG",
-    "score": 3.33,
-    "strength": 0.42,
-    "atr14": 719.5372983978629,
+    "price": 81894.11641848045,
+    "direction": "SHORT",
+    "score": -0.28,
+    "strength": 0.04,
+    "atr14": 747.8577742251495,
     "indicators": {
-      "ema20": 82206.68528988207,
-      "ema50": 81898.15036137846,
-      "rsi14": 56.023106006068446,
-      "macdHist": 49.51159630981931,
-      "bbUpper": 83437.07102875134,
-      "bbMid": 81965.4276680074,
-      "bbLower": 80493.78430726346
+      "ema20": 82162.5901520546,
+      "ema50": 81947.07695140435,
+      "rsi14": 45.8169584442569,
+      "macdHist": -98.04193402208332,
+      "bbUpper": 83131.58396037198,
+      "bbMid": 82305.08899558686,
+      "bbLower": 81478.59403080175
     },
     "fearGreed": {
       "value": 59,
@@ -900,6 +900,31 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Abandoned Bitcoin? Wallet Targeted by Noah Doe Lawsuit Moves $33 Million",
+        "source": "Decrypt",
+        "itemScore": -2
+      },
+      {
+        "title": "Bitcoin Tests Key Support as Oil and AI Fears Squeeze Markets",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Morning Minute: Crypto Rebounds as &#39;Black Monday&#39; Looms",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
+      {
+        "title": "Strategy's price chart is about to flash a major bullish signal weeks after bitcoin did",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Live updates: Bitcoin holds near $82,000 as Nasdaq rebounds more than 1%",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "Bitcoin extends bounce above $82,000 as stocks rebound, DeFi tokens lead altcoin gains",
         "source": "CoinDesk",
@@ -914,52 +939,27 @@
         "title": "Crypto vault deposits top $10 billion as lending risks draw regulatory scrutiny",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin, Ether ETFs shed $549M as October ETH outflows near $1B",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin, Korea’s Kospi and Nasdaq futures rally as China GDP beats estimates",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "Deutsche Bank targets Asia crypto custody expansion in 2027 as German launch nears",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Wall Street freaked out Friday, but VIX and bitcoin trades say the fear may fade Monday.",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Crypto audits give investors false sense of security as Q3 hacks cost $1.18 billion, Hacken says",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=82207 vs EMA50=81898",
+        "detail": "EMA20=82163 vs EMA50=81947",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "56.0",
-        "points": 0.5
+        "detail": "45.8",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "49.5",
-        "points": 1.5
+        "detail": "-98.0",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 82359 vs [80494, 83437]",
+        "detail": "prix 81894 vs [81479, 83132]",
         "points": 0
       },
       {
@@ -969,14 +969,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "24 articles pertinents, score brut -2",
-        "points": -0.67
+        "detail": "30 articles pertinents, score brut -1",
+        "points": -0.33
       }
     ],
-    "computedAt": "2026-10-19T10:45:14.102Z",
-    "priceUSD": 82296.4,
-    "priceEUR": 73402.6,
-    "change24h": 0.35938279328355033
+    "computedAt": "2026-10-19T17:18:53.234Z",
+    "priceUSD": 81885.3,
+    "priceEUR": 73073,
+    "change24h": -0.1419482766820617
   },
   "history": [
     {
@@ -8303,7 +8303,12 @@
       "t": "2026-10-19T10:45:14.104Z",
       "equityEUR": 150.09,
       "priceEUR": 73402.6
+    },
+    {
+      "t": "2026-10-19T17:18:53.237Z",
+      "equityEUR": 150.89,
+      "priceEUR": 73073
     }
   ],
-  "lastRun": "2026-10-19T10:45:14.104Z"
+  "lastRun": "2026-10-19T17:18:53.237Z"
 }
