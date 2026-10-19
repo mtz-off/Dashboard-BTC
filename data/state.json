@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 86.54,
-  "equityEUR": 149.94,
+  "equityEUR": 150.09,
   "stopped": false,
   "openPositions": [
     {
@@ -879,19 +879,19 @@
     }
   ],
   "lastSignal": {
-    "price": 82610.01819363114,
+    "price": 82358.99117089256,
     "direction": "LONG",
-    "score": 3.78,
-    "strength": 0.47,
-    "atr14": 727.0544252346689,
+    "score": 3.33,
+    "strength": 0.42,
+    "atr14": 719.5372983978629,
     "indicators": {
-      "ema20": 81836.52635528272,
-      "ema50": 81689.15282627346,
-      "rsi14": 67.06080711973266,
-      "macdHist": 157.37892386285083,
-      "bbUpper": 82888.38288227256,
-      "bbMid": 81683.37479132005,
-      "bbLower": 80478.36670036754
+      "ema20": 82206.68528988207,
+      "ema50": 81898.15036137846,
+      "rsi14": 56.023106006068446,
+      "macdHist": 49.51159630981931,
+      "bbUpper": 83437.07102875134,
+      "bbMid": 81965.4276680074,
+      "bbLower": 80493.78430726346
     },
     "fearGreed": {
       "value": 59,
@@ -900,6 +900,26 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin extends bounce above $82,000 as stocks rebound, DeFi tokens lead altcoin gains",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Stocks rebound into key tech earnings: Three things to know in Bitcoin this week",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
+        "title": "Crypto vault deposits top $10 billion as lending risks draw regulatory scrutiny",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin, Ether ETFs shed $549M as October ETH outflows near $1B",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin, Korea’s Kospi and Nasdaq futures rally as China GDP beats estimates",
         "source": "CoinDesk",
@@ -924,22 +944,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=81837 vs EMA50=81689",
+        "detail": "EMA20=82207 vs EMA50=81898",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "67.1",
+        "detail": "56.0",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "157.4",
-        "points": 1.95
+        "detail": "49.5",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 82610 vs [80478, 82888]",
+        "detail": "prix 82359 vs [80494, 83437]",
         "points": 0
       },
       {
@@ -949,14 +969,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "16 articles pertinents, score brut -2",
+        "detail": "24 articles pertinents, score brut -2",
         "points": -0.67
       }
     ],
-    "computedAt": "2026-10-19T05:03:10.742Z",
-    "priceUSD": 82485.3,
-    "priceEUR": 73466.2,
-    "change24h": 0.5897438711636538
+    "computedAt": "2026-10-19T10:45:14.102Z",
+    "priceUSD": 82296.4,
+    "priceEUR": 73402.6,
+    "change24h": 0.35938279328355033
   },
   "history": [
     {
@@ -8278,7 +8298,12 @@
       "t": "2026-10-19T05:03:10.744Z",
       "equityEUR": 149.94,
       "priceEUR": 73466.2
+    },
+    {
+      "t": "2026-10-19T10:45:14.104Z",
+      "equityEUR": 150.09,
+      "priceEUR": 73402.6
     }
   ],
-  "lastRun": "2026-10-19T05:03:10.744Z"
+  "lastRun": "2026-10-19T10:45:14.104Z"
 }
