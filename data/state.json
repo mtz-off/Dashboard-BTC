@@ -5,8 +5,8 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 86.54,
-  "equityEUR": 151.28,
+  "balanceEUR": 110.57218956472505,
+  "equityEUR": 151.91,
   "stopped": false,
   "openPositions": [
     {
@@ -24,23 +24,6 @@
       "tpPct": 2.36,
       "signalScore": -4.33,
       "signalStrength": 0.54,
-      "status": "OPEN"
-    },
-    {
-      "id": "4692ccbb-278a-4683-b2c7-e6a17609a7ca",
-      "side": "LONG",
-      "entryPrice": 73466.2,
-      "entryTime": "2026-10-19T05:03:10.744Z",
-      "sizeEUR": 28.85,
-      "notionalEUR": 432.75,
-      "leverage": 15,
-      "qtyBTC": 0.00589046,
-      "sl": 72690.3,
-      "tp": 75017.99,
-      "slPct": 1.06,
-      "tpPct": 2.11,
-      "signalScore": 3.78,
-      "signalStrength": 0.47,
       "status": "OPEN"
     }
   ],
@@ -876,30 +859,59 @@
       "pnlPct": -1.2,
       "reason": "SL",
       "status": "CLOSED"
+    },
+    {
+      "id": "4692ccbb-278a-4683-b2c7-e6a17609a7ca",
+      "side": "LONG",
+      "entryPrice": 73466.2,
+      "entryTime": "2026-10-19T05:03:10.744Z",
+      "exitPrice": 72648.3,
+      "exitTime": "2026-10-20T10:16:21.343Z",
+      "sizeEUR": 28.85,
+      "notionalEUR": 432.75,
+      "leverage": 15,
+      "qtyBTC": 0.00589046,
+      "pnlEUR": -4.82,
+      "pnlPct": -1.11,
+      "reason": "SL",
+      "status": "CLOSED"
     }
   ],
   "lastSignal": {
-    "price": 81940.62962285112,
-    "direction": "LONG",
-    "score": 0.5,
-    "strength": 0.06,
-    "atr14": 710.5540099176764,
+    "price": 81530.47361200565,
+    "direction": "SHORT",
+    "score": -3.67,
+    "strength": 0.46,
+    "atr14": 713.6386163578887,
     "indicators": {
-      "ema20": 81963.46142814464,
-      "ema50": 81922.02877930424,
-      "rsi14": 49.24675589131112,
-      "macdHist": -12.703046224959792,
-      "bbUpper": 82410.61220290091,
-      "bbMid": 81984.5664767933,
-      "bbLower": 81558.5207506857
+      "ema20": 81806.78337950537,
+      "ema50": 81857.28550211925,
+      "rsi14": 41.59501382333169,
+      "macdHist": -49.9676465494484,
+      "bbUpper": 82208.73239992298,
+      "bbMid": 81819.72007686293,
+      "bbLower": 81430.70775380287
     },
     "fearGreed": {
       "value": 55,
       "classification": "Greed",
       "timestamp": 1792454400000
     },
-    "fundingRate": null,
+    "fundingRate": {
+      "lastFundingRate": 0.00002767,
+      "markPrice": 81562.4
+    },
     "newsHighlights": [
+      {
+        "title": "Bitget plans Thai crypto exchange acquisition weeks after $388M hack",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "JPMorgan projects Bitcoin to outperform US stocks and gold over next decade",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
       {
         "title": "Bitcoin rally could revive treasury buying, but easy-money days over",
         "source": "Cointelegraph",
@@ -929,37 +941,27 @@
         "title": "Strategy's price chart is about to flash a major bullish signal weeks after bitcoin did",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Live updates: Bitcoin holds near $82,000 as Nasdaq rebounds more than 1%",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "Bitcoin extends bounce above $82,000 as stocks rebound, DeFi tokens lead altcoin gains",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=81963 vs EMA50=81922",
-        "points": 2
+        "detail": "EMA20=81807 vs EMA50=81857",
+        "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "49.2",
-        "points": 0
+        "detail": "41.6",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-12.7",
+        "detail": "-50.0",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 81941 vs [81559, 82411]",
+        "detail": "prix 81530 vs [81431, 82209]",
         "points": 0
       },
       {
@@ -968,15 +970,20 @@
         "points": 0
       },
       {
-        "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 0",
+        "factor": "Funding rate BTC perp",
+        "detail": "0.0028%",
         "points": 0
+      },
+      {
+        "factor": "Sentiment news (RSS temps réel)",
+        "detail": "30 articles pertinents, score brut 1",
+        "points": 0.33
       }
     ],
-    "computedAt": "2026-10-20T05:18:49.310Z",
-    "priceUSD": 81906.2,
-    "priceEUR": 72912.6,
-    "change24h": 0.07722102073481799
+    "computedAt": "2026-10-20T10:16:21.340Z",
+    "priceUSD": 81490.3,
+    "priceEUR": 72648.3,
+    "change24h": -0.4309470571704326
   },
   "history": [
     {
@@ -8323,7 +8330,12 @@
       "t": "2026-10-20T05:18:49.315Z",
       "equityEUR": 151.28,
       "priceEUR": 72912.6
+    },
+    {
+      "t": "2026-10-20T10:16:21.343Z",
+      "equityEUR": 151.91,
+      "priceEUR": 72648.3
     }
   ],
-  "lastRun": "2026-10-20T05:18:49.315Z"
+  "lastRun": "2026-10-20T10:16:21.343Z"
 }
