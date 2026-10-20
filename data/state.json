@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 86.54,
-  "equityEUR": 151.6,
+  "equityEUR": 151.28,
   "stopped": false,
   "openPositions": [
     {
@@ -879,19 +879,19 @@
     }
   ],
   "lastSignal": {
-    "price": 81641.66260985176,
-    "direction": "SHORT",
-    "score": -0.78,
-    "strength": 0.1,
-    "atr14": 695.6947561219465,
+    "price": 81940.62962285112,
+    "direction": "LONG",
+    "score": 0.5,
+    "strength": 0.06,
+    "atr14": 710.5540099176764,
     "indicators": {
-      "ema20": 82000.35256208728,
-      "ema50": 81927.22687427342,
-      "rsi14": 40.60387565743349,
-      "macdHist": -73.30355786962593,
-      "bbUpper": 82915.52224603308,
-      "bbMid": 82191.29151015115,
-      "bbLower": 81467.06077426921
+      "ema20": 81963.46142814464,
+      "ema50": 81922.02877930424,
+      "rsi14": 49.24675589131112,
+      "macdHist": -12.703046224959792,
+      "bbUpper": 82410.61220290091,
+      "bbMid": 81984.5664767933,
+      "bbLower": 81558.5207506857
     },
     "fearGreed": {
       "value": 55,
@@ -900,6 +900,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin rally could revive treasury buying, but easy-money days over",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
       {
         "title": "Market participants weigh in on SEC’s proposed crypto regulations",
         "source": "Cointelegraph",
@@ -934,32 +939,27 @@
         "title": "Bitcoin extends bounce above $82,000 as stocks rebound, DeFi tokens lead altcoin gains",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Stocks rebound into key tech earnings: Three things to know in Bitcoin this week",
-        "source": "Cointelegraph",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=82000 vs EMA50=81927",
+        "detail": "EMA20=81963 vs EMA50=81922",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "40.6",
-        "points": -0.5
+        "detail": "49.2",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-73.3",
-        "points": -1.95
+        "detail": "-12.7",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 81642 vs [81467, 82916]",
+        "detail": "prix 81941 vs [81559, 82411]",
         "points": 0
       },
       {
@@ -969,14 +969,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -1",
-        "points": -0.33
+        "detail": "30 articles pertinents, score brut 0",
+        "points": 0
       }
     ],
-    "computedAt": "2026-10-20T00:40:04.040Z",
-    "priceUSD": 81634.1,
-    "priceEUR": 72780.2,
-    "change24h": -0.25524479796683186
+    "computedAt": "2026-10-20T05:18:49.310Z",
+    "priceUSD": 81906.2,
+    "priceEUR": 72912.6,
+    "change24h": 0.07722102073481799
   },
   "history": [
     {
@@ -8318,7 +8318,12 @@
       "t": "2026-10-20T00:40:04.043Z",
       "equityEUR": 151.6,
       "priceEUR": 72780.2
+    },
+    {
+      "t": "2026-10-20T05:18:49.315Z",
+      "equityEUR": 151.28,
+      "priceEUR": 72912.6
     }
   ],
-  "lastRun": "2026-10-20T00:40:04.043Z"
+  "lastRun": "2026-10-20T05:18:49.315Z"
 }
