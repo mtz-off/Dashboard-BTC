@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 114.07761880944595,
-  "equityEUR": 145.08,
+  "equityEUR": 145.22,
   "stopped": false,
   "openPositions": [
     {
@@ -894,24 +894,24 @@
     }
   ],
   "lastSignal": {
-    "price": 82969.54826674792,
+    "price": 83021.15434398808,
     "direction": "LONG",
-    "score": 5,
-    "strength": 0.63,
-    "atr14": 759.9689249256622,
+    "score": 4.67,
+    "strength": 0.58,
+    "atr14": 750.7604697114632,
     "indicators": {
-      "ema20": 82349.66052759827,
-      "ema50": 82103.72029190433,
-      "rsi14": 62.977386284978564,
-      "macdHist": 102.42547487525823,
-      "bbUpper": 83347.37689360864,
-      "bbMid": 82156.36765012017,
-      "bbLower": 80965.3584066317
+      "ema20": 82469.42187047239,
+      "ema50": 82173.51919016246,
+      "rsi14": 62.90022853790625,
+      "macdHist": 86.70104565565609,
+      "bbUpper": 83545.34337518417,
+      "bbMid": 82253.65809078899,
+      "bbLower": 80961.97280639381
     },
     "fearGreed": {
-      "value": 55,
+      "value": 63,
       "classification": "Greed",
-      "timestamp": 1792454400000
+      "timestamp": 1792540800000
     },
     "fundingRate": null,
     "newsHighlights": [
@@ -939,49 +939,44 @@
         "title": "JPMorgan projects Bitcoin to outperform US stocks and gold over next decade",
         "source": "Cointelegraph",
         "itemScore": 1
-      },
-      {
-        "title": "Bitcoin rally could revive treasury buying, but easy-money days over",
-        "source": "Cointelegraph",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=82350 vs EMA50=82104",
+        "detail": "EMA20=82469 vs EMA50=82174",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "63.0",
+        "detail": "62.9",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "102.4",
+        "detail": "86.7",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 82970 vs [80965, 83347]",
+        "detail": "prix 83021 vs [80962, 83545]",
         "points": 0
       },
       {
         "factor": "Fear & Greed Index",
-        "detail": "55 (Greed)",
+        "detail": "63 (Greed)",
         "points": 0
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 3",
-        "points": 1
+        "detail": "30 articles pertinents, score brut 2",
+        "points": 0.67
       }
     ],
-    "computedAt": "2026-10-20T22:32:42.980Z",
-    "priceUSD": 82975.3,
-    "priceEUR": 73876.2,
-    "change24h": 1.3835025597790929
+    "computedAt": "2026-10-21T00:57:50.283Z",
+    "priceUSD": 82969.4,
+    "priceEUR": 73901.3,
+    "change24h": 0.04015139366330025
   },
   "history": [
     {
@@ -8348,7 +8343,12 @@
       "t": "2026-10-20T22:32:42.985Z",
       "equityEUR": 145.08,
       "priceEUR": 73876.2
+    },
+    {
+      "t": "2026-10-21T00:57:50.286Z",
+      "equityEUR": 145.22,
+      "priceEUR": 73901.3
     }
   ],
-  "lastRun": "2026-10-20T22:32:42.985Z"
+  "lastRun": "2026-10-21T00:57:50.286Z"
 }
