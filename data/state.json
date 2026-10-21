@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 114.07761880944595,
-  "equityEUR": 143.96,
+  "equityEUR": 147.27,
   "stopped": false,
   "openPositions": [
     {
@@ -894,19 +894,19 @@
     }
   ],
   "lastSignal": {
-    "price": 82692.20637334607,
+    "price": 83411.41244437052,
     "direction": "LONG",
-    "score": 1.22,
-    "strength": 0.15,
-    "atr14": 731.4840160697639,
+    "score": 3.78,
+    "strength": 0.47,
+    "atr14": 719.8464591033364,
     "indicators": {
-      "ema20": 82574.32072553769,
-      "ema50": 82276.17419875384,
-      "rsi14": 55.25718306734766,
-      "macdHist": -15.883689415436663,
-      "bbUpper": 83572.69092109191,
-      "bbMid": 82552.00568983925,
-      "bbLower": 81531.32045858659
+      "ema20": 82802.82890732131,
+      "ema50": 82431.19670572778,
+      "rsi14": 67.10271217321545,
+      "macdHist": 39.12991521827905,
+      "bbUpper": 83361.69453383655,
+      "bbMid": 82846.17860422394,
+      "bbLower": 82330.66267461133
     },
     "fearGreed": {
       "value": 63,
@@ -915,6 +915,21 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Crypto rises with Asian tech stocks, zcash extends gain after setting upgrade date",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "UK Banks Hit With 10,000 Complaints Over Blocked Crypto Transfers in 90 Days: Report",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Ether ETF outflows continue, pass $1B in October so far",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "FINMA approves Switzerland’s first Bitcoin ETF for retail investors",
         "source": "Cointelegraph",
@@ -929,38 +944,28 @@
         "title": "Equity weakness could damp demand for bitcoin after biggest ETF inflows in a month",
         "source": "CoinDesk",
         "itemScore": 2
-      },
-      {
-        "title": "Bitget plans Thai crypto exchange acquisition weeks after $388M hack",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "JPMorgan projects Bitcoin to outperform US stocks and gold over next decade",
-        "source": "Cointelegraph",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=82574 vs EMA50=82276",
+        "detail": "EMA20=82803 vs EMA50=82431",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "55.3",
+        "detail": "67.1",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-15.9",
-        "points": -1.95
+        "detail": "39.1",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 82692 vs [81531, 83573]",
-        "points": 0
+        "detail": "prix 83411 vs [82331, 83362]",
+        "points": -1
       },
       {
         "factor": "Fear & Greed Index",
@@ -969,14 +974,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 2",
-        "points": 0.67
+        "detail": "30 articles pertinents, score brut 1",
+        "points": 0.33
       }
     ],
-    "computedAt": "2026-10-21T05:48:58.789Z",
-    "priceUSD": 82717,
-    "priceEUR": 73678.7,
-    "change24h": -0.2641792898388106
+    "computedAt": "2026-10-21T11:06:24.154Z",
+    "priceUSD": 83360.8,
+    "priceEUR": 74263.2,
+    "change24h": 0.5120809876519358
   },
   "history": [
     {
@@ -8353,7 +8358,12 @@
       "t": "2026-10-21T05:48:58.794Z",
       "equityEUR": 143.96,
       "priceEUR": 73678.7
+    },
+    {
+      "t": "2026-10-21T11:06:24.157Z",
+      "equityEUR": 147.27,
+      "priceEUR": 74263.2
     }
   ],
-  "lastRun": "2026-10-21T05:48:58.794Z"
+  "lastRun": "2026-10-21T11:06:24.157Z"
 }
