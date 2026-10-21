@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 114.84,
-  "equityEUR": 152.27,
+  "equityEUR": 151.82,
   "stopped": false,
   "openPositions": [
     {
@@ -910,19 +910,19 @@
     }
   ],
   "lastSignal": {
-    "price": 84479.8723765441,
+    "price": 84422.64433810541,
     "direction": "LONG",
-    "score": 2.33,
-    "strength": 0.29,
-    "atr14": 763.7323360477257,
+    "score": 4,
+    "strength": 0.5,
+    "atr14": 754.6208966409424,
     "indicators": {
-      "ema20": 83666.2664753418,
-      "ema50": 82966.77676901771,
-      "rsi14": 71.96347169770914,
-      "macdHist": 93.65295285981858,
-      "bbUpper": 84930.46177937395,
-      "bbMid": 83488.64404532185,
-      "bbLower": 82046.82631126976
+      "ema20": 83906.75102994572,
+      "ema50": 83151.09337138647,
+      "rsi14": 65.20562733595892,
+      "macdHist": 40.52333283095413,
+      "bbUpper": 85275.0639600825,
+      "bbMid": 83746.62837158455,
+      "bbLower": 82218.1927830866
     },
     "fearGreed": {
       "value": 63,
@@ -942,11 +942,6 @@
         "itemScore": 1
       },
       {
-        "title": "Live updates: Bitcoin rises to $84,000, but rally cut short by Middle East worry",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
         "title": "UK Banks Hit With 10,000 Complaints Over Blocked Crypto Transfers in 90 Days: Report",
         "source": "Decrypt",
         "itemScore": -1
@@ -960,22 +955,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=83666 vs EMA50=82967",
+        "detail": "EMA20=83907 vs EMA50=83151",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "72.0",
-        "points": -1.5
+        "detail": "65.2",
+        "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "93.7",
+        "detail": "40.5",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 84480 vs [82047, 84930]",
+        "detail": "prix 84423 vs [82218, 85275]",
         "points": 0
       },
       {
@@ -985,14 +980,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 1",
-        "points": 0.33
+        "detail": "30 articles pertinents, score brut 0",
+        "points": 0
       }
     ],
-    "computedAt": "2026-10-21T19:57:00.730Z",
-    "priceUSD": 84459.2,
-    "priceEUR": 75184.6,
-    "change24h": 1.8364741047625717
+    "computedAt": "2026-10-21T23:03:05.741Z",
+    "priceUSD": 84361.9,
+    "priceEUR": 75126,
+    "change24h": 1.7191548674220132
   },
   "history": [
     {
@@ -8384,7 +8379,12 @@
       "t": "2026-10-21T19:57:00.732Z",
       "equityEUR": 152.27,
       "priceEUR": 75184.6
+    },
+    {
+      "t": "2026-10-21T23:03:05.744Z",
+      "equityEUR": 151.82,
+      "priceEUR": 75126
     }
   ],
-  "lastRun": "2026-10-21T19:57:00.732Z"
+  "lastRun": "2026-10-21T23:03:05.744Z"
 }
