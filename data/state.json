@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 114.84,
-  "equityEUR": 153.12,
+  "equityEUR": 152.27,
   "stopped": false,
   "openPositions": [
     {
@@ -910,19 +910,19 @@
     }
   ],
   "lastSignal": {
-    "price": 84448.87322244525,
+    "price": 84479.8723765441,
     "direction": "LONG",
-    "score": 1.12,
-    "strength": 0.14,
-    "atr14": 707.7387232644166,
+    "score": 2.33,
+    "strength": 0.29,
+    "atr14": 763.7323360477257,
     "indicators": {
-      "ema20": 83260.63499133222,
-      "ema50": 82701.84434315695,
-      "rsi14": 76.71058069037582,
-      "macdHist": 133.5830981609106,
-      "bbUpper": 84235.6560112265,
-      "bbMid": 83171.72851870919,
-      "bbLower": 82107.80102619188
+      "ema20": 83666.2664753418,
+      "ema50": 82966.77676901771,
+      "rsi14": 71.96347169770914,
+      "macdHist": 93.65295285981858,
+      "bbUpper": 84930.46177937395,
+      "bbMid": 83488.64404532185,
+      "bbLower": 82046.82631126976
     },
     "fearGreed": {
       "value": 63,
@@ -932,7 +932,17 @@
     "fundingRate": null,
     "newsHighlights": [
       {
+        "title": "Bitcoin Hits Weekly High as Crypto Market Rebounds",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
+      {
         "title": "Crypto rises with Asian tech stocks, zcash extends gain after setting upgrade date",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Live updates: Bitcoin rises to $84,000, but rally cut short by Middle East worry",
         "source": "CoinDesk",
         "itemScore": 1
       },
@@ -950,23 +960,23 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=83261 vs EMA50=82702",
+        "detail": "EMA20=83666 vs EMA50=82967",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "76.7",
+        "detail": "72.0",
         "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "133.6",
-        "points": 1.95
+        "detail": "93.7",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 84449 vs [82108, 84236]",
-        "points": -1
+        "detail": "prix 84480 vs [82047, 84930]",
+        "points": 0
       },
       {
         "factor": "Fear & Greed Index",
@@ -975,14 +985,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -1",
-        "points": -0.33
+        "detail": "30 articles pertinents, score brut 1",
+        "points": 0.33
       }
     ],
-    "computedAt": "2026-10-21T15:56:57.559Z",
-    "priceUSD": 84461.7,
-    "priceEUR": 75296.4,
-    "change24h": 1.8394884736562138
+    "computedAt": "2026-10-21T19:57:00.730Z",
+    "priceUSD": 84459.2,
+    "priceEUR": 75184.6,
+    "change24h": 1.8364741047625717
   },
   "history": [
     {
@@ -8369,7 +8379,12 @@
       "t": "2026-10-21T15:56:57.563Z",
       "equityEUR": 153.12,
       "priceEUR": 75296.4
+    },
+    {
+      "t": "2026-10-21T19:57:00.732Z",
+      "equityEUR": 152.27,
+      "priceEUR": 75184.6
     }
   ],
-  "lastRun": "2026-10-21T15:56:57.563Z"
+  "lastRun": "2026-10-21T19:57:00.732Z"
 }
