@@ -5,25 +5,25 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 114.07761880944595,
-  "equityEUR": 147.27,
+  "balanceEUR": 114.84,
+  "equityEUR": 153.12,
   "stopped": false,
   "openPositions": [
     {
-      "id": "f9e04b54-8a5d-4dc1-9ea5-1f87923fa9f3",
+      "id": "45ac3157-050a-403f-88af-c8d2c93dbde8",
       "side": "LONG",
-      "entryPrice": 73281.5,
-      "entryTime": "2026-10-20T19:28:04.758Z",
-      "sizeEUR": 27.64,
-      "notionalEUR": 414.6,
+      "entryPrice": 75296.4,
+      "entryTime": "2026-10-21T15:56:57.563Z",
+      "sizeEUR": 38.28,
+      "notionalEUR": 574.2,
       "leverage": 15,
-      "qtyBTC": 0.00565764,
-      "sl": 72453.12,
-      "tp": 74938.27,
-      "slPct": 1.13,
-      "tpPct": 2.26,
-      "signalScore": 3.5,
-      "signalStrength": 0.44,
+      "qtyBTC": 0.00762586,
+      "sl": 74539.16,
+      "tp": 76810.88,
+      "slPct": 1.01,
+      "tpPct": 2.01,
+      "signalScore": 1.12,
+      "signalStrength": 0.14,
       "status": "OPEN"
     }
   ],
@@ -891,22 +891,38 @@
       "pnlPct": -1.51,
       "reason": "SL",
       "status": "CLOSED"
+    },
+    {
+      "id": "f9e04b54-8a5d-4dc1-9ea5-1f87923fa9f3",
+      "side": "LONG",
+      "entryPrice": 73281.5,
+      "entryTime": "2026-10-20T19:28:04.758Z",
+      "exitPrice": 75296.4,
+      "exitTime": "2026-10-21T15:56:57.563Z",
+      "sizeEUR": 27.64,
+      "notionalEUR": 414.6,
+      "leverage": 15,
+      "qtyBTC": 0.00565764,
+      "pnlEUR": 11.4,
+      "pnlPct": 2.75,
+      "reason": "TP",
+      "status": "CLOSED"
     }
   ],
   "lastSignal": {
-    "price": 83411.41244437052,
+    "price": 84448.87322244525,
     "direction": "LONG",
-    "score": 3.78,
-    "strength": 0.47,
-    "atr14": 719.8464591033364,
+    "score": 1.12,
+    "strength": 0.14,
+    "atr14": 707.7387232644166,
     "indicators": {
-      "ema20": 82802.82890732131,
-      "ema50": 82431.19670572778,
-      "rsi14": 67.10271217321545,
-      "macdHist": 39.12991521827905,
-      "bbUpper": 83361.69453383655,
-      "bbMid": 82846.17860422394,
-      "bbLower": 82330.66267461133
+      "ema20": 83260.63499133222,
+      "ema50": 82701.84434315695,
+      "rsi14": 76.71058069037582,
+      "macdHist": 133.5830981609106,
+      "bbUpper": 84235.6560112265,
+      "bbMid": 83171.72851870919,
+      "bbLower": 82107.80102619188
     },
     "fearGreed": {
       "value": 63,
@@ -929,42 +945,27 @@
         "title": "Ether ETF outflows continue, pass $1B in October so far",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "FINMA approves Switzerland’s first Bitcoin ETF for retail investors",
-        "source": "Cointelegraph",
-        "itemScore": 1
-      },
-      {
-        "title": "Lloyds and Barclays among UK banks named in crypto transfer complaints, advocacy group says",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Equity weakness could damp demand for bitcoin after biggest ETF inflows in a month",
-        "source": "CoinDesk",
-        "itemScore": 2
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=82803 vs EMA50=82431",
+        "detail": "EMA20=83261 vs EMA50=82702",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "67.1",
-        "points": 0.5
+        "detail": "76.7",
+        "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "39.1",
+        "detail": "133.6",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 83411 vs [82331, 83362]",
+        "detail": "prix 84449 vs [82108, 84236]",
         "points": -1
       },
       {
@@ -974,14 +975,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 1",
-        "points": 0.33
+        "detail": "30 articles pertinents, score brut -1",
+        "points": -0.33
       }
     ],
-    "computedAt": "2026-10-21T11:06:24.154Z",
-    "priceUSD": 83360.8,
-    "priceEUR": 74263.2,
-    "change24h": 0.5120809876519358
+    "computedAt": "2026-10-21T15:56:57.559Z",
+    "priceUSD": 84461.7,
+    "priceEUR": 75296.4,
+    "change24h": 1.8394884736562138
   },
   "history": [
     {
@@ -8363,7 +8364,12 @@
       "t": "2026-10-21T11:06:24.157Z",
       "equityEUR": 147.27,
       "priceEUR": 74263.2
+    },
+    {
+      "t": "2026-10-21T15:56:57.563Z",
+      "equityEUR": 153.12,
+      "priceEUR": 75296.4
     }
   ],
-  "lastRun": "2026-10-21T11:06:24.157Z"
+  "lastRun": "2026-10-21T15:56:57.563Z"
 }
