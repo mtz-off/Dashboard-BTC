@@ -5,28 +5,10 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 114.84,
-  "equityEUR": 150.93,
+  "balanceEUR": 138.09628810939176,
+  "equityEUR": 138.1,
   "stopped": false,
-  "openPositions": [
-    {
-      "id": "45ac3157-050a-403f-88af-c8d2c93dbde8",
-      "side": "LONG",
-      "entryPrice": 75296.4,
-      "entryTime": "2026-10-21T15:56:57.563Z",
-      "sizeEUR": 38.28,
-      "notionalEUR": 574.2,
-      "leverage": 15,
-      "qtyBTC": 0.00762586,
-      "sl": 74539.16,
-      "tp": 76810.88,
-      "slPct": 1.01,
-      "tpPct": 2.01,
-      "signalScore": 1.12,
-      "signalStrength": 0.14,
-      "status": "OPEN"
-    }
-  ],
+  "openPositions": [],
   "trades": [
     {
       "id": "5f4a6be1-7c72-41de-a1ee-0ad7afb78691",
@@ -907,22 +889,38 @@
       "pnlPct": 2.75,
       "reason": "TP",
       "status": "CLOSED"
+    },
+    {
+      "id": "45ac3157-050a-403f-88af-c8d2c93dbde8",
+      "side": "LONG",
+      "entryPrice": 75296.4,
+      "entryTime": "2026-10-21T15:56:57.563Z",
+      "exitPrice": 73326.3,
+      "exitTime": "2026-10-22T06:34:36.330Z",
+      "sizeEUR": 38.28,
+      "notionalEUR": 574.2,
+      "leverage": 15,
+      "qtyBTC": 0.00762586,
+      "pnlEUR": -15.02,
+      "pnlPct": -2.62,
+      "reason": "SL",
+      "status": "CLOSED"
     }
   ],
   "lastSignal": {
-    "price": 84282.22975092138,
-    "direction": "LONG",
-    "score": 0.55,
-    "strength": 0.07,
-    "atr14": 754.3394095743848,
+    "price": 82513.61947557576,
+    "direction": "SHORT",
+    "score": -0.45,
+    "strength": 0.06,
+    "atr14": 820.5101870237671,
     "indicators": {
-      "ema20": 83956.5187257311,
-      "ema50": 83229.9964329381,
-      "rsi14": 60.376949504468065,
-      "macdHist": -32.46242981160867,
-      "bbUpper": 85268.31813241987,
-      "bbMid": 83893.88935736279,
-      "bbLower": 82519.4605823057
+      "ema20": 83441.36063074831,
+      "ema50": 83145.5032695759,
+      "rsi14": 33.74688584795686,
+      "macdHist": -262.36368901755395,
+      "bbUpper": 85321.75382163213,
+      "bbMid": 83839.51863807469,
+      "bbLower": 82357.28345451725
     },
     "fearGreed": {
       "value": 68,
@@ -931,6 +929,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "China seeks to seize 61,800 BTC tied to $5.7 billion fraud scheme",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin ETFs attract $1.08 billion in 3 days but it may not be enough for a steep rally",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "Bitcoin Hits Weekly High as Crypto Market Rebounds",
         "source": "Decrypt",
@@ -955,22 +963,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=83957 vs EMA50=83230",
+        "detail": "EMA20=83441 vs EMA50=83146",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "60.4",
-        "points": 0.5
+        "detail": "33.7",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-32.5",
+        "detail": "-262.4",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 84282 vs [82519, 85268]",
+        "detail": "prix 82514 vs [82357, 85322]",
         "points": 0
       },
       {
@@ -984,10 +992,10 @@
         "points": 0
       }
     ],
-    "computedAt": "2026-10-22T01:30:23.076Z",
-    "priceUSD": 84261.8,
-    "priceEUR": 75009.6,
-    "change24h": 0.2848046654170049
+    "computedAt": "2026-10-22T06:34:36.325Z",
+    "priceUSD": 82450.1,
+    "priceEUR": 73326.3,
+    "change24h": -1.8714034931119572
   },
   "history": [
     {
@@ -8389,7 +8397,12 @@
       "t": "2026-10-22T01:30:23.080Z",
       "equityEUR": 150.93,
       "priceEUR": 75009.6
+    },
+    {
+      "t": "2026-10-22T06:34:36.330Z",
+      "equityEUR": 138.1,
+      "priceEUR": 73326.3
     }
   ],
-  "lastRun": "2026-10-22T01:30:23.080Z"
+  "lastRun": "2026-10-22T06:34:36.330Z"
 }
