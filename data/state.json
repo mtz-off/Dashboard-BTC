@@ -5,10 +5,28 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 138.09628810939176,
+  "balanceEUR": 103.58,
   "equityEUR": 138.1,
   "stopped": false,
-  "openPositions": [],
+  "openPositions": [
+    {
+      "id": "f0546b6f-4da7-4d45-ae2b-d05d6a077c2b",
+      "side": "SHORT",
+      "entryPrice": 72950.6,
+      "entryTime": "2026-10-22T12:27:06.273Z",
+      "sizeEUR": 34.52,
+      "notionalEUR": 517.8,
+      "leverage": 15,
+      "qtyBTC": 0.00709795,
+      "sl": 73810.59,
+      "tp": 71230.62,
+      "slPct": 1.18,
+      "tpPct": 2.36,
+      "signalScore": -2.33,
+      "signalStrength": 0.29,
+      "status": "OPEN"
+    }
+  ],
   "trades": [
     {
       "id": "5f4a6be1-7c72-41de-a1ee-0ad7afb78691",
@@ -908,19 +926,19 @@
     }
   ],
   "lastSignal": {
-    "price": 82513.61947557576,
+    "price": 81761.13775394551,
     "direction": "SHORT",
-    "score": -0.45,
-    "strength": 0.06,
-    "atr14": 820.5101870237671,
+    "score": -2.33,
+    "strength": 0.29,
+    "atr14": 803.2135004588206,
     "indicators": {
-      "ema20": 83441.36063074831,
-      "ema50": 83145.5032695759,
-      "rsi14": 33.74688584795686,
-      "macdHist": -262.36368901755395,
-      "bbUpper": 85321.75382163213,
-      "bbMid": 83839.51863807469,
-      "bbLower": 82357.28345451725
+      "ema20": 82719.29918238847,
+      "ema50": 82868.9111372541,
+      "rsi14": 29.826544480967783,
+      "macdHist": -218.80293137956303,
+      "bbUpper": 85405.61876198888,
+      "bbMid": 83190.618629601,
+      "bbLower": 80975.61849721312
     },
     "fearGreed": {
       "value": 68,
@@ -929,6 +947,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Italy Busts Mafia &#39;Secret Bank&#39; That Laundered Money Through Crypto, Seizes $24M",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Asian stocks tumble, bitcoin retreats as China enters bear market",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "China seeks to seize 61,800 BTC tied to $5.7 billion fraud scheme",
         "source": "CoinDesk",
@@ -943,42 +971,27 @@
         "title": "Bitcoin Hits Weekly High as Crypto Market Rebounds",
         "source": "Decrypt",
         "itemScore": 1
-      },
-      {
-        "title": "Crypto rises with Asian tech stocks, zcash extends gain after setting upgrade date",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "UK Banks Hit With 10,000 Complaints Over Blocked Crypto Transfers in 90 Days: Report",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Ether ETF outflows continue, pass $1B in October so far",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=83441 vs EMA50=83146",
-        "points": 2
+        "detail": "EMA20=82719 vs EMA50=82869",
+        "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "33.7",
-        "points": -0.5
+        "detail": "29.8",
+        "points": 1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-262.4",
-        "points": -1.95
+        "detail": "-218.8",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 82514 vs [82357, 85322]",
+        "detail": "prix 81761 vs [80976, 85406]",
         "points": 0
       },
       {
@@ -988,14 +1001,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 0",
-        "points": 0
+        "detail": "30 articles pertinents, score brut -1",
+        "points": -0.33
       }
     ],
-    "computedAt": "2026-10-22T06:34:36.325Z",
-    "priceUSD": 82450.1,
-    "priceEUR": 73326.3,
-    "change24h": -1.8714034931119572
+    "computedAt": "2026-10-22T12:27:06.269Z",
+    "priceUSD": 81752,
+    "priceEUR": 72950.6,
+    "change24h": -2.702252372876313
   },
   "history": [
     {
@@ -8402,7 +8415,12 @@
       "t": "2026-10-22T06:34:36.330Z",
       "equityEUR": 138.1,
       "priceEUR": 73326.3
+    },
+    {
+      "t": "2026-10-22T12:27:06.273Z",
+      "equityEUR": 138.1,
+      "priceEUR": 72950.6
     }
   ],
-  "lastRun": "2026-10-22T06:34:36.330Z"
+  "lastRun": "2026-10-22T12:27:06.273Z"
 }
