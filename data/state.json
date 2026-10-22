@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 103.58,
-  "equityEUR": 138.1,
+  "equityEUR": 141.68,
   "stopped": false,
   "openPositions": [
     {
@@ -926,19 +926,19 @@
     }
   ],
   "lastSignal": {
-    "price": 81761.13775394551,
+    "price": 81113.82513607614,
     "direction": "SHORT",
-    "score": -2.33,
-    "strength": 0.29,
-    "atr14": 803.2135004588206,
+    "score": -2.67,
+    "strength": 0.33,
+    "atr14": 788.0508504019015,
     "indicators": {
-      "ema20": 82719.29918238847,
-      "ema50": 82868.9111372541,
-      "rsi14": 29.826544480967783,
-      "macdHist": -218.80293137956303,
-      "bbUpper": 85405.61876198888,
-      "bbMid": 83190.618629601,
-      "bbLower": 80975.61849721312
+      "ema20": 82207.7106444664,
+      "ema50": 82609.44580784818,
+      "rsi14": 25.00865672492985,
+      "macdHist": -131.28947693572218,
+      "bbUpper": 84324.46915739222,
+      "bbMid": 82411.065264403,
+      "bbLower": 80497.6613714138
     },
     "fearGreed": {
       "value": 68,
@@ -947,6 +947,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "CryptoQuant CEO calls rising Bitcoin hashrate ‘indirect bullish signal’ from institutions",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
+        "title": "SoFi unveils bank-issued tokenized deposit for yield-bearing crypto funds",
+        "source": "Cointelegraph",
+        "itemScore": -2
+      },
       {
         "title": "Italy Busts Mafia &#39;Secret Bank&#39; That Laundered Money Through Crypto, Seizes $24M",
         "source": "Decrypt",
@@ -976,22 +986,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=82719 vs EMA50=82869",
+        "detail": "EMA20=82208 vs EMA50=82609",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "29.8",
+        "detail": "25.0",
         "points": 1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-218.8",
+        "detail": "-131.3",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 81761 vs [80976, 85406]",
+        "detail": "prix 81114 vs [80498, 84324]",
         "points": 0
       },
       {
@@ -1001,14 +1011,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -1",
-        "points": -0.33
+        "detail": "30 articles pertinents, score brut -2",
+        "points": -0.67
       }
     ],
-    "computedAt": "2026-10-22T12:27:06.269Z",
-    "priceUSD": 81752,
-    "priceEUR": 72950.6,
-    "change24h": -2.702252372876313
+    "computedAt": "2026-10-22T17:29:31.176Z",
+    "priceUSD": 81314.2,
+    "priceEUR": 72446.7,
+    "change24h": -3.2233032818590295
   },
   "history": [
     {
@@ -8420,7 +8430,12 @@
       "t": "2026-10-22T12:27:06.273Z",
       "equityEUR": 138.1,
       "priceEUR": 72950.6
+    },
+    {
+      "t": "2026-10-22T17:29:31.179Z",
+      "equityEUR": 141.68,
+      "priceEUR": 72446.7
     }
   ],
-  "lastRun": "2026-10-22T12:27:06.273Z"
+  "lastRun": "2026-10-22T17:29:31.179Z"
 }
