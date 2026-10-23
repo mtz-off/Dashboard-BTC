@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 103.58,
-  "equityEUR": 138.16,
+  "equityEUR": 139.08,
   "stopped": false,
   "openPositions": [
     {
@@ -926,19 +926,19 @@
     }
   ],
   "lastSignal": {
-    "price": 81722.44787056459,
+    "price": 81546.63725203837,
     "direction": "SHORT",
-    "score": -0.72,
-    "strength": 0.09,
-    "atr14": 703.3140420336391,
+    "score": -0.5,
+    "strength": 0.06,
+    "atr14": 712.960266802579,
     "indicators": {
-      "ema20": 81677.66857473261,
-      "ema50": 82044.76744907221,
-      "rsi14": 48.74551792666815,
-      "macdHist": 80.26515446181273,
-      "bbUpper": 81935.70364592661,
-      "bbMid": 81499.51159507758,
-      "bbLower": 81063.31954422855
+      "ema20": 81664.86293372759,
+      "ema50": 81973.5188705005,
+      "rsi14": 45.04029884908992,
+      "macdHist": 43.70645922937422,
+      "bbUpper": 81958.69944660434,
+      "bbMid": 81594.18545893485,
+      "bbLower": 81229.67147126536
     },
     "fearGreed": {
       "value": 50,
@@ -947,6 +947,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "Bitcoin consolidates after 3% loss as AI fears stoke fresh stock-market weakness",
         "source": "Cointelegraph",
@@ -961,37 +966,27 @@
         "title": "New DeepSeek ban in US, Swiss-Asia crypto ties deepen: Asia Express",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "CryptoQuant CEO calls rising Bitcoin hashrate ‘indirect bullish signal’ from institutions",
-        "source": "Cointelegraph",
-        "itemScore": 1
-      },
-      {
-        "title": "SoFi unveils bank-issued tokenized deposit for yield-bearing crypto funds",
-        "source": "Cointelegraph",
-        "itemScore": -2
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=81678 vs EMA50=82045",
+        "detail": "EMA20=81665 vs EMA50=81974",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "48.7",
+        "detail": "45.0",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "80.3",
-        "points": 1.95
+        "detail": "43.7",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 81722 vs [81063, 81936]",
+        "detail": "prix 81547 vs [81230, 81959]",
         "points": 0
       },
       {
@@ -1001,14 +996,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -2",
-        "points": -0.67
+        "detail": "30 articles pertinents, score brut 0",
+        "points": 0
       }
     ],
-    "computedAt": "2026-10-23T12:44:05.740Z",
-    "priceUSD": 81679.9,
-    "priceEUR": 72942.5,
-    "change24h": 0.44986047930185336
+    "computedAt": "2026-10-23T17:28:59.739Z",
+    "priceUSD": 81521.2,
+    "priceEUR": 72812,
+    "change24h": 0.25469137578844414
   },
   "history": [
     {
@@ -8450,7 +8445,12 @@
       "t": "2026-10-23T12:44:05.745Z",
       "equityEUR": 138.16,
       "priceEUR": 72942.5
+    },
+    {
+      "t": "2026-10-23T17:28:59.742Z",
+      "equityEUR": 139.08,
+      "priceEUR": 72812
     }
   ],
-  "lastRun": "2026-10-23T12:44:05.745Z"
+  "lastRun": "2026-10-23T17:28:59.742Z"
 }
