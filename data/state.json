@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 103.58,
-  "equityEUR": 142.08,
+  "equityEUR": 141.1,
   "stopped": false,
   "openPositions": [
     {
@@ -926,27 +926,32 @@
     }
   ],
   "lastSignal": {
-    "price": 81226.58203781961,
+    "price": 81360.10882195726,
     "direction": "SHORT",
-    "score": -1.88,
-    "strength": 0.24,
-    "atr14": 779.3529997015905,
+    "score": -1.55,
+    "strength": 0.19,
+    "atr14": 749.2314657116261,
     "indicators": {
-      "ema20": 81792.22266031482,
-      "ema50": 82328.11670438322,
-      "rsi14": 32.96640253562062,
-      "macdHist": 1.2478279252910056,
-      "bbUpper": 82704.131389469,
-      "bbMid": 81711.84943522912,
-      "bbLower": 80719.56748098924
+      "ema20": 81722.92747591755,
+      "ema50": 82257.92266587362,
+      "rsi14": 36.304007881707626,
+      "macdHist": 41.75300922343632,
+      "bbUpper": 82255.5821613241,
+      "bbMid": 81573.73761851943,
+      "bbLower": 80891.89307571476
     },
     "fearGreed": {
-      "value": 68,
-      "classification": "Greed",
-      "timestamp": 1792627200000
+      "value": 50,
+      "classification": "Neutral",
+      "timestamp": 1792713600000
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Switzerland approves first spot Bitcoin ETF for retail investors",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
       {
         "title": "New DeepSeek ban in US, Swiss-Asia crypto ties deepen: Asia Express",
         "source": "Cointelegraph",
@@ -986,39 +991,39 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=81792 vs EMA50=82328",
+        "detail": "EMA20=81723 vs EMA50=82258",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "33.0",
+        "detail": "36.3",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "1.2",
+        "detail": "41.8",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 81227 vs [80720, 82704]",
+        "detail": "prix 81360 vs [80892, 82256]",
         "points": 0
       },
       {
         "factor": "Fear & Greed Index",
-        "detail": "68 (Greed)",
+        "detail": "50 (Neutral)",
         "points": 0
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -4",
-        "points": -1.33
+        "detail": "30 articles pertinents, score brut -3",
+        "points": -1
       }
     ],
-    "computedAt": "2026-10-22T23:39:08.802Z",
-    "priceUSD": 81213.2,
-    "priceEUR": 72389.5,
-    "change24h": -3.3435091790889384
+    "computedAt": "2026-10-23T01:58:26.587Z",
+    "priceUSD": 81280,
+    "priceEUR": 72528.6,
+    "change24h": -0.04193614637560499
   },
   "history": [
     {
@@ -8445,7 +8450,12 @@
       "t": "2026-10-22T23:39:08.806Z",
       "equityEUR": 142.08,
       "priceEUR": 72389.5
+    },
+    {
+      "t": "2026-10-23T01:58:26.590Z",
+      "equityEUR": 141.1,
+      "priceEUR": 72528.6
     }
   ],
-  "lastRun": "2026-10-22T23:39:08.806Z"
+  "lastRun": "2026-10-23T01:58:26.590Z"
 }
