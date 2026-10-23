@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 103.58,
-  "equityEUR": 140.44,
+  "equityEUR": 143.37,
   "stopped": false,
   "openPositions": [
     {
@@ -926,19 +926,19 @@
     }
   ],
   "lastSignal": {
-    "price": 81326.80272041238,
+    "price": 80922.70259274247,
     "direction": "SHORT",
-    "score": -4.45,
-    "strength": 0.56,
+    "score": -4.12,
+    "strength": 0.51,
     "atr14": 702.1843687460802,
     "indicators": {
-      "ema20": 81570.30838392797,
-      "ema50": 81897.47627949994,
-      "rsi14": 41.65713528708755,
-      "macdHist": -4.765294458427292,
-      "bbUpper": 81967.45453624427,
-      "bbMid": 81591.64276173865,
-      "bbLower": 81215.83098723303
+      "ema20": 81415.98630348494,
+      "ema50": 81794.01322469814,
+      "rsi14": 36.89744210057808,
+      "macdHist": -52.69100478433643,
+      "bbUpper": 82051.78245580086,
+      "bbMid": 81493.72350686189,
+      "bbLower": 80935.66455792292
     },
     "fearGreed": {
       "value": 50,
@@ -947,6 +947,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Netanyahu Considering Crypto Plan to Dodge Banking Sanctions on Israel",
+        "source": "Decrypt",
+        "itemScore": -2
+      },
       {
         "title": "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports",
         "source": "CoinDesk",
@@ -971,23 +976,23 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=81570 vs EMA50=81897",
+        "detail": "EMA20=81416 vs EMA50=81794",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "41.7",
+        "detail": "36.9",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-4.8",
+        "detail": "-52.7",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 81327 vs [81216, 81967]",
-        "points": 0
+        "detail": "prix 80923 vs [80936, 82052]",
+        "points": 1
       },
       {
         "factor": "Fear & Greed Index",
@@ -996,14 +1001,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 0",
-        "points": 0
+        "detail": "30 articles pertinents, score brut -2",
+        "points": -0.67
       }
     ],
-    "computedAt": "2026-10-23T20:36:19.551Z",
-    "priceUSD": 81275.1,
-    "priceEUR": 72620.7,
-    "change24h": -0.04796216154393887
+    "computedAt": "2026-10-23T23:30:30.569Z",
+    "priceUSD": 80830.5,
+    "priceEUR": 72207.9,
+    "change24h": -0.5947308031448492
   },
   "history": [
     {
@@ -8455,7 +8460,12 @@
       "t": "2026-10-23T20:36:19.554Z",
       "equityEUR": 140.44,
       "priceEUR": 72620.7
+    },
+    {
+      "t": "2026-10-23T23:30:30.573Z",
+      "equityEUR": 143.37,
+      "priceEUR": 72207.9
     }
   ],
-  "lastRun": "2026-10-23T20:36:19.554Z"
+  "lastRun": "2026-10-23T23:30:30.573Z"
 }
