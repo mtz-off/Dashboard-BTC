@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 103.58,
-  "equityEUR": 138.36,
+  "equityEUR": 138.16,
   "stopped": false,
   "openPositions": [
     {
@@ -926,19 +926,19 @@
     }
   ],
   "lastSignal": {
-    "price": 81711.6135657855,
+    "price": 81722.44787056459,
     "direction": "SHORT",
-    "score": -2.17,
-    "strength": 0.27,
-    "atr14": 757.2860151467776,
+    "score": -0.72,
+    "strength": 0.09,
+    "atr14": 703.3140420336391,
     "indicators": {
-      "ema20": 81721.7050330181,
-      "ema50": 82143.05048466106,
-      "rsi14": 47.05465354777432,
-      "macdHist": 115.85540043563373,
-      "bbUpper": 81974.35179653148,
-      "bbMid": 81495.41224419425,
-      "bbLower": 81016.47269185701
+      "ema20": 81677.66857473261,
+      "ema50": 82044.76744907221,
+      "rsi14": 48.74551792666815,
+      "macdHist": 80.26515446181273,
+      "bbUpper": 81935.70364592661,
+      "bbMid": 81499.51159507758,
+      "bbLower": 81063.31954422855
     },
     "fearGreed": {
       "value": 50,
@@ -947,6 +947,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin consolidates after 3% loss as AI fears stoke fresh stock-market weakness",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin steadies near $81,700 as altcoins rebound, pepe climbs 13%",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "New DeepSeek ban in US, Swiss-Asia crypto ties deepen: Asia Express",
         "source": "Cointelegraph",
@@ -961,42 +971,27 @@
         "title": "SoFi unveils bank-issued tokenized deposit for yield-bearing crypto funds",
         "source": "Cointelegraph",
         "itemScore": -2
-      },
-      {
-        "title": "Italy Busts Mafia &#39;Secret Bank&#39; That Laundered Money Through Crypto, Seizes $24M",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Asian stocks tumble, bitcoin retreats as China enters bear market",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "China seeks to seize 61,800 BTC tied to $5.7 billion fraud scheme",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=81722 vs EMA50=82143",
+        "detail": "EMA20=81678 vs EMA50=82045",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "47.1",
+        "detail": "48.7",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "115.9",
-        "points": 1.5
+        "detail": "80.3",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 81712 vs [81016, 81974]",
+        "detail": "prix 81722 vs [81063, 81936]",
         "points": 0
       },
       {
@@ -1006,14 +1001,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -5",
-        "points": -1.67
+        "detail": "30 articles pertinents, score brut -2",
+        "points": -0.67
       }
     ],
-    "computedAt": "2026-10-23T07:15:37.466Z",
-    "priceUSD": 81657.7,
-    "priceEUR": 72913.8,
-    "change24h": 0.4225589411922302
+    "computedAt": "2026-10-23T12:44:05.740Z",
+    "priceUSD": 81679.9,
+    "priceEUR": 72942.5,
+    "change24h": 0.44986047930185336
   },
   "history": [
     {
@@ -8450,7 +8445,12 @@
       "t": "2026-10-23T07:15:37.471Z",
       "equityEUR": 138.36,
       "priceEUR": 72913.8
+    },
+    {
+      "t": "2026-10-23T12:44:05.745Z",
+      "equityEUR": 138.16,
+      "priceEUR": 72942.5
     }
   ],
-  "lastRun": "2026-10-23T07:15:37.471Z"
+  "lastRun": "2026-10-23T12:44:05.745Z"
 }
