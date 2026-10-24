@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 103.58,
-  "equityEUR": 143.69,
+  "equityEUR": 145.33,
   "stopped": false,
   "openPositions": [
     {
@@ -926,26 +926,29 @@
     }
   ],
   "lastSignal": {
-    "price": 80772.59423520345,
+    "price": 80521.0441713494,
     "direction": "SHORT",
     "score": -4.67,
     "strength": 0.58,
-    "atr14": 709.8418711493065,
+    "atr14": 686.552905442106,
     "indicators": {
-      "ema20": 81105.8875174585,
-      "ema50": 81552.24628142812,
-      "rsi14": 39.94361461939217,
-      "macdHist": -25.2048752000006,
-      "bbUpper": 82006.79571529466,
-      "bbMid": 81208.08649829494,
-      "bbLower": 80409.37728129522
+      "ema20": 80895.72840938959,
+      "ema50": 81374.77127931791,
+      "rsi14": 35.40685494943659,
+      "macdHist": -11.637906112949622,
+      "bbUpper": 81619.33057294154,
+      "bbMid": 80928.34063111914,
+      "bbLower": 80237.35068929673
     },
     "fearGreed": {
       "value": 51,
       "classification": "Neutral",
       "timestamp": 1792800000000
     },
-    "fundingRate": null,
+    "fundingRate": {
+      "lastFundingRate": 0.00003347,
+      "markPrice": 80566.05324638
+    },
     "newsHighlights": [
       {
         "title": "Netanyahu Considering Crypto Plan to Dodge Banking Sanctions on Israel",
@@ -976,22 +979,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=81106 vs EMA50=81552",
+        "detail": "EMA20=80896 vs EMA50=81375",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "39.9",
+        "detail": "35.4",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-25.2",
+        "detail": "-11.6",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 80773 vs [80409, 82007]",
+        "detail": "prix 80521 vs [80237, 81619]",
         "points": 0
       },
       {
@@ -1000,15 +1003,20 @@
         "points": 0
       },
       {
+        "factor": "Funding rate BTC perp",
+        "detail": "0.0033%",
+        "points": 0
+      },
+      {
         "factor": "Sentiment news (RSS temps réel)",
         "detail": "30 articles pertinents, score brut -2",
         "points": -0.67
       }
     ],
-    "computedAt": "2026-10-24T07:07:38.796Z",
-    "priceUSD": 80770.8,
-    "priceEUR": 72162.6,
-    "change24h": -0.38896877643790706
+    "computedAt": "2026-10-24T11:59:48.949Z",
+    "priceUSD": 80486.4,
+    "priceEUR": 71932,
+    "change24h": -0.7397066331878951
   },
   "history": [
     {
@@ -8475,7 +8483,12 @@
       "t": "2026-10-24T07:07:38.798Z",
       "equityEUR": 143.69,
       "priceEUR": 72162.6
+    },
+    {
+      "t": "2026-10-24T11:59:48.952Z",
+      "equityEUR": 145.33,
+      "priceEUR": 71932
     }
   ],
-  "lastRun": "2026-10-24T07:07:38.798Z"
+  "lastRun": "2026-10-24T11:59:48.952Z"
 }
