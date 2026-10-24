@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 113.78,
-  "equityEUR": 151.71,
+  "equityEUR": 146.05,
   "stopped": false,
   "openPositions": [
     {
@@ -942,19 +942,19 @@
     }
   ],
   "lastSignal": {
-    "price": 79457.10844343081,
+    "price": 80290.84662799454,
     "direction": "SHORT",
-    "score": -2.12,
-    "strength": 0.26,
-    "atr14": 661.3514367138839,
+    "score": -4.33,
+    "strength": 0.54,
+    "atr14": 721.272533549364,
     "indicators": {
-      "ema20": 80658.57733357644,
-      "ema50": 81202.35715045356,
-      "rsi14": 23.446796456818404,
-      "macdHist": -68.385086608721,
-      "bbUpper": 81462.02591707639,
-      "bbMid": 80686.83502911076,
-      "bbLower": 79911.64414114514
+      "ema20": 80563.89708259425,
+      "ema50": 81100.37737441102,
+      "rsi14": 40.9353093648582,
+      "macdHist": -12.065145940754178,
+      "bbUpper": 81193.2803351899,
+      "bbMid": 80564.25009495954,
+      "bbLower": 79935.21985472918
     },
     "fearGreed": {
       "value": 51,
@@ -982,33 +982,28 @@
         "title": "Bitcoin steadies near $81,700 as altcoins rebound, pepe climbs 13%",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "New DeepSeek ban in US, Swiss-Asia crypto ties deepen: Asia Express",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=80659 vs EMA50=81202",
+        "detail": "EMA20=80564 vs EMA50=81100",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "23.4",
-        "points": 1.5
+        "detail": "40.9",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-68.4",
-        "points": -1.95
+        "detail": "-12.1",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 79457 vs [79912, 81462]",
-        "points": 1
+        "detail": "prix 80291 vs [79935, 81193]",
+        "points": 0
       },
       {
         "factor": "Fear & Greed Index",
@@ -1017,14 +1012,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -2",
-        "points": -0.67
+        "detail": "30 articles pertinents, score brut -1",
+        "points": -0.33
       }
     ],
-    "computedAt": "2026-10-24T15:48:20.352Z",
-    "priceUSD": 79494.9,
-    "priceEUR": 71032.7,
-    "change24h": -1.962479435464978
+    "computedAt": "2026-10-24T18:33:50.125Z",
+    "priceUSD": 80268.3,
+    "priceEUR": 71739.9,
+    "change24h": -1.0086796520246284
   },
   "history": [
     {
@@ -8501,7 +8496,12 @@
       "t": "2026-10-24T15:48:20.354Z",
       "equityEUR": 151.71,
       "priceEUR": 71032.7
+    },
+    {
+      "t": "2026-10-24T18:33:50.129Z",
+      "equityEUR": 146.05,
+      "priceEUR": 71739.9
     }
   ],
-  "lastRun": "2026-10-24T15:48:20.354Z"
+  "lastRun": "2026-10-24T18:33:50.129Z"
 }
