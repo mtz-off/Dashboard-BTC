@@ -5,28 +5,10 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 113.78,
-  "equityEUR": 146.71,
+  "balanceEUR": 144.50848654211364,
+  "equityEUR": 144.51,
   "stopped": false,
-  "openPositions": [
-    {
-      "id": "204c9de8-0af2-4b8d-8faf-878f4eea3398",
-      "side": "SHORT",
-      "entryPrice": 71032.7,
-      "entryTime": "2026-10-24T15:48:20.354Z",
-      "sizeEUR": 37.93,
-      "notionalEUR": 568.95,
-      "leverage": 15,
-      "qtyBTC": 0.00800969,
-      "sl": 71742.18,
-      "tp": 69613.74,
-      "slPct": 1,
-      "tpPct": 2,
-      "signalScore": -2.12,
-      "signalStrength": 0.26,
-      "status": "OPEN"
-    }
-  ],
+  "openPositions": [],
   "trades": [
     {
       "id": "5f4a6be1-7c72-41de-a1ee-0ad7afb78691",
@@ -939,22 +921,38 @@
       "pnlPct": 2.63,
       "reason": "TP",
       "status": "CLOSED"
+    },
+    {
+      "id": "204c9de8-0af2-4b8d-8faf-878f4eea3398",
+      "side": "SHORT",
+      "entryPrice": 71032.7,
+      "entryTime": "2026-10-24T15:48:20.354Z",
+      "exitPrice": 71931.8,
+      "exitTime": "2026-10-24T23:14:05.753Z",
+      "sizeEUR": 37.93,
+      "notionalEUR": 568.95,
+      "leverage": 15,
+      "qtyBTC": 0.00800969,
+      "pnlEUR": -7.2,
+      "pnlPct": -1.27,
+      "reason": "SL",
+      "status": "CLOSED"
     }
   ],
   "lastSignal": {
-    "price": 80277.71675425454,
+    "price": 80535.32528365875,
     "direction": "SHORT",
-    "score": -0.88,
-    "strength": 0.11,
+    "score": -0.38,
+    "strength": 0.05,
     "atr14": 740.6233797460793,
     "indicators": {
-      "ema20": 80538.72190923373,
-      "ema50": 81049.17841582782,
-      "rsi14": 41.45674076898906,
-      "macdHist": 21.562075563025928,
-      "bbUpper": 81107.63476714925,
-      "bbMid": 80525.58364000125,
-      "bbLower": 79943.53251285324
+      "ema20": 80535.0338057443,
+      "ema50": 80990.15122283931,
+      "rsi14": 47.346361223356105,
+      "macdHist": 59.382764008026015,
+      "bbUpper": 80969.10911685429,
+      "bbMid": 80472.7688889125,
+      "bbLower": 79976.4286609707
     },
     "fearGreed": {
       "value": 51,
@@ -987,22 +985,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=80539 vs EMA50=81049",
+        "detail": "EMA20=80535 vs EMA50=80990",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "41.5",
-        "points": -0.5
+        "detail": "47.3",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "21.6",
+        "detail": "59.4",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 80278 vs [79944, 81108]",
+        "detail": "prix 80535 vs [79976, 80969]",
         "points": 0
       },
       {
@@ -1016,10 +1014,10 @@
         "points": -0.33
       }
     ],
-    "computedAt": "2026-10-24T21:11:25.091Z",
-    "priceUSD": 80191.5,
-    "priceEUR": 71657,
-    "change24h": -1.1033936724128115
+    "computedAt": "2026-10-24T23:14:05.750Z",
+    "priceUSD": 80508,
+    "priceEUR": 71931.8,
+    "change24h": -0.7130683149537124
   },
   "history": [
     {
@@ -8506,7 +8504,12 @@
       "t": "2026-10-24T21:11:25.094Z",
       "equityEUR": 146.71,
       "priceEUR": 71657
+    },
+    {
+      "t": "2026-10-24T23:14:05.753Z",
+      "equityEUR": 144.51,
+      "priceEUR": 71931.8
     }
   ],
-  "lastRun": "2026-10-24T21:11:25.094Z"
+  "lastRun": "2026-10-24T23:14:05.753Z"
 }
