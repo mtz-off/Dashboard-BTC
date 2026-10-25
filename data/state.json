@@ -5,10 +5,28 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 144.50848654211364,
+  "balanceEUR": 108.38,
   "equityEUR": 144.51,
   "stopped": false,
-  "openPositions": [],
+  "openPositions": [
+    {
+      "id": "91c578b3-509c-4bce-a940-e9f192af1252",
+      "side": "SHORT",
+      "entryPrice": 71712.5,
+      "entryTime": "2026-10-25T11:29:23.950Z",
+      "sizeEUR": 36.13,
+      "notionalEUR": 541.95,
+      "leverage": 15,
+      "qtyBTC": 0.00755726,
+      "sl": 72443.9,
+      "tp": 70249.69,
+      "slPct": 1.02,
+      "tpPct": 2.04,
+      "signalScore": -4.67,
+      "signalStrength": 0.58,
+      "status": "OPEN"
+    }
+  ],
   "trades": [
     {
       "id": "5f4a6be1-7c72-41de-a1ee-0ad7afb78691",
@@ -940,19 +958,19 @@
     }
   ],
   "lastSignal": {
-    "price": 80566.46898783387,
+    "price": 80354.48078537948,
     "direction": "SHORT",
-    "score": -0.83,
-    "strength": 0.1,
-    "atr14": 697.0754042584394,
+    "score": -4.67,
+    "strength": 0.58,
+    "atr14": 682.9525853070567,
     "indicators": {
-      "ema20": 80653.59362976682,
-      "ema50": 80952.12047658865,
-      "rsi14": 46.38129863673168,
-      "macdHist": 68.00420046021102,
-      "bbUpper": 81088.1734451364,
-      "bbMid": 80517.24876030053,
-      "bbLower": 79946.32407546465
+      "ema20": 80512.52312849044,
+      "ema50": 80823.1857274336,
+      "rsi14": 44.14610282519484,
+      "macdHist": -17.882745852129332,
+      "bbUpper": 80970.02533331241,
+      "bbMid": 80507.94050903268,
+      "bbLower": 80045.85568475294
     },
     "fearGreed": {
       "value": 54,
@@ -975,32 +993,27 @@
         "title": "Bitcoin consolidates after 3% loss as AI fears stoke fresh stock-market weakness",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin steadies near $81,700 as altcoins rebound, pepe climbs 13%",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=80654 vs EMA50=80952",
+        "detail": "EMA20=80513 vs EMA50=80823",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "46.4",
-        "points": 0
+        "detail": "44.1",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "68.0",
-        "points": 1.5
+        "detail": "-17.9",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 80566 vs [79946, 81088]",
+        "detail": "prix 80354 vs [80046, 80970]",
         "points": 0
       },
       {
@@ -1010,14 +1023,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "27 articles pertinents, score brut -1",
-        "points": -0.33
+        "detail": "20 articles pertinents, score brut -2",
+        "points": -0.67
       }
     ],
-    "computedAt": "2026-10-25T06:11:30.847Z",
-    "priceUSD": 80478.6,
-    "priceEUR": 71892.3,
-    "change24h": -0.3632446887535212
+    "computedAt": "2026-10-25T11:29:23.947Z",
+    "priceUSD": 80311.2,
+    "priceEUR": 71712.5,
+    "change24h": -0.5704947258951157
   },
   "history": [
     {
@@ -8519,7 +8532,12 @@
       "t": "2026-10-25T06:11:30.852Z",
       "equityEUR": 144.51,
       "priceEUR": 71892.3
+    },
+    {
+      "t": "2026-10-25T11:29:23.950Z",
+      "equityEUR": 144.51,
+      "priceEUR": 71712.5
     }
   ],
-  "lastRun": "2026-10-25T06:11:30.852Z"
+  "lastRun": "2026-10-25T11:29:23.950Z"
 }
