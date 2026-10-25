@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 108.38,
-  "equityEUR": 144.74,
+  "equityEUR": 144.8,
   "stopped": false,
   "openPositions": [
     {
@@ -958,19 +958,19 @@
     }
   ],
   "lastSignal": {
-    "price": 80388.82784307122,
+    "price": 80336.91822877988,
     "direction": "SHORT",
-    "score": -1.5,
-    "strength": 0.19,
+    "score": -4.28,
+    "strength": 0.54,
     "atr14": 642.3640016767794,
     "indicators": {
-      "ema20": 80526.0095519105,
-      "ema50": 80736.5347220527,
-      "rsi14": 45.086242343955405,
-      "macdHist": 14.299500189108734,
-      "bbUpper": 80930.26204738906,
-      "bbMid": 80539.6915134724,
-      "bbLower": 80149.12097955574
+      "ema20": 80470.2995489666,
+      "ema50": 80688.14556795525,
+      "rsi14": 45.150805644737616,
+      "macdHist": -9.676120270233483,
+      "bbUpper": 80813.11403019394,
+      "bbMid": 80463.83229925716,
+      "bbLower": 80114.55056832038
     },
     "fearGreed": {
       "value": 54,
@@ -983,32 +983,27 @@
         "title": "UK banks face 10,000 complaints in 3 months over crypto restrictions",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Netanyahu Considering Crypto Plan to Dodge Banking Sanctions on Israel",
-        "source": "Decrypt",
-        "itemScore": -2
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=80526 vs EMA50=80737",
+        "detail": "EMA20=80470 vs EMA50=80688",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "45.1",
+        "detail": "45.2",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "14.3",
-        "points": 1.5
+        "detail": "-9.7",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 80389 vs [80149, 80930]",
+        "detail": "prix 80337 vs [80115, 80813]",
         "points": 0
       },
       {
@@ -1018,14 +1013,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "6 articles pertinents, score brut -3",
-        "points": -1
+        "detail": "6 articles pertinents, score brut -1",
+        "points": -0.33
       }
     ],
-    "computedAt": "2026-10-25T21:02:52.049Z",
-    "priceUSD": 80365.4,
-    "priceEUR": 71681.5,
-    "change24h": -0.5033922646461717
+    "computedAt": "2026-10-25T23:15:31.666Z",
+    "priceUSD": 80321.1,
+    "priceEUR": 71674.5,
+    "change24h": -0.5582380032684522
   },
   "history": [
     {
@@ -8547,7 +8542,12 @@
       "t": "2026-10-25T21:02:52.050Z",
       "equityEUR": 144.74,
       "priceEUR": 71681.5
+    },
+    {
+      "t": "2026-10-25T23:15:31.671Z",
+      "equityEUR": 144.8,
+      "priceEUR": 71674.5
     }
   ],
-  "lastRun": "2026-10-25T21:02:52.050Z"
+  "lastRun": "2026-10-25T23:15:31.671Z"
 }
