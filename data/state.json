@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 108.38,
-  "equityEUR": 144.51,
+  "equityEUR": 142.09,
   "stopped": false,
   "openPositions": [
     {
@@ -958,19 +958,19 @@
     }
   ],
   "lastSignal": {
-    "price": 80354.48078537948,
+    "price": 80558.67813339528,
     "direction": "SHORT",
-    "score": -4.67,
-    "strength": 0.58,
-    "atr14": 682.9525853070567,
+    "score": -1.05,
+    "strength": 0.13,
+    "atr14": 675.0616469648475,
     "indicators": {
-      "ema20": 80512.52312849044,
-      "ema50": 80823.1857274336,
-      "rsi14": 44.14610282519484,
-      "macdHist": -17.882745852129332,
-      "bbUpper": 80970.02533331241,
-      "bbMid": 80507.94050903268,
-      "bbLower": 80045.85568475294
+      "ema20": 80498.21448562035,
+      "ema50": 80782.02296616999,
+      "rsi14": 50.23979708400701,
+      "macdHist": 5.674588111564091,
+      "bbUpper": 80953.34112863743,
+      "bbMid": 80536.09555187015,
+      "bbLower": 80118.84997510287
     },
     "fearGreed": {
       "value": 54,
@@ -980,40 +980,35 @@
     "fundingRate": null,
     "newsHighlights": [
       {
+        "title": "UK banks face 10,000 complaints in 3 months over crypto restrictions",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
         "title": "Netanyahu Considering Crypto Plan to Dodge Banking Sanctions on Israel",
         "source": "Decrypt",
         "itemScore": -2
-      },
-      {
-        "title": "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "Bitcoin consolidates after 3% loss as AI fears stoke fresh stock-market weakness",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=80513 vs EMA50=80823",
+        "detail": "EMA20=80498 vs EMA50=80782",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "44.1",
-        "points": -0.5
+        "detail": "50.2",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-17.9",
-        "points": -1.5
+        "detail": "5.7",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 80354 vs [80046, 80970]",
+        "detail": "prix 80559 vs [80119, 80953]",
         "points": 0
       },
       {
@@ -1023,14 +1018,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "20 articles pertinents, score brut -2",
-        "points": -0.67
+        "detail": "15 articles pertinents, score brut -3",
+        "points": -1
       }
     ],
-    "computedAt": "2026-10-25T11:29:23.947Z",
-    "priceUSD": 80311.2,
-    "priceEUR": 71712.5,
-    "change24h": -0.5704947258951157
+    "computedAt": "2026-10-25T15:01:00.701Z",
+    "priceUSD": 80673.9,
+    "priceEUR": 72032.4,
+    "change24h": -0.12145297875502131
   },
   "history": [
     {
@@ -8537,7 +8532,12 @@
       "t": "2026-10-25T11:29:23.950Z",
       "equityEUR": 144.51,
       "priceEUR": 71712.5
+    },
+    {
+      "t": "2026-10-25T15:01:00.703Z",
+      "equityEUR": 142.09,
+      "priceEUR": 72032.4
     }
   ],
-  "lastRun": "2026-10-25T11:29:23.950Z"
+  "lastRun": "2026-10-25T15:01:00.703Z"
 }
