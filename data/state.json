@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 108.38,
-  "equityEUR": 144.8,
+  "equityEUR": 148.03,
   "stopped": false,
   "openPositions": [
     {
@@ -958,24 +958,24 @@
     }
   ],
   "lastSignal": {
-    "price": 80336.91822877988,
+    "price": 80082.9717246464,
     "direction": "SHORT",
-    "score": -4.28,
-    "strength": 0.54,
-    "atr14": 642.3640016767794,
+    "score": -4.78,
+    "strength": 0.6,
+    "atr14": 652.9294681951586,
     "indicators": {
-      "ema20": 80470.2995489666,
-      "ema50": 80688.14556795525,
-      "rsi14": 45.150805644737616,
-      "macdHist": -9.676120270233483,
-      "bbUpper": 80813.11403019394,
-      "bbMid": 80463.83229925716,
-      "bbLower": 80114.55056832038
+      "ema20": 80376.28863003934,
+      "ema50": 80630.6085000275,
+      "rsi14": 40.18533573908384,
+      "macdHist": -40.46019742918921,
+      "bbUpper": 80787.91691461315,
+      "bbMid": 80387.852512668,
+      "bbLower": 79987.78811072286
     },
     "fearGreed": {
-      "value": 54,
+      "value": 50,
       "classification": "Neutral",
-      "timestamp": 1792886400000
+      "timestamp": 1792972800000
     },
     "fundingRate": null,
     "newsHighlights": [
@@ -988,27 +988,27 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=80470 vs EMA50=80688",
+        "detail": "EMA20=80376 vs EMA50=80631",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "45.2",
-        "points": 0
+        "detail": "40.2",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-9.7",
+        "detail": "-40.5",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 80337 vs [80115, 80813]",
+        "detail": "prix 80083 vs [79988, 80788]",
         "points": 0
       },
       {
         "factor": "Fear & Greed Index",
-        "detail": "54 (Neutral)",
+        "detail": "50 (Neutral)",
         "points": 0
       },
       {
@@ -1017,10 +1017,10 @@
         "points": -0.33
       }
     ],
-    "computedAt": "2026-10-25T23:15:31.666Z",
-    "priceUSD": 80321.1,
-    "priceEUR": 71674.5,
-    "change24h": -0.5582380032684522
+    "computedAt": "2026-10-26T01:27:54.186Z",
+    "priceUSD": 79924.4,
+    "priceEUR": 71246.9,
+    "change24h": -0.15528047301205755
   },
   "history": [
     {
@@ -8547,7 +8547,12 @@
       "t": "2026-10-25T23:15:31.671Z",
       "equityEUR": 144.8,
       "priceEUR": 71674.5
+    },
+    {
+      "t": "2026-10-26T01:27:54.189Z",
+      "equityEUR": 148.03,
+      "priceEUR": 71246.9
     }
   ],
-  "lastRun": "2026-10-25T23:15:31.671Z"
+  "lastRun": "2026-10-26T01:27:54.189Z"
 }
