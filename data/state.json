@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 108.38,
-  "equityEUR": 148.2,
+  "equityEUR": 148.75,
   "stopped": false,
   "openPositions": [
     {
@@ -958,19 +958,19 @@
     }
   ],
   "lastSignal": {
-    "price": 79910.28217131011,
+    "price": 79633.80371032227,
     "direction": "SHORT",
-    "score": -4.33,
-    "strength": 0.54,
-    "atr14": 673.4135639625348,
+    "score": -2.67,
+    "strength": 0.33,
+    "atr14": 688.6871586481667,
     "indicators": {
-      "ema20": 80145.98893852974,
-      "ema50": 80473.01008404675,
-      "rsi14": 43.34433173660237,
-      "macdHist": -22.59093945155965,
-      "bbUpper": 80957.67153872842,
-      "bbMid": 80233.31748844417,
-      "bbLower": 79508.96343815992
+      "ema20": 80143.60295301815,
+      "ema50": 80395.55302897576,
+      "rsi14": 38.70617727636441,
+      "macdHist": 11.950973352209886,
+      "bbUpper": 80728.56901088169,
+      "bbMid": 80104.66469895282,
+      "bbLower": 79480.76038702395
     },
     "fearGreed": {
       "value": 50,
@@ -980,6 +980,31 @@
     "fundingRate": null,
     "newsHighlights": [
       {
+        "title": "Bitcoin’s Bear Market Is Over, Galaxy Research Says: &#39;Now Is an Attractive Time to Buy&#39;",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Morning Minute: Bitcoin Breaks Below $80,000 as Iran Fears Hit the Weekend",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "A $68 million bitcoin bet is targeting a post-midterm election breakout to $90,000",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Israel&#39;s Central Bank Rebukes Netanyahu Plan to Use Crypto to Dodge Sanctions",
+        "source": "Decrypt",
+        "itemScore": -2
+      },
+      {
+        "title": "Bitcoin ETFs break 2-week outflow streak with $301M comeback",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
         "title": "UK banks face 10,000 complaints in 3 months over crypto restrictions",
         "source": "CoinDesk",
         "itemScore": -1
@@ -988,22 +1013,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=80146 vs EMA50=80473",
+        "detail": "EMA20=80144 vs EMA50=80396",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "43.3",
+        "detail": "38.7",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-22.6",
-        "points": -1.5
+        "detail": "12.0",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 79910 vs [79509, 80958]",
+        "detail": "prix 79634 vs [79481, 80729]",
         "points": 0
       },
       {
@@ -1013,14 +1038,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "11 articles pertinents, score brut -1",
-        "points": -0.33
+        "detail": "25 articles pertinents, score brut -5",
+        "points": -1.67
       }
     ],
-    "computedAt": "2026-10-26T06:47:19.398Z",
-    "priceUSD": 79905,
-    "priceEUR": 71223.9,
-    "change24h": -0.17951571980556474
+    "computedAt": "2026-10-26T13:50:47.838Z",
+    "priceUSD": 79534.3,
+    "priceEUR": 71150.8,
+    "change24h": -0.6426088118857574
   },
   "history": [
     {
@@ -8557,7 +8582,12 @@
       "t": "2026-10-26T06:47:19.402Z",
       "equityEUR": 148.2,
       "priceEUR": 71223.9
+    },
+    {
+      "t": "2026-10-26T13:50:47.842Z",
+      "equityEUR": 148.75,
+      "priceEUR": 71150.8
     }
   ],
-  "lastRun": "2026-10-26T06:47:19.402Z"
+  "lastRun": "2026-10-26T13:50:47.842Z"
 }
