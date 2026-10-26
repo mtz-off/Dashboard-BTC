@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 108.38,
-  "equityEUR": 146.38,
+  "equityEUR": 146.85,
   "stopped": false,
   "openPositions": [
     {
@@ -958,19 +958,19 @@
     }
   ],
   "lastSignal": {
-    "price": 79933.96379681941,
+    "price": 79821.00532068354,
     "direction": "SHORT",
-    "score": -2.17,
-    "strength": 0.27,
-    "atr14": 729.4337360144704,
+    "score": -5.78,
+    "strength": 0.72,
+    "atr14": 728.9685447095989,
     "indicators": {
-      "ema20": 80124.64460655315,
-      "ema50": 80335.75061316825,
-      "rsi14": 45.64286745817382,
-      "macdHist": 1.8081249682850284,
-      "bbUpper": 80585.50349788673,
-      "bbMid": 80037.42826580166,
-      "bbLower": 79489.35303371659
+      "ema20": 80035.83982977983,
+      "ema50": 80264.54042856654,
+      "rsi14": 44.50870655613047,
+      "macdHist": -16.643390374667433,
+      "bbUpper": 80501.3671175601,
+      "bbMid": 80071.49647301747,
+      "bbLower": 79641.62582847483
     },
     "fearGreed": {
       "value": 50,
@@ -1000,6 +1000,11 @@
         "itemScore": -2
       },
       {
+        "title": "Live news: Bitcoin dips below $80,000 as stocks rally following Anthropic IPO filing",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
         "title": "Bitcoin ETFs break 2-week outflow streak with $301M comeback",
         "source": "Cointelegraph",
         "itemScore": -1
@@ -1013,22 +1018,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=80125 vs EMA50=80336",
+        "detail": "EMA20=80036 vs EMA50=80265",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "45.6",
-        "points": 0
+        "detail": "44.5",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "1.8",
-        "points": 1.5
+        "detail": "-16.6",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 79934 vs [79489, 80586]",
+        "detail": "prix 79821 vs [79642, 80501]",
         "points": 0
       },
       {
@@ -1038,14 +1043,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "26 articles pertinents, score brut -5",
-        "points": -1.67
+        "detail": "26 articles pertinents, score brut -4",
+        "points": -1.33
       }
     ],
-    "computedAt": "2026-10-26T19:42:53.029Z",
-    "priceUSD": 79894.2,
-    "priceEUR": 71465.2,
-    "change24h": -0.19300750668030836
+    "computedAt": "2026-10-26T23:22:07.270Z",
+    "priceUSD": 79775.1,
+    "priceEUR": 71402.4,
+    "change24h": -0.34179193416006914
   },
   "history": [
     {
@@ -8592,7 +8597,12 @@
       "t": "2026-10-26T19:42:53.033Z",
       "equityEUR": 146.38,
       "priceEUR": 71465.2
+    },
+    {
+      "t": "2026-10-26T23:22:07.273Z",
+      "equityEUR": 146.85,
+      "priceEUR": 71402.4
     }
   ],
-  "lastRun": "2026-10-26T19:42:53.033Z"
+  "lastRun": "2026-10-26T23:22:07.273Z"
 }
