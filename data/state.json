@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 108.38,
-  "equityEUR": 146.4,
+  "equityEUR": 142.83,
   "stopped": false,
   "openPositions": [
     {
@@ -958,19 +958,19 @@
     }
   ],
   "lastSignal": {
-    "price": 79747.85455855895,
-    "direction": "SHORT",
-    "score": -4.83,
-    "strength": 0.6,
-    "atr14": 709.397807855072,
+    "price": 80129.73221282335,
+    "direction": "LONG",
+    "score": 0.28,
+    "strength": 0.04,
+    "atr14": 683.3965860018697,
     "indicators": {
-      "ema20": 79893.40430359359,
-      "ema50": 80136.38044929745,
-      "rsi14": 45.72341960885608,
-      "macdHist": -19.356911809628528,
-      "bbUpper": 80384.68540284585,
-      "bbMid": 79925.82473272957,
-      "bbLower": 79466.96406261329
+      "ema20": 79912.68048002051,
+      "ema50": 80081.83042651828,
+      "rsi14": 53.77272539638933,
+      "macdHist": 52.413107764473594,
+      "bbUpper": 80215.96249439922,
+      "bbMid": 79857.09973324109,
+      "bbLower": 79498.23697208296
     },
     "fearGreed": {
       "value": 48,
@@ -979,6 +979,31 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Crypto could outperform AI stocks: Wall Street veteran Jordi Visser",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
+        "title": "Bitcoin price analysis sees ‘strong rally’ as old coins become dormant",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
+        "title": "Bitcoin shows signs of weakness while Ripple's bank win fails to bolster XRP",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin drops below $80,000 as crypto ignores Asian tech rally, Fed meeting begins",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Now is the time to accumulate bitcoin, Galaxy says",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "Bitcoin’s Bear Market Is Over, Galaxy Research Says: &#39;Now Is an Attractive Time to Buy&#39;",
         "source": "Decrypt",
@@ -993,47 +1018,27 @@
         "title": "A $68 million bitcoin bet is targeting a post-midterm election breakout to $90,000",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Israel&#39;s Central Bank Rebukes Netanyahu Plan to Use Crypto to Dodge Sanctions",
-        "source": "Decrypt",
-        "itemScore": -2
-      },
-      {
-        "title": "Live news: Bitcoin dips below $80,000 as stocks rally following Anthropic IPO filing",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "Bitcoin ETFs break 2-week outflow streak with $301M comeback",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "UK banks face 10,000 complaints in 3 months over crypto restrictions",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=79893 vs EMA50=80136",
+        "detail": "EMA20=79913 vs EMA50=80082",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "45.7",
+        "detail": "53.8",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-19.4",
-        "points": -1.5
+        "detail": "52.4",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 79748 vs [79467, 80385]",
+        "detail": "prix 80130 vs [79498, 80216]",
         "points": 0
       },
       {
@@ -1043,14 +1048,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "27 articles pertinents, score brut -4",
-        "points": -1.33
+        "detail": "30 articles pertinents, score brut 1",
+        "points": 0.33
       }
     ],
-    "computedAt": "2026-10-27T08:11:23.621Z",
-    "priceUSD": 79753.9,
-    "priceEUR": 71462.7,
-    "change24h": -0.30986802796938157
+    "computedAt": "2026-10-27T14:31:20.687Z",
+    "priceUSD": 80209.2,
+    "priceEUR": 71935.3,
+    "change24h": 0.2592441670062351
   },
   "history": [
     {
@@ -8612,7 +8617,12 @@
       "t": "2026-10-27T08:11:23.624Z",
       "equityEUR": 146.4,
       "priceEUR": 71462.7
+    },
+    {
+      "t": "2026-10-27T14:31:20.691Z",
+      "equityEUR": 142.83,
+      "priceEUR": 71935.3
     }
   ],
-  "lastRun": "2026-10-27T08:11:23.624Z"
+  "lastRun": "2026-10-27T14:31:20.691Z"
 }
