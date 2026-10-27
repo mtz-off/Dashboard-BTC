@@ -5,27 +5,10 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 81.29,
-  "equityEUR": 139.56,
+  "balanceEUR": 110.80286323862643,
+  "equityEUR": 139.13,
   "stopped": false,
   "openPositions": [
-    {
-      "id": "91c578b3-509c-4bce-a940-e9f192af1252",
-      "side": "SHORT",
-      "entryPrice": 71712.5,
-      "entryTime": "2026-10-25T11:29:23.950Z",
-      "sizeEUR": 36.13,
-      "notionalEUR": 541.95,
-      "leverage": 15,
-      "qtyBTC": 0.00755726,
-      "sl": 72443.9,
-      "tp": 70249.69,
-      "slPct": 1.02,
-      "tpPct": 2.04,
-      "signalScore": -4.67,
-      "signalStrength": 0.58,
-      "status": "OPEN"
-    },
     {
       "id": "4c9b4ff2-5d07-4c5b-afcc-c841462e6860",
       "side": "LONG",
@@ -972,22 +955,38 @@
       "pnlPct": -1.27,
       "reason": "SL",
       "status": "CLOSED"
+    },
+    {
+      "id": "91c578b3-509c-4bce-a940-e9f192af1252",
+      "side": "SHORT",
+      "entryPrice": 71712.5,
+      "entryTime": "2026-10-25T11:29:23.950Z",
+      "exitPrice": 72588.1,
+      "exitTime": "2026-10-27T23:12:11.319Z",
+      "sizeEUR": 36.13,
+      "notionalEUR": 541.95,
+      "leverage": 15,
+      "qtyBTC": 0.00755726,
+      "pnlEUR": -6.62,
+      "pnlPct": -1.22,
+      "reason": "SL",
+      "status": "CLOSED"
     }
   ],
   "lastSignal": {
-    "price": 80596.20687243101,
+    "price": 80798.91366324818,
     "direction": "LONG",
-    "score": 1,
-    "strength": 0.13,
-    "atr14": 694.7877998511124,
+    "score": 5,
+    "strength": 0.63,
+    "atr14": 671.5158502052043,
     "indicators": {
-      "ema20": 80160.74900423891,
-      "ema50": 80165.64616755249,
-      "rsi14": 60.319510739852326,
-      "macdHist": 95.60223377770672,
-      "bbUpper": 80704.7986018226,
-      "bbMid": 80015.65408542914,
-      "bbLower": 79326.50956903568
+      "ema20": 80327.81476779943,
+      "ema50": 80238.16660451863,
+      "rsi14": 62.97002287852038,
+      "macdHist": 92.54143698323318,
+      "bbUpper": 81017.57787046723,
+      "bbMid": 80147.79244452361,
+      "bbLower": 79278.00701858
     },
     "fearGreed": {
       "value": 48,
@@ -996,6 +995,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Quantum fears already limiting Bitcoin’s growth, Stacks founder says",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "Crypto could outperform AI stocks: Wall Street veteran Jordi Visser",
         "source": "Cointelegraph",
@@ -1012,6 +1016,11 @@
         "itemScore": -1
       },
       {
+        "title": "Live updates: Bitcoin edges higher as Nasdaq surges 1.2%",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
         "title": "Bitcoin drops below $80,000 as crypto ignores Asian tech rally, Fed meeting begins",
         "source": "CoinDesk",
         "itemScore": 1
@@ -1025,22 +1034,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=80161 vs EMA50=80166",
-        "points": -2
+        "detail": "EMA20=80328 vs EMA50=80238",
+        "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "60.3",
+        "detail": "63.0",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "95.6",
+        "detail": "92.5",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 80596 vs [79327, 80705]",
+        "detail": "prix 80799 vs [79278, 81018]",
         "points": 0
       },
       {
@@ -1050,14 +1059,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "23 articles pertinents, score brut 3",
+        "detail": "26 articles pertinents, score brut 3",
         "points": 1
       }
     ],
-    "computedAt": "2026-10-27T19:39:10.219Z",
-    "priceUSD": 80620.5,
-    "priceEUR": 72368.1,
-    "change24h": 0.7733575994540086
+    "computedAt": "2026-10-27T23:12:11.315Z",
+    "priceUSD": 80812.8,
+    "priceEUR": 72588.1,
+    "change24h": 1.0137271911381993
   },
   "history": [
     {
@@ -8629,7 +8638,12 @@
       "t": "2026-10-27T19:39:10.221Z",
       "equityEUR": 139.56,
       "priceEUR": 72368.1
+    },
+    {
+      "t": "2026-10-27T23:12:11.319Z",
+      "equityEUR": 139.13,
+      "priceEUR": 72588.1
     }
   ],
-  "lastRun": "2026-10-27T19:39:10.221Z"
+  "lastRun": "2026-10-27T23:12:11.319Z"
 }
