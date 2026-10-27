@@ -5,8 +5,8 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 108.38,
-  "equityEUR": 142.83,
+  "balanceEUR": 81.29,
+  "equityEUR": 139.56,
   "stopped": false,
   "openPositions": [
     {
@@ -24,6 +24,23 @@
       "tpPct": 2.04,
       "signalScore": -4.67,
       "signalStrength": 0.58,
+      "status": "OPEN"
+    },
+    {
+      "id": "4c9b4ff2-5d07-4c5b-afcc-c841462e6860",
+      "side": "LONG",
+      "entryPrice": 72368.1,
+      "entryTime": "2026-10-27T19:39:10.221Z",
+      "sizeEUR": 27.09,
+      "notionalEUR": 406.35,
+      "leverage": 15,
+      "qtyBTC": 0.00561504,
+      "sl": 71619.47,
+      "tp": 73865.36,
+      "slPct": 1.03,
+      "tpPct": 2.07,
+      "signalScore": 1,
+      "signalStrength": 0.13,
       "status": "OPEN"
     }
   ],
@@ -958,19 +975,19 @@
     }
   ],
   "lastSignal": {
-    "price": 80129.73221282335,
+    "price": 80596.20687243101,
     "direction": "LONG",
-    "score": 0.28,
-    "strength": 0.04,
-    "atr14": 683.3965860018697,
+    "score": 1,
+    "strength": 0.13,
+    "atr14": 694.7877998511124,
     "indicators": {
-      "ema20": 79912.68048002051,
-      "ema50": 80081.83042651828,
-      "rsi14": 53.77272539638933,
-      "macdHist": 52.413107764473594,
-      "bbUpper": 80215.96249439922,
-      "bbMid": 79857.09973324109,
-      "bbLower": 79498.23697208296
+      "ema20": 80160.74900423891,
+      "ema50": 80165.64616755249,
+      "rsi14": 60.319510739852326,
+      "macdHist": 95.60223377770672,
+      "bbUpper": 80704.7986018226,
+      "bbMid": 80015.65408542914,
+      "bbLower": 79326.50956903568
     },
     "fearGreed": {
       "value": 48,
@@ -1003,42 +1020,27 @@
         "title": "Now is the time to accumulate bitcoin, Galaxy says",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Bitcoin’s Bear Market Is Over, Galaxy Research Says: &#39;Now Is an Attractive Time to Buy&#39;",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Morning Minute: Bitcoin Breaks Below $80,000 as Iran Fears Hit the Weekend",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "A $68 million bitcoin bet is targeting a post-midterm election breakout to $90,000",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=79913 vs EMA50=80082",
+        "detail": "EMA20=80161 vs EMA50=80166",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "53.8",
-        "points": 0
+        "detail": "60.3",
+        "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "52.4",
-        "points": 1.95
+        "detail": "95.6",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 80130 vs [79498, 80216]",
+        "detail": "prix 80596 vs [79327, 80705]",
         "points": 0
       },
       {
@@ -1048,14 +1050,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 1",
-        "points": 0.33
+        "detail": "23 articles pertinents, score brut 3",
+        "points": 1
       }
     ],
-    "computedAt": "2026-10-27T14:31:20.687Z",
-    "priceUSD": 80209.2,
-    "priceEUR": 71935.3,
-    "change24h": 0.2592441670062351
+    "computedAt": "2026-10-27T19:39:10.219Z",
+    "priceUSD": 80620.5,
+    "priceEUR": 72368.1,
+    "change24h": 0.7733575994540086
   },
   "history": [
     {
@@ -8622,7 +8624,12 @@
       "t": "2026-10-27T14:31:20.691Z",
       "equityEUR": 142.83,
       "priceEUR": 71935.3
+    },
+    {
+      "t": "2026-10-27T19:39:10.221Z",
+      "equityEUR": 139.56,
+      "priceEUR": 72368.1
     }
   ],
-  "lastRun": "2026-10-27T14:31:20.691Z"
+  "lastRun": "2026-10-27T19:39:10.221Z"
 }
