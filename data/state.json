@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 110.80286323862643,
-  "equityEUR": 142.27,
+  "equityEUR": 137.74,
   "stopped": false,
   "openPositions": [
     {
@@ -974,19 +974,19 @@
     }
   ],
   "lastSignal": {
-    "price": 81480.36350597291,
+    "price": 80539.99942237584,
     "direction": "LONG",
-    "score": 3.12,
-    "strength": 0.39,
-    "atr14": 635.4281752317472,
+    "score": 1.72,
+    "strength": 0.21,
+    "atr14": 637.4119543351925,
     "indicators": {
-      "ema20": 80722.43395626813,
-      "ema50": 80465.06585588717,
-      "rsi14": 70.32324039998583,
-      "macdHist": 38.50193860317353,
-      "bbUpper": 81332.25206973347,
-      "bbMid": 80714.93728144877,
-      "bbLower": 80097.62249316408
+      "ema20": 80776.62446837634,
+      "ema50": 80563.99169121057,
+      "rsi14": 45.69454165045223,
+      "macdHist": -92.3970843462871,
+      "bbUpper": 81440.06689554309,
+      "bbMid": 80884.6506631581,
+      "bbLower": 80329.23443077311
     },
     "fearGreed": {
       "value": 51,
@@ -995,6 +995,31 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Morning Minute: Robinhood Misses, But Crypto Beats and Robinhood Chain Soars",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
+      {
+        "title": "Bitcoin rebounds above $81,000 as Asian chip rally spills into crypto, pepe jumps 9%",
+        "source": "CoinDesk",
+        "itemScore": 2
+      },
+      {
+        "title": "Brazil’s largest lender becomes first bank to formalize crypto brokerage under new rules",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin price eyes $82K as Morgan Stanley strategist says most of correction is over",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Here's how much bitcoin and the S&P 500 could rally after midterms",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "Bitcoin ETF inflows climb to $176M as BTC rebounds above $80K",
         "source": "Cointelegraph",
@@ -1009,53 +1034,28 @@
         "title": "Quantum fears already limiting Bitcoin’s growth, Stacks founder says",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "Crypto could outperform AI stocks: Wall Street veteran Jordi Visser",
-        "source": "Cointelegraph",
-        "itemScore": 1
-      },
-      {
-        "title": "Bitcoin price analysis sees ‘strong rally’ as old coins become dormant",
-        "source": "Cointelegraph",
-        "itemScore": 1
-      },
-      {
-        "title": "Bitcoin shows signs of weakness while Ripple's bank win fails to bolster XRP",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Live updates: Bitcoin edges higher as Nasdaq surges 1.2%",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "Bitcoin drops below $80,000 as crypto ignores Asian tech rally, Fed meeting begins",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=80722 vs EMA50=80465",
+        "detail": "EMA20=80777 vs EMA50=80564",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "70.3",
-        "points": -1.5
+        "detail": "45.7",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "38.5",
-        "points": 1.95
+        "detail": "-92.4",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 81480 vs [80098, 81332]",
-        "points": -1
+        "detail": "prix 80540 vs [80329, 81440]",
+        "points": 0
       },
       {
         "factor": "Fear & Greed Index",
@@ -1064,14 +1064,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "27 articles pertinents, score brut 5",
+        "detail": "29 articles pertinents, score brut 5",
         "points": 1.67
       }
     ],
-    "computedAt": "2026-10-28T08:50:01.453Z",
-    "priceUSD": 81388.2,
-    "priceEUR": 73148,
-    "change24h": 0.7268483395605778
+    "computedAt": "2026-10-28T15:42:24.028Z",
+    "priceUSD": 80525.6,
+    "priceEUR": 72341,
+    "change24h": -0.34071402670018325
   },
   "history": [
     {
@@ -8658,7 +8658,12 @@
       "t": "2026-10-28T08:50:01.457Z",
       "equityEUR": 142.27,
       "priceEUR": 73148
+    },
+    {
+      "t": "2026-10-28T15:42:24.031Z",
+      "equityEUR": 137.74,
+      "priceEUR": 72341
     }
   ],
-  "lastRun": "2026-10-28T08:50:01.457Z"
+  "lastRun": "2026-10-28T15:42:24.031Z"
 }
