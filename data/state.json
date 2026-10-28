@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 110.80286323862643,
-  "equityEUR": 137.74,
+  "equityEUR": 140.05,
   "stopped": false,
   "openPositions": [
     {
@@ -974,19 +974,19 @@
     }
   ],
   "lastSignal": {
-    "price": 80539.99942237584,
+    "price": 81142.72886517785,
     "direction": "LONG",
-    "score": 1.72,
-    "strength": 0.21,
-    "atr14": 637.4119543351925,
+    "score": 5.78,
+    "strength": 0.72,
+    "atr14": 690.4667354092502,
     "indicators": {
-      "ema20": 80776.62446837634,
-      "ema50": 80563.99169121057,
-      "rsi14": 45.69454165045223,
-      "macdHist": -92.3970843462871,
-      "bbUpper": 81440.06689554309,
-      "bbMid": 80884.6506631581,
-      "bbLower": 80329.23443077311
+      "ema20": 80870.19965700987,
+      "ema50": 80641.12224999613,
+      "rsi14": 56.60229697070678,
+      "macdHist": 3.965721772758485,
+      "bbUpper": 81577.3346547914,
+      "bbMid": 80939.60518127136,
+      "bbLower": 80301.87570775131
     },
     "fearGreed": {
       "value": 51,
@@ -996,6 +996,36 @@
     "fundingRate": null,
     "newsHighlights": [
       {
+        "title": "Sam Bankman-Fried wrote to actor portraying him in Netflix series",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Fed Stands Pat, Bitcoin Holds Steady—But a December Rate Hike Is in Play",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Strategy shareholders approve daily dividends for four preferred stocks",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
+        "title": "Crypto PAC spending before midterms possibly obscured after reported FEC hack",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Strategy Shareholders Approve Daily Dividends on Preferred Stock, With 99.3% in Favor",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
+      {
+        "title": "Coinbase earnings: Wall Street divided on trading rebound after Robinhood crypto revenue sinks 55%",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
         "title": "Morning Minute: Robinhood Misses, But Crypto Beats and Robinhood Chain Soars",
         "source": "Decrypt",
         "itemScore": 1
@@ -1004,57 +1034,27 @@
         "title": "Bitcoin rebounds above $81,000 as Asian chip rally spills into crypto, pepe jumps 9%",
         "source": "CoinDesk",
         "itemScore": 2
-      },
-      {
-        "title": "Brazil’s largest lender becomes first bank to formalize crypto brokerage under new rules",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin price eyes $82K as Morgan Stanley strategist says most of correction is over",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Here's how much bitcoin and the S&P 500 could rally after midterms",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "Bitcoin ETF inflows climb to $176M as BTC rebounds above $80K",
-        "source": "Cointelegraph",
-        "itemScore": 3
-      },
-      {
-        "title": "Bitcoin treasury Datavault AI plunges 50% after firm says it can’t access its BTC",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Quantum fears already limiting Bitcoin’s growth, Stacks founder says",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=80777 vs EMA50=80564",
+        "detail": "EMA20=80870 vs EMA50=80641",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "45.7",
-        "points": 0
+        "detail": "56.6",
+        "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-92.4",
-        "points": -1.95
+        "detail": "4.0",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 80540 vs [80329, 81440]",
+        "detail": "prix 81143 vs [80302, 81577]",
         "points": 0
       },
       {
@@ -1064,14 +1064,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "29 articles pertinents, score brut 5",
-        "points": 1.67
+        "detail": "30 articles pertinents, score brut 4",
+        "points": 1.33
       }
     ],
-    "computedAt": "2026-10-28T15:42:24.028Z",
-    "priceUSD": 80525.6,
-    "priceEUR": 72341,
-    "change24h": -0.34071402670018325
+    "computedAt": "2026-10-28T20:34:44.005Z",
+    "priceUSD": 81151.2,
+    "priceEUR": 72752.4,
+    "change24h": 0.43353477498394566
   },
   "history": [
     {
@@ -8663,7 +8663,12 @@
       "t": "2026-10-28T15:42:24.031Z",
       "equityEUR": 137.74,
       "priceEUR": 72341
+    },
+    {
+      "t": "2026-10-28T20:34:44.010Z",
+      "equityEUR": 140.05,
+      "priceEUR": 72752.4
     }
   ],
-  "lastRun": "2026-10-28T15:42:24.031Z"
+  "lastRun": "2026-10-28T20:34:44.010Z"
 }
