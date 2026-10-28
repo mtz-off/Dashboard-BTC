@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 110.80286323862643,
-  "equityEUR": 140.34,
+  "equityEUR": 142.27,
   "stopped": false,
   "openPositions": [
     {
@@ -974,19 +974,19 @@
     }
   ],
   "lastSignal": {
-    "price": 80922.04538850284,
+    "price": 81480.36350597291,
     "direction": "LONG",
-    "score": 5,
-    "strength": 0.63,
-    "atr14": 667.9255205929248,
+    "score": 3.12,
+    "strength": 0.39,
+    "atr14": 635.4281752317472,
     "indicators": {
-      "ema20": 80448.92436604635,
-      "ema50": 80300.87929951472,
-      "rsi14": 63.46561553865319,
-      "macdHist": 59.31784903243806,
-      "bbUpper": 81203.37466390492,
-      "bbMid": 80306.18879171203,
-      "bbLower": 79409.00291951915
+      "ema20": 80722.43395626813,
+      "ema50": 80465.06585588717,
+      "rsi14": 70.32324039998583,
+      "macdHist": 38.50193860317353,
+      "bbUpper": 81332.25206973347,
+      "bbMid": 80714.93728144877,
+      "bbLower": 80097.62249316408
     },
     "fearGreed": {
       "value": 51,
@@ -995,6 +995,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin ETF inflows climb to $176M as BTC rebounds above $80K",
+        "source": "Cointelegraph",
+        "itemScore": 3
+      },
+      {
+        "title": "Bitcoin treasury Datavault AI plunges 50% after firm says it can’t access its BTC",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Quantum fears already limiting Bitcoin’s growth, Stacks founder says",
         "source": "Cointelegraph",
@@ -1024,33 +1034,28 @@
         "title": "Bitcoin drops below $80,000 as crypto ignores Asian tech rally, Fed meeting begins",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Now is the time to accumulate bitcoin, Galaxy says",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=80449 vs EMA50=80301",
+        "detail": "EMA20=80722 vs EMA50=80465",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "63.5",
-        "points": 0.5
+        "detail": "70.3",
+        "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "59.3",
-        "points": 1.5
+        "detail": "38.5",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 80922 vs [79409, 81203]",
-        "points": 0
+        "detail": "prix 81480 vs [80098, 81332]",
+        "points": -1
       },
       {
         "factor": "Fear & Greed Index",
@@ -1059,14 +1064,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "26 articles pertinents, score brut 3",
-        "points": 1
+        "detail": "27 articles pertinents, score brut 5",
+        "points": 1.67
       }
     ],
-    "computedAt": "2026-10-28T02:16:44.114Z",
-    "priceUSD": 80998.1,
-    "priceEUR": 72804.2,
-    "change24h": 0.24405668748740628
+    "computedAt": "2026-10-28T08:50:01.453Z",
+    "priceUSD": 81388.2,
+    "priceEUR": 73148,
+    "change24h": 0.7268483395605778
   },
   "history": [
     {
@@ -8648,7 +8653,12 @@
       "t": "2026-10-28T02:16:44.118Z",
       "equityEUR": 140.34,
       "priceEUR": 72804.2
+    },
+    {
+      "t": "2026-10-28T08:50:01.457Z",
+      "equityEUR": 142.27,
+      "priceEUR": 73148
     }
   ],
-  "lastRun": "2026-10-28T02:16:44.118Z"
+  "lastRun": "2026-10-28T08:50:01.457Z"
 }
