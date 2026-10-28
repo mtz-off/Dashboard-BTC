@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 110.80286323862643,
-  "equityEUR": 139.13,
+  "equityEUR": 140.34,
   "stopped": false,
   "openPositions": [
     {
@@ -974,24 +974,24 @@
     }
   ],
   "lastSignal": {
-    "price": 80798.91366324818,
+    "price": 80922.04538850284,
     "direction": "LONG",
     "score": 5,
     "strength": 0.63,
-    "atr14": 671.5158502052043,
+    "atr14": 667.9255205929248,
     "indicators": {
-      "ema20": 80327.81476779943,
-      "ema50": 80238.16660451863,
-      "rsi14": 62.97002287852038,
-      "macdHist": 92.54143698323318,
-      "bbUpper": 81017.57787046723,
-      "bbMid": 80147.79244452361,
-      "bbLower": 79278.00701858
+      "ema20": 80448.92436604635,
+      "ema50": 80300.87929951472,
+      "rsi14": 63.46561553865319,
+      "macdHist": 59.31784903243806,
+      "bbUpper": 81203.37466390492,
+      "bbMid": 80306.18879171203,
+      "bbLower": 79409.00291951915
     },
     "fearGreed": {
-      "value": 48,
+      "value": 51,
       "classification": "Neutral",
-      "timestamp": 1793059200000
+      "timestamp": 1793145600000
     },
     "fundingRate": null,
     "newsHighlights": [
@@ -1034,27 +1034,27 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=80328 vs EMA50=80238",
+        "detail": "EMA20=80449 vs EMA50=80301",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "63.0",
+        "detail": "63.5",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "92.5",
+        "detail": "59.3",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 80799 vs [79278, 81018]",
+        "detail": "prix 80922 vs [79409, 81203]",
         "points": 0
       },
       {
         "factor": "Fear & Greed Index",
-        "detail": "48 (Neutral)",
+        "detail": "51 (Neutral)",
         "points": 0
       },
       {
@@ -1063,10 +1063,10 @@
         "points": 1
       }
     ],
-    "computedAt": "2026-10-27T23:12:11.315Z",
-    "priceUSD": 80812.8,
-    "priceEUR": 72588.1,
-    "change24h": 1.0137271911381993
+    "computedAt": "2026-10-28T02:16:44.114Z",
+    "priceUSD": 80998.1,
+    "priceEUR": 72804.2,
+    "change24h": 0.24405668748740628
   },
   "history": [
     {
@@ -8643,7 +8643,12 @@
       "t": "2026-10-27T23:12:11.319Z",
       "equityEUR": 139.13,
       "priceEUR": 72588.1
+    },
+    {
+      "t": "2026-10-28T02:16:44.118Z",
+      "equityEUR": 140.34,
+      "priceEUR": 72804.2
     }
   ],
-  "lastRun": "2026-10-27T23:12:11.319Z"
+  "lastRun": "2026-10-28T02:16:44.118Z"
 }
