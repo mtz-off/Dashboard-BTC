@@ -5,8 +5,8 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 110.80286323862643,
-  "equityEUR": 140.51,
+  "balanceEUR": 83.1,
+  "equityEUR": 135.37,
   "stopped": false,
   "openPositions": [
     {
@@ -24,6 +24,23 @@
       "tpPct": 2.07,
       "signalScore": 1,
       "signalStrength": 0.13,
+      "status": "OPEN"
+    },
+    {
+      "id": "d1417a80-ada0-4b6d-8c44-65d0730580b7",
+      "side": "SHORT",
+      "entryPrice": 71920.1,
+      "entryTime": "2026-10-29T06:12:02.585Z",
+      "sizeEUR": 27.7,
+      "notionalEUR": 415.5,
+      "leverage": 15,
+      "qtyBTC": 0.00577724,
+      "sl": 72742.04,
+      "tp": 70276.22,
+      "slPct": 1.14,
+      "tpPct": 2.29,
+      "signalScore": -3.67,
+      "signalStrength": 0.46,
       "status": "OPEN"
     }
   ],
@@ -974,19 +991,19 @@
     }
   ],
   "lastSignal": {
-    "price": 81139.26898779556,
-    "direction": "LONG",
-    "score": 5.33,
-    "strength": 0.67,
-    "atr14": 694.7233900620971,
+    "price": 80112.72013543735,
+    "direction": "SHORT",
+    "score": -3.67,
+    "strength": 0.46,
+    "atr14": 762.9760798028312,
     "indicators": {
-      "ema20": 80961.52823116779,
-      "ema50": 80707.54580975125,
-      "rsi14": 55.85229711683461,
-      "macdHist": 11.77559042427265,
-      "bbUpper": 81655.27828656691,
-      "bbMid": 80988.61241007966,
-      "bbLower": 80321.9465335924
+      "ema20": 80585.29781576856,
+      "ema50": 80588.1321392594,
+      "rsi14": 41.189144806415285,
+      "macdHist": -138.96017264280175,
+      "bbUpper": 81797.5176494525,
+      "bbMid": 80723.01829935572,
+      "bbLower": 79648.51894925896
     },
     "fearGreed": {
       "value": 51,
@@ -995,6 +1012,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "AI found a way to crash bitcoin nodes on Windows and Macs. It's now public",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Sam Bankman-Fried wrote to actor portraying him in Netflix series",
         "source": "Cointelegraph",
@@ -1029,32 +1051,27 @@
         "title": "Morning Minute: Robinhood Misses, But Crypto Beats and Robinhood Chain Soars",
         "source": "Decrypt",
         "itemScore": 1
-      },
-      {
-        "title": "Bitcoin rebounds above $81,000 as Asian chip rally spills into crypto, pepe jumps 9%",
-        "source": "CoinDesk",
-        "itemScore": 2
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=80962 vs EMA50=80708",
-        "points": 2
+        "detail": "EMA20=80585 vs EMA50=80588",
+        "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "55.9",
-        "points": 0.5
+        "detail": "41.2",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "11.8",
-        "points": 1.5
+        "detail": "-139.0",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 81139 vs [80322, 81655]",
+        "detail": "prix 80113 vs [79649, 81798]",
         "points": 0
       },
       {
@@ -1064,14 +1081,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 4",
-        "points": 1.33
+        "detail": "30 articles pertinents, score brut 1",
+        "points": 0.33
       }
     ],
-    "computedAt": "2026-10-29T00:25:36.159Z",
-    "priceUSD": 81118.8,
-    "priceEUR": 72833.8,
-    "change24h": -0.20704392209834388
+    "computedAt": "2026-10-29T06:12:02.580Z",
+    "priceUSD": 80069.1,
+    "priceEUR": 71920.1,
+    "change24h": -1.4983927339024272
   },
   "history": [
     {
@@ -8673,7 +8690,12 @@
       "t": "2026-10-29T00:25:36.161Z",
       "equityEUR": 140.51,
       "priceEUR": 72833.8
+    },
+    {
+      "t": "2026-10-29T06:12:02.585Z",
+      "equityEUR": 135.37,
+      "priceEUR": 71920.1
     }
   ],
-  "lastRun": "2026-10-29T00:25:36.161Z"
+  "lastRun": "2026-10-29T06:12:02.585Z"
 }
