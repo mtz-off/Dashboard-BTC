@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 83.1,
-  "equityEUR": 135.36,
+  "equityEUR": 135.3,
   "stopped": false,
   "openPositions": [
     {
@@ -991,19 +991,19 @@
     }
   ],
   "lastSignal": {
-    "price": 80002.98130298953,
-    "direction": "SHORT",
-    "score": -5.67,
-    "strength": 0.71,
-    "atr14": 739.8054889840954,
+    "price": 80788.13351695266,
+    "direction": "LONG",
+    "score": 2.5,
+    "strength": 0.31,
+    "atr14": 821.7659007004511,
     "indicators": {
-      "ema20": 80304.21277517865,
-      "ema50": 80449.10570164306,
-      "rsi14": 42.18039431151679,
-      "macdHist": -32.85022230062643,
-      "bbUpper": 81653.9508248823,
-      "bbMid": 80459.40550999688,
-      "bbLower": 79264.86019511147
+      "ema20": 80606.68299754334,
+      "ema50": 80560.36575035934,
+      "rsi14": 52.816472180233504,
+      "macdHist": 108.1482267979141,
+      "bbUpper": 81548.8398702259,
+      "bbMid": 80400.72815452621,
+      "bbLower": 79252.61643882652
     },
     "fearGreed": {
       "value": 51,
@@ -1013,6 +1013,21 @@
     "fundingRate": null,
     "newsHighlights": [
       {
+        "title": "KuCoin exits Russia and Belarus as crypto exchanges withdraw from Western-sanctioned markets",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "4M Bitcoin Bought Above $85K Could Cap Recovery: Glassnode",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
+      {
+        "title": "Why Switzerland’s first genuine spot bitcoin ETF could soon attract overseas banks and brokers",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
         "title": "U.S. sanctions Russian nationals for laundering millions in crypto for North Korean IT workers",
         "source": "CoinDesk",
         "itemScore": -1
@@ -1021,52 +1036,27 @@
         "title": "Treasury Sanctions 11 Over North Korean IT Worker Scheme That Moved Millions in Crypto",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "AI found a way to crash bitcoin nodes on Windows and Macs. It's now public",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Sam Bankman-Fried wrote to actor portraying him in Netflix series",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Fed Stands Pat, Bitcoin Holds Steady—But a December Rate Hike Is in Play",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Strategy shareholders approve daily dividends for four preferred stocks",
-        "source": "Cointelegraph",
-        "itemScore": 1
-      },
-      {
-        "title": "Crypto PAC spending before midterms possibly obscured after reported FEC hack",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=80304 vs EMA50=80449",
-        "points": -2
+        "detail": "EMA20=80607 vs EMA50=80560",
+        "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "42.2",
-        "points": -0.5
+        "detail": "52.8",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-32.9",
-        "points": -1.5
+        "detail": "108.1",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 80003 vs [79265, 81654]",
+        "detail": "prix 80788 vs [79253, 81549]",
         "points": 0
       },
       {
@@ -1076,14 +1066,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -5",
-        "points": -1.67
+        "detail": "30 articles pertinents, score brut -3",
+        "points": -1
       }
     ],
-    "computedAt": "2026-10-29T13:02:49.021Z",
-    "priceUSD": 80064.5,
-    "priceEUR": 71985.7,
-    "change24h": -1.5040516883982893
+    "computedAt": "2026-10-29T18:56:59.518Z",
+    "priceUSD": 80821.7,
+    "priceEUR": 72379.9,
+    "change24h": -0.5725385700806263
   },
   "history": [
     {
@@ -8695,7 +8685,12 @@
       "t": "2026-10-29T13:02:49.024Z",
       "equityEUR": 135.36,
       "priceEUR": 71985.7
+    },
+    {
+      "t": "2026-10-29T18:56:59.521Z",
+      "equityEUR": 135.3,
+      "priceEUR": 72379.9
     }
   ],
-  "lastRun": "2026-10-29T13:02:49.024Z"
+  "lastRun": "2026-10-29T18:56:59.521Z"
 }
