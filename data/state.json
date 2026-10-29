@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 83.1,
-  "equityEUR": 135.37,
+  "equityEUR": 135.36,
   "stopped": false,
   "openPositions": [
     {
@@ -991,19 +991,19 @@
     }
   ],
   "lastSignal": {
-    "price": 80112.72013543735,
+    "price": 80002.98130298953,
     "direction": "SHORT",
-    "score": -3.67,
-    "strength": 0.46,
-    "atr14": 762.9760798028312,
+    "score": -5.67,
+    "strength": 0.71,
+    "atr14": 739.8054889840954,
     "indicators": {
-      "ema20": 80585.29781576856,
-      "ema50": 80588.1321392594,
-      "rsi14": 41.189144806415285,
-      "macdHist": -138.96017264280175,
-      "bbUpper": 81797.5176494525,
-      "bbMid": 80723.01829935572,
-      "bbLower": 79648.51894925896
+      "ema20": 80304.21277517865,
+      "ema50": 80449.10570164306,
+      "rsi14": 42.18039431151679,
+      "macdHist": -32.85022230062643,
+      "bbUpper": 81653.9508248823,
+      "bbMid": 80459.40550999688,
+      "bbLower": 79264.86019511147
     },
     "fearGreed": {
       "value": 51,
@@ -1012,6 +1012,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "U.S. sanctions Russian nationals for laundering millions in crypto for North Korean IT workers",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Treasury Sanctions 11 Over North Korean IT Worker Scheme That Moved Millions in Crypto",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
       {
         "title": "AI found a way to crash bitcoin nodes on Windows and Macs. It's now public",
         "source": "CoinDesk",
@@ -1036,42 +1046,27 @@
         "title": "Crypto PAC spending before midterms possibly obscured after reported FEC hack",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "Strategy Shareholders Approve Daily Dividends on Preferred Stock, With 99.3% in Favor",
-        "source": "Decrypt",
-        "itemScore": 1
-      },
-      {
-        "title": "Coinbase earnings: Wall Street divided on trading rebound after Robinhood crypto revenue sinks 55%",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "Morning Minute: Robinhood Misses, But Crypto Beats and Robinhood Chain Soars",
-        "source": "Decrypt",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=80585 vs EMA50=80588",
+        "detail": "EMA20=80304 vs EMA50=80449",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "41.2",
+        "detail": "42.2",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-139.0",
+        "detail": "-32.9",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 80113 vs [79649, 81798]",
+        "detail": "prix 80003 vs [79265, 81654]",
         "points": 0
       },
       {
@@ -1081,14 +1076,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 1",
-        "points": 0.33
+        "detail": "30 articles pertinents, score brut -5",
+        "points": -1.67
       }
     ],
-    "computedAt": "2026-10-29T06:12:02.580Z",
-    "priceUSD": 80069.1,
-    "priceEUR": 71920.1,
-    "change24h": -1.4983927339024272
+    "computedAt": "2026-10-29T13:02:49.021Z",
+    "priceUSD": 80064.5,
+    "priceEUR": 71985.7,
+    "change24h": -1.5040516883982893
   },
   "history": [
     {
@@ -8695,7 +8690,12 @@
       "t": "2026-10-29T06:12:02.585Z",
       "equityEUR": 135.37,
       "priceEUR": 71920.1
+    },
+    {
+      "t": "2026-10-29T13:02:49.024Z",
+      "equityEUR": 135.36,
+      "priceEUR": 71985.7
     }
   ],
-  "lastRun": "2026-10-29T06:12:02.585Z"
+  "lastRun": "2026-10-29T13:02:49.024Z"
 }
