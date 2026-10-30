@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 107.59,
-  "equityEUR": 141.04,
+  "equityEUR": 144.48,
   "stopped": false,
   "openPositions": [
     {
@@ -1006,19 +1006,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77371.80413742222,
+    "price": 76908.87367762942,
     "direction": "SHORT",
     "score": -7,
     "strength": 0.88,
-    "atr14": 1020.887228206173,
+    "atr14": 1056.3129473008082,
     "indicators": {
-      "ema20": 78004.88004835241,
-      "ema50": 78993.80074383414,
-      "rsi14": 39.015847436173274,
-      "macdHist": -4.583599810177361,
-      "bbUpper": 79114.96667672053,
-      "bbMid": 77788.3949524732,
-      "bbLower": 76461.82322822587
+      "ema20": 77643.62624616419,
+      "ema50": 78688.36945098218,
+      "rsi14": 39.08365913028547,
+      "macdHist": -0.142189719041653,
+      "bbUpper": 78611.89158133809,
+      "bbMid": 77456.3595060314,
+      "bbLower": 76300.8274307247
     },
     "fearGreed": {
       "value": 30,
@@ -1027,6 +1027,31 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Worried About Crypto Hacks? Buy Bitcoin Proxies in Stock Market Instead, Say Wall Street Firms",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Binance Hack: Why Bitcoin Didn&#39;t Crash Like It Did in 2018",
+        "source": "Decrypt",
+        "itemScore": -2
+      },
+      {
+        "title": "Coinbase leads crypto stock selloff following $6.3B Binance hack",
+        "source": "Cointelegraph",
+        "itemScore": -2
+      },
+      {
+        "title": "As it happened: Binance’s record $6.3B crypto hack",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin risks worst October in 12 years as tech sell-off spreads to gold",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "Wall Street analysts urge investors to buy crypto stocks after $6.3 billion Binance hack",
         "source": "CoinDesk",
@@ -1041,52 +1066,27 @@
         "title": "Here's how big bitcoin traders responded after the Binance hack hit",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin price metrics hint at rebound as $1.6B liquidations follow Binance hack",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Crypto liquidations jump to $1.57 billion as Binance hack sends bitcoin, ether lower",
-        "source": "CoinDesk",
-        "itemScore": -2
-      },
-      {
-        "title": "Binance hacker’s Bitcoin haul tops Coinbase’s corporate treasury",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Live updates: Bitcoin falls to $77,000 as Binance exploit combines with tech woes",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin, ether and XRP selloff wipes out $1.5 billion in leveraged crypto bets",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78005 vs EMA50=78994",
+        "detail": "EMA20=77644 vs EMA50=78688",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "39.0",
+        "detail": "39.1",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-4.6",
+        "detail": "-0.1",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77372 vs [76462, 79115]",
+        "detail": "prix 76909 vs [76301, 78612]",
         "points": 0
       },
       {
@@ -1096,14 +1096,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -18",
+        "detail": "30 articles pertinents, score brut -25",
         "points": -3
       }
     ],
-    "computedAt": "2026-10-30T15:47:48.557Z",
-    "priceUSD": 77220.9,
-    "priceEUR": 69250,
-    "change24h": -0.7443444730077196
+    "computedAt": "2026-10-30T20:21:43.891Z",
+    "priceUSD": 76805.1,
+    "priceEUR": 68809.6,
+    "change24h": -1.2787917737789127
   },
   "history": [
     {
@@ -8740,7 +8740,12 @@
       "t": "2026-10-30T15:47:48.560Z",
       "equityEUR": 141.04,
       "priceEUR": 69250
+    },
+    {
+      "t": "2026-10-30T20:21:43.894Z",
+      "equityEUR": 144.48,
+      "priceEUR": 68809.6
     }
   ],
-  "lastRun": "2026-10-30T15:47:48.560Z"
+  "lastRun": "2026-10-30T20:21:43.894Z"
 }
