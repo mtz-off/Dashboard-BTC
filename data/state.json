@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 107.59,
-  "equityEUR": 143.46,
+  "equityEUR": 138.32,
   "stopped": false,
   "openPositions": [
     {
@@ -1006,19 +1006,19 @@
     }
   ],
   "lastSignal": {
-    "price": 77152.71726502891,
+    "price": 77927.00597911335,
     "direction": "SHORT",
-    "score": -4,
-    "strength": 0.5,
-    "atr14": 1006.6657307043555,
+    "score": -7,
+    "strength": 0.88,
+    "atr14": 1037.6036732421267,
     "indicators": {
-      "ema20": 79169.92761789258,
-      "ema50": 79900.47021693124,
-      "rsi14": 28.8576644868251,
-      "macdHist": -391.00192982057945,
-      "bbUpper": 82461.69460852264,
-      "bbMid": 79600.95245999942,
-      "bbLower": 76740.2103114762
+      "ema20": 78728.201999066,
+      "ema50": 79537.6992588904,
+      "rsi14": 39.079977467769,
+      "macdHist": -13.91291584245323,
+      "bbUpper": 82075.79941386175,
+      "bbMid": 79055.52220282654,
+      "bbLower": 76035.24499179133
     },
     "fearGreed": {
       "value": 30,
@@ -1028,65 +1028,65 @@
     "fundingRate": null,
     "newsHighlights": [
       {
-        "title": "Binance hack rattles markets as BNB falls 8%, Bitcoin nears $77K",
+        "title": "Live News: Binance hack rattles crypto as Intel plunges and AI spending fears hit tech",
+        "source": "CoinDesk",
+        "itemScore": -3
+      },
+      {
+        "title": "Bitcoin, ether and XRP selloff wipes out $1.5 billion in leveraged crypto bets",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Binance hack bites India's largest crypto exchange as it curbs futures trading",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Binance hacker splits $1.4 billion of bitcoin into 19 wallets that no one can freeze",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "$6 billion Binance hack sends bitcoin, ether tumbling; Standard Chartered expects more pain",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Institutional crypto investors rush to pull funds from exchanges after Binance hack",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Binance hack could accelerate shift to DEXs: Standard Chartered",
         "source": "Cointelegraph",
         "itemScore": -1
       },
       {
-        "title": "Live updates: Binance says $3B in crypto frozen in connection to hack",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Binance loses $5.7 billion in 'biggest crypto hack in history'",
+        "title": "Crypto's longtime foe, North Korea's Lazarus Group, likely behind Binance hack: blockchain sleuths",
         "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "KuCoin exits Russia and Belarus as crypto exchanges withdraw from Western-sanctioned markets",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "4M Bitcoin Bought Above $85K Could Cap Recovery: Glassnode",
-        "source": "Decrypt",
-        "itemScore": 1
-      },
-      {
-        "title": "Why Switzerland’s first genuine spot bitcoin ETF could soon attract overseas banks and brokers",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "U.S. sanctions Russian nationals for laundering millions in crypto for North Korean IT workers",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Treasury Sanctions 11 Over North Korean IT Worker Scheme That Moved Millions in Crypto",
-        "source": "Decrypt",
         "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=79170 vs EMA50=79900",
+        "detail": "EMA20=78728 vs EMA50=79538",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "28.9",
-        "points": 1.5
+        "detail": "39.1",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-391.0",
+        "detail": "-13.9",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77153 vs [76740, 82462]",
+        "detail": "prix 77927 vs [76035, 82076]",
         "points": 0
       },
       {
@@ -1096,14 +1096,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -6",
-        "points": -2
+        "detail": "30 articles pertinents, score brut -13",
+        "points": -3
       }
     ],
-    "computedAt": "2026-10-30T02:35:14.305Z",
-    "priceUSD": 77190,
-    "priceEUR": 68940,
-    "change24h": -3.3032733961884415
+    "computedAt": "2026-10-30T08:59:46.876Z",
+    "priceUSD": 77887.8,
+    "priceEUR": 69598.2,
+    "change24h": 0.11285347043702174
   },
   "history": [
     {
@@ -8730,7 +8730,12 @@
       "t": "2026-10-30T02:35:14.307Z",
       "equityEUR": 143.46,
       "priceEUR": 68940
+    },
+    {
+      "t": "2026-10-30T08:59:46.878Z",
+      "equityEUR": 138.32,
+      "priceEUR": 69598.2
     }
   ],
-  "lastRun": "2026-10-30T02:35:14.307Z"
+  "lastRun": "2026-10-30T08:59:46.878Z"
 }
