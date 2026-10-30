@@ -5,25 +5,25 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 98.54496213110467,
-  "equityEUR": 135.64,
+  "balanceEUR": 107.59,
+  "equityEUR": 143.46,
   "stopped": false,
   "openPositions": [
     {
-      "id": "d1417a80-ada0-4b6d-8c44-65d0730580b7",
+      "id": "45b5bc4f-5bff-4a20-8709-2f87c6e42545",
       "side": "SHORT",
-      "entryPrice": 71920.1,
-      "entryTime": "2026-10-29T06:12:02.585Z",
-      "sizeEUR": 27.7,
-      "notionalEUR": 415.5,
+      "entryPrice": 68940,
+      "entryTime": "2026-10-30T02:35:14.307Z",
+      "sizeEUR": 35.87,
+      "notionalEUR": 538.05,
       "leverage": 15,
-      "qtyBTC": 0.00577724,
-      "sl": 72742.04,
-      "tp": 70276.22,
-      "slPct": 1.14,
-      "tpPct": 2.29,
-      "signalScore": -3.67,
-      "signalStrength": 0.46,
+      "qtyBTC": 0.00780461,
+      "sl": 70019.41,
+      "tp": 66781.18,
+      "slPct": 1.57,
+      "tpPct": 3.13,
+      "signalScore": -4,
+      "signalStrength": 0.5,
       "status": "OPEN"
     }
   ],
@@ -987,32 +987,58 @@
       "pnlPct": -2.87,
       "reason": "SL",
       "status": "CLOSED"
+    },
+    {
+      "id": "d1417a80-ada0-4b6d-8c44-65d0730580b7",
+      "side": "SHORT",
+      "entryPrice": 71920.1,
+      "entryTime": "2026-10-29T06:12:02.585Z",
+      "exitPrice": 68940,
+      "exitTime": "2026-10-30T02:35:14.307Z",
+      "sizeEUR": 27.7,
+      "notionalEUR": 415.5,
+      "leverage": 15,
+      "qtyBTC": 0.00577724,
+      "pnlEUR": 17.22,
+      "pnlPct": 4.14,
+      "reason": "TP",
+      "status": "CLOSED"
     }
   ],
   "lastSignal": {
-    "price": 78722.07317327018,
+    "price": 77152.71726502891,
     "direction": "SHORT",
-    "score": -5.78,
-    "strength": 0.72,
-    "atr14": 856.4134530184812,
+    "score": -4,
+    "strength": 0.5,
+    "atr14": 1006.6657307043555,
     "indicators": {
-      "ema20": 80149.9681516733,
-      "ema50": 80368.83098451333,
-      "rsi14": 33.2501956015863,
-      "macdHist": -190.31492560199115,
-      "bbUpper": 81674.91567493537,
-      "bbMid": 80155.74255529352,
-      "bbLower": 78636.56943565166
+      "ema20": 79169.92761789258,
+      "ema50": 79900.47021693124,
+      "rsi14": 28.8576644868251,
+      "macdHist": -391.00192982057945,
+      "bbUpper": 82461.69460852264,
+      "bbMid": 79600.95245999942,
+      "bbLower": 76740.2103114762
     },
     "fearGreed": {
-      "value": 51,
-      "classification": "Neutral",
-      "timestamp": 1793232000000
+      "value": 30,
+      "classification": "Fear",
+      "timestamp": 1793318400000
     },
     "fundingRate": null,
     "newsHighlights": [
       {
-        "title": "Binance loses $5.7 billion in largest crypto hack to date",
+        "title": "Binance hack rattles markets as BNB falls 8%, Bitcoin nears $77K",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Live updates: Binance says $3B in crypto frozen in connection to hack",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Binance loses $5.7 billion in 'biggest crypto hack in history'",
         "source": "CoinDesk",
         "itemScore": -1
       },
@@ -1045,39 +1071,39 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=80150 vs EMA50=80369",
+        "detail": "EMA20=79170 vs EMA50=79900",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "33.3",
-        "points": -0.5
+        "detail": "28.9",
+        "points": 1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-190.3",
-        "points": -1.95
+        "detail": "-391.0",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78722 vs [78637, 81675]",
+        "detail": "prix 77153 vs [76740, 82462]",
         "points": 0
       },
       {
         "factor": "Fear & Greed Index",
-        "detail": "51 (Neutral)",
+        "detail": "30 (Fear)",
         "points": 0
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -4",
-        "points": -1.33
+        "detail": "30 articles pertinents, score brut -6",
+        "points": -2
       }
     ],
-    "computedAt": "2026-10-29T23:07:00.652Z",
-    "priceUSD": 78647.9,
-    "priceEUR": 70294.2,
-    "change24h": -3.2467636316217594
+    "computedAt": "2026-10-30T02:35:14.305Z",
+    "priceUSD": 77190,
+    "priceEUR": 68940,
+    "change24h": -3.3032733961884415
   },
   "history": [
     {
@@ -8699,7 +8725,12 @@
       "t": "2026-10-29T23:07:00.654Z",
       "equityEUR": 135.64,
       "priceEUR": 70294.2
+    },
+    {
+      "t": "2026-10-30T02:35:14.307Z",
+      "equityEUR": 143.46,
+      "priceEUR": 68940
     }
   ],
-  "lastRun": "2026-10-29T23:07:00.654Z"
+  "lastRun": "2026-10-30T02:35:14.307Z"
 }
