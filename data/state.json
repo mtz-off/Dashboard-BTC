@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 107.59,
-  "equityEUR": 139.48,
+  "equityEUR": 138.76,
   "stopped": false,
   "openPositions": [
     {
@@ -1006,27 +1006,32 @@
     }
   ],
   "lastSignal": {
-    "price": 77549.83801029301,
+    "price": 77674.58783004123,
     "direction": "SHORT",
-    "score": -3.5,
-    "strength": 0.44,
-    "atr14": 804.1722512490962,
+    "score": -2.55,
+    "strength": 0.32,
+    "atr14": 766.426881618193,
     "indicators": {
-      "ema20": 77456.81948334664,
-      "ema50": 77822.23828869389,
-      "rsi14": 51.889079045107934,
-      "macdHist": 45.678974888890934,
-      "bbUpper": 77713.89798720296,
-      "bbMid": 77401.46471920343,
-      "bbLower": 77089.0314512039
+      "ema20": 77482.05524393258,
+      "ema50": 77791.00659575555,
+      "rsi14": 55.625284653318204,
+      "macdHist": 38.09435856640366,
+      "bbUpper": 77686.81595339574,
+      "bbMid": 77465.26165292895,
+      "bbLower": 77243.70735246217
     },
     "fearGreed": {
-      "value": 30,
+      "value": 34,
       "classification": "Fear",
-      "timestamp": 1793404800000
+      "timestamp": 1793491200000
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin held up better than expected after Binance hack, Strive CEO says",
         "source": "Cointelegraph",
@@ -1061,49 +1066,44 @@
         "title": "As it happened: Binance’s record $6.3B crypto hack",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin risks worst October in 12 years as tech sell-off spreads to gold",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77457 vs EMA50=77822",
+        "detail": "EMA20=77482 vs EMA50=77791",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "51.9",
-        "points": 0
+        "detail": "55.6",
+        "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "45.7",
-        "points": 1.5
+        "detail": "38.1",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77550 vs [77089, 77714]",
+        "detail": "prix 77675 vs [77244, 77687]",
         "points": 0
       },
       {
         "factor": "Fear & Greed Index",
-        "detail": "30 (Fear)",
+        "detail": "34 (Fear)",
         "points": 0
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -18",
+        "detail": "30 articles pertinents, score brut -19",
         "points": -3
       }
     ],
-    "computedAt": "2026-10-31T22:50:05.919Z",
-    "priceUSD": 77459.6,
-    "priceEUR": 69450.1,
-    "change24h": 0.3306810631014113
+    "computedAt": "2026-11-01T01:49:04.029Z",
+    "priceUSD": 77580,
+    "priceEUR": 69542.6,
+    "change24h": 0.18453686927841328
   },
   "history": [
     {
@@ -8775,7 +8775,12 @@
       "t": "2026-10-31T22:50:05.921Z",
       "equityEUR": 139.48,
       "priceEUR": 69450.1
+    },
+    {
+      "t": "2026-11-01T01:49:04.032Z",
+      "equityEUR": 138.76,
+      "priceEUR": 69542.6
     }
   ],
-  "lastRun": "2026-10-31T22:50:05.921Z"
+  "lastRun": "2026-11-01T01:49:04.032Z"
 }
