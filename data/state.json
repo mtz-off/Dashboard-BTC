@@ -5,27 +5,10 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 75.14,
-  "equityEUR": 128.75,
+  "balanceEUR": 97.45524851687526,
+  "equityEUR": 127.24,
   "stopped": false,
   "openPositions": [
-    {
-      "id": "9cef44a2-bef3-4f75-960a-655b2099e459",
-      "side": "LONG",
-      "entryPrice": 70206.5,
-      "entryTime": "2026-11-02T02:39:45.043Z",
-      "sizeEUR": 33.39,
-      "notionalEUR": 500.85,
-      "leverage": 15,
-      "qtyBTC": 0.00713395,
-      "sl": 69524.48,
-      "tp": 71570.55,
-      "slPct": 0.97,
-      "tpPct": 1.94,
-      "signalScore": 1.45,
-      "signalStrength": 0.18,
-      "status": "OPEN"
-    },
     {
       "id": "d18b2306-1bc0-44a1-a423-d46e56053d43",
       "side": "SHORT",
@@ -1036,22 +1019,38 @@
       "pnlPct": -1.84,
       "reason": "SL",
       "status": "CLOSED"
+    },
+    {
+      "id": "9cef44a2-bef3-4f75-960a-655b2099e459",
+      "side": "LONG",
+      "entryPrice": 70206.5,
+      "entryTime": "2026-11-02T02:39:45.043Z",
+      "exitPrice": 68654.1,
+      "exitTime": "2026-11-02T20:03:28.520Z",
+      "sizeEUR": 33.39,
+      "notionalEUR": 500.85,
+      "leverage": 15,
+      "qtyBTC": 0.00713395,
+      "pnlEUR": -11.07,
+      "pnlPct": -2.21,
+      "reason": "SL",
+      "status": "CLOSED"
     }
   ],
   "lastSignal": {
-    "price": 78060.49350296376,
+    "price": 76919.50982897118,
     "direction": "SHORT",
-    "score": -2.95,
-    "strength": 0.37,
-    "atr14": 673.8871456647221,
+    "score": -5.45,
+    "strength": 0.68,
+    "atr14": 672.0494619072206,
     "indicators": {
-      "ema20": 78089.18433938862,
-      "ema50": 77991.75026517635,
-      "rsi14": 50.559270979481425,
-      "macdHist": -21.197022334649546,
-      "bbUpper": 78528.60732083407,
-      "bbMid": 78076.18016013042,
-      "bbLower": 77623.75299942677
+      "ema20": 77637.35684264613,
+      "ema50": 77807.71679119093,
+      "rsi14": 28.12207467151822,
+      "macdHist": -134.90413716785577,
+      "bbUpper": 78798.3193360972,
+      "bbMid": 77853.30351601746,
+      "bbLower": 76908.28769593772
     },
     "fearGreed": {
       "value": 37,
@@ -1061,65 +1060,65 @@
     "fundingRate": null,
     "newsHighlights": [
       {
+        "title": "Tom Lee Calls Bottom on AI Stock Selloff, Citing Tight Supply and Crypto Resilience",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin risks drop below $76K as 7% oil slide fails to spark BTC price rally",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
+        "title": "Mercado Bitcoin wallets keep moving funds after $46M hack",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Brazil&#39;s Largest Exchange Mercado Bitcoin Halts Withdrawals After $40 Million Hack",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Crypto's Washington playbook is working. Don't abandon it now.",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Binance hackers begin swapping stolen Solana tokens for Bitcoin: Chainalysis",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "From Uptober to Hacktober: Are Bitcoin’s seasonal patterns becoming obsolete?",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
         "title": "Binance hack fallout, U.S. midterms and jobs report: Crypto Week Ahead",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Why stealing billions from a crypto exchange can be harder to stop than a bank theft",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin ETFs sink into October outflows with $643M exit after Binance hack",
-        "source": "Cointelegraph",
-        "itemScore": -2
-      },
-      {
-        "title": "Bitcoin ETFs lost $643 million in outflows Friday, and 2026 is barely green now",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Strangers are begging the Binance hacker for bitcoin, one ‘help me bro’ at a time",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Bank of Korea probes financial firms’ exposure to crypto risks",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "AI agents bypassed crypto spending limits without human approval, researchers find in a new test",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78089 vs EMA50=77992",
-        "points": 2
+        "detail": "EMA20=77637 vs EMA50=77808",
+        "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "50.6",
-        "points": 0
+        "detail": "28.1",
+        "points": 1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-21.2",
+        "detail": "-134.9",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78060 vs [77624, 78529]",
+        "detail": "prix 76920 vs [76908, 78798]",
         "points": 0
       },
       {
@@ -1129,14 +1128,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -12",
+        "detail": "30 articles pertinents, score brut -13",
         "points": -3
       }
     ],
-    "computedAt": "2026-11-02T09:57:30.143Z",
-    "priceUSD": 77988.9,
-    "priceEUR": 69530,
-    "change24h": -0.3199163590629798
+    "computedAt": "2026-11-02T20:03:28.517Z",
+    "priceUSD": 76867.4,
+    "priceEUR": 68654.1,
+    "change24h": -1.753341036206918
   },
   "history": [
     {
@@ -8843,7 +8842,12 @@
       "t": "2026-11-02T09:57:30.148Z",
       "equityEUR": 128.75,
       "priceEUR": 69530
+    },
+    {
+      "t": "2026-11-02T20:03:28.520Z",
+      "equityEUR": 127.24,
+      "priceEUR": 68654.1
     }
   ],
-  "lastRun": "2026-11-02T09:57:30.148Z"
+  "lastRun": "2026-11-02T20:03:28.520Z"
 }
