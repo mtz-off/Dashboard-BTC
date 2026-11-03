@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 97.45524851687526,
-  "equityEUR": 126.97,
+  "equityEUR": 123.71,
   "stopped": false,
   "openPositions": [
     {
@@ -1038,19 +1038,19 @@
     }
   ],
   "lastSignal": {
-    "price": 76926.22253399417,
+    "price": 77607.63535222196,
     "direction": "SHORT",
-    "score": -3.05,
+    "score": -3,
     "strength": 0.38,
-    "atr14": 678.6097283710636,
+    "atr14": 691.6258843717405,
     "indicators": {
-      "ema20": 76956.24416791664,
-      "ema50": 77350.84019143113,
-      "rsi14": 46.61381446677139,
-      "macdHist": 21.214568594225398,
-      "bbUpper": 77537.38814919209,
-      "bbMid": 76900.04051394043,
-      "bbLower": 76262.69287868877
+      "ema20": 77200.85247999032,
+      "ema50": 77356.03641996524,
+      "rsi14": 59.994480818357424,
+      "macdHist": 136.38695404370998,
+      "bbUpper": 77704.88919232943,
+      "bbMid": 76991.51681153438,
+      "bbLower": 76278.14443073934
     },
     "fearGreed": {
       "value": 26,
@@ -1059,6 +1059,26 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "South Korea asks its biggest banks how a major crypto hack would hit them",
+        "source": "CoinDesk",
+        "itemScore": -2
+      },
+      {
+        "title": "Bitcoin steadies after dip to $76,300 as ETF outflows and midterm elections weigh on crypto",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Liquid Network Restores Full Bitcoin Backing Two Months After $320M Exploit",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Liquid’s bitcoin IOUs are fully backed again after a $320 million exploit",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Mercado Bitcoin pledges to cover all user losses after near $40 million hack",
         "source": "CoinDesk",
@@ -1078,47 +1098,27 @@
         "title": "Crypto.com to withdraw Hong Kong consumer app citing regulatory changes",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "Mystery $106 Million Crypto Theft Hits EU Entity Days After Binance Hack",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Tom Lee Calls Bottom on AI Stock Selloff, Citing Tight Supply and Crypto Resilience",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin risks drop below $76K as 7% oil slide fails to spark BTC price rally",
-        "source": "Cointelegraph",
-        "itemScore": 1
-      },
-      {
-        "title": "Mercado Bitcoin wallets show post-hack transfers after $46M theft",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=76956 vs EMA50=77351",
+        "detail": "EMA20=77201 vs EMA50=77356",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "46.6",
-        "points": 0
+        "detail": "60.0",
+        "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "21.2",
-        "points": 1.95
+        "detail": "136.4",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 76926 vs [76263, 77537]",
+        "detail": "prix 77608 vs [76278, 77705]",
         "points": 0
       },
       {
@@ -1132,10 +1132,10 @@
         "points": -3
       }
     ],
-    "computedAt": "2026-11-03T09:49:47.793Z",
-    "priceUSD": 76873.9,
-    "priceEUR": 68704.5,
-    "change24h": 0.25705298082339284
+    "computedAt": "2026-11-03T17:30:21.369Z",
+    "priceUSD": 77582.3,
+    "priceEUR": 69307,
+    "change24h": 1.1809308682678463
   },
   "history": [
     {
@@ -8857,7 +8857,12 @@
       "t": "2026-11-03T09:49:47.798Z",
       "equityEUR": 126.97,
       "priceEUR": 68704.5
+    },
+    {
+      "t": "2026-11-03T17:30:21.372Z",
+      "equityEUR": 123.71,
+      "priceEUR": 69307
     }
   ],
-  "lastRun": "2026-11-03T09:49:47.798Z"
+  "lastRun": "2026-11-03T17:30:21.372Z"
 }
