@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 97.45524851687526,
-  "equityEUR": 123.07,
+  "equityEUR": 130.23,
   "stopped": false,
   "openPositions": [
     {
@@ -1038,27 +1038,32 @@
     }
   ],
   "lastSignal": {
-    "price": 77724.14247816332,
+    "price": 76676.07800038916,
     "direction": "SHORT",
-    "score": -3,
-    "strength": 0.38,
-    "atr14": 676.5127297733954,
+    "score": -7.45,
+    "strength": 0.93,
+    "atr14": 670.8155394454441,
     "indicators": {
-      "ema20": 77392.41624373788,
-      "ema50": 77414.45419852331,
-      "rsi14": 60.26965026403239,
-      "macdHist": 95.19012893225212,
-      "bbUpper": 78075.18712120262,
-      "bbMid": 77202.1065728039,
-      "bbLower": 76329.02602440518
+      "ema20": 77266.92397064442,
+      "ema50": 77358.0019256617,
+      "rsi14": 36.271303440119716,
+      "macdHist": -66.42347432001118,
+      "bbUpper": 78052.47804439676,
+      "bbMid": 77275.69300165796,
+      "bbLower": 76498.90795891915
     },
     "fearGreed": {
-      "value": 26,
+      "value": 34,
       "classification": "Fear",
-      "timestamp": 1793664000000
+      "timestamp": 1793750400000
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "1inch lawyer sees agencies driving US crypto regulation as midterms unfold",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "CFTC gets into legal clash over stock perps after having cleared path for crypto version",
         "source": "CoinDesk",
@@ -1093,49 +1098,44 @@
         "title": "Liquid’s bitcoin IOUs are fully backed again after a $320 million exploit",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Mercado Bitcoin pledges to cover all user losses after near $40 million hack",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77392 vs EMA50=77414",
+        "detail": "EMA20=77267 vs EMA50=77358",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "60.3",
-        "points": 0.5
+        "detail": "36.3",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "95.2",
-        "points": 1.5
+        "detail": "-66.4",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 77724 vs [76329, 78075]",
+        "detail": "prix 76676 vs [76499, 78052]",
         "points": 0
       },
       {
         "factor": "Fear & Greed Index",
-        "detail": "26 (Fear)",
+        "detail": "34 (Fear)",
         "points": 0
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -10",
+        "detail": "30 articles pertinents, score brut -9",
         "points": -3
       }
     ],
-    "computedAt": "2026-11-03T22:30:08.091Z",
-    "priceUSD": 77682.3,
-    "priceEUR": 69426.2,
-    "change24h": 1.3113484130793147
+    "computedAt": "2026-11-04T02:38:12.941Z",
+    "priceUSD": 76607.9,
+    "priceEUR": 68100.1,
+    "change24h": -0.9359680441526604
   },
   "history": [
     {
@@ -8867,7 +8867,12 @@
       "t": "2026-11-03T22:30:08.096Z",
       "equityEUR": 123.07,
       "priceEUR": 69426.2
+    },
+    {
+      "t": "2026-11-04T02:38:12.945Z",
+      "equityEUR": 130.23,
+      "priceEUR": 68100.1
     }
   ],
-  "lastRun": "2026-11-03T22:30:08.096Z"
+  "lastRun": "2026-11-04T02:38:12.945Z"
 }
