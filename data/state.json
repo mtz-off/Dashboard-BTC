@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 91.36,
-  "equityEUR": 121.82,
+  "equityEUR": 124.36,
   "stopped": false,
   "openPositions": [
     {
@@ -1070,19 +1070,19 @@
     }
   ],
   "lastSignal": {
-    "price": 80235.33182868412,
+    "price": 80742.71604748219,
     "direction": "LONG",
-    "score": 1,
-    "strength": 0.13,
-    "atr14": 971.8466266775449,
+    "score": 1.45,
+    "strength": 0.18,
+    "atr14": 954.3194676366459,
     "indicators": {
-      "ema20": 78555.8248616196,
-      "ema50": 77946.66423035938,
-      "rsi14": 73.68926282786451,
-      "macdHist": 271.6331178493191,
-      "bbUpper": 80474.07645989947,
-      "bbMid": 78156.40994945433,
-      "bbLower": 75838.7434390092
+      "ema20": 79242.91315363471,
+      "ema50": 78371.68045403401,
+      "rsi14": 74.38793539435606,
+      "macdHist": 138.6129199199006,
+      "bbUpper": 81403.55925112417,
+      "bbMid": 78956.22349871814,
+      "bbLower": 76508.88774631212
     },
     "fearGreed": {
       "value": 34,
@@ -1092,6 +1092,16 @@
     "fundingRate": null,
     "newsHighlights": [
       {
+        "title": "BitMart founder says security team ‘severely understaffed’ after new hack",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Coinbase Says 99% of Customer Crypto Is Offline and Out of Hackers’ Reach",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
         "title": "Bitcoin Rebounds After Democratic Midterm Sweep, But Crypto Faces Tougher Fight in Washington",
         "source": "Decrypt",
         "itemScore": 1
@@ -1100,11 +1110,6 @@
         "title": "Bitcoin hits $80.5K as US stocks rally on midterm election results",
         "source": "Cointelegraph",
         "itemScore": 1
-      },
-      {
-        "title": "Live updates: Bitcoin and stocks post big gains, reversing overnight plunge following Blue Wave landslide",
-        "source": "CoinDesk",
-        "itemScore": -1
       },
       {
         "title": "Binance hack may be ‘temporary setback’ for crypto, Grayscale’s Pandl says",
@@ -1125,32 +1130,27 @@
         "title": "Jack Dorsey's Block faces $764 million DOJ settlement as bitcoin profit plunges 50%",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "U.S.-sanctioned Moscow Exchange to list bitcoin and Tether’s USDT in December",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78556 vs EMA50=77947",
+        "detail": "EMA20=79243 vs EMA50=78372",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "73.7",
+        "detail": "74.4",
         "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "271.6",
-        "points": 1.5
+        "detail": "138.6",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 80235 vs [75839, 80474]",
+        "detail": "prix 80743 vs [76509, 81404]",
         "points": 0
       },
       {
@@ -1164,10 +1164,10 @@
         "points": -1
       }
     ],
-    "computedAt": "2026-11-04T17:43:40.980Z",
-    "priceUSD": 80290.4,
-    "priceEUR": 71461.5,
-    "change24h": 3.825985979876295
+    "computedAt": "2026-11-04T22:54:22.887Z",
+    "priceUSD": 80699.1,
+    "priceEUR": 71858.4,
+    "change24h": 4.35448852152482
   },
   "history": [
     {
@@ -8914,7 +8914,12 @@
       "t": "2026-11-04T17:43:40.982Z",
       "equityEUR": 121.82,
       "priceEUR": 71461.5
+    },
+    {
+      "t": "2026-11-04T22:54:22.890Z",
+      "equityEUR": 124.36,
+      "priceEUR": 71858.4
     }
   ],
-  "lastRun": "2026-11-04T17:43:40.982Z"
+  "lastRun": "2026-11-04T22:54:22.890Z"
 }
