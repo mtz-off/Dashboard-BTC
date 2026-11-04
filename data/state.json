@@ -5,42 +5,25 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 73.1,
-  "equityEUR": 122.11,
+  "balanceEUR": 91.36,
+  "equityEUR": 121.82,
   "stopped": false,
   "openPositions": [
     {
-      "id": "d18b2306-1bc0-44a1-a423-d46e56053d43",
-      "side": "SHORT",
-      "entryPrice": 69530,
-      "entryTime": "2026-11-02T09:57:30.148Z",
-      "sizeEUR": 25.05,
-      "notionalEUR": 375.75,
-      "leverage": 15,
-      "qtyBTC": 0.00540414,
-      "sl": 70250.29,
-      "tp": 68089.41,
-      "slPct": 1.04,
-      "tpPct": 2.07,
-      "signalScore": -2.95,
-      "signalStrength": 0.37,
-      "status": "OPEN"
-    },
-    {
-      "id": "055cc842-1aab-4382-8f4b-5d517087a9bc",
+      "id": "fc605edf-5714-47f1-90e3-eec20c9c526b",
       "side": "LONG",
-      "entryPrice": 69604.3,
-      "entryTime": "2026-11-04T09:51:40.147Z",
-      "sizeEUR": 24.36,
-      "notionalEUR": 365.4,
+      "entryPrice": 71461.5,
+      "entryTime": "2026-11-04T17:43:40.982Z",
+      "sizeEUR": 30.46,
+      "notionalEUR": 456.9,
       "leverage": 15,
-      "qtyBTC": 0.00524968,
-      "sl": 68720.64,
-      "tp": 71371.63,
-      "slPct": 1.27,
-      "tpPct": 2.54,
-      "signalScore": 2.45,
-      "signalStrength": 0.31,
+      "qtyBTC": 0.00639365,
+      "sl": 70422.81,
+      "tp": 73538.88,
+      "slPct": 1.45,
+      "tpPct": 2.91,
+      "signalScore": 1,
+      "signalStrength": 0.13,
       "status": "OPEN"
     }
   ],
@@ -1052,22 +1035,54 @@
       "pnlPct": -2.21,
       "reason": "SL",
       "status": "CLOSED"
+    },
+    {
+      "id": "d18b2306-1bc0-44a1-a423-d46e56053d43",
+      "side": "SHORT",
+      "entryPrice": 69530,
+      "entryTime": "2026-11-02T09:57:30.148Z",
+      "exitPrice": 71461.5,
+      "exitTime": "2026-11-04T17:43:40.982Z",
+      "sizeEUR": 25.05,
+      "notionalEUR": 375.75,
+      "leverage": 15,
+      "qtyBTC": 0.00540414,
+      "pnlEUR": -10.44,
+      "pnlPct": -2.78,
+      "reason": "SL",
+      "status": "CLOSED"
+    },
+    {
+      "id": "055cc842-1aab-4382-8f4b-5d517087a9bc",
+      "side": "LONG",
+      "entryPrice": 69604.3,
+      "entryTime": "2026-11-04T09:51:40.147Z",
+      "exitPrice": 71461.5,
+      "exitTime": "2026-11-04T17:43:40.982Z",
+      "sizeEUR": 24.36,
+      "notionalEUR": 365.4,
+      "leverage": 15,
+      "qtyBTC": 0.00524968,
+      "pnlEUR": 9.75,
+      "pnlPct": 2.67,
+      "reason": "TP",
+      "status": "CLOSED"
     }
   ],
   "lastSignal": {
-    "price": 78356.34364814233,
+    "price": 80235.33182868412,
     "direction": "LONG",
-    "score": 2.45,
-    "strength": 0.31,
-    "atr14": 828.9792080970377,
+    "score": 1,
+    "strength": 0.13,
+    "atr14": 971.8466266775449,
     "indicators": {
-      "ema20": 77535.12813931235,
-      "ema50": 77446.01821034183,
-      "rsi14": 64.06807378551528,
-      "macdHist": 132.70851314723166,
-      "bbUpper": 78597.47023752061,
-      "bbMid": 77517.35260154067,
-      "bbLower": 76437.23496556072
+      "ema20": 78555.8248616196,
+      "ema50": 77946.66423035938,
+      "rsi14": 73.68926282786451,
+      "macdHist": 271.6331178493191,
+      "bbUpper": 80474.07645989947,
+      "bbMid": 78156.40994945433,
+      "bbLower": 75838.7434390092
     },
     "fearGreed": {
       "value": 34,
@@ -1077,9 +1092,34 @@
     "fundingRate": null,
     "newsHighlights": [
       {
-        "title": "Bitcoin surges to $78,300 in V-shaped comeback as midterm election uncertainty fades",
+        "title": "Bitcoin Rebounds After Democratic Midterm Sweep, But Crypto Faces Tougher Fight in Washington",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
+      {
+        "title": "Bitcoin hits $80.5K as US stocks rally on midterm election results",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
+        "title": "Live updates: Bitcoin and stocks post big gains, reversing overnight plunge following Blue Wave landslide",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Binance hack may be ‘temporary setback’ for crypto, Grayscale’s Pandl says",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin rebounds from midterm dip as DeFi leads gains",
         "source": "CoinDesk",
         "itemScore": 1
+      },
+      {
+        "title": "ZachXBT names French bank Crédit Mutuel Arkéa as suspected victim of $133 million crypto theft",
+        "source": "CoinDesk",
+        "itemScore": -1
       },
       {
         "title": "Jack Dorsey's Block faces $764 million DOJ settlement as bitcoin profit plunges 50%",
@@ -1090,52 +1130,27 @@
         "title": "U.S.-sanctioned Moscow Exchange to list bitcoin and Tether’s USDT in December",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Democrats surge toward Senate, House majorities, with crypto braced for new direction",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "ZachXBT identifies French bank as alleged victim of $133M crypto theft",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "1inch lawyer sees agencies driving US crypto regulation as midterms unfold",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "CFTC gets into legal clash over stock perps after having cleared path for crypto version",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "Brazil&#39;s Biggest Bitcoin Exchange Says It Will Refund Users After a $40 Million Hack",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77535 vs EMA50=77446",
+        "detail": "EMA20=78556 vs EMA50=77947",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "64.1",
-        "points": 0.5
+        "detail": "73.7",
+        "points": -1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "132.7",
-        "points": 1.95
+        "detail": "271.6",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 78356 vs [76437, 78597]",
+        "detail": "prix 80235 vs [75839, 80474]",
         "points": 0
       },
       {
@@ -1145,14 +1160,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -6",
-        "points": -2
+        "detail": "30 articles pertinents, score brut -3",
+        "points": -1
       }
     ],
-    "computedAt": "2026-11-04T09:51:40.144Z",
-    "priceUSD": 78341.7,
-    "priceEUR": 69604.3,
-    "change24h": 1.3060620676902228
+    "computedAt": "2026-11-04T17:43:40.980Z",
+    "priceUSD": 80290.4,
+    "priceEUR": 71461.5,
+    "change24h": 3.825985979876295
   },
   "history": [
     {
@@ -8894,7 +8909,12 @@
       "t": "2026-11-04T09:51:40.147Z",
       "equityEUR": 122.11,
       "priceEUR": 69604.3
+    },
+    {
+      "t": "2026-11-04T17:43:40.982Z",
+      "equityEUR": 121.82,
+      "priceEUR": 71461.5
     }
   ],
-  "lastRun": "2026-11-04T09:51:40.147Z"
+  "lastRun": "2026-11-04T17:43:40.982Z"
 }
