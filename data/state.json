@@ -5,8 +5,8 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 97.45524851687526,
-  "equityEUR": 130.23,
+  "balanceEUR": 73.1,
+  "equityEUR": 122.11,
   "stopped": false,
   "openPositions": [
     {
@@ -24,6 +24,23 @@
       "tpPct": 2.07,
       "signalScore": -2.95,
       "signalStrength": 0.37,
+      "status": "OPEN"
+    },
+    {
+      "id": "055cc842-1aab-4382-8f4b-5d517087a9bc",
+      "side": "LONG",
+      "entryPrice": 69604.3,
+      "entryTime": "2026-11-04T09:51:40.147Z",
+      "sizeEUR": 24.36,
+      "notionalEUR": 365.4,
+      "leverage": 15,
+      "qtyBTC": 0.00524968,
+      "sl": 68720.64,
+      "tp": 71371.63,
+      "slPct": 1.27,
+      "tpPct": 2.54,
+      "signalScore": 2.45,
+      "signalStrength": 0.31,
       "status": "OPEN"
     }
   ],
@@ -1038,19 +1055,19 @@
     }
   ],
   "lastSignal": {
-    "price": 76676.07800038916,
-    "direction": "SHORT",
-    "score": -7.45,
-    "strength": 0.93,
-    "atr14": 670.8155394454441,
+    "price": 78356.34364814233,
+    "direction": "LONG",
+    "score": 2.45,
+    "strength": 0.31,
+    "atr14": 828.9792080970377,
     "indicators": {
-      "ema20": 77266.92397064442,
-      "ema50": 77358.0019256617,
-      "rsi14": 36.271303440119716,
-      "macdHist": -66.42347432001118,
-      "bbUpper": 78052.47804439676,
-      "bbMid": 77275.69300165796,
-      "bbLower": 76498.90795891915
+      "ema20": 77535.12813931235,
+      "ema50": 77446.01821034183,
+      "rsi14": 64.06807378551528,
+      "macdHist": 132.70851314723166,
+      "bbUpper": 78597.47023752061,
+      "bbMid": 77517.35260154067,
+      "bbLower": 76437.23496556072
     },
     "fearGreed": {
       "value": 34,
@@ -1059,6 +1076,31 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin surges to $78,300 in V-shaped comeback as midterm election uncertainty fades",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Jack Dorsey's Block faces $764 million DOJ settlement as bitcoin profit plunges 50%",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "U.S.-sanctioned Moscow Exchange to list bitcoin and Tether’s USDT in December",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Democrats surge toward Senate, House majorities, with crypto braced for new direction",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "ZachXBT identifies French bank as alleged victim of $133M crypto theft",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "1inch lawyer sees agencies driving US crypto regulation as midterms unfold",
         "source": "Cointelegraph",
@@ -1073,52 +1115,27 @@
         "title": "Brazil&#39;s Biggest Bitcoin Exchange Says It Will Refund Users After a $40 Million Hack",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "Five Ways North Korea Breaks Into Crypto Firms—and How Binance Was Hacked",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "South Korea asks its biggest banks how a major crypto hack would hit them",
-        "source": "CoinDesk",
-        "itemScore": -2
-      },
-      {
-        "title": "Bitcoin steadies after dip to $76,300 as ETF outflows and midterm elections weigh on crypto",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Liquid Network Restores Full Bitcoin Backing Two Months After $320M Exploit",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Liquid’s bitcoin IOUs are fully backed again after a $320 million exploit",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77267 vs EMA50=77358",
-        "points": -2
+        "detail": "EMA20=77535 vs EMA50=77446",
+        "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "36.3",
-        "points": -0.5
+        "detail": "64.1",
+        "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-66.4",
-        "points": -1.95
+        "detail": "132.7",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 76676 vs [76499, 78052]",
+        "detail": "prix 78356 vs [76437, 78597]",
         "points": 0
       },
       {
@@ -1128,14 +1145,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -9",
-        "points": -3
+        "detail": "30 articles pertinents, score brut -6",
+        "points": -2
       }
     ],
-    "computedAt": "2026-11-04T02:38:12.941Z",
-    "priceUSD": 76607.9,
-    "priceEUR": 68100.1,
-    "change24h": -0.9359680441526604
+    "computedAt": "2026-11-04T09:51:40.144Z",
+    "priceUSD": 78341.7,
+    "priceEUR": 69604.3,
+    "change24h": 1.3060620676902228
   },
   "history": [
     {
@@ -8872,7 +8889,12 @@
       "t": "2026-11-04T02:38:12.945Z",
       "equityEUR": 130.23,
       "priceEUR": 68100.1
+    },
+    {
+      "t": "2026-11-04T09:51:40.147Z",
+      "equityEUR": 122.11,
+      "priceEUR": 69604.3
     }
   ],
-  "lastRun": "2026-11-04T02:38:12.945Z"
+  "lastRun": "2026-11-04T09:51:40.147Z"
 }
