@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 91.36,
-  "equityEUR": 122.36,
+  "equityEUR": 121.97,
   "stopped": false,
   "openPositions": [
     {
@@ -1070,19 +1070,19 @@
     }
   ],
   "lastSignal": {
-    "price": 80521.80580845027,
+    "price": 80217.42802034496,
     "direction": "LONG",
-    "score": 3.67,
-    "strength": 0.46,
-    "atr14": 955.568256239897,
+    "score": 0.88,
+    "strength": 0.11,
+    "atr14": 896.569422181966,
     "indicators": {
-      "ema20": 79662.3050884291,
-      "ema50": 78687.72597146651,
-      "rsi14": 68.83287111902281,
-      "macdHist": 31.70561892312753,
-      "bbUpper": 81570.15630334757,
-      "bbMid": 79591.56707157913,
-      "bbLower": 77612.9778398107
+      "ema20": 80063.40587735665,
+      "ema50": 79156.38224548688,
+      "rsi14": 58.13440366193802,
+      "macdHist": -119.85457940147353,
+      "bbUpper": 80734.5432249144,
+      "bbMid": 80383.82181603998,
+      "bbLower": 80033.10040716556
     },
     "fearGreed": {
       "value": 50,
@@ -1091,6 +1091,21 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Mercado Bitcoin hack continued hours after exchange said attack was contained, report finds",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin, Ether ETFs draw $128M as crypto rebounds after midterms",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
+        "title": "Bitcoin holds above $80,000 as Zcash jumps 12% in post-election crypto rebound",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "India warns AI-powered hackers targeting crypto exchanges at ‘machine speed’",
         "source": "Cointelegraph",
@@ -1115,42 +1130,27 @@
         "title": "Bitcoin Rebounds After Democratic Midterm Sweep, But Crypto Faces Tougher Fight in Washington",
         "source": "Decrypt",
         "itemScore": 1
-      },
-      {
-        "title": "Bitcoin hits $80.5K as US stocks rally on midterm election results",
-        "source": "Cointelegraph",
-        "itemScore": 1
-      },
-      {
-        "title": "Binance hack may be ‘temporary setback’ for crypto, Grayscale’s Pandl says",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin rebounds from midterm dip as DeFi leads gains",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=79662 vs EMA50=78688",
+        "detail": "EMA20=80063 vs EMA50=79156",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "68.8",
+        "detail": "58.1",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "31.7",
-        "points": 1.5
+        "detail": "-119.9",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 80522 vs [77613, 81570]",
+        "detail": "prix 80217 vs [80033, 80735]",
         "points": 0
       },
       {
@@ -1160,14 +1160,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -1",
-        "points": -0.33
+        "detail": "30 articles pertinents, score brut 1",
+        "points": 0.33
       }
     ],
-    "computedAt": "2026-11-05T03:06:08.189Z",
-    "priceUSD": 80509.1,
-    "priceEUR": 71545.3,
-    "change24h": 0.08490716153991869
+    "computedAt": "2026-11-05T10:52:32.914Z",
+    "priceUSD": 80249.7,
+    "priceEUR": 71484.4,
+    "change24h": -0.23756601127786622
   },
   "history": [
     {
@@ -8924,7 +8924,12 @@
       "t": "2026-11-05T03:06:08.192Z",
       "equityEUR": 122.36,
       "priceEUR": 71545.3
+    },
+    {
+      "t": "2026-11-05T10:52:32.918Z",
+      "equityEUR": 121.97,
+      "priceEUR": 71484.4
     }
   ],
-  "lastRun": "2026-11-05T03:06:08.192Z"
+  "lastRun": "2026-11-05T10:52:32.918Z"
 }
