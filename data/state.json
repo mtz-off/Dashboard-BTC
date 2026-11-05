@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 91.36,
-  "equityEUR": 124.36,
+  "equityEUR": 122.36,
   "stopped": false,
   "openPositions": [
     {
@@ -1070,27 +1070,37 @@
     }
   ],
   "lastSignal": {
-    "price": 80742.71604748219,
+    "price": 80521.80580845027,
     "direction": "LONG",
-    "score": 1.45,
-    "strength": 0.18,
-    "atr14": 954.3194676366459,
+    "score": 3.67,
+    "strength": 0.46,
+    "atr14": 955.568256239897,
     "indicators": {
-      "ema20": 79242.91315363471,
-      "ema50": 78371.68045403401,
-      "rsi14": 74.38793539435606,
-      "macdHist": 138.6129199199006,
-      "bbUpper": 81403.55925112417,
-      "bbMid": 78956.22349871814,
-      "bbLower": 76508.88774631212
+      "ema20": 79662.3050884291,
+      "ema50": 78687.72597146651,
+      "rsi14": 68.83287111902281,
+      "macdHist": 31.70561892312753,
+      "bbUpper": 81570.15630334757,
+      "bbMid": 79591.56707157913,
+      "bbLower": 77612.9778398107
     },
     "fearGreed": {
-      "value": 34,
-      "classification": "Fear",
-      "timestamp": 1793750400000
+      "value": 50,
+      "classification": "Neutral",
+      "timestamp": 1793836800000
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "India warns AI-powered hackers targeting crypto exchanges at ‘machine speed’",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Tokenization and stablecoins may weather Democrats' sweep as broader crypto rules face uncertainty",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "BitMart founder says security team ‘severely understaffed’ after new hack",
         "source": "Cointelegraph",
@@ -1120,54 +1130,44 @@
         "title": "Bitcoin rebounds from midterm dip as DeFi leads gains",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "ZachXBT names French bank Crédit Mutuel Arkéa as suspected victim of $133 million crypto theft",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Jack Dorsey's Block faces $764 million DOJ settlement as bitcoin profit plunges 50%",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=79243 vs EMA50=78372",
+        "detail": "EMA20=79662 vs EMA50=78688",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "74.4",
-        "points": -1.5
+        "detail": "68.8",
+        "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "138.6",
-        "points": 1.95
+        "detail": "31.7",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 80743 vs [76509, 81404]",
+        "detail": "prix 80522 vs [77613, 81570]",
         "points": 0
       },
       {
         "factor": "Fear & Greed Index",
-        "detail": "34 (Fear)",
+        "detail": "50 (Neutral)",
         "points": 0
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -3",
-        "points": -1
+        "detail": "30 articles pertinents, score brut -1",
+        "points": -0.33
       }
     ],
-    "computedAt": "2026-11-04T22:54:22.887Z",
-    "priceUSD": 80699.1,
-    "priceEUR": 71858.4,
-    "change24h": 4.35448852152482
+    "computedAt": "2026-11-05T03:06:08.189Z",
+    "priceUSD": 80509.1,
+    "priceEUR": 71545.3,
+    "change24h": 0.08490716153991869
   },
   "history": [
     {
@@ -8919,7 +8919,12 @@
       "t": "2026-11-04T22:54:22.890Z",
       "equityEUR": 124.36,
       "priceEUR": 71858.4
+    },
+    {
+      "t": "2026-11-05T03:06:08.192Z",
+      "equityEUR": 122.36,
+      "priceEUR": 71545.3
     }
   ],
-  "lastRun": "2026-11-04T22:54:22.890Z"
+  "lastRun": "2026-11-05T03:06:08.192Z"
 }
