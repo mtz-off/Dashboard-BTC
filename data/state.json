@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 73.71,
-  "equityEUR": 98.28,
+  "equityEUR": 98.63,
   "stopped": false,
   "openPositions": [
     {
@@ -1086,19 +1086,19 @@
     }
   ],
   "lastSignal": {
-    "price": 76121.83554522082,
+    "price": 76001.9936909018,
     "direction": "SHORT",
-    "score": -4,
-    "strength": 0.5,
-    "atr14": 1138.9104432149345,
+    "score": -7,
+    "strength": 0.88,
+    "atr14": 1146.987556246776,
     "indicators": {
-      "ema20": 78583.2057764045,
-      "ema50": 78728.28774922377,
-      "rsi14": 26.31640065054772,
-      "macdHist": -594.0114043748258,
-      "bbUpper": 82842.77524249918,
-      "bbMid": 79363.89793665007,
-      "bbLower": 75885.02063080097
+      "ema20": 77538.39187604732,
+      "ema50": 78222.24232601872,
+      "rsi14": 30.17662930930024,
+      "macdHist": -315.46331370669327,
+      "bbUpper": 82379.29318380331,
+      "bbMid": 78220.5745670594,
+      "bbLower": 74061.8559503155
     },
     "fearGreed": {
       "value": 50,
@@ -1107,6 +1107,26 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin Fixes This? Paraguay President Resigns After Bank Lockout Hits 60% of Country",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Mercado Bitcoin Said Its Hack Was Contained, But Blockchain Data Tells a Different Story",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Zcash Upgrade Could Lock $16 Million in Crypto Forever",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
+      {
+        "title": "Fed, OCC check US banks after Binance hack as experts flag security risks",
+        "source": "Cointelegraph",
+        "itemScore": -2
+      },
       {
         "title": "S&amp;#038;P 500 Plunges, Wall Street Fears Circuit Breaker, Just One Day After Trump Celebrated Record Highs",
         "source": "Decrypt",
@@ -1126,47 +1146,27 @@
         "title": "Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Ukraine’s central bank opposes crypto bill, citing monetary sovereignty concerns",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Live updates: Bitcoin plunges as Nasdaq falls 4% in panicky selloff",
-        "source": "CoinDesk",
-        "itemScore": -2
-      },
-      {
-        "title": "Mercado Bitcoin hack continued hours after exchange said attack was contained, report finds",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin, Ether ETFs draw $128M as crypto rebounds after midterms",
-        "source": "Cointelegraph",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=78583 vs EMA50=78728",
+        "detail": "EMA20=77538 vs EMA50=78222",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "26.3",
-        "points": 1.5
+        "detail": "30.2",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-594.0",
+        "detail": "-315.5",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 76122 vs [75885, 82843]",
+        "detail": "prix 76002 vs [74062, 82379]",
         "points": 0
       },
       {
@@ -1176,14 +1176,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -6",
-        "points": -2
+        "detail": "30 articles pertinents, score brut -9",
+        "points": -3
       }
     ],
-    "computedAt": "2026-11-05T18:29:26.878Z",
-    "priceUSD": 76057.2,
-    "priceEUR": 67780.3,
-    "change24h": -5.449473401557425
+    "computedAt": "2026-11-05T23:48:20.657Z",
+    "priceUSD": 75951.6,
+    "priceEUR": 67716.1,
+    "change24h": -5.58075006713011
   },
   "history": [
     {
@@ -8950,7 +8950,12 @@
       "t": "2026-11-05T18:29:26.881Z",
       "equityEUR": 98.28,
       "priceEUR": 67780.3
+    },
+    {
+      "t": "2026-11-05T23:48:20.659Z",
+      "equityEUR": 98.63,
+      "priceEUR": 67716.1
     }
   ],
-  "lastRun": "2026-11-05T18:29:26.881Z"
+  "lastRun": "2026-11-05T23:48:20.659Z"
 }
