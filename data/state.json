@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 73.71,
-  "equityEUR": 98.63,
+  "equityEUR": 99.21,
   "stopped": false,
   "openPositions": [
     {
@@ -1086,27 +1086,32 @@
     }
   ],
   "lastSignal": {
-    "price": 76001.9936909018,
+    "price": 75683.06358948509,
     "direction": "SHORT",
-    "score": -7,
-    "strength": 0.88,
-    "atr14": 1146.987556246776,
+    "score": -4.33,
+    "strength": 0.54,
+    "atr14": 1100.0440092484864,
     "indicators": {
-      "ema20": 77538.39187604732,
-      "ema50": 78222.24232601872,
-      "rsi14": 30.17662930930024,
-      "macdHist": -315.46331370669327,
-      "bbUpper": 82379.29318380331,
-      "bbMid": 78220.5745670594,
-      "bbLower": 74061.8559503155
+      "ema20": 76910.71464083402,
+      "ema50": 77812.14652116915,
+      "rsi14": 29.761276336229727,
+      "macdHist": -53.671647244111114,
+      "bbUpper": 80648.02909660243,
+      "bbMid": 77106.07814216387,
+      "bbLower": 73564.1271877253
     },
     "fearGreed": {
-      "value": 50,
-      "classification": "Neutral",
-      "timestamp": 1793836800000
+      "value": 28,
+      "classification": "Fear",
+      "timestamp": 1793923200000
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Core Scientific to quit Bitcoin mining by year-end as AI business surges",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
       {
         "title": "Bitcoin Fixes This? Paraguay President Resigns After Bank Lockout Hits 60% of Country",
         "source": "Decrypt",
@@ -1141,49 +1146,44 @@
         "title": "Gate CEO says crypto exchanges must prove they can survive a hack like Binance’s",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=77538 vs EMA50=78222",
+        "detail": "EMA20=76911 vs EMA50=77812",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "30.2",
-        "points": -0.5
+        "detail": "29.8",
+        "points": 1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-315.5",
+        "detail": "-53.7",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 76002 vs [74062, 82379]",
+        "detail": "prix 75683 vs [73564, 80648]",
         "points": 0
       },
       {
         "factor": "Fear & Greed Index",
-        "detail": "50 (Neutral)",
+        "detail": "28 (Fear)",
         "points": 0
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -9",
-        "points": -3
+        "detail": "30 articles pertinents, score brut -7",
+        "points": -2.33
       }
     ],
-    "computedAt": "2026-11-05T23:48:20.657Z",
-    "priceUSD": 75951.6,
-    "priceEUR": 67716.1,
-    "change24h": -5.58075006713011
+    "computedAt": "2026-11-06T04:57:59.718Z",
+    "priceUSD": 75696.8,
+    "priceEUR": 67610,
+    "change24h": -0.37259854250925745
   },
   "history": [
     {
@@ -8955,7 +8955,12 @@
       "t": "2026-11-05T23:48:20.659Z",
       "equityEUR": 98.63,
       "priceEUR": 67716.1
+    },
+    {
+      "t": "2026-11-06T04:57:59.721Z",
+      "equityEUR": 99.21,
+      "priceEUR": 67610
     }
   ],
-  "lastRun": "2026-11-05T23:48:20.659Z"
+  "lastRun": "2026-11-06T04:57:59.721Z"
 }
