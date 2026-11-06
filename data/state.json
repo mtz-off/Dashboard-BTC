@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 73.71,
-  "equityEUR": 99.21,
+  "equityEUR": 96.36,
   "stopped": false,
   "openPositions": [
     {
@@ -1086,19 +1086,19 @@
     }
   ],
   "lastSignal": {
-    "price": 75683.06358948509,
+    "price": 76141.63165295994,
     "direction": "SHORT",
-    "score": -4.33,
-    "strength": 0.54,
-    "atr14": 1100.0440092484864,
+    "score": -2.88,
+    "strength": 0.36,
+    "atr14": 1040.2980485084843,
     "indicators": {
-      "ema20": 76910.71464083402,
-      "ema50": 77812.14652116915,
-      "rsi14": 29.761276336229727,
-      "macdHist": -53.671647244111114,
-      "bbUpper": 80648.02909660243,
-      "bbMid": 77106.07814216387,
-      "bbLower": 73564.1271877253
+      "ema20": 76345.25519442702,
+      "ema50": 77276.51095150788,
+      "rsi14": 41.104176843498976,
+      "macdHist": 158.15651776932782,
+      "bbUpper": 76355.97362177525,
+      "bbMid": 75909.56867020516,
+      "bbLower": 75463.16371863507
     },
     "fearGreed": {
       "value": 28,
@@ -1107,6 +1107,31 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin steadies after AI-led selloff as eyes turn to latest U.S. jobs figures",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin holds $75K as AI regulation fears see KOSPI halted after 8% crash",
+        "source": "Cointelegraph",
+        "itemScore": -3
+      },
+      {
+        "title": "Greece approves 10% tax on crypto gains starting in 2027",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
+        "title": "Greece approves 10% tax on crypto gains and 15% levy on DeFi income",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Bitcoin, Ether ETFs post $530M outflows as election gains evaporate",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "Core Scientific to quit Bitcoin mining by year-end as AI business surges",
         "source": "Cointelegraph",
@@ -1121,52 +1146,27 @@
         "title": "Mercado Bitcoin Said Its Hack Was Contained, But Blockchain Data Tells a Different Story",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "Zcash Upgrade Could Lock $16 Million in Crypto Forever",
-        "source": "Decrypt",
-        "itemScore": 1
-      },
-      {
-        "title": "Fed, OCC check US banks after Binance hack as experts flag security risks",
-        "source": "Cointelegraph",
-        "itemScore": -2
-      },
-      {
-        "title": "S&amp;#038;P 500 Plunges, Wall Street Fears Circuit Breaker, Just One Day After Trump Celebrated Record Highs",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin crashes 6% to 7-week low as US stocks erase election gains",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Gate CEO says crypto exchanges must prove they can survive a hack like Binance’s",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=76911 vs EMA50=77812",
+        "detail": "EMA20=76345 vs EMA50=77277",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "29.8",
-        "points": 1.5
+        "detail": "41.1",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-53.7",
-        "points": -1.5
+        "detail": "158.2",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 75683 vs [73564, 80648]",
+        "detail": "prix 76142 vs [75463, 76356]",
         "points": 0
       },
       {
@@ -1180,10 +1180,10 @@
         "points": -2.33
       }
     ],
-    "computedAt": "2026-11-06T04:57:59.718Z",
-    "priceUSD": 75696.8,
-    "priceEUR": 67610,
-    "change24h": -0.37259854250925745
+    "computedAt": "2026-11-06T12:46:47.168Z",
+    "priceUSD": 76077.5,
+    "priceEUR": 68132.9,
+    "change24h": 0.12845502560546385
   },
   "history": [
     {
@@ -8960,7 +8960,12 @@
       "t": "2026-11-06T04:57:59.721Z",
       "equityEUR": 99.21,
       "priceEUR": 67610
+    },
+    {
+      "t": "2026-11-06T12:46:47.172Z",
+      "equityEUR": 96.36,
+      "priceEUR": 68132.9
     }
   ],
-  "lastRun": "2026-11-06T04:57:59.721Z"
+  "lastRun": "2026-11-06T12:46:47.172Z"
 }
