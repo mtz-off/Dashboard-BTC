@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 73.71,
-  "equityEUR": 96.36,
+  "equityEUR": 97.34,
   "stopped": false,
   "openPositions": [
     {
@@ -1086,19 +1086,19 @@
     }
   ],
   "lastSignal": {
-    "price": 76141.63165295994,
+    "price": 75709.26056208157,
     "direction": "SHORT",
-    "score": -2.88,
-    "strength": 0.36,
-    "atr14": 1040.2980485084843,
+    "score": -2.67,
+    "strength": 0.33,
+    "atr14": 1061.9816814668136,
     "indicators": {
-      "ema20": 76345.25519442702,
-      "ema50": 77276.51095150788,
-      "rsi14": 41.104176843498976,
-      "macdHist": 158.15651776932782,
-      "bbUpper": 76355.97362177525,
-      "bbMid": 75909.56867020516,
-      "bbLower": 75463.16371863507
+      "ema20": 76025.89048329147,
+      "ema50": 76892.85825635918,
+      "rsi14": 39.084577993245965,
+      "macdHist": 113.13047329516348,
+      "bbUpper": 76240.16830096063,
+      "bbMid": 75822.71389631665,
+      "bbLower": 75405.25949167267
     },
     "fearGreed": {
       "value": 28,
@@ -1108,6 +1108,36 @@
     "fundingRate": null,
     "newsHighlights": [
       {
+        "title": "Bitcoin price dips under $75K as crypto markets miss tech-stock rebound",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
+        "title": "US Sanctions 45 More Targets Tied to Alleged Crypto Scam Empire Prince Group",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Crypto Card Provider Gnosis Pay Says Hackers Accessed Customer Data",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Crypto Liquidations Top $1 Billion as Bitcoin Tests 11-Week Low",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Nigeria sets new crypto licensing rules, bans algorithmic stablecoins",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Morning Minute: Bitcoin Erases Election Rally as AI Stocks Crater",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
+      {
         "title": "Bitcoin steadies after AI-led selloff as eyes turn to latest U.S. jobs figures",
         "source": "CoinDesk",
         "itemScore": -1
@@ -1116,57 +1146,27 @@
         "title": "Bitcoin holds $75K as AI regulation fears see KOSPI halted after 8% crash",
         "source": "Cointelegraph",
         "itemScore": -3
-      },
-      {
-        "title": "Greece approves 10% tax on crypto gains starting in 2027",
-        "source": "Cointelegraph",
-        "itemScore": 1
-      },
-      {
-        "title": "Greece approves 10% tax on crypto gains and 15% levy on DeFi income",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "Bitcoin, Ether ETFs post $530M outflows as election gains evaporate",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Core Scientific to quit Bitcoin mining by year-end as AI business surges",
-        "source": "Cointelegraph",
-        "itemScore": 1
-      },
-      {
-        "title": "Bitcoin Fixes This? Paraguay President Resigns After Bank Lockout Hits 60% of Country",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Mercado Bitcoin Said Its Hack Was Contained, But Blockchain Data Tells a Different Story",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=76345 vs EMA50=77277",
+        "detail": "EMA20=76026 vs EMA50=76893",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "41.1",
+        "detail": "39.1",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "158.2",
-        "points": 1.95
+        "detail": "113.1",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 76142 vs [75463, 76356]",
+        "detail": "prix 75709 vs [75405, 76240]",
         "points": 0
       },
       {
@@ -1176,14 +1176,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -7",
-        "points": -2.33
+        "detail": "30 articles pertinents, score brut -5",
+        "points": -1.67
       }
     ],
-    "computedAt": "2026-11-06T12:46:47.168Z",
-    "priceUSD": 76077.5,
-    "priceEUR": 68132.9,
-    "change24h": 0.12845502560546385
+    "computedAt": "2026-11-06T19:49:46.904Z",
+    "priceUSD": 75704.7,
+    "priceEUR": 67953.4,
+    "change24h": -0.36220105580554474
   },
   "history": [
     {
@@ -8965,7 +8965,12 @@
       "t": "2026-11-06T12:46:47.172Z",
       "equityEUR": 96.36,
       "priceEUR": 68132.9
+    },
+    {
+      "t": "2026-11-06T19:49:46.907Z",
+      "equityEUR": 97.34,
+      "priceEUR": 67953.4
     }
   ],
-  "lastRun": "2026-11-06T12:46:47.172Z"
+  "lastRun": "2026-11-06T19:49:46.907Z"
 }
