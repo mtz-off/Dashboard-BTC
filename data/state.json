@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 73.71,
-  "equityEUR": 96.47,
+  "equityEUR": 97.39,
   "stopped": false,
   "openPositions": [
     {
@@ -1086,19 +1086,19 @@
     }
   ],
   "lastSignal": {
-    "price": 75885.21734791574,
+    "price": 75693.5329549355,
     "direction": "SHORT",
-    "score": -0.72,
-    "strength": 0.09,
-    "atr14": 626.5813763386177,
+    "score": -1,
+    "strength": 0.13,
+    "atr14": 602.6088433870266,
     "indicators": {
-      "ema20": 75804.77743511353,
-      "ema50": 76028.829296274,
-      "rsi14": 53.46823668837123,
-      "macdHist": 28.44359526287218,
-      "bbUpper": 75905.30793500035,
-      "bbMid": 75758.52977951668,
-      "bbLower": 75611.75162403302
+      "ema20": 75818.07001017255,
+      "ema50": 75988.88307893202,
+      "rsi14": 42.71660275917692,
+      "macdHist": 0.6687099835635948,
+      "bbUpper": 75984.62226932187,
+      "bbMid": 75799.43403987576,
+      "bbLower": 75614.24581042965
     },
     "fearGreed": {
       "value": 28,
@@ -1106,57 +1106,26 @@
       "timestamp": 1794096000000
     },
     "fundingRate": null,
-    "newsHighlights": [
-      {
-        "title": "Bitcoin price dips under $75K as crypto markets miss tech-stock rebound",
-        "source": "Cointelegraph",
-        "itemScore": 1
-      },
-      {
-        "title": "US Sanctions 45 More Targets Tied to Alleged Crypto Scam Empire Prince Group",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Crypto Card Provider Gnosis Pay Says Hackers Accessed Customer Data",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Crypto Liquidations Top $1 Billion as Bitcoin Tests 11-Week Low",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Nigeria sets new crypto licensing rules, bans algorithmic stablecoins",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Morning Minute: Bitcoin Erases Election Rally as AI Stocks Crater",
-        "source": "Decrypt",
-        "itemScore": 1
-      }
-    ],
+    "newsHighlights": [],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=75805 vs EMA50=76029",
+        "detail": "EMA20=75818 vs EMA50=75989",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "53.5",
-        "points": 0
+        "detail": "42.7",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "28.4",
-        "points": 1.95
+        "detail": "0.7",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 75885 vs [75612, 75905]",
+        "detail": "prix 75694 vs [75614, 75985]",
         "points": 0
       },
       {
@@ -1166,14 +1135,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "23 articles pertinents, score brut -2",
-        "points": -0.67
+        "detail": "15 articles pertinents, score brut 0",
+        "points": 0
       }
     ],
-    "computedAt": "2026-11-08T12:12:00.000Z",
-    "priceUSD": 75862.1,
-    "priceEUR": 68113.8,
-    "change24h": 0.1477223822511475
+    "computedAt": "2026-11-08T17:55:54.922Z",
+    "priceUSD": 75685.9,
+    "priceEUR": 67943.8,
+    "change24h": -0.0848842643319792
   },
   "history": [
     {
@@ -9000,7 +8969,12 @@
       "t": "2026-11-08T12:12:00.004Z",
       "equityEUR": 96.47,
       "priceEUR": 68113.8
+    },
+    {
+      "t": "2026-11-08T17:55:54.924Z",
+      "equityEUR": 97.39,
+      "priceEUR": 67943.8
     }
   ],
-  "lastRun": "2026-11-08T12:12:00.004Z"
+  "lastRun": "2026-11-08T17:55:54.924Z"
 }
