@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 73.71,
-  "equityEUR": 107.6,
+  "equityEUR": 104.85,
   "stopped": false,
   "openPositions": [
     {
@@ -1086,19 +1086,19 @@
     }
   ],
   "lastSignal": {
-    "price": 73755.54047978371,
+    "price": 74583.77792605471,
     "direction": "SHORT",
-    "score": -2.45,
-    "strength": 0.31,
-    "atr14": 707.5808374880306,
+    "score": -1.5,
+    "strength": 0.19,
+    "atr14": 792.6994306372562,
     "indicators": {
-      "ema20": 74964.38483317311,
-      "ema50": 75472.42853083789,
-      "rsi14": 28.384222143211943,
-      "macdHist": -121.56433112951277,
-      "bbUpper": 76560.81895078486,
-      "bbMid": 75150.69780502762,
-      "bbLower": 73740.57665927039
+      "ema20": 74800.634939654,
+      "ema50": 75192.36472843456,
+      "rsi14": 45.926072540459444,
+      "macdHist": 78.02819645049632,
+      "bbUpper": 75470.80607590296,
+      "bbMid": 74671.64023431076,
+      "bbLower": 73872.47439271856
     },
     "fearGreed": {
       "value": 29,
@@ -1106,26 +1106,57 @@
       "timestamp": 1794182400000
     },
     "fundingRate": null,
-    "newsHighlights": [],
+    "newsHighlights": [
+      {
+        "title": "Mercado Bitcoin begins post-hack reopening without a timeline for withdrawals",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin bulls can't rely on ETF flows",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Nvidia-led tech selloff weighs on crypto majors",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Live news: Bitcoin narrows loss as Nasdaq surges more than 2%",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Coinbase gets full U.S. trust charter from federal banking regulator",
+        "source": "CoinDesk",
+        "itemScore": -2
+      },
+      {
+        "title": "Bitcoin ETFs shed $1.3B in biggest weekly outflow since late June",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      }
+    ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=74964 vs EMA50=75472",
+        "detail": "EMA20=74801 vs EMA50=75192",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "28.4",
-        "points": 1.5
+        "detail": "45.9",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-121.6",
-        "points": -1.95
+        "detail": "78.0",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 73756 vs [73741, 76561]",
+        "detail": "prix 74584 vs [73872, 75471]",
         "points": 0
       },
       {
@@ -1135,14 +1166,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "14 articles pertinents, score brut 0",
-        "points": 0
+        "detail": "25 articles pertinents, score brut -3",
+        "points": -1
       }
     ],
-    "computedAt": "2026-11-09T07:59:59.167Z",
-    "priceUSD": 73777.1,
-    "priceEUR": 66067,
-    "change24h": -1.2915025474161768
+    "computedAt": "2026-11-09T18:39:58.309Z",
+    "priceUSD": 74579.6,
+    "priceEUR": 66571.5,
+    "change24h": -0.21781478785801414
   },
   "history": [
     {
@@ -8989,7 +9020,12 @@
       "t": "2026-11-09T07:59:59.170Z",
       "equityEUR": 107.6,
       "priceEUR": 66067
+    },
+    {
+      "t": "2026-11-09T18:39:58.312Z",
+      "equityEUR": 104.85,
+      "priceEUR": 66571.5
     }
   ],
-  "lastRun": "2026-11-09T07:59:59.170Z"
+  "lastRun": "2026-11-09T18:39:58.312Z"
 }
