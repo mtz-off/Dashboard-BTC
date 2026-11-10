@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 73.71,
-  "equityEUR": 111.08,
+  "equityEUR": 107.67,
   "stopped": false,
   "openPositions": [
     {
@@ -1086,19 +1086,19 @@
     }
   ],
   "lastSignal": {
-    "price": 72909.84717078015,
+    "price": 73802.40753209603,
     "direction": "SHORT",
-    "score": -5.45,
-    "strength": 0.68,
-    "atr14": 856.1195758664926,
+    "score": -6.5,
+    "strength": 0.81,
+    "atr14": 853.30136132269,
     "indicators": {
-      "ema20": 74255.53483584613,
-      "ema50": 74716.8104274437,
-      "rsi14": 31.90039988893193,
-      "macdHist": -155.62034525255376,
-      "bbUpper": 75661.51103252225,
-      "bbMid": 74473.58527867646,
-      "bbLower": 73285.65952483067
+      "ema20": 73967.43007715774,
+      "ema50": 74496.99192063107,
+      "rsi14": 45.665321020404626,
+      "macdHist": -24.37543998018748,
+      "bbUpper": 75271.00276087783,
+      "bbMid": 74076.20737303156,
+      "bbLower": 72881.41198518529
     },
     "fearGreed": {
       "value": 32,
@@ -1107,6 +1107,21 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Can crypto trust firms compete with banks in US derivatives settlements?",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Goldman, Citi and Global Banks Commit $270 Million to Challenge Crypto’s Stablecoin Giants",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Mercado Bitcoin to resume cash withdrawals after $49M hack",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin Falls as Hot US Inflation Fuels Fears of Bigger Fed Rate Hike",
         "source": "Decrypt",
@@ -1131,43 +1146,28 @@
         "title": "&#39;Tough Questions&#39; Ahead: Warren Targets Prediction Markets, Trump Crypto as Banking Chair",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "BlackRock Bitcoin ETF outflows hit $1.66B over seven trading sessions",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Binance Hack Launderers Mint Elon Musk and Animal Meme Coins to Move Stolen Crypto",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin in Limbo as Stocks Rebound Ahead of US Inflation Report",
-        "source": "Decrypt",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=74256 vs EMA50=74717",
+        "detail": "EMA20=73967 vs EMA50=74497",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "31.9",
-        "points": -0.5
+        "detail": "45.7",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-155.6",
-        "points": -1.95
+        "detail": "-24.4",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 72910 vs [73286, 75662]",
-        "points": 1
+        "detail": "prix 73802 vs [72881, 75271]",
+        "points": 0
       },
       {
         "factor": "Fear & Greed Index",
@@ -1176,14 +1176,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -6",
-        "points": -2
+        "detail": "30 articles pertinents, score brut -9",
+        "points": -3
       }
     ],
-    "computedAt": "2026-11-10T17:03:07.728Z",
-    "priceUSD": 72908,
-    "priceEUR": 65425.5,
-    "change24h": -3.1162835816730547
+    "computedAt": "2026-11-10T22:21:52.873Z",
+    "priceUSD": 73723.4,
+    "priceEUR": 66053.7,
+    "change24h": -2.032740179474349
   },
   "history": [
     {
@@ -9050,7 +9050,12 @@
       "t": "2026-11-10T17:03:07.730Z",
       "equityEUR": 111.08,
       "priceEUR": 65425.5
+    },
+    {
+      "t": "2026-11-10T22:21:52.877Z",
+      "equityEUR": 107.67,
+      "priceEUR": 66053.7
     }
   ],
-  "lastRun": "2026-11-10T17:03:07.730Z"
+  "lastRun": "2026-11-10T22:21:52.877Z"
 }
