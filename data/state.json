@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 73.71,
-  "equityEUR": 107.57,
+  "equityEUR": 111.08,
   "stopped": false,
   "openPositions": [
     {
@@ -1086,19 +1086,19 @@
     }
   ],
   "lastSignal": {
-    "price": 74190.28718171157,
+    "price": 72909.84717078015,
     "direction": "SHORT",
-    "score": -5.12,
-    "strength": 0.64,
-    "atr14": 789.9434553828986,
+    "score": -5.45,
+    "strength": 0.68,
+    "atr14": 856.1195758664926,
     "indicators": {
-      "ema20": 74731.20208021846,
-      "ema50": 74997.58331635642,
-      "rsi14": 39.78645352659147,
-      "macdHist": -39.61067820758802,
-      "bbUpper": 75381.92323633803,
-      "bbMid": 74823.50375825878,
-      "bbLower": 74265.08428017954
+      "ema20": 74255.53483584613,
+      "ema50": 74716.8104274437,
+      "rsi14": 31.90039988893193,
+      "macdHist": -155.62034525255376,
+      "bbUpper": 75661.51103252225,
+      "bbMid": 74473.58527867646,
+      "bbLower": 73285.65952483067
     },
     "fearGreed": {
       "value": 32,
@@ -1107,6 +1107,31 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin Falls as Hot US Inflation Fuels Fears of Bigger Fed Rate Hike",
+        "source": "Decrypt",
+        "itemScore": -2
+      },
+      {
+        "title": "Poland’s lower house backs sanctions bill covering crypto freezes",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin breaks with stocks, declines as ETF outflows mount, MARA reduces holdings",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin lags stock rebound in advance of U.S. inflation report",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "&#39;Tough Questions&#39; Ahead: Warren Targets Prediction Markets, Trump Crypto as Banking Chair",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
       {
         "title": "BlackRock Bitcoin ETF outflows hit $1.66B over seven trading sessions",
         "source": "Cointelegraph",
@@ -1121,52 +1146,27 @@
         "title": "Bitcoin in Limbo as Stocks Rebound Ahead of US Inflation Report",
         "source": "Decrypt",
         "itemScore": 1
-      },
-      {
-        "title": "Mercado Bitcoin begins post-hack reopening without a timeline for withdrawals",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin bulls can't rely on ETF flows",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "Nvidia-led tech selloff weighs on crypto majors",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Coinbase gets full U.S. trust charter from federal banking regulator",
-        "source": "CoinDesk",
-        "itemScore": -2
-      },
-      {
-        "title": "Bitcoin ETFs shed $1.3B in biggest weekly outflow since late June",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=74731 vs EMA50=74998",
+        "detail": "EMA20=74256 vs EMA50=74717",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "39.8",
+        "detail": "31.9",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-39.6",
+        "detail": "-155.6",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 74190 vs [74265, 75382]",
+        "detail": "prix 72910 vs [73286, 75662]",
         "points": 1
       },
       {
@@ -1176,14 +1176,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -5",
-        "points": -1.67
+        "detail": "30 articles pertinents, score brut -6",
+        "points": -2
       }
     ],
-    "computedAt": "2026-11-10T09:11:43.337Z",
-    "priceUSD": 74155.4,
-    "priceEUR": 66071.5,
-    "change24h": -1.458677449832647
+    "computedAt": "2026-11-10T17:03:07.728Z",
+    "priceUSD": 72908,
+    "priceEUR": 65425.5,
+    "change24h": -3.1162835816730547
   },
   "history": [
     {
@@ -9045,7 +9045,12 @@
       "t": "2026-11-10T09:11:43.340Z",
       "equityEUR": 107.57,
       "priceEUR": 66071.5
+    },
+    {
+      "t": "2026-11-10T17:03:07.730Z",
+      "equityEUR": 111.08,
+      "priceEUR": 65425.5
     }
   ],
-  "lastRun": "2026-11-10T09:11:43.340Z"
+  "lastRun": "2026-11-10T17:03:07.730Z"
 }
