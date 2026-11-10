@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 73.71,
-  "equityEUR": 104.85,
+  "equityEUR": 103.93,
   "stopped": false,
   "openPositions": [
     {
@@ -1086,27 +1086,37 @@
     }
   ],
   "lastSignal": {
-    "price": 74583.77792605471,
+    "price": 74953.88528702996,
     "direction": "SHORT",
-    "score": -1.5,
-    "strength": 0.19,
-    "atr14": 792.6994306372562,
+    "score": -1.83,
+    "strength": 0.23,
+    "atr14": 802.0710790209733,
     "indicators": {
-      "ema20": 74800.634939654,
-      "ema50": 75192.36472843456,
-      "rsi14": 45.926072540459444,
-      "macdHist": 78.02819645049632,
-      "bbUpper": 75470.80607590296,
-      "bbMid": 74671.64023431076,
-      "bbLower": 73872.47439271856
+      "ema20": 74906.6609325404,
+      "ema50": 75146.24288571595,
+      "rsi14": 50.29205578420933,
+      "macdHist": 71.25258200557644,
+      "bbUpper": 75520.82164562584,
+      "bbMid": 74713.21472457996,
+      "bbLower": 73905.60780353408
     },
     "fearGreed": {
-      "value": 29,
+      "value": 32,
       "classification": "Fear",
-      "timestamp": 1794182400000
+      "timestamp": 1794268800000
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Binance Hack Launderers Mint Elon Musk and Animal Meme Coins to Move Stolen Crypto",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin in Limbo as Stocks Rebound Ahead of US Inflation Report",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
       {
         "title": "Mercado Bitcoin begins post-hack reopening without a timeline for withdrawals",
         "source": "Cointelegraph",
@@ -1123,11 +1133,6 @@
         "itemScore": -1
       },
       {
-        "title": "Live news: Bitcoin narrows loss as Nasdaq surges more than 2%",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
         "title": "Coinbase gets full U.S. trust charter from federal banking regulator",
         "source": "CoinDesk",
         "itemScore": -2
@@ -1141,39 +1146,39 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=74801 vs EMA50=75192",
+        "detail": "EMA20=74907 vs EMA50=75146",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "45.9",
+        "detail": "50.3",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "78.0",
+        "detail": "71.3",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 74584 vs [73872, 75471]",
+        "detail": "prix 74954 vs [73906, 75521]",
         "points": 0
       },
       {
         "factor": "Fear & Greed Index",
-        "detail": "29 (Fear)",
+        "detail": "32 (Fear)",
         "points": 0
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "25 articles pertinents, score brut -3",
-        "points": -1
+        "detail": "29 articles pertinents, score brut -4",
+        "points": -1.33
       }
     ],
-    "computedAt": "2026-11-09T18:39:58.309Z",
-    "priceUSD": 74579.6,
-    "priceEUR": 66571.5,
-    "change24h": -0.21781478785801414
+    "computedAt": "2026-11-10T01:46:19.057Z",
+    "priceUSD": 74893.7,
+    "priceEUR": 66741.2,
+    "change24h": -0.47758829868803904
   },
   "history": [
     {
@@ -9025,7 +9030,12 @@
       "t": "2026-11-09T18:39:58.312Z",
       "equityEUR": 104.85,
       "priceEUR": 66571.5
+    },
+    {
+      "t": "2026-11-10T01:46:19.060Z",
+      "equityEUR": 103.93,
+      "priceEUR": 66741.2
     }
   ],
-  "lastRun": "2026-11-09T18:39:58.312Z"
+  "lastRun": "2026-11-10T01:46:19.060Z"
 }
