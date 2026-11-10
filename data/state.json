@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 73.71,
-  "equityEUR": 103.93,
+  "equityEUR": 107.57,
   "stopped": false,
   "openPositions": [
     {
@@ -1086,19 +1086,19 @@
     }
   ],
   "lastSignal": {
-    "price": 74953.88528702996,
+    "price": 74190.28718171157,
     "direction": "SHORT",
-    "score": -1.83,
-    "strength": 0.23,
-    "atr14": 802.0710790209733,
+    "score": -5.12,
+    "strength": 0.64,
+    "atr14": 789.9434553828986,
     "indicators": {
-      "ema20": 74906.6609325404,
-      "ema50": 75146.24288571595,
-      "rsi14": 50.29205578420933,
-      "macdHist": 71.25258200557644,
-      "bbUpper": 75520.82164562584,
-      "bbMid": 74713.21472457996,
-      "bbLower": 73905.60780353408
+      "ema20": 74731.20208021846,
+      "ema50": 74997.58331635642,
+      "rsi14": 39.78645352659147,
+      "macdHist": -39.61067820758802,
+      "bbUpper": 75381.92323633803,
+      "bbMid": 74823.50375825878,
+      "bbLower": 74265.08428017954
     },
     "fearGreed": {
       "value": 32,
@@ -1107,6 +1107,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "BlackRock Bitcoin ETF outflows hit $1.66B over seven trading sessions",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "Binance Hack Launderers Mint Elon Musk and Animal Meme Coins to Move Stolen Crypto",
         "source": "Decrypt",
@@ -1146,23 +1151,23 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=74907 vs EMA50=75146",
+        "detail": "EMA20=74731 vs EMA50=74998",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "50.3",
-        "points": 0
+        "detail": "39.8",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "71.3",
-        "points": 1.5
+        "detail": "-39.6",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 74954 vs [73906, 75521]",
-        "points": 0
+        "detail": "prix 74190 vs [74265, 75382]",
+        "points": 1
       },
       {
         "factor": "Fear & Greed Index",
@@ -1171,14 +1176,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "29 articles pertinents, score brut -4",
-        "points": -1.33
+        "detail": "30 articles pertinents, score brut -5",
+        "points": -1.67
       }
     ],
-    "computedAt": "2026-11-10T01:46:19.057Z",
-    "priceUSD": 74893.7,
-    "priceEUR": 66741.2,
-    "change24h": -0.47758829868803904
+    "computedAt": "2026-11-10T09:11:43.337Z",
+    "priceUSD": 74155.4,
+    "priceEUR": 66071.5,
+    "change24h": -1.458677449832647
   },
   "history": [
     {
@@ -9035,7 +9040,12 @@
       "t": "2026-11-10T01:46:19.060Z",
       "equityEUR": 103.93,
       "priceEUR": 66741.2
+    },
+    {
+      "t": "2026-11-10T09:11:43.340Z",
+      "equityEUR": 107.57,
+      "priceEUR": 66071.5
     }
   ],
-  "lastRun": "2026-11-10T01:46:19.060Z"
+  "lastRun": "2026-11-10T09:11:43.340Z"
 }
