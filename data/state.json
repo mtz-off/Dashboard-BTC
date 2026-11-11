@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 73.71,
-  "equityEUR": 107.5,
+  "equityEUR": 101.28,
   "stopped": false,
   "openPositions": [
     {
@@ -1086,19 +1086,19 @@
     }
   ],
   "lastSignal": {
-    "price": 73617.4091314257,
+    "price": 74596.79883209153,
     "direction": "SHORT",
-    "score": -2.83,
-    "strength": 0.35,
-    "atr14": 816.6969515935523,
+    "score": -2.22,
+    "strength": 0.28,
+    "atr14": 805.1297529469256,
     "indicators": {
-      "ema20": 73764.795353572,
-      "ema50": 74181.19585321519,
-      "rsi14": 45.965878858918366,
-      "macdHist": 57.93705979656869,
-      "bbUpper": 74197.06422715672,
-      "bbMid": 73592.22543338068,
-      "bbLower": 72987.38663960464
+      "ema20": 73903.57186202795,
+      "ema50": 74129.74307669351,
+      "rsi14": 60.94072945760442,
+      "macdHist": 105.19376647637156,
+      "bbUpper": 74321.64383533462,
+      "bbMid": 73789.10026480684,
+      "bbLower": 73256.55669427906
     },
     "fearGreed": {
       "value": 29,
@@ -1107,6 +1107,26 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin hovers near $74K as stocks rise despite US bond yield rebound",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
+        "title": "Deutsche Bank launches crypto custody for companies and institutions",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Barclays boosts BlackRock Bitcoin ETF stake 48% as banks expand holdings",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "Can crypto trust firms compete with banks in US derivatives settlements?",
         "source": "Cointelegraph",
@@ -1118,56 +1138,36 @@
         "itemScore": -1
       },
       {
-        "title": "Mercado Bitcoin to resume cash withdrawals after $49M hack",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
         "title": "Bitcoin Falls as Hot US Inflation Fuels Fears of Bigger Fed Rate Hike",
         "source": "Decrypt",
         "itemScore": -2
       },
       {
-        "title": "Poland’s lower house backs sanctions bill covering crypto freezes",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
         "title": "Bitcoin breaks with stocks, declines as ETF outflows mount, MARA reduces holdings",
         "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin lags stock rebound in advance of U.S. inflation report",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "&#39;Tough Questions&#39; Ahead: Warren Targets Prediction Markets, Trump Crypto as Banking Chair",
-        "source": "Decrypt",
         "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=73765 vs EMA50=74181",
+        "detail": "EMA20=73904 vs EMA50=74130",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "46.0",
-        "points": 0
+        "detail": "60.9",
+        "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "57.9",
-        "points": 1.5
+        "detail": "105.2",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 73617 vs [72987, 74197]",
-        "points": 0
+        "detail": "prix 74597 vs [73257, 74322]",
+        "points": -1
       },
       {
         "factor": "Fear & Greed Index",
@@ -1176,14 +1176,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -7",
-        "points": -2.33
+        "detail": "30 articles pertinents, score brut -5",
+        "points": -1.67
       }
     ],
-    "computedAt": "2026-11-11T09:22:44.336Z",
-    "priceUSD": 73599.3,
-    "priceEUR": 66084.6,
-    "change24h": -0.13582200126458463
+    "computedAt": "2026-11-11T17:20:14.028Z",
+    "priceUSD": 74512.1,
+    "priceEUR": 67229.4,
+    "change24h": 1.1027226815957956
   },
   "history": [
     {
@@ -9065,7 +9065,12 @@
       "t": "2026-11-11T09:22:44.339Z",
       "equityEUR": 107.5,
       "priceEUR": 66084.6
+    },
+    {
+      "t": "2026-11-11T17:20:14.032Z",
+      "equityEUR": 101.28,
+      "priceEUR": 67229.4
     }
   ],
-  "lastRun": "2026-11-11T09:22:44.339Z"
+  "lastRun": "2026-11-11T17:20:14.032Z"
 }
