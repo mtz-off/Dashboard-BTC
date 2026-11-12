@@ -5,25 +5,25 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 73.71,
-  "equityEUR": 109.71,
+  "balanceEUR": 86.26,
+  "equityEUR": 115.01,
   "stopped": false,
   "openPositions": [
     {
-      "id": "5710c292-8642-4b8b-b791-86f96f18a2a2",
+      "id": "e6c7e632-8dff-4152-8558-d715c08a182b",
       "side": "SHORT",
-      "entryPrice": 67780.3,
-      "entryTime": "2026-11-05T18:29:26.881Z",
-      "sizeEUR": 24.57,
-      "notionalEUR": 368.55,
+      "entryPrice": 64703.4,
+      "entryTime": "2026-11-12T20:48:03.932Z",
+      "sizeEUR": 28.75,
+      "notionalEUR": 431.25,
       "leverage": 15,
-      "qtyBTC": 0.00543742,
-      "sl": 68997.23,
-      "tp": 65346.44,
-      "slPct": 1.8,
-      "tpPct": 3.59,
-      "signalScore": -4,
-      "signalStrength": 0.5,
+      "qtyBTC": 0.00666503,
+      "sl": 65627.89,
+      "tp": 62854.42,
+      "slPct": 1.43,
+      "tpPct": 2.86,
+      "signalScore": -3.33,
+      "signalStrength": 0.42,
       "status": "OPEN"
     }
   ],
@@ -1083,22 +1083,38 @@
       "pnlPct": -5.15,
       "reason": "SL",
       "status": "CLOSED"
+    },
+    {
+      "id": "5710c292-8642-4b8b-b791-86f96f18a2a2",
+      "side": "SHORT",
+      "entryPrice": 67780.3,
+      "entryTime": "2026-11-05T18:29:26.881Z",
+      "exitPrice": 64703.4,
+      "exitTime": "2026-11-12T20:48:03.932Z",
+      "sizeEUR": 24.57,
+      "notionalEUR": 368.55,
+      "leverage": 15,
+      "qtyBTC": 0.00543742,
+      "pnlEUR": 16.73,
+      "pnlPct": 4.54,
+      "reason": "TP",
+      "status": "CLOSED"
     }
   ],
   "lastSignal": {
-    "price": 72791.75565737567,
+    "price": 71486.37680300327,
     "direction": "SHORT",
-    "score": -5.45,
-    "strength": 0.68,
-    "atr14": 792.5451605325394,
+    "score": -3.33,
+    "strength": 0.42,
+    "atr14": 851.1730204569202,
     "indicators": {
-      "ema20": 73553.98071273885,
-      "ema50": 73860.30954709036,
-      "rsi14": 30.858012470718975,
-      "macdHist": -102.85079453900377,
-      "bbUpper": 74733.65537241363,
-      "bbMid": 73761.09489135898,
-      "bbLower": 72788.53441030433
+      "ema20": 72538.88563710362,
+      "ema50": 73277.4995608193,
+      "rsi14": 23.73604750482545,
+      "macdHist": -132.7233648352834,
+      "bbUpper": 74515.2087468171,
+      "bbMid": 72760.60820410085,
+      "bbLower": 71006.0076613846
     },
     "fearGreed": {
       "value": 28,
@@ -1107,6 +1123,26 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Why the Path to Quantum Resistance Runs Uphill for Bitcoin Wallet Makers",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
+      {
+        "title": "Illinois Crypto Tax Draws Unlikely Alliance of DOJ, Banks and DeFi",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Tron, Tether and Chainalysis Form a New Crypto-Crime Task Force—Replacing One That Just Collapsed",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Crypto hack losses equal 57 cents per $1 earned onchain: Ark’s Valente",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin weakness erases September's bullish signal",
         "source": "CoinDesk",
@@ -1118,32 +1154,12 @@
         "itemScore": -1
       },
       {
-        "title": "BlackRock Bitcoin ETF outflows hit $2B over nine sessions",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "South Korea to permit crypto withdrawal freezes during hacking threats",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Stablecoin Drain, ETF Outflows Leave Bitcoin &#39;Running on Empty&#39;",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Deutsche Bank Goes Live With Crypto Custody After a Five-Year Buildup",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin hovers near $74K as stocks rise despite US bond yield rebound",
-        "source": "Cointelegraph",
+        "title": "Live updates: Bitcoin slumps below $72,000 as Nvidia's Huang resigns, interest rates surge",
+        "source": "CoinDesk",
         "itemScore": 1
       },
       {
-        "title": "Deutsche Bank launches crypto custody for companies and institutions",
+        "title": "BlackRock Bitcoin ETF outflows hit $2B over nine sessions",
         "source": "Cointelegraph",
         "itemScore": -1
       }
@@ -1151,22 +1167,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=73554 vs EMA50=73860",
+        "detail": "EMA20=72539 vs EMA50=73277",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "30.9",
-        "points": -0.5
+        "detail": "23.7",
+        "points": 1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-102.9",
-        "points": -1.95
+        "detail": "-132.7",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 72792 vs [72789, 74734]",
+        "detail": "prix 71486 vs [71006, 74515]",
         "points": 0
       },
       {
@@ -1176,14 +1192,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -3",
-        "points": -1
+        "detail": "30 articles pertinents, score brut -4",
+        "points": -1.33
       }
     ],
-    "computedAt": "2026-11-12T13:03:27.239Z",
-    "priceUSD": 72805.8,
-    "priceEUR": 65678,
-    "change24h": -1.518629486598534
+    "computedAt": "2026-11-12T20:48:03.929Z",
+    "priceUSD": 71513.9,
+    "priceEUR": 64703.4,
+    "change24h": -3.266128759544703
   },
   "history": [
     {
@@ -9085,7 +9101,12 @@
       "t": "2026-11-12T13:03:27.241Z",
       "equityEUR": 109.71,
       "priceEUR": 65678
+    },
+    {
+      "t": "2026-11-12T20:48:03.932Z",
+      "equityEUR": 115.01,
+      "priceEUR": 64703.4
     }
   ],
-  "lastRun": "2026-11-12T13:03:27.241Z"
+  "lastRun": "2026-11-12T20:48:03.932Z"
 }
