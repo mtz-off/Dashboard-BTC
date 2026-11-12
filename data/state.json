@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 73.71,
-  "equityEUR": 104.87,
+  "equityEUR": 105.05,
   "stopped": false,
   "openPositions": [
     {
@@ -1086,27 +1086,32 @@
     }
   ],
   "lastSignal": {
-    "price": 73851.15422208888,
+    "price": 73743.3292286434,
     "direction": "SHORT",
-    "score": -1.17,
-    "strength": 0.15,
-    "atr14": 799.2300724230093,
+    "score": -4.95,
+    "strength": 0.62,
+    "atr14": 813.5891715600702,
     "indicators": {
-      "ema20": 74027.94067704689,
-      "ema50": 74144.5709854055,
-      "rsi14": 47.01838628792726,
-      "macdHist": 15.162572129007039,
-      "bbUpper": 74599.89075621581,
-      "bbMid": 73972.63590078517,
-      "bbLower": 73345.38104535453
+      "ema20": 73927.6138499581,
+      "ema50": 74078.67597399298,
+      "rsi14": 45.876438974283964,
+      "macdHist": -49.084752004989966,
+      "bbUpper": 74593.12114026572,
+      "bbMid": 73983.39456035827,
+      "bbLower": 73373.66798045082
     },
     "fearGreed": {
-      "value": 29,
+      "value": 28,
       "classification": "Fear",
-      "timestamp": 1794355200000
+      "timestamp": 1794441600000
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin listless, Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Stablecoin Drain, ETF Outflows Leave Bitcoin &#39;Running on Empty&#39;",
         "source": "Decrypt",
@@ -1141,39 +1146,39 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=74028 vs EMA50=74145",
+        "detail": "EMA20=73928 vs EMA50=74079",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "47.0",
+        "detail": "45.9",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "15.2",
-        "points": 1.5
+        "detail": "-49.1",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 73851 vs [73345, 74600]",
+        "detail": "prix 73743 vs [73374, 74593]",
         "points": 0
       },
       {
         "factor": "Fear & Greed Index",
-        "detail": "29 (Fear)",
+        "detail": "28 (Fear)",
         "points": 0
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -2",
-        "points": -0.67
+        "detail": "30 articles pertinents, score brut -3",
+        "points": -1
       }
     ],
-    "computedAt": "2026-11-11T23:36:20.360Z",
-    "priceUSD": 73844.8,
-    "priceEUR": 66567.6,
-    "change24h": 0.19728790193679832
+    "computedAt": "2026-11-12T04:16:03.460Z",
+    "priceUSD": 73672.7,
+    "priceEUR": 66535.4,
+    "change24h": -0.3460099961449277
   },
   "history": [
     {
@@ -9065,7 +9070,12 @@
       "t": "2026-11-11T23:36:20.363Z",
       "equityEUR": 104.87,
       "priceEUR": 66567.6
+    },
+    {
+      "t": "2026-11-12T04:16:03.463Z",
+      "equityEUR": 105.05,
+      "priceEUR": 66535.4
     }
   ],
-  "lastRun": "2026-11-11T23:36:20.363Z"
+  "lastRun": "2026-11-12T04:16:03.463Z"
 }
