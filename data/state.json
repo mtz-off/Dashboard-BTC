@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 73.71,
-  "equityEUR": 105.05,
+  "equityEUR": 109.71,
   "stopped": false,
   "openPositions": [
     {
@@ -1086,19 +1086,19 @@
     }
   ],
   "lastSignal": {
-    "price": 73743.3292286434,
+    "price": 72791.75565737567,
     "direction": "SHORT",
-    "score": -4.95,
-    "strength": 0.62,
-    "atr14": 813.5891715600702,
+    "score": -5.45,
+    "strength": 0.68,
+    "atr14": 792.5451605325394,
     "indicators": {
-      "ema20": 73927.6138499581,
-      "ema50": 74078.67597399298,
-      "rsi14": 45.876438974283964,
-      "macdHist": -49.084752004989966,
-      "bbUpper": 74593.12114026572,
-      "bbMid": 73983.39456035827,
-      "bbLower": 73373.66798045082
+      "ema20": 73553.98071273885,
+      "ema50": 73860.30954709036,
+      "rsi14": 30.858012470718975,
+      "macdHist": -102.85079453900377,
+      "bbUpper": 74733.65537241363,
+      "bbMid": 73761.09489135898,
+      "bbLower": 72788.53441030433
     },
     "fearGreed": {
       "value": 28,
@@ -1108,8 +1108,23 @@
     "fundingRate": null,
     "newsHighlights": [
       {
-        "title": "Bitcoin listless, Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
+        "title": "Bitcoin weakness erases September's bullish signal",
         "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Bitcoin dips with Nvidia as ETF outflows reach day five",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "BlackRock Bitcoin ETF outflows hit $2B over nine sessions",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "South Korea to permit crypto withdrawal freezes during hacking threats",
+        "source": "Cointelegraph",
         "itemScore": -1
       },
       {
@@ -1131,37 +1146,27 @@
         "title": "Deutsche Bank launches crypto custody for companies and institutions",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "Barclays boosts BlackRock Bitcoin ETF stake 48% as banks expand holdings",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=73928 vs EMA50=74079",
+        "detail": "EMA20=73554 vs EMA50=73860",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "45.9",
-        "points": 0
+        "detail": "30.9",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-49.1",
+        "detail": "-102.9",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 73743 vs [73374, 74593]",
+        "detail": "prix 72792 vs [72789, 74734]",
         "points": 0
       },
       {
@@ -1175,10 +1180,10 @@
         "points": -1
       }
     ],
-    "computedAt": "2026-11-12T04:16:03.460Z",
-    "priceUSD": 73672.7,
-    "priceEUR": 66535.4,
-    "change24h": -0.3460099961449277
+    "computedAt": "2026-11-12T13:03:27.239Z",
+    "priceUSD": 72805.8,
+    "priceEUR": 65678,
+    "change24h": -1.518629486598534
   },
   "history": [
     {
@@ -9075,7 +9080,12 @@
       "t": "2026-11-12T04:16:03.463Z",
       "equityEUR": 105.05,
       "priceEUR": 66535.4
+    },
+    {
+      "t": "2026-11-12T13:03:27.241Z",
+      "equityEUR": 109.71,
+      "priceEUR": 65678
     }
   ],
-  "lastRun": "2026-11-12T04:16:03.463Z"
+  "lastRun": "2026-11-12T13:03:27.241Z"
 }
