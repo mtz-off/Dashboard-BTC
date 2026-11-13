@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 98.66,
-  "equityEUR": 131.67,
+  "equityEUR": 133.45,
   "stopped": false,
   "openPositions": [
     {
@@ -1118,19 +1118,19 @@
     }
   ],
   "lastSignal": {
-    "price": 68591.18136301322,
+    "price": 68224.1466574666,
     "direction": "SHORT",
-    "score": -2.33,
-    "strength": 0.29,
-    "atr14": 1052.4957676599256,
+    "score": -2.67,
+    "strength": 0.33,
+    "atr14": 1025.5524499015416,
     "indicators": {
-      "ema20": 69635.94581779299,
-      "ema50": 71123.18173803267,
-      "rsi14": 31.84953149041654,
-      "macdHist": 84.79252214278335,
-      "bbUpper": 71672.82740050607,
-      "bbMid": 69530.57765128903,
-      "bbLower": 67388.327902072
+      "ema20": 69286.2423840948,
+      "ema50": 70696.28256053213,
+      "rsi14": 30.75001245231647,
+      "macdHist": 90.86776209061736,
+      "bbUpper": 69812.46621842032,
+      "bbMid": 68918.65446794417,
+      "bbLower": 68024.84271746803
     },
     "fearGreed": {
       "value": 20,
@@ -1139,6 +1139,26 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "US regulators move ahead on crypto trust charters as Senate scrutiny grows",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Trump’s First Democratic Picks for SEC and CFTC Could Reshape Crypto’s Regulators",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "U.S. Senate Banking Committee races toward hearing on new SEC nominations",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin hits 12-week low as dollar rallies on interest-rate outlook, liquidations top $1.6 billion",
         "source": "CoinDesk",
@@ -1150,11 +1170,6 @@
         "itemScore": -1
       },
       {
-        "title": "Live updates: Bitcoin plunges back towards bear market lows, wiping out late summer rally",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
         "title": "Bitcoin slides below $70K amid thin liquidity, ETF outflows",
         "source": "Cointelegraph",
         "itemScore": -1
@@ -1163,42 +1178,27 @@
         "title": "Bitcoin ETFs are now down over $1.5 billion in net outflows for the year",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "North Korea's Binance hack faces U.S. crackdown as DOJ targets $1.2 billion in stolen crypto",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Strategy stock sheds 5% amid MSCI index removal, Bitcoin sell-off",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Why the Path to Quantum Resistance Runs Uphill for Bitcoin Wallet Makers",
-        "source": "Decrypt",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=69636 vs EMA50=71123",
+        "detail": "EMA20=69286 vs EMA50=70696",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "31.8",
+        "detail": "30.8",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "84.8",
+        "detail": "90.9",
         "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 68591 vs [67388, 71673]",
+        "detail": "prix 68224 vs [68025, 69812]",
         "points": 0
       },
       {
@@ -1208,14 +1208,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -7",
-        "points": -2.33
+        "detail": "30 articles pertinents, score brut -8",
+        "points": -2.67
       }
     ],
-    "computedAt": "2026-11-13T16:55:18.402Z",
-    "priceUSD": 68560.6,
-    "priceEUR": 62206.3,
-    "change24h": -3.93733002478607
+    "computedAt": "2026-11-13T22:22:26.830Z",
+    "priceUSD": 68241.5,
+    "priceEUR": 61982,
+    "change24h": -4.384432267022738
   },
   "history": [
     {
@@ -9137,7 +9137,12 @@
       "t": "2026-11-13T16:55:18.407Z",
       "equityEUR": 131.67,
       "priceEUR": 62206.3
+    },
+    {
+      "t": "2026-11-13T22:22:26.833Z",
+      "equityEUR": 133.45,
+      "priceEUR": 61982
     }
   ],
-  "lastRun": "2026-11-13T16:55:18.407Z"
+  "lastRun": "2026-11-13T22:22:26.833Z"
 }
