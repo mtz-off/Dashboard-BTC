@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 98.66,
-  "equityEUR": 131.55,
+  "equityEUR": 131.67,
   "stopped": false,
   "openPositions": [
     {
@@ -1118,19 +1118,19 @@
     }
   ],
   "lastSignal": {
-    "price": 68721.53231412439,
+    "price": 68591.18136301322,
     "direction": "SHORT",
-    "score": -3,
-    "strength": 0.38,
-    "atr14": 984.878216357702,
+    "score": -2.33,
+    "strength": 0.29,
+    "atr14": 1052.4957676599256,
     "indicators": {
-      "ema20": 70387.54403822,
-      "ema50": 71905.61317700823,
-      "rsi14": 26.72293932197374,
-      "macdHist": -189.52995610704158,
-      "bbUpper": 73324.64280346828,
-      "bbMid": 70597.88073513495,
-      "bbLower": 67871.11866680163
+      "ema20": 69635.94581779299,
+      "ema50": 71123.18173803267,
+      "rsi14": 31.84953149041654,
+      "macdHist": 84.79252214278335,
+      "bbUpper": 71672.82740050607,
+      "bbMid": 69530.57765128903,
+      "bbLower": 67388.327902072
     },
     "fearGreed": {
       "value": 20,
@@ -1139,6 +1139,21 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin hits 12-week low as dollar rallies on interest-rate outlook, liquidations top $1.6 billion",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin Drops to $69K On &#39;Concentrated Liquidation&#39; and &#39;Weakening&#39; Demand",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Live updates: Bitcoin plunges back towards bear market lows, wiping out late summer rally",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin slides below $70K amid thin liquidity, ETF outflows",
         "source": "Cointelegraph",
@@ -1163,42 +1178,27 @@
         "title": "Why the Path to Quantum Resistance Runs Uphill for Bitcoin Wallet Makers",
         "source": "Decrypt",
         "itemScore": 1
-      },
-      {
-        "title": "Illinois Crypto Tax Draws Unlikely Alliance of DOJ, Banks and DeFi",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Tron, Tether and Chainalysis Form a New Crypto-Crime Task Force—Replacing One That Just Collapsed",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Crypto hack losses equal 57 cents per $1 earned onchain: Ark’s Valente",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=70388 vs EMA50=71906",
+        "detail": "EMA20=69636 vs EMA50=71123",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "26.7",
-        "points": 1.5
+        "detail": "31.8",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-189.5",
-        "points": -1.5
+        "detail": "84.8",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 68722 vs [67871, 73325]",
+        "detail": "prix 68591 vs [67388, 71673]",
         "points": 0
       },
       {
@@ -1208,14 +1208,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -6",
-        "points": -2
+        "detail": "30 articles pertinents, score brut -7",
+        "points": -2.33
       }
     ],
-    "computedAt": "2026-11-13T08:46:02.411Z",
-    "priceUSD": 68766.4,
-    "priceEUR": 62221.1,
-    "change24h": -3.648976400679835
+    "computedAt": "2026-11-13T16:55:18.402Z",
+    "priceUSD": 68560.6,
+    "priceEUR": 62206.3,
+    "change24h": -3.93733002478607
   },
   "history": [
     {
@@ -9132,7 +9132,12 @@
       "t": "2026-11-13T08:46:02.416Z",
       "equityEUR": 131.55,
       "priceEUR": 62221.1
+    },
+    {
+      "t": "2026-11-13T16:55:18.407Z",
+      "equityEUR": 131.67,
+      "priceEUR": 62206.3
     }
   ],
-  "lastRun": "2026-11-13T08:46:02.416Z"
+  "lastRun": "2026-11-13T16:55:18.407Z"
 }
