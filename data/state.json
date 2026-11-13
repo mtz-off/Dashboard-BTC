@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 86.26,
-  "equityEUR": 115.01,
+  "equityEUR": 118.69,
   "stopped": false,
   "openPositions": [
     {
@@ -1102,27 +1102,37 @@
     }
   ],
   "lastSignal": {
-    "price": 71486.37680300327,
+    "price": 70980.09904418791,
     "direction": "SHORT",
     "score": -3.33,
     "strength": 0.42,
-    "atr14": 851.1730204569202,
+    "atr14": 824.03821449359,
     "indicators": {
-      "ema20": 72538.88563710362,
-      "ema50": 73277.4995608193,
-      "rsi14": 23.73604750482545,
-      "macdHist": -132.7233648352834,
-      "bbUpper": 74515.2087468171,
-      "bbMid": 72760.60820410085,
-      "bbLower": 71006.0076613846
+      "ema20": 72014.04041333312,
+      "ema50": 72904.16992485795,
+      "rsi14": 21.540147359160912,
+      "macdHist": -67.35401091849849,
+      "bbUpper": 73944.63071947737,
+      "bbMid": 72155.22519084698,
+      "bbLower": 70365.81966221659
     },
     "fearGreed": {
-      "value": 28,
-      "classification": "Fear",
-      "timestamp": 1794441600000
+      "value": 20,
+      "classification": "Extreme Fear",
+      "timestamp": 1794528000000
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "North Korea's Binance hack faces U.S. crackdown as DOJ targets $1.2 billion in stolen crypto",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Strategy stock sheds 5% amid MSCI index removal, Bitcoin sell-off",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "Why the Path to Quantum Resistance Runs Uphill for Bitcoin Wallet Makers",
         "source": "Decrypt",
@@ -1152,54 +1162,44 @@
         "title": "Bitcoin dips with Nvidia as ETF outflows reach day five",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Live updates: Bitcoin slumps below $72,000 as Nvidia's Huang resigns, interest rates surge",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "BlackRock Bitcoin ETF outflows hit $2B over nine sessions",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=72539 vs EMA50=73277",
+        "detail": "EMA20=72014 vs EMA50=72904",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "23.7",
+        "detail": "21.5",
         "points": 1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-132.7",
+        "detail": "-67.4",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 71486 vs [71006, 74515]",
+        "detail": "prix 70980 vs [70366, 73945]",
         "points": 0
       },
       {
         "factor": "Fear & Greed Index",
-        "detail": "28 (Fear)",
-        "points": 0
+        "detail": "20 (Extreme Fear)",
+        "points": 1
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -4",
-        "points": -1.33
+        "detail": "30 articles pertinents, score brut -7",
+        "points": -2.33
       }
     ],
-    "computedAt": "2026-11-12T20:48:03.929Z",
-    "priceUSD": 71513.9,
-    "priceEUR": 64703.4,
-    "change24h": -3.266128759544703
+    "computedAt": "2026-11-13T01:39:30.127Z",
+    "priceUSD": 70936.1,
+    "priceEUR": 64151,
+    "change24h": -0.6089333578064826
   },
   "history": [
     {
@@ -9106,7 +9106,12 @@
       "t": "2026-11-12T20:48:03.932Z",
       "equityEUR": 115.01,
       "priceEUR": 64703.4
+    },
+    {
+      "t": "2026-11-13T01:39:30.130Z",
+      "equityEUR": 118.69,
+      "priceEUR": 64151
     }
   ],
-  "lastRun": "2026-11-12T20:48:03.932Z"
+  "lastRun": "2026-11-13T01:39:30.130Z"
 }
