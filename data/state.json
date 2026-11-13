@@ -5,25 +5,25 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 86.26,
-  "equityEUR": 118.69,
+  "balanceEUR": 98.66,
+  "equityEUR": 131.55,
   "stopped": false,
   "openPositions": [
     {
-      "id": "e6c7e632-8dff-4152-8558-d715c08a182b",
+      "id": "de79c5a8-5fea-4cf1-a7e4-a6f1a4473449",
       "side": "SHORT",
-      "entryPrice": 64703.4,
-      "entryTime": "2026-11-12T20:48:03.932Z",
-      "sizeEUR": 28.75,
-      "notionalEUR": 431.25,
+      "entryPrice": 62221.1,
+      "entryTime": "2026-11-13T08:46:02.416Z",
+      "sizeEUR": 32.89,
+      "notionalEUR": 493.35,
       "leverage": 15,
-      "qtyBTC": 0.00666503,
-      "sl": 65627.89,
-      "tp": 62854.42,
-      "slPct": 1.43,
-      "tpPct": 2.86,
-      "signalScore": -3.33,
-      "signalStrength": 0.42,
+      "qtyBTC": 0.00792898,
+      "sl": 63291.16,
+      "tp": 60080.98,
+      "slPct": 1.72,
+      "tpPct": 3.44,
+      "signalScore": -3,
+      "signalStrength": 0.38,
       "status": "OPEN"
     }
   ],
@@ -1099,22 +1099,38 @@
       "pnlPct": 4.54,
       "reason": "TP",
       "status": "CLOSED"
+    },
+    {
+      "id": "e6c7e632-8dff-4152-8558-d715c08a182b",
+      "side": "SHORT",
+      "entryPrice": 64703.4,
+      "entryTime": "2026-11-12T20:48:03.932Z",
+      "exitPrice": 62221.1,
+      "exitTime": "2026-11-13T08:46:02.416Z",
+      "sizeEUR": 28.75,
+      "notionalEUR": 431.25,
+      "leverage": 15,
+      "qtyBTC": 0.00666503,
+      "pnlEUR": 16.54,
+      "pnlPct": 3.84,
+      "reason": "TP",
+      "status": "CLOSED"
     }
   ],
   "lastSignal": {
-    "price": 70980.09904418791,
+    "price": 68721.53231412439,
     "direction": "SHORT",
-    "score": -3.33,
-    "strength": 0.42,
-    "atr14": 824.03821449359,
+    "score": -3,
+    "strength": 0.38,
+    "atr14": 984.878216357702,
     "indicators": {
-      "ema20": 72014.04041333312,
-      "ema50": 72904.16992485795,
-      "rsi14": 21.540147359160912,
-      "macdHist": -67.35401091849849,
-      "bbUpper": 73944.63071947737,
-      "bbMid": 72155.22519084698,
-      "bbLower": 70365.81966221659
+      "ema20": 70387.54403822,
+      "ema50": 71905.61317700823,
+      "rsi14": 26.72293932197374,
+      "macdHist": -189.52995610704158,
+      "bbUpper": 73324.64280346828,
+      "bbMid": 70597.88073513495,
+      "bbLower": 67871.11866680163
     },
     "fearGreed": {
       "value": 20,
@@ -1123,6 +1139,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin slides below $70K amid thin liquidity, ETF outflows",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin ETFs are now down over $1.5 billion in net outflows for the year",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "North Korea's Binance hack faces U.S. crackdown as DOJ targets $1.2 billion in stolen crypto",
         "source": "CoinDesk",
@@ -1152,37 +1178,27 @@
         "title": "Crypto hack losses equal 57 cents per $1 earned onchain: Ark’s Valente",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin weakness erases September's bullish signal",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "Bitcoin dips with Nvidia as ETF outflows reach day five",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=72014 vs EMA50=72904",
+        "detail": "EMA20=70388 vs EMA50=71906",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "21.5",
+        "detail": "26.7",
         "points": 1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-67.4",
+        "detail": "-189.5",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 70980 vs [70366, 73945]",
+        "detail": "prix 68722 vs [67871, 73325]",
         "points": 0
       },
       {
@@ -1192,14 +1208,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -7",
-        "points": -2.33
+        "detail": "30 articles pertinents, score brut -6",
+        "points": -2
       }
     ],
-    "computedAt": "2026-11-13T01:39:30.127Z",
-    "priceUSD": 70936.1,
-    "priceEUR": 64151,
-    "change24h": -0.6089333578064826
+    "computedAt": "2026-11-13T08:46:02.411Z",
+    "priceUSD": 68766.4,
+    "priceEUR": 62221.1,
+    "change24h": -3.648976400679835
   },
   "history": [
     {
@@ -9111,7 +9127,12 @@
       "t": "2026-11-13T01:39:30.130Z",
       "equityEUR": 118.69,
       "priceEUR": 64151
+    },
+    {
+      "t": "2026-11-13T08:46:02.416Z",
+      "equityEUR": 131.55,
+      "priceEUR": 62221.1
     }
   ],
-  "lastRun": "2026-11-13T01:39:30.130Z"
+  "lastRun": "2026-11-13T08:46:02.416Z"
 }
