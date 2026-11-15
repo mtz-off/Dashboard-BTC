@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 114.18,
-  "equityEUR": 154.67,
+  "equityEUR": 157.75,
   "stopped": false,
   "openPositions": [
     {
@@ -1134,19 +1134,19 @@
     }
   ],
   "lastSignal": {
-    "price": 65202.231391901805,
+    "price": 64948.544759756485,
     "direction": "SHORT",
-    "score": -2.5,
-    "strength": 0.31,
-    "atr14": 1405.6329114857137,
+    "score": -1.05,
+    "strength": 0.13,
+    "atr14": 1391.7884565272332,
     "indicators": {
-      "ema20": 65148.14271279773,
-      "ema50": 66476.28100337155,
-      "rsi14": 48.24585000697843,
-      "macdHist": 259.68995925073955,
-      "bbUpper": 66280.75666041685,
-      "bbMid": 64680.59417309651,
-      "bbLower": 63080.431685776166
+      "ema20": 64969.17984558605,
+      "ema50": 66108.64255507328,
+      "rsi14": 47.551298621505595,
+      "macdHist": 95.08752107592858,
+      "bbUpper": 66087.60059488057,
+      "bbMid": 64704.17686222603,
+      "bbLower": 63320.75312957149
     },
     "fearGreed": {
       "value": 10,
@@ -1184,37 +1184,27 @@
         "title": "US regulators move ahead on crypto trust charters as Senate scrutiny grows",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Trump’s First Democratic Picks for SEC and CFTC Could Reshape Crypto’s Regulators",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=65148 vs EMA50=66476",
+        "detail": "EMA20=64969 vs EMA50=66109",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "48.2",
+        "detail": "47.6",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "259.7",
-        "points": 1.5
+        "detail": "95.1",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 65202 vs [63080, 66281]",
+        "detail": "prix 64949 vs [63321, 66088]",
         "points": 0
       },
       {
@@ -1224,14 +1214,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "24 articles pertinents, score brut -9",
-        "points": -3
+        "detail": "16 articles pertinents, score brut -6",
+        "points": -2
       }
     ],
-    "computedAt": "2026-11-15T14:13:28.848Z",
-    "priceUSD": 65192.8,
-    "priceEUR": 59357.9,
-    "change24h": 1.680883286464506
+    "computedAt": "2026-11-15T19:47:48.778Z",
+    "priceUSD": 64960,
+    "priceEUR": 59036.7,
+    "change24h": 1.3177862937124039
   },
   "history": [
     {
@@ -9193,7 +9183,12 @@
       "t": "2026-11-15T14:13:28.850Z",
       "equityEUR": 154.67,
       "priceEUR": 59357.9
+    },
+    {
+      "t": "2026-11-15T19:47:48.782Z",
+      "equityEUR": 157.75,
+      "priceEUR": 59036.7
     }
   ],
-  "lastRun": "2026-11-15T14:13:28.850Z"
+  "lastRun": "2026-11-15T19:47:48.782Z"
 }
