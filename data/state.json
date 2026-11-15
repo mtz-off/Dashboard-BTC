@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 114.18,
-  "equityEUR": 153.54,
+  "equityEUR": 164.87,
   "stopped": false,
   "openPositions": [
     {
@@ -1134,27 +1134,32 @@
     }
   ],
   "lastSignal": {
-    "price": 65525.11710688677,
+    "price": 64071.73372419334,
     "direction": "SHORT",
-    "score": -5.33,
-    "strength": 0.67,
-    "atr14": 1103.0231286976455,
+    "score": -3.67,
+    "strength": 0.46,
+    "atr14": 1197.8409773924982,
     "indicators": {
-      "ema20": 66634.18701008029,
-      "ema50": 68260.69052413435,
-      "rsi14": 30.435002141960794,
-      "macdHist": -33.14664730060872,
-      "bbUpper": 68296.68153754617,
-      "bbMid": 66658.64596260668,
-      "bbLower": 65020.61038766719
+      "ema20": 65894.92234032037,
+      "ema50": 67752.17584337672,
+      "rsi14": 28.003477387480885,
+      "macdHist": -165.64170877936272,
+      "bbUpper": 68442.19863645501,
+      "bbMid": 66093.92216362778,
+      "bbLower": 63745.64569080055
     },
     "fearGreed": {
-      "value": 13,
+      "value": 10,
       "classification": "Extreme Fear",
-      "timestamp": 1794614400000
+      "timestamp": 1794700800000
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin crashes to 3-month low below $64,000 as analyst flags fourth capitulation wave",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011",
         "source": "CoinDesk",
@@ -1194,39 +1199,39 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=66634 vs EMA50=68261",
+        "detail": "EMA20=65895 vs EMA50=67752",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "30.4",
-        "points": -0.5
+        "detail": "28.0",
+        "points": 1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-33.1",
+        "detail": "-165.6",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 65525 vs [65021, 68297]",
+        "detail": "prix 64072 vs [63746, 68442]",
         "points": 0
       },
       {
         "factor": "Fear & Greed Index",
-        "detail": "13 (Extreme Fear)",
+        "detail": "10 (Extreme Fear)",
         "points": 1
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -7",
-        "points": -2.33
+        "detail": "30 articles pertinents, score brut -8",
+        "points": -2.67
       }
     ],
-    "computedAt": "2026-11-14T20:25:49.134Z",
-    "priceUSD": 65475.8,
-    "priceEUR": 59476.4,
-    "change24h": -4.047047513533621
+    "computedAt": "2026-11-15T00:03:49.571Z",
+    "priceUSD": 64088.8,
+    "priceEUR": 58293.3,
+    "change24h": -0.04101997813306949
   },
   "history": [
     {
@@ -9173,7 +9178,12 @@
       "t": "2026-11-14T20:25:49.136Z",
       "equityEUR": 153.54,
       "priceEUR": 59476.4
+    },
+    {
+      "t": "2026-11-15T00:03:49.575Z",
+      "equityEUR": 164.87,
+      "priceEUR": 58293.3
     }
   ],
-  "lastRun": "2026-11-14T20:25:49.136Z"
+  "lastRun": "2026-11-15T00:03:49.575Z"
 }
