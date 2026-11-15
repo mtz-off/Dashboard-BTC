@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 114.18,
-  "equityEUR": 160.6,
+  "equityEUR": 154.67,
   "stopped": false,
   "openPositions": [
     {
@@ -1134,19 +1134,19 @@
     }
   ],
   "lastSignal": {
-    "price": 64454.69275249448,
+    "price": 65202.231391901805,
     "direction": "SHORT",
-    "score": -2.55,
-    "strength": 0.32,
-    "atr14": 1353.6409984225158,
+    "score": -2.5,
+    "strength": 0.31,
+    "atr14": 1405.6329114857137,
     "indicators": {
-      "ema20": 65169.21558349977,
-      "ema50": 67001.01000103082,
-      "rsi14": 41.31596660217457,
-      "macdHist": 110.87301007280769,
-      "bbUpper": 67689.1329631998,
-      "bbMid": 65203.290298846456,
-      "bbLower": 62717.447634493124
+      "ema20": 65148.14271279773,
+      "ema50": 66476.28100337155,
+      "rsi14": 48.24585000697843,
+      "macdHist": 259.68995925073955,
+      "bbUpper": 66280.75666041685,
+      "bbMid": 64680.59417309651,
+      "bbLower": 63080.431685776166
     },
     "fearGreed": {
       "value": 10,
@@ -1155,6 +1155,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin ETFs Lose $2.1 Billion in November as Outflow Streak Hits Seven Days",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin falls to four-month low near $62K as crypto selloff deepens",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "XRP crashes to its lowest since November 2024 as money leaves crypto",
         "source": "CoinDesk",
@@ -1184,37 +1194,27 @@
         "title": "Trump’s First Democratic Picks for SEC and CFTC Could Reshape Crypto’s Regulators",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "U.S. Senate Banking Committee races toward hearing on new SEC nominations",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin hits 12-week low as dollar rallies on interest-rate outlook, liquidations top $1.6 billion",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=65169 vs EMA50=67001",
+        "detail": "EMA20=65148 vs EMA50=66476",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "41.3",
-        "points": -0.5
+        "detail": "48.2",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "110.9",
-        "points": 1.95
+        "detail": "259.7",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 64455 vs [62717, 67689]",
+        "detail": "prix 65202 vs [63080, 66281]",
         "points": 0
       },
       {
@@ -1224,14 +1224,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -9",
+        "detail": "24 articles pertinents, score brut -9",
         "points": -3
       }
     ],
-    "computedAt": "2026-11-15T06:27:06.879Z",
-    "priceUSD": 64562.2,
-    "priceEUR": 58738.7,
-    "change24h": 0.6973396282622948
+    "computedAt": "2026-11-15T14:13:28.848Z",
+    "priceUSD": 65192.8,
+    "priceEUR": 59357.9,
+    "change24h": 1.680883286464506
   },
   "history": [
     {
@@ -9188,7 +9188,12 @@
       "t": "2026-11-15T06:27:06.882Z",
       "equityEUR": 160.6,
       "priceEUR": 58738.7
+    },
+    {
+      "t": "2026-11-15T14:13:28.850Z",
+      "equityEUR": 154.67,
+      "priceEUR": 59357.9
     }
   ],
-  "lastRun": "2026-11-15T06:27:06.882Z"
+  "lastRun": "2026-11-15T14:13:28.850Z"
 }
