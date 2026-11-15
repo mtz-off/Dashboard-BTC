@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 114.18,
-  "equityEUR": 157.75,
+  "equityEUR": 155.4,
   "stopped": false,
   "openPositions": [
     {
@@ -1134,19 +1134,19 @@
     }
   ],
   "lastSignal": {
-    "price": 64948.544759756485,
+    "price": 65351.23309356004,
     "direction": "SHORT",
     "score": -1.05,
     "strength": 0.13,
-    "atr14": 1391.7884565272332,
+    "atr14": 1347.091691098394,
     "indicators": {
-      "ema20": 64969.17984558605,
-      "ema50": 66108.64255507328,
-      "rsi14": 47.551298621505595,
-      "macdHist": 95.08752107592858,
-      "bbUpper": 66087.60059488057,
-      "bbMid": 64704.17686222603,
-      "bbLower": 63320.75312957149
+      "ema20": 65035.38922172108,
+      "ema50": 65968.57224098829,
+      "rsi14": 52.41615734373138,
+      "macdHist": 128.9240331661303,
+      "bbUpper": 65752.58469015858,
+      "bbMid": 64948.552025360055,
+      "bbLower": 64144.519360561535
     },
     "fearGreed": {
       "value": 10,
@@ -1155,6 +1155,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "US sellers drive Bitcoin crash, Jensen plots comeback: Hodler’s Digest",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin ETFs Lose $2.1 Billion in November as Outflow Streak Hits Seven Days",
         "source": "Decrypt",
@@ -1179,32 +1184,27 @@
         "title": "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "US regulators move ahead on crypto trust charters as Senate scrutiny grows",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=64969 vs EMA50=66109",
+        "detail": "EMA20=65035 vs EMA50=65969",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "47.6",
+        "detail": "52.4",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "95.1",
+        "detail": "128.9",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 64949 vs [63321, 66088]",
+        "detail": "prix 65351 vs [64145, 65753]",
         "points": 0
       },
       {
@@ -1214,14 +1214,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "16 articles pertinents, score brut -6",
+        "detail": "13 articles pertinents, score brut -6",
         "points": -2
       }
     ],
-    "computedAt": "2026-11-15T19:47:48.778Z",
-    "priceUSD": 64960,
-    "priceEUR": 59036.7,
-    "change24h": 1.3177862937124039
+    "computedAt": "2026-11-15T23:43:37.524Z",
+    "priceUSD": 65275,
+    "priceEUR": 59282.3,
+    "change24h": 1.8090902143176903
   },
   "history": [
     {
@@ -9188,7 +9188,12 @@
       "t": "2026-11-15T19:47:48.782Z",
       "equityEUR": 157.75,
       "priceEUR": 59036.7
+    },
+    {
+      "t": "2026-11-15T23:43:37.527Z",
+      "equityEUR": 155.4,
+      "priceEUR": 59282.3
     }
   ],
-  "lastRun": "2026-11-15T19:47:48.782Z"
+  "lastRun": "2026-11-15T23:43:37.527Z"
 }
