@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 114.18,
-  "equityEUR": 164.87,
+  "equityEUR": 160.6,
   "stopped": false,
   "openPositions": [
     {
@@ -1134,19 +1134,19 @@
     }
   ],
   "lastSignal": {
-    "price": 64071.73372419334,
+    "price": 64454.69275249448,
     "direction": "SHORT",
-    "score": -3.67,
-    "strength": 0.46,
-    "atr14": 1197.8409773924982,
+    "score": -2.55,
+    "strength": 0.32,
+    "atr14": 1353.6409984225158,
     "indicators": {
-      "ema20": 65894.92234032037,
-      "ema50": 67752.17584337672,
-      "rsi14": 28.003477387480885,
-      "macdHist": -165.64170877936272,
-      "bbUpper": 68442.19863645501,
-      "bbMid": 66093.92216362778,
-      "bbLower": 63745.64569080055
+      "ema20": 65169.21558349977,
+      "ema50": 67001.01000103082,
+      "rsi14": 41.31596660217457,
+      "macdHist": 110.87301007280769,
+      "bbUpper": 67689.1329631998,
+      "bbMid": 65203.290298846456,
+      "bbLower": 62717.447634493124
     },
     "fearGreed": {
       "value": 10,
@@ -1156,7 +1156,12 @@
     "fundingRate": null,
     "newsHighlights": [
       {
-        "title": "Bitcoin crashes to 3-month low below $64,000 as analyst flags fourth capitulation wave",
+        "title": "XRP crashes to its lowest since November 2024 as money leaves crypto",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave",
         "source": "CoinDesk",
         "itemScore": -1
       },
@@ -1189,32 +1194,27 @@
         "title": "Bitcoin hits 12-week low as dollar rallies on interest-rate outlook, liquidations top $1.6 billion",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin Drops to $69K On &#39;Concentrated Liquidation&#39; and &#39;Weakening&#39; Demand",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=65895 vs EMA50=67752",
+        "detail": "EMA20=65169 vs EMA50=67001",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "28.0",
-        "points": 1.5
+        "detail": "41.3",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-165.6",
-        "points": -1.5
+        "detail": "110.9",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 64072 vs [63746, 68442]",
+        "detail": "prix 64455 vs [62717, 67689]",
         "points": 0
       },
       {
@@ -1224,14 +1224,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -8",
-        "points": -2.67
+        "detail": "30 articles pertinents, score brut -9",
+        "points": -3
       }
     ],
-    "computedAt": "2026-11-15T00:03:49.571Z",
-    "priceUSD": 64088.8,
-    "priceEUR": 58293.3,
-    "change24h": -0.04101997813306949
+    "computedAt": "2026-11-15T06:27:06.879Z",
+    "priceUSD": 64562.2,
+    "priceEUR": 58738.7,
+    "change24h": 0.6973396282622948
   },
   "history": [
     {
@@ -9183,7 +9183,12 @@
       "t": "2026-11-15T00:03:49.575Z",
       "equityEUR": 164.87,
       "priceEUR": 58293.3
+    },
+    {
+      "t": "2026-11-15T06:27:06.882Z",
+      "equityEUR": 160.6,
+      "priceEUR": 58738.7
     }
   ],
-  "lastRun": "2026-11-15T00:03:49.575Z"
+  "lastRun": "2026-11-15T06:27:06.882Z"
 }
