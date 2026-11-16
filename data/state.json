@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 114.18,
-  "equityEUR": 159.77,
+  "equityEUR": 157.12,
   "stopped": false,
   "openPositions": [
     {
@@ -1134,19 +1134,19 @@
     }
   ],
   "lastSignal": {
-    "price": 64713.30004623626,
+    "price": 64972.684398717385,
     "direction": "SHORT",
-    "score": -3.83,
-    "strength": 0.48,
-    "atr14": 1233.9570590053938,
+    "score": -1.72,
+    "strength": 0.21,
+    "atr14": 1209.731131265667,
     "indicators": {
-      "ema20": 64775.0587311157,
-      "ema50": 65480.46224714372,
-      "rsi14": 47.84108506607568,
-      "macdHist": -3.07179611889066,
-      "bbUpper": 65359.56291094293,
-      "bbMid": 64796.41430813605,
-      "bbLower": 64233.26570532918
+      "ema20": 64771.33848616642,
+      "ema50": 65251.4192322959,
+      "rsi14": 52.19897589422502,
+      "macdHist": 82.1579488137622,
+      "bbUpper": 65339.62189837032,
+      "bbMid": 64690.16792469633,
+      "bbLower": 64040.71395102234
     },
     "fearGreed": {
       "value": 10,
@@ -1155,6 +1155,31 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Lighter suspends all withdrawals after $10.4 million crypto exploit",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Morning Minute: Crypto Hits Extreme Fear as Bitcoin Plunges",
+        "source": "Decrypt",
+        "itemScore": -2
+      },
+      {
+        "title": "Old crypto feud reignites: Why OKX's Star Xu blames Binance for two years of October crashes",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin was supposed to gain as AI faltered, but it crashed. Here's why.",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin’s biggest bet is now a drop below $60,000, not a rally above $100,000",
         "source": "CoinDesk",
@@ -1169,42 +1194,27 @@
         "title": "Bitcoin ETFs Lose $2.1 Billion in November as Outflow Streak Hits Seven Days",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin falls to 4-month low near $62K as crypto selloff deepens",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "XRP crashes to its lowest since November 2024 as money leaves crypto",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=64775 vs EMA50=65480",
+        "detail": "EMA20=64771 vs EMA50=65251",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "47.8",
+        "detail": "52.2",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-3.1",
-        "points": -1.5
+        "detail": "82.2",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 64713 vs [64233, 65360]",
+        "detail": "prix 64973 vs [64041, 65340]",
         "points": 0
       },
       {
@@ -1214,14 +1224,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "21 articles pertinents, score brut -4",
-        "points": -1.33
+        "detail": "30 articles pertinents, score brut -8",
+        "points": -2.67
       }
     ],
-    "computedAt": "2026-11-16T11:19:41.906Z",
-    "priceUSD": 64695.6,
-    "priceEUR": 58826,
-    "change24h": -0.9477207240035153
+    "computedAt": "2026-11-16T21:09:15.481Z",
+    "priceUSD": 64948.5,
+    "priceEUR": 59102.7,
+    "change24h": -0.5605178627749363
   },
   "history": [
     {
@@ -9203,7 +9213,12 @@
       "t": "2026-11-16T11:19:41.908Z",
       "equityEUR": 159.77,
       "priceEUR": 58826
+    },
+    {
+      "t": "2026-11-16T21:09:15.485Z",
+      "equityEUR": 157.12,
+      "priceEUR": 59102.7
     }
   ],
-  "lastRun": "2026-11-16T11:19:41.908Z"
+  "lastRun": "2026-11-16T21:09:15.485Z"
 }
