@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 114.18,
-  "equityEUR": 155.4,
+  "equityEUR": 157.45,
   "stopped": false,
   "openPositions": [
     {
@@ -1134,29 +1134,29 @@
     }
   ],
   "lastSignal": {
-    "price": 65351.23309356004,
+    "price": 65043.3051022934,
     "direction": "SHORT",
     "score": -1.05,
     "strength": 0.13,
-    "atr14": 1347.091691098394,
+    "atr14": 1303.4009500264654,
     "indicators": {
-      "ema20": 65035.38922172108,
-      "ema50": 65968.57224098829,
-      "rsi14": 52.41615734373138,
-      "macdHist": 128.9240331661303,
-      "bbUpper": 65752.58469015858,
-      "bbMid": 64948.552025360055,
-      "bbLower": 64144.519360561535
+      "ema20": 64988.02516851977,
+      "ema50": 65841.87752322736,
+      "rsi14": 49.249290248132894,
+      "macdHist": 68.52052335376041,
+      "bbUpper": 65735.05581343568,
+      "bbMid": 64981.66815662703,
+      "bbLower": 64228.28049981838
     },
     "fearGreed": {
       "value": 10,
       "classification": "Extreme Fear",
-      "timestamp": 1794700800000
+      "timestamp": 1794787200000
     },
     "fundingRate": null,
     "newsHighlights": [
       {
-        "title": "US sellers drive Bitcoin crash, Jensen plots comeback: Hodler’s Digest",
+        "title": "US sellers drive Bitcoin crash, Jensen plots Nvidia comeback: Hodler’s Digest",
         "source": "Cointelegraph",
         "itemScore": -1
       },
@@ -1189,22 +1189,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=65035 vs EMA50=65969",
+        "detail": "EMA20=64988 vs EMA50=65842",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "52.4",
+        "detail": "49.2",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "128.9",
+        "detail": "68.5",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 65351 vs [64145, 65753]",
+        "detail": "prix 65043 vs [64228, 65735]",
         "points": 0
       },
       {
@@ -1214,14 +1214,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "13 articles pertinents, score brut -6",
+        "detail": "14 articles pertinents, score brut -6",
         "points": -2
       }
     ],
-    "computedAt": "2026-11-15T23:43:37.524Z",
-    "priceUSD": 65275,
-    "priceEUR": 59282.3,
-    "change24h": 1.8090902143176903
+    "computedAt": "2026-11-16T03:12:02.905Z",
+    "priceUSD": 65051.2,
+    "priceEUR": 59068.1,
+    "change24h": -0.40327889935787936
   },
   "history": [
     {
@@ -9193,7 +9193,12 @@
       "t": "2026-11-15T23:43:37.527Z",
       "equityEUR": 155.4,
       "priceEUR": 59282.3
+    },
+    {
+      "t": "2026-11-16T03:12:02.908Z",
+      "equityEUR": 157.45,
+      "priceEUR": 59068.1
     }
   ],
-  "lastRun": "2026-11-15T23:43:37.527Z"
+  "lastRun": "2026-11-16T03:12:02.908Z"
 }
