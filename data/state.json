@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 114.18,
-  "equityEUR": 157.62,
+  "equityEUR": 164.26,
   "stopped": false,
   "openPositions": [
     {
@@ -1134,19 +1134,19 @@
     }
   ],
   "lastSignal": {
-    "price": 64973.768828518805,
+    "price": 64170.0492131454,
     "direction": "SHORT",
-    "score": -2.05,
-    "strength": 0.26,
-    "atr14": 1099.9829819617478,
+    "score": -5.5,
+    "strength": 0.69,
+    "atr14": 1140.533064394268,
     "indicators": {
-      "ema20": 64692.23804387405,
-      "ema50": 64992.53206500511,
-      "rsi14": 53.47259362341609,
-      "macdHist": 8.118645573892394,
-      "bbUpper": 65419.07364199447,
-      "bbMid": 64776.88899393172,
-      "bbLower": 64134.70434586897
+      "ema20": 64309.235565380666,
+      "ema50": 64719.12940294698,
+      "rsi14": 46.43512528454351,
+      "macdHist": -57.67443056017305,
+      "bbUpper": 65384.59780009679,
+      "bbMid": 64403.82899083614,
+      "bbLower": 63423.06018157549
     },
     "fearGreed": {
       "value": 12,
@@ -1155,6 +1155,21 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Cathie Wood&#39;s ARK Sells $85 Million in Nvidia, Buys $40 Million in Crypto Stocks",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
+      {
+        "title": "Fed’s Waller cites Binance hack in warning over tokenized finance",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "U.S. Fed Governor Waller pitches keeping central bank at the center of tokenization",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Crypto's 'casino-chips' are disappearing, adding to pain from spot ETF outflows",
         "source": "CoinDesk",
@@ -1179,42 +1194,27 @@
         "title": "Optimizely Hack Hijacked Ledger, BBC and 176 Other Sites to Swap Crypto Wallet Addresses",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "Fed Governor Michael Barr warns AI agents could trigger bank runs in minutes",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Hackers plant crypto-stealing code on 178 major websites, including HSBC and Ledger",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin could slide into the $50,000s as Fed rate hike bets build, Wintermute says",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=64692 vs EMA50=64993",
+        "detail": "EMA20=64309 vs EMA50=64719",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "53.5",
+        "detail": "46.4",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "8.1",
-        "points": 1.95
+        "detail": "-57.7",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 64974 vs [64135, 65419]",
+        "detail": "prix 64170 vs [63423, 65385]",
         "points": 0
       },
       {
@@ -1224,14 +1224,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -15",
+        "detail": "30 articles pertinents, score brut -12",
         "points": -3
       }
     ],
-    "computedAt": "2026-11-17T12:44:38.454Z",
-    "priceUSD": 64887.8,
-    "priceEUR": 59050,
-    "change24h": 0.11432768072183169
+    "computedAt": "2026-11-17T21:22:43.164Z",
+    "priceUSD": 64220.4,
+    "priceEUR": 58356.8,
+    "change24h": -0.9153928876148031
   },
   "history": [
     {
@@ -9228,7 +9228,12 @@
       "t": "2026-11-17T12:44:38.456Z",
       "equityEUR": 157.62,
       "priceEUR": 59050
+    },
+    {
+      "t": "2026-11-17T21:22:43.167Z",
+      "equityEUR": 164.26,
+      "priceEUR": 58356.8
     }
   ],
-  "lastRun": "2026-11-17T12:44:38.456Z"
+  "lastRun": "2026-11-17T21:22:43.167Z"
 }
