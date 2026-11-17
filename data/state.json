@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 114.18,
-  "equityEUR": 157.12,
+  "equityEUR": 158.1,
   "stopped": false,
   "openPositions": [
     {
@@ -1134,27 +1134,47 @@
     }
   ],
   "lastSignal": {
-    "price": 64972.684398717385,
+    "price": 64956.38155696274,
     "direction": "SHORT",
-    "score": -1.72,
-    "strength": 0.21,
-    "atr14": 1209.731131265667,
+    "score": -2.05,
+    "strength": 0.26,
+    "atr14": 1172.1869641612634,
     "indicators": {
-      "ema20": 64771.33848616642,
-      "ema50": 65251.4192322959,
-      "rsi14": 52.19897589422502,
-      "macdHist": 82.1579488137622,
-      "bbUpper": 65339.62189837032,
-      "bbMid": 64690.16792469633,
-      "bbLower": 64040.71395102234
+      "ema20": 64803.573457288294,
+      "ema50": 65155.1508628623,
+      "rsi14": 51.811983304071916,
+      "macdHist": 4.40206808541501,
+      "bbUpper": 65416.09344884144,
+      "bbMid": 64713.489206048565,
+      "bbLower": 64010.88496325569
     },
     "fearGreed": {
-      "value": 10,
+      "value": 12,
       "classification": "Extreme Fear",
-      "timestamp": 1794787200000
+      "timestamp": 1794873600000
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Hackers inject credit card, crypto-stealing malware into 178 major websites",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Custodia Bank loses Supreme Court bid for direct Fed payment access",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin&#39;s $2 Billion Liquidation Weekend Leaves Traders Watching $60,000",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Hackers Redirected Bitcoin Miner Rewards via AI Attack, Luxor CEO Says",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
         "source": "CoinDesk",
@@ -1174,64 +1194,44 @@
         "title": "Old crypto feud reignites: Why OKX's Star Xu blames Binance for two years of October crashes",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin was supposed to gain as AI faltered, but it crashed. Here's why.",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin’s biggest bet is now a drop below $60,000, not a rally above $100,000",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "US sellers drive Bitcoin crash, Jensen plots Nvidia comeback: Hodler’s Digest",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin ETFs Lose $2.1 Billion in November as Outflow Streak Hits Seven Days",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=64771 vs EMA50=65251",
+        "detail": "EMA20=64804 vs EMA50=65155",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "52.2",
+        "detail": "51.8",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "82.2",
+        "detail": "4.4",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 64973 vs [64041, 65340]",
+        "detail": "prix 64956 vs [64011, 65416]",
         "points": 0
       },
       {
         "factor": "Fear & Greed Index",
-        "detail": "10 (Extreme Fear)",
+        "detail": "12 (Extreme Fear)",
         "points": 1
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -8",
-        "points": -2.67
+        "detail": "30 articles pertinents, score brut -9",
+        "points": -3
       }
     ],
-    "computedAt": "2026-11-16T21:09:15.481Z",
-    "priceUSD": 64948.5,
-    "priceEUR": 59102.7,
-    "change24h": -0.5605178627749363
+    "computedAt": "2026-11-17T03:51:41.877Z",
+    "priceUSD": 64922.5,
+    "priceEUR": 59000,
+    "change24h": 0.1678657444336659
   },
   "history": [
     {
@@ -9218,7 +9218,12 @@
       "t": "2026-11-16T21:09:15.485Z",
       "equityEUR": 157.12,
       "priceEUR": 59102.7
+    },
+    {
+      "t": "2026-11-17T03:51:41.879Z",
+      "equityEUR": 158.1,
+      "priceEUR": 59000
     }
   ],
-  "lastRun": "2026-11-16T21:09:15.485Z"
+  "lastRun": "2026-11-17T03:51:41.879Z"
 }
