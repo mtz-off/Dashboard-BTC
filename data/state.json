@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 114.18,
-  "equityEUR": 158.1,
+  "equityEUR": 157.62,
   "stopped": false,
   "openPositions": [
     {
@@ -1134,19 +1134,19 @@
     }
   ],
   "lastSignal": {
-    "price": 64956.38155696274,
+    "price": 64973.768828518805,
     "direction": "SHORT",
     "score": -2.05,
     "strength": 0.26,
-    "atr14": 1172.1869641612634,
+    "atr14": 1099.9829819617478,
     "indicators": {
-      "ema20": 64803.573457288294,
-      "ema50": 65155.1508628623,
-      "rsi14": 51.811983304071916,
-      "macdHist": 4.40206808541501,
-      "bbUpper": 65416.09344884144,
-      "bbMid": 64713.489206048565,
-      "bbLower": 64010.88496325569
+      "ema20": 64692.23804387405,
+      "ema50": 64992.53206500511,
+      "rsi14": 53.47259362341609,
+      "macdHist": 8.118645573892394,
+      "bbUpper": 65419.07364199447,
+      "bbMid": 64776.88899393172,
+      "bbLower": 64134.70434586897
     },
     "fearGreed": {
       "value": 12,
@@ -1156,42 +1156,42 @@
     "fundingRate": null,
     "newsHighlights": [
       {
-        "title": "Hackers inject credit card, crypto-stealing malware into 178 major websites",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Custodia Bank loses Supreme Court bid for direct Fed payment access",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin&#39;s $2 Billion Liquidation Weekend Leaves Traders Watching $60,000",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Hackers Redirected Bitcoin Miner Rewards via AI Attack, Luxor CEO Says",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
+        "title": "Crypto's 'casino-chips' are disappearing, adding to pain from spot ETF outflows",
         "source": "CoinDesk",
         "itemScore": -1
       },
       {
-        "title": "Lighter suspends all withdrawals after $10.4 million crypto exploit",
+        "title": "Ex-OpenAI researcher fund dumps bitcoin miners, cuts IREN 94% after portfolio slump",
         "source": "CoinDesk",
         "itemScore": -1
       },
       {
-        "title": "Morning Minute: Crypto Hits Extreme Fear as Bitcoin Plunges",
-        "source": "Decrypt",
+        "title": "Bitcoin remains penned in near $64,000 even as ETF outflow streak ends",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "BlackRock’s Bitcoin ETF snaps $2.35B outflow streak amid extreme fear",
+        "source": "Cointelegraph",
         "itemScore": -2
       },
       {
-        "title": "Old crypto feud reignites: Why OKX's Star Xu blames Binance for two years of October crashes",
+        "title": "Optimizely Hack Hijacked Ledger, BBC and 176 Other Sites to Swap Crypto Wallet Addresses",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Fed Governor Michael Barr warns AI agents could trigger bank runs in minutes",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Hackers plant crypto-stealing code on 178 major websites, including HSBC and Ledger",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin could slide into the $50,000s as Fed rate hike bets build, Wintermute says",
         "source": "CoinDesk",
         "itemScore": -1
       }
@@ -1199,22 +1199,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=64804 vs EMA50=65155",
+        "detail": "EMA20=64692 vs EMA50=64993",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "51.8",
+        "detail": "53.5",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "4.4",
+        "detail": "8.1",
         "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 64956 vs [64011, 65416]",
+        "detail": "prix 64974 vs [64135, 65419]",
         "points": 0
       },
       {
@@ -1224,14 +1224,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -9",
+        "detail": "30 articles pertinents, score brut -15",
         "points": -3
       }
     ],
-    "computedAt": "2026-11-17T03:51:41.877Z",
-    "priceUSD": 64922.5,
-    "priceEUR": 59000,
-    "change24h": 0.1678657444336659
+    "computedAt": "2026-11-17T12:44:38.454Z",
+    "priceUSD": 64887.8,
+    "priceEUR": 59050,
+    "change24h": 0.11432768072183169
   },
   "history": [
     {
@@ -9223,7 +9223,12 @@
       "t": "2026-11-17T03:51:41.879Z",
       "equityEUR": 158.1,
       "priceEUR": 59000
+    },
+    {
+      "t": "2026-11-17T12:44:38.456Z",
+      "equityEUR": 157.62,
+      "priceEUR": 59050
     }
   ],
-  "lastRun": "2026-11-17T03:51:41.879Z"
+  "lastRun": "2026-11-17T12:44:38.456Z"
 }
