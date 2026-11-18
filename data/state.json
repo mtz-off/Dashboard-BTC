@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 114.18,
-  "equityEUR": 162.72,
+  "equityEUR": 162.68,
   "stopped": false,
   "openPositions": [
     {
@@ -1134,19 +1134,19 @@
     }
   ],
   "lastSignal": {
-    "price": 64268.518075914326,
+    "price": 64157.53198126746,
     "direction": "SHORT",
-    "score": -2.5,
-    "strength": 0.31,
-    "atr14": 1167.574831668274,
+    "score": -6.45,
+    "strength": 0.81,
+    "atr14": 1101.4445114821112,
     "indicators": {
-      "ema20": 64404.378277227064,
-      "ema50": 64692.4649024965,
-      "rsi14": 47.22586036023152,
-      "macdHist": 39.90801065383593,
-      "bbUpper": 65292.18052800712,
-      "bbMid": 64363.578635287784,
-      "bbLower": 63434.97674256845
+      "ema20": 64443.8980186825,
+      "ema50": 64628.93711057815,
+      "rsi14": 44.35927802929107,
+      "macdHist": -0.2685595484423473,
+      "bbUpper": 65065.837213292376,
+      "bbMid": 64313.69555136565,
+      "bbLower": 63561.553889438925
     },
     "fearGreed": {
       "value": 11,
@@ -1155,6 +1155,26 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin outpaces gold even as both assets tumble ahead of a likely Fed rate hike",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Scattered Spider Hacker Sentenced to 6 Years Over $11.6M in Stolen Crypto",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Strategy stock could plunge 76% to $23, chart analyst warns",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin ETFs lose $240M as CryptoQuant flags bearish market phase",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "Cathie Wood&#39;s ARK Sells $85 Million in Nvidia, Buys $40 Million in Crypto Stocks",
         "source": "Decrypt",
@@ -1174,47 +1194,27 @@
         "title": "Crypto's 'casino-chips' are disappearing, adding to pain from spot ETF outflows",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Ex-OpenAI researcher fund dumps bitcoin miners, cuts IREN 94% after portfolio slump",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin remains penned in near $64,000 even as ETF outflow streak ends",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "BlackRock’s Bitcoin ETF snaps $2.35B outflow streak amid extreme fear",
-        "source": "Cointelegraph",
-        "itemScore": -2
-      },
-      {
-        "title": "Optimizely Hack Hijacked Ledger, BBC and 176 Other Sites to Swap Crypto Wallet Addresses",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=64404 vs EMA50=64692",
+        "detail": "EMA20=64444 vs EMA50=64629",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "47.2",
-        "points": 0
+        "detail": "44.4",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "39.9",
-        "points": 1.5
+        "detail": "-0.3",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 64269 vs [63435, 65292]",
+        "detail": "prix 64158 vs [63562, 65066]",
         "points": 0
       },
       {
@@ -1224,14 +1224,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -12",
+        "detail": "30 articles pertinents, score brut -13",
         "points": -3
       }
     ],
-    "computedAt": "2026-11-18T03:01:31.461Z",
-    "priceUSD": 64310.3,
-    "priceEUR": 58517.3,
-    "change24h": -0.8733462912068835
+    "computedAt": "2026-11-18T11:38:39.704Z",
+    "priceUSD": 64160.7,
+    "priceEUR": 58522,
+    "change24h": -1.1039368403854135
   },
   "history": [
     {
@@ -9238,7 +9238,12 @@
       "t": "2026-11-18T03:01:31.465Z",
       "equityEUR": 162.72,
       "priceEUR": 58517.3
+    },
+    {
+      "t": "2026-11-18T11:38:39.708Z",
+      "equityEUR": 162.68,
+      "priceEUR": 58522
     }
   ],
-  "lastRun": "2026-11-18T03:01:31.465Z"
+  "lastRun": "2026-11-18T11:38:39.708Z"
 }
