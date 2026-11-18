@@ -5,25 +5,25 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 114.18,
-  "equityEUR": 162.68,
+  "balanceEUR": 131.54,
+  "equityEUR": 175.38,
   "stopped": false,
   "openPositions": [
     {
-      "id": "000f2ae7-4e64-449b-bc95-57a2dab80b5a",
+      "id": "200df0fa-ec78-403c-b1bc-36e80ea96fd9",
       "side": "SHORT",
-      "entryPrice": 59611.9,
-      "entryTime": "2026-11-14T15:55:56.323Z",
-      "sizeEUR": 38.06,
-      "notionalEUR": 570.9,
+      "entryPrice": 57196,
+      "entryTime": "2026-11-18T19:35:53.983Z",
+      "sizeEUR": 43.84,
+      "notionalEUR": 657.6,
       "leverage": 15,
-      "qtyBTC": 0.00957695,
-      "sl": 60737.97,
-      "tp": 57359.75,
-      "slPct": 1.89,
-      "tpPct": 3.78,
-      "signalScore": -2.78,
-      "signalStrength": 0.35,
+      "qtyBTC": 0.01149731,
+      "sl": 58391.9,
+      "tp": 54804.21,
+      "slPct": 2.09,
+      "tpPct": 4.18,
+      "signalScore": -6.45,
+      "signalStrength": 0.81,
       "status": "OPEN"
     }
   ],
@@ -1131,22 +1131,38 @@
       "pnlPct": 4.19,
       "reason": "TP",
       "status": "CLOSED"
+    },
+    {
+      "id": "000f2ae7-4e64-449b-bc95-57a2dab80b5a",
+      "side": "SHORT",
+      "entryPrice": 59611.9,
+      "entryTime": "2026-11-14T15:55:56.323Z",
+      "exitPrice": 57196,
+      "exitTime": "2026-11-18T19:35:53.983Z",
+      "sizeEUR": 38.06,
+      "notionalEUR": 570.9,
+      "leverage": 15,
+      "qtyBTC": 0.00957695,
+      "pnlEUR": 23.14,
+      "pnlPct": 4.05,
+      "reason": "TP",
+      "status": "CLOSED"
     }
   ],
   "lastSignal": {
-    "price": 64157.53198126746,
+    "price": 62736.17035414571,
     "direction": "SHORT",
     "score": -6.45,
     "strength": 0.81,
-    "atr14": 1101.4445114821112,
+    "atr14": 1093.112134492071,
     "indicators": {
-      "ema20": 64443.8980186825,
-      "ema50": 64628.93711057815,
-      "rsi14": 44.35927802929107,
-      "macdHist": -0.2685595484423473,
-      "bbUpper": 65065.837213292376,
-      "bbMid": 64313.69555136565,
-      "bbLower": 63561.553889438925
+      "ema20": 63746.43222155578,
+      "ema50": 64245.845159671946,
+      "rsi14": 32.05405496278617,
+      "macdHist": -154.53291379743905,
+      "bbUpper": 65350.61678796207,
+      "bbMid": 63989.22902874375,
+      "bbLower": 62627.84126952543
     },
     "fearGreed": {
       "value": 11,
@@ -1155,6 +1171,31 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Fed&#39;s Waller Calls for 50-Basis-Point Rate Hike, Says Tokenized Finance Still Needs Traditional Banks",
+        "source": "Decrypt",
+        "itemScore": -2
+      },
+      {
+        "title": "Bitcoin, stocks wobble as Fed’s Waller talks of ‘shock’ 50-point rate hike",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Hong Kong wants banks to use AI to catch crypto crime before money disappears",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Sanctions fears loom over Russia’s regulated crypto trading launch",
+        "source": "Cointelegraph",
+        "itemScore": -3
+      },
+      {
+        "title": "Bullish beats revenue estimates as institutional services offset sluggish spot crypto volumes",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
       {
         "title": "Bitcoin outpaces gold even as both assets tumble ahead of a likely Fed rate hike",
         "source": "CoinDesk",
@@ -1169,52 +1210,27 @@
         "title": "Strategy stock could plunge 76% to $23, chart analyst warns",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin ETFs lose $240M as CryptoQuant flags bearish market phase",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Cathie Wood&#39;s ARK Sells $85 Million in Nvidia, Buys $40 Million in Crypto Stocks",
-        "source": "Decrypt",
-        "itemScore": 1
-      },
-      {
-        "title": "Fed’s Waller cites Binance hack in warning over tokenized finance",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "U.S. Fed Governor Waller pitches keeping central bank at the center of tokenization",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Crypto's 'casino-chips' are disappearing, adding to pain from spot ETF outflows",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=64444 vs EMA50=64629",
+        "detail": "EMA20=63746 vs EMA50=64246",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "44.4",
+        "detail": "32.1",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-0.3",
+        "detail": "-154.5",
         "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 64158 vs [63562, 65066]",
+        "detail": "prix 62736 vs [62628, 65351]",
         "points": 0
       },
       {
@@ -1224,14 +1240,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -13",
+        "detail": "30 articles pertinents, score brut -9",
         "points": -3
       }
     ],
-    "computedAt": "2026-11-18T11:38:39.704Z",
-    "priceUSD": 64160.7,
-    "priceEUR": 58522,
-    "change24h": -1.1039368403854135
+    "computedAt": "2026-11-18T19:35:53.980Z",
+    "priceUSD": 62700.1,
+    "priceEUR": 57196,
+    "change24h": -3.355277456228647
   },
   "history": [
     {
@@ -9243,7 +9259,12 @@
       "t": "2026-11-18T11:38:39.708Z",
       "equityEUR": 162.68,
       "priceEUR": 58522
+    },
+    {
+      "t": "2026-11-18T19:35:53.983Z",
+      "equityEUR": 175.38,
+      "priceEUR": 57196
     }
   ],
-  "lastRun": "2026-11-18T11:38:39.708Z"
+  "lastRun": "2026-11-18T19:35:53.983Z"
 }
