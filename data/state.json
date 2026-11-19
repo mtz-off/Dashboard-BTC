@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 131.54,
-  "equityEUR": 177.28,
+  "equityEUR": 166.49,
   "stopped": false,
   "openPositions": [
     {
@@ -1150,19 +1150,19 @@
     }
   ],
   "lastSignal": {
-    "price": 62694.520473471115,
+    "price": 63751.891521219266,
     "direction": "SHORT",
-    "score": -6,
-    "strength": 0.75,
-    "atr14": 1100.1319420616835,
+    "score": -1.72,
+    "strength": 0.21,
+    "atr14": 1051.578345686938,
     "indicators": {
-      "ema20": 63256.2397861332,
-      "ema50": 63902.70798451292,
-      "rsi14": 39.59198041452231,
-      "macdHist": -28.087044024178056,
-      "bbUpper": 65112.14641396739,
-      "bbMid": 63444.82014192951,
-      "bbLower": 61777.49386989162
+      "ema20": 63351.601397788196,
+      "ema50": 63782.14428147233,
+      "rsi14": 54.49273336700458,
+      "macdHist": 162.35457524903563,
+      "bbUpper": 64054.43949952242,
+      "bbMid": 63075.79316576866,
+      "bbLower": 62097.14683201489
     },
     "fearGreed": {
       "value": 10,
@@ -1171,6 +1171,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin ETF assets fall to three-month low as 2026 net outflows top $2.5B",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Fed's rate hike push may be a mistake. Here's why",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Fed&#39;s Waller Calls for 50-Basis-Point Rate Hike, Says Tokenized Finance Still Needs Traditional Banks",
         "source": "Decrypt",
@@ -1195,42 +1205,27 @@
         "title": "Bullish beats revenue estimates as institutional services offset sluggish spot crypto volumes",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Bitcoin outpaces gold even as both assets tumble ahead of a likely Fed rate hike",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Scattered Spider Hacker Sentenced to 6 Years Over $11.6M in Stolen Crypto",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Strategy stock could plunge 76% to $23, chart analyst warns",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=63256 vs EMA50=63903",
+        "detail": "EMA20=63352 vs EMA50=63782",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "39.6",
-        "points": -0.5
+        "detail": "54.5",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-28.1",
-        "points": -1.5
+        "detail": "162.4",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 62695 vs [61777, 65112]",
+        "detail": "prix 63752 vs [62097, 64054]",
         "points": 0
       },
       {
@@ -1240,14 +1235,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -10",
-        "points": -3
+        "detail": "30 articles pertinents, score brut -8",
+        "points": -2.67
       }
     ],
-    "computedAt": "2026-11-19T01:29:38.059Z",
-    "priceUSD": 62569.4,
-    "priceEUR": 57030.6,
-    "change24h": -0.6590510363660878
+    "computedAt": "2026-11-19T09:23:52.945Z",
+    "priceUSD": 63709.6,
+    "priceEUR": 57969.4,
+    "change24h": 1.151235621462421
   },
   "history": [
     {
@@ -9269,7 +9264,12 @@
       "t": "2026-11-19T01:29:38.062Z",
       "equityEUR": 177.28,
       "priceEUR": 57030.6
+    },
+    {
+      "t": "2026-11-19T09:23:52.948Z",
+      "equityEUR": 166.49,
+      "priceEUR": 57969.4
     }
   ],
-  "lastRun": "2026-11-19T01:29:38.062Z"
+  "lastRun": "2026-11-19T09:23:52.948Z"
 }
