@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 131.54,
-  "equityEUR": 166.49,
+  "equityEUR": 171.63,
   "stopped": false,
   "openPositions": [
     {
@@ -1150,19 +1150,19 @@
     }
   ],
   "lastSignal": {
-    "price": 63751.891521219266,
+    "price": 63111.95238602183,
     "direction": "SHORT",
-    "score": -1.72,
-    "strength": 0.21,
-    "atr14": 1051.578345686938,
+    "score": -4.17,
+    "strength": 0.52,
+    "atr14": 1025.664498695905,
     "indicators": {
-      "ema20": 63351.601397788196,
-      "ema50": 63782.14428147233,
-      "rsi14": 54.49273336700458,
-      "macdHist": 162.35457524903563,
-      "bbUpper": 64054.43949952242,
-      "bbMid": 63075.79316576866,
-      "bbLower": 62097.14683201489
+      "ema20": 63331.071217825345,
+      "ema50": 63650.9035817609,
+      "rsi14": 45.70432148811947,
+      "macdHist": -48.55123145282191,
+      "bbUpper": 64208.69718522045,
+      "bbMid": 63339.4298073167,
+      "bbLower": 62470.16242941295
     },
     "fearGreed": {
       "value": 10,
@@ -1172,6 +1172,21 @@
     "fundingRate": null,
     "newsHighlights": [
       {
+        "title": "Binance wins $6.5 billion feezing order against hackers behind crypto's largest theft",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin ETF outflows show waning crypto appetite ahead of Anthropic's Nasdaq debut",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin Struggles to Hold $64,000 as ETF Outflows Hit $2.9B in November",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
         "title": "Bitcoin ETF assets fall to three-month low as 2026 net outflows top $2.5B",
         "source": "Cointelegraph",
         "itemScore": -1
@@ -1180,52 +1195,27 @@
         "title": "Fed's rate hike push may be a mistake. Here's why",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Fed&#39;s Waller Calls for 50-Basis-Point Rate Hike, Says Tokenized Finance Still Needs Traditional Banks",
-        "source": "Decrypt",
-        "itemScore": -2
-      },
-      {
-        "title": "Bitcoin, stocks wobble as Fed’s Waller talks of ‘shock’ 50-point rate hike",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Hong Kong wants banks to use AI to catch crypto crime before money disappears",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Sanctions fears loom over Russia’s regulated crypto trading launch",
-        "source": "Cointelegraph",
-        "itemScore": -3
-      },
-      {
-        "title": "Bullish beats revenue estimates as institutional services offset sluggish spot crypto volumes",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=63352 vs EMA50=63782",
+        "detail": "EMA20=63331 vs EMA50=63651",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "54.5",
+        "detail": "45.7",
         "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "162.4",
-        "points": 1.95
+        "detail": "-48.6",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 63752 vs [62097, 64054]",
+        "detail": "prix 63112 vs [62470, 64209]",
         "points": 0
       },
       {
@@ -1235,14 +1225,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -8",
-        "points": -2.67
+        "detail": "30 articles pertinents, score brut -5",
+        "points": -1.67
       }
     ],
-    "computedAt": "2026-11-19T09:23:52.945Z",
-    "priceUSD": 63709.6,
-    "priceEUR": 57969.4,
-    "change24h": 1.151235621462421
+    "computedAt": "2026-11-19T18:28:20.859Z",
+    "priceUSD": 63131.3,
+    "priceEUR": 57522.4,
+    "change24h": 0.23307321642626824
   },
   "history": [
     {
@@ -9269,7 +9259,12 @@
       "t": "2026-11-19T09:23:52.948Z",
       "equityEUR": 166.49,
       "priceEUR": 57969.4
+    },
+    {
+      "t": "2026-11-19T18:28:20.862Z",
+      "equityEUR": 171.63,
+      "priceEUR": 57522.4
     }
   ],
-  "lastRun": "2026-11-19T09:23:52.948Z"
+  "lastRun": "2026-11-19T18:28:20.862Z"
 }
