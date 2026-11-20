@@ -5,25 +5,25 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 131.54,
-  "equityEUR": 186.14,
+  "balanceEUR": 158.44,
+  "equityEUR": 211.25,
   "stopped": false,
   "openPositions": [
     {
-      "id": "200df0fa-ec78-403c-b1bc-36e80ea96fd9",
+      "id": "ab74d368-bc9f-4221-a037-d28a2b548254",
       "side": "SHORT",
-      "entryPrice": 57196,
-      "entryTime": "2026-11-18T19:35:53.983Z",
-      "sizeEUR": 43.84,
-      "notionalEUR": 657.6,
+      "entryPrice": 54076.3,
+      "entryTime": "2026-11-20T16:56:46.417Z",
+      "sizeEUR": 52.81,
+      "notionalEUR": 792.15,
       "leverage": 15,
-      "qtyBTC": 0.01149731,
-      "sl": 58391.9,
-      "tp": 54804.21,
-      "slPct": 2.09,
-      "tpPct": 4.18,
-      "signalScore": -6.45,
-      "signalStrength": 0.81,
+      "qtyBTC": 0.01464875,
+      "sl": 55290.57,
+      "tp": 51647.75,
+      "slPct": 2.25,
+      "tpPct": 4.49,
+      "signalScore": -2.78,
+      "signalStrength": 0.35,
       "status": "OPEN"
     }
   ],
@@ -1147,22 +1147,38 @@
       "pnlPct": 4.05,
       "reason": "TP",
       "status": "CLOSED"
+    },
+    {
+      "id": "200df0fa-ec78-403c-b1bc-36e80ea96fd9",
+      "side": "SHORT",
+      "entryPrice": 57196,
+      "entryTime": "2026-11-18T19:35:53.983Z",
+      "exitPrice": 54076.3,
+      "exitTime": "2026-11-20T16:56:46.417Z",
+      "sizeEUR": 43.84,
+      "notionalEUR": 657.6,
+      "leverage": 15,
+      "qtyBTC": 0.01149731,
+      "pnlEUR": 35.87,
+      "pnlPct": 5.45,
+      "reason": "TP",
+      "status": "CLOSED"
     }
   ],
   "lastSignal": {
-    "price": 61804.247715902995,
+    "price": 59388.34079444621,
     "direction": "SHORT",
-    "score": -4.67,
-    "strength": 0.58,
-    "atr14": 1033.3260214424,
+    "score": -2.78,
+    "strength": 0.35,
+    "atr14": 1111.2944393305656,
     "indicators": {
-      "ema20": 62270.800179051235,
-      "ema50": 62932.56358271661,
-      "rsi14": 41.93795461933555,
-      "macdHist": -5.323946252865767,
-      "bbUpper": 63821.60074960821,
-      "bbMid": 62368.770701444955,
-      "bbLower": 60915.9406532817
+      "ema20": 61525.84199429201,
+      "ema50": 62389.99372246336,
+      "rsi14": 26.304148343216355,
+      "macdHist": -186.52298972381965,
+      "bbUpper": 63078.640478356916,
+      "bbMid": 61568.69431090035,
+      "bbLower": 60058.74814344378
     },
     "fearGreed": {
       "value": 12,
@@ -1171,6 +1187,26 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin Breaks Below $60K as Crypto Fear Index Hits Worst Level Since February",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin price drops to $60K as Anthropic drops to $87 in tech sell-off",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "CryptoUK Urges FCA Not to Treat DeFi Devs as Regulated by Default",
+        "source": "Decrypt",
+        "itemScore": -2
+      },
+      {
+        "title": "SEC charges 8 firms over fake crypto platforms tied to $37M fraud",
+        "source": "Cointelegraph",
+        "itemScore": -2
+      },
       {
         "title": "Here's what's crashing gold and likely weighing on bitcoin too",
         "source": "CoinDesk",
@@ -1185,48 +1221,28 @@
         "title": "Binance wins $6.5 billion feezing order against hackers behind crypto's largest theft",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin ETF outflows show waning crypto appetite ahead of Anthropic's Nasdaq debut",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Live updates: Bitcoin plunges to lowest since July as Anthropic gains, but broader markets tumble",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin Struggles to Hold $64,000 as ETF Outflows Hit $2.9B in November",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin ETF assets fall to three-month low as 2026 net outflows top $2.5B",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=62271 vs EMA50=62933",
+        "detail": "EMA20=61526 vs EMA50=62390",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "41.9",
-        "points": -0.5
+        "detail": "26.3",
+        "points": 1.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-5.3",
-        "points": -1.5
+        "detail": "-186.5",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 61804 vs [60916, 63822]",
-        "points": 0
+        "detail": "prix 59388 vs [60059, 63079]",
+        "points": 1
       },
       {
         "factor": "Fear & Greed Index",
@@ -1235,14 +1251,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -5",
-        "points": -1.67
+        "detail": "30 articles pertinents, score brut -7",
+        "points": -2.33
       }
     ],
-    "computedAt": "2026-11-20T08:01:37.640Z",
-    "priceUSD": 61771,
-    "priceEUR": 56260.5,
-    "change24h": -0.23015981974852012
+    "computedAt": "2026-11-20T16:56:46.414Z",
+    "priceUSD": 59341.1,
+    "priceEUR": 54076.3,
+    "change24h": -4.154828914533989
   },
   "history": [
     {
@@ -9284,7 +9300,12 @@
       "t": "2026-11-20T08:01:37.643Z",
       "equityEUR": 186.14,
       "priceEUR": 56260.5
+    },
+    {
+      "t": "2026-11-20T16:56:46.417Z",
+      "equityEUR": 211.25,
+      "priceEUR": 54076.3
     }
   ],
-  "lastRun": "2026-11-20T08:01:37.643Z"
+  "lastRun": "2026-11-20T16:56:46.417Z"
 }
