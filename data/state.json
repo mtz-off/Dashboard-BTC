@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 131.54,
-  "equityEUR": 171.63,
+  "equityEUR": 183.45,
   "stopped": false,
   "openPositions": [
     {
@@ -1150,27 +1150,32 @@
     }
   ],
   "lastSignal": {
-    "price": 63111.95238602183,
+    "price": 61992.042171572706,
     "direction": "SHORT",
-    "score": -4.17,
-    "strength": 0.52,
-    "atr14": 1025.664498695905,
+    "score": -4.67,
+    "strength": 0.58,
+    "atr14": 1020.1775374562059,
     "indicators": {
-      "ema20": 63331.071217825345,
-      "ema50": 63650.9035817609,
-      "rsi14": 45.70432148811947,
-      "macdHist": -48.55123145282191,
-      "bbUpper": 64208.69718522045,
-      "bbMid": 63339.4298073167,
-      "bbLower": 62470.16242941295
+      "ema20": 62700.6958869862,
+      "ema50": 63283.81038063325,
+      "rsi14": 37.81656180102018,
+      "macdHist": -129.1211445756038,
+      "bbUpper": 64572.11763316519,
+      "bbMid": 63011.3437757885,
+      "bbLower": 61450.569918411806
     },
     "fearGreed": {
-      "value": 10,
+      "value": 12,
       "classification": "Extreme Fear",
-      "timestamp": 1795046400000
+      "timestamp": 1795132800000
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin Enters Death Cross as Anthropic IPO Fails to Lift Wall Street",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
       {
         "title": "Binance wins $6.5 billion feezing order against hackers behind crypto's largest theft",
         "source": "CoinDesk",
@@ -1178,6 +1183,11 @@
       },
       {
         "title": "Bitcoin ETF outflows show waning crypto appetite ahead of Anthropic's Nasdaq debut",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Live updates: Bitcoin plunges to lowest since July as Anthropic gains, but broader markets tumble",
         "source": "CoinDesk",
         "itemScore": -1
       },
@@ -1200,27 +1210,27 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=63331 vs EMA50=63651",
+        "detail": "EMA20=62701 vs EMA50=63284",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "45.7",
-        "points": 0
+        "detail": "37.8",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-48.6",
+        "detail": "-129.1",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 63112 vs [62470, 64209]",
+        "detail": "prix 61992 vs [61451, 64572]",
         "points": 0
       },
       {
         "factor": "Fear & Greed Index",
-        "detail": "10 (Extreme Fear)",
+        "detail": "12 (Extreme Fear)",
         "points": 1
       },
       {
@@ -1229,10 +1239,10 @@
         "points": -1.67
       }
     ],
-    "computedAt": "2026-11-19T18:28:20.859Z",
-    "priceUSD": 63131.3,
-    "priceEUR": 57522.4,
-    "change24h": 0.23307321642626824
+    "computedAt": "2026-11-20T00:49:31.567Z",
+    "priceUSD": 61965.7,
+    "priceEUR": 56493.7,
+    "change24h": 0.08431117607629529
   },
   "history": [
     {
@@ -9264,7 +9274,12 @@
       "t": "2026-11-19T18:28:20.862Z",
       "equityEUR": 171.63,
       "priceEUR": 57522.4
+    },
+    {
+      "t": "2026-11-20T00:49:31.571Z",
+      "equityEUR": 183.45,
+      "priceEUR": 56493.7
     }
   ],
-  "lastRun": "2026-11-19T18:28:20.862Z"
+  "lastRun": "2026-11-20T00:49:31.571Z"
 }
