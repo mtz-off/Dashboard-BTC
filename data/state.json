@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 158.44,
-  "equityEUR": 211.25,
+  "equityEUR": 213.86,
   "stopped": false,
   "openPositions": [
     {
@@ -1166,19 +1166,19 @@
     }
   ],
   "lastSignal": {
-    "price": 59388.34079444621,
+    "price": 59032.38909970664,
     "direction": "SHORT",
-    "score": -2.78,
-    "strength": 0.35,
-    "atr14": 1111.2944393305656,
+    "score": -5.67,
+    "strength": 0.71,
+    "atr14": 1167.9023703160424,
     "indicators": {
-      "ema20": 61525.84199429201,
-      "ema50": 62389.99372246336,
-      "rsi14": 26.304148343216355,
-      "macdHist": -186.52298972381965,
-      "bbUpper": 63078.640478356916,
-      "bbMid": 61568.69431090035,
-      "bbLower": 60058.74814344378
+      "ema20": 60263.86244572599,
+      "ema50": 61607.92203817842,
+      "rsi14": 32.86777055731608,
+      "macdHist": -182.97797826811143,
+      "bbUpper": 63517.695101139856,
+      "bbMid": 60624.2749327488,
+      "bbLower": 57730.85476435774
     },
     "fearGreed": {
       "value": 12,
@@ -1187,6 +1187,21 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Cathie Wood Bets $91M on Anthropic IPO While Paring Crypto Exposure",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
+      {
+        "title": "Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play",
+        "source": "CoinDesk",
+        "itemScore": -2
+      },
+      {
+        "title": "Bitcoin falls below $60K for first time since July amid broader market selloff",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin Breaks Below $60K as Crypto Fear Index Hits Worst Level Since February",
         "source": "Decrypt",
@@ -1211,38 +1226,28 @@
         "title": "Here's what's crashing gold and likely weighing on bitcoin too",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin Enters Death Cross as Anthropic IPO Fails to Lift Wall Street",
-        "source": "Decrypt",
-        "itemScore": 1
-      },
-      {
-        "title": "Binance wins $6.5 billion feezing order against hackers behind crypto's largest theft",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=61526 vs EMA50=62390",
+        "detail": "EMA20=60264 vs EMA50=61608",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "26.3",
-        "points": 1.5
+        "detail": "32.9",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-186.5",
-        "points": -1.95
+        "detail": "-183.0",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 59388 vs [60059, 63079]",
-        "points": 1
+        "detail": "prix 59032 vs [57731, 63518]",
+        "points": 0
       },
       {
         "factor": "Fear & Greed Index",
@@ -1251,14 +1256,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -7",
-        "points": -2.33
+        "detail": "30 articles pertinents, score brut -8",
+        "points": -2.67
       }
     ],
-    "computedAt": "2026-11-20T16:56:46.414Z",
-    "priceUSD": 59341.1,
-    "priceEUR": 54076.3,
-    "change24h": -4.154828914533989
+    "computedAt": "2026-11-20T22:58:16.438Z",
+    "priceUSD": 59018.5,
+    "priceEUR": 53897.9,
+    "change24h": -4.67587844331204
   },
   "history": [
     {
@@ -9305,7 +9310,12 @@
       "t": "2026-11-20T16:56:46.417Z",
       "equityEUR": 211.25,
       "priceEUR": 54076.3
+    },
+    {
+      "t": "2026-11-20T22:58:16.440Z",
+      "equityEUR": 213.86,
+      "priceEUR": 53897.9
     }
   ],
-  "lastRun": "2026-11-20T16:56:46.417Z"
+  "lastRun": "2026-11-20T22:58:16.440Z"
 }
