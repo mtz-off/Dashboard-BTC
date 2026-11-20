@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 131.54,
-  "equityEUR": 183.45,
+  "equityEUR": 186.14,
   "stopped": false,
   "openPositions": [
     {
@@ -1150,19 +1150,19 @@
     }
   ],
   "lastSignal": {
-    "price": 61992.042171572706,
+    "price": 61804.247715902995,
     "direction": "SHORT",
     "score": -4.67,
     "strength": 0.58,
-    "atr14": 1020.1775374562059,
+    "atr14": 1033.3260214424,
     "indicators": {
-      "ema20": 62700.6958869862,
-      "ema50": 63283.81038063325,
-      "rsi14": 37.81656180102018,
-      "macdHist": -129.1211445756038,
-      "bbUpper": 64572.11763316519,
-      "bbMid": 63011.3437757885,
-      "bbLower": 61450.569918411806
+      "ema20": 62270.800179051235,
+      "ema50": 62932.56358271661,
+      "rsi14": 41.93795461933555,
+      "macdHist": -5.323946252865767,
+      "bbUpper": 63821.60074960821,
+      "bbMid": 62368.770701444955,
+      "bbLower": 60915.9406532817
     },
     "fearGreed": {
       "value": 12,
@@ -1171,6 +1171,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Here's what's crashing gold and likely weighing on bitcoin too",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin Enters Death Cross as Anthropic IPO Fails to Lift Wall Street",
         "source": "Decrypt",
@@ -1200,32 +1205,27 @@
         "title": "Bitcoin ETF assets fall to three-month low as 2026 net outflows top $2.5B",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "Fed's rate hike push may be a mistake. Here's why",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=62701 vs EMA50=63284",
+        "detail": "EMA20=62271 vs EMA50=62933",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "37.8",
+        "detail": "41.9",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-129.1",
+        "detail": "-5.3",
         "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 61992 vs [61451, 64572]",
+        "detail": "prix 61804 vs [60916, 63822]",
         "points": 0
       },
       {
@@ -1239,10 +1239,10 @@
         "points": -1.67
       }
     ],
-    "computedAt": "2026-11-20T00:49:31.567Z",
-    "priceUSD": 61965.7,
-    "priceEUR": 56493.7,
-    "change24h": 0.08431117607629529
+    "computedAt": "2026-11-20T08:01:37.640Z",
+    "priceUSD": 61771,
+    "priceEUR": 56260.5,
+    "change24h": -0.23015981974852012
   },
   "history": [
     {
@@ -9279,7 +9279,12 @@
       "t": "2026-11-20T00:49:31.571Z",
       "equityEUR": 183.45,
       "priceEUR": 56493.7
+    },
+    {
+      "t": "2026-11-20T08:01:37.643Z",
+      "equityEUR": 186.14,
+      "priceEUR": 56260.5
     }
   ],
-  "lastRun": "2026-11-20T00:49:31.571Z"
+  "lastRun": "2026-11-20T08:01:37.643Z"
 }
