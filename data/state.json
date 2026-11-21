@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 158.44,
-  "equityEUR": 225.65,
+  "equityEUR": 197.35,
   "stopped": false,
   "openPositions": [
     {
@@ -1166,19 +1166,19 @@
     }
   ],
   "lastSignal": {
-    "price": 58087.50342741005,
+    "price": 60221.20289720483,
     "direction": "SHORT",
-    "score": -1.88,
-    "strength": 0.24,
-    "atr14": 1404.4268693389236,
+    "score": -2,
+    "strength": 0.25,
+    "atr14": 1482.0690106820855,
     "indicators": {
-      "ema20": 58422.49394662124,
-      "ema50": 60046.435982651674,
-      "rsi14": 43.1847842388519,
-      "macdHist": 158.51453964921006,
-      "bbUpper": 60063.42473746588,
-      "bbMid": 58147.901681462725,
-      "bbLower": 56232.37862545957
+      "ema20": 59204.79665857536,
+      "ema50": 60023.85795393798,
+      "rsi14": 57.95116855214947,
+      "macdHist": 395.42307659533157,
+      "bbUpper": 61192.17921053525,
+      "bbMid": 58538.953523457865,
+      "bbLower": 55885.72783638048
     },
     "fearGreed": {
       "value": 12,
@@ -1187,6 +1187,21 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Fraudsters Used Fake Crypto Exchanges to Steal $37 Million, SEC Alleges",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Cathie Wood Bets $91M on Anthropic IPO While Paring Crypto Exposure",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
       {
         "title": "Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play",
         "source": "CoinDesk",
@@ -1198,40 +1213,40 @@
         "itemScore": -1
       },
       {
+        "title": "Bitcoin Breaks Below $60K as Crypto Fear Index Hits Worst Level Since February",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
         "title": "Bitcoin price drops to $60K as Anthropic drops to $87 in tech sell-off",
         "source": "Cointelegraph",
         "itemScore": -1
       },
       {
-        "title": "SEC charges 8 firms over fake crypto platforms tied to $37M fraud",
-        "source": "Cointelegraph",
+        "title": "CryptoUK Urges FCA Not to Treat DeFi Devs as Regulated by Default",
+        "source": "Decrypt",
         "itemScore": -2
-      },
-      {
-        "title": "Here's what's crashing gold and likely weighing on bitcoin too",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=58422 vs EMA50=60046",
+        "detail": "EMA20=59205 vs EMA50=60024",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "43.2",
-        "points": -0.5
+        "detail": "58.0",
+        "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "158.5",
-        "points": 1.95
+        "detail": "395.4",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 58088 vs [56232, 60063]",
+        "detail": "prix 60221 vs [55886, 61192]",
         "points": 0
       },
       {
@@ -1241,14 +1256,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "26 articles pertinents, score brut -7",
-        "points": -2.33
+        "detail": "30 articles pertinents, score brut -11",
+        "points": -3
       }
     ],
-    "computedAt": "2026-11-21T12:04:20.283Z",
-    "priceUSD": 58078.4,
-    "priceEUR": 53093.4,
-    "change24h": -1.2379604940958806
+    "computedAt": "2026-11-21T19:13:18.925Z",
+    "priceUSD": 60223.2,
+    "priceEUR": 55025.5,
+    "change24h": 2.4092615769712067
   },
   "history": [
     {
@@ -9310,7 +9325,12 @@
       "t": "2026-11-21T12:04:20.287Z",
       "equityEUR": 225.65,
       "priceEUR": 53093.4
+    },
+    {
+      "t": "2026-11-21T19:13:18.929Z",
+      "equityEUR": 197.35,
+      "priceEUR": 55025.5
     }
   ],
-  "lastRun": "2026-11-21T12:04:20.287Z"
+  "lastRun": "2026-11-21T19:13:18.929Z"
 }
