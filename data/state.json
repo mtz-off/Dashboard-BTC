@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 158.44,
-  "equityEUR": 242.99,
+  "equityEUR": 225.65,
   "stopped": false,
   "openPositions": [
     {
@@ -1166,19 +1166,19 @@
     }
   ],
   "lastSignal": {
-    "price": 56936.93694635175,
+    "price": 58087.50342741005,
     "direction": "SHORT",
-    "score": -4.12,
-    "strength": 0.51,
-    "atr14": 1165.0073611750474,
+    "score": -1.88,
+    "strength": 0.24,
+    "atr14": 1404.4268693389236,
     "indicators": {
-      "ema20": 59506.59468328812,
-      "ema50": 61025.44291792733,
-      "rsi14": 22.024996106327748,
-      "macdHist": -114.24096060504644,
-      "bbUpper": 62823.55703304052,
-      "bbMid": 59770.35775199164,
-      "bbLower": 56717.15847094277
+      "ema20": 58422.49394662124,
+      "ema50": 60046.435982651674,
+      "rsi14": 43.1847842388519,
+      "macdHist": 158.51453964921006,
+      "bbUpper": 60063.42473746588,
+      "bbMid": 58147.901681462725,
+      "bbLower": 56232.37862545957
     },
     "fearGreed": {
       "value": 12,
@@ -1187,11 +1187,6 @@
     },
     "fundingRate": null,
     "newsHighlights": [
-      {
-        "title": "Cathie Wood Bets $91M on Anthropic IPO While Paring Crypto Exposure",
-        "source": "Decrypt",
-        "itemScore": 1
-      },
       {
         "title": "Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play",
         "source": "CoinDesk",
@@ -1203,19 +1198,9 @@
         "itemScore": -1
       },
       {
-        "title": "Bitcoin Breaks Below $60K as Crypto Fear Index Hits Worst Level Since February",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
         "title": "Bitcoin price drops to $60K as Anthropic drops to $87 in tech sell-off",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "CryptoUK Urges FCA Not to Treat DeFi Devs as Regulated by Default",
-        "source": "Decrypt",
-        "itemScore": -2
       },
       {
         "title": "SEC charges 8 firms over fake crypto platforms tied to $37M fraud",
@@ -1231,22 +1216,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=59507 vs EMA50=61025",
+        "detail": "EMA20=58422 vs EMA50=60046",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "22.0",
-        "points": 1.5
+        "detail": "43.2",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-114.2",
-        "points": -1.95
+        "detail": "158.5",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 56937 vs [56717, 62824]",
+        "detail": "prix 58088 vs [56232, 60063]",
         "points": 0
       },
       {
@@ -1256,14 +1241,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -8",
-        "points": -2.67
+        "detail": "26 articles pertinents, score brut -7",
+        "points": -2.33
       }
     ],
-    "computedAt": "2026-11-21T03:51:10.871Z",
-    "priceUSD": 56840.4,
-    "priceEUR": 51909.4,
-    "change24h": -3.343173532132557
+    "computedAt": "2026-11-21T12:04:20.283Z",
+    "priceUSD": 58078.4,
+    "priceEUR": 53093.4,
+    "change24h": -1.2379604940958806
   },
   "history": [
     {
@@ -9320,7 +9305,12 @@
       "t": "2026-11-21T03:51:10.874Z",
       "equityEUR": 242.99,
       "priceEUR": 51909.4
+    },
+    {
+      "t": "2026-11-21T12:04:20.287Z",
+      "equityEUR": 225.65,
+      "priceEUR": 53093.4
     }
   ],
-  "lastRun": "2026-11-21T03:51:10.874Z"
+  "lastRun": "2026-11-21T12:04:20.287Z"
 }
