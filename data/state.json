@@ -5,25 +5,25 @@
     "leverage": 15,
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
-  "balanceEUR": 158.44,
-  "equityEUR": 211.53,
+  "balanceEUR": 144.12,
+  "equityEUR": 192.16,
   "stopped": false,
   "openPositions": [
     {
-      "id": "ab74d368-bc9f-4221-a037-d28a2b548254",
+      "id": "eedde6b1-1d38-415c-a35c-b3040395bb9a",
       "side": "SHORT",
-      "entryPrice": 54076.3,
-      "entryTime": "2026-11-20T16:56:46.417Z",
-      "sizeEUR": 52.81,
-      "notionalEUR": 792.15,
+      "entryPrice": 55379.8,
+      "entryTime": "2026-11-22T13:05:14.949Z",
+      "sizeEUR": 48.04,
+      "notionalEUR": 720.6,
       "leverage": 15,
-      "qtyBTC": 0.01464875,
-      "sl": 55290.57,
-      "tp": 51647.75,
-      "slPct": 2.25,
-      "tpPct": 4.49,
-      "signalScore": -2.78,
-      "signalStrength": 0.35,
+      "qtyBTC": 0.01301196,
+      "sl": 56878.03,
+      "tp": 52383.34,
+      "slPct": 2.71,
+      "tpPct": 5.41,
+      "signalScore": -1,
+      "signalStrength": 0.13,
       "status": "OPEN"
     }
   ],
@@ -1163,22 +1163,38 @@
       "pnlPct": 5.45,
       "reason": "TP",
       "status": "CLOSED"
+    },
+    {
+      "id": "ab74d368-bc9f-4221-a037-d28a2b548254",
+      "side": "SHORT",
+      "entryPrice": 54076.3,
+      "entryTime": "2026-11-20T16:56:46.417Z",
+      "exitPrice": 55379.8,
+      "exitTime": "2026-11-22T13:05:14.949Z",
+      "sizeEUR": 52.81,
+      "notionalEUR": 792.15,
+      "leverage": 15,
+      "qtyBTC": 0.01464875,
+      "pnlEUR": -19.09,
+      "pnlPct": -2.41,
+      "reason": "SL",
+      "status": "CLOSED"
     }
   ],
   "lastSignal": {
-    "price": 59191.1767927542,
+    "price": 60696.78894288815,
     "direction": "SHORT",
-    "score": -6.45,
-    "strength": 0.81,
-    "atr14": 1342.9190291463526,
+    "score": -1,
+    "strength": 0.13,
+    "atr14": 1368.3967598499985,
     "indicators": {
-      "ema20": 59572.014197850905,
-      "ema50": 59966.71835326469,
-      "rsi14": 44.972258767818516,
-      "macdHist": -43.29839066672676,
-      "bbUpper": 61245.28845158511,
-      "bbMid": 59618.74187336472,
-      "bbLower": 57992.19529514433
+      "ema20": 59921.62157360937,
+      "ema50": 60003.92281978048,
+      "rsi14": 59.316679656369885,
+      "macdHist": 146.0578339244332,
+      "bbUpper": 61261.02801252013,
+      "bbMid": 59968.76605939739,
+      "bbLower": 58676.50410627465
     },
     "fearGreed": {
       "value": 11,
@@ -1221,32 +1237,27 @@
         "title": "Bitcoin price drops to $60K as Anthropic drops to $87 in tech sell-off",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "CryptoUK Urges FCA Not to Treat DeFi Devs as Regulated by Default",
-        "source": "Decrypt",
-        "itemScore": -2
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=59572 vs EMA50=59967",
+        "detail": "EMA20=59922 vs EMA50=60004",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "45.0",
-        "points": -0.5
+        "detail": "59.3",
+        "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-43.3",
-        "points": -1.95
+        "detail": "146.1",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 59191 vs [57992, 61245]",
+        "detail": "prix 60697 vs [58677, 61261]",
         "points": 0
       },
       {
@@ -1256,14 +1267,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -11",
-        "points": -3
+        "detail": "20 articles pertinents, score brut -6",
+        "points": -2
       }
     ],
-    "computedAt": "2026-11-22T04:56:22.486Z",
-    "priceUSD": 59169.8,
-    "priceEUR": 54057.4,
-    "change24h": -1.5312057433944781
+    "computedAt": "2026-11-22T13:05:14.947Z",
+    "priceUSD": 60634.9,
+    "priceEUR": 55379.8,
+    "change24h": 0.9069743833822321
   },
   "history": [
     {
@@ -9340,7 +9351,12 @@
       "t": "2026-11-22T04:56:22.488Z",
       "equityEUR": 211.53,
       "priceEUR": 54057.4
+    },
+    {
+      "t": "2026-11-22T13:05:14.949Z",
+      "equityEUR": 192.16,
+      "priceEUR": 55379.8
     }
   ],
-  "lastRun": "2026-11-22T04:56:22.488Z"
+  "lastRun": "2026-11-22T13:05:14.949Z"
 }
