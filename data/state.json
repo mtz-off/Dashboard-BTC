@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 108.09,
-  "equityEUR": 193.69,
+  "equityEUR": 192.24,
   "stopped": false,
   "openPositions": [
     {
@@ -1199,27 +1199,32 @@
     }
   ],
   "lastSignal": {
-    "price": 60590.46930063186,
+    "price": 61234.647882992926,
     "direction": "LONG",
-    "score": 3.83,
-    "strength": 0.48,
-    "atr14": 1300.8215066641117,
+    "score": 5.12,
+    "strength": 0.64,
+    "atr14": 1261.912557319103,
     "indicators": {
-      "ema20": 60358.41279460918,
-      "ema50": 60197.82066272197,
-      "rsi14": 54.97058156299313,
-      "macdHist": 23.86865570024952,
-      "bbUpper": 61741.72671203079,
-      "bbMid": 60190.623582291846,
-      "bbLower": 58639.520452552904
+      "ema20": 60632.26893297779,
+      "ema50": 60351.00784696941,
+      "rsi14": 62.73412337259852,
+      "macdHist": 21.50813155691384,
+      "bbUpper": 62004.48356868149,
+      "bbMid": 60551.13225055699,
+      "bbLower": 59097.78093243249
     },
     "fearGreed": {
       "value": 11,
       "classification": "Extreme Fear",
-      "timestamp": 1795305600000
+      "timestamp": 1795392000000
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Will Bitcoin’s big rebound hold? More tampered Ledgers found: Hodler’s Digest",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
       {
         "title": "Fraudsters Used Fake Crypto Exchanges to Steal $37 Million, SEC Alleges",
         "source": "Decrypt",
@@ -1234,22 +1239,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=60358 vs EMA50=60198",
+        "detail": "EMA20=60632 vs EMA50=60351",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "55.0",
-        "points": 0
+        "detail": "62.7",
+        "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "23.9",
-        "points": 1.5
+        "detail": "21.5",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 60590 vs [58640, 61742]",
+        "detail": "prix 61235 vs [59098, 62004]",
         "points": 0
       },
       {
@@ -1259,14 +1264,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "14 articles pertinents, score brut -2",
-        "points": -0.67
+        "detail": "13 articles pertinents, score brut -1",
+        "points": -0.33
       }
     ],
-    "computedAt": "2026-11-22T20:20:14.969Z",
-    "priceUSD": 60559.7,
-    "priceEUR": 55262,
-    "change24h": 0.7818285602072822
+    "computedAt": "2026-11-23T01:01:22.752Z",
+    "priceUSD": 61120.4,
+    "priceEUR": 55711.3,
+    "change24h": -0.08124884543264943
   },
   "history": [
     {
@@ -9353,7 +9358,12 @@
       "t": "2026-11-22T20:20:14.971Z",
       "equityEUR": 193.69,
       "priceEUR": 55262
+    },
+    {
+      "t": "2026-11-23T01:01:22.754Z",
+      "equityEUR": 192.24,
+      "priceEUR": 55711.3
     }
   ],
-  "lastRun": "2026-11-22T20:20:14.971Z"
+  "lastRun": "2026-11-23T01:01:22.754Z"
 }
