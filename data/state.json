@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 108.09,
-  "equityEUR": 191.7,
+  "equityEUR": 190.82,
   "stopped": false,
   "openPositions": [
     {
@@ -1199,19 +1199,19 @@
     }
   ],
   "lastSignal": {
-    "price": 61440.47779221091,
+    "price": 61249.36151345485,
     "direction": "LONG",
-    "score": 4,
-    "strength": 0.5,
-    "atr14": 1228.6855692051545,
+    "score": 2.05,
+    "strength": 0.26,
+    "atr14": 1398.753502660998,
     "indicators": {
-      "ema20": 60973.90762957414,
-      "ema50": 60588.42893175864,
-      "rsi14": 60.21436064357687,
-      "macdHist": 10.873046378137929,
-      "bbUpper": 61618.38243565313,
-      "bbMid": 61014.128213596916,
-      "bbLower": 60409.8739915407
+      "ema20": 61522.311335050115,
+      "ema50": 61071.9544107526,
+      "rsi14": 48.24309734340812,
+      "macdHist": -148.84353456324214,
+      "bbUpper": 63040.93069508592,
+      "bbMid": 61612.42085384686,
+      "bbLower": 60183.9110126078
     },
     "fearGreed": {
       "value": 11,
@@ -1221,50 +1221,65 @@
     "fundingRate": null,
     "newsHighlights": [
       {
-        "title": "Bitcoin ETFs shed $1.8B in third-largest weekly outflow",
+        "title": "US seeks to recover $1.1B in crypto stolen in North Korea-linked Binance hack",
         "source": "Cointelegraph",
         "itemScore": -1
       },
       {
-        "title": "Market rout kills 50 basis points December Fed rate hike bets",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Will Bitcoin’s big rebound hold? More tampered Ledgers found: Hodler’s Digest",
-        "source": "Cointelegraph",
-        "itemScore": 1
-      },
-      {
-        "title": "Fraudsters Used Fake Crypto Exchanges to Steal $37 Million, SEC Alleges",
+        "title": "North Korea Moves $247 Million of Binance Hack Loot Through Bitcoin Mixers",
         "source": "Decrypt",
         "itemScore": -1
       },
       {
-        "title": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
+        "title": "Bitcoin rebounds 17% from $55K lows as Nvidia rally sparks $500M crypto liquidations",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
+        "title": "Cathie Wood's ARK Invest pulls the plug on two planned crypto ETFs",
         "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Bitcoin Rallies, Anthropic Sinks as Nvidia Surges 35% on Jensen Huang’s Return",
+        "source": "Decrypt",
+        "itemScore": 1
+      },
+      {
+        "title": "Cross River Bank enters Bitcoin-backed lending with $250K loans",
+        "source": "Cointelegraph",
         "itemScore": -1
+      },
+      {
+        "title": "Live updates: Bitcoin climbs only modestly as Nasdaq soars 6% on Huang return",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Bitcoin rebounds from 2-year low as Wall Street futures recover",
+        "source": "CoinDesk",
+        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=60974 vs EMA50=60588",
+        "detail": "EMA20=61522 vs EMA50=61072",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "60.2",
-        "points": 0.5
+        "detail": "48.2",
+        "points": 0
       },
       {
         "factor": "MACD histogramme",
-        "detail": "10.9",
-        "points": 1.5
+        "detail": "-148.8",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 61440 vs [60410, 61618]",
+        "detail": "prix 61249 vs [60184, 63041]",
         "points": 0
       },
       {
@@ -1274,14 +1289,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "15 articles pertinents, score brut -3",
-        "points": -1
+        "detail": "30 articles pertinents, score brut 3",
+        "points": 1
       }
     ],
-    "computedAt": "2026-11-23T09:01:18.411Z",
-    "priceUSD": 61374.6,
-    "priceEUR": 55877.2,
-    "change24h": 0.33431365977822497
+    "computedAt": "2026-11-23T21:20:05.681Z",
+    "priceUSD": 61190.2,
+    "priceEUR": 56150.1,
+    "change24h": 0.03285919100998453
   },
   "history": [
     {
@@ -9378,7 +9393,12 @@
       "t": "2026-11-23T09:01:18.414Z",
       "equityEUR": 191.7,
       "priceEUR": 55877.2
+    },
+    {
+      "t": "2026-11-23T21:20:05.685Z",
+      "equityEUR": 190.82,
+      "priceEUR": 56150.1
     }
   ],
-  "lastRun": "2026-11-23T09:01:18.414Z"
+  "lastRun": "2026-11-23T21:20:05.685Z"
 }
