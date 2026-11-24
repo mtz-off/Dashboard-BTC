@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 108.09,
-  "equityEUR": 192.78,
+  "equityEUR": 196.87,
   "stopped": false,
   "openPositions": [
     {
@@ -1199,19 +1199,19 @@
     }
   ],
   "lastSignal": {
-    "price": 60661.615098985356,
-    "direction": "LONG",
-    "score": 2,
-    "strength": 0.25,
-    "atr14": 1387.0255420887495,
+    "price": 59615.14650821972,
+    "direction": "SHORT",
+    "score": -4.12,
+    "strength": 0.51,
+    "atr14": 1265.0022271967027,
     "indicators": {
-      "ema20": 61056.480301437725,
-      "ema50": 60975.26116433281,
-      "rsi14": 44.46503715630382,
-      "macdHist": -175.93799477275803,
-      "bbUpper": 63151.985185734695,
-      "bbMid": 61405.68228022461,
-      "bbLower": 59659.379374714525
+      "ema20": 60446.852865452005,
+      "ema50": 60689.683152954734,
+      "rsi14": 38.41567162145966,
+      "macdHist": -50.934342011745116,
+      "bbUpper": 61519.79035729718,
+      "bbMid": 60482.068970400316,
+      "bbLower": 59444.347583503455
     },
     "fearGreed": {
       "value": 11,
@@ -1221,65 +1221,65 @@
     "fundingRate": null,
     "newsHighlights": [
       {
-        "title": "US seeks to recover $1.1B in crypto stolen in North Korea-linked Binance hack",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "North Korea Moves $247 Million of Binance Hack Loot Through Bitcoin Mixers",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin rebounds 17% from $55K lows as Nvidia rally sparks $500M crypto liquidations",
-        "source": "Cointelegraph",
-        "itemScore": 1
-      },
-      {
-        "title": "Cathie Wood's ARK Invest pulls the plug on two planned crypto ETFs",
+        "title": "'AI trade never died': Traders see room for market recovery, but bitcoin's participation another story",
         "source": "CoinDesk",
         "itemScore": 1
       },
       {
-        "title": "Bitcoin Rallies, Anthropic Sinks as Nvidia Surges 35% on Jensen Huang’s Return",
+        "title": "South Korea proposes ending 2017 ICO ban to boost jobs and onshore crypto investment",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Morning Minute: Jensen Returns, Markets Soar (Except Crypto)",
         "source": "Decrypt",
         "itemScore": 1
       },
       {
-        "title": "Cross River Bank enters Bitcoin-backed lending with $250K loans",
+        "title": "Crypto trader Ansem says his wallet was hacked as $2 million in memecoins were sold",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Live updates: Bitcoin pulls back to $60,000, stock rally fades, as tariffs re-enter the picture",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Bitcoin drops as November spot ETF outflows increase to record $4.71 billion",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "South Korea proposes bank-led stablecoins, 20% cap on crypto exchange stakes",
         "source": "Cointelegraph",
         "itemScore": -1
       },
       {
-        "title": "Live updates: Bitcoin climbs only modestly as Nasdaq soars 6% on Huang return",
+        "title": "Bitcoin hands back Monday's Nvidia-driven gains, liquidations triple",
         "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "Bitcoin rebounds from 2-year low as Wall Street futures recover",
-        "source": "CoinDesk",
-        "itemScore": 1
+        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=61056 vs EMA50=60975",
-        "points": 2
+        "detail": "EMA20=60447 vs EMA50=60690",
+        "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "44.5",
+        "detail": "38.4",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-175.9",
-        "points": -1.5
+        "detail": "-50.9",
+        "points": -1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 60662 vs [59659, 63152]",
+        "detail": "prix 59615 vs [59444, 61520]",
         "points": 0
       },
       {
@@ -1289,14 +1289,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 3",
-        "points": 1
+        "detail": "30 articles pertinents, score brut -2",
+        "points": -0.67
       }
     ],
-    "computedAt": "2026-11-24T05:25:03.666Z",
-    "priceUSD": 60583.9,
-    "priceEUR": 55545,
-    "change24h": -1.0055670571395448
+    "computedAt": "2026-11-24T16:06:31.622Z",
+    "priceUSD": 59500.1,
+    "priceEUR": 54277.5,
+    "change24h": -2.776502345615071
   },
   "history": [
     {
@@ -9403,7 +9403,12 @@
       "t": "2026-11-24T05:25:03.668Z",
       "equityEUR": 192.78,
       "priceEUR": 55545
+    },
+    {
+      "t": "2026-11-24T16:06:31.624Z",
+      "equityEUR": 196.87,
+      "priceEUR": 54277.5
     }
   ],
-  "lastRun": "2026-11-24T05:25:03.668Z"
+  "lastRun": "2026-11-24T16:06:31.624Z"
 }
