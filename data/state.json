@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 108.09,
-  "equityEUR": 197.65,
+  "equityEUR": 195.61,
   "stopped": false,
   "openPositions": [
     {
@@ -1199,19 +1199,19 @@
     }
   ],
   "lastSignal": {
-    "price": 59165.221038473224,
+    "price": 59898.802047155856,
     "direction": "SHORT",
-    "score": -5.33,
-    "strength": 0.67,
-    "atr14": 1143.553683078938,
+    "score": -1.22,
+    "strength": 0.15,
+    "atr14": 1155.9093521252157,
     "indicators": {
-      "ema20": 59515.742636998126,
-      "ema50": 60049.48938333124,
-      "rsi14": 42.04402604139638,
-      "macdHist": -18.73085767064549,
-      "bbUpper": 60327.238702831884,
-      "bbMid": 59528.538184540615,
-      "bbLower": 58729.83766624935
+      "ema20": 59146.02703933831,
+      "ema50": 59637.29921797827,
+      "rsi14": 58.22828685811076,
+      "macdHist": 178.3307416477192,
+      "bbUpper": 60012.74629256279,
+      "bbMid": 58995.41883348861,
+      "bbLower": 57978.091374414435
     },
     "fearGreed": {
       "value": 13,
@@ -1221,42 +1221,42 @@
     "fundingRate": null,
     "newsHighlights": [
       {
-        "title": "A year after buying bitcoin, Czech central bank won't say what it's worth",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Coldcard Bitcoin Exploit, Revisited: How a Hidden Flaw Survived Years of Audits",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin sell-off driven by weak demand, forced liquidations: 21Shares",
+        "title": "Bitcoin falls toward $57K amid US tariff fears, hot PCE data as Nasdaq drops 4%",
         "source": "Cointelegraph",
-        "itemScore": -2
+        "itemScore": -1
       },
       {
-        "title": "Wall Street and Crypto Are in &#39;Extreme Fear&#39;. What&#39;s Spooking Investors?",
+        "title": "Bitcoin Falls Further as Inflation, Trump Tariffs and AI Selloff Rattle Markets",
         "source": "Decrypt",
         "itemScore": -1
       },
       {
-        "title": "'AI trade never died': Traders see room for market recovery, but bitcoin's participation is another story",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "South Korea proposes ending 2017 ICO ban to boost jobs and onshore crypto investment",
+        "title": "EU bank watchdog seeks European Commission rules for crypto firms offering DeFi lending",
         "source": "CoinDesk",
         "itemScore": -1
       },
       {
-        "title": "Morning Minute: Jensen Returns, Markets Soar (Except Crypto)",
-        "source": "Decrypt",
-        "itemScore": 1
+        "title": "Ukrainian lawmakers pass crypto tax and regulation bill expected to bring in $330 million",
+        "source": "CoinDesk",
+        "itemScore": -1
       },
       {
-        "title": "Crypto trader Ansem says his wallet was hacked as $2 million in memecoins were sold",
+        "title": "Ether, DeFi fall twice as hard as bitcoin as equities selloff resumes",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin ETFs near $5B in record monthly outflows amid AI stock rout",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin price may fall below $53K if bear-market history repeats",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
+      {
+        "title": "A year after buying bitcoin, Czech central bank won't say what it's worth",
         "source": "CoinDesk",
         "itemScore": -1
       }
@@ -1264,22 +1264,22 @@
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=59516 vs EMA50=60049",
+        "detail": "EMA20=59146 vs EMA50=59637",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "42.0",
-        "points": -0.5
+        "detail": "58.2",
+        "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-18.7",
-        "points": -1.5
+        "detail": "178.3",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 59165 vs [58730, 60327]",
+        "detail": "prix 59899 vs [57978, 60013]",
         "points": 0
       },
       {
@@ -1289,14 +1289,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -7",
-        "points": -2.33
+        "detail": "30 articles pertinents, score brut -8",
+        "points": -2.67
       }
     ],
-    "computedAt": "2026-11-25T09:12:11.859Z",
-    "priceUSD": 59105.2,
-    "priceEUR": 54038,
-    "change24h": -1.0647575462870842
+    "computedAt": "2026-11-25T19:17:23.548Z",
+    "priceUSD": 60057.5,
+    "priceEUR": 54667.7,
+    "change24h": 0.5292820879358117
   },
   "history": [
     {
@@ -9418,7 +9418,12 @@
       "t": "2026-11-25T09:12:11.862Z",
       "equityEUR": 197.65,
       "priceEUR": 54038
+    },
+    {
+      "t": "2026-11-25T19:17:23.551Z",
+      "equityEUR": 195.61,
+      "priceEUR": 54667.7
     }
   ],
-  "lastRun": "2026-11-25T09:12:11.862Z"
+  "lastRun": "2026-11-25T19:17:23.551Z"
 }
