@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 108.09,
-  "equityEUR": 196.87,
+  "equityEUR": 196.75,
   "stopped": false,
   "openPositions": [
     {
@@ -1199,29 +1199,44 @@
     }
   ],
   "lastSignal": {
-    "price": 59615.14650821972,
+    "price": 59477.29825818308,
     "direction": "SHORT",
-    "score": -4.12,
-    "strength": 0.51,
-    "atr14": 1265.0022271967027,
+    "score": -1.67,
+    "strength": 0.21,
+    "atr14": 1200.382323571195,
     "indicators": {
-      "ema20": 60446.852865452005,
-      "ema50": 60689.683152954734,
-      "rsi14": 38.41567162145966,
-      "macdHist": -50.934342011745116,
-      "bbUpper": 61519.79035729718,
-      "bbMid": 60482.068970400316,
-      "bbLower": 59444.347583503455
+      "ema20": 60018.521436021634,
+      "ema50": 60399.54938202657,
+      "rsi14": 40.137188792100986,
+      "macdHist": 6.500127659179782,
+      "bbUpper": 60652.47783531128,
+      "bbMid": 59972.981200855094,
+      "bbLower": 59293.48456639891
     },
     "fearGreed": {
-      "value": 11,
+      "value": 13,
       "classification": "Extreme Fear",
-      "timestamp": 1795478400000
+      "timestamp": 1795564800000
     },
     "fundingRate": null,
     "newsHighlights": [
       {
-        "title": "'AI trade never died': Traders see room for market recovery, but bitcoin's participation another story",
+        "title": "Coldcard Bitcoin Exploit, Revisited: How a Hidden Flaw Survived Years of Audits",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin sell-off driven by weak demand, forced liquidations: 21Shares",
+        "source": "Cointelegraph",
+        "itemScore": -2
+      },
+      {
+        "title": "Wall Street and Crypto Are in &#39;Extreme Fear&#39;. What&#39;s Spooking Investors?",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "'AI trade never died': Traders see room for market recovery, but bitcoin's participation is another story",
         "source": "CoinDesk",
         "itemScore": 1
       },
@@ -1241,62 +1256,47 @@
         "itemScore": -1
       },
       {
-        "title": "Live updates: Bitcoin pulls back to $60,000, stock rally fades, as tariffs re-enter the picture",
+        "title": "Live updates: Bitcoin pulls back below $60,000, stock rally fades, as tariffs re-enter the picture",
         "source": "CoinDesk",
         "itemScore": 1
-      },
-      {
-        "title": "Bitcoin drops as November spot ETF outflows increase to record $4.71 billion",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "South Korea proposes bank-led stablecoins, 20% cap on crypto exchange stakes",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin hands back Monday's Nvidia-driven gains, liquidations triple",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=60447 vs EMA50=60690",
+        "detail": "EMA20=60019 vs EMA50=60400",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "38.4",
+        "detail": "40.1",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-50.9",
-        "points": -1.95
+        "detail": "6.5",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 59615 vs [59444, 61520]",
+        "detail": "prix 59477 vs [59293, 60652]",
         "points": 0
       },
       {
         "factor": "Fear & Greed Index",
-        "detail": "11 (Extreme Fear)",
+        "detail": "13 (Extreme Fear)",
         "points": 1
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -2",
-        "points": -0.67
+        "detail": "30 articles pertinents, score brut -5",
+        "points": -1.67
       }
     ],
-    "computedAt": "2026-11-24T16:06:31.622Z",
-    "priceUSD": 59500.1,
-    "priceEUR": 54277.5,
-    "change24h": -2.776502345615071
+    "computedAt": "2026-11-25T00:42:06.903Z",
+    "priceUSD": 59522.6,
+    "priceEUR": 54317.2,
+    "change24h": -0.3660784080694668
   },
   "history": [
     {
@@ -9408,7 +9408,12 @@
       "t": "2026-11-24T16:06:31.624Z",
       "equityEUR": 196.87,
       "priceEUR": 54277.5
+    },
+    {
+      "t": "2026-11-25T00:42:06.907Z",
+      "equityEUR": 196.75,
+      "priceEUR": 54317.2
     }
   ],
-  "lastRun": "2026-11-24T16:06:31.624Z"
+  "lastRun": "2026-11-25T00:42:06.907Z"
 }
