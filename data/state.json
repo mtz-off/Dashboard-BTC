@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 108.09,
-  "equityEUR": 196.75,
+  "equityEUR": 197.65,
   "stopped": false,
   "openPositions": [
     {
@@ -1199,19 +1199,19 @@
     }
   ],
   "lastSignal": {
-    "price": 59477.29825818308,
+    "price": 59165.221038473224,
     "direction": "SHORT",
-    "score": -1.67,
-    "strength": 0.21,
-    "atr14": 1200.382323571195,
+    "score": -5.33,
+    "strength": 0.67,
+    "atr14": 1143.553683078938,
     "indicators": {
-      "ema20": 60018.521436021634,
-      "ema50": 60399.54938202657,
-      "rsi14": 40.137188792100986,
-      "macdHist": 6.500127659179782,
-      "bbUpper": 60652.47783531128,
-      "bbMid": 59972.981200855094,
-      "bbLower": 59293.48456639891
+      "ema20": 59515.742636998126,
+      "ema50": 60049.48938333124,
+      "rsi14": 42.04402604139638,
+      "macdHist": -18.73085767064549,
+      "bbUpper": 60327.238702831884,
+      "bbMid": 59528.538184540615,
+      "bbLower": 58729.83766624935
     },
     "fearGreed": {
       "value": 13,
@@ -1220,6 +1220,11 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "A year after buying bitcoin, Czech central bank won't say what it's worth",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Coldcard Bitcoin Exploit, Revisited: How a Hidden Flaw Survived Years of Audits",
         "source": "Decrypt",
@@ -1254,32 +1259,27 @@
         "title": "Crypto trader Ansem says his wallet was hacked as $2 million in memecoins were sold",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Live updates: Bitcoin pulls back below $60,000, stock rally fades, as tariffs re-enter the picture",
-        "source": "CoinDesk",
-        "itemScore": 1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=60019 vs EMA50=60400",
+        "detail": "EMA20=59516 vs EMA50=60049",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "40.1",
+        "detail": "42.0",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "6.5",
-        "points": 1.5
+        "detail": "-18.7",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 59477 vs [59293, 60652]",
+        "detail": "prix 59165 vs [58730, 60327]",
         "points": 0
       },
       {
@@ -1289,14 +1289,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -5",
-        "points": -1.67
+        "detail": "30 articles pertinents, score brut -7",
+        "points": -2.33
       }
     ],
-    "computedAt": "2026-11-25T00:42:06.903Z",
-    "priceUSD": 59522.6,
-    "priceEUR": 54317.2,
-    "change24h": -0.3660784080694668
+    "computedAt": "2026-11-25T09:12:11.859Z",
+    "priceUSD": 59105.2,
+    "priceEUR": 54038,
+    "change24h": -1.0647575462870842
   },
   "history": [
     {
@@ -9413,7 +9413,12 @@
       "t": "2026-11-25T00:42:06.907Z",
       "equityEUR": 196.75,
       "priceEUR": 54317.2
+    },
+    {
+      "t": "2026-11-25T09:12:11.862Z",
+      "equityEUR": 197.65,
+      "priceEUR": 54038
     }
   ],
-  "lastRun": "2026-11-25T00:42:06.907Z"
+  "lastRun": "2026-11-25T09:12:11.862Z"
 }
