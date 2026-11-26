@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 108.09,
-  "equityEUR": 193.89,
+  "equityEUR": 193.63,
   "stopped": false,
   "openPositions": [
     {
@@ -1199,19 +1199,19 @@
     }
   ],
   "lastSignal": {
-    "price": 60540.01176343703,
+    "price": 60653.00302181047,
     "direction": "LONG",
-    "score": 3,
-    "strength": 0.38,
-    "atr14": 1146.2357233030282,
+    "score": 1.33,
+    "strength": 0.17,
+    "atr14": 1045.551435062538,
     "indicators": {
-      "ema20": 60302.44464842799,
-      "ema50": 60076.79844135942,
-      "rsi14": 56.32700942683216,
-      "macdHist": 5.4241288004381545,
-      "bbUpper": 61437.72316492925,
-      "bbMid": 60317.1666557752,
-      "bbLower": 59196.610146621155
+      "ema20": 60481.78611303383,
+      "ema50": 60239.668665387566,
+      "rsi14": 56.39575467614989,
+      "macdHist": -52.64365549575513,
+      "bbUpper": 60952.341411510744,
+      "bbMid": 60653.733695541145,
+      "bbLower": 60355.125979571545
     },
     "fearGreed": {
       "value": 11,
@@ -1221,6 +1221,21 @@
     "fundingRate": null,
     "newsHighlights": [
       {
+        "title": "Bitcoin Holds Above $60K as Death Cross Clouds Thanksgiving Recovery",
+        "source": "Decrypt",
+        "itemScore": 2
+      },
+      {
+        "title": "Bitcoin’s dormant supply rises, a behavior seen during previous bear-market bottoming phases",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Galaxy Research Withdraws Call That Bitcoin&#39;s Bear Market Is Over",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
         "title": "Bitcoin ETF November outflows top $5B, Morgan Stanley bucks trend",
         "source": "Cointelegraph",
         "itemScore": -1
@@ -1229,47 +1244,27 @@
         "title": "Nvidia to Pay $290 Million to Settle Long-Running Crypto Mining Revenue Lawsuit",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin falls toward $57K amid US tariff fears, hot PCE data as Nasdaq drops 4%",
-        "source": "Cointelegraph",
-        "itemScore": -1
-      },
-      {
-        "title": "Bitcoin Falls Further as Inflation, Trump Tariffs and AI Selloff Rattle Markets",
-        "source": "Decrypt",
-        "itemScore": -1
-      },
-      {
-        "title": "EU bank watchdog seeks European Commission rules for crypto firms offering DeFi lending",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Ukrainian lawmakers pass crypto tax and regulation bill expected to bring in $330 million",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=60302 vs EMA50=60077",
+        "detail": "EMA20=60482 vs EMA50=60240",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "56.3",
+        "detail": "56.4",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "5.4",
-        "points": 1.5
+        "detail": "-52.6",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 60540 vs [59197, 61438]",
+        "detail": "prix 60653 vs [60355, 60952]",
         "points": 0
       },
       {
@@ -1279,14 +1274,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -6",
-        "points": -2
+        "detail": "30 articles pertinents, score brut -2",
+        "points": -0.67
       }
     ],
-    "computedAt": "2026-11-26T11:16:26.658Z",
-    "priceUSD": 60562,
-    "priceEUR": 55201.7,
-    "change24h": 0.32036522298016096
+    "computedAt": "2026-11-26T20:21:53.899Z",
+    "priceUSD": 60600.8,
+    "priceEUR": 55282.5,
+    "change24h": 0.38463704641155233
   },
   "history": [
     {
@@ -9423,7 +9418,12 @@
       "t": "2026-11-26T11:16:26.660Z",
       "equityEUR": 193.89,
       "priceEUR": 55201.7
+    },
+    {
+      "t": "2026-11-26T20:21:53.901Z",
+      "equityEUR": 193.63,
+      "priceEUR": 55282.5
     }
   ],
-  "lastRun": "2026-11-26T11:16:26.660Z"
+  "lastRun": "2026-11-26T20:21:53.901Z"
 }
