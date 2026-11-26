@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 108.09,
-  "equityEUR": 195.61,
+  "equityEUR": 192.62,
   "stopped": false,
   "openPositions": [
     {
@@ -1199,27 +1199,32 @@
     }
   ],
   "lastSignal": {
-    "price": 59898.802047155856,
+    "price": 60876.92474845258,
     "direction": "SHORT",
-    "score": -1.22,
-    "strength": 0.15,
-    "atr14": 1155.9093521252157,
+    "score": -1.67,
+    "strength": 0.21,
+    "atr14": 1190.6011184090712,
     "indicators": {
-      "ema20": 59146.02703933831,
-      "ema50": 59637.29921797827,
-      "rsi14": 58.22828685811076,
-      "macdHist": 178.3307416477192,
-      "bbUpper": 60012.74629256279,
-      "bbMid": 58995.41883348861,
-      "bbLower": 57978.091374414435
+      "ema20": 59811.72291696248,
+      "ema50": 59831.924479601556,
+      "rsi14": 67.27507344776734,
+      "macdHist": 240.27016358201257,
+      "bbUpper": 61189.320743795804,
+      "bbMid": 59405.28152187933,
+      "bbLower": 57621.24229996286
     },
     "fearGreed": {
-      "value": 13,
+      "value": 11,
       "classification": "Extreme Fear",
-      "timestamp": 1795564800000
+      "timestamp": 1795651200000
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Nvidia to Pay $290 Million to Settle Long-Running Crypto Mining Revenue Lawsuit",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin falls toward $57K amid US tariff fears, hot PCE data as Nasdaq drops 4%",
         "source": "Cointelegraph",
@@ -1254,37 +1259,32 @@
         "title": "Bitcoin price may fall below $53K if bear-market history repeats",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "A year after buying bitcoin, Czech central bank won't say what it's worth",
-        "source": "CoinDesk",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=59146 vs EMA50=59637",
+        "detail": "EMA20=59812 vs EMA50=59832",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "58.2",
+        "detail": "67.3",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "178.3",
-        "points": 1.95
+        "detail": "240.3",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 59899 vs [57978, 60013]",
+        "detail": "prix 60877 vs [57621, 61189]",
         "points": 0
       },
       {
         "factor": "Fear & Greed Index",
-        "detail": "13 (Extreme Fear)",
+        "detail": "11 (Extreme Fear)",
         "points": 1
       },
       {
@@ -1293,10 +1293,10 @@
         "points": -2.67
       }
     ],
-    "computedAt": "2026-11-25T19:17:23.548Z",
-    "priceUSD": 60057.5,
-    "priceEUR": 54667.7,
-    "change24h": 0.5292820879358117
+    "computedAt": "2026-11-26T02:21:09.083Z",
+    "priceUSD": 60970.1,
+    "priceEUR": 55594,
+    "change24h": 0.9963789122159533
   },
   "history": [
     {
@@ -9423,7 +9423,12 @@
       "t": "2026-11-25T19:17:23.551Z",
       "equityEUR": 195.61,
       "priceEUR": 54667.7
+    },
+    {
+      "t": "2026-11-26T02:21:09.086Z",
+      "equityEUR": 192.62,
+      "priceEUR": 55594
     }
   ],
-  "lastRun": "2026-11-25T19:17:23.551Z"
+  "lastRun": "2026-11-26T02:21:09.086Z"
 }
