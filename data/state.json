@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 108.09,
-  "equityEUR": 190.82,
+  "equityEUR": 195.57,
   "stopped": false,
   "openPositions": [
     {
@@ -1199,19 +1199,19 @@
     }
   ],
   "lastSignal": {
-    "price": 61607.85936850454,
-    "direction": "LONG",
-    "score": 5.33,
-    "strength": 0.67,
-    "atr14": 970.9772184928473,
+    "price": 59795.616211897956,
+    "direction": "SHORT",
+    "score": -2.67,
+    "strength": 0.33,
+    "atr14": 1083.3571349632887,
     "indicators": {
-      "ema20": 61185.21925753847,
-      "ema50": 60717.10200663326,
-      "rsi14": 67.62860151588853,
-      "macdHist": 33.16712964518763,
-      "bbUpper": 62054.58799852162,
-      "bbMid": 61056.74130010384,
-      "bbLower": 60058.89460168605
+      "ema20": 60448.588177502555,
+      "ema50": 60508.36885694373,
+      "rsi14": 37.82688773269479,
+      "macdHist": -177.26029608649918,
+      "bbUpper": 62580.97503556655,
+      "bbMid": 60834.943177840985,
+      "bbLower": 59088.91132011542
     },
     "fearGreed": {
       "value": 12,
@@ -1221,12 +1221,22 @@
     "fundingRate": null,
     "newsHighlights": [
       {
-        "title": "Bitcoin on course to end seven-week losing streak while trailing stock rebound",
+        "title": "4 Scary Bitcoin Charts That Suggest This Bear Market Is Different",
+        "source": "Decrypt",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin price drops below $59K as Anthropic joins tech stock rebound",
+        "source": "Cointelegraph",
+        "itemScore": 1
+      },
+      {
+        "title": "Bitcoin 'death cross' is coming. Here's what happened after previous 13.",
         "source": "CoinDesk",
         "itemScore": 1
       },
       {
-        "title": "Live news: Bitcoin rebounds above $61,000 as AI stocks lead premarket gains",
+        "title": "Bitcoin on course to end seven-week losing streak while trailing stock rebound",
         "source": "CoinDesk",
         "itemScore": 1
       },
@@ -1249,37 +1259,27 @@
         "title": "Bitcoin Holds Above $60K as Death Cross Clouds Thanksgiving Recovery",
         "source": "Decrypt",
         "itemScore": 2
-      },
-      {
-        "title": "Bitcoin’s dormant supply rises, a behavior seen during previous bear-market bottoming phases",
-        "source": "CoinDesk",
-        "itemScore": -1
-      },
-      {
-        "title": "Galaxy Research Withdraws Call That Bitcoin&#39;s Bear Market Is Over",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=61185 vs EMA50=60717",
-        "points": 2
+        "detail": "EMA20=60449 vs EMA50=60508",
+        "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "67.6",
-        "points": 0.5
+        "detail": "37.8",
+        "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "33.2",
-        "points": 1.5
+        "detail": "-177.3",
+        "points": -1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 61608 vs [60059, 62055]",
+        "detail": "prix 59796 vs [59089, 62581]",
         "points": 0
       },
       {
@@ -1293,10 +1293,10 @@
         "points": 0.33
       }
     ],
-    "computedAt": "2026-11-27T12:14:36.000Z",
-    "priceUSD": 61561.7,
-    "priceEUR": 56150.1,
-    "change24h": 1.7582399418162535
+    "computedAt": "2026-11-27T21:23:44.090Z",
+    "priceUSD": 59789.3,
+    "priceEUR": 54680.1,
+    "change24h": -1.1714436840887255
   },
   "history": [
     {
@@ -9448,7 +9448,12 @@
       "t": "2026-11-27T12:14:36.003Z",
       "equityEUR": 190.82,
       "priceEUR": 56150.1
+    },
+    {
+      "t": "2026-11-27T21:23:44.095Z",
+      "equityEUR": 195.57,
+      "priceEUR": 54680.1
     }
   ],
-  "lastRun": "2026-11-27T12:14:36.003Z"
+  "lastRun": "2026-11-27T21:23:44.095Z"
 }
