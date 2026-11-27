@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 108.09,
-  "equityEUR": 191.89,
+  "equityEUR": 190.82,
   "stopped": false,
   "openPositions": [
     {
@@ -1199,19 +1199,19 @@
     }
   ],
   "lastSignal": {
-    "price": 61280.4437231836,
+    "price": 61607.85936850454,
     "direction": "LONG",
-    "score": 4.12,
-    "strength": 0.51,
-    "atr14": 1010.5003742992087,
+    "score": 5.33,
+    "strength": 0.67,
+    "atr14": 970.9772184928473,
     "indicators": {
-      "ema20": 60604.85164724701,
-      "ema50": 60345.97148103557,
-      "rsi14": 66.57056878621785,
-      "macdHist": 2.2602452149202747,
-      "bbUpper": 61054.47535135787,
-      "bbMid": 60657.87393620056,
-      "bbLower": 60261.27252104325
+      "ema20": 61185.21925753847,
+      "ema50": 60717.10200663326,
+      "rsi14": 67.62860151588853,
+      "macdHist": 33.16712964518763,
+      "bbUpper": 62054.58799852162,
+      "bbMid": 61056.74130010384,
+      "bbLower": 60058.89460168605
     },
     "fearGreed": {
       "value": 12,
@@ -1220,6 +1220,31 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Bitcoin on course to end seven-week losing streak while trailing stock rebound",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Live news: Bitcoin rebounds above $61,000 as AI stocks lead premarket gains",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Next ECB chief favors tokenized bank deposits over stablecoins and bitcoin",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin tops $61,000 as Nasdaq futures extend Wednesday’s rebound",
+        "source": "CoinDesk",
+        "itemScore": 1
+      },
+      {
+        "title": "Japan’s crypto security group taps SEAL to speed up hack response",
+        "source": "Cointelegraph",
+        "itemScore": -1
+      },
       {
         "title": "Bitcoin Holds Above $60K as Death Cross Clouds Thanksgiving Recovery",
         "source": "Decrypt",
@@ -1234,33 +1259,28 @@
         "title": "Galaxy Research Withdraws Call That Bitcoin&#39;s Bear Market Is Over",
         "source": "Decrypt",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin ETF November outflows top $5B, Morgan Stanley bucks trend",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=60605 vs EMA50=60346",
+        "detail": "EMA20=61185 vs EMA50=60717",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "66.6",
+        "detail": "67.6",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "2.3",
-        "points": 1.95
+        "detail": "33.2",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 61280 vs [60261, 61054]",
-        "points": -1
+        "detail": "prix 61608 vs [60059, 62055]",
+        "points": 0
       },
       {
         "factor": "Fear & Greed Index",
@@ -1269,14 +1289,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -1",
-        "points": -0.33
+        "detail": "30 articles pertinents, score brut 1",
+        "points": 0.33
       }
     ],
-    "computedAt": "2026-11-27T03:01:47.711Z",
-    "priceUSD": 61295.6,
-    "priceEUR": 55821,
-    "change24h": 1.3183906906013398
+    "computedAt": "2026-11-27T12:14:36.000Z",
+    "priceUSD": 61561.7,
+    "priceEUR": 56150.1,
+    "change24h": 1.7582399418162535
   },
   "history": [
     {
@@ -9423,7 +9443,12 @@
       "t": "2026-11-27T03:01:47.715Z",
       "equityEUR": 191.89,
       "priceEUR": 55821
+    },
+    {
+      "t": "2026-11-27T12:14:36.003Z",
+      "equityEUR": 190.82,
+      "priceEUR": 56150.1
     }
   ],
-  "lastRun": "2026-11-27T03:01:47.715Z"
+  "lastRun": "2026-11-27T12:14:36.003Z"
 }
