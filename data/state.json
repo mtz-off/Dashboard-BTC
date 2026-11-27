@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 108.09,
-  "equityEUR": 193.63,
+  "equityEUR": 191.89,
   "stopped": false,
   "openPositions": [
     {
@@ -1199,24 +1199,24 @@
     }
   ],
   "lastSignal": {
-    "price": 60653.00302181047,
+    "price": 61280.4437231836,
     "direction": "LONG",
-    "score": 1.33,
-    "strength": 0.17,
-    "atr14": 1045.551435062538,
+    "score": 4.12,
+    "strength": 0.51,
+    "atr14": 1010.5003742992087,
     "indicators": {
-      "ema20": 60481.78611303383,
-      "ema50": 60239.668665387566,
-      "rsi14": 56.39575467614989,
-      "macdHist": -52.64365549575513,
-      "bbUpper": 60952.341411510744,
-      "bbMid": 60653.733695541145,
-      "bbLower": 60355.125979571545
+      "ema20": 60604.85164724701,
+      "ema50": 60345.97148103557,
+      "rsi14": 66.57056878621785,
+      "macdHist": 2.2602452149202747,
+      "bbUpper": 61054.47535135787,
+      "bbMid": 60657.87393620056,
+      "bbLower": 60261.27252104325
     },
     "fearGreed": {
-      "value": 11,
+      "value": 12,
       "classification": "Extreme Fear",
-      "timestamp": 1795651200000
+      "timestamp": 1795737600000
     },
     "fundingRate": null,
     "newsHighlights": [
@@ -1239,49 +1239,44 @@
         "title": "Bitcoin ETF November outflows top $5B, Morgan Stanley bucks trend",
         "source": "Cointelegraph",
         "itemScore": -1
-      },
-      {
-        "title": "Nvidia to Pay $290 Million to Settle Long-Running Crypto Mining Revenue Lawsuit",
-        "source": "Decrypt",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=60482 vs EMA50=60240",
+        "detail": "EMA20=60605 vs EMA50=60346",
         "points": 2
       },
       {
         "factor": "RSI(14)",
-        "detail": "56.4",
+        "detail": "66.6",
         "points": 0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-52.6",
-        "points": -1.5
+        "detail": "2.3",
+        "points": 1.95
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 60653 vs [60355, 60952]",
-        "points": 0
+        "detail": "prix 61280 vs [60261, 61054]",
+        "points": -1
       },
       {
         "factor": "Fear & Greed Index",
-        "detail": "11 (Extreme Fear)",
+        "detail": "12 (Extreme Fear)",
         "points": 1
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut -2",
-        "points": -0.67
+        "detail": "30 articles pertinents, score brut -1",
+        "points": -0.33
       }
     ],
-    "computedAt": "2026-11-26T20:21:53.899Z",
-    "priceUSD": 60600.8,
-    "priceEUR": 55282.5,
-    "change24h": 0.38463704641155233
+    "computedAt": "2026-11-27T03:01:47.711Z",
+    "priceUSD": 61295.6,
+    "priceEUR": 55821,
+    "change24h": 1.3183906906013398
   },
   "history": [
     {
@@ -9423,7 +9418,12 @@
       "t": "2026-11-26T20:21:53.901Z",
       "equityEUR": 193.63,
       "priceEUR": 55282.5
+    },
+    {
+      "t": "2026-11-27T03:01:47.715Z",
+      "equityEUR": 191.89,
+      "priceEUR": 55821
     }
   ],
-  "lastRun": "2026-11-26T20:21:53.901Z"
+  "lastRun": "2026-11-27T03:01:47.715Z"
 }
