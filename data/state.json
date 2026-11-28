@@ -6,7 +6,7 @@
     "note": "Portefeuille papier simulé — aucun fonds réel. Signal Long/Short basé sur données de marché et news réelles."
   },
   "balanceEUR": 108.09,
-  "equityEUR": 197,
+  "equityEUR": 196.9,
   "stopped": false,
   "openPositions": [
     {
@@ -1199,19 +1199,19 @@
     }
   ],
   "lastSignal": {
-    "price": 59305.39301036045,
+    "price": 59310.45855873265,
     "direction": "SHORT",
-    "score": -2.12,
-    "strength": 0.26,
-    "atr14": 961.0345878569659,
+    "score": -0.67,
+    "strength": 0.08,
+    "atr14": 916.9376840015576,
     "indicators": {
-      "ema20": 59842.64841597144,
-      "ema50": 60159.188968168586,
-      "rsi14": 35.279264037575146,
-      "macdHist": -36.60304090540353,
-      "bbUpper": 60196.49251215487,
-      "bbMid": 59759.659166952944,
-      "bbLower": 59322.825821751016
+      "ema20": 59563.29249165317,
+      "ema50": 59930.09007201135,
+      "rsi14": 40.411923426542636,
+      "macdHist": 33.655457385014586,
+      "bbUpper": 60162.443722413336,
+      "bbMid": 59555.409710123626,
+      "bbLower": 58948.375697833915
     },
     "fearGreed": {
       "value": 10,
@@ -1220,6 +1220,16 @@
     },
     "fundingRate": null,
     "newsHighlights": [
+      {
+        "title": "Latvia's central bank pushes back on bitcoin reserve plans, takes cautious line on tokenization",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
+      {
+        "title": "Bitcoin not delivering: The bear market has digital asset veteran questioning BTC's value",
+        "source": "CoinDesk",
+        "itemScore": -1
+      },
       {
         "title": "Trump-linked crypto token WLFI plunges 50% to record lows",
         "source": "CoinDesk",
@@ -1249,38 +1259,28 @@
         "title": "Next ECB chief favors tokenized bank deposits over stablecoins and bitcoin",
         "source": "CoinDesk",
         "itemScore": -1
-      },
-      {
-        "title": "Bitcoin tops $61,000 as Nasdaq futures extend Wednesday’s rebound",
-        "source": "CoinDesk",
-        "itemScore": 1
-      },
-      {
-        "title": "Japan’s crypto security group taps SEAL to speed up hack response",
-        "source": "Cointelegraph",
-        "itemScore": -1
       }
     ],
     "breakdown": [
       {
         "factor": "Tendance EMA20/EMA50",
-        "detail": "EMA20=59843 vs EMA50=60159",
+        "detail": "EMA20=59563 vs EMA50=59930",
         "points": -2
       },
       {
         "factor": "RSI(14)",
-        "detail": "35.3",
+        "detail": "40.4",
         "points": -0.5
       },
       {
         "factor": "MACD histogramme",
-        "detail": "-36.6",
-        "points": -1.95
+        "detail": "33.7",
+        "points": 1.5
       },
       {
         "factor": "Bollinger(20,2)",
-        "detail": "prix 59305 vs [59323, 60196]",
-        "points": 1
+        "detail": "prix 59310 vs [58948, 60162]",
+        "points": 0
       },
       {
         "factor": "Fear & Greed Index",
@@ -1289,14 +1289,14 @@
       },
       {
         "factor": "Sentiment news (RSS temps réel)",
-        "detail": "30 articles pertinents, score brut 1",
-        "points": 0.33
+        "detail": "25 articles pertinents, score brut -2",
+        "points": -0.67
       }
     ],
-    "computedAt": "2026-11-28T12:07:52.482Z",
-    "priceUSD": 59301,
-    "priceEUR": 54240,
-    "change24h": -0.9401341044170314
+    "computedAt": "2026-11-28T19:59:22.492Z",
+    "priceUSD": 59295.9,
+    "priceEUR": 54268.3,
+    "change24h": -0.9486534433163305
   },
   "history": [
     {
@@ -9463,7 +9463,12 @@
       "t": "2026-11-28T12:07:52.485Z",
       "equityEUR": 197,
       "priceEUR": 54240
+    },
+    {
+      "t": "2026-11-28T19:59:22.495Z",
+      "equityEUR": 196.9,
+      "priceEUR": 54268.3
     }
   ],
-  "lastRun": "2026-11-28T12:07:52.485Z"
+  "lastRun": "2026-11-28T19:59:22.495Z"
 }
